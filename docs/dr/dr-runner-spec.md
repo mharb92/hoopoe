@@ -1,6 +1,6 @@
 # DR batch runner spec
 
-Status: approved chat 16, not yet built. Commit to `mharb92/hoopoe` at `docs/dr/dr-runner-spec.md`.
+Status: approved chat 15, not yet built. Commit to `mharb92/hoopoe` at `docs/dr/dr-runner-spec.md`.
 
 Sits under the frozen DR docs. `dr-spec.md` owns the construct, rubric and acceptance floors. `dr-prompt.md` owns the batch prompt, JSON contract, batching rule and rule-fix list. `dr-runbook.md` owns the staging DDL, run order, gates G1-G8 and promotion SQL. This file owns only the machine that executes them, and it never restates their contents.
 

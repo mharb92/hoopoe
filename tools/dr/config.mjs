@@ -2,10 +2,21 @@
 // Offline: builds and validates the shape, does not read env or network itself.
 
 import { randomUUID } from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+
+// tools/dr -> tools -> repo root, so these resolve correctly regardless of caller cwd.
+const MODULE_DIR = path.dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = path.join(MODULE_DIR, '..', '..');
 
 export const TOTAL_ROWS = 2728;
 export const DEFAULT_BATCH_SIZE = 60; // dr-scoped-pass.md §6: scoped default, not the frozen 120.
 export const TRANSPORTS = ['anthropic-direct', 'edge-function'];
+
+// The only two places in tools/dr that name a doc file. prompt.mjs's loaders
+// take a path parameter; callers (run.mjs, tests) get the path from here.
+export const PROMPT_DOC_PATH = path.join(REPO_ROOT, 'docs', 'dr', 'dr-prompt-scoped.md');
+export const ROMANIZATION_MAP_PATH = path.join(REPO_ROOT, 'docs', 'dr', 'romanization-map.md');
 
 // Deterministic 32-bit seed from a string, so a run id maps to one plan (mulberry32-compatible).
 export function seedFromString(s) {

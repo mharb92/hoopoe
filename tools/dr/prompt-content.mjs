@@ -1,6 +1,11 @@
-// Transcribed spec content injected into the frozen/scoped prompt's placeholders
-// (dr-prompt-scoped.md: <<ENUMS>>, <<LEVEL_RUBRIC>>, <<ROMANIZATION>>).
-// Source: dr-spec.md §2-§4. Transcribed, not paraphrased or re-derived.
+// Transcribed spec content injected into the frozen/scoped prompt's ENUMS and
+// LEVEL_RUBRIC placeholders (dr-prompt-scoped.md). Source: dr-spec.md §2-§4.
+// Transcribed, not paraphrased or re-derived.
+//
+// ROMANIZATION has no equivalent constant here: docs/dr/romanization-map.md
+// is its own single source of truth (its header says so) and is read live via
+// prompt.loadRomanizationMap(config.ROMANIZATION_MAP_PATH), not transcribed
+// into this file — transcribing it would let this file drift from the doc.
 
 export const ENUMS_TEXT = `
 ENUMS
@@ -52,11 +57,3 @@ Hard rules (§2.4):
   5. register = slang caps at level 3.
   6. Frames and formulas are levelled by need, not by length.
 `.trim();
-
-// The D47 Arabizi romanization standard (character map) is referenced by
-// dr-prompt.md and dr-prompt-scoped.md but is not defined anywhere in this
-// repo — only in PROJECT_SPEC.md in the claude.ai project (CLAUDE.md:
-// "Sources of truth ... not in this repo"). Left unset deliberately: this
-// module must never fabricate a romanization standard. buildSystemPrompt()
-// throws if this is not supplied by the caller.
-export const ROMANIZATION_TEXT = undefined;

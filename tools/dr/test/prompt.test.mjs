@@ -3,12 +3,16 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { extractFencedBlock, buildSystemPrompt, buildUserPrompt, buildBatchMessage } from '../prompt.mjs';
-import { ENUMS_TEXT, LEVEL_RUBRIC_TEXT, ROMANIZATION_TEXT } from '../prompt-content.mjs';
+import {
+  extractFencedBlock, buildSystemPrompt, buildUserPrompt, buildBatchMessage, loadRomanizationMap,
+} from '../prompt.mjs';
+import { ENUMS_TEXT, LEVEL_RUBRIC_TEXT } from '../prompt-content.mjs';
+import { PROMPT_DOC_PATH, ROMANIZATION_MAP_PATH } from '../config.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const realDocPath = path.join(here, '..', '..', '..', 'docs', 'dr', 'dr-prompt-scoped.md');
-const realDoc = readFileSync(realDocPath, 'utf8');
+const emptyMapPath = path.join(here, '..', 'fixtures', 'empty-romanization-map.md');
+const missingMapPath = path.join(here, '..', 'fixtures', 'does-not-exist.md');
+const realDoc = readFileSync(PROMPT_DOC_PATH, 'utf8');
 
 const stubDoc = `
 ## System
@@ -68,19 +72,26 @@ test('buildBatchMessage assembles system+user when all content is supplied', () 
   assert.ok(user.includes('Batch 1/46'));
 });
 
-test('real dr-prompt-scoped.md: ENUMS and LEVEL_RUBRIC are ready, ROMANIZATION is a known gap', () => {
-  // ENUMS_TEXT and LEVEL_RUBRIC_TEXT are transcribed from dr-spec.md and work today.
-  const system = buildSystemPrompt(realDoc, {
-    enums: ENUMS_TEXT, levelRubric: LEVEL_RUBRIC_TEXT, romanization: 'placeholder-for-this-assertion',
-  });
+test('real dr-prompt-scoped.md + real romanization-map.md: buildSystemPrompt fills all three placeholders with real content', async () => {
+  const romanization = await loadRomanizationMap(ROMANIZATION_MAP_PATH);
+  const system = buildSystemPrompt(realDoc, { enums: ENUMS_TEXT, levelRubric: LEVEL_RUBRIC_TEXT, romanization });
+
   assert.ok(system.includes('form_origin'));
   assert.ok(system.includes('Hard rules'));
+  // Distinctive text from docs/dr/romanization-map.md, confirming the real
+  // file's content landed in <<ROMANIZATION>>, not a stub or a placeholder.
+  assert.ok(system.includes('D47 Arabizi standard'));
+  assert.ok(system.includes('Digraph breaker'));
+  // Not asserting "no literal <<" here: romanization-map.md's own prose
+  // mentions "<<ROMANIZATION>>" (describing itself), so that substring is
+  // expected to survive substitution as injected content. The stub-based
+  // test above already covers "placeholders are actually replaced".
+});
 
-  // The D47 Arabizi standard is not defined anywhere in this repo (see prompt-content.mjs
-  // for why). This test documents the gap: it must keep failing until that content lands.
-  assert.equal(ROMANIZATION_TEXT, undefined);
-  assert.throws(
-    () => buildSystemPrompt(realDoc, { enums: ENUMS_TEXT, levelRubric: LEVEL_RUBRIC_TEXT, romanization: ROMANIZATION_TEXT }),
-    /ROMANIZATION/,
-  );
+test('loadRomanizationMap throws if the file is missing', async () => {
+  await assert.rejects(() => loadRomanizationMap(missingMapPath), /romanization map not found/);
+});
+
+test('loadRomanizationMap throws if the file is empty', async () => {
+  await assert.rejects(() => loadRomanizationMap(emptyMapPath), /romanization map at .* is empty/);
 });

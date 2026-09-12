@@ -1,6 +1,8 @@
 // Builds the batch message from dr-prompt-scoped.md (dr-build-brief.md B1).
-// Pure templating: takes the doc's raw text plus content strings, no network,
-// no file I/O of its own (loadPromptDoc is the one exception, used by callers).
+// Pure templating: takes the doc's raw text plus content strings, no network.
+// loadPromptDoc and loadRomanizationMap are the file-reading exceptions, and
+// take a path rather than naming one — callers get the real paths from
+// config.mjs (PROMPT_DOC_PATH, ROMANIZATION_MAP_PATH).
 
 import { readFile } from 'node:fs/promises';
 
@@ -11,6 +13,22 @@ const TSV_HEADER = [
 
 export async function loadPromptDoc(path) {
   return readFile(path, 'utf8');
+}
+
+// Loads the D47 romanization map (docs/dr/romanization-map.md — path from
+// config.mjs's ROMANIZATION_MAP_PATH). Throws on a missing or empty file
+// rather than letting buildSystemPrompt silently inject nothing.
+export async function loadRomanizationMap(mapPath) {
+  let content;
+  try {
+    content = await readFile(mapPath, 'utf8');
+  } catch (err) {
+    throw new Error(`prompt: romanization map not found at ${mapPath} (${err.code ?? err.message})`);
+  }
+  if (content.trim().length === 0) {
+    throw new Error(`prompt: romanization map at ${mapPath} is empty`);
+  }
+  return content;
 }
 
 // Extracts the first ``` fenced block that follows a heading line matching `headingRe`.

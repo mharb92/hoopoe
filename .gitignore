@@ -1,0 +1,18 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# env
+.env
+.env.*
+!.env.example
+
+# DR run artefacts: batch outputs, logs, cost meters. Snapshots are committed.
+tools/dr/runs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,18 @@
+{
+  "run_id": "dr-pilot-2026-09-13",
+  "seed": 8763752,
+  "batch_size": 60,
+  "transport": "anthropic-direct",
+  "model": "claude-opus-5",
+  "effort": "high",
+  "max_tokens": 64000,
+  "spend_cap_usd": 2.5,
+  "stage": true,
+  "judge_from": null,
+  "rows_from": null,
+  "prompt_doc": "docs/dr/dr-prompt-scoped.md",
+  "romanization_map": "docs/dr/romanization-map.md",
+  "started_at": "2026-09-13T16:01:29.263Z",
+  "finished_at": "2026-09-13T16:06:35.921Z",
+  "stop_reason": "max-batches"
+}

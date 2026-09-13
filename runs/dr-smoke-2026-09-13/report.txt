@@ -1,0 +1,25 @@
+DR run dr-smoke-2026-09-13
+stop reason: max-batches
+batches 1/273  staged 10  skipped(resume) 0
+spend $0.1709 of cap $2.50
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":10,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 FAIL level spread is at least 3 distinct values
+      {"levels":{"3":4,"4":6}}
+P6 —    verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":null,"lowBandRows":0,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":1,"held":10,"rows":10,"nativeCheckRate":0.1,"nativeCheck":1}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":574.5,"p50":574.5,"p90":574.5,"max":574.5,"mean":574.5},"outputTokensPerCall":{"min":5745,"p50":5745,"p90":5745,"max":5745,"mean":5745},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.089765625,"usd":0.17093,"usdPerRow":0.017093,"usdExtrapolated":46.629704000000004}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"2":10},"extrapolated":{"2":2728},"rows":10}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.1,"flipped":1,"rows":10,"flippedIds":[2446]}

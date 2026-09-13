@@ -57,7 +57,7 @@ test('judge names the judging model in the API call and sends the built message'
   const out = await judge(ROWS, { transport: 'anthropic-direct', message: MESSAGE, fetchImpl: impl, env: ENV });
   assert.equal(calls[0].url, ANTHROPIC_URL);
   assert.equal(calls[0].parsedBody.model, JUDGE_MODEL);
-  assert.equal(calls[0].parsedBody.system, 'sys');
+  assert.equal(calls[0].parsedBody.system[0].text, 'sys');
   assert.equal(calls[0].parsedBody.messages[0].content, 'usr');
   assert.equal(calls[0].headers['x-api-key'], 'k-test');
   assert.deepEqual(out.objects, [{ id: 284 }]);
@@ -90,4 +90,20 @@ test('the edge-function transport is a stub that reports why, and unknown transp
 test('judge refuses an empty batch or a message it did not get from prompt.mjs', async () => {
   await assert.rejects(() => judge([], { message: MESSAGE, env: ENV }), /non-empty array/);
   await assert.rejects(() => judge(ROWS, { env: ENV }), /cfg\.message/);
+});
+
+test('the system prompt is sent as a cached block, and the rows are not', async () => {
+  const { impl, calls } = stubFetch({ body: reply('[{"id":284}]') });
+  await judge(ROWS, { message: MESSAGE, fetchImpl: impl, env: ENV });
+  assert.deepEqual(calls[0].parsedBody.system, [
+    { type: 'text', text: 'sys', cache_control: { type: 'ephemeral' } },
+  ]);
+  assert.equal(calls[0].parsedBody.messages[0].content, 'usr');
+  assert.equal(JSON.stringify(calls[0].parsedBody.messages).includes('cache_control'), false);
+});
+
+test('cache: false sends the plain system string', async () => {
+  const { impl, calls } = stubFetch({ body: reply('[{"id":284}]') });
+  await judge(ROWS, { message: MESSAGE, cache: false, fetchImpl: impl, env: ENV });
+  assert.equal(calls[0].parsedBody.system, 'sys');
 });

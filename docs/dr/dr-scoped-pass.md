@@ -36,8 +36,9 @@ Judged per row, one pass, unattended:
 | native spot check | human step | **in front of the family test**, not behind it. 40 rows sampled from `review_confidence = 3`, at least 20 of them carrying a long vowel (D210) |
 | F1-F7 acceptance floors | human decision step | after the second pass, when the pool is whole |
 | third-party gap cross-check (D131) | human step | with F1-F7 |
+| rotate `DR_ANTHROPIC_KEY` | operational step | **at the promotion gate**, once the pass no longer needs the key. It is an environment variable for the pass, so it is readable by anyone using `hoopoe-dr`; the `claude` edge function route removes the exposure but blocks nothing here |
 
-Deferred items are attached to a gate, not to a list. The §J bullet list already carries an unrotated credential through four handovers; that is the failure mode this table exists to avoid.
+Deferred items are attached to a gate, not to a list. The §J bullet list already carries an unrotated credential through four handovers; that is the failure mode this table exists to avoid — including for the row above, which is why it names a gate and not "later".
 
 ---
 

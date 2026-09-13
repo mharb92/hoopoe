@@ -20,6 +20,11 @@ export const DEFAULT_MAX_TOKENS = 16000;
 // reaches every lesson built on the row. `max` is the level above; the pilot
 // prices `high` first so that choice is made with a number in front of it.
 export const DEFAULT_EFFORT = 'high';
+// The system prompt — calibration warning, enums, level rubric, romanization map
+// — is byte-identical across every batch of a run and is the only part worth a
+// cache breakpoint. The per-batch rows sit after it in render order, so nothing
+// volatile precedes the breakpoint. Quality-neutral: it changes what is billed,
+// never what is sent. Verify with usage.cache_read_input_tokens, not by assuming.
 
 export class JudgeError extends Error {
   constructor(message, { status, body } = {}) {
@@ -87,7 +92,7 @@ function messageText(body) {
 async function callAnthropic(cfg) {
   const {
     message, model = JUDGE_MODEL, maxTokens = DEFAULT_MAX_TOKENS,
-    effort = DEFAULT_EFFORT, fetchImpl = fetch, env = process.env,
+    effort = DEFAULT_EFFORT, cache = true, fetchImpl = fetch, env = process.env,
   } = cfg;
   const res = await fetchImpl(ANTHROPIC_URL, {
     method: 'POST',
@@ -100,7 +105,9 @@ async function callAnthropic(cfg) {
       model,
       max_tokens: maxTokens,
       output_config: { effort },
-      system: message.system,
+      system: cache
+        ? [{ type: 'text', text: message.system, cache_control: { type: 'ephemeral' } }]
+        : message.system,
       messages: [{ role: 'user', content: message.user }],
     }),
   });
@@ -127,7 +134,7 @@ function callEdgeFunction() {
  * rows: the batch's rule-fixed source rows. Used for the requested-id list the
  *   caller checks the response against; the prompt text itself is built above
  *   the seam (§6 steps 3 then 4) and passed in as cfg.message {system, user}.
- * cfg: { transport, message, model?, maxTokens?, effort?, fetchImpl?, env? }
+ * cfg: { transport, message, model?, maxTokens?, effort?, cache?, fetchImpl?, env? }
  *
  * Returns { objects, requestedIds, usage, model, stopReason, raw }. §4 names the
  * return "array of row objects"; the token counts §6.8 requires have to travel

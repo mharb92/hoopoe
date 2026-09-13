@@ -16,6 +16,7 @@ tools/dr/runs/
 # this does not, because a halted judge call can put raw model output in an error
 # body and §7.7 keeps raw output out of git.
 runs/*/loop.log
+runs/full-loop-nohup.out
 
 # OS / editor
 .DS_Store

@@ -12,6 +12,12 @@ node_modules/
 # nothing writes the path below, which stays as a guard.
 tools/dr/runs/
 
+# The full-loop driver's stderr log. Reports, manifest and loop-state.json commit;
+# this does not, because a halted judge call can put raw model output in an error
+# body and §7.7 keeps raw output out of git.
+runs/*/loop.log
+runs/full-loop-nohup.out
+
 # OS / editor
 .DS_Store
 Thumbs.db

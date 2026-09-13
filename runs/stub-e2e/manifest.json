@@ -1,0 +1,18 @@
+{
+  "run_id": "stub-e2e",
+  "seed": 1326231088,
+  "batch_size": 60,
+  "transport": "anthropic-direct",
+  "model": "claude-opus-5",
+  "effort": "high",
+  "max_tokens": 64000,
+  "spend_cap_usd": 2.5,
+  "stage": false,
+  "judge_from": "tools/dr/test/stub-judge.mjs",
+  "rows_from": "tools/dr/snapshots/dict-preDR.json",
+  "prompt_doc": "docs/dr/dr-prompt-scoped.md",
+  "romanization_map": "docs/dr/romanization-map.md",
+  "started_at": "2026-09-13T15:30:11.584Z",
+  "finished_at": "2026-09-13T15:30:11.616Z",
+  "stop_reason": "max-batches"
+}

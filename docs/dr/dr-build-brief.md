@@ -130,3 +130,68 @@ Do not run a live batch. B4 is the pilot; B3's done-when is a stubbed model.
 Report at the end with what passed, what did not, and anything in the specs that
 could not be executed as written. Do not start B4.
 ```
+
+---
+
+## Opening prompt for B4
+
+```
+Read docs/dr/dr-runner-spec.md, then docs/dr/dr-scoped-pass.md, then
+docs/dr/dr-build-brief.md. Run B4 only: the smoke batch, then the pilot batch.
+
+B4 is not code. B1-B3 are on main at tools/dr/ and the runner is built. Change no
+module unless a run exposes a defect, and if one does, stop and report before
+touching anything.
+
+Branch: off main. Never push to main; Marwan merges by PR in the browser.
+
+Preconditions, both satisfied at B2 — confirm, do not work around:
+- api.anthropic.com on the hoopoe-dr environment's Custom network list.
+- DR_ANTHROPIC_KEY set in the environment. judge.mjs reads it with no fallback.
+If either is missing, stop and report. Do not add a key to a file.
+
+Run the smoke batch first (D227). Ten rows, checked against P1-P4 only. Those four
+are shape checks and fail identically at ten rows or sixty, so a prompt fault costs
+a tenth as much to find. It discharges no part of the pilot gate.
+
+  node tools/dr/run.mjs --spend-cap 2.50 --batch-size 10 --max-batches 1 \
+    --run-id dr-smoke-<yyyy-mm-dd>
+
+Read runs/<run_id>/report.txt. If P1-P4 do not all pass, stop and report with the
+failing rows — a shape failure at ten rows is a prompt fault, not something to
+retry at sixty.
+
+Then the pilot. Sixty rows, one batch, its own run_id so the two stay comparable
+(§7.8: a re-judgement takes a new run_id, never a merge).
+
+  node tools/dr/run.mjs --spend-cap 2.50 --batch-size 60 --max-batches 1 \
+    --run-id dr-pilot-<yyyy-mm-dd>
+
+Then stop. Do not raise the cap, do not drop --max-batches, do not start the full
+loop: the loop is not unlocked until Marwan has read P8 and P9.
+
+Exit codes: 0 clean, 2 a check failed, 1 the run halted. A halt still writes its
+artefacts. The runner re-execs itself with --use-env-proxy, so no environment
+variable needs setting by hand.
+
+Report P1-P10 to chat with the numbers, not a summary. Three of them are the point:
+- P8, output tokens per row as a distribution and the dollar extrapolation to
+  2,728. This replaces B2's $16-30 estimate rather than confirming it; that
+  estimate came from single-row calls, which over-represent per-call overhead.
+  Check the worst call against max_tokens.
+- P9, the review_confidence distribution extrapolated to 2,728. This is the number
+  that decides whether the MVP pool, which filters on 3, is large enough.
+- P10, the vowel-length flip rate (D210). Pass/fail on the prompt, not a number to
+  weigh: at or near zero means the model carried the conflated source value through
+  and the instruction did not take — fix the prompt and re-run the pilot.
+
+Report the raw rate beside every pass/fail, not the verdict alone: a check that
+passes narrowly and one that passes clear read the same as "PASS" and are not the
+same result.
+
+Commit runs/<run_id>/ for both batches (§7.7: the manifest and report commit; raw
+model output never becomes a file, it stays in payload).
+
+Nothing here promotes. Promotion is a hand-run SQL step behind G1-G8, and no code
+path in tools/dr writes the dictionary table. Do not propose one.
+```

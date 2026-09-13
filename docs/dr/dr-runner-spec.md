@@ -46,7 +46,7 @@ Anthropic access for the pilot is an environment variable. The full 2,728-row lo
 | `route.mjs` | confidence and `native_check` to status |
 | `report.mjs` | pilot checks, acceptance floors, cost |
 
-`runs/<run_id>/` holds the manifest and reports.
+`runs/<run_id>/`, **at the repo root**, holds the manifest and reports (D239): §7.7 commits them and `.gitignore` excludes `tools/dr/runs/`, so they cannot live under `tools/dr/`.
 
 ---
 

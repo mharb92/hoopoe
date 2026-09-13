@@ -1,0 +1,177 @@
+{
+  "run_id": "stub-e2e",
+  "generated_at": "2026-09-13T15:30:11.616Z",
+  "stop_reason": "max-batches",
+  "stub_judge": "tools/dr/test/stub-judge.mjs",
+  "config": {
+    "runId": "stub-e2e",
+    "seed": 1326231088,
+    "batchSize": 60,
+    "transport": "anthropic-direct",
+    "spendCapUsd": 2.5,
+    "totalRows": 2728,
+    "model": "claude-opus-5",
+    "effort": "high",
+    "maxTokens": 64000,
+    "maxBatches": 1,
+    "rowsFrom": "tools/dr/snapshots/dict-preDR.json",
+    "judgeFrom": "tools/dr/test/stub-judge.mjs",
+    "stage": false,
+    "runsDir": "/home/user/hoopoe/runs"
+  },
+  "totals": {
+    "planned_batches": 46,
+    "batches_run": 1,
+    "rows_skipped_resume": 0,
+    "rows_staged": 60,
+    "model_calls": 1,
+    "usd_spent": 0.2836,
+    "spend_cap_usd": 2.5
+  },
+  "checks": [
+    {
+      "id": "P1",
+      "label": "every requested id returned exactly once (first response)",
+      "pass": true,
+      "value": {
+        "requested": 60,
+        "batches": [
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "label": "schema conformance after at most 1 repair retry",
+      "pass": true,
+      "value": {
+        "unresolvedIds": [],
+        "repairCalls": 0
+      }
+    },
+    {
+      "id": "P3",
+      "label": "pos/register/form_origin/level are enum values only",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P4",
+      "label": "every row carries level, level_reason, level_conf",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P5",
+      "label": "level spread is at least 3 distinct values",
+      "pass": true,
+      "value": {
+        "levels": {
+          "1": 16,
+          "2": 16,
+          "3": 10,
+          "4": 5,
+          "5": 13
+        }
+      }
+    },
+    {
+      "id": "P6",
+      "label": "verb share of level 1-2 rows >= 0.3 (external signal 0.4)",
+      "pass": false,
+      "value": {
+        "verbShare": 0.25,
+        "lowBandRows": 32,
+        "externalSignal": 0.4
+      }
+    },
+    {
+      "id": "P7",
+      "label": "held rate and native_check rate (recorded, not a gate)",
+      "pass": null,
+      "value": {
+        "heldRate": 0.8833333333333333,
+        "held": 53,
+        "rows": 60,
+        "nativeCheckRate": 0.06666666666666667,
+        "nativeCheck": 4
+      }
+    },
+    {
+      "id": "P8",
+      "label": "cost and output tokens per row, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "outputTokensPerRow": {
+          "min": 180,
+          "p50": 180,
+          "p90": 180,
+          "max": 180,
+          "mean": 180
+        },
+        "outputTokensPerCall": {
+          "min": 10800,
+          "p50": 10800,
+          "p90": 10800,
+          "max": 10800,
+          "mean": 10800
+        },
+        "maxTokensConfigured": 64000,
+        "worstCallVsMaxTokens": 0.16875,
+        "usd": 0.2836,
+        "usdPerRow": 0.004726666666666667,
+        "usdExtrapolated": 12.894346666666667
+      }
+    },
+    {
+      "id": "P9",
+      "label": "review_confidence distribution, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "distribution": {
+          "1": 29,
+          "2": 24,
+          "3": 7
+        },
+        "extrapolated": {
+          "1": 1319,
+          "2": 1091,
+          "3": 318
+        },
+        "rows": 60
+      }
+    },
+    {
+      "id": "P10",
+      "label": "vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)",
+      "pass": false,
+      "value": {
+        "flipRate": 0.03333333333333333,
+        "flipped": 2,
+        "rows": 60,
+        "flippedIds": [
+          1467,
+          2421
+        ]
+      }
+    }
+  ],
+  "batches": [
+    {
+      "batch_no": 1,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.2836
+    }
+  ]
+}

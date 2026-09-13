@@ -1,0 +1,27 @@
+DR run stub-e2e
+stop reason: max-batches
+STUB JUDGE: tools/dr/test/stub-judge.mjs — not a real pass
+NO-STAGE: staging rows were built and counted, not written to dictionary_review
+batches 1/46  staged 60  skipped(resume) 0
+spend $0.2836 of cap $2.50
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":60,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":16,"2":16,"3":10,"4":5,"5":13}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.25,"lowBandRows":32,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.8833333333333333,"held":53,"rows":60,"nativeCheckRate":0.06666666666666667,"nativeCheck":4}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":180,"p50":180,"p90":180,"max":180,"mean":180},"outputTokensPerCall":{"min":10800,"p50":10800,"p90":10800,"max":10800,"mean":10800},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.16875,"usd":0.2836,"usdPerRow":0.004726666666666667,"usdExtrapolated":12.894346666666667}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":29,"2":24,"3":7},"extrapolated":{"1":1319,"2":1091,"3":318},"rows":60}
+P10 FAIL vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.03333333333333333,"flipped":2,"rows":60,"flippedIds":[1467,2421]}

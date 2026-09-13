@@ -8,6 +8,8 @@ node_modules/
 !.env.example
 
 # DR run artefacts: batch outputs, logs, cost meters. Snapshots are committed.
+# The manifest and report commit instead, at <repo>/runs/<run_id>/ (D239, spec §7.7);
+# nothing writes the path below, which stays as a guard.
 tools/dr/runs/
 
 # OS / editor

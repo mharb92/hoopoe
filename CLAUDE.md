@@ -2,7 +2,7 @@
 Palestinian Arabic learning PWA. This file is the entry point for every session in this repo. Read it before proposing any design, data model, code or build step.
 
 ## Status
-Rebuild spec in progress. No build until the Phase 2 build package is approved. **§A-§D approved (chat 18); §E Architecture blocks 1 and 2 of 3 approved: block 1 stack and structure (chat 22, D212-D223), block 2 runtime shape (chat 23, D229-D238). Block 3, build-time and portability, is open.** §E prose lands in `PROJECT_SPEC.md` when block 3 closes, as §D did. D219-D223 are applied: session rules above, plus `build-protocol`, `code-validation`, `specification-first` and `skill-evolution`. DR builds B1-B2 merged to `main` (74 `node:test` cases pass); B3-B4 not started, B3 blocked on the Q17 spend cap. Current section: see the `docs/spec-tracker.md` agenda.
+Rebuild spec in progress. No build until the Phase 2 build package is approved. **§A-§D approved (chat 18); §E Architecture blocks 1 and 2 of 3 approved: block 1 stack and structure (chat 22, D212-D223), block 2 runtime shape (chat 23, D229-D238). Block 3, build-time and portability, is open.** §E prose lands in `PROJECT_SPEC.md` when block 3 closes, as §D did. D219-D223 are applied: session rules above, plus `build-protocol`, `code-validation`, `specification-first` and `skill-evolution`. DR builds B1-B3 merged to `main` (chat 24 PR #12; 111 `node:test` cases pass), producing D239-D244; run artefacts land at `runs/<run_id>/` at the repo root. B4, the pilot, is the only DR build item left and is unblocked. Current section: see the `docs/spec-tracker.md` agenda.
 
 ## Sources of truth, in priority order
 1. `docs/PROJECT_SPEC.md`: approved sections are binding. Do not infer beyond them.

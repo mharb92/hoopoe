@@ -145,6 +145,16 @@ npm test
 ✓ Revert changes
 ✓ Debug why behavior changed
 
+## Green tests are not always done
+
+A test suite only checks what it can see. Where a module's real output is consumed by something outside the suite — a model, an external API, a rendering engine, another service — green tests prove the module behaves as the test author imagined, not that the thing on the other side accepts it.
+
+**So a module with an external consumer is done when one real exchange succeeds, not when its tests pass.** Write the tests first as always; then make one live call, one real render, one real request, before calling it finished.
+
+The failure this prevents: a prompt builder whose tests assert the strings it assembles, passing whether or not those strings ever told the model what to return. Every test was green and the first live call came back in an invented shape. The same shape of gap exists wherever the assertion and the consumer are different readers of the same output.
+
+State it in the done-when. "Suites pass" is the wrong bar for these modules; "suites pass and one live exchange validated" is the right one.
+
 ## Integration with Build Protocol
 
 **BUILD MODE:**
@@ -172,5 +182,6 @@ TDD working when:
 - ✅ Bugs get tests before fixes
 - ✅ Features get tests before implementation
 - ✅ Refactors preserve behavior
+- ✅ Modules with an external consumer are proven by one real exchange, not by green tests alone
 - ✅ Confidence to change code
 - ✅ Regressions are rare

@@ -42,7 +42,7 @@ No network in any module.
 `run.mjs` and `report.mjs`.
 
 - Resume on `(run_id, dictionary_id)`: a killed run restarts at the first row with no staging entry.
-- Cost metering per batch, spend cap, stop conditions.
+- Cost metering per batch, spend cap, stop conditions. **`spendCapUsd` is 2.50 for the pilot and 20.00 for the full loop (D228).** `config.mjs` still refuses a default, so the caller passes the figure; B3 reads it and never hardcodes it.
 - `report.mjs`: P1-P10 (`dr-runner-spec.md` §8 for P1-P8, plus P9, the `review_confidence` distribution extrapolated to 2,728, and P10, the vowel-length flip rate — both defined in `dr-scoped-pass.md` §6).
 
 `run.mjs` also owns one environment step, per `dr-runner-spec.md` §2: Node's built-in `fetch` ignores `HTTPS_PROXY`, and the flag that fixes it is read only at process start, so the entry point re-execs itself with `--use-env-proxy` when it is absent. Without it every Supabase call is answered with a 401 that reads as a credential fault and is not one.
@@ -100,6 +100,13 @@ Standing rules from the brief:
 - Stop and report on any non-2xx from Supabase, two consecutive batch failures,
   or the spend cap. Never continue past a failure, and never edit model output to
   make the schema pass.
+
+Spend cap (D228): spendCapUsd is 2.50 for the pilot and 20.00 for the full loop.
+config.mjs deliberately has no default, so the figure is passed in by the caller;
+read it from config, never hardcode it, and take the cap as a halt, not a warning.
+Hitting it is safe rather than costly: resume keys off (run_id, dictionary_id), so
+a capped run is continued by raising the figure and re-running, with no rows
+re-judged and nothing lost.
 
 run.mjs: CLI entry, batch loop, resume, stop conditions. Resume keys off
 (run_id, dictionary_id): read the ids already staged for the run and skip them,

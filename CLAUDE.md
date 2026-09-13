@@ -2,7 +2,7 @@
 Palestinian Arabic learning PWA. This file is the entry point for every session in this repo. Read it before proposing any design, data model, code or build step.
 
 ## Status
-Rebuild spec in progress. No build until the Phase 2 build package is approved. **§A-§D approved (chat 18); §E Architecture open (chat 19): block shape approved, stack direction settled, nothing drafted.** DR build B1 merged to `main`; B2-B4 not started, none blocked since D210. Current section: see the `docs/spec-tracker.md` agenda.
+Rebuild spec in progress. No build until the Phase 2 build package is approved. **§A-§D approved (chat 18); §E Architecture block 1 of 3 approved (chat 22, D212-D222): stack and structure. Blocks 2 and 3 open.** §E prose lands in `PROJECT_SPEC.md` when block 3 closes, as §D did. D219-D221 change the session rules and three skills; that edit is its own PR and until it lands, the rules below and the affected skills still read the pre-D219 text. DR build B1 merged to `main`; B2-B4 not started, none blocked since D210. Current section: see the `docs/spec-tracker.md` agenda.
 
 ## Sources of truth, in priority order
 1. `docs/PROJECT_SPEC.md`: approved sections are binding. Do not infer beyond them.

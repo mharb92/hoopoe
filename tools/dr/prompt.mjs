@@ -41,6 +41,28 @@ export function extractFencedBlock(docText, headingRe) {
   return fenceMatch[1].replace(/\n$/, '');
 }
 
+// Pulls a whole `## Heading` section, fence and prose together, up to the next
+// `## ` heading or the end of the doc.
+export function extractSection(docText, headingRe) {
+  const headingMatch = headingRe.exec(docText);
+  if (!headingMatch) throw new Error(`prompt: section not found: ${headingRe}`);
+  const start = headingMatch.index;
+  const rest = docText.slice(start + headingMatch[0].length);
+  const nextHeading = /\n##\s/.exec(rest);
+  const end = nextHeading ? start + headingMatch[0].length + nextHeading.index : docText.length;
+  return docText.slice(start, end).trim();
+}
+
+// The output contract — the JSON example, the field rules, the D210 vowel-length
+// rule — sits outside both fenced blocks in dr-prompt-scoped.md (and in frozen
+// dr-prompt.md), so injecting only those fences leaves the model with no
+// statement of the shape to return. It then answers in a shape of its own
+// invention and validate.mjs rejects every row. Injected verbatim, never
+// paraphrased; absence is a hard error, not a silently contract-free prompt.
+export function extractOutputContract(docText) {
+  return extractSection(docText, /##\s*Output contract\s*\n/);
+}
+
 function fillPlaceholders(template, replacements) {
   let out = template;
   for (const [key, value] of Object.entries(replacements)) {
@@ -88,5 +110,5 @@ export function buildBatchMessage(docText, rows, { batchIndex, totalBatches, enu
   const system = buildSystemPrompt(docText, { enums, levelRubric, romanization });
   const batchLabel = `${batchIndex}/${totalBatches}`;
   const user = buildUserPrompt(docText, { rowCount: rows.length, batchLabel, rows });
-  return { system, user };
+  return { system, user: `${user}\n\n${extractOutputContract(docText)}` };
 }

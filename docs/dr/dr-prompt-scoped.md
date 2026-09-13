@@ -2,6 +2,8 @@
 
 Injected verbatim by the batch runner, once per batch. Replaces `dr-prompt.md` for the scoped pass only; that file stays frozen and unedited and returns for the second pass.
 
+Three parts are injected, not two: the `## System` fence, the `## User (per batch)` fence, and the whole `## Output contract` section below. The contract sits outside both fences, so a runner that injects only the fenced blocks never tells the model what shape to return; it then answers in a shape of its own invention and every row fails validation. `prompt.mjs` appends the section to the user turn and treats its absence as a hard error. Frozen `dr-prompt.md` is laid out the same way and is covered by the same code, so it needs no edit.
+
 Differences from the frozen prompt: fields 8 (`pair`) and 9 (`constituents`) are removed, `enum_conf` is added, and the grouped-batch rule is gone because pairs are no longer being detected. Everything else is the frozen text, including the calibration warning, which is the main thing this prompt is carrying.
 
 Amended by D210 (chat 19): vowel length is a per-row judgement inside the produced `romanization` value. It sits explicitly outside the rule-fix suppression and is never a `corrections` entry.
@@ -74,6 +76,8 @@ Rules:
 ---
 
 ## Output contract
+
+Injected into the user turn, verbatim, per the header. Not commentary.
 
 One JSON object per row. No prose, no markdown fences.
 

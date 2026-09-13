@@ -45,11 +45,17 @@ No network in any module.
 - Cost metering per batch, spend cap, stop conditions.
 - `report.mjs`: P1-P10 (`dr-runner-spec.md` §8 for P1-P8, plus P9, the `review_confidence` distribution extrapolated to 2,728, and P10, the vowel-length flip rate — both defined in `dr-scoped-pass.md` §6).
 
+`run.mjs` also owns one environment step, per `dr-runner-spec.md` §2: Node's built-in `fetch` ignores `HTTPS_PROXY`, and the flag that fixes it is read only at process start, so the entry point re-execs itself with `--use-env-proxy` when it is absent. Without it every Supabase call is answered with a 401 that reads as a credential fault and is not one.
+
 **Done when:** the full pipeline runs end to end against a stubbed model and stages one fake batch; `grep -rn "dictionary" tools/dr` shows no write path to that table; `runs/<run_id>/` holds the manifest and report.
+
+That grep returns hits and always will: `db.mjs` names the table to read it. The check is that no **write** path reaches it — the only non-GET to Supabase anywhere in `tools/dr/` posts to `dictionary_review`. Read the hits; never rename anything to quiet the grep.
 
 ## B4 — pilot
 
 Not code. One real batch of 60 rows, then stop. Report P1-P10 to chat.
+
+**A smoke batch of ~10 rows runs first**, checked against P1-P4 only. Those four are shape checks — every id back exactly once, schema conformance, enums, `level` present — and they fail the same way on 10 rows as on 60, so a prompt fault costs a tenth as much to find. P5-P10 need the full 60: a level spread, a verb share and a `review_confidence` distribution are not readable at 10. The smoke batch discharges nothing; it is a cheap check before the pilot, not part of the gate.
 
 Two decisions wait on the numbers: the `review_confidence` distribution (P9) decides whether the MVP pool is large enough, and output tokens per row (P8) decides batch size for the loop. A P8 extrapolation Marwan is not willing to pay stops the run before the loop, not after.
 
@@ -67,4 +73,53 @@ Branch: dr-runner-b1. Do not push to main.
 
 Stop and report if anything in the specs cannot be executed as written, or if a
 task appears to require writing to the dictionary table. Do not start B2.
+```
+
+---
+
+## Opening prompt for B3
+
+```
+Read docs/dr/dr-runner-spec.md, then docs/dr/dr-scoped-pass.md, then
+docs/dr/dr-build-brief.md. Build B3 only: run.mjs and report.mjs.
+
+Branch: dr-runner-b3, off main. Never push to main; Marwan merges by PR in the
+browser.
+
+B1 and B2 are already on main at tools/dr/ (config, sample, rulefix, prompt,
+validate, route, db, judge, plus test/). Read them before adding anything. Do
+not restructure them, do not change their module boundaries, and do not edit
+their tests except where B3 genuinely breaks one — if that happens, stop and
+report instead of adjusting the assertion.
+
+Standing rules from the brief:
+- Node ESM, zero runtime dependencies. Built-in fetch, node:test, node:crypto.
+- Each module under ~150 lines, one job.
+- No code path writes the dictionary table. Promotion is a hand-run SQL step. If
+  a task appears to need a dictionary write, stop and report.
+- Stop and report on any non-2xx from Supabase, two consecutive batch failures,
+  or the spend cap. Never continue past a failure, and never edit model output to
+  make the schema pass.
+
+run.mjs: CLI entry, batch loop, resume, stop conditions. Resume keys off
+(run_id, dictionary_id): read the ids already staged for the run and skip them,
+so a killed session restarts at the first unstaged row. Staging conflicts do
+nothing rather than merge (spec §7.8) — a re-judgement takes a new run_id, so
+never reach for merge to make a re-run overwrite. The entry point re-execs itself
+with --use-env-proxy when it is absent (spec §2); nothing else in tools/dr can do
+this, because the flag is read at process start.
+
+report.mjs: P1-P10. P1-P8 in spec §8, P9 and P10 in dr-scoped-pass.md §6. P10
+is a pass/fail on the prompt, not a number to weigh.
+
+Cost metering: judge() returns usage per call. Input is partly cached — the
+system prompt is one cached block — so price cache writes, cache reads and
+uncached input separately or the spend cap will be wrong. Thinking tokens are
+billed as output and vary several-fold per row, so report P8 as a distribution,
+not just a mean, and check the worst case against max_tokens.
+
+Do not run a live batch. B4 is the pilot; B3's done-when is a stubbed model.
+
+Report at the end with what passed, what did not, and anything in the specs that
+could not be executed as written. Do not start B4.
 ```

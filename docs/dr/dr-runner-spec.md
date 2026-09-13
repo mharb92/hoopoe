@@ -22,7 +22,9 @@ Claude Code cloud session on the `hoopoe-dr` environment. Node ESM, zero runtime
 
 Supabase auth uses the stored credential shape: `Authorization: Bearer <key>` and `apikey: <key>`, same value, `apikey` prefix empty. The session never sees the key.
 
-Anthropic access for the pilot is an environment variable. The full 2,728-row loop routes through the `claude` edge function once it is deployed (open §J item). Both sit behind the same seam, so the swap is a config change.
+Anthropic access for the pilot is an environment variable. The full 2,728-row loop routes through the `claude` edge function once it is deployed (open §J item). Both sit behind the same seam, so the swap is a config change. The variable is `DR_ANTHROPIC_KEY`, read in `judge.mjs` with no fallback; it is rotated at the promotion gate (`dr-scoped-pass.md` §2), because an environment variable is readable by anyone using the environment.
+
+**Node's built-in `fetch` ignores `HTTPS_PROXY`.** The environment injects the Supabase credential at the proxy, so a process started without `NODE_USE_ENV_PROXY=1` (or `--use-env-proxy`) reaches Supabase uncredentialed and is answered 401 `UNAUTHORIZED_MISSING_API_KEY` — which reads as a credential fault and is not one. `db.mjs` checks this before every request and names the real cause. Because the flag is only read at process start, the entry point re-execs itself with it when it is absent: a missing env var must not be something the operator has to remember. `api.anthropic.com` bypasses the proxy and is unaffected.
 
 ---
 
@@ -39,6 +41,7 @@ Anthropic access for the pilot is an environment variable. The full 2,728-row lo
 | `rulefix.mjs` | the deterministic pass from `dr-prompt.md` |
 | `prompt.mjs` | builds the batch message from the frozen prompt file |
 | `judge.mjs` | the model seam |
+| `stream.mjs` | decodes one streamed model response (§7.9) |
 | `validate.mjs` | JSON contract check, one row at a time |
 | `route.mjs` | confidence and `native_check` to status |
 | `report.mjs` | pilot checks, acceptance floors, cost |
@@ -58,6 +61,8 @@ judge(rows, cfg) -> array of row objects
 Transport is config: `anthropic-direct` for the pilot, `edge-function` for the full loop. Nothing above the seam knows which is in use.
 
 The judging model is named in the API call inside `judge.mjs`, independent of whichever model orchestrates the session. A Sonnet session calls Opus per batch.
+
+Two settings live with it. Depth is `output_config.effort`, default `high`: the judging model removed `temperature`, runs adaptive thinking by default, and bills thinking as output, so there is no determinism knob and P8 measures a number the §7.4 estimate predates. The system prompt is sent as one cached block, because it is byte-identical across every batch of a run while the rows after it are not; caching changes what is billed, never what is sent.
 
 ---
 
@@ -106,6 +111,10 @@ Consequence: a row with one weak field holds its strong fields until adjudicatio
 **7.6 Stop conditions.** Halt and report on any non-2xx from Supabase, two consecutive batch failures, or the configured spend cap. Never continue past a failure.
 
 **7.7 Artefacts.** The run manifest and reports commit to the repo. Raw model output lives only in `payload`, verbatim, never as files in git.
+
+**7.8 Staging conflicts do nothing, they do not merge.** `dr-build-brief.md` B2 calls the write an "upsert", which reads as merge-duplicates. §5 is the behaviour: `on_conflict` do-nothing. Resume reads the ids already staged and skips them, so in normal operation a conflict never arises; the only way to reach one is a retry racing a partial write, where not overwriting the staged row is the point. A genuine re-judgement takes a **new `run_id`**, which keeps both judgements comparable — merging would destroy the earlier one with no record. `upsertReview` keeps a `merge: true` option for a deliberate re-stage, unused by the loop.
+
+**7.9 The model call is streamed, and decoding it is an eleventh module.** A batch's output runs to tens of thousands of tokens — the judging model bills thinking as output, and thinking varies several-fold by row — so a non-streamed request that large reaches the HTTP timeout before the model finishes, and a batch that hits `max_tokens` fails outright rather than degrading. Streaming is transport only: it changes nothing about what is sent, cached or returned. Decoding the wire format is a different job from being the seam, and inlining it pushed `judge.mjs` 40% past the size rule, so it is `stream.mjs` and §3's map gains a row. `max_tokens` default is 64,000, set clear of the worst case rather than at it.
 
 ---
 

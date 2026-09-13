@@ -2,7 +2,7 @@
 Palestinian Arabic learning PWA. This file is the entry point for every session in this repo. Read it before proposing any design, data model, code or build step.
 
 ## Status
-Rebuild spec in progress. No build until the Phase 2 build package is approved. **§A-§D approved (chat 18); §E Architecture block 1 of 3 approved (chat 22, D212-D222): stack and structure. Blocks 2 and 3 open.** §E prose lands in `PROJECT_SPEC.md` when block 3 closes, as §D did. D219-D221 change the session rules and three skills; that edit is its own PR and until it lands, the rules below and the affected skills still read the pre-D219 text. DR build B1 merged to `main`; B2-B4 not started, none blocked since D210. Current section: see the `docs/spec-tracker.md` agenda.
+Rebuild spec in progress. No build until the Phase 2 build package is approved. **§A-§D approved (chat 18); §E Architecture block 1 of 3 approved (chat 22, D212-D223): stack and structure. Blocks 2 and 3 open.** §E prose lands in `PROJECT_SPEC.md` when block 3 closes, as §D did. D219-D223 are applied: session rules above, plus `build-protocol`, `code-validation`, `specification-first` and `skill-evolution`. DR build B1 merged to `main`; B2-B4 not started, none blocked since D210. Current section: see the `docs/spec-tracker.md` agenda.
 
 ## Sources of truth, in priority order
 1. `docs/PROJECT_SPEC.md`: approved sections are binding. Do not infer beyond them.
@@ -34,12 +34,13 @@ Row counts: `Prefer: count=exact` + `Range: 0-0` + `-I`. Old project `xkhulybdrx
 
 ## Session rules
 - State: `.md` only, in this repo. `docs/spec-tracker.md` is the state file.
-- Skills, spec and tracker: prompt Marwan when a change is needed; change only the affected sections, but always deliver the complete updated file with the changes already applied. Never hand over diffs, find/replace blocks or edit instructions.
+- Skills, spec and tracker: prompt Marwan when a change is needed, and change only the affected sections. **Inside this repo the session edits the file and Marwan reviews the PR diff (D219)** — never paste a whole file into chat. For anything applied by hand outside the repo, such as SQL for the browser SQL Editor or a dashboard setting, give the complete final text, never a diff and never an edit instruction.
 - Compressed writing; optimise tokens. Pull files by section (`grep -n "^#"`, then `sed -n`), never whole.
 - §D sub-sections are numbered `D.1` to `D.15`, with the dot. A bare `D###` always means a decision-log id.
 - Plan and debate first; explicit approval before any deliverable.
 - **Realisations go to chat, not to files.** When a gap, conflict or unowned item surfaces mid-work, state it in one line and stop. Nothing enters the spec, tracker or a skill until Marwan decides to resolve or park it. Logging a question in the tracker's open questions is allowed once he has said to park it. Never write a provisional answer and revise it after the decision: that round trip is the single most expensive thing we do.
 - **Be extremely concise.** Plain, direct English, shortest form that carries the point. No preamble, no restating the question, no summarising what was just delivered. State conclusions first; give reasoning only where the conclusion is contestable, and then in one line. Marwan asks when he wants elaboration. This governs length and phrasing only: disagreements, risks, errors and contradictions are still raised in full, just stated briefly.
+- **A block ends with its tracker rows; the next block starts in a fresh session (D223).** The state file is what the next session reads, so it has to be sufficient on its own. A fresh session that cannot proceed from the tracker is a tracker bug: fix the rows in that session before the block continues, and say so in the chat note. Carrying a block forward inside a long transcript hides that failure instead of exposing it.
 - **Browser-only.** The work laptop blocks the Supabase CLI's management API and wraps Homebrew in an Artifactory shim. Every terminal step runs in this session, never on Marwan's machine. Never propose a local CLI step. Marwan is not a developer: give exact clicks, exact text to paste, and what a successful result looks like.
 - Brand is data, not code (D138): one `BRAND` config object, neutral storage and cache key prefixes, no brand string in table or column names. The name is unsettled.
 

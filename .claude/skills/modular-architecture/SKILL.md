@@ -146,10 +146,10 @@ Each module should have a brief header comment:
 
 ## Dependency Mapping
 
-When performing full codebase scans (debug/refactor), build a dependency map:
+When scanning during debug or refactor, build a dependency map over the affected surface — the failure path and every caller of what is changing (`build-protocol`), not the whole tree by default:
 
 ### Step 1: Scan Imports
-Read all files, extract import statements:
+Extract import statements across that surface:
 
 ```
 LessonView.jsx imports:

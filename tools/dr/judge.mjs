@@ -14,9 +14,12 @@ export const ANTHROPIC_VERSION = '2023-06-01';
 export const DEFAULT_MAX_TOKENS = 16000;
 // Opus 5 removed `temperature` (400 `temperature is deprecated for this model`)
 // and runs adaptive thinking by default, so determinism is no longer a sampling
-// setting. Depth and spend are steered by effort instead; thinking tokens are
-// billed as output, which P8 has to measure rather than assume.
-export const DEFAULT_EFFORT = 'medium';
+// setting. Depth is steered by effort instead, and thinking tokens are billed as
+// output, so P8 measures a number the frozen estimate predates.
+// `high` because this pass is judged on correctness, not cost: an error here
+// reaches every lesson built on the row. `max` is the level above; the pilot
+// prices `high` first so that choice is made with a number in front of it.
+export const DEFAULT_EFFORT = 'high';
 
 export class JudgeError extends Error {
   constructor(message, { status, body } = {}) {

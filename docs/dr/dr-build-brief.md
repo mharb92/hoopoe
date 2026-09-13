@@ -33,6 +33,8 @@ No network in any module.
 - `db.mjs`: PostgREST read of `dictionary`, upsert of `dictionary_review` on `(run_id, dictionary_id)`. Credential shape is `Authorization: Bearer <key>` plus `apikey: <key>`, same value.
 - `judge.mjs`: the seam, `judge(rows, cfg)`. Transport config `anthropic-direct` for the pilot, `edge-function` stubbed for later. Judging model named in the API call.
 
+**Environment preconditions.** The read and upsert halves need only the Supabase credential the `hoopoe-dr` environment already carries. The live call needs two things that environment does not have yet: `api.anthropic.com` added to its **Custom** network list, and an Anthropic key as an environment variable (acceptable for the pilot only; the `claude` edge function route is required before the full loop). If either is missing, build both modules, satisfy the dry-run half, and stop and report rather than working around it.
+
 **Done when:** a dry run reads all 2,728 rows and stages nothing; one live single-row call returns output that `validate.mjs` accepts.
 
 ## B3 — orchestrator
@@ -41,15 +43,17 @@ No network in any module.
 
 - Resume on `(run_id, dictionary_id)`: a killed run restarts at the first row with no staging entry.
 - Cost metering per batch, spend cap, stop conditions.
-- `report.mjs`: P1-P9 (`dr-runner-spec.md` §8 plus P9, the `review_confidence` distribution extrapolated to 2,728).
+- `report.mjs`: P1-P10 (`dr-runner-spec.md` §8 for P1-P8, plus P9, the `review_confidence` distribution extrapolated to 2,728, and P10, the vowel-length flip rate — both defined in `dr-scoped-pass.md` §6).
 
 **Done when:** the full pipeline runs end to end against a stubbed model and stages one fake batch; `grep -rn "dictionary" tools/dr` shows no write path to that table; `runs/<run_id>/` holds the manifest and report.
 
 ## B4 — pilot
 
-Not code. One real batch of 60 rows, then stop. Report P1-P9 to chat.
+Not code. One real batch of 60 rows, then stop. Report P1-P10 to chat.
 
 Two decisions wait on the numbers: the `review_confidence` distribution (P9) decides whether the MVP pool is large enough, and output tokens per row (P8) decides batch size for the loop. A P8 extrapolation Marwan is not willing to pay stops the run before the loop, not after.
+
+P10 (D210) is a pass/fail on the prompt, not a number to weigh: a vowel-length flip rate at or near zero means the model carried the conflated source value through, so the prompt is fixed and the pilot re-run before the loop.
 
 ---
 

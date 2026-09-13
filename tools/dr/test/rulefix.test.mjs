@@ -89,3 +89,27 @@ test('rank is never written by rule-fix', () => {
     assert.equal('rank' in fixed, false);
   }
 });
+
+test('rule-fix never maps long-vowel symbols onto each other (D210)', () => {
+  const LONG_VOWEL_RE = /(aa|ee|ii|oo|uu)/g;
+  for (const row of rows) {
+    if (typeof row.romanization !== 'string') continue;
+    const { fixed } = applyRuleFix(row);
+    const out = fixed.romanization ?? row.romanization;
+    assert.deepEqual(
+      out.match(LONG_VOWEL_RE),
+      row.romanization.match(LONG_VOWEL_RE),
+      `row ${row.id}: rule-fix altered a long-vowel symbol`,
+    );
+  }
+});
+
+test('romanization is only whitespace-collapsed, never re-spelled (synthetic id -3)', () => {
+  const row = byId.get(-3);
+  const { fixed } = applyRuleFix(row);
+  assert.equal(fixed.romanization, 'mabrook il-beet');
+  assert.equal(
+    fixed.romanization.replace(/\s+/g, ''),
+    row.romanization.replace(/\s+/g, ''),
+  );
+});

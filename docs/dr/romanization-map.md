@@ -1,6 +1,6 @@
 # Romanization map — D47 Arabizi standard
 
-Spec source: `PROJECT_SPEC.md` §C4.7 (D47, completed D142). This file is the single source of truth for romanization during DR. `prompt.mjs` injects it verbatim into `<<ROMANIZATION>>`. The `romanization_map` table is seeded from this file when the map freezes at the end of DR.
+Spec source: `PROJECT_SPEC.md` §C4.7 (D47, completed D141). This file is the single source of truth for romanization during DR. `prompt.mjs` injects it verbatim into `<<ROMANIZATION>>`. The `romanization_map` table is seeded from this file when the map freezes at the end of DR.
 
 Target variety: urban Palestinian. Rows that are themselves rural or Hebron variants romanize their own pronunciation, not the urban one.
 

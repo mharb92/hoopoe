@@ -174,5 +174,21 @@
     "confidence": 5,
     "rank": null,
     "created_at": null
+  },
+  {
+    "id": -3,
+    "category": "Synthetic",
+    "arabic": "مَبْروك  البيت",
+    "romanization": "  mabrook   il-beet  ",
+    "english": "congratulations on the house (synthetic: long-vowel case, D210)",
+    "pos": "Phrase",
+    "root": null,
+    "conjugation": null,
+    "gender": null,
+    "dialect_tag": "D",
+    "notes": "synthetic fixture row",
+    "confidence": 5,
+    "rank": null,
+    "created_at": null
   }
 ]

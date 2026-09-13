@@ -196,8 +196,9 @@ while [ "$CHUNK" -lt "$MAX_CHUNKS" ]; do
     if [ "$p6_rc" -eq 3 ]; then
       P6=fail
       write_state halted-p6
+      unspent=$(awk -v c="$CEILING" -v s="$SPENT" 'BEGIN{printf "%.2f", c-s}')
       log "HALT (D246): P6 FAILs at a readable denominator. The prompt question goes to Marwan"
-      log "             with \$$(awk -v c=$CEILING -v s=$SPENT 'BEGIN{printf \"%.2f\", c-s}') of the ceiling unspent."
+      log "             with \$$unspent of the ceiling unspent."
       exit 3
     elif [ "$p6_rc" -eq 0 ]; then
       P6=$(node -e "console.log(JSON.parse(process.argv[1]).verdict)" "$p6_json" 2>/dev/null || echo not-yet-readable)

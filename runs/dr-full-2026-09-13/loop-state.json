@@ -1,12 +1,11 @@
 {
   "run_id": "dr-full-2026-09-13",
-  "spent_usd": 2.4983,
+  "spent_usd": 4.2124,
   "ceiling_usd": 36.00,
-  "chunks_done": 0,
-  "batches_run": 1,
+  "chunks_done": 1,
+  "batches_run": 3,
   "transport": "judge-cli",
-  "p6_verdict": "not-yet-readable",
-  "status": "verified-one-batch",
-  "updated_at": "2026-09-13T20:20:00Z",
-  "note": "spent_usd sums two currencies and that is deliberate, as the conservative reading against the $36 ceiling: $1.3539 of card-billed anthropic-direct (batches 1-2, before D249) plus $1.1444 of Claude Code list-price-equivalent (batch 3, the D249 verification batch). batches_run counts the D249 budget of 6, of which batch 3 is the first."
+  "p6_verdict": "fail",
+  "status": "halted-p6",
+  "updated_at": "2026-09-13T20:29:02Z"
 }

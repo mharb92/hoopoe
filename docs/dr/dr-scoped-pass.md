@@ -34,6 +34,7 @@ Judged per row, one pass, unattended:
 | `pair` (`formula_pair` table) | not collected, needs a second pass over ~272 rows | before any release beyond the family test |
 | `constituents` on formula and frame rows | not collected, same second pass | same |
 | native spot check | human step | **in front of the family test**, not behind it. 40 rows sampled from `review_confidence = 3`, at least 20 of them carrying a long vowel (D210) |
+| `review_confidence` critical-set cut, and §7.2's field-level promotion split with it | scoring decision over staged rows, no model call, so free at any time | **post-loop, in front of the native spot check** (D245). The pilot's all-H rule puts the pool at ~91 of 2,728; the cut is chosen on the full distribution, not on n=60, and the spot check samples from `review_confidence = 3` so it cannot run before the pool is cut |
 | F1-F7 acceptance floors | human decision step | after the second pass, when the pool is whole |
 | third-party gap cross-check (D131) | human step | with F1-F7 |
 | rotate `DR_ANTHROPIC_KEY` | operational step | **at the promotion gate**, once the pass no longer needs the key. It is an environment variable for the pass, so it is readable by anyone using `hoopoe-dr`; the `claude` edge function route removes the exposure but blocks nothing here |

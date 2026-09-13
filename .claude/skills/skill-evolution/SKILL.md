@@ -79,7 +79,7 @@ Before touching a skill, decide scope.
 |---|---|---|
 | "All auth should use Supabase" | Universal | skill file |
 | "Hoopoe uses Supabase for auth" | Project | `CLAUDE.md` |
-| "Always batch changes unless critical bug" | Universal | `build-protocol` |
+| "Approve the slice, not each batch inside it" | Universal | `build-protocol` |
 | "Hoopoe backlog: add flashcards" | Project | `docs/spec-tracker.md` |
 | "Mobile-first design for all UIs" | Universal | `mobile-ux` |
 | "Hoopoe has 10 lessons" | Project | `docs/PROJECT_SPEC.md` |
@@ -95,7 +95,7 @@ Skills live at `.claude/skills/<name>/SKILL.md` in this repo. There is no centra
 
 1. **Name the skill and the scope.** State which file changes and confirm it is universal, not project-specific.
 2. **Propose before writing.** One line on what is added or changed, where in the file it lands, and what it will make happen differently. Wait for approval.
-3. **Deliver the complete file.** The full `SKILL.md` with the change already applied, frontmatter intact. Never a diff, a find/replace block or edit instructions.
+3. **Apply the change in the repo.** Edit the `SKILL.md` directly, frontmatter intact. Never paste the whole file into chat and never hand over edit instructions: the PR diff is what gets reviewed, and it shows the change more clearly than a full file does.
 4. **Commit on a branch, merge by PR** in the browser, then delete the branch. The change takes effect in the next session that loads the skill.
 
 ### Three kinds of change
@@ -145,8 +145,8 @@ Before proposing any skill change:
 - ☐ Right skill named (or a genuine gap for a new one)
 - ☐ Concise and actionable, no fluff
 - ☐ Fits the skill's purpose and doesn't contradict another skill
-- ☐ Proposed and approved before the file is written
-- ☐ Complete file delivered, frontmatter intact
+- ☐ Proposed and approved before the file is edited
+- ☐ Applied in the repo and reviewable as a diff, frontmatter intact
 
 ---
 

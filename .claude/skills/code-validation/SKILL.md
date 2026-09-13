@@ -1,291 +1,98 @@
 ---
 name: code-validation
 description: >
-  Post-response validation with three severity levels (ERROR/WARNING/INFO). Auto-triggers after any code
-  generation, file creation, or modification. Checks for undefined references, missing imports, syntax errors
-  (ERROR level), spec pattern violations, missing error handling, hardcoded values (WARNING level), and code
-  duplication, long functions, performance issues (INFO level). Offers auto-fix for simple errors. Performs
-  cross-file validation, spec compliance checks, and side-effect detection. Learning-friendly explanations
-  for non-developers. Integrates with build-protocol (validates after build/debug/refactor), specification-first
-  (checks spec compliance), and modular-architecture (validates structure).
+  Post-change validation for what automated gates cannot check. Runs the project's own gates first —
+  type check, tests, lint, build — and reports what they actually say, then reviews the change for spec
+  compliance, unintended side effects, hardcoded values, duplication and overlong functions. Two severity
+  levels (MUST FIX / CONSIDER). Auto-triggers after any code generation or modification. Integrates with
+  build-protocol (validates after build/debug/refactor), specification-first (checks spec compliance) and
+  modular-architecture (validates structure).
 ---
 
 # Code Validation
 
 ## Core Principle
-Every piece of code is validated before the user sees it. Catch errors, inconsistencies, and spec violations immediately.
+**A gate beats a self-check, every time.** Run the machine checks first and report their real output. Then review only what no machine can decide.
+
+Never claim a check passed without running it. "Looks correct" is not a result.
 
 ## When This Skill Applies
 
-### Auto-Trigger After:
-- ANY code block in response
-- File creation (create_file)
-- File modification (str_replace)
-- Feature implementation
-- Bug fix implementation
-- Refactor implementation
+**Auto-trigger after:** any code change — feature, bug fix, or refactor.
+**Manual trigger:** "validate that", "check for issues", "review this code".
 
-### Manual Trigger:
-- "validate that"
-- "check for issues"
-- "review this code"
+## Step 1: Run the gates
 
-## Validation Checks
+Run whatever the project defines, and report the output:
 
-### Level 1: ERROR (Must Fix)
+| check | typical command |
+|---|---|
+| types | `tsc --noEmit` |
+| tests | `node --test`, `npm test`, `pytest` |
+| lint / boundaries | the project's lint script |
+| build | the project's build command |
 
-**Undefined References:**
-```javascript
-// ❌ ERROR
-function handleClick() {
-  processUserData(); // Not defined or imported
-}
-```
+**Everything a gate covers leaves this skill.** Syntax errors, undefined references, missing or misspelled imports, import/export mismatches, circular dependencies, unused exports, changed function signatures with stale callers — a compiler and a lint step catch all of these, always, for free, and they do not get tired. Do not re-check them by eye.
 
-**Fix:**
-```javascript
-// ✓ Fixed
-import { processUserData } from './utils';
+If the project has no gate for something checkable, the fix is to add the gate, not to add a manual check here. Say so when you spot it.
 
-function handleClick() {
-  processUserData();
-}
-```
+## Step 2: Review what no gate covers
 
-**Missing Imports:**
-```javascript
-// ❌ ERROR
-function MyComponent() {
-  const [state, setState] = useState(0); // useState not imported
-}
-```
+### MUST FIX
 
-**Fix:**
-```javascript
-// ✓ Fixed
-import { useState } from 'react';
+**Spec violations.** The code contradicts an approved decision in the project spec — a rule the linter doesn't encode, a record written without its version pin, a screen state the spec forbids. Cite the spec section.
 
-function MyComponent() {
-  const [state, setState] = useState(0);
-}
-```
+**Unintended side effects.** The change alters behaviour outside what it was asked to alter: a shared helper's contract, a default value another caller depends on, an extra write, a changed order of operations.
 
-**Syntax Errors:**
-```javascript
-// ❌ ERROR: Missing closing brace
-function fetchData() {
-  if (condition) {
-    return data;
-  // Missing }
-}
-```
+**Silent failure.** An error swallowed, a `null` returned where the caller can't distinguish it from a real value, a fire-and-forget promise. The failure has to reach both telemetry and a visible state.
 
-### Level 2: WARNING (Should Fix)
+### CONSIDER
 
-**Spec Pattern Violations:**
-```javascript
-// ⚠️ WARNING: Should be camelCase per spec
-function FetchData() { ... }
-```
+**Hardcoded values.** A number or string with meaning, sitting inline. Name it, or move it to config if the project treats it as config.
 
-**Missing Error Handling:**
-```javascript
-// ⚠️ WARNING: No try/catch
-async function loadLesson() {
-  const lesson = await fetch('/api/lesson');
-  return lesson;
-}
-```
+**Duplication.** The same logic in a second place. One implementation per concern; replace-then-delete in the same change, never leave both.
 
-**Recommended:**
-```javascript
-// ✓ Better
-async function loadLesson() {
-  try {
-    const lesson = await fetch('/api/lesson');
-    return lesson;
-  } catch (error) {
-    console.error('Failed to load:', error);
-    showUserMessage('Could not load. Try again.');
-    return null;
-  }
-}
-```
+**Overlong functions or files.** Past the project's threshold, propose the split — don't perform it inside an unrelated change.
 
-**Hardcoded Values:**
-```javascript
-// ⚠️ WARNING: Magic number
-if (attempts > 3) { giveUp(); }
-```
-
-**Recommended:**
-```javascript
-// ✓ Better
-const MAX_RETRY_ATTEMPTS = 3;
-if (attempts > MAX_RETRY_ATTEMPTS) { giveUp(); }
-```
-
-### Level 3: INFO (Suggestions)
-
-**Code Duplication:**
-```javascript
-// ℹ️ INFO: Duplicated logic
-function formatUserDate(date) {
-  return new Date(date).toLocaleDateString('en-US');
-}
-function formatLessonDate(date) {
-  return new Date(date).toLocaleDateString('en-US');
-}
-```
-
-**Suggestion:** Extract to shared utility
-
-**Long Functions:**
-```javascript
-// ℹ️ INFO: 75 lines (consider splitting at 50)
-function processLessonData(data) {
-  // ... 75 lines
-}
-```
-
-## Validation Workflow
-
-### Step 1: Parse Code Blocks
-Extract all code from response
-
-### Step 2: Run Checks
-
-For each block:
-1. Syntax check (ERROR)
-2. Reference check (ERROR)
-3. Import check (ERROR)
-4. Spec compliance (WARNING)
-5. Best practices (INFO)
-
-### Step 3: Report Results
+## Step 3: Report
 
 ```
-Code Validation Results:
+Gates:
+  tsc --noEmit    ✓
+  node --test     ✗  2 failing: romanization.test.ts:41, :58
+  lint            ✓
 
-❌ 1 ERROR (must fix):
-  - Line 23: Undefined function `processData`
+MUST FIX
+  - lesson-view.ts:88 writes review_event without the config version pin (spec C4.11)
 
-⚠️ 2 WARNINGS (should fix):
-  - Line 45: Missing error handling
-  - Line 67: Hardcoded value `3`
-
-ℹ️ 1 INFO (suggestion):
-  - Function is 75 lines (consider splitting)
-
-[Fix errors automatically?]
+CONSIDER
+  - queue.ts:31 retry limit 3 inline — name it
 ```
 
-### Step 4: Auto-Fix (Optional)
+Report failures with the tool's own output, not a paraphrase. If a gate could not run, say that — it is not a pass.
+
+## Explaining to a non-developer
+
+Say what broke, what it means, and what happens next. Three lines, no jargon:
 
 ```
-I can fix:
-1. Add missing import
-2. Add try/catch
-3. Extract constant
-
-Apply all fixes? (errors + warnings)
-Apply only critical? (errors only)
-Show me first? (manual review)
+The type check failed: `session.user` can be empty, and line 34 assumes it isn't.
+What it means: if someone opens the app before sign-in finishes, this crashes.
+Fixing it by handling the empty case before the read.
 ```
 
-## Cross-File Validation
+Severity is not a difficulty setting. Both levels apply from the first change onward: a "start with errors only, add the rest later" ladder just defers the findings that cost the most to fix later.
 
-**Import/Export Matching:**
-```javascript
-// File A: lessons/api.js
-export function fetchLesson(id) { ... }
+## Integration
 
-// File B: LessonView.jsx
-import { fetchLessons } from '../lessons/api'; // ❌ Typo
-
-// VALIDATION ERROR: Import name doesn't match export
-```
-
-**Function Signature Changes:**
-```javascript
-// BEFORE: fetchLesson(id)
-// AFTER: fetchLesson(id, options) // Added param
-
-// ⚠️ WARNING: Callers need updating
-```
-
-**Circular Dependencies:**
-```javascript
-// lessons/api.js → progress/tracking.js
-// progress/tracking.js → lessons/api.js
-// ❌ ERROR: Circular dependency
-```
-
-## Spec Compliance Validation
-
-Load PROJECT_SPEC.md and validate:
-
-```javascript
-// Spec says: camelCase, try/catch, UPPER_SNAKE_CASE constants
-
-// Code:
-function FetchData() { // ⚠️ Should be camelCase
-  const maxRetries = 3; // ℹ️ Could be constant
-  await getData(); // ⚠️ Missing try/catch
-}
-
-// Validation:
-⚠️ Function name violates spec (should be `fetchData`)
-⚠️ Async call missing try/catch (spec requires error handling)
-ℹ️ Consider `MAX_RETRIES` constant
-```
-
-## Validation for Non-Developers
-
-Make errors educational:
-
-```
-❌ ERROR: `useState` is not defined
-
-What this means:
-  - You're using React hook without importing it
-  - React needs to know where functions come from
-
-How to fix:
-  Add: import { useState } from 'react';
-
-Why it matters:
-  - JavaScript needs imports to find functions
-```
-
-### Progressive Strictness
-
-**Week 1-2:** ERROR only
-**Week 3-4:** Add WARNING
-**Week 5+:** Add INFO
-
-## Integration with Build Protocol
-
-**BUILD MODE:**
-1. Feature implemented
-2. **[VALIDATION] Check for errors/warnings**
-3. Fix before showing user
-
-**DEBUG MODE:**
-1. Bug fix implemented
-2. **[VALIDATION] Ensure no new issues**
-3. Verify fix doesn't introduce problems
-
-**REFACTOR MODE:**
-1. Refactor implemented
-2. **[VALIDATION] Behavior unchanged**
-3. All imports resolve, no broken references
+- **`build-protocol`:** this runs at the validate step of every mode
+- **`specification-first`:** the spec is the source for every spec-compliance finding
+- **`modular-architecture`:** boundary and dependency rules belong in the lint gate, not here
 
 ## Success Metrics
 
-Validation working when:
-- ✅ Users never encounter undefined references
-- ✅ Import errors caught before testing
-- ✅ Spec violations flagged early
-- ✅ Refactors proven safe
-- ✅ Users learn from messages
+Working when:
+- ✅ Gate output is quoted, never assumed
+- ✅ No finding duplicates something the compiler already said
+- ✅ Spec violations are caught before review, with the section cited
+- ✅ A missing gate becomes a new gate, not a recurring manual check

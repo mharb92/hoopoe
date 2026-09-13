@@ -6,8 +6,9 @@ description: >
   discussions, backlog reviews, bug reports, refactor requests, or any mention of "let's build",
   "implement", "add", "broken", "messy", "refactor". Prevents costly rebuild cycles caused by
   unclear requirements. Creates persistent PROJECT_SPEC.md files, feature mini-specs, bug-fix
-  mini-specs, and refactor mini-specs. Works with build-protocol (happens before build/debug/refactor),
-  integrates with modular-architecture (informs module design) and TDD (spec drives test cases).
+  mini-specs, and refactor mini-specs. Architecture specs are finished only once a walking skeleton runs.
+  Works with build-protocol (happens before build/debug/refactor), integrates with modular-architecture
+  (informs module design) and TDD (spec drives test cases).
 ---
 
 # Specification-First Development
@@ -516,6 +517,18 @@ When a spec is updated, track the change:
 ### v1.0 - 2026-04-01
 - Initial spec created
 ```
+
+## Architecture specs are validated by a skeleton
+
+A spec written in prose is reviewed in prose, and review catches contradictions but not an architecture that does not work. So an **architecture** spec — stack, module boundaries, runtime seams, build pipeline — is not finished when it reads well. It is finished when the thinnest possible slice of it runs.
+
+**Build a walking skeleton before the next section depends on it:** app shell, one screen, one read, one write, every gate running, deployed where a human can open it. No features.
+
+- The skeleton proves the **mechanism**, never the schema or the domain model. Anything it has to persist goes to a disposable probe table, dropped when the data section lands, so it cannot pre-empt decisions it isn't making.
+- Name what it does **not** prove, so nobody reads it as broader assurance than it is.
+- If the skeleton shows the architecture spec is wrong, the spec is revised. It is not ploughed past — the skeleton exists precisely to be allowed to say no.
+
+The cost is one build cycle before the next section starts. The alternative is discovering the same thing after three more sections are written on top of it.
 
 ## Integration with Build Protocol
 

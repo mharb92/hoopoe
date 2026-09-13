@@ -1,0 +1,10 @@
+{
+  "run_id": "dr-full-2026-09-13",
+  "spent_usd": 1.3539,
+  "ceiling_usd": 36.00,
+  "chunks_done": 0,
+  "p6_verdict": "not-yet-readable",
+  "status": "paused-by-operator",
+  "updated_at": "2026-09-13T19:38:00Z",
+  "note": "Hand-written pause record, not driver output. Marwan paused mid-chunk-1, so run.mjs was killed before writeArtefacts and produced no report.json for this chunk. spent_usd is the cumulative figure from the driver log after batch 2 ($0.7690 + $0.5849); the batch-3 call in flight when the process was killed staged nothing and its rows return to the plan. 120 of 2728 rows are staged and durable in dictionary_review. Resume with: bash tools/dr/full-loop.sh dr-full-2026-09-13"
+}

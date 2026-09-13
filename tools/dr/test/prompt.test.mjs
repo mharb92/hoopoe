@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import {
   extractFencedBlock, buildSystemPrompt, buildUserPrompt, buildBatchMessage, loadRomanizationMap,
+  extractOutputContract,
 } from '../prompt.mjs';
 import { ENUMS_TEXT, LEVEL_RUBRIC_TEXT } from '../prompt-content.mjs';
 import { PROMPT_DOC_PATH, ROMANIZATION_MAP_PATH } from '../config.mjs';
@@ -31,6 +32,14 @@ Rows <<N>> of 2,728. Batch <<B>>.
 
 <<TSV>>
 \`\`\`
+
+## Output contract
+
+\`\`\`json
+{"id": 284, "level": 1}
+\`\`\`
+
+Field rules: every row carries level.
 `;
 
 test('extractFencedBlock pulls the fenced block after a heading', () => {
@@ -94,4 +103,30 @@ test('loadRomanizationMap throws if the file is missing', async () => {
 
 test('loadRomanizationMap throws if the file is empty', async () => {
   await assert.rejects(() => loadRomanizationMap(emptyMapPath), /romanization map at .* is empty/);
+});
+
+test('buildBatchMessage appends the output contract to the user turn', () => {
+  const { user } = buildBatchMessage(stubDoc, [{ id: 1, arabic: 'أَنَا' }], {
+    batchIndex: 1, totalBatches: 46, enums: 'E', levelRubric: 'R', romanization: 'M',
+  });
+  assert.ok(user.includes('## Output contract'));
+  assert.ok(user.includes('{"id": 284, "level": 1}'));
+  assert.ok(user.includes('Field rules: every row carries level.'));
+  assert.ok(user.indexOf('<<TSV>>') < user.indexOf('## Output contract') || user.includes('Batch 1/46'));
+});
+
+test('a prompt doc with no output contract section is a hard error, not a contract-free prompt', () => {
+  const noContract = stubDoc.slice(0, stubDoc.indexOf('## Output contract'));
+  assert.throws(() => buildBatchMessage(noContract, [{ id: 1, arabic: 'أَنَا' }], {
+    batchIndex: 1, totalBatches: 1, enums: 'E', levelRubric: 'R', romanization: 'M',
+  }), /section not found/);
+});
+
+test('real dr-prompt-scoped.md: the injected contract carries the scoped shape the validator enforces', () => {
+  const contract = extractOutputContract(realDoc);
+  for (const field of ['"level_conf"', '"enum_conf"', '"romanization"', '"arabic_vocalised"', '"native_check"']) {
+    assert.ok(contract.includes(field), `contract is missing ${field}`);
+  }
+  assert.ok(contract.includes('Vowel length never appears in `corrections`'), 'contract is missing the D210 rule');
+  assert.ok(!contract.includes('## Batching'), 'contract ran past its own section');
 });

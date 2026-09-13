@@ -4,9 +4,9 @@ description: >
   RED-GREEN-REFACTOR cycle for all features, bug fixes, and refactors. Write failing test BEFORE code,
   implement minimal code to pass, then refactor. Bug fixes get reproduction tests (RED → fix → GREEN).
   Refactors must pass all tests before AND after (safety net). Regression prevention through permanent
-  test coverage. Progressive strictness for non-developers (errors only → add warnings → add info).
+  test coverage.
   Integrates with build-protocol (tests before implementation), specification-first (spec drives tests),
-  and code-validation (validates test coverage). Optional for simple projects, recommended for production.
+  and code-validation (validates test coverage).
 ---
 
 # Test-Driven Development (TDD)
@@ -144,44 +144,6 @@ npm test
 ❌ NOT a refactor - it's a bug
 ✓ Revert changes
 ✓ Debug why behavior changed
-
-## Testing Strategies for Non-Developers
-
-### Option 1: Manual Testing
-- Simple, no setup
-- Fast for small changes
-- Good for learning
-
-### Option 2: Light Testing (Recommended)
-- Test critical paths only
-- Use Vitest or Jest
-- Run before big changes
-
-**Example:**
-```javascript
-// tests/favorites.test.js
-test('saving a favorite works', () => {
-  addFavorite('lesson-1');
-  expect(getFavorites()).toContain('lesson-1');
-});
-```
-
-### Option 3: Full TDD (Future Goal)
-- Test-first for everything
-- Automated CI/CD
-- Production-ready
-
-## Recommended Approach
-
-**Test Critical Paths:**
-- User authentication
-- Data persistence
-- Core user actions
-
-**Skip for:**
-- UI styling
-- Throwaway prototypes
-- Experiments
 
 ## Integration with Build Protocol
 

@@ -117,8 +117,11 @@ async function callJudge(ctx, rows, batchNo, batch) {
   const message = deps.message(rows, batchNo, totalBatches);
   const result = await deps.judge(rows, { transport: cfg.transport, message, model: cfg.model,
     effort: cfg.effort, maxTokens: cfg.maxTokens });
-  const usd = priceUsage(result.usage, result.model ?? cfg.model).usd;
-  batch.calls.push({ rows: rows.length, usage: result.usage, usd, stopReason: result.stopReason });
+  // A transport that meters itself wins over D243's table (D249): the CLI's usage
+  // blob counts harness preamble tokens, so pricing it would over-report the run.
+  const usd = result.usd ?? priceUsage(result.usage, result.model ?? cfg.model).usd;
+  batch.calls.push({ rows: rows.length, usage: result.usage, usd, stopReason: result.stopReason,
+    metered: result.usd !== undefined ? 'transport' : 'price-table', sessionId: result.sessionId });
   return result;
 }
 

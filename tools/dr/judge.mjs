@@ -1,7 +1,8 @@
 // The model seam (dr-runner-spec.md §4, dr-build-brief.md B2).
 //
 // One shape: judge(rows, cfg). Transport is config — `anthropic-direct` for the
-// pilot, `edge-function` once the `claude` function is deployed (open §J item).
+// pilot, `judge-cli` for the full loop (D249, and see judge-cli.mjs), and
+// `edge-function` once the `claude` function is deployed (open §J item).
 // Nothing above the seam knows which is in use.
 //
 // The judging model is named here, independent of whichever model orchestrates
@@ -163,7 +164,12 @@ export async function judge(rows, cfg = {}) {
   let result;
   if (transport === 'anthropic-direct') result = await callAnthropic(cfg);
   else if (transport === 'edge-function') result = callEdgeFunction(cfg);
-  else throw new JudgeError(`judge: unknown transport ${transport}`);
+  else if (transport === 'judge-cli') {
+    // Imported lazily so the CLI module's node:child_process dependency stays out
+    // of the offline suites that only exercise the direct path.
+    const { callClaudeCli } = await import('./judge-cli.mjs');
+    result = await callClaudeCli(cfg);
+  } else throw new JudgeError(`judge: unknown transport ${transport}`);
 
   if (result.stopReason === 'max_tokens') {
     throw new JudgeError(`judge: response truncated at max_tokens (${cfg.maxTokens ?? DEFAULT_MAX_TOKENS}) — ` +
@@ -178,5 +184,9 @@ export async function judge(rows, cfg = {}) {
     effort: result.effort,
     stopReason: result.stopReason,
     raw: result.raw,
+    // Present only when the transport meters itself (judge-cli). run.mjs prefers
+    // it over D243's price table; absent, nothing changes for the direct path.
+    usd: result.usd,
+    sessionId: result.sessionId,
   };
 }

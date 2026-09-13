@@ -136,6 +136,16 @@ export function pilotChecks(state) {
 
   const outPerRow = calls.filter((c) => c.rows > 0).map((c) => (c.usage?.output_tokens ?? 0) / c.rows);
   const outPerCall = calls.map((c) => c.usage?.output_tokens ?? 0);
+  // The split the B4 bullet recorded as owed: it decides any effort or output
+  // -format question, since thinking dominates output and is format-invariant.
+  // Only a transport that reports it fills this in; null elsewhere, not zero.
+  const thinkingPerCall = calls.map((c) => c.usage?.output_tokens_details?.thinking_tokens)
+    .filter((n) => typeof n === 'number');
+  const thinkingTotal = thinkingPerCall.reduce((n, t) => n + t, 0);
+  const outputTotal = outPerCall.reduce((n, t) => n + t, 0);
+  // Preamble the CLI transport pays per call, cold (created) vs warm (read).
+  const cacheCreate = calls.map((c) => c.usage?.cache_creation_input_tokens ?? 0);
+  const cacheRead = calls.map((c) => c.usage?.cache_read_input_tokens ?? 0);
   const usd = calls.reduce((n, c) => n + (c.usd ?? 0), 0);
   const usdPerRow = objects.length ? usd / objects.length : null;
 
@@ -170,6 +180,12 @@ export function pilotChecks(state) {
         maxTokensConfigured: state.config?.maxTokens ?? null,
         worstCallVsMaxTokens: state.config?.maxTokens
           ? (spread(outPerCall)?.max ?? 0) / state.config.maxTokens : null,
+        thinkingTokens: thinkingPerCall.length ? {
+          total: thinkingTotal, perCall: spread(thinkingPerCall),
+          shareOfOutput: outputTotal ? thinkingTotal / outputTotal : null,
+        } : null,
+        preambleTokens: { created: spread(cacheCreate), read: spread(cacheRead) },
+        metered: [...new Set(calls.map((c) => c.metered ?? 'price-table'))],
         usd, usdPerRow, usdExtrapolated: usdPerRow === null ? null : usdPerRow * TOTAL_ROWS }),
     check('P9', 'review_confidence distribution, extrapolated to 2,728 (recorded)', null,
       { distribution: scoreDist, extrapolated: scoreExtrapolated, rows: scores.length }),

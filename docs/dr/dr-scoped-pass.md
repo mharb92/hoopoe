@@ -16,7 +16,7 @@ Judged per row, one pass, unattended:
 |---|---|---|
 | 1 | `level` 1-5 + reason + conf | placement bands, ceiling+1 item sets, quiz gating. Nothing in the core loop works without it |
 | 2 | `arabic_vocalised` | TTS input and the harakaat display source. Unvocalised Arabic gets MSA vowels |
-| 3 | `romanization` | D47 Arabizi standard, every row |
+| 3 | `romanization` | D47 Arabizi standard, every row. Vowel length is judged here, never rule-fixed (D210) |
 | 4 | `pos` enum | distractor selection matches on it |
 | 5 | `register` | C2.2 filters on it |
 | 6 | `form_origin` | free alongside `register`, and re-collecting means a second full pass |
@@ -33,7 +33,7 @@ Judged per row, one pass, unattended:
 | held `level` / romanization / vocalised | collected, adjudicated later | same worksheet |
 | `pair` (`formula_pair` table) | not collected, needs a second pass over ~272 rows | before any release beyond the family test |
 | `constituents` on formula and frame rows | not collected, same second pass | same |
-| native spot check | human step | **in front of the family test**, not behind it. 40 rows sampled from `review_confidence = 3` |
+| native spot check | human step | **in front of the family test**, not behind it. 40 rows sampled from `review_confidence = 3`, at least 20 of them carrying a long vowel (D210) |
 | F1-F7 acceptance floors | human decision step | after the second pass, when the pool is whole |
 | third-party gap cross-check (D131) | human step | with F1-F7 |
 
@@ -57,6 +57,8 @@ Row score is the **minimum** across critical fields: a row is only as usable as 
 
 A flagged correction caps a row at 2 even when the model is confident about the fix, because this pass does not apply corrections. A row whose gloss is known-suspect and unfixed is not safe to teach from. That is what makes collecting the flags worth doing even with triage deferred.
 
+**Vowel length does not cap (D210).** It is part of the produced `romanization` value, not a correction, so a routine `oo` to `uu` rewrite leaves the row at 3. Uncertainty about it still shows up, through `romanization.conf`: an M drags the row to 2 by the minimum rule, which is the correct route. The alternative, treating every vowel-length rewrite as a flagged romanization correction, would cap most of the dictionary at 2 and leave the MVP pool near empty.
+
 **`native_verified`** is a separate boolean, default false. "The model was confident" and "a native speaker read it" are different claims; collapsing them into a 4th score value loses the distinction exactly where it matters.
 
 ---
@@ -75,7 +77,9 @@ Consistency, not verified accuracy. Every row is judged against one rubric, whic
 
 This is why the 40-row spot check samples **from the 3s specifically**: that is the population that reaches learners. Clean 3s mean the filter can be trusted and the rest deferred indefinitely. Dirty 3s are worth discovering at 40 rows rather than at 2,728.
 
-Recorded risk: R7 in `principles.md`.
+Vowel length is the sharpest case, and it has no cross-check (D210). Arabic script does not disambiguate it either: و carries both `oo` and `uu`, ي carries both `ee` and `ii`, so `arabic_vocalised` cannot verify the romanization and no deterministic rule can. Correctness rests on the model's lexical knowledge, with pilot check P10 detecting wholesale pass-through and the spot check sampling long-vowel rows.
+
+Recorded risk: R7 in `principles.md`, extended by D210.
 
 ---
 
@@ -86,7 +90,9 @@ The runner is unchanged except where the scope removes work:
 - **Prompt source** is `dr-prompt-scoped.md`, not `dr-prompt.md`. Fields 8 and 9 are dropped from the contract; `enum_conf` is added.
 - **No grouped batches.** The 272-row social-formula batch and the closed sets existed for pair and gap detection. With both deferred, sampling is a single seeded stratified shuffle over all 2,728 ids. §7.3 sliding slices are not needed and `sample.mjs` loses that path.
 - **Routing** drops the "any pair claim holds" rule (no pair claims are collected) and gains the §3 score. `route.mjs` writes `payload.routing` per field as before, plus `payload.review_confidence`.
+- **Rule-fix never touches vowel length (D210).** `rulefix.mjs` may not map `oo`, `uu`, `ee` or `ii` onto each other in any direction, asserted in its fixture tests. The source value is conflated, so any rule applied to it propagates the conflation.
 - **Pilot gate** keeps P1-P8 and gains **P9: the `review_confidence` distribution over the batch, extrapolated to 2,728.** P9 is the number that decides whether the MVP pool is large enough. P7's held rate is now a secondary reading.
+- **P10 (D210): the vowel-length flip rate over the batch.** Count the rows whose output romanization changes a long-vowel symbol against the source. Because the source is conflated, a pass doing the judgement flips a non-trivial share; a rate at or near zero means the model carried the source value through and the instruction did not take. Fix the prompt and re-run the pilot before the loop. There is no ground truth here, so P10 is a detector of pass-through, not of accuracy.
 - **Default batch size** starts at 60, not 120. Dropping two fields saves less output than romanization and `arabic_vocalised` cost. P8 still decides.
 - Promotion is unchanged: still a hand-run SQL step behind G1-G8, still nothing in the runner writes `dictionary`.
 

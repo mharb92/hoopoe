@@ -4,6 +4,8 @@ Injected verbatim by the batch runner, once per batch. Replaces `dr-prompt.md` f
 
 Differences from the frozen prompt: fields 8 (`pair`) and 9 (`constituents`) are removed, `enum_conf` is added, and the grouped-batch rule is gone because pairs are no longer being detected. Everything else is the frozen text, including the calibration warning, which is the main thing this prompt is carrying.
 
+Amended by D210 (chat 19): vowel length is a per-row judgement inside the produced `romanization` value. It sits explicitly outside the rule-fix suppression and is never a `corrections` entry.
+
 Model: Opus. Set inside `judge.mjs`, independent of the orchestrating session.
 
 ---
@@ -46,8 +48,11 @@ For each row return one object. Judge these fields:
 2. pos           map to the new enum. Note formula vs frame explicitly.
 3. register      neutral | slang | formal
 4. form_origin   dialect | msa_shared_dialect_pron | msa_identical | regional_variant
-5. romanization  rewrite to the Arabizi standard. Flag if the existing value
-                 disagrees with the Arabic rather than just the scheme.
+5. romanization  rewrite to the Arabizi standard. Vowel length is decided from the
+                 word itself and never carried over from the existing value: the five
+                 long vowels never collapse, and the current data conflates oo/uu and
+                 ee/ii, so the existing string is not evidence. Flag if the existing
+                 value disagrees with the Arabic rather than just the scheme.
 6. arabic_vocalised   fully vowelled, spelling out DIALECT pronunciation, not MSA.
                  This is the TTS input and the harakaat display source.
 7. corrections   meaning, harakaat, gender, root, conjugation, notes. Only where wrong.
@@ -55,7 +60,9 @@ For each row return one object. Judge these fields:
 Rules:
 - Never restate a clean row's unchanged fields. Omit what you are not changing.
 - Do not flag anything a rule fix already covers (character encoding, tag conversion,
-  scheme-wide romanization changes). Those run as one deterministic pass.
+  scheme-wide romanization changes). Those run as one deterministic pass. Vowel length
+  is not one of them. No rule can recover it from the existing value, so it is your
+  judgement, it belongs in the romanization value, and it is never a corrections entry.
 - Regional variants are variants, not errors.
 - Confidence H means: a native speaker would agree without hesitation. Anything else
   is M or L.
@@ -98,12 +105,14 @@ One JSON object per row. No prose, no markdown fences.
 | `level`, `level_reason`, `level_conf` | yes | every row, no exceptions |
 | `pos`, `register`, `form_origin` | yes | enum values only, no free text |
 | `enum_conf` | yes | one confidence covering all three enum fields |
-| `romanization` | yes | `changed: false` if already conformant |
+| `romanization` | yes | `changed: false` only if already conformant, vowel length included |
 | `arabic_vocalised` | yes | every row |
 | `corrections` | no | omit if empty; never emit an entry with no change |
 | `native_check` | yes | `true` forces human review regardless of conf |
 
 `corrections[].type` ∈ `meaning, harakaat, romanization, gender, pos, root, conjugation, tag, notes, duplicate, gap, variant`
+
+Vowel length never appears in `corrections`. It is part of the `romanization` value. Routing it through corrections would cap almost every long-vowel row at `review_confidence` 2 and collapse the MVP content pool, which filters on 3 (D210).
 
 Corrections are collected and staged. This pass applies none of them.
 

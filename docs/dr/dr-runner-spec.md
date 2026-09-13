@@ -41,6 +41,7 @@ Anthropic access for the pilot is an environment variable. The full 2,728-row lo
 | `rulefix.mjs` | the deterministic pass from `dr-prompt.md` |
 | `prompt.mjs` | builds the batch message from the frozen prompt file |
 | `judge.mjs` | the model seam |
+| `stream.mjs` | decodes one streamed model response (§7.9) |
 | `validate.mjs` | JSON contract check, one row at a time |
 | `route.mjs` | confidence and `native_check` to status |
 | `report.mjs` | pilot checks, acceptance floors, cost |
@@ -112,6 +113,8 @@ Consequence: a row with one weak field holds its strong fields until adjudicatio
 **7.7 Artefacts.** The run manifest and reports commit to the repo. Raw model output lives only in `payload`, verbatim, never as files in git.
 
 **7.8 Staging conflicts do nothing, they do not merge.** `dr-build-brief.md` B2 calls the write an "upsert", which reads as merge-duplicates. §5 is the behaviour: `on_conflict` do-nothing. Resume reads the ids already staged and skips them, so in normal operation a conflict never arises; the only way to reach one is a retry racing a partial write, where not overwriting the staged row is the point. A genuine re-judgement takes a **new `run_id`**, which keeps both judgements comparable — merging would destroy the earlier one with no record. `upsertReview` keeps a `merge: true` option for a deliberate re-stage, unused by the loop.
+
+**7.9 The model call is streamed, and decoding it is an eleventh module.** A batch's output runs to tens of thousands of tokens — the judging model bills thinking as output, and thinking varies several-fold by row — so a non-streamed request that large reaches the HTTP timeout before the model finishes, and a batch that hits `max_tokens` fails outright rather than degrading. Streaming is transport only: it changes nothing about what is sent, cached or returned. Decoding the wire format is a different job from being the seam, and inlining it pushed `judge.mjs` 40% past the size rule, so it is `stream.mjs` and §3's map gains a row. `max_tokens` default is 64,000, set clear of the worst case rather than at it.
 
 ---
 

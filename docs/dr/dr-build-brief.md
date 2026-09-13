@@ -55,6 +55,8 @@ That grep returns hits and always will: `db.mjs` names the table to read it. The
 
 Not code. One real batch of 60 rows, then stop. Report P1-P10 to chat.
 
+**A smoke batch of ~10 rows runs first**, checked against P1-P4 only. Those four are shape checks — every id back exactly once, schema conformance, enums, `level` present — and they fail the same way on 10 rows as on 60, so a prompt fault costs a tenth as much to find. P5-P10 need the full 60: a level spread, a verb share and a `review_confidence` distribution are not readable at 10. The smoke batch discharges nothing; it is a cheap check before the pilot, not part of the gate.
+
 Two decisions wait on the numbers: the `review_confidence` distribution (P9) decides whether the MVP pool is large enough, and output tokens per row (P8) decides batch size for the loop. A P8 extrapolation Marwan is not willing to pay stops the run before the loop, not after.
 
 P10 (D210) is a pass/fail on the prompt, not a number to weigh: a vowel-length flip rate at or near zero means the model carried the conflated source value through, so the prompt is fixed and the pilot re-run before the loop.

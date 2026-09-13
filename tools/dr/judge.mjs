@@ -8,10 +8,16 @@
 // the session. The key is read from DR_ANTHROPIC_KEY only: no fallback
 // variable, never logged, never written to a config file or a run artefact.
 
+import { readStream, StreamError } from './stream.mjs';
+
 export const JUDGE_MODEL = 'claude-opus-5'; // dr-prompt-scoped.md: "Model: Opus"
 export const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
 export const ANTHROPIC_VERSION = '2023-06-01';
-export const DEFAULT_MAX_TOKENS = 16000;
+// Streamed, so a large ceiling costs nothing until it is used. A 60-row batch
+// runs 150-250 content tokens per row plus a thinking budget that varies several
+// -fold by row, and a batch that hits the ceiling fails outright rather than
+// degrading, so the ceiling is set well clear of the worst case P8 might find.
+export const DEFAULT_MAX_TOKENS = 64000;
 // Opus 5 removed `temperature` (400 `temperature is deprecated for this model`)
 // and runs adaptive thinking by default, so determinism is no longer a sampling
 // setting. Depth is steered by effort instead, and thinking tokens are billed as
@@ -82,13 +88,6 @@ export function parseObjects(text) {
   return objects;
 }
 
-function messageText(body) {
-  return (body.content ?? [])
-    .filter((block) => block.type === 'text')
-    .map((block) => block.text)
-    .join('');
-}
-
 async function callAnthropic(cfg) {
   const {
     message, model = JUDGE_MODEL, maxTokens = DEFAULT_MAX_TOKENS,
@@ -109,18 +108,32 @@ async function callAnthropic(cfg) {
         ? [{ type: 'text', text: message.system, cache_control: { type: 'ephemeral' } }]
         : message.system,
       messages: [{ role: 'user', content: message.user }],
+      // Always streamed: a batch's output runs to tens of thousands of tokens and
+      // a non-streamed request that large hits the HTTP timeout before the model
+      // is done. Transport only — it changes nothing about what is sent or cached.
+      stream: true,
     }),
   });
 
-  const text = await res.text();
-  let body = text;
-  try { body = JSON.parse(text); } catch { /* keep raw text */ }
-  // Halts on any non-2xx (§7.6). The key never appears in the thrown detail.
+  // Halts on any non-2xx (§7.6). An error response is plain JSON, not a stream.
+  // The key never appears in the thrown detail.
   if (!res.ok) {
+    const text = await res.text();
+    let body = text;
+    try { body = JSON.parse(text); } catch { /* keep raw text */ }
     throw new JudgeError(`judge: anthropic ${res.status} ${body?.error?.type ?? ''} ${body?.error?.message ?? ''}`.trim(),
       { status: res.status, body });
   }
-  return { model, effort, raw: messageText(body), usage: body.usage ?? {}, stopReason: body.stop_reason };
+
+  // The seam presents one error type upward, whatever layer failed.
+  let decoded;
+  try {
+    decoded = await readStream(res.body);
+  } catch (err) {
+    if (err instanceof StreamError) throw new JudgeError(`judge: ${err.message}`);
+    throw err;
+  }
+  return { model, effort, ...decoded };
 }
 
 function callEdgeFunction() {

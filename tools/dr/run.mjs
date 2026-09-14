@@ -144,6 +144,12 @@ async function runBatch(ctx, batchNo, ids) {
   };
 
   const first = await callJudge(ctx, inputFor(ids), batchNo, batch);
+  const unparsed = first.objects?.unparsed ?? [];
+  if (unparsed.length > 0) {
+    batch.unparsed = unparsed.length;
+    deps.log(`batch ${batchNo}: ${unparsed.length} object(s) did not parse; the repair retry will re-request them. ` +
+      `first: ${unparsed[0].message} in ${unparsed[0].slice.slice(0, 200)}`);
+  }
   const seen = validateBatch(ids, first.objects);
   batch.firstPass = { missingIds: seen.missingIds, extraIds: seen.extraIds, duplicateIds: seen.duplicateIds };
   collect(ids, first.objects, seen);

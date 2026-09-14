@@ -1,0 +1,25 @@
+DR run dr-essential-2026-09-14
+stop reason: halted: Expected ',' or '}' after property value in JSON at position 304 (line 1 column 305)
+batches 0/?  staged 0  skipped(resume) 0
+spend $0.0000 of cap $14.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":0,"batches":[]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 FAIL level spread is at least 3 distinct values
+      {"levels":{}}
+P6 —    verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":null,"lowBandRows":0,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":null,"held":0,"rows":0,"nativeCheckRate":null,"nativeCheck":0}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":null,"outputTokensPerCall":null,"maxTokensConfigured":64000,"worstCallVsMaxTokens":0,"thinkingTokens":null,"preambleTokens":{"created":null,"read":null},"metered":[],"usd":0,"usdPerRow":null,"usdExtrapolated":null}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{},"extrapolated":{},"rows":0}
+P10 —    vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":null,"flipped":0,"rows":0,"flippedIds":[]}

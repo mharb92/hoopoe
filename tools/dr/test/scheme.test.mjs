@@ -10,6 +10,7 @@ import assert from 'node:assert/strict';
 import { migrateScheme, dropInitialHamzaGlottal } from '../rulefix.mjs';
 import { checkCharset, ALLOWED_ROMANIZATION_RE, validateRow } from '../validate.mjs';
 import { routeRow } from '../route.mjs';
+import { parseObjects } from '../judge.mjs';
 
 // --- deterministic symbol substitutions -----------------------------------
 
@@ -160,4 +161,27 @@ test('checkCharset: stray whitespace is still rejected', () => {
   assert.match(checkCharset('trailing '), /whitespace/);
   assert.match(checkCharset('double  space'), /whitespace/);
   assert.match(checkCharset('tab\there'), /\t|whitespace/);
+});
+
+// --- one malformed object must not destroy a paid-for batch ----------------
+
+test('parseObjects: keeps the good objects when one does not parse', () => {
+  // Middle object has an unescaped quote in a value — exactly the shape that
+  // halted the 615-row re-judge after two clean batches.
+  const text = '{"id":1,"level":2} {"id":2,"level_reason":"he said "no" loudly"} {"id":3,"level":4}';
+  const out = parseObjects(text);
+  assert.equal(out.length, 2, 'the two well-formed objects survive');
+  assert.deepEqual(out.map((o) => o.id), [1, 3]);
+  assert.equal(out.unparsed.length, 1);
+  assert.match(out.unparsed[0].slice, /he said/);
+});
+
+test('parseObjects: unparsed is hidden from enumeration, so it cannot reach a payload', () => {
+  const out = parseObjects('{"id":1} {"id":2,"x":"bad"quote"}');
+  assert.equal(Object.keys(out).includes('unparsed'), false);
+  assert.deepEqual(JSON.parse(JSON.stringify(out)), [{ id: 1 }]);
+});
+
+test('parseObjects: still throws when nothing at all parsed, and names the cause', () => {
+  assert.throws(() => parseObjects('{"a":"b"c"} {"d":"e"f"}'), /no JSON object found.*unparseable/s);
 });

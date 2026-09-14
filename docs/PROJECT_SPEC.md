@@ -1,5 +1,5 @@
 # Hoopoe (الهدهد) Project Spec
-Status: B, C1 to C11 approved · D to J pending. Learning principles and the section gate: `principles.md`.
+Status: B, C1 to C11, D and E approved · F to J pending. Learning principles and the section gate: `principles.md`.
 Reader: builder (Sonnet 5, Claude Code). Approved sections are binding; do not infer beyond them. `harvest §N` = findings from old code on `modular-rebuild-5`, reference only.
 
 ## B. Product
@@ -1185,7 +1185,173 @@ Discharges: **P5** tap-only audio on every surface, one control with replay, the
 Defers: P1, P2, P3, P4, P8, P9, P12, P13 → C4.2, C4.3, §C6, validated at build · P7, P11 → §C6, C3.2, though D.5 now renders both as learner-facing capability · P15, P16 unchanged at D62 and §C2.
 At risk: **P10** newly exposed, not newly weakened — D.8's Focused Study, My Vocabulary and TSV import sit outside the level ceiling, which D134's third regime covers deliberately; the dictionary-ref and romanization validators still apply. **P14** → R8: the typed-answer toggle is learner-set, so production-support withdrawal operates inside a ceiling the learner sets.
 
-## E to J
+## E. Architecture
+Mechanisms behind §B to §D. Record shapes are §F, auth and RLS are §G, when a gate runs is §H; §E defines only the client seam to what §G owns. Approved chats 22, 23 and 27 (D212-D223, D229-D238, D249-D259).
+
+### E.1 Stack and dependency budget (D212, D214, D215)
+- TypeScript everywhere. esbuild is the only bundler, pinned exactly. No dev server, no framework CLI.
+- Dependencies, closed for MVP. Runtime: `preact`, `@supabase/supabase-js`. Build: `typescript`, `esbuild`. Tools-only, never shipped: a HarfBuzz wasm shaper and `@resvg/resvg-js` (E.14).
+- View layer is Preact with TSX, hooks only, no state library. The deciding reason is singular: item-batched screens (D154) resolve a response inline while a sibling Arabic input holds focus and a caret, and D147 rides on exact keystrokes. A template-string re-render destroys that node; VDOM diffing keeps it. esbuild compiles TSX natively, no plugin.
+- Shared components expose no `class` and no `style` prop. Layout belongs to the parent's wrapper, which is what makes D143's `style=` ban survive a component library. Plain CSS files, no CSS-in-JS.
+- `tsc`: `strict` plus `noUncheckedIndexedAccess`, `exactOptionalPropertyTypes`, `noImplicitOverride`, `noUnusedLocals`, `noUnusedParameters`, `verbatimModuleSyntax`, `isolatedModules`. `any` and non-null `!` banned.
+- esbuild strips types and checks nothing, so `tsc --noEmit` is a separate blocking gate (E.15): a green build proves nothing about types.
+- Every external payload — Supabase row, edge response, model JSON — crosses **one typed parse boundary** taking `unknown` and returning a result type, never a cast. That covers schema drift and AI-output parsing together.
+- `dist/` is gitignored and built on every push (E.12). Built assets are committed (E.14); the bundle is not.
+
+### E.2 Repo layout and runtimes (D216, D217)
+- `src/{lib,config,domain,data,ui/{tokens,components,screens,app},sw}` plus `assets/ shared/ supabase/functions/ tools/ docs/`.
+- Import matrix: `lib`→nothing · `config`→`lib` · `domain`→`lib`,`config` · `data`→`lib`,`config`,`domain`,`shared` · `ui/components`→`lib`,`config`,`domain`,`ui/tokens`, **never `data`** · `ui/screens`,`ui/app`→everything above · nothing imports `ui` or `tools`.
+- No barrel files. Imports static, relative, explicit extensions. `import()` only at split points declared in the build script, which the lint reads.
+- **No top-level `let`/`var` in `src/`**: module-level mutable state in engines is harvest's whole-state-sync failure. The single named exception is the store instance (E.4).
+- Tokens are authored in one machine-readable source and the CSS custom properties are generated at build, because E.15's contrast gate computes ratios from them and the colour-literal lint needs them parseable.
+- Three runtimes, closed list: **browser** (the whole app, a static PWA, no server of ours) · **Supabase Edge Functions in Deno** (model policy, prompts, gateway, `runtime_flag` reads — everything the client must not hold) · **Node in a cloud session** (`tools/`: build, lints, DR, authoring, never shipped).
+- Edge-function source lives in `supabase/functions/` in this repo. No runtime code is shared between browser and Deno: `shared/` holds type declarations and constants only, type-checked by both.
+
+### E.3 App shell, boot and routing (D229)
+- No router library. **The app is a single history entry**: no `pushState`, no hash. Boot reads the URL once for §G's sign-in token, then `replaceState` strips it. A history stack would let iOS swipe-back leave a session without the D157 save-and-exit confirm.
+- Back is in-app only. Each route declares `back: Route | 'confirm-exit' | null` — one level up (D.3), not a previous-screen stack.
+- `Route` is a closed typed union carrying its own params; screens switch exhaustively, so a route with no screen is a `tsc` error.
+- **Each route declares `chrome: 'tabs' | 'none'`** and the shell reads it. No screen can toggle chrome, which makes alphabet practice and the in-session quiz their own routes rather than flags — D144's no-display-flag rule applied to navigation.
+- Boot: auth session → if none, auth route → one `loadBootstrap()` returning profile, track, `learner_track`, plan pointer, placement pointer and the resolver inputs in one round trip → D.3 stage resolution. §F decides whether that is a view, an RPC or N selects.
+- Screen-scoped Preact error boundary, plus an item-scoped one inside item-batched screens, because D.10 forbids an app-level error screen.
+
+### E.4 State ownership and the store seam (D230)
+- Four owners: server records are canonical (C1.5) and the client holds a cache only · resolved config is immutable per session · route and ephemeral UI state are hooks · unsynced answers are the outbox.
+- `lib/store.ts` is a small `createStore` + `useStore` over `useState`/`useEffect`. **Never `useSyncExternalStore`**, which is `preact/compat` and pulls in the React shim against E.1's budget.
+- `domain/app-store.ts` holds the single instance and is E.2's named exception. Its location is forced, not chosen: `ui/components` may import only `lib`, `config`, `domain`, `ui/tokens`, and `lib` cannot hold a domain-typed value.
+- Store contents, closed: `route`, `bootstrap`, `config`, `activity`, `outbox` summary, `connectivity`.
+- **Entry rule: a value enters the store only if two sibling subtrees need it or it must survive unmount.** Everything else is a hook. That rule is what stops the whole-state-sync failure returning as one god object.
+- No generic `set`. Two action exports: `navActions` (route only, importable anywhere in `ui/`) and `dataActions` (importable only from `data/**` and `ui/app/**`).
+- **The store seam is the only channel from `ui/components` to `data/`.** It is why a component reaches audio playback without an `onPlay` prop threaded through every caller, which is the decay D144 exists to prevent.
+
+### E.5 Data access seam (D231)
+- `src/data/` is the only module importing `@supabase/supabase-js`. One client, not exported.
+- Every read crosses E.1's parse boundary as `unknown → Result<DomainValue, DataError>` through a hand-written parser that **maps row to domain inside the parser**, so no generated DB type leaves `data/` and a schema rename is one compile error rather than silent drift.
+- `DataError = {kind: 'offline' | 'auth' | 'server' | 'parse'}`. Nothing throws across the seam; screens map `kind` to D.10 copy tiers.
+- **Write split is binary, so there is no per-call judgement**: an append-only learner event (answer, `review_event`, report) goes through the outbox; anything the next render needs an id from (profile create, plan create, lesson start) is a direct call that fails loudly.
+- No Realtime in MVP, stated so it is not wired.
+
+### E.6 Offline queue and sync (D232, D180)
+- IndexedDB, one object store — not localStorage, which is synchronous, ~5MB and has no transactional append, which is how an answer goes missing between two paints.
+- Entry: client uuid as the server's idempotency key, monotonic `seq`, `kind`, payload, `createdAt`, `attempts`.
+- **Flush is serial in `seq` order and stops on the first failure**, because a `review_event` references an answer.
+- Triggers: boot, `online`, `visibilitychange` to visible, after any successful direct call, and a backoff timer while non-empty. Never a poll when empty.
+- A 4xx other than 401/408/429 is poison: moved to a `dead` store, never retried, **keeps the indicator lit and files through the same §H report path**, because D180's "held safely" is false for a dropped answer.
+- Connectivity derives from request outcomes, never from `navigator.onLine`, which reports true on a captive portal. `onLine === false` is only a fast-path skip; `online` is only a flush trigger.
+- The indicator's conditions are exactly D180's two — outbox non-empty, or a request failed offline on this screen — clearing on next success or route change, so it is provably never a standing readout. Sync over 3s renders through the same tier hook as loading.
+- **Boot flush is time-boxed from `hot` config.** On timeout the position resolves from server records with pending entries applied as a **forward-only local overlay**, discarded the moment the flush lands. That overlay is the single place C1.5's "never device state" is bent, and only ever by events already durably queued.
+
+### E.7 Service worker (D233, D254)
+- Registers on the production path only, as a build-time constant (E.10), so a preview bundle contains no registration call at all.
+- Precaches the E.10-emitted list — shell, fonts, token CSS, mascot — cache-first keyed by build hash, so a new build invalidates wholesale.
+- Audio cache-first and never revalidated, because C9.5 paths are immutable. Capped by entry count with LRU eviction, cap in config; the current lesson's manifest is never evicted.
+- **Every Supabase request is network-only and never cached**: a cached API response is the whole-state-sync failure in a new place.
+- **No wildcard navigation fallback. A request not in the precache list goes to network, navigations included.** Previews nest under the production scope, so a production service worker controls preview URLs whether or not previews register one; the SPA fallback that would serve production's shell at a preview path exists to support path routing, and E.3 has none. Offline still works, because a navigation to the production start URL is an exact precache hit. A test asserts a preview-path navigation is not served from cache.
+- The service worker does no sync and no queueing; E.6 is in-page. It is a cache and nothing else, which is also what makes it removable for E.16.
+
+### E.8 Config resolver and pinning (D234, D238, C10.6, C10.7)
+- `src/config/` holds TS modules, not JSON, so the document type-checks: base plus track overlays plus learner-type overlays.
+- **The version is the content hash of the resolved document, emitted by the build.** A hand-bumped version can be missed, and a missed bump silently reuses one version across two documents, which is what R6 pins against.
+- `resolveConfig(track, learnerType, settings)` is pure, total and deep-freezes its output. Order: base → track → learner type → Settings.
+- **A track overlay's type excludes the C10.5 learner-global keys**, so C10.5's prohibition is a compile error rather than a runtime check.
+- The resolver returns **two objects, `frozen` and `hot`**, not one, so C10.7's classes are mechanical per key instead of a judgement at every read site.
+- **The client never reads `runtime_flag`** (C10.6 is server-read only). A kill switch reaches the client only as a degraded gateway response.
+- **The pinning record carries the resolved frozen document itself, not a version pointer.** A pointer has no runtime reader: a client on a later build cannot resolve a historical version, so the scheduler would read current frozen intervals for a plan pinned two versions back — the exact drift R6 exists to stop. A `src/config/` edit therefore cannot retroactively alter any record already written, and any build can read any record. The version hash is stored beside it for attribution. §F chooses the column; §E requires only that the document travels with the record.
+
+### E.9 AI gateway and audio seams (D235, D236)
+- **Gateway.** `data/gateway.ts`, one function `callGateway(task, input, {signal})` over the closed C5.7 task set. **The request type has no `model` and no `max_tokens` field**, so C5.8's client-never-sends rule is structural rather than a review item.
+- Three-way result: `ok` | `degraded(reason)` | `failed`. **A degrade is a value, not an error**, because D.10 requires the learner path to continue and a throw puts it in the error branch.
+- The client retries a transport failure once and **never retries a degrade**, which would double-bill; bounded retry with backoff is server-side per C5.10. Every call is abortable and every caller ties the signal to unmount, so a checkpoint turn cannot bill after save-and-exit. A per-task client deadline comes from `hot` config; a deadline hit is `failed`, not `degraded`. No streaming in MVP. `ai_call` rows are written server-side only.
+- **Audio.** `audioUrl(key)` is a pure function in `domain/` over a bucket base in `config/`: the path derives from the key, so there is no lookup round trip and no provider URL, key or voice id in the client.
+- Three tiers: Cache Storage → **bounded** in-memory LRU → network. Object URLs are revoked on eviction, or the leak replaces it. `prefetchManifest(keys)` fires at lesson start and is never awaited, so playback does not wait on it.
+- **One app-scoped `HTMLAudioElement`, unlocked on the first tap and reused for every clip**, because iOS ties playback to the gesture-unlocked element. It is held through the E.4 store seam rather than at module scope, so E.2's exception stays at exactly one. Slow is `playbackRate = 0.75` on that element, no second asset.
+- The audio module reports failure only; the **screen** decides C9.7's swap to the script counterpart, because the audio module must not know what is graded.
+
+### E.10 Build script (D249, D250, D212)
+- `tools/build/` is an orchestrator plus six emitters: `build.mjs` (CLI, orchestration, the single writer) · `tokens.mjs` · `bundle.mjs` (esbuild plus metafile) · `html.mjs` · `manifest.mjs` · `precache.mjs` · `config-hash.mjs`. The token emitter is a module rather than inline code because E.15's contrast gate reads it too.
+- It emits: the bundle, `index.html` with hashed refs and the D194 font preload, the PWA manifest from `BRAND`, the generated token CSS, the service-worker precache list, and the E.8 config content hash.
+- **One flag, `--base-path`, is the only difference between a production build and a preview build.** It reaches the manifest `scope` and `start_url`, the HTML refs and the service-worker scope, and never becomes a module constant that `domain` or `ui` reads.
+- **Service-worker registration is an esbuild `define`, not a runtime `location.pathname` check**, so the preview bundle has no registration call after dead-code elimination. A structural guarantee rather than a conditional one.
+- **Declared split points: none.** E.2's mechanism stays and the list is empty. A chunk fetched mid-session on a flaky connection is D180's failure in a new place, and the service worker precaches the shell anyway.
+- **esbuild is passed `tsconfig`**, so JSX settings have one source. Two configs that must agree is the same failure class as a hand-bumped config version.
+- **The build is a pure function of the tree plus `--base-path`**: no timestamps, no generated ids, hashes from content only. G-BUILD builds twice into separate directories and diffs them; **the first is deployed and the second discarded.** Nondeterminism would churn the E.8 config hash, and a churning hash is the R6 drift D238 exists to stop, so this is the cheapest available protection of the pinning record.
+
+### E.11 Lints and type-check projects (D251, D252, D218, D237)
+- **The lints parse; they do not grep.** TypeScript's compiler API for TS and TSX, a small scanner for CSS. A grep is evaded by property access, and — the sharper half — a comment or a string containing `style=` fails a grep lint, and a false positive in a blocking gate is how a gate gets switched off.
+- `tools/lint/graph.mjs` builds one import graph from the TS program. Cycles, the layer matrix, unused exports, barrel files, banned imports and the declared split-point list all read that one graph, so a rule is about ten lines.
+- **Every finding prints its decision id** (`D216 layer violation: …`). A rule that cannot say what it enforces gets deleted instead of fixed.
+- **No suppression comments.** E.2's and E.6's named exceptions are paths in the lint config, reviewable in one file, never annotations at the site.
+- Unused-export roots: the build script's entry list, test files, **and `shared/`**, whose Deno consumer the `src/` program cannot see.
+- Three `tsc --noEmit` projects: `src/` and `supabase/functions/` in full, and `tools/` as `allowJs` plus `checkJs` over JSDoc covering `tools/build/` and `tools/lint/` only. `tools/dr/` is excluded: twelve modules with 111 passing tests, never shipped, and DR ends. Converting it would gate §E on DR and buy nothing.
+- **`tools/lint/` is replaced by ESLint plus typescript-eslint at 600 lines**, excluding tests. D218 made hand-rolled lints the reversible call at "a few hundred lines", which is unmeasurable and therefore never fires.
+
+### E.12 Hosting, CI and previews (D213, D253, D254)
+- GitHub Pages, built by GitHub Actions from source. One vendor, no new account, and the deploy configuration is a workflow file in the repo rather than dashboard state — untracked infrastructure is a named harvest failure. Site serves at `/hoopoe/`; a custom domain later is a DNS change.
+- **Served source is a `gh-pages` branch**: production at the branch root, previews in `pr-<n>/` directories, deploys as scoped commits. Pages' artifact deploy replaces the whole site, so production and previews cannot coexist in it. This does not reintroduce what D212 removed: those bytes are never on `main`, never a merge source and never reviewed as one tree with source, which is what the drift class requires.
+- Workflows: `ci.yml` runs the gates job and the build job on `pull_request` and on push to `main`, then deploys; `cleanup.yml` deletes `pr-<n>/` on PR close, or the branch grows forever.
+- **Deploy only when `head.repo.full_name == github.repository`, and on `pull_request`, never `pull_request_target`.** Otherwise a fork PR runs untrusted code holding the `gh-pages` write token.
+- Concurrency: per-ref with cancel-in-progress for gates; a single serialized group for `gh-pages` pushes with cancel-in-progress **false**, because it is one branch with many writers.
+- Actions pinned by commit SHA, not tag — the same argument as E.1's exact esbuild pin, applied where the supply-chain surface actually is. Node pinned in `.nvmrc`. `npm ci` from a committed lockfile.
+- **`npm run gate:*` is the only invocation path.** The workflow calls nothing else, so CI and a cloud session cannot drift in how a gate runs. `npm run gates` runs all seven.
+- A PR's preview build **is** G-BUILD, so the preview is the artefact of the gate passing. The preview URL is posted as one comment, updated in place.
+- Previews write to the **production** Supabase project. D222's disposable probe table covers the walking skeleton; §G owns it in general.
+- The workflow builds static output and never touches the database, so it does not reintroduce the reason Supabase's GitHub integration is disconnected.
+
+### E.13 Generated DB types (D214, D255)
+- `tools/db/gen-types.sh` **is** the recorded command — a script that gets run, not prose beside a file that drifts. It writes `src/data/database.types.ts`, committed.
+- Generation runs in a cloud session against `pniwgnjljpkiimssortp`. It reaches `api.supabase.com`, which is not on the `hoopoe-dr` Custom network list, so the host and a Supabase access token are a §J prerequisite. There is no local alternative: `--local` needs Docker and `--db-url` needs a different host on a non-HTTPS port.
+- Nothing outside `src/data/` sees a generated DB type (E.5).
+- **The gate is a reminder, not a proof.** G-DBTYPES fails a PR touching `supabase/migrations/**` without touching the types file; a whitespace touch passes it, and a hand-edited types file still compiles. CI holds no database credentials by design (§G), so this limit is recorded rather than engineered away.
+- The walking skeleton (D222) is **not** blocked on it: E.5's parsers take `unknown`, and the generated types are authoring convenience inside `data/`.
+
+### E.14 Assets (D194, D197, D257, D258)
+- `assets/src/` holds sources — TTF, mascot SVG, OFL licences — and `assets/build/` holds outputs. Both committed, in separate folders. Outputs are not generated in CI: assets are built rarely and reviewed by eye, and a CI-only build step cannot be debugged.
+- `tools/assets/` holds the generators, and **the toolchain is Node-only**: a HarfBuzz wasm subsetter and `@resvg/resvg-js`, not `fonttools`/`pyftsubset`. A Python step would be a fourth runtime against E.2's closed list of three.
+- **Fonts** subset by codepoint, retaining layout tables. Arabic shaping runs on GSUB and GPOS, so a glyph subset gives disconnected letters, a broken lam-alef and mispositioned harakaat. `init`, `medi`, `fina`, `rlig` and `mark` retained explicitly. The learning face subsets to the whole Arabic block and drops Latin coverage. Learning face preloaded with `font-display: block`; display face lazy with `swap`. All four families are OFL: licence shipped, original names preserved.
+- **The regeneration session emits a shaping trace** — glyph ids and positions for D.13's three strings, a joined word, a lam-alef and a fully vocalised string — to `assets/build/fonts/<family>.shaping.json`, committed beside the font. CI re-runs the same trace and diffs it. A feature-table assertion alone cannot catch mispositioned harakaat, since GPOS present does not mean marks are right.
+- **Mascot and icons**: SVG source, rasters generated from it, PWA icons at 192 and 512, a maskable 512 respecting the 40% safe zone, a 180 Apple touch icon. No staleness gate: a stale raster is visible, and eye review is what D197 accepts for these.
+- **The build copies and hashes `assets/build/`; it never generates.** The precache list therefore derives from a real directory listing.
+
+### E.15 Gate contract (D218, D237, D250, D251, D256, D257)
+Seven gates, closed. §E names each gate and what fails it; §H owns when each runs.
+
+| gate | what runs | fails on |
+|---|---|---|
+| G-TYPES | `tsc --noEmit`, three projects (E.11) | any type error, `any`, a non-null `!` |
+| G-TEST | `node --test` | any failing case |
+| G-LINT | `tools/lint/` | any rule below |
+| G-BUILD | the build twice, outputs diffed (E.10) | a build error, or a diff between the two builds |
+| G-DBTYPES | changed-path check | `supabase/migrations/**` changed and `src/data/database.types.ts` did not |
+| G-CONTRAST | ratios computed from the token source | a role below its floor · a semantic token with no role · a component token aliasing a primitive |
+| G-FONTRENDER | font tables plus the shaping-trace diff | a missing layout feature · incomplete Arabic coverage · any shaping-trace diff |
+
+G-LINT rules: import cycle · layer violation against E.2's matrix · unused export · barrel file · top-level `let`/`var` in `src/` outside the named exception · empty `catch` or `.catch(() => {})` · `style=` in a component · duplicate CSS selector · colour literal outside the primitive layer · `import()` outside a declared split point · `dataActions` imported outside `data/**` or `ui/app/**` · `@supabase/supabase-js` or `fetch(` outside `data/**` · `localStorage` or `indexedDB` outside the two persistence modules named in the lint config · any `preact/compat` import · **a leading-slash URL literal in `src/`** (E.16) · the config-literal rule: `learner_type ===`, `track ===`, `.learnerType ===`, `switch (learnerType)` and the literals `'heritage'`, `'beginner'`, `'palestinian'` anywhere outside `src/config/`, because a bare grep is evaded by property access.
+
+G-CONTRAST detail: 4.5:1 body, 3:1 large text and any meaningful control boundary, measured against the **lightest** surface token in the declared elevation set, not the base, because elevation is lighter surfaces. **Each semantic token declares a role** — `body-text`, `large-text`, `boundary` or `decorative` — and the gate reads roles rather than a hand-maintained pair list, whose failure mode is a new token silently unchecked. **A token with no role fails**: default-deny is the load-bearing half. **A component-layer token may only alias a semantic token**, or it would carry no role and still not be a colour literal, so nothing would check it.
+
+### E.16 Portability and the native-app path (D259, B6)
+The B6 target is a **Capacitor wrapper of the same bundle**, and §E commits to the properties that keep it a wrapper rather than a rewrite, not to the vendor. Four already hold and one is new:
+- **No server of ours** (E.2), so there is no backend to port.
+- **Single history entry, no URL routing** (E.3). A native shell has no address bar; a hash- or path-routed app needs a routing rewrite. This buys the most.
+- **Every platform capability already sits behind a named seam** — storage (E.6), audio (E.9), network (E.5). A wrapper replaces a seam implementation, not call sites.
+- **The service worker is a cache only and removable without behaviour change** (E.7). A wrapper ships assets natively and registers none.
+- **New: every asset reference in the bundle is relative**, enforced by the G-LINT leading-slash rule. A wrapper serves from `capacitor://localhost`, where one absolute path breaks the app, and it is the only item here that is expensive to retrofit. `--base-path` is build-time and reaches only the manifest, the HTML and the service-worker scope.
+
+Explicitly not done now: no Capacitor dependency, no native project in the repo, no abstraction layer over native APIs. Sign-in on an installed app (Q13) and push notifications are §G and B6, not §E.
+
+### E.17 Owned elsewhere
+- **§F**: every record shape §E moves — the outbox payloads, the E.8 pinning column, `loadBootstrap`'s shape as a view, an RPC or N selects, and the D222 `skeleton_probe` table that is dropped when §F lands.
+- **§G**: auth, RLS, the two sign-in deep links, the gateway's server side, and preview builds writing to the production project.
+- **§H**: when each E.15 gate runs, who deploys edge functions, and the report path E.6's poison entries file through.
+- **§J**: the `api.supabase.com` prerequisite for E.13, and enabling Pages on the repo before the first deploy.
+- **§I**: the B6 wrapper proof, which E.16 makes cheap and does not itself demonstrate.
+
+### E.18 Principles check
+Discharges: none newly — §E is mechanism, and every principle it touches is discharged in §C or §D. What it does discharge is **R6's mitigation** (E.8): the pinning record carries the resolved frozen document, so a `src/config/` edit cannot retroactively redefine a band, a learned word or a quiz outcome for records already written, and the build emits the version hash rather than a person remembering to bump it.
+Defers: P1, P2, P3, P4, P12, P13, P15, P16 → §C, untouched by §E · **P5** → C9 and D.12, with E.9 supplying tap-only playback, the single unlocked element and the C9.7 swap decided by the screen rather than by the audio module · **P6** → C4.8 and D.2, with E.4's ownership rule keeping `script_stage` server-canonical so a rung cannot advance on device state · P11, P17, P18 → §C and §D.
+At risk: **P7, P8, P9** → E.6's boot overlay. A timed-out boot flush resolves position from server records with pending entries applied as a forward-only local overlay, the single place C1.5's "never device state" is bent, and mastery, intervals and the daily rate limit all read position. Mitigated by its bounds rather than by wording: pending-only, forward-only, discarded the moment the flush lands, and every entry in it is an event already durably queued, so the overlay can only show the position the server is about to hold. Not recorded as a new risk on that basis. **P14 → R8 unchanged**, and **P10 → R7** unchanged, both owned outside §E.
+
+## F to J
 Not yet specified.
 
 Owed to §F by DR (D127-D132), recorded here so they are not lost when §F is written:

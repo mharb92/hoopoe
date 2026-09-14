@@ -14,9 +14,9 @@
 #         invocation (run.mjs:194), so the remainder is computed here and passed
 #         down per chunk. On the judge-cli transport the figure it caps is a
 #         LIST-PRICE EQUIVALENT of Claude Code allowance, not a card charge
-#         (D249) — the number is unchanged and is still a hard stop.
+#         (D260) — the number is unchanged and is still a hard stop.
 #   D248  batch size stays 60.
-#   D249  transport is judge-cli. Run it with the API key removed from the
+#   D260  transport is judge-cli. Run it with the API key removed from the
 #         environment, so the billing path cannot execute even by mistake:
 #
 #             env -u DR_ANTHROPIC_KEY bash tools/dr/full-loop.sh <run-id>
@@ -36,13 +36,13 @@ cd "$REPO_ROOT" || exit 1
 RUN_ID="${1:-dr-full-2026-09-13}"
 CEILING=36.00          # D247 cumulative ceiling
 STAGE1_CAP=4.00        # D247: chunk 1, the D246 checkpoint window
-# 2, not 5: three batches are already staged (two on the API, one the D249
+# 2, not 5: three batches are already staged (two on the API, one the D260
 # verification batch), so a 2-batch chunk lands the D246 P6 checkpoint at planned
 # batch 5 — 300 rows — exactly where D246 puts it.
 CHUNK_BATCHES=2
 BATCH_SIZE=60          # D248
 MAX_CHUNKS=20          # a safety stop, not a target
-TRANSPORT=judge-cli    # D249
+TRANSPORT=judge-cli    # D260
 # Batches this run is authorised to execute, across all chunks. 120 rows are
 # already staged, so 6 more batches lands at 480 rows — the closest stop under
 # the 500 Marwan set. Not the full 2,728: this run exists to produce numbers.
@@ -89,7 +89,7 @@ write_state() {
 JSON
 }
 
-# --- pre-flight (D249) ------------------------------------------------------
+# --- pre-flight (D260) ------------------------------------------------------
 # Fail closed before spending anything, not after. An intention to use the right
 # transport is what failed the first time; these remove the capability instead.
 if [ -n "${DR_ANTHROPIC_KEY:-}" ]; then
@@ -98,7 +98,7 @@ if [ -n "${DR_ANTHROPIC_KEY:-}" ]; then
   exit 6
 fi
 if [ "$TRANSPORT" != "judge-cli" ]; then
-  echo "REFUSING TO START: transport is '$TRANSPORT', expected judge-cli (D249)." >&2
+  echo "REFUSING TO START: transport is '$TRANSPORT', expected judge-cli (D260)." >&2
   exit 6
 fi
 
@@ -121,7 +121,7 @@ while [ "$CHUNK" -lt "$MAX_CHUNKS" ]; do
     cap="$remaining"
   fi
 
-  # D249 batch budget: this run stops at 480 rows, it does not go to 2,728.
+  # D260 batch budget: this run stops at 480 rows, it does not go to 2,728.
   left=$((BATCH_BUDGET - RAN))
   if [ "$left" -le 0 ]; then
     log "STOP: batch budget $BATCH_BUDGET reached (480 rows). Not continuing to 2,728 — report time."
@@ -165,7 +165,7 @@ while [ "$CHUNK" -lt "$MAX_CHUNKS" ]; do
   stop_reason=$(node -e "console.log(require('$REPO_ROOT/$RUN_DIR/report.json').stop_reason)")
   ran_now=$(node -e "console.log(require('$REPO_ROOT/$RUN_DIR/report.json').totals.batches_run)")
 
-  # D249 positive proof, per chunk: the run really went through the Claude Code
+  # D260 positive proof, per chunk: the run really went through the Claude Code
   # CLI on the pinned model. `metered: transport` can only be set by a response
   # that carried total_cost_usd, and the manifest records what was asked for.
   proof=$(node -e "

@@ -1,7 +1,7 @@
 // The model seam (dr-runner-spec.md §4, dr-build-brief.md B2).
 //
 // One shape: judge(rows, cfg). Transport is config — `anthropic-direct` for the
-// pilot, `judge-cli` for the full loop (D249, and see judge-cli.mjs), and
+// pilot, `judge-cli` for the full loop (D260, and see judge-cli.mjs), and
 // `edge-function` once the `claude` function is deployed (open §J item).
 // Nothing above the seam knows which is in use.
 //

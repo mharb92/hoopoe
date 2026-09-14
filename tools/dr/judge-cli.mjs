@@ -1,4 +1,4 @@
-// Third transport behind the model seam: the Claude Code CLI (D249).
+// Third transport behind the model seam: the Claude Code CLI (D260).
 //
 // Why it exists: D247 reasoned that the run "stays under the roughly $40
 // promotional balance". That balance is on the Claude Code account, not the
@@ -9,7 +9,7 @@
 // premise is what was wrong, not the measurement.
 //
 // Nothing above `judge(rows, cfg)` knows which transport ran, with one forced
-// exception named in D249: spend comes from the CLI's own `total_cost_usd`, not
+// exception named in D260: spend comes from the CLI's own `total_cost_usd`, not
 // from D243's price table, because the CLI's usage blob counts harness preamble
 // tokens and pricing those would mis-meter the run.
 //
@@ -174,7 +174,7 @@ export async function callClaudeCli(cfg) {
     usage: envelope.usage,
     // The CLI reports end_turn / max_tokens in the same vocabulary judge() checks.
     stopReason: envelope.stop_reason ?? null,
-    // Taken directly, never re-priced (D249). D243's table would count the
+    // Taken directly, never re-priced (D260). D243's table would count the
     // harness preamble sitting in `usage` and over-report the run.
     usd: envelope.total_cost_usd,
     sessionId: envelope.session_id,

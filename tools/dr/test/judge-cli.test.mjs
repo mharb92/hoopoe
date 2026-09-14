@@ -1,4 +1,4 @@
-// Offline suite for the CLI transport (D249). No network, no CLI spawn: the
+// Offline suite for the CLI transport (D260). No network, no CLI spawn: the
 // child process is stubbed, so what is under test is the argument list, the
 // child's environment, and — mostly — the envelope assertions that decide
 // whether a response is trusted at all.

@@ -11,7 +11,7 @@ export const REPO_ROOT = path.join(MODULE_DIR, '..', '..');
 
 export const TOTAL_ROWS = 2728;
 export const DEFAULT_BATCH_SIZE = 60; // dr-scoped-pass.md §6: scoped default, not the frozen 120.
-export const TRANSPORTS = ['anthropic-direct', 'edge-function'];
+export const TRANSPORTS = ['anthropic-direct', 'edge-function', 'judge-cli'];
 
 // The only two places in tools/dr that name a doc file. prompt.mjs's loaders
 // take a path parameter; callers (run.mjs, tests) get the path from here.

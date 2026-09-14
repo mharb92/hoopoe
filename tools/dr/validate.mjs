@@ -28,6 +28,26 @@ function isConf(v) {
  * expectedId: the id this object was requested for.
  * Returns { valid: boolean, errors: string[] }.
  */
+// Allowed romanization characters (romanization-map.md §3.4, chat-26 scheme).
+// `TH` is one grapheme, so a capital H is legal only as its second half; every
+// other capital, every digit but 3 and 7, and all other punctuation are rejected.
+// The map has claimed "the validator rejects anything else" since D47; until now
+// nothing enforced it and capitals, diacritics and stray punctuation all passed.
+export const ALLOWED_ROMANIZATION_RE = /^(?:TH|[SDT]|[a-z37'-])+$/;
+
+/** Returns null when clean, else the first offending character. */
+export function checkCharset(value) {
+  if (typeof value !== 'string' || value.length === 0) return '(empty)';
+  for (let i = 0; i < value.length; i++) {
+    if (value.startsWith('TH', i)) { i += 1; continue; }   // one grapheme
+    const ch = value[i];
+    if (ch === 'S' || ch === 'D' || ch === 'T') continue;  // the emphatics
+    if (/[a-z37'-]/.test(ch)) continue;
+    return ch;
+  }
+  return null;
+}
+
 export function validateRow(obj, expectedId) {
   const errors = [];
 
@@ -58,6 +78,9 @@ export function validateRow(obj, expectedId) {
   if (!rom || typeof rom !== 'object' || !isNonEmptyString(rom.value) || !isConf(rom.conf) ||
       typeof rom.changed !== 'boolean') {
     errors.push('romanization: must be {value, conf, changed}');
+  } else {
+    const bad = checkCharset(rom.value);
+    if (bad) errors.push(`romanization.value: illegal character ${JSON.stringify(bad)} in "${rom.value}"`);
   }
 
   const vocalised = obj.arabic_vocalised;

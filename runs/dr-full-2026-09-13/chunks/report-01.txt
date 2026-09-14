@@ -1,0 +1,25 @@
+DR run dr-full-2026-09-13
+stop reason: max-batches
+batches 2/46  staged 120  skipped(resume) 180
+spend $1.7141 of cap $4.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":120,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":1}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":10,"2":24,"3":53,"4":33}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.11764705882352941,"lowBandRows":34,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.8666666666666667,"held":104,"rows":120,"nativeCheckRate":0.09166666666666666,"nativeCheck":11}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":406.68333333333334,"p50":504.75,"p90":1255,"max":1255,"mean":722.1444444444445},"outputTokensPerCall":{"min":1255,"p50":24401,"p90":30285,"max":30285,"mean":18647},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.473203125,"thinkingTokens":{"total":34948,"perCall":{"min":1011,"p50":14325,"p90":19612,"max":19612,"mean":11649.333333333334},"shareOfOutput":0.6247296258558124},"preambleTokens":{"created":{"min":6518,"p50":10191,"p90":10279,"max":10279,"mean":8996},"read":{"min":30412,"p50":30412,"p90":30412,"max":30412,"mean":30412}},"metered":["transport"],"usd":1.7140529999999998,"usdPerRow":0.014283774999999999,"usdExtrapolated":38.966138199999996}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":4,"2":100,"3":16},"extrapolated":{"1":91,"2":2273,"3":364},"rows":120}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.125,"flipped":15,"rows":120,"flippedIds":[13,2512,151,1490,285,1509,257,884,241,938,991,1852,2605,1241,2519]}

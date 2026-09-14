@@ -1,0 +1,18 @@
+{
+  "run_id": "dr-effort-medium-2026-09-13",
+  "seed": 2178565924,
+  "batch_size": 60,
+  "transport": "judge-cli",
+  "model": "claude-opus-5",
+  "effort": "medium",
+  "max_tokens": 64000,
+  "spend_cap_usd": 2,
+  "stage": true,
+  "judge_from": null,
+  "rows_from": "/tmp/claude-0/-home-user-hoopoe/8c480794-3f2b-515d-8e2b-8cd4e4c60cad/scratchpad/effort-rows.json",
+  "prompt_doc": "docs/dr/dr-prompt-scoped.md",
+  "romanization_map": "docs/dr/romanization-map.md",
+  "started_at": "2026-09-14T07:22:36.849Z",
+  "finished_at": "2026-09-14T07:27:10.764Z",
+  "stop_reason": "completed"
+}

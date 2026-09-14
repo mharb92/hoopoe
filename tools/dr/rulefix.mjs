@@ -50,6 +50,43 @@ function normalizeCell(s) {
  * Only the English check is category-scoped; the Arabic checks are global.
  * Returns Map<id, string[]> of flag names.
  */
+// --- chat-26 scheme migration (romanization-map.md §4) ---------------------
+// Deterministic only. ق as glottal-or-[q] is a model judgement and is never
+// substituted here: migration leaves `ur'aan` and the re-judge produces
+// `qur'aan`. Inventing the q would be exactly the silent rewrite §4 forbids.
+
+// Longest first: 9' is ض, not ص followed by something.
+const SCHEME_SUBS = [["9'", 'D'], ["6'", 'TH'], ['9', 'S'], ['6', 'T'], ['2', "'"]];
+// Hamza-carrying vowel seats. A word-initial one takes no glottal: the onset is
+// automatic in Arabic, so the symbol would carry no information. ق is not here.
+const HAMZA_SEAT_RE = /^[أإآاٱ]/;
+
+export function applySchemeSubs(s) {
+  if (typeof s !== 'string') return s;
+  let out = s;
+  for (const [from, to] of SCHEME_SUBS) out = out.split(from).join(to);
+  return out;
+}
+
+/**
+ * Drops a word-initial glottal where the Arabic word begins with a hamza seat,
+ * and keeps it where the word begins with ق. Token-aligned when the two strings
+ * have the same word count; otherwise only the first token is safe to judge and
+ * the rest is left for the model, which the prompt now instructs.
+ */
+export function dropInitialHamzaGlottal(rom, arabic) {
+  if (typeof rom !== 'string' || typeof arabic !== 'string') return rom;
+  const drop = (r, a) => (r.startsWith("'") && HAMZA_SEAT_RE.test(stripHarakaat(a)) ? r.slice(1) : r);
+  const rt = rom.split(/\s+/), at = stripHarakaat(arabic).trim().split(/\s+/);
+  if (rt.length > 1 && rt.length === at.length) return rt.map((r, i) => drop(r, at[i])).join(' ');
+  return [drop(rt[0], at[0] ?? ''), ...rt.slice(1)].join(' ');
+}
+
+/** Old-scheme romanization -> new scheme. Both steps, in order. */
+export function migrateScheme(rom, arabic) {
+  return dropInitialHamzaGlottal(applySchemeSubs(rom), arabic);
+}
+
 export function buildDuplicateIndex(rows) {
   const exactArabic = new Map();
   const strippedArabic = new Map();

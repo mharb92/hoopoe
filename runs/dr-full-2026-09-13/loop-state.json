@@ -1,0 +1,11 @@
+{
+  "run_id": "dr-full-2026-09-13",
+  "spent_usd": 4.2124,
+  "ceiling_usd": 36.00,
+  "chunks_done": 1,
+  "batches_run": 3,
+  "transport": "judge-cli",
+  "p6_verdict": "fail",
+  "status": "halted-p6",
+  "updated_at": "2026-09-13T20:29:02Z"
+}

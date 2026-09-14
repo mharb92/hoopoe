@@ -1,0 +1,210 @@
+{
+  "run_id": "dr-formula-2026-09-14b",
+  "generated_at": "2026-09-14T15:42:27.882Z",
+  "stop_reason": "completed",
+  "stub_judge": null,
+  "config": {
+    "runId": "dr-formula-2026-09-14b",
+    "seed": 2257287558,
+    "batchSize": 40,
+    "transport": "judge-cli",
+    "spendCapUsd": 2,
+    "totalRows": 2728,
+    "model": "claude-opus-5",
+    "effort": "high",
+    "maxTokens": 64000,
+    "maxBatches": null,
+    "rowsFrom": "/tmp/claude-0/-home-user-hoopoe/8c480794-3f2b-515d-8e2b-8cd4e4c60cad/scratchpad/formula-rows.json",
+    "judgeFrom": null,
+    "stage": true,
+    "runsDir": "/home/user/hoopoe/runs"
+  },
+  "totals": {
+    "planned_batches": 1,
+    "batches_run": 1,
+    "rows_skipped_resume": 0,
+    "rows_staged": 32,
+    "model_calls": 2,
+    "usd_spent": 0.745432,
+    "spend_cap_usd": 2
+  },
+  "checks": [
+    {
+      "id": "P1",
+      "label": "every requested id returned exactly once (first response)",
+      "pass": true,
+      "value": {
+        "requested": 32,
+        "batches": [
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "label": "schema conformance after at most 1 repair retry",
+      "pass": true,
+      "value": {
+        "unresolvedIds": [],
+        "repairCalls": 1
+      }
+    },
+    {
+      "id": "P3",
+      "label": "pos/register/form_origin/level are enum values only",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P4",
+      "label": "every row carries level, level_reason, level_conf",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P5",
+      "label": "level spread is at least 3 distinct values",
+      "pass": true,
+      "value": {
+        "levels": {
+          "1": 20,
+          "2": 7,
+          "3": 5
+        }
+      }
+    },
+    {
+      "id": "P6",
+      "label": "verb share of level 1-2 rows >= 0.3 (external signal 0.4)",
+      "pass": false,
+      "value": {
+        "verbShare": 0,
+        "lowBandRows": 27,
+        "externalSignal": 0.4
+      }
+    },
+    {
+      "id": "P7",
+      "label": "held rate and native_check rate (recorded, not a gate)",
+      "pass": null,
+      "value": {
+        "heldRate": 0.75,
+        "held": 24,
+        "rows": 32,
+        "nativeCheckRate": 0.15625,
+        "nativeCheck": 5
+      }
+    },
+    {
+      "id": "P8",
+      "label": "cost and output tokens per row, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "outputTokensPerRow": {
+          "min": 622.9375,
+          "p50": 667,
+          "p90": 667,
+          "max": 667,
+          "mean": 644.96875
+        },
+        "outputTokensPerCall": {
+          "min": 2001,
+          "p50": 19934,
+          "p90": 19934,
+          "max": 19934,
+          "mean": 10967.5
+        },
+        "maxTokensConfigured": 64000,
+        "worstCallVsMaxTokens": 0.31146875,
+        "thinkingTokens": {
+          "total": 15201,
+          "perCall": {
+            "min": 1353,
+            "p50": 13848,
+            "p90": 13848,
+            "max": 13848,
+            "mean": 7600.5
+          },
+          "shareOfOutput": 0.6930020515158423
+        },
+        "preambleTokens": {
+          "created": {
+            "min": 7433,
+            "p50": 9015,
+            "p90": 9015,
+            "max": 9015,
+            "mean": 8224
+          },
+          "read": {
+            "min": 32557,
+            "p50": 32557,
+            "p90": 32557,
+            "max": 32557,
+            "mean": 32557
+          }
+        },
+        "metered": [
+          "transport"
+        ],
+        "usd": 0.745432,
+        "usdPerRow": 0.02329475,
+        "usdExtrapolated": 63.548078
+      }
+    },
+    {
+      "id": "P9",
+      "label": "review_confidence distribution, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "distribution": {
+          "2": 24,
+          "3": 8
+        },
+        "extrapolated": {
+          "2": 2046,
+          "3": 682
+        },
+        "rows": 32
+      }
+    },
+    {
+      "id": "P10",
+      "label": "vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)",
+      "pass": true,
+      "value": {
+        "flipRate": 0.28125,
+        "flipped": 9,
+        "rows": 32,
+        "flippedIds": [
+          777,
+          1353,
+          440,
+          235,
+          284,
+          248,
+          457,
+          1846,
+          246
+        ]
+      }
+    }
+  ],
+  "batches": [
+    {
+      "batch_no": 1,
+      "requested": 32,
+      "staged": 32,
+      "repair_attempts": 1,
+      "unresolved_ids": [],
+      "usd": 0.745432
+    }
+  ]
+}

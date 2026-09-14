@@ -1,25 +1,25 @@
 DR run dr-full-2026-09-13
-stop reason: halted: judge-cli: exited 1 — 
-batches 0/?  staged 0  skipped(resume) 0
-spend $0.0000 of cap $2.00
+stop reason: max-batches
+batches 1/46  staged 60  skipped(resume) 300
+spend $1.1085 of cap $2.00
 
 P1 PASS every requested id returned exactly once (first response)
-      {"requested":0,"batches":[]}
+      {"requested":60,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
 P2 PASS schema conformance after at most 1 repair retry
       {"unresolvedIds":[],"repairCalls":0}
 P3 PASS pos/register/form_origin/level are enum values only
       {"violations":[]}
 P4 PASS every row carries level, level_reason, level_conf
       {"violations":[]}
-P5 FAIL level spread is at least 3 distinct values
-      {"levels":{}}
-P6 —    verb share of level 1-2 rows >= 0.3 (external signal 0.4)
-      {"verbShare":null,"lowBandRows":0,"externalSignal":0.4}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":3,"2":14,"3":24,"4":18,"5":1}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.058823529411764705,"lowBandRows":17,"externalSignal":0.4}
 P7 —    held rate and native_check rate (recorded, not a gate)
-      {"heldRate":null,"held":0,"rows":0,"nativeCheckRate":null,"nativeCheck":0}
+      {"heldRate":0.9333333333333333,"held":56,"rows":60,"nativeCheckRate":0.08333333333333333,"nativeCheck":5}
 P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
-      {"outputTokensPerRow":null,"outputTokensPerCall":null,"maxTokensConfigured":64000,"worstCallVsMaxTokens":0,"thinkingTokens":null,"preambleTokens":{"created":null,"read":null},"metered":[],"usd":0,"usdPerRow":null,"usdExtrapolated":null}
+      {"outputTokensPerRow":{"min":468.35,"p50":468.35,"p90":468.35,"max":468.35,"mean":468.35},"outputTokensPerCall":{"min":28101,"p50":28101,"p90":28101,"max":28101,"mean":28101},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.439078125,"thinkingTokens":{"total":17402,"perCall":{"min":17402,"p50":17402,"p90":17402,"max":17402,"mean":17402},"shareOfOutput":0.6192662182840468},"preambleTokens":{"created":{"min":40593,"p50":40593,"p90":40593,"max":40593,"mean":40593},"read":{"min":0,"p50":0,"p90":0,"max":0,"mean":0}},"metered":["transport"],"usd":1.108465,"usdPerRow":0.018474416666666667,"usdExtrapolated":50.39820866666667}
 P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
-      {"distribution":{},"extrapolated":{},"rows":0}
-P10 —    vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
-      {"flipRate":null,"flipped":0,"rows":0,"flippedIds":[]}
+      {"distribution":{"2":56,"3":4},"extrapolated":{"2":2546,"3":182},"rows":60}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.1,"flipped":6,"rows":60,"flippedIds":[1001,2287,1776,1629,824,1327]}

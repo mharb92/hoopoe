@@ -12,7 +12,7 @@
   "rows_from": null,
   "prompt_doc": "docs/dr/dr-prompt-scoped.md",
   "romanization_map": "docs/dr/romanization-map.md",
-  "started_at": "2026-09-13T23:19:17.985Z",
-  "finished_at": "2026-09-13T23:26:11.375Z",
-  "stop_reason": "halted: judge-cli: exited 1 — "
+  "started_at": "2026-09-14T07:16:32.795Z",
+  "finished_at": "2026-09-14T07:22:36.692Z",
+  "stop_reason": "max-batches"
 }

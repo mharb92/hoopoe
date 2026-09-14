@@ -1,4 +1,4 @@
-DR run dr-full-2026-09-13
+DR run dr-effort-medium-2026-09-13
 stop reason: halted: judge-cli: exited 1 — 
 batches 0/?  staged 0  skipped(resume) 0
 spend $0.0000 of cap $2.00

@@ -6,7 +6,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { EventEmitter } from 'node:events';
-import { callClaudeCli, cliArgs, childEnv, readEnvelope, CLI_BIN } from '../judge-cli.mjs';
+import { callClaudeCli, cliArgs, childEnv, readEnvelope, describeFailure, CLI_BIN } from '../judge-cli.mjs';
 import { JudgeError, JUDGE_MODEL } from '../judge.mjs';
 import { TRANSPORTS } from '../config.mjs';
 
@@ -136,13 +136,15 @@ test('callClaudeCli: runs in an empty cwd, not the repo', async () => {
 });
 
 test('callClaudeCli: a non-zero exit halts and carries the stderr tail', async () => {
+  // stderr is the fallback path: reached only when the CLI died before writing
+  // an envelope to stdout.
   await assert.rejects(
     callClaudeCli({
       message: { system: 'SYS', user: 'ROWS' },
       spawnImpl: stubSpawn('', { code: 1, stderr: 'boom' }),
       env: { PATH: '/bin' },
     }),
-    /exited 1 — boom/,
+    /exited 1 — stderr=boom/,
   );
 });
 
@@ -153,4 +155,34 @@ test('callClaudeCli: needs no DR_ANTHROPIC_KEY — the direct path is what requi
     env: { PATH: '/bin' }, // no DR_ANTHROPIC_KEY anywhere
   });
   assert.equal(out.usd, 0.7123);
+});
+
+// Regression: a failed CLI run reported "exited 1 — " with the cause thrown
+// away, because --output-format json writes its error envelope to stdout and
+// leaves stderr empty. Two real jobs failed that way and said nothing.
+test('describeFailure: reads the error envelope off stdout, not stderr', () => {
+  const out = JSON.stringify({ subtype: 'error_during_execution', api_error_status: 429,
+    result: 'rate limit' });
+  const msg = describeFailure(out, '');
+  assert.match(msg, /subtype=error_during_execution/);
+  assert.match(msg, /api_error_status=429/);
+  assert.match(msg, /result=rate limit/);
+});
+
+test('describeFailure: falls back to stderr, then says so when both are empty', () => {
+  assert.match(describeFailure('', 'command not found'), /stderr=command not found/);
+  assert.match(describeFailure('', ''), /died silently/);
+  assert.match(describeFailure('plain text boom', ''), /stdout=plain text boom/);
+});
+
+test('callClaudeCli: a non-zero exit surfaces the stdout envelope in the message', async () => {
+  await assert.rejects(
+    callClaudeCli({
+      message: { system: 'SYS', user: 'ROWS' },
+      spawnImpl: stubSpawn(JSON.stringify({ subtype: 'error_max_turns', api_error_status: 500 }),
+        { code: 1, stderr: '' }),
+      env: { PATH: '/bin' },
+    }),
+    /exited 1 — subtype=error_max_turns api_error_status=500/,
+  );
 });

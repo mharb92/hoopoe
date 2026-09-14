@@ -100,6 +100,31 @@ export function readEnvelope(stdout, { model = JUDGE_MODEL } = {}) {
   return env;
 }
 
+/**
+ * Builds a legible reason from a failed CLI invocation. stdout first, because
+ * that is where `--output-format json` puts the error; stderr is the fallback
+ * for a failure that happened before the CLI got that far.
+ */
+export function describeFailure(stdout = '', stderr = '') {
+  const out = stdout.trim();
+  if (out) {
+    try {
+      const env = JSON.parse(out);
+      const bits = [
+        env.subtype && `subtype=${env.subtype}`,
+        env.api_error_status && `api_error_status=${env.api_error_status}`,
+        env.terminal_reason && `terminal_reason=${env.terminal_reason}`,
+        env.stop_reason && `stop_reason=${env.stop_reason}`,
+        typeof env.result === 'string' && env.result && `result=${env.result.slice(0, 400)}`,
+      ].filter(Boolean);
+      if (bits.length) return bits.join(' ');
+    } catch { /* not an envelope; fall through to the raw text */ }
+    return `stdout=${out.slice(0, 400)}`;
+  }
+  const e = stderr.trim();
+  return e ? `stderr=${e.slice(0, 400)}` : 'no stdout and no stderr — the CLI died silently';
+}
+
 function runCli(args, stdin, { env, cwd, timeoutMs, spawnImpl = spawn }) {
   return new Promise((resolve, reject) => {
     const child = spawnImpl(CLI_BIN, args, { env, cwd, stdio: ['pipe', 'pipe', 'pipe'] });
@@ -115,7 +140,11 @@ function runCli(args, stdin, { env, cwd, timeoutMs, spawnImpl = spawn }) {
     child.on('close', (code) => {
       clearTimeout(timer);
       if (code !== 0) {
-        reject(new JudgeError(`judge-cli: exited ${code} — ${err.slice(0, 300)}`));
+        // `--output-format json` reports failure as an envelope on STDOUT and
+        // exits non-zero, so stderr is routinely empty on a real error. Reading
+        // only stderr here produced "exited 1 — " with the cause discarded.
+        reject(new JudgeError(`judge-cli: exited ${code} — ${describeFailure(out, err)}`,
+          { body: out.slice(0, 4000) }));
         return;
       }
       resolve(out);

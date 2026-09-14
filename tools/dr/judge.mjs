@@ -66,6 +66,12 @@ export function parseObjects(text) {
   } catch { /* fall through to the scanner */ }
 
   const objects = [];
+  // Slices that scanned as balanced but did not parse. Kept, not thrown: one bad
+  // object used to take the whole batch down with it, discarding every good row
+  // already collected AND bypassing §7.5's repair retry, which happens in the
+  // caller and so never ran. Now the bad rows simply go missing from the
+  // response, which is the case §7.5 is built to handle.
+  const unparsed = [];
   let depth = 0, start = -1, inString = false, escaped = false;
   for (let i = 0; i < stripped.length; i++) {
     const ch = stripped[i];
@@ -80,12 +86,18 @@ export function parseObjects(text) {
     else if (ch === '}') {
       depth--;
       if (depth === 0 && start !== -1) {
-        objects.push(JSON.parse(stripped.slice(start, i + 1)));
+        const slice = stripped.slice(start, i + 1);
+        try { objects.push(JSON.parse(slice)); } catch (err) { unparsed.push({ slice, message: err.message }); }
         start = -1;
       }
     }
   }
-  if (objects.length === 0) throw new JudgeError('judge: no JSON object found in the response');
+  if (objects.length === 0) {
+    throw new JudgeError('judge: no JSON object found in the response' +
+      (unparsed.length ? ` (${unparsed.length} unparseable: ${unparsed[0].message} in ${unparsed[0].slice.slice(0, 300)})` : ''));
+  }
+  // Non-enumerable so it never reaches a staging payload or an artefact.
+  Object.defineProperty(objects, 'unparsed', { value: unparsed, enumerable: false });
   return objects;
 }
 

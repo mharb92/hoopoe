@@ -8,7 +8,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { migrateScheme, dropInitialHamzaGlottal } from '../rulefix.mjs';
-import { checkCharset, ALLOWED_ROMANIZATION_RE } from '../validate.mjs';
+import { checkCharset, ALLOWED_ROMANIZATION_RE, validateRow } from '../validate.mjs';
+import { routeRow } from '../route.mjs';
+import { parseObjects } from '../judge.mjs';
+import { readFileSync } from 'node:fs';
 
 // --- deterministic symbol substitutions -----------------------------------
 
@@ -109,4 +112,118 @@ test('checkCharset: the allowed set is exactly a-z, D S T, q, 3, 7, apostrophe, 
   assert.equal(ALLOWED_ROMANIZATION_RE.source.includes('2'), false);
   assert.equal(checkCharset('THohr'), null);
   assert.match(checkCharset('HHohr'), /H/); // a bare H is not a legal start
+});
+
+// --- D267: pair and constituents are collected but never scored -------------
+
+test('validateRow: accepts pair and constituents, and both are optional', () => {
+  const base = {
+    id: 1, level: 2, level_reason: 'x', level_conf: 'H', enum_conf: 'H',
+    pos: 'formula', register: 'neutral', form_origin: 'dialect',
+    romanization: { value: 'Sabaa7 il-kheer', conf: 'H', changed: false }, // 7 is ح; capital H is only ever the second half of TH
+    arabic_vocalised: { value: 'صَبَاح', conf: 'H' }, native_check: false,
+  };
+  assert.deepEqual(validateRow(base, 1).errors, []);
+  assert.deepEqual(validateRow({ ...base, pair: 'صباح النور' }, 1).errors, []);
+  assert.deepEqual(validateRow({ ...base, constituents: ['صباح', 'الخير'] }, 1).errors, []);
+});
+
+test('validateRow: rejects malformed pair and constituents', () => {
+  const base = {
+    id: 1, level: 2, level_reason: 'x', level_conf: 'H', enum_conf: 'H',
+    pos: 'formula', register: 'neutral', form_origin: 'dialect',
+    romanization: { value: 'x', conf: 'H', changed: false },
+    arabic_vocalised: { value: 'x', conf: 'H' }, native_check: false,
+  };
+  assert.match(validateRow({ ...base, pair: '' }, 1).errors.join(), /pair/);
+  assert.match(validateRow({ ...base, constituents: 'not-an-array' }, 1).errors.join(), /constituents/);
+  assert.match(validateRow({ ...base, constituents: ['ok', ''] }, 1).errors.join(), /constituents/);
+});
+
+test('routeRow: pair and constituents never touch review_confidence', () => {
+  const row = (extra) => routeRow({
+    level_conf: 'H', enum_conf: 'H',
+    romanization: { conf: 'H' }, arabic_vocalised: { conf: 'H' },
+    native_check: false, ...extra,
+  });
+  // A row that is all-H scores 3 whether or not it carries the new fields.
+  assert.equal(row({}).review_confidence, 3);
+  assert.equal(row({ pair: 'صباح النور', constituents: ['صباح', 'الخير'] }).review_confidence, 3);
+});
+
+test('checkCharset: a phrase with single spaces is legal — 879 rows depend on it', () => {
+  for (const v of ['Sabaa7 il-kheer', "is-salaam 3alaykum", 'kiif 7aalak', 'ahlan wa sahlan']) {
+    assert.equal(checkCharset(v), null, `rejected a legal phrase: ${v}`);
+  }
+});
+
+test('checkCharset: stray whitespace is still rejected', () => {
+  assert.match(checkCharset(' leading'), /whitespace/);
+  assert.match(checkCharset('trailing '), /whitespace/);
+  assert.match(checkCharset('double  space'), /whitespace/);
+  assert.match(checkCharset('tab\there'), /\t|whitespace/);
+});
+
+// --- one malformed object must not destroy a paid-for batch ----------------
+
+test('parseObjects: keeps the good objects when one does not parse', () => {
+  // Middle object has an unescaped quote in a value — exactly the shape that
+  // halted the 615-row re-judge after two clean batches.
+  const text = '{"id":1,"level":2} {"id":2,"level_reason":"he said "no" loudly"} {"id":3,"level":4}';
+  const out = parseObjects(text);
+  assert.equal(out.length, 2, 'the two well-formed objects survive');
+  assert.deepEqual(out.map((o) => o.id), [1, 3]);
+  assert.equal(out.unparsed.length, 1);
+  assert.match(out.unparsed[0].slice, /he said/);
+});
+
+test('parseObjects: unparsed is hidden from enumeration, so it cannot reach a payload', () => {
+  const out = parseObjects('{"id":1} {"id":2,"x":"bad"quote"}');
+  assert.equal(Object.keys(out).includes('unparsed'), false);
+  assert.deepEqual(JSON.parse(JSON.stringify(out)), [{ id: 1 }]);
+});
+
+test('parseObjects: still throws when nothing at all parsed, and names the cause', () => {
+  assert.throws(() => parseObjects('{"a":"b"c"} {"d":"e"f"}'), /no JSON object found.*unparseable/s);
+});
+
+// --- the B2 bug, structurally ---------------------------------------------
+// Chat 22: a field described in the prompt's instruction list but absent from
+// the OUTPUT CONTRACT is never emitted, because the contract is what tells the
+// model the JSON shape. It happened again with pair and constituents (D267),
+// and offline tests missed it both times because the fields are optional, so
+// their absence is legal and nothing fails. This asserts the invariant itself.
+test('prompt: every numbered field in the instruction list appears in the output contract', () => {
+  const doc = readFileSync(new URL('../../../docs/dr/dr-prompt-scoped.md', import.meta.url), 'utf8');
+  const instructed = [...doc.matchAll(/^\s*\d+\.\s+([a-z_]+)\s{2,}/gm)].map((m) => m[1]);
+  assert.ok(instructed.length >= 9, `expected the full field list, got ${instructed.join(',')}`);
+  const contract = doc.slice(doc.indexOf('## Output contract'));
+  // The first cell can name several fields at once (`pos`, `register`,
+  // `form_origin` share one row), so take every backticked name in that cell.
+  const listed = new Set([...contract.matchAll(/^\|([^|]+)\|/gm)]
+    .flatMap((m) => [...m[1].matchAll(/`([^`]+)`/g)].map((x) => x[1])));
+  const missing = instructed.filter((f) => !listed.has(f));
+  assert.deepEqual(missing, [],
+    `fields instructed but absent from the contract, so the model will never emit them: ${missing.join(', ')}`);
+});
+
+// --- the worked example is the strongest shape signal in the prompt ---------
+// It showed a `formula` row carrying neither pair nor constituents, so the
+// model copied it and emitted neither across 32 formula rows. It was also
+// stale on the scheme, giving `mabrook` as the CORRECT answer when D210/D262
+// make it `mabruuk` — teaching the exact vowel-length error P10 exists to
+// catch. Both are structural and both are now asserted.
+test('prompt: the worked example conforms to the current scheme and contract', () => {
+  const doc = readFileSync(new URL('../../../docs/dr/dr-prompt-scoped.md', import.meta.url), 'utf8');
+  const m = doc.match(/\{\s*\n\s*"id":\s*\d+[\s\S]*?\n\}/);
+  assert.ok(m, 'the prompt must carry a worked JSON example');
+  const example = JSON.parse(m[0]);
+  assert.deepEqual(validateRow(example, example.id).errors, [],
+    'the example must itself pass validation');
+  assert.equal(checkCharset(example.romanization.value), null);
+  // A formula example that omits these teaches the model to omit them.
+  if (['formula', 'frame'].includes(example.pos)) {
+    assert.ok(example.constituents, 'a formula/frame example must show constituents');
+    assert.ok(example.pair, 'a formula example with a known reply must show pair');
+  }
 });

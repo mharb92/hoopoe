@@ -1,0 +1,731 @@
+arabic,english,sources,rank,page,situation,words_in_phrase
+سَوَّى,To do,words,10,1,,
+إِجى,To come,words,17,1,,
+يا,You (comes before someone's name),words,23,1,,
+أهلاً,Hi,words,26,1,,
+هادا,This,words,29,1,,
+عالي,High,words+phrases,33,1,Dictionary,1
+جِسم,Body,words+phrases,36,1,Body Parts,1
+واطي,Low,words,38,1,,
+خَنزير,Pig,words,48,1,,
+بَطّة,Duck,words,58,2,,
+عاش,To live,words,66,2,,
+مات,To die,words,67,2,,
+ناصِح,Fat,words,75,2,,
+اعْتَقَد,To think / believe,words,88,2,,
+كوَيس,Good,words,94,2,,
+نَعسان,Sleepy,words,104,3,,
+ظَلّ,To stay / remain,words,117,3,,
+بَقِي,To stay / remain,words,119,3,,
+إِلى,To / for / of / by,words,122,3,,
+شَكى,To complain,words,128,3,,
+صام,To fast,words,132,3,,
+مَدينة,City,words+phrases,136,3,Directions & Places,1
+مَركِز,Center,words,139,3,,
+دُكّان,Small shop,words,157,4,,
+بُرج,Tower,words,172,4,,
+بِدّ,To want,words,174,4,,
+الكُلّ,Everyone,words,206,5,,
+مَلابِس,clothes,words,213,5,,
+أواعي,clothes,words,215,5,,
+زَاكي,Tasty,words,221,5,,
+مواصلات,public transportation,words+phrases,231,5,Sightseeing,1
+طائية,Hat,words,233,5,,
+موتوسيكل,motorcycle,words,235,5,,
+سَفينة,ship,words+phrases,236,5,Transportation,1
+المَسَا,This evening,words+phrases,255,5,Date,1
+دَار,Home,words,257,6,,
+ولاد,Children,words+phrases,283,6,Family,1
+مَقهى,"Cafe, coffee shop",words+phrases,286,6,Eating Out,1
+فَواكي,Fruit,words+phrases,307,7,Dictionary,1
+جِزر,Carrot,words,315,7,,
+زَهِر,Cauliflower,words,319,7,,
+وَرد,Flower,words,329,7,,
+خَريف,Autumn,words+phrases,336,7,Weather,1
+إتنِين,Two,words+phrases,341,7,Numbers,1
+تَلاتة,Three,words+phrases,342,7,Numbers,1
+تَمانِية,Eight,words+phrases,347,7,Numbers,1
+حَلِم,To dream,words,355,7,,
+بَعَث,To send,words,359,8,,
+مَزَح,To joke,words,361,8,,
+نَفَع,To benefit / be of use to,words,364,8,,
+رَسَم,To draw,words,369,8,,
+فاق,To wake up,words,370,8,,
+نَوى,To intend,words,375,8,,
+شَمّ,To smell,words,378,8,,
+قَحّ,To cough,words,379,8,,
+اسْتَنّا,To wait,words,381,8,,
+غَنَّى,To sing,words,397,8,,
+فَرْجَى,To show,words,399,8,,
+تَخَيَّل,To imagine,words,401,8,,
+تَنَفَّس,To breathe,words,402,8,,
+تَفَرَّج,To watch,words,403,8,,
+تَطَلَّع,To look at,words,404,8,,
+ابْتَسَم,To smile,words,407,9,,
+ارْتاح,To rest,words,410,9,,
+حال,Situation / condition,words,413,9,,
+سياسة,Politics,words,414,9,,
+دَولة,State,words,415,9,,
+حَكومة,Government,words,416,9,,
+رَئيس,president,words,417,9,,
+حَدود,Border,words,419,9,,
+طالِب,Student,words+phrases,424,9,Dictionary,1
+قانون,Law,words,427,9,,
+حَرب,War,words,434,9,,
+رياضة,Sport,words+phrases,436,9,Sports,1
+سِباحة,Swimming,words,439,9,,
+شَوب,Hot,words+phrases,458,10,Weather,1
+سَلَّم,To greet,words,459,10,,
+ضايَق,To annoy / bother,words,466,10,,
+تَضايَق,To be annoyed,words,467,10,,
+تَعِيس,Miserable,words,470,10,,
+مِتزَعِج,Annoyed,words,472,10,,
+خَجلان,Embarrassed / ashamed,words,481,10,,
+مِستَحِي,Shy / ashamed,words,483,10,,
+غَلَب,To beat / win against,words,486,10,,
+باس,To kiss,words,487,10,,
+مِتعَلِّم,Educated,words,500,10,,
+رايح,Going,words,502,10,,
+جاي,Coming,words,503,10,,
+عارِف,Knowing,words,504,10,,
+سايق,Driving,words,505,10,,
+طالِع,Going out/Leaving,words,506,10,,
+واقِف,Standing,words,507,11,,
+شايف,Seeing,words,510,11,,
+قاعِد,Sitting,words,511,11,,
+سامِع,Hearing,words,512,11,,
+فاهِم,Understanding,words,513,11,,
+فَعَل,To do,words,514,11,,
+حَفِظ,To memorize,words,518,11,,
+نَسَب,To relate to / correlate with,words,524,11,,
+عَبَر,To cross / traverse,words,525,11,,
+قَتَل,To kill,words,526,11,,
+رَقَص,To dance,words,527,11,,
+عَبَد,To worship,words,528,11,,
+طار,To fly,words,530,11,,
+جَلى,To wash (dishes e.t.c.),words,535,11,,
+ضَوى,To light up / turn on,words,536,11,,
+صَبّ,To pour,words,538,11,,
+طَخّ,To shoot,words,539,11,,
+كَبّ,To throw away / spill,words,540,11,,
+اسْتَخْدَم,To use,words,541,11,,
+عَصَّب,To become angry,words,542,11,,
+طَمَّن,To fill in / reassure,words,547,11,,
+ذَكَّر,To remind,words,549,11,,
+شَتَّى,To rain,words+phrases,554,11,Weather,1
+تَزَوَّج,To marry,words,555,11,,
+عَجَب,To impress / amaze,words,558,12,,
+حَبَس,To arrest / imprison,words,559,12,,
+اسْتَعْمَل,To use,words,563,12,,
+حَزَر,To guess,words,566,12,,
+شَرَد,To flee / run away,words,578,12,,
+عَنى,To mean,words,585,12,,
+شَرى,To buy,words,588,12,,
+وَطِي,To be lowered (in volume),words,592,12,,
+رَضِي,To be pleased / satisfied,words,593,12,,
+عَدّ,To count,words,595,12,,
+سَبّ,To swear / use rude words,words,596,12,,
+تَفّ,To spit,words,601,12,,
+بَدَأ,To begin,words,602,12,,
+وَصَف,To describe,words,604,12,,
+وَثِق,To trust,words,606,12,,
+خَفَّف,To lighten / reduce,words,613,13,,
+ضَبَّط,To correct / make right,words,615,13,,
+نَكَّد,To make someone annoyed,words,616,13,,
+قَضَّى,To spend time,words,620,13,,
+أَخَّر,To cause to be late,words,621,13,,
+وَشْوَش,To whisper,words,624,13,,
+جادَل,To argue with,words,626,13,,
+تابَع,To follow,words,628,13,,
+أَسْلَم,To become muslim,words,631,13,,
+أَفْطَر,To eat breakfast,words,632,13,,
+أَدْمَن,To become addicted,words,633,13,,
+أَنْهى,To end,words,635,13,,
+تَغَيَّر,To change,words,636,13,,
+تَحَمَّم,To take a bath / shower,words,638,13,,
+تَأَكَّد,To make sure / confirm,words,639,13,,
+تَمَشّى,To go for a walk,words,643,13,,
+تَخَبّى,To hide oneself,words,644,13,,
+تَظاهَر,To pretend to do,words,646,13,,
+تَصالَح,To make up with,words,647,13,,
+انْوَلَد,To be born,words,648,13,,
+انْزَعَج,To be annoyed,words,649,13,,
+اسْتَلَم,To receive,words,653,13,,
+اسْتَوى,To become ripe / well cooked,words,654,13,,
+اسْتَمَرّ,To continue,words,655,13,,
+إسرائيل,Israel (Palestine),words+phrases,659,14,Countries,1
+سوريا,Syria,words+phrases,660,14,Countries,1
+لُبنان,Lebanon,words+phrases,661,14,Countries,1
+الأُردُن,Jordan,words+phrases,662,14,Countries,1
+العِراق,Iraq,words+phrases,663,14,Countries,1
+مَصر,Egypt,words+phrases,664,14,Countries,1
+تونِس,Tunisia,words+phrases,665,14,Countries,1
+الجزائر,Algeria,words+phrases,666,14,Countries,1
+أُروبّا,Europe,words+phrases,667,14,Countries,1
+برِيطانيا,Britain,words+phrases,668,14,Countries,1
+فرَنسا,France,words+phrases,669,14,Countries,1
+ألمانيا,Germany,words+phrases,670,14,Countries,1
+روسيّا,Russia,words+phrases,671,14,Countries,1
+الصين,China,words+phrases,672,14,Countries,1
+الهِند,India,words+phrases,673,14,Countries,1
+أمريكا,America (USA),words+phrases,674,14,Countries,1
+و عَلَيكُم السَلام,Reply (formal),phrases,,,Greetings,3
+إشتَقتِلَك,I missed you,phrases,,,Greetings,1
+زَمان عَنَّك!,It's been a while!,phrases,,,Greetings,2
+أنا إسمي ...,My name is ...,phrases,,,Greetings,3
+أنا مِن ...,I'm from ...32 options,phrases,,,Greetings,3
+أنا عُمري ...,My age is ...,phrases,,,Greetings,3
+تلاقي خير,Good night (reply),phrases,,,Greetings,2
+خاترَك,Good bye (formal),phrases,,,Greetings,1
+يسلَم إيديك,Thank you (bless your hands),phrases,,,General,2
+العَفو,You're welcome,phrases,,,General,1
+آسِف,Sorry,phrases,,,General,1
+تَعال هون,Come here,phrases,,,General,2
+إبعِد مِن هون,Go away,phrases,,,General,3
+بتَحكي إنغليزي؟,Do you speak English?,phrases,,,General,2
+أنا بَحكي عَربي,I speak Arabic,phrases,,,General,3
+أنا ما بَحكي عَربي منيح,I don't speak Arabic well,phrases,,,General,5
+فهِمت؟,Did you understand?,phrases,,,General,1
+اه أنا فهِمت,Yes I understand,phrases,,,General,3
+لا أنا ما فهِمت,No I didn't understand,phrases,,,General,4
+إحكي شوَي شوَي,Speak slowly,phrases,,,General,3
+مُمكِن تعِيدها,Can you repeat that?,phrases,,,General,2
+مُمكِن تُكتُبه؟,Can you write that down?,phrases,,,General,2
+في حَدا بيَحكي إنغليزي هون؟,Is there someone here who speaks English?,phrases,,,General,5
+أنا ساكِن في ...,I live in ... 32 options,phrases,,,About Me,4
+أنا بَشتَغِل ...,I work as a ... 10 options,phrases,,,About Me,3
+أنا بُدرُس,I study ...,phrases,,,About Me,2
+أنا دَرَست ...,I studied ...,phrases,,,About Me,3
+أنا بَحِبّ,I like ...,phrases,,,About Me,2
+أنا إنوَلَدت في ...,I was born in ... 32 options,phrases,,,About Me,4
+أنا عِندي ... إخوة و ... خَوات,I have ... brothers and ... sisters 12 options,phrases,,,About Me,7
+أنا هِوايَتي ...,My hobby is ...,phrases,,,About Me,3
+الأكل المُفَضَّل هوَّ ...,My favourite food is ...,phrases,,,About Me,4
+أنا بَحكي ...,I can speak ...,phrases,,,About Me,3
+أنا عِندي ...,I have got ...,phrases,,,About Me,3
+أنا ...,I am ... (physical appearance),phrases,,,About Me,2
+يَهودي,Jewish Noun,phrases,,,About Me,1
+بِلا دين,Atheist,phrases,,,About Me,2
+كَسول,Lazy,phrases,,,About Me,1
+مِزاجِيّ,Moody Adjective,phrases,,,About Me,1
+مَوهوب,Talented Adjective,phrases,,,About Me,1
+أناني,Selfish Adjective,phrases,,,About Me,1
+مِتسامِح,Tolerant Adjective,phrases,,,About Me,1
+مُحافِظ,Conservative Noun,phrases,,,About Me,1
+حَكيم,Wise Adjective,phrases,,,About Me,1
+شُجاع,Brave Adjective,phrases,,,About Me,1
+جَبّان,Cowardly Adjective,phrases,,,About Me,1
+و إنتَ؟,And you?,phrases,,,Conversation,2
+شو عِمِلت اليوم؟,What did you do today?,phrases,,,Conversation,3
+شو الأخبار؟,What's new?,phrases,,,Conversation,2
+في ...؟,Is there ...?,phrases,,,Conversation,2
+اه في,Yes there is,phrases,,,Conversation,2
+لا ما في,No there isn't,phrases,,,Conversation,3
+أنا بِدّي ...,I want ...,phrases,,,Conversation,3
+شو بِدَّك تاكُل؟,What do you want to eat?,phrases,,,Conversation,3
+أنا بِدّي آكُل,I want to eat ...,phrases,,,Conversation,3
+شو بِدَّك تَعمِل؟,What do you want to do?,phrases,,,Conversation,3
+أنا بِدّي أعمِل,I want to do ...,phrases,,,Conversation,3
+شو بِدَّك تِلعِب؟,What do you want to play?,phrases,,,Conversation,3
+أنا بِدّي ألعِب,I want to play ...,phrases,,,Conversation,3
+مين بِدَّك تشوف؟,Who do you want to see?,phrases,,,Conversation,3
+أنا بِدّي أشوف,I want to see ...,phrases,,,Conversation,3
+شو بِدَّك تُدرُس؟,What do you want to study?,phrases,,,Conversation,3
+أنا بِدّي أُدرُس,I want to study ...,phrases,,,Conversation,3
+مَع مين بِدَّك تَحكي؟,Who do you want to speak with?,phrases,,,Conversation,4
+أنا بِدّي أحكي مع ...,I want to speak with ...,phrases,,,Conversation,5
+شو بِدَّك تَعمِل بُكرة,What will you do tomorrow?,phrases,,,Conversation,4
+شو بِدّنا نَعمِل بُكرة,What shall we do tomorrow?,phrases,,,Conversation,4
+وَين بِدَّك تروح؟,Where do you want to go?,phrases,,,Conversation,3
+شو بِدَّك تاكُل,What do you want to eat?,phrases,,,Conversation,3
+إعطيني ...,Give me ...,phrases,,,Conversation,2
+أنا بَعطيك ...,I give you ...,phrases,,,Conversation,3
+تلاتين,Thirty Noun,phrases,,,Numbers,1
+تَمَنين,Eighty,phrases,,,Numbers,1
+مئتين,Two hundred Noun,phrases,,,Numbers,1
+تَلَت ميّة,Three hundred,phrases,,,Numbers,2
+ثنين,Two (m) Noun,phrases,,,Numbers,1
+تنتين,Two (f) Noun,phrases,,,Numbers,1
+تَلَت,Three,phrases,,,Numbers,1
+أربع,Four Noun,phrases,,,Numbers,1
+خمس,Five Noun,phrases,,,Numbers,1
+ست,Six Noun,phrases,,,Numbers,1
+سبع,Seven Noun,phrases,,,Numbers,1
+تَمَن,Eight,phrases,,,Numbers,1
+تسع,Nine Noun,phrases,,,Numbers,1
+عشر,Ten Noun,phrases,,,Numbers,1
+وَين ال... ؟,Where is the ... ? 6 options,phrases,,,Directions & Places,3
+بِدّي أروح عَلى ال...,I want to go to the ... 6 options,phrases,,,Directions & Places,4
+هادا الطَريق ل...؟,Is this the way to ...?,phrases,,,Directions & Places,3
+مُمكِن بِتفُرجيني عالخَريطة,Can you show me on the map?,phrases,,,Directions & Places,3
+شو العَنوان,What's the address?,phrases,,,Directions & Places,2
+قَدَّيش هو بَعيد مِن هون؟,How far is it from here?,phrases,,,Directions & Places,5
+كيف بوصِل هُناك؟,How do I get there?,phrases,,,Directions & Places,3
+كَمِّل دُغري,Continue straight ahead,phrases,,,Directions & Places,2
+خُد الشمال,Take the left,phrases,,,Directions & Places,2
+خُد اليمين,Take the right,phrases,,,Directions & Places,2
+خُد الشمال بَعد البَنك,Take the left after the bank,phrases,,,Directions & Places,4
+وَراء,Behind Functional,phrases,,,Directions & Places,1
+شَرق,East,phrases,,,Directions & Places,1
+جَنوب,South,phrases,,,Directions & Places,1
+غَرب,West,phrases,,,Directions & Places,1
+فَوق ال ...,Above the ...,phrases,,,Directions & Places,3
+تَحت ال ...,Below the ...,phrases,,,Directions & Places,3
+قَريب مِن,Close to,phrases,,,Directions & Places,2
+بَعيد مِن,Far from,phrases,,,Directions & Places,2
+قَريب مِن هون,Near here,phrases,,,Directions & Places,3
+بَعيد مِن هون,Far from here,phrases,,,Directions & Places,3
+هُوَّ قَريب مِن هون؟,Is it near here?,phrases,,,Directions & Places,4
+غاد,Over there,phrases,,,Directions & Places,1
+دَقيقتَين عالمَشي,Two minutes by walking,phrases,,,Directions & Places,2
+إعبِر الشارِع,Cross the street,phrases,,,Directions & Places,2
+قُرية,Village,phrases,,,Directions & Places,1
+مَركِز المَدينة,Center of town,phrases,,,Directions & Places,2
+مَكتَب التَذاكِر,The ticket office,phrases,,,Transportation,2
+مِن وَين بَشتَري التَذكِرة؟,Where can I buy a ticket?,phrases,,,Transportation,4
+قَدَّيش التَذكِرة,How much is a ticket?,phrases,,,Transportation,2
+ما عِندي تَذكِرة,I don't have a ticket,phrases,,,Transportation,3
+بِدّي تَذكِرة,I need a ticket,phrases,,,Transportation,2
+لازِم أحجِز مَقعَد؟,Do I need to reserve a seat?,phrases,,,Transportation,3
+بِدّي ألغي التَذكِرة,I want to cancel the ticket,phrases,,,Transportation,3
+بِدّي أغَيِّر التَذكِرة,I want to change the ticket,phrases,,,Transportation,3
+بِدّي آخُد التَذكِرة,I want to take the ticket,phrases,,,Transportation,3
+إتِجاه واحِد,One way,phrases,,,Transportation,2
+عَودة,Return,phrases,,,Transportation,1
+مَتى بِطلَع؟,When does it leave?,phrases,,,Transportation,2
+أنا بَركَب ال...,I ride the ... 5 options,phrases,,,Transportation,3
+هادا ال... ل..؟,Is this the ... to ..? 5 options,phrases,,,Transportation,3
+أيش هادي المَحَطّة؟,Which stop is this?,phrases,,,Transportation,3
+بِوَقِّف عِند ...,Does it stop at ...,phrases,,,Transportation,3
+بِوَقِّف بِ ...,Does it stop in ...?,phrases,,,Transportation,3
+هادا الكُرسي فاضي؟,Is this seat free?,phrases,,,Transportation,3
+هداك الكُرسي إلي,That seat is mine,phrases,,,Transportation,3
+كَم ساعة بتاخُد الرِحلة؟,How long does the journey take?,phrases,,,Transportation,4
+الطَريق مُباشِر؟,Is it a direct route?,phrases,,,Transportation,2
+قطار,Train Noun,phrases,,,Transportation,1
+بِدّي تَكسي,I want a taxi,phrases,,,Transportation,2
+وَين التَكاسي؟,Where are the taxis?,phrases,,,Transportation,2
+قَدَّيش الإجرة ل...؟,How much is it to ...?,phrases,,,Transportation,3
+وَصِّلني عند (هادا العَنوان),Take me to (this address),phrases,,,Transportation,4
+شَغِّل العَدّاد لَوسَمحت,Put the meter on please,phrases,,,Transportation,3
+وَقِّف هون,Stop here,phrases,,,Transportation,2
+إستَنى هون دَقيقة,Wait here a minute,phrases,,,Transportation,3
+بِدّي أستأجِر سَيارة,I want to rent a car,phrases,,,Transportation,3
+... مع سائق,... with a driver,phrases,,,Transportation,3
+بِالمُكَيِّف,... with air conditioning,phrases,,,Transportation,1
+قَدَّيش الإجرة ليوم؟,How much daily?,phrases,,,Transportation,3
+قَدَّيش الإجرة لأُسبوع؟,How much weekly?,phrases,,,Transportation,3
+بِدّي ميكانيكي,I need a mechanic,phrases,,,Transportation,2
+خَلَص البَنزين بِالسَيارة,I've run out of petrol,phrases,,,Transportation,3
+العَجل السَيارة ما فيه هَوا,I have a flat tyre,phrases,,,Transportation,5
+محَطّة الباص,Bus station,phrases,,,Transportation,2
+محَطّة القطار,Train station,phrases,,,Transportation,2
+في ... ؟,Is there ... ? 14 options,phrases,,,Eating Out,3
+بِدّي ...,I would like ... 14 options,phrases,,,Eating Out,2
+بِدّي طَولة ل...,I want a table for ... (people) 10 options,phrases,,,Eating Out,3
+شو تَنصِحني؟,What do you recommend me?,phrases,,,Eating Out,2
+بِدّي أُطلُب أكل,I would like to order food,phrases,,,Eating Out,3
+أنا ما باكُل لَحمة,I don't eat meat,phrases,,,Eating Out,4
+عِندي حَساسية مِن ...,I've an allergy to ... 4 options,phrases,,,Eating Out,4
+بِدّي إياه مَع ...,I want it with ...,phrases,,,Eating Out,4
+بِدّي إياه بِدون ...,I want it without ...,phrases,,,Eating Out,4
+لِلسَفِرة,For take away,phrases,,,Eating Out,1
+بِدّي ال... لَو سمَحت,I'd like the ... please 4 options,phrases,,,Eating Out,4
+بابا غانوش,Baba ghanoush,phrases,,,Eating Out,2
+كِبّة,Kibbeh,phrases,,,Eating Out,1
+أُوزي,Oozi,phrases,,,Eating Out,1
+مَناقيش,Manaqeesh,phrases,,,Eating Out,1
+قائمة المَشروبات,Drinks list,phrases,,,Eating Out,2
+وَجبة الخاصة,Speciality dish,phrases,,,Eating Out,2
+مَطعَم شَعبي,Local restaurant,phrases,,,Eating Out,2
+مَطعَم راقي,Fancy restaurant,phrases,,,Eating Out,2
+بار,Bar,phrases,,,Eating Out,1
+نَباتي,Vegetarian Noun,phrases,,,Eating Out,1
+كوشر,Kosher,phrases,,,Eating Out,1
+فيغان,Vegan,phrases,,,Eating Out,1
+الألبان,Dairy produce,phrases,,,Eating Out,1
+الغلوتين,Gluten,phrases,,,Eating Out,1
+الأكل البَحَري,Seafood,phrases,,,Eating Out,2
+وَين ...؟,Where's a ...? 9 options,phrases,,,Shopping,2
+كَم السَعر؟,What's the price?,phrases,,,Shopping,2
+قَدَيش سَعرُه؟,How much does it cost?,phrases,,,Shopping,2
+هادا غالي,That's expensive,phrases,,,Shopping,2
+هادا رخيص,That's cheap,phrases,,,Shopping,2
+في عِندَك ... ؟,Do you have any ... ?,phrases,,,Shopping,4
+بِدّي ... لَو سمَحت,I'd like ... please 4 options,phrases,,,Shopping,4
+مُمكِن بَدفع ...؟,Can I pay with ...? 3 options,phrases,,,Shopping,3
+ما عِندي فراطا,I don't have any change,phrases,,,Shopping,3
+مَعي بَس ... ليرا,I only have ... lira 18 options,phrases,,,Shopping,4
+بدَوِّر عَلى ...,I'm looking for a ...,phrases,,,Shopping,3
+فُرجيني إياه,Show me it,phrases,,,Shopping,2
+في غيرُه؟,Do you have any others?,phrases,,,Shopping,2
+هُوَّ خَربان,It's broken,phrases,,,Shopping,2
+مَحَلّ الكاميرات,Camera shop,phrases,,,Shopping,2
+مَحَلّ المَنوعات,Department store,phrases,,,Shopping,2
+بَقالة,Grocery store Noun,phrases,,,Shopping,1
+وكالة الأنباء,Newsagency,phrases,,,Shopping,2
+مَحَلّ التَذكارات,Souvenir shop,phrases,,,Shopping,2
+سوبر ماركِت,Super market,phrases,,,Shopping,2
+مَخرَج,Exit Noun,phrases,,,Shopping,1
+إدفَع,Push,phrases,,,Shopping,1
+إسحَب,Pull,phrases,,,Shopping,1
+مَمنوع,Forbidden Adjective,phrases,,,Shopping,1
+الباقي,The change Noun,phrases,,,Shopping,1
+إستِرداد مال,A refund,phrases,,,Shopping,2
+فَراطة,Cash Noun,phrases,,,Shopping,1
+كَرط,Card,phrases,,,Shopping,1
+شَيكات,Cheques,phrases,,,Shopping,1
+... غرام,... Grams 8 options,phrases,,,Shopping,2
+... كيلو,... Kilograms 10 options,phrases,,,Shopping,2
+... ليتر,... Litres 10 options,phrases,,,Shopping,2
+... قِطع,... Pieces 12 options,phrases,,,Shopping,2
+... شَرايح,Slices 12 options,phrases,,,Shopping,2
+وَين أقرَب فُندُق؟,Where's the nearest hotel?,phrases,,,Accommodation,3
+بِدّي غُرفة لَلَيلة وَحدة,I want a room for one night,phrases,,,Accommodation,4
+غُرفة مُفَرِدة,Single room,phrases,,,Accommodation,2
+قَدَيش سَعر اللَيلة؟,What's the price for one night?,phrases,,,Accommodation,3
+قَدَيش سَعر الأُسبوع؟,What's the price for a week?,phrases,,,Accommodation,3
+مُمكِن أشوف الغُرفة؟,Can I see the room?,phrases,,,Accommodation,3
+تَمام باخُدها,Ok I'll take it,phrases,,,Accommodation,2
+أنا عِندي حَجز,I have a reservation,phrases,,,Accommodation,3
+ما عِندي حَجز,I don't have a reservation,phrases,,,Accommodation,3
+أنا حَجَزت غُرفة بِإسم ...,I reserved a room in the name of ...,phrases,,,Accommodation,5
+مَتى ساعة الخروج؟,What time is checkout?,phrases,,,Accommodation,3
+بِدّي غُرفة تانية,I want a different room,phrases,,,Accommodation,3
+أنا نسيت مُفتاحي بِالغُرفة,I forgot my key in the room,phrases,,,Accommodation,4
+في وَيفَي بِالغُرفة؟,Is there Wi-Fi in the room?,phrases,,,Accommodation,3
+في حَمّام خاص؟,Is there a private bathroom?,phrases,,,Accommodation,3
+أيش كَلمة السِرّ لِلوَيفَي,What's the Wi-Fi password,phrases,,,Accommodation,4
+قَدَّيش الساعة?,What's the time?,phrases,,,Time,2
+ال...,It's ... 12 options,phrases,,,Time,1
+ال... و نُص,It's half past ... 12 options,phrases,,,Time,3
+ال... و رُبِعة,It's quarter past ... 12 options,phrases,,,Time,3
+ال... إلا رُبِعة,It's quarter to ... 12 options,phrases,,,Time,3
+عأي ساعة؟,At what time?,phrases,,,Time,2
+ع ...,At ... 12 options,phrases,,,Time,2
+بَعد ساعة,An hour later,phrases,,,Time,2
+قَبل ساعة,An hour ago,phrases,,,Time,2
+قَريباً,Soon Functional,phrases,,,Time,1
+نَهار,Daytime Noun,phrases,,,Time,1
+ثَواني,Seconds,phrases,,,Time,1
+دَقايق,Minutes,phrases,,,Time,1
+ساعات,Hours Noun,phrases,,,Time,1
+أيام,Days,phrases,,,Time,1
+ساعة وَحدة,One o'clock,phrases,,,Time,2
+ساعة تِنتَين,Two o'clock,phrases,,,Time,2
+ساعة تَلاتة,Three o'clock,phrases,,,Time,2
+ساعة أربعة,Four o'clock,phrases,,,Time,2
+ساعة خَمسَة,Five o'clock,phrases,,,Time,2
+ساعة سِتّة,Six o'clock,phrases,,,Time,2
+ساعة سَبعة,Seven o'clock,phrases,,,Time,2
+ساعة تَمَنية,Eight o'clock,phrases,,,Time,2
+ساعة تِسعة,Nine o'clock,phrases,,,Time,2
+ساعة عَشَرة,Ten o'clock,phrases,,,Time,2
+ساعة حَدعَش,Eleven o'clock,phrases,,,Time,2
+ساعة تنَعش,Twelve o'clock,phrases,,,Time,2
+شو اليوم,What day is it today?,phrases,,,Date,2
+اليوم ...,Today it's ... 7 options,phrases,,,Date,2
+بَعد ... أيام,In ... days time 12 options,phrases,,,Date,3
+قَبل ... أيام,... days ago 12 options,phrases,,,Date,3
+الصُبح,This morning,phrases,,,Date,1
+اللّيلة,Tonight Functional,phrases,,,Date,1
+هال...,This ... 3 options,phrases,,,Date,1
+ال... الجاي,Next ... 3 options,phrases,,,Date,2
+ال... الماضي,Last ... 3 options,phrases,,,Date,2
+أسَبيع,Weeks,phrases,,,Date,1
+أُشهُر,Months,phrases,,,Date,1
+سنين,Years,phrases,,,Date,1
+ساعِدني,Help me,phrases,,,Emergencies,1
+بَحتاج مُساعدة,I need help,phrases,,,Emergencies,2
+عِندي حالة طارئة,I have an emergency,phrases,,,Emergencies,3
+لا تِلمِسني,Don't touch me,phrases,,,Emergencies,2
+إترِكني لِجالي,Leave me alone,phrases,,,Emergencies,2
+أنا ضايع,I'm lost,phrases,,,Emergencies,2
+أنا ضَيِّعت ...ي,I lost my ... 6 options,phrases,,,Emergencies,3
+شُرطة!,Police!,phrases,,,Emergencies,1
+وَقِّف حرامي,Stop thief!,phrases,,,Emergencies,2
+نادي شُرطي,Call a police officer,phrases,,,Emergencies,2
+رِن الشُرطة,Phone the police,phrases,,,Emergencies,2
+حَدا سَرَق مِنّي,Someone robbed me,phrases,,,Emergencies,3
+بِدّي أشتَكي عن حَدا,I want to make a complaint against someone,phrases,,,Emergencies,4
+أنا مَريض كتير,I'm really sick,phrases,,,Emergencies,3
+بِدّي أسعاف,I need an ambulance,phrases,,,Emergencies,2
+لازِم أروح عَالمُستَشفى,I need to go to hospital,phrases,,,Emergencies,3
+سَفارة,Embassy Noun,phrases,,,Emergencies,1
+محَطة بَنزين,Gas station,phrases,,,Emergencies,2
+بِدّي مُحامي,I need a lawyer,phrases,,,Emergencies,2
+أنا لازِم أحكي مَع سَفّارَتي,I need to speak to my embassy,phrases,,,Emergencies,5
+قَضية,Court case Noun,phrases,,,Emergencies,1
+شَنتة,Bag Noun,phrases,,,Emergencies,1
+جُزدان,Wallet Noun,phrases,,,Emergencies,1
+كَميرا,Camera,phrases,,,Emergencies,1
+عالأغلَب,Probably,phrases,,,Response words,1
+بردقاني,Orange Adjective,phrases,,,Colours,1
+زَهري,Pink Adjective,phrases,,,Colours,1
+أرجواني,Purple Adjective,phrases,,,Colours,1
+سَكَني,Grey,phrases,,,Colours,1
+زَيتوني,Olive green,phrases,,,Colours,1
+كُحلي,Navy blue Adjective,phrases,,,Colours,1
+خَمري,Dark red,phrases,,,Colours,1
+... فاتِح,Light ... 16 options,phrases,,,Colours,2
+... غامِق,Dark ... 16 options,phrases,,,Colours,2
+أنا بداوَم مِن ساعة ...,I work from ... o'clock,phrases,,,Work,5
+أنا بداوَم لِساعة ...,I work until ... o'clock,phrases,,,Work,4
+قَدَّيش راتِبَك؟,How much is your salary?,phrases,,,Work,2
+راتِبي ... كُلّ شَهَر,My salary is ... every month,phrases,,,Work,4
+مُدَرِّس / مُعلِّم,Teacher,phrases,,,Work,3
+عالِم,Scientist,phrases,,,Work,1
+نَضّاف,Cleaner,phrases,,,Work,1
+خَضّار,Grocer,phrases,,,Work,1
+فَنّان,Artist Noun,phrases,,,Work,1
+كاتِب,Writer Noun,phrases,,,Work,1
+الشَرَق الأوسَط,The middle east,phrases,,,Countries,2
+آسيا,Asia,phrases,,,Countries,1
+أمريكا الجَنوبية,South America,phrases,,,Countries,2
+أمريكا الشَمالية,North America,phrases,,,Countries,2
+إيران,Iran Noun,phrases,,,Countries,1
+كوَيت,Kuwait Noun,phrases,,,Countries,1
+عُمان,Oman Noun,phrases,,,Countries,1
+اليَمَن,Yemen Noun,phrases,,,Countries,1
+السَعوديّة,Saudi Arabia Noun,phrases,,,Countries,1
+الإمارات,The Emirates Noun,phrases,,,Countries,1
+بَحرَين,Bahrain Noun,phrases,,,Countries,1
+سودان,Sudan Noun,phrases,,,Countries,1
+الصومال,Somalia Noun,phrases,,,Countries,1
+ليبيا,Libya Noun,phrases,,,Countries,1
+المَغرَب,Morocco Noun,phrases,,,Countries,1
+الصَحراء الغَربيّة,The Western Sahara,phrases,,,Countries,2
+مالي,Mali Noun,phrases,,,Countries,1
+بَلجيكا,Belgium Noun,phrases,,,Countries,1
+إيطاليا,Italy Noun,phrases,,,Countries,1
+إسبانيا,Spain Noun,phrases,,,Countries,1
+بُلاندا,Poland Noun,phrases,,,Countries,1
+هُلاندا,Netherlands Noun,phrases,,,Countries,1
+نِمسا,Austria,phrases,,,Countries,1
+اليونان,Greece Noun,phrases,,,Countries,1
+اليابان,Japan Noun,phrases,,,Countries,1
+باكِستان,Pakistan Noun,phrases,,,Countries,1
+أفغَنِستان,Afghanistan Noun,phrases,,,Countries,1
+تُركيّا,Turkey Noun,phrases,,,Countries,1
+إندونيسيا,Indonesia Noun,phrases,,,Countries,1
+الأرجَنتينا,Argentina Noun,phrases,,,Countries,1
+برازيل,Brazil Noun,phrases,,,Countries,1
+كَنَدا,Canada Noun,phrases,,,Countries,1
+كولومبيا,Colombia Noun,phrases,,,Countries,1
+المَكسيك,Mexico Noun,phrases,,,Countries,1
+بِدّي أشوف ...,I want to see ... 4 options,phrases,,,Sightseeing,3
+في فنادِق هُناك؟,Are there hotels there?,phrases,,,Sightseeing,3
+وَين لازِم أزور؟,Where should I visit?,phrases,,,Sightseeing,3
+مَتى بيفتَح؟,What time does it open?,phrases,,,Sightseeing,2
+مَتى بيسَكِّر؟,What time does it close?,phrases,,,Sightseeing,2
+قَدَّيش الدُخولية؟,How much is the admission?,phrases,,,Sightseeing,2
+في خَصم للطُلّاب؟,Is there a discount for students?,phrases,,,Sightseeing,3
+شامل ال...؟,Is the ... included? 4 options,phrases,,,Sightseeing,2
+شو هادا؟,What's that?,phrases,,,Sightseeing,2
+مُمكِن أصَوِّر؟,Can I take a photo?,phrases,,,Sightseeing,2
+كَم ساعة الرِحلة؟,How long is the tour?,phrases,,,Sightseeing,3
+مَتى بنِرجَع؟,What time will we return?,phrases,,,Sightseeing,2
+بَتراء,Petra,phrases,,,Sightseeing,1
+وادي رُم,Wadi Rum,phrases,,,Sightseeing,2
+القُدس القَديمة,Jerusalem Old City,phrases,,,Sightseeing,2
+قَلعة,Castle Noun,phrases,,,Sightseeing,1
+مَتحَف,Museum Noun,phrases,,,Sightseeing,1
+ساحة رئيسية,Main square,phrases,,,Sightseeing,2
+مَدينة قَديمة,Old city,phrases,,,Sightseeing,2
+قَصر,Palace Noun,phrases,,,Sightseeing,1
+الأهرام,Pyramids,phrases,,,Sightseeing,1
+آثار,Ruins Noun,phrases,,,Sightseeing,1
+بروشور,Brochure,phrases,,,Sightseeing,1
+دَليل,Guide,phrases,,,Sightseeing,1
+خَريطة المَنطَقة,Local map,phrases,,,Sightseeing,2
+دَخولية,Admission charge,phrases,,,Sightseeing,1
+إِخوة,Brothers Noun,phrases,,,Family,1
+خَوات,Sisters,phrases,,,Family,1
+إبن ...,Male cousin - ...'s son 4 options,phrases,,,Family,2
+بِنت ...,Female cousin - ...'s daughter 4 options,phrases,,,Family,2
+في عَندَك ...؟,Do you have ...,phrases,,,Family,3
+كَم شَخص في عائلتَك,How many people in your family?,phrases,,,Family,4
+في ... أفراد في عايلتي,There are ... people in my family,phrases,,,Family,5
+أنا أعزِب,I'm single,phrases,,,Dating,2
+إنتَ أعزِب؟,Are you single?,phrases,,,Dating,2
+أنا مُتجَوِّز,I'm married,phrases,,,Dating,2
+أنا مِش مُتجَوِّز,I'm not married,phrases,,,Dating,3
+إنتِ مِتجَوِّزة / إنتَ مِتجَوِّز,Are you married? (f./m.),phrases,,,Dating,5
+عِندِك حَبيب؟,Do you have a boyfriend?,phrases,,,Dating,2
+عِندَك حَبيبة؟,Do you have a girlfriend?,phrases,,,Dating,2
+بَحِسّ إني مَريض,I feel ill,phrases,,,Feeling ill,3
+رَح أُمرُض,I'm going to be ill,phrases,,,Feeling ill,2
+أنا مَريض,I'm sick,phrases,,,Feeling ill,2
+...ي بوجِّعَني,My ... hurts 24 options,phrases,,,Feeling ill,2
+عِندي ألم في ...ي,I have a pain in my ... 24 options,phrases,,,Feeling ill,4
+عَندي صُداع,I have a headache,phrases,,,Feeling ill,2
+عيون,Eyes Noun,phrases,,,Body Parts,1
+دَقن,Chin Noun,phrases,,,Body Parts,1
+فَخذ,Thigh Noun,phrases,,,Body Parts,1
+أصبَع القَدم,Toe,phrases,,,Body Parts,2
+عيد ميلاد مَجيد,Happy Christmas,phrases,,,Occasions,3
+رَمَضان مُبارَك,Happy Ramadan,phrases,,,Occasions,2
+بتِلعِب ...؟,Do you play ...? 6 options,phrases,,,Sports,2
+أنا بِلعِب ...,I play ... 6 options,phrases,,,Sports,3
+بتحِبّ ... ؟,Do you like ...? 6 options,phrases,,,Sports,3
+مين بتشَجِّع؟,Who do you support?,phrases,,,Sports,2
+أنا بشَجِّع ...,I support ...,phrases,,,Sports,3
+بِدَّك تِلعِب ... مَعي؟,Do you want to play ... with me? 6 options,phrases,,,Sports,4
+كُرة القَدم,Football,phrases,,,Sports,2
+تَنيس طَولة,Table tennis,phrases,,,Sports,2
+كُرة السَلّة,Basketball,phrases,,,Sports,2
+بِلياردو,Pool,phrases,,,Sports,1
+شَطرَنج,Chess,phrases,,,Sports,1
+كُرة الطائرة,Volleyball,phrases,,,Sports,2
+الجَو ...,The weather is ... 7 options,phrases,,,Weather,2
+كيف رَح يكون الجَو ...,How will the weather be on ...? 7 options,phrases,,,Weather,5
+في ...,There's ... 5 options,phrases,,,Weather,2
+هُوَّ فَصل ال...,It's the ... season 4 options,phrases,,,Weather,3
+سَقَع,Freezing,phrases,,,Weather,1
+نار,So hot (fire),phrases,,,Weather,1
+شَوبان,Warm Adjective,phrases,,,Weather,1
+بَردان,Cold Adjective,phrases,,,Weather,1
+سَقعان,Freezing,phrases,,,Weather,1
+حَميان,Hot,phrases,,,Weather,1
+تَلج,Snow Noun,phrases,,,Weather,1
+غَيوم,Clouds Noun,phrases,,,Weather,1
+عالآخِر,Extremely,phrases,,,Adverbs,1
+لألله,"""To Allah""",phrases,,,Adverbs,1
+كتير مَرّات,Often,phrases,,,Adverbs,2
+غالِباً,Probably Functional,phrases,,,Adverbs,1
+موَصِّل,Adapter,phrases,,,Dictionary,1
+عِنوان,Address Noun,phrases,,,Dictionary,1
+الكُحول,Alcohol,phrases,,,Dictionary,1
+كاحِل,Ankle Noun,phrases,,,Dictionary,1
+متَكّة,Ashtray,phrases,,,Dictionary,1
+شَنتة ظَهر,Backpack,phrases,,,Dictionary,2
+مَكان لَجَمِع الشَنتات,Baggage Claim,phrases,,,Dictionary,3
+جَميل,Beautiful,phrases,,,Dictionary,1
+بيرا,Beer,phrases,,,Dictionary,1
+بِسيكلِت,Bicycle Noun,phrases,,,Dictionary,1
+فِئة الدَم,Blood group,phrases,,,Dictionary,2
+بَحجَز,Book (I book / reserve),phrases,,,Dictionary,1
+قَنينة,Bottle Noun,phrases,,,Dictionary,1
+فاتِح القنينات,Bottle opener,phrases,,,Dictionary,2
+بِشتَري,Buy (I buy),phrases,,,Dictionary,1
+كاميرا,Camera,phrases,,,Dictionary,1
+بَلغي,Cancel (I cancel),phrases,,,Dictionary,1
+موبَيل,Cell phone,phrases,,,Dictionary,1
+وَسط,Centre Noun,phrases,,,Dictionary,1
+بَصَرِّف,Change (I change money),phrases,,,Dictionary,1
+مَكتَب التَسجيل,Check-in,phrases,,,Dictionary,2
+سيغارة,Cigarette,phrases,,,Dictionary,1
+نظيف,Clean Adjective,phrases,,,Dictionary,1
+بِجي,Come (I come),phrases,,,Dictionary,1
+الواقي,Condom,phrases,,,Dictionary,1
+بَطبَخ,Cook (I cook),phrases,,,Dictionary,1
+تَكلِفة,Cost,phrases,,,Dictionary,1
+بَطاقة رَصيد,Credit Card,phrases,,,Dictionary,2
+صَرَّافة,Currency exchange Noun,phrases,,,Dictionary,1
+جَمارُك,Customs (immigration),phrases,,,Dictionary,1
+خَطير,Dangerous Adjective,phrases,,,Dictionary,1
+دُكتور إسنان,Dentist,phrases,,,Dictionary,2
+بَغادِر,Depart (I depart),phrases,,,Dictionary,1
+قاموس,Dictionary Noun,phrases,,,Dictionary,1
+مُباشِر,Direct,phrases,,,Dictionary,1
+مُعاق,Disabled,phrases,,,Dictionary,1
+تَخت مِزوِج,Double bed,phrases,,,Dictionary,2
+غُرفة لَشَخصَين,Double room,phrases,,,Dictionary,2
+مَشروب,Drink,phrases,,,Dictionary,1
+بَسوق,Drive (I drive),phrases,,,Dictionary,1
+رُخصة القيادة,Driver's license,phrases,,,Dictionary,2
+مُخَدِّرات,Drugs,phrases,,,Dictionary,1
+باكُل,Eat (I eat),phrases,,,Dictionary,1
+الدَرجة العادية,Economy class,phrases,,,Dictionary,2
+كَهرِباء,Electricity Noun,phrases,,,Dictionary,1
+طارئ,Emergency,phrases,,,Dictionary,1
+الإنجليزي,English language,phrases,,,Dictionary,1
+بَريد سَريع,Express mail,phrases,,,Dictionary,2
+فيلم,Film Noun,phrases,,,Dictionary,1
+صَندوق الإسعاف الأوّل,First aid kit,phrases,,,Dictionary,3
+الدَرَجة الأُولى,First class,phrases,,,Dictionary,2
+مَجاناً,Free (of charge),phrases,,,Dictionary,1
+صَديق,Friend Noun,phrases,,,Dictionary,1
+مُضحِك,Funny Adjective,phrases,,,Dictionary,1
+بَروح,Go (I go),phrases,,,Dictionary,1
+مَحفَظة يَد,Handbag,phrases,,,Dictionary,2
+بَساعَد,Help (I help),phrases,,,Dictionary,1
+شامِل,Included Verb,phrases,,,Dictionary,1
+مُتَرجِم,Interpreter,phrases,,,Dictionary,1
+مُجَوهرات,Jewellery,phrases,,,Dictionary,1
+يسار,Left,phrases,,,Dictionary,1
+مَكتَب الإحفاظ بِالأمتَعة,Left luggage,phrases,,,Dictionary,3
+سِحاقية,Lesbian Noun,phrases,,,Dictionary,1
+بَحِبّ,Like (I like),phrases,,,Dictionary,1
+مَكتَب الأغراض الضائعة,Lost property,phrases,,,Dictionary,3
+أمتَعة,Luggage,phrases,,,Dictionary,1
+خَريطة,Map Noun,phrases,,,Dictionary,1
+لَحم,Meat Noun,phrases,,,Dictionary,1
+تُمّ,Mouth Noun,phrases,,,Dictionary,1
+موسيقى,Music Noun,phrases,,,Dictionary,1
+إسم,Name Noun,phrases,,,Dictionary,1
+مَحرَمة,Napkin,phrases,,,Dictionary,1
+حَفاظة طِفل,Nappy,phrases,,,Dictionary,2
+أخبار,News,phrases,,,Dictionary,1
+جَريدة,Newspaper Noun,phrases,,,Dictionary,1
+ضَجيج,Noisy,phrases,,,Dictionary,1
+غير المُدَخِّنين,Non-smoking,phrases,,,Dictionary,2
+تَذكِرة ذَهاب,One-way ticket,phrases,,,Dictionary,2
+وَرَقة,Paper Noun,phrases,,,Dictionary,1
+بَصُفّ,Park (I park),phrases,,,Dictionary,1
+بَدفَع,Pay (I pay),phrases,,,Dictionary,1
+بَطاقة تَليفون,Phonecard,phrases,,,Dictionary,2
+صورة,Photo Noun,phrases,,,Dictionary,1
+شُرطة,Police,phrases,,,Dictionary,1
+بَطاقة مُعايدة,Postcard,phrases,,,Dictionary,2
+شِلفة,Razor,phrases,,,Dictionary,1
+إعادة مالي,Refund,phrases,,,Dictionary,2
+بَريد مُسَجِّل,Registered mail,phrases,,,Dictionary,2
+بَستَأجِّر,Rent (I rent),phrases,,,Dictionary,1
+بَصَلِّح,Repair (I repair),phrases,,,Dictionary,1
+بَرجَع,Return (I return),phrases,,,Dictionary,1
+تَذكِرة ذهاب وإياب,Return ticket,phrases,,,Dictionary,3
+آمِن,Safe,phrases,,,Dictionary,1
+مَنديل نِسائي,Sanitary pad,phrases,,,Dictionary,2
+مَقعَد,Seat Noun,phrases,,,Dictionary,1
+بَبعَت,Send (I send),phrases,,,Dictionary,1
+مَحَطة البَنزين,Service station,phrases,,,Dictionary,2
+جِنس,Sex,phrases,,,Dictionary,1
+شامبو,Shampoo,phrases,,,Dictionary,1
+بَشارَك,Share (I share),phrases,,,Dictionary,1
+مَعجون الحَلاقة,Shaving cream,phrases,,,Dictionary,2
+شَرشَف,Sheet (bed),phrases,,,Dictionary,1
+بوط,Shoes,phrases,,,Dictionary,1
+غُرفة مِفرِد,Single room,phrases,,,Dictionary,2
+بَنام,Sleep (I sleep),phrases,,,Dictionary,1
+بَدَخِّن,Smoke (I smoke),phrases,,,Dictionary,1
+بَحكي,Speak (I speak),phrases,,,Dictionary,1
+مَعلَقة,Spoon Noun,phrases,,,Dictionary,1
+طابَع,Stamp,phrases,,,Dictionary,1
+بَوَقِّف,Stop (I stop),phrases,,,Dictionary,1
+مَعجون واقي في الشَمس,Sunscreen,phrases,,,Dictionary,4
+بَسبَح,Swim (I swim),phrases,,,Dictionary,1
+صَمام النِسائي,Tampons,phrases,,,Dictionary,2
+مَعلَقة شاي,Teaspoon,phrases,,,Dictionary,2
+إسنان,Teeth,phrases,,,Dictionary,1
+خَيمة,Tent Noun,phrases,,,Dictionary,1
+مَحارِم,Tissues,phrases,,,Dictionary,1
+لَيلة اليوم,Tonight,phrases,,,Dictionary,2
+فَرشاة الإسنان,Toothbrush,phrases,,,Dictionary,2
+مَعجون الإسنان,Toothpaste,phrases,,,Dictionary,2
+مِشعَل كَهرِبائي,Torch,phrases,,,Dictionary,2
+دَورة,Tour,phrases,,,Dictionary,1
+مَكتَب السياحة,Tourist office,phrases,,,Dictionary,2
+بَتَرجِّم,Translate (I translate),phrases,,,Dictionary,1
+وَكالة السَفر,Travel agency,phrases,,,Dictionary,2
+شيك سياحي,Travellers cheque,phrases,,,Dictionary,2
+لِباس تَحتية,Underwear,phrases,,,Dictionary,2
+مِستَعجِل,Urgent Adjective,phrases,,,Dictionary,1
+خَضراوات,Vegetable,phrases,,,Dictionary,1
+فيزة,Visa Noun,phrases,,,Dictionary,1
+غَرسُن,Waiter,phrases,,,Dictionary,1
+بَمشي,Walk (I walk),phrases,,,Dictionary,1
+بَغَسِّل,Wash (I wash),phrases,,,Dictionary,1
+ساعة يَد,Watch,phrases,,,Dictionary,2
+نَبيذ,Wine Noun,phrases,,,Dictionary,1
+بَكتُب,Write (I write),phrases,,,Dictionary,1

@@ -1,0 +1,12 @@
+dictionary_id,arabic,our_arabic,english,our_english,match,sources
+403,لا,لَأ,No,no,spelling-mismatch,words+phrases
+531,مَشى,مِشِي,To walk,walked,spelling-mismatch,words
+557,نادي,نَادَى,Gym,called out to someone,spelling-mismatch,words
+21,أيمتى,إِيمْتَى,When?,when,spelling-mismatch,words+phrases
+2524,أيش,إِيش,What?,what (variant),spelling-mismatch,words
+171,أَب,آب,Father,August,spelling-mismatch,words+phrases
+803,إِبِن,اِبِن,Son,son,spelling-mismatch,words+phrases
+427,شو إسمَك؟,شُو اسْمَك؟,What's your name,what's your name? (to m.),spelling-mismatch,phrases
+253,أللَّه مَعَك,اللَّه مَعَك,Goodbye (reply),God be with you / bye (to m.),spelling-mismatch,phrases
+962,إجتِماعي,اجْتِمَاعِي,Sociable Adjective,social / outgoing,spelling-mismatch,phrases
+36,ال,إِلَـ,The Functional,to / for (possession),spelling-mismatch,phrases

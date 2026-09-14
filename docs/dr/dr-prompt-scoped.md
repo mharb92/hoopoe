@@ -47,6 +47,13 @@ expensive than a flagged uncertainty.
 ```
 Rows <<N>> of 2,728. Batch <<B>>.
 
+A row may carry `essential: rank N` or `essential: yes`. That means it appears on an
+external Levantine essentials list a beginner works through, and it is STRONG evidence
+of encounter likelihood — the thing level measures. A low rank is early in that list.
+It is evidence, not an instruction: the rubric still decides, and a row can be essential
+and still not be level 1 if the rubric says otherwise. Absence of the marker is NOT
+evidence against a row; the lists are incomplete.
+
 <<TSV>>
 id, arabic, romanization, english, pos, category, root, conjugation, gender,
 dialect_tag, notes, confidence
@@ -72,6 +79,17 @@ For each row return one object. Judge these fields:
 6. arabic_vocalised   fully vowelled, spelling out DIALECT pronunciation, not MSA.
                  This is the TTS input and the harakaat display source.
 7. corrections   meaning, harakaat, gender, root, conjugation, notes. Only where wrong.
+8. pair          REQUIRED whenever this row is a greeting, blessing, thanks or other
+                 formula that has a conventional spoken reply. Give that reply as Arabic
+                 text (you cannot see other rows, so never an id). Most greetings and
+                 blessings HAVE one and you are expected to supply it: صباح الخير takes
+                 صباح النور, السلام عليكم takes وعليكم السلام, مبروك takes الله يبارك فيك,
+                 يعطيك العافية takes الله يعافيك. Omit only when no conventional reply
+                 exists, as for شكرا used alone.
+9. constituents  REQUIRED for every row with pos = formula or frame. The dictionary words
+                 the expression is built from, as Arabic text (never ids). صباح الخير is
+                 ["صباح","الخير"]. For a frame, mark the variable slot with ___ , so
+                 بدي أروح is ["بدي","___"]. Omit only for single lexemes.
 
 Rules:
 - Never restate a clean row's unchanged fields. Omit what you are not changing.
@@ -105,13 +123,15 @@ One JSON object per row. No prose, no markdown fences.
   "register": "neutral",
   "form_origin": "msa_identical",
   "enum_conf": "H",
-  "romanization": {"value": "mabrook", "conf": "H", "changed": true},
+  "romanization": {"value": "mabruuk", "conf": "H", "changed": true},
   "arabic_vocalised": {"value": "مَبْرُوك", "conf": "H"},
   "corrections": [
     {"field": "notes", "current": null, "suggested": "congratulation formula",
      "type": "notes", "reason": "usage not recorded", "conf": "M"}
   ],
-  "native_check": false
+  "native_check": false,
+  "pair": "الله يبارك فيك",
+  "constituents": ["مبروك"]
 }
 ```
 
@@ -127,6 +147,8 @@ One JSON object per row. No prose, no markdown fences.
 | `arabic_vocalised` | yes | every row |
 | `corrections` | no | omit if empty; never emit an entry with no change |
 | `native_check` | yes | `true` forces human review regardless of conf |
+| `pair` | when a reply exists | any formula with a conventional spoken reply; the OTHER half as Arabic text, never an id |
+| `constituents` | yes for formula/frame | the dictionary words it is built from, as Arabic text, `___` for a frame's slot |
 
 `corrections[].type` ∈ `meaning, harakaat, romanization, gender, pos, root, conjugation, tag, notes, duplicate, gap, variant`
 

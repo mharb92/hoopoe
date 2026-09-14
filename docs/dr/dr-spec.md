@@ -85,8 +85,8 @@ Assign by asking: *how early does a learner need this to form and survive Palest
 1. **Pairs share a level.** Both halves of a `formula_pair` get the same level. No judgement.
 2. **Regional variants sit at least one level above their base form.** هسّا (148) is a variant of هلّأ; the base form is learned first.
 3. **`form_origin = msa_identical` is not evidence of low level.** بالنسبة لـ is MSA-identical and level 5.
-4. **`register = formal` caps at level 4.** Formal register is not week-1 material.
-5. **`register = slang` caps at level 3.** Slang is real Palestinian but never foundational.
+4. **Register does not cap level (amended chat 26, D266).** The original rule capped `formal` at 4 and `slang` at 3 on the assumption that formal register implies low encounter-frequency. That is true in English and **false in Arabic**, where diglossia puts formal forms inside ordinary daily politeness: نعم، كيف حالك، تفضل، لو سمحت are all formal and all heard on day one. The rule also contradicted the construct — §2.1 strand C makes obligatory social moves level 1, and نعم is one. Level is decided by encounter likelihood; register is evidence toward it, never a ceiling. Bookish MSA sits high because it is rarely met, not because it is formal.
+5. **A register pair sits at the same level or one apart**, never further. كيفك and كيف حالك are one move in two registers.
 6. **Frames and formulas are levelled by need, not by length.** A 4-word formula can be level 1; a 1-word domain noun can be level 4.
 
 ---

@@ -33,15 +33,21 @@ function isConf(v) {
 // other capital, every digit but 3 and 7, and all other punctuation are rejected.
 // The map has claimed "the validator rejects anything else" since D47; until now
 // nothing enforced it and capitals, diacritics and stray punctuation all passed.
-export const ALLOWED_ROMANIZATION_RE = /^(?:TH|[SDT]|[a-z37'-])+$/;
+export const ALLOWED_ROMANIZATION_RE = /^(?:TH|[SDT]|[a-z37'-])+(?: (?:TH|[SDT]|[a-z37'-])+)*$/;
 
 /** Returns null when clean, else the first offending character. */
 export function checkCharset(value) {
   if (typeof value !== 'string' || value.length === 0) return '(empty)';
+  // 879 dictionary rows are phrases, so a single interior space is legal. The map
+  // omitted whitespace from §3.4 because it was written describing single words;
+  // enforcing it literally rejected every phrase. Leading, trailing and doubled
+  // spaces stay illegal — rulefix collapses those before the model ever sees them.
+  if (value !== value.trim() || value.includes('  ')) return '(stray whitespace)';
   for (let i = 0; i < value.length; i++) {
     if (value.startsWith('TH', i)) { i += 1; continue; }   // one grapheme
     const ch = value[i];
     if (ch === 'S' || ch === 'D' || ch === 'T') continue;  // the emphatics
+    if (ch === ' ') continue;                              // single interior space
     if (/[a-z37'-]/.test(ch)) continue;
     return ch;
   }
@@ -89,6 +95,19 @@ export function validateRow(obj, expectedId) {
   }
 
   if (typeof obj.native_check !== 'boolean') errors.push('native_check: missing or not a boolean');
+
+  // D267: collected, never scored. `pair` and `constituents` are evidence for the
+  // formula_pair table and the C5.5 pool check; they carry no confidence and are
+  // deliberately absent from route.mjs's critical set, because the minimum rule
+  // means any new scored field drags review_confidence down for the whole row.
+  if (obj.pair !== undefined && !isNonEmptyString(obj.pair)) {
+    errors.push('pair: must be the other half as a non-empty Arabic string, or absent');
+  }
+  if (obj.constituents !== undefined) {
+    if (!Array.isArray(obj.constituents) || obj.constituents.some((c) => !isNonEmptyString(c))) {
+      errors.push('constituents: must be an array of non-empty strings, or absent');
+    }
+  }
 
   if (obj.corrections !== undefined) {
     if (!Array.isArray(obj.corrections) || obj.corrections.length === 0) {

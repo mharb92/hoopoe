@@ -1,0 +1,66 @@
+dictionary_id,arabic,our_arabic,our_romanization,english,our_english,our_pos,sources,rank
+401,آه,إِي,ee,Yes,yes,Particle,words+phrases,3
+1477,بِشَع,قَبِيح,abee7,Ugly,ugly,Adjective,words,64
+853,مَنخار,أَنْف,anf,Nose,nose,Noun,words+phrases,74
+861,أُصبِع,صْبَاع,sba3,Finger,finger,Noun,words+phrases,106
+866,رِجْل,إِجِر,ijir,Leg / foot,leg / foot,Noun,words+phrases,109
+1227,شَبعان,مَلْيَان,malyaan,Full,full,Adjective,words,115
+1092,غُرفة,أُوضَة,ooda,room,room,Noun,words+phrases,152
+143,مبَارِح,إِمْبَارِح,imbaari7,Yesterday,yesterday,Adverb,words+phrases,159
+142,بُكرة,بُكْرَا,bukra,Tomorrow,tomorrow,Adverb,words,160
+188,بَدري,بَكِّير,bakkeer,Early,early,Adverb,words,210
+1139,جَكَيت,جَاكِيت,jaakeet,jacket,jacket,Noun,words,218
+1290,بَسْكَلِيْتّ,دَرَّاجَة,darraaje,bicycle,bicycle,Noun,words,234
+140,لَيلة,لَيْل,leil,Night,night,Noun,words+phrases,254
+157,الأحَد,يَوْم الأَحَد,yom ila7ad,Sunday,Sunday,Noun,words,262
+158,الإتنَين,يَوْم الاِثْنَيْن,yom ilithnein,Monday,Monday,Noun,words,263
+159,التَلاتة,يَوْم الثَّلَاثَا,yom ittalaata,Tuesday,Tuesday,Noun,words,264
+160,الأربِعاء,يَوْم الأَرْبَعَا,yom ilarba3a,Wednesday,Wednesday,Noun,words,265
+161,الخَميس,يَوْم الخَمِيس,yom ilkhamees,Thursday,Thursday,Noun,words,266
+162,الجُمعة,يَوْم الجُمْعَة,yom iljum3a,Friday,Friday,Noun,words,268
+163,السَبت,يَوْم السَّبْت,yom issabt,Saturday,Saturday,Noun,words,269
+1025,خُضَر,خُضْرَا,khudra,Vegetables,vegetables,Noun,words,313
+1030,تومة,ثُوم,thoom,Garlic,garlic,Noun,words,317
+178,رَبيع,الرَّبِيع,irrabee3,Spring,spring,Noun,words+phrases,333
+176,صَيف,الصَّيْف,isseif,Summer,summer,Noun,words+phrases,335
+1119,ضاوي,نُور,noor,Light,light,Noun,words,460
+1503,سَيء,سَيِّئ,sayyi',Bad,bad,Adjective,words+phrases,464
+234,أهلاً وَ سَهلاً,أَهْلَا وْسَهْلَا,ahla w sahla,Welcome,welcome,Phrase,phrases,
+247,مَساء الخير,مَسَا الخَيْر,masa lkheir,Good evening,good evening,Phrase,phrases,
+248,مَساء النّور,مَسَا النُّور,masa nnoor,Good evening (reply),good evening (reply),Phrase,phrases,
+317,كُلّشي,كُلّ إِشِي,kull ishi,Everything,everything,Pronoun,phrases,
+1321,عالزاوية,عَ الزَّاوْيَة,3azzaawye,On the corner,on the corner,Phrase,phrases,
+1280,بَريد,مَكْتَب بَرِيد,maktab bareed,Post office,post office,Noun,phrases,
+1016,وَرَق عِنب,وَرَق دَوَالِي,wara' dawaali,Stuffed grape leaves,stuffed grape leaves,Noun,phrases,
+1867,مينيو,مِنْيُو,minyu,Menu,menu,Noun,phrases,
+2362,المُكَسَرات,مُكَسَّرَات,mukassaraat,Nuts,nuts,Noun,phrases,
+138,بَعد الظُهر,عَصِر,3asir,Afternoon,afternoon,Noun,phrases,
+158,يوم الإتنين,يَوْم الاِثْنَيْن,yom ilithnein,Monday,Monday,Noun,phrases,
+159,يوم التَلات,يَوْم الثَّلَاثَا,yom ittalaata,Tuesday,Tuesday,Noun,phrases,
+160,يوم الأربِعة,يَوْم الأَرْبَعَا,yom ilarba3a,Wednesday,Wednesday,Noun,phrases,
+162,يوم الجُمِع,يَوْم الجُمْعَة,yom iljum3a,Friday,Friday,Noun,phrases,
+145,أوَّل مبارِح,أَوَّل إِمْبَارِح,awwal imbari7,The day before yesterday,the day before yesterday,Phrase,phrases,
+1282,مَركِز الشُرطة,مَرْكَز شُرْطَة,markaz shurta,Police station,police station,Noun,phrases,
+2280,جَوّاز,جَوَاز سَفَر,jawaaz safar,Passport,passport,Noun,phrases,
+801,أخو,أَخ,akh,Brother,brother,Noun,phrases,
+855,فَم,ثُمّ,thumm,Mouth,mouth,Noun,phrases,
+2267,عِيد ميلادَك سَعيد,يَوْم مِيلَاد سَعِيد,yom milaad sa3eed,Happy Birthday,Happy birthday,Phrase,phrases,
+195,مَرّات,أَحْيَانًا,a7yaanan,Sometimes,sometimes,Adverb,phrases,
+203,قَليلاً,نَادِرًا,naadiran,Rarely,rarely,Adverb,phrases,
+1699,جِهاز الصرافة,صَرَّاف آلِي,sarraaf aali,ATM,ATM,Noun,phrases,
+39,خَلف,وَرَا,wara,Behind,behind,Preposition,phrases,
+1107,بَطَنيّة,بَطَّانِيَّة,battaaniyye,Blanket,blanket,Noun,phrases,
+2662,عَدَسة الأصقة,عَدَسَات,3adasaat,Contact lenses,contact lenses,Noun,phrases,
+1219,مَصعَد,أَسَانْسِير,asaanseer,Elevator,elevator,Noun,phrases,
+1728,بَريد الَكتروني,إِيمَيل,eemeil,Email,email,Noun,phrases,
+1871,سَعر التَحويل,سِعِر الصَّرِف,si3ir issarif,Exchange rate,exchange rate,Noun,phrases,
+1301,طَريق عام,أُوتُوسْتْرَاد,otoostraad,Highway,highway,Noun,phrases,
+1701,كيلوغرام,كِيلُو,keelo,Kilogram,kilogram,Noun,phrases,
+1236,مَغسَل,غَسِيل,ghaseel,Laundry,laundry,Noun,phrases,
+1119,ضَوء,نُور,noor,Light,light,Noun,phrases,
+1867,مانيو,مِنْيُو,minyu,Menu,menu,Noun,phrases,
+2280,جَواز السَفر,جَوَاز سَفَر,jawaaz safar,Passport,passport,Noun,phrases,
+1280,مَكتَب البَريد,مَكْتَب بَرِيد,maktab bareed,Post office,post office,Noun,phrases,
+2390,دوش,دُشّ,dush,Shower,shower,Noun,phrases,
+214,نَهاية الأُسبوع,آخِر الأُسْبُوع,aakhir il'usboo3,Weekend,weekend,Phrase,phrases,
+2660,كُرسي المُقَعِّدين,كُرْسِي مُتَحَرِّك,kursi muta7arrik,Wheelchair,wheelchair,Noun,phrases,

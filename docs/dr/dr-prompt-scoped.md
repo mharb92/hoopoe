@@ -141,6 +141,8 @@ One JSON object per row. No prose, no markdown fences.
 | `arabic_vocalised` | yes | every row |
 | `corrections` | no | omit if empty; never emit an entry with no change |
 | `native_check` | yes | `true` forces human review regardless of conf |
+| `pair` | no | only a formula that is half of a call-and-response; the OTHER half as Arabic text, never an id |
+| `constituents` | no | only `pos` = formula or frame; the dictionary words it is built from, as Arabic text, `___` for a frame's slot |
 
 `corrections[].type` ∈ `meaning, harakaat, romanization, gender, pos, root, conjugation, tag, notes, duplicate, gap, variant`
 

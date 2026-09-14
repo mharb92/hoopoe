@@ -11,6 +11,7 @@ import { migrateScheme, dropInitialHamzaGlottal } from '../rulefix.mjs';
 import { checkCharset, ALLOWED_ROMANIZATION_RE, validateRow } from '../validate.mjs';
 import { routeRow } from '../route.mjs';
 import { parseObjects } from '../judge.mjs';
+import { readFileSync } from 'node:fs';
 
 // --- deterministic symbol substitutions -----------------------------------
 
@@ -184,4 +185,24 @@ test('parseObjects: unparsed is hidden from enumeration, so it cannot reach a pa
 
 test('parseObjects: still throws when nothing at all parsed, and names the cause', () => {
   assert.throws(() => parseObjects('{"a":"b"c"} {"d":"e"f"}'), /no JSON object found.*unparseable/s);
+});
+
+// --- the B2 bug, structurally ---------------------------------------------
+// Chat 22: a field described in the prompt's instruction list but absent from
+// the OUTPUT CONTRACT is never emitted, because the contract is what tells the
+// model the JSON shape. It happened again with pair and constituents (D267),
+// and offline tests missed it both times because the fields are optional, so
+// their absence is legal and nothing fails. This asserts the invariant itself.
+test('prompt: every numbered field in the instruction list appears in the output contract', () => {
+  const doc = readFileSync(new URL('../../../docs/dr/dr-prompt-scoped.md', import.meta.url), 'utf8');
+  const instructed = [...doc.matchAll(/^\s*\d+\.\s+([a-z_]+)\s{2,}/gm)].map((m) => m[1]);
+  assert.ok(instructed.length >= 9, `expected the full field list, got ${instructed.join(',')}`);
+  const contract = doc.slice(doc.indexOf('## Output contract'));
+  // The first cell can name several fields at once (`pos`, `register`,
+  // `form_origin` share one row), so take every backticked name in that cell.
+  const listed = new Set([...contract.matchAll(/^\|([^|]+)\|/gm)]
+    .flatMap((m) => [...m[1].matchAll(/`([^`]+)`/g)].map((x) => x[1])));
+  const missing = instructed.filter((f) => !listed.has(f));
+  assert.deepEqual(missing, [],
+    `fields instructed but absent from the contract, so the model will never emit them: ${missing.join(', ')}`);
 });

@@ -12,7 +12,7 @@
   "rows_from": "/tmp/claude-0/-home-user-hoopoe/8c480794-3f2b-515d-8e2b-8cd4e4c60cad/scratchpad/essential-rows.json",
   "prompt_doc": "docs/dr/dr-prompt-scoped.md",
   "romanization_map": "docs/dr/romanization-map.md",
-  "started_at": "2026-09-14T14:17:33.676Z",
-  "finished_at": "2026-09-14T14:27:02.983Z",
-  "stop_reason": "halted: Expected ',' or '}' after property value in JSON at position 304 (line 1 column 305)"
+  "started_at": "2026-09-14T14:28:31.940Z",
+  "finished_at": "2026-09-14T15:14:07.938Z",
+  "stop_reason": "halted: judge-cli: exited 1 — subtype=success api_error_status=429 terminal_reason=api_error stop_reason=stop_sequence result=You've hit your org's monthly spend limit · ask your admin to raise it at claude.ai/admin-settings/usage · your session limit resets 5:10pm (UTC)"
 }

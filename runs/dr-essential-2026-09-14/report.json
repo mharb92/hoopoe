@@ -1,7 +1,7 @@
 {
   "run_id": "dr-essential-2026-09-14",
-  "generated_at": "2026-09-14T14:27:02.983Z",
-  "stop_reason": "halted: Expected ',' or '}' after property value in JSON at position 304 (line 1 column 305)",
+  "generated_at": "2026-09-14T15:14:07.938Z",
+  "stop_reason": "halted: judge-cli: exited 1 — subtype=success api_error_status=429 terminal_reason=api_error stop_reason=stop_sequence result=You've hit your org's monthly spend limit · ask your admin to raise it at claude.ai/admin-settings/usage · your session limit resets 5:10pm (UTC)",
   "stub_judge": null,
   "config": {
     "runId": "dr-essential-2026-09-14",

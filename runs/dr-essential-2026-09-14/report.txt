@@ -1,5 +1,5 @@
 DR run dr-essential-2026-09-14
-stop reason: halted: Expected ',' or '}' after property value in JSON at position 304 (line 1 column 305)
+stop reason: halted: judge-cli: exited 1 — subtype=success api_error_status=429 terminal_reason=api_error stop_reason=stop_sequence result=You've hit your org's monthly spend limit · ask your admin to raise it at claude.ai/admin-settings/usage · your session limit resets 5:10pm (UTC)
 batches 0/?  staged 0  skipped(resume) 0
 spend $0.0000 of cap $14.00
 

@@ -1,14 +1,14 @@
 {
   "run_id": "dr-essential-2026-09-14",
-  "generated_at": "2026-09-14T15:14:07.938Z",
-  "stop_reason": "halted: judge-cli: exited 1 — subtype=success api_error_status=429 terminal_reason=api_error stop_reason=stop_sequence result=You've hit your org's monthly spend limit · ask your admin to raise it at claude.ai/admin-settings/usage · your session limit resets 5:10pm (UTC)",
+  "generated_at": "2026-09-14T15:32:42.113Z",
+  "stop_reason": "completed",
   "stub_judge": null,
   "config": {
     "runId": "dr-essential-2026-09-14",
     "seed": 3139701326,
     "batchSize": 40,
     "transport": "judge-cli",
-    "spendCapUsd": 14,
+    "spendCapUsd": 2,
     "totalRows": 2728,
     "model": "claude-opus-5",
     "effort": "high",
@@ -20,13 +20,13 @@
     "runsDir": "/home/user/hoopoe/runs"
   },
   "totals": {
-    "planned_batches": null,
-    "batches_run": 0,
-    "rows_skipped_resume": 0,
-    "rows_staged": 0,
-    "model_calls": 0,
-    "usd_spent": 0,
-    "spend_cap_usd": 14
+    "planned_batches": 16,
+    "batches_run": 1,
+    "rows_skipped_resume": 600,
+    "rows_staged": 15,
+    "model_calls": 1,
+    "usd_spent": 0.24245350000000002,
+    "spend_cap_usd": 2
   },
   "checks": [
     {
@@ -34,8 +34,14 @@
       "label": "every requested id returned exactly once (first response)",
       "pass": true,
       "value": {
-        "requested": 0,
-        "batches": []
+        "requested": 15,
+        "batches": [
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          }
+        ]
       }
     },
     {
@@ -66,18 +72,23 @@
     {
       "id": "P5",
       "label": "level spread is at least 3 distinct values",
-      "pass": false,
+      "pass": true,
       "value": {
-        "levels": {}
+        "levels": {
+          "1": 3,
+          "2": 7,
+          "3": 4,
+          "4": 1
+        }
       }
     },
     {
       "id": "P6",
       "label": "verb share of level 1-2 rows >= 0.3 (external signal 0.4)",
-      "pass": null,
+      "pass": false,
       "value": {
-        "verbShare": null,
-        "lowBandRows": 0,
+        "verbShare": 0.2,
+        "lowBandRows": 10,
         "externalSignal": 0.4
       }
     },
@@ -86,11 +97,11 @@
       "label": "held rate and native_check rate (recorded, not a gate)",
       "pass": null,
       "value": {
-        "heldRate": null,
-        "held": 0,
-        "rows": 0,
-        "nativeCheckRate": null,
-        "nativeCheck": 0
+        "heldRate": 0.5333333333333333,
+        "held": 8,
+        "rows": 15,
+        "nativeCheckRate": 0.13333333333333333,
+        "nativeCheck": 2
       }
     },
     {
@@ -98,19 +109,55 @@
       "label": "cost and output tokens per row, extrapolated to 2,728 (recorded)",
       "pass": null,
       "value": {
-        "outputTokensPerRow": null,
-        "outputTokensPerCall": null,
-        "maxTokensConfigured": 64000,
-        "worstCallVsMaxTokens": 0,
-        "thinkingTokens": null,
-        "preambleTokens": {
-          "created": null,
-          "read": null
+        "outputTokensPerRow": {
+          "min": 388.6,
+          "p50": 388.6,
+          "p90": 388.6,
+          "max": 388.6,
+          "mean": 388.6
         },
-        "metered": [],
-        "usd": 0,
-        "usdPerRow": null,
-        "usdExtrapolated": null
+        "outputTokensPerCall": {
+          "min": 5829,
+          "p50": 5829,
+          "p90": 5829,
+          "max": 5829,
+          "mean": 5829
+        },
+        "maxTokensConfigured": 64000,
+        "worstCallVsMaxTokens": 0.091078125,
+        "thinkingTokens": {
+          "total": 3233,
+          "perCall": {
+            "min": 3233,
+            "p50": 3233,
+            "p90": 3233,
+            "max": 3233,
+            "mean": 3233
+          },
+          "shareOfOutput": 0.5546405901526849
+        },
+        "preambleTokens": {
+          "created": {
+            "min": 8044,
+            "p50": 8044,
+            "p90": 8044,
+            "max": 8044,
+            "mean": 8044
+          },
+          "read": {
+            "min": 32557,
+            "p50": 32557,
+            "p90": 32557,
+            "max": 32557,
+            "mean": 32557
+          }
+        },
+        "metered": [
+          "transport"
+        ],
+        "usd": 0.24245350000000002,
+        "usdPerRow": 0.016163566666666667,
+        "usdExtrapolated": 44.09420986666667
       }
     },
     {
@@ -118,22 +165,42 @@
       "label": "review_confidence distribution, extrapolated to 2,728 (recorded)",
       "pass": null,
       "value": {
-        "distribution": {},
-        "extrapolated": {},
-        "rows": 0
+        "distribution": {
+          "2": 8,
+          "3": 7
+        },
+        "extrapolated": {
+          "2": 1455,
+          "3": 1273
+        },
+        "rows": 15
       }
     },
     {
       "id": "P10",
       "label": "vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)",
-      "pass": null,
+      "pass": true,
       "value": {
-        "flipRate": null,
-        "flipped": 0,
-        "rows": 0,
-        "flippedIds": []
+        "flipRate": 0.26666666666666666,
+        "flipped": 4,
+        "rows": 15,
+        "flippedIds": [
+          860,
+          1280,
+          1043,
+          103
+        ]
       }
     }
   ],
-  "batches": []
+  "batches": [
+    {
+      "batch_no": 16,
+      "requested": 15,
+      "staged": 15,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.24245350000000002
+    }
+  ]
 }

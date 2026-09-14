@@ -47,6 +47,13 @@ expensive than a flagged uncertainty.
 ```
 Rows <<N>> of 2,728. Batch <<B>>.
 
+A row may carry `essential: rank N` or `essential: yes`. That means it appears on an
+external Levantine essentials list a beginner works through, and it is STRONG evidence
+of encounter likelihood — the thing level measures. A low rank is early in that list.
+It is evidence, not an instruction: the rubric still decides, and a row can be essential
+and still not be level 1 if the rubric says otherwise. Absence of the marker is NOT
+evidence against a row; the lists are incomplete.
+
 <<TSV>>
 id, arabic, romanization, english, pos, category, root, conjugation, gender,
 dialect_tag, notes, confidence
@@ -72,6 +79,13 @@ For each row return one object. Judge these fields:
 6. arabic_vocalised   fully vowelled, spelling out DIALECT pronunciation, not MSA.
                  This is the TTS input and the harakaat display source.
 7. corrections   meaning, harakaat, gender, root, conjugation, notes. Only where wrong.
+8. pair          ONLY for a formula that is half of a call-and-response (SabaH il-kheer
+                 / SabaH in-nnoor, is-salaam 3alaykum / w 3alaykum is-salaam). Give the
+                 OTHER half as Arabic text, not an id: you cannot see the other rows.
+                 Omit entirely when the row is not half of a pair. Never guess one.
+9. constituents  ONLY for pos = formula or frame. The dictionary words the expression is
+                 built from, as Arabic text, not ids. For a frame, mark the variable slot
+                 with ___ . Omit for single lexemes.
 
 Rules:
 - Never restate a clean row's unchanged fields. Omit what you are not changing.

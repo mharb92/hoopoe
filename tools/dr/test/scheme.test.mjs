@@ -8,7 +8,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { migrateScheme, dropInitialHamzaGlottal } from '../rulefix.mjs';
-import { checkCharset, ALLOWED_ROMANIZATION_RE } from '../validate.mjs';
+import { checkCharset, ALLOWED_ROMANIZATION_RE, validateRow } from '../validate.mjs';
+import { routeRow } from '../route.mjs';
 
 // --- deterministic symbol substitutions -----------------------------------
 
@@ -109,4 +110,54 @@ test('checkCharset: the allowed set is exactly a-z, D S T, q, 3, 7, apostrophe, 
   assert.equal(ALLOWED_ROMANIZATION_RE.source.includes('2'), false);
   assert.equal(checkCharset('THohr'), null);
   assert.match(checkCharset('HHohr'), /H/); // a bare H is not a legal start
+});
+
+// --- D267: pair and constituents are collected but never scored -------------
+
+test('validateRow: accepts pair and constituents, and both are optional', () => {
+  const base = {
+    id: 1, level: 2, level_reason: 'x', level_conf: 'H', enum_conf: 'H',
+    pos: 'formula', register: 'neutral', form_origin: 'dialect',
+    romanization: { value: 'Sabaa7 il-kheer', conf: 'H', changed: false }, // 7 is ح; capital H is only ever the second half of TH
+    arabic_vocalised: { value: 'صَبَاح', conf: 'H' }, native_check: false,
+  };
+  assert.deepEqual(validateRow(base, 1).errors, []);
+  assert.deepEqual(validateRow({ ...base, pair: 'صباح النور' }, 1).errors, []);
+  assert.deepEqual(validateRow({ ...base, constituents: ['صباح', 'الخير'] }, 1).errors, []);
+});
+
+test('validateRow: rejects malformed pair and constituents', () => {
+  const base = {
+    id: 1, level: 2, level_reason: 'x', level_conf: 'H', enum_conf: 'H',
+    pos: 'formula', register: 'neutral', form_origin: 'dialect',
+    romanization: { value: 'x', conf: 'H', changed: false },
+    arabic_vocalised: { value: 'x', conf: 'H' }, native_check: false,
+  };
+  assert.match(validateRow({ ...base, pair: '' }, 1).errors.join(), /pair/);
+  assert.match(validateRow({ ...base, constituents: 'not-an-array' }, 1).errors.join(), /constituents/);
+  assert.match(validateRow({ ...base, constituents: ['ok', ''] }, 1).errors.join(), /constituents/);
+});
+
+test('routeRow: pair and constituents never touch review_confidence', () => {
+  const row = (extra) => routeRow({
+    level_conf: 'H', enum_conf: 'H',
+    romanization: { conf: 'H' }, arabic_vocalised: { conf: 'H' },
+    native_check: false, ...extra,
+  });
+  // A row that is all-H scores 3 whether or not it carries the new fields.
+  assert.equal(row({}).review_confidence, 3);
+  assert.equal(row({ pair: 'صباح النور', constituents: ['صباح', 'الخير'] }).review_confidence, 3);
+});
+
+test('checkCharset: a phrase with single spaces is legal — 879 rows depend on it', () => {
+  for (const v of ['Sabaa7 il-kheer', "is-salaam 3alaykum", 'kiif 7aalak', 'ahlan wa sahlan']) {
+    assert.equal(checkCharset(v), null, `rejected a legal phrase: ${v}`);
+  }
+});
+
+test('checkCharset: stray whitespace is still rejected', () => {
+  assert.match(checkCharset(' leading'), /whitespace/);
+  assert.match(checkCharset('trailing '), /whitespace/);
+  assert.match(checkCharset('double  space'), /whitespace/);
+  assert.match(checkCharset('tab\there'), /\t|whitespace/);
 });

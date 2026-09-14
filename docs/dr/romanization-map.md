@@ -69,7 +69,7 @@ Five long vowels, not three. Palestinian contrasts /eː/ with /iː/ and /oː/ wi
 1. **Shadda** doubles the letter: `wassa3`, `3a''ad`. A capital emphatic doubles whole: `Sa` + `Sa`, not `Ssa`.
 2. **Definite article** is `il-`, always hyphenated, assimilating to sun letters: `il-bint`, `ish-shams`, `it-talj`.
 3. **Digraph breaker.** Insert `-` where two letters would otherwise read as a digraph: `as-hal` for أسهل, not `ashal`.
-4. **Allowed character set** is `a-z`, `D`, `S`, `T`, `TH`, `q`, `3 7`, `'`, `-`. The validator rejects anything else — see `tools/dr/validate.mjs`. No diacritics, no other punctuation, and **no capitals other than the four emphatics**.
+4. **Allowed character set** is `a-z`, `D`, `S`, `T`, `TH`, `q`, `3 7`, `'`, `-`, **and a single space between words**. The validator rejects anything else — see `tools/dr/validate.mjs`. No diacritics, no other punctuation, and **no capitals other than the four emphatics**. Leading, trailing and doubled spaces are rejected too; `rulefix.mjs` collapses those first. The space had been missing from this list since D47 because the section was written about single words, and 879 of 2,728 rows are phrases.
 
 Note what left the set: `2`, `6` and `9` are gone. `2` is not a glottal stop and not a [q]; the emphatics are capitals rather than digit-plus-modifier. The digit set is now `3` and `7` only.
 

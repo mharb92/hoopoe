@@ -41,19 +41,28 @@ Level 1 requires all three strands (§2.1):
   C. Obligatory formulas — greetings, farewells, politeness, core blessings,
      including both halves of every call-and-response pair.
 
-Worked anchors (§2.3), test = how early a learner needs this to form and
-survive Palestinian sentences, not frequency or difficulty:
-  1 — needed in week 1 to say anything at all, or an obligatory social move.
+Worked anchors (§2.3). The test is ENCOUNTER LIKELIHOOD: how soon and how
+often a learner living in Palestine will meet or need this, in speech they
+hear as well as speech they produce.
+  1 — met or needed in week 1: to say anything at all, or an obligatory
+      social move. Includes polite forms heard constantly from day one.
   2 — needed to hold an ordinary daily conversation beyond survival.
   3 — needed to talk about a topic rather than a situation; the working middle.
-  4 — lower-frequency, more specific, or register-marked.
-  5 — rare, literary, formal, or highly regional.
+  4 — lower-frequency, more specific, or confined to narrow settings.
+  5 — rare, literary, or highly regional.
 
 Hard rules (§2.4):
   1. Pairs share a level. Both halves of a formula_pair get the same level.
   2. Regional variants sit at least one level above their base form.
   3. form_origin = msa_identical is not evidence of low level.
-  4. register = formal caps at level 4.
-  5. register = slang caps at level 3.
+  4. REGISTER DOES NOT CAP LEVEL. Arabic diglossia puts formal forms inside
+     ordinary daily politeness: نعم, كيف حالك, تفضل, لو سمحت are formal AND
+     are heard before lunch on day one, so they are level 1. Judge how often
+     it is encountered, not how formal it sounds. The same holds for slang:
+     common slang is low-level, rare slang is not. Bookish MSA that nobody
+     says aloud (بالمقابل, طقس) is high-level because it is rarely met, not
+     because it is formal.
+  5. A register pair sits at the same level or one apart, never further:
+     كيفك and كيف حالك are the same move in two registers.
   6. Frames and formulas are levelled by need, not by length.
 `.trim();

@@ -1,0 +1,634 @@
+dictionary_id,arabic,our_arabic,our_romanization,english,our_english,our_pos,our_category,sources,rank,page,situation,match
+500,كان,كَان,kaan,To be,was / to be (past),Verb,Common Verbs,words,1,1,,exact
+313,إشي,إِشِي,ishi,thing,something / thing,Noun,Pronouns,words,2,1,,exact
+401,آه,إِي,ee,Yes,yes,Particle,Particles,words+phrases,3,1,General,english-only
+73,كتير,كْتِير,kteer,A lot,very / a lot / much,Adverb,Adverbs,words+phrases,4,1,General,exact
+501,صار,صَار,saar,To happen / become,became / happened,Verb,Common Verbs,words,5,1,,exact
+1378,كَلب,كَلِب,kalib,Dog,dog,Noun,Animals,words,6,1,,exact
+404,نَعَم,نَعَم,na3am,Yes (formal),yes (formal),Particle,Particles,words,7,1,,exact
+75,شوَي,شْوَيّ,shwayy,A Little,a little / a bit,Adverb,Adverbs,words+phrases,8,1,General,exact
+505,عَرِف,عِرِف,3irif,To know,knew,Verb,Common Verbs,words,9,1,,exact
+403,لا,لَأ,la',No,no,Particle,Particles,words+phrases,11,1,General,spelling-mismatch
+982,كَبير,كْبِير,kbeer,Big,big / large / old (person),Adjective,Adjectives (Physical),words+phrases,12,1,Dictionary,exact
+529,راح,رَاح,raa7,To go,went,Verb,Motion Verbs,words,13,1,,exact
+1379,بِسة,بِسَّة,bisse,Cat,cat,Noun,Animals,words,14,1,,exact
+263,شُكراً,شُكْرًا,shukran,Thank you,thank you,Phrase,Politeness,words+phrases,15,1,General,exact
+983,صغِير,صْغِير,sgheer,Small,small / little / young (person),Adjective,Adjectives (Physical),words+phrases,16,1,Dictionary,exact
+532,رَجِع,رِجِع,riji3,To return,returned / came back,Verb,Motion Verbs,words,21,1,,exact
+232,مَرحَبا,مَرْحَبَا,mar7aba,Hello,hello / hi,Phrase,Greetings,words+phrases,22,1,Greetings,exact
+503,حَكى,حَكَى,7aka,To speak,spoke / said / told,Verb,Common Verbs,words,25,1,,exact
+1313,بَعِيد,بَعِيد,ba3eed,Far,far,Adjective,Directions,words+phrases,27,1,Dictionary,exact
+504,قال,قَال,aal,To say,said,Verb,Common Verbs,words,28,1,,exact
+204,قَرِيب,قَرِيب,areeb,Close,soon,Adverb,Time,words+phrases,30,1,Dictionary,exact
+551,خَبَّر,خَبَّر,khabbar,To tell / inform,told / informed,Verb,Communication,words,31,1,,exact
+945,هادي,هَادِي,haadi,This (fem.),calm / quiet,Adjective,Personality,words+phrases,32,1,About Me,exact
+1463,طَوِيل,طَوِيل,taweel,Tall / long,tall / long,Adjective,Adjectives (Physical),words+phrases,34,1,Dictionary,exact
+562,سَمِع,سَمِع,simi3,To listen to / hear,heard,Verb,Communication,words,35,1,,exact
+11,هَدُول,هَدُول,hadool,This (plur.),these,Pronoun,Pronouns,words,37,1,,exact
+1464,قَصِير,قَصِير,aseer,Short,short (height/length),Adjective,Adjectives (Physical),words+phrases,39,1,Dictionary,exact
+506,شاف,شَاف,shaaf,To see,saw / watched,Verb,Common Verbs,words,40,1,,exact
+1380,حمار,حْمَار,7maar,Donkey,donkey,Noun,Animals,words,41,1,,exact
+549,سَأَل,سَأَل,sa'al,To ask,asked,Verb,Communication,words,42,1,,exact
+848,راس,رَاس,raas,Head,head,Noun,Body,words+phrases,43,1,Body Parts,exact
+524,رَدّ,رَدّ,radd,To answer / reply,replied / returned (something),Verb,Common Verbs,words,44,1,,exact
+550,جاوَب,جَاوَب,jaawab,To reply / answer,answered,Verb,Communication,words,45,1,,exact
+1491,قدِيم,قَدِيم,adeem,Old,old (thing),Adjective,Adjectives (Physical),words+phrases,46,1,Dictionary,exact
+523,تَذَكَّر,تْذَكَّر,tdhakkar,To remember,remembered,Verb,Common Verbs,words,47,1,,exact
+44,وُ,وْ,w / u,And,and,Conjunction,Conjunctions,words+phrases,49,1,Conversation,exact
+1490,جدِيد,جَدِيد,jdeed,New,new,Adjective,Adjectives (Physical),words+phrases,50,1,Dictionary,exact
+522,نَسِي,نِسِي,nisi,To forget,forgot,Verb,Common Verbs,words,51,1,,exact
+1395,أرنَب,أَرْنَب,arnab,Rabbit,rabbit,Noun,Animals,words,52,2,,exact
+863,صِدر,صَدِر,sadir,Chest,chest,Noun,Body,words+phrases,53,2,Body Parts,exact
+51,وَلا,وَلَّا,walla,Or,or (in questions),Conjunction,Conjunctions,words+phrases,54,2,Conversation,exact
+970,ثقِيل,ثَقِيل,tha'eel,Heavy,heavy / annoying (person),Adjective,Personality,words+phrases,55,2,Dictionary,exact
+50,أَو,أَوْ,aw,Or (more formal),or,Conjunction,Conjunctions,words,56,2,,exact
+521,قَدِر,قِدِر,idir,To be able to,was able to / could,Verb,Common Verbs,words,57,2,,exact
+509,حَبّ,حَبّ,7abb,To love,loved / liked,Verb,Common Verbs,words,60,2,,exact
+1387,عَصفور,عَصْفُور,3asfoor,Bird,bird / sparrow,Noun,Animals,words,61,2,,exact
+850,وِجْه,وِجِه,wijih,Face,face,Noun,Body,words+phrases,62,2,Body Parts,exact
+30,مَع,مَعَ,ma3,With,with,Preposition,Prepositions,words+phrases,63,2,Dictionary,exact
+1477,بِشَع,قَبِيح,abee7,Ugly,ugly,Adjective,Adjectives (Physical),words,64,2,,english-only
+746,سَكَن,سَكَن,sakan,To live / reside,lived / resided,Verb,Common Verbs,words+phrases,65,2,Sightseeing,exact
+851,عَين,عَيْن,3ein,Eye,eye,Noun,Body,words+phrases,68,2,Body Parts,exact
+1083,حَلو,حِلْو,7ilu,Beautiful,sweet,Adjective,Food & Drink,words+phrases,69,2,Weather,exact
+508,أَعْطى,أَعْطَى,a3ta,To give,gave,Verb,Common Verbs,words,70,2,,exact
+507,أَخَذ,أَخَذ,akhad,To take,took,Verb,Common Verbs,words,71,2,,exact
+510,حَطّ,حَطّ,7att,To put,put / placed,Verb,Common Verbs,words,72,2,,exact
+1479,ضَعِيف,ضَعِيف,da3eef,Skinny / Weak,weak,Adjective,Adjectives (Physical),words,73,2,,exact
+853,مَنخار,أَنْف,anf,Nose,nose,Noun,Body,words+phrases,74,2,Dictionary,english-only
+518,جاب,جَاب,jaab,To bring,brought,Verb,Common Verbs,words,76,2,,exact
+852,أُذن,أُذُن,udhun,Ear,ear,Noun,Body,words+phrases,77,2,Body Parts,exact
+622,أكَل,أَكَل,akal,To eat,ate,Verb,Daily Routine Verbs,words+phrases,78,2,Eating Out,exact
+855,ثِم,ثُمّ,thumm,Mouth,mouth,Noun,Body,words,79,2,,exact
+623,شَرِب,شِرِب,shirib,To drink,drank,Verb,Daily Routine Verbs,words,80,2,,exact
+574,قَرَأ,قَرَأ,ara,To read,read,Verb,Common Verbs,words,81,2,,exact
+1398,أسَد,أَسَد,asad,Lion,lion,Noun,Animals,words,82,2,,exact
+575,كَتَب,كَتَب,katab,To write,wrote,Verb,Common Verbs,words,83,2,,exact
+856,سِن,سِنّ,sinn,Tooth,tooth,Noun,Body,words,84,2,,exact
+664,دَرَس,دَرَّس,darras,To study,taught (at school),Verb,Education,words,85,2,,exact
+572,تَعَلَّم,تْعَلَّم,t3allam,To learn,learned,Verb,Common Verbs,words,86,2,,exact
+1396,قِرد,قِرِد,irid,Monkey,monkey,Noun,Animals,words,87,2,,exact
+1393,حَيّة,حَيَّة,7ayye,Snake,snake,Noun,Animals,words,89,2,,exact
+565,فَكَّر,فَكَّر,fakkar,To think (about),thought,Verb,Common Verbs,words,90,2,,exact
+849,شَعر,شَعِر,sha3ir,Hair,hair,Noun,Body,words,91,2,,exact
+1399,جَمل,جَمَل,jamal,Camel,camel,Noun,Animals,words,92,2,,exact
+1394,سَمَكة,سَمَكَة,samake,Fish,fish (one),Noun,Animals,words,93,2,,exact
+566,فَهِم,فِهِم,fihim,To understand,understood,Verb,Common Verbs,words,95,2,,exact
+663,اشْتَغَل,اشْتَغَل,ishtaghal,To work,worked,Verb,Professions,words,96,2,,exact
+916,مَبسُوط,مَبْسُوط,mabsoot,Happy,happy / pleased (m.),Adjective,Emotions,words+phrases,97,2,Conversation,exact
+612,نام,نَام,naam,To sleep,slept,Verb,Daily Routine Verbs,words,98,2,,exact
+860,إِيد,إِيد,eed,Hand / arm,hand / arm,Noun,Body,words+phrases,99,2,Body Parts,exact
+613,صَحِي,صَحِي,si7i,To wake up,woke up,Verb,Daily Routine Verbs,words,101,2,,exact
+921,تَعبان,تَعْبَان,ta3baan,Tired,tired (m.),Adjective,Emotions,words+phrases,102,3,Dictionary,exact
+614,قام,قَام,aam,To stand up / wake up,got up / stood up,Verb,Daily Routine Verbs,words,103,3,,exact
+539,قَعَد,قَعَد,a3ad,To sit down,sat down,Verb,Motion Verbs,words,105,3,,exact
+861,أُصبِع,صْبَاع,sba3,Finger,finger,Noun,Body,words+phrases,106,3,Body Parts,english-only
+672,اشْتَرى,اشْتَرَى,ishtara,To buy,bought,Verb,Money & Shopping,words,108,3,,exact
+866,رِجْل,إِجِر,ijir,Leg / foot,leg / foot,Noun,Body,words+phrases,109,3,Body Parts,english-only
+27,عَلَى,عَلَى,3ala,On,on / onto,Preposition,Prepositions,words,110,3,,exact
+935,جَوعان,جَوْعَان,joo3aan,Hungry,hungry (m.),Adjective,Emotions,words+phrases,111,3,Dictionary,exact
+673,باع,بَاع,baa3,To sell,sold,Verb,Money & Shopping,words,112,3,,exact
+538,وَقِف,وَقَف,wa'af,To stand,stopped / stood,Verb,Motion Verbs,words,113,3,,exact
+1227,شَبعان,مَلْيَان,malyaan,Full,full,Adjective,Household,words,115,3,,english-only
+531,مَشى,مِشِي,mishi,To walk,walked,Verb,Motion Verbs,words,116,3,,spelling-mismatch
+936,عَطشان,عَطْشَان,3atshaan,Thirsty,thirsty (m.),Adjective,Emotions,words+phrases,118,3,Dictionary,exact
+61,بِ,بِـ,bi-,In / Inside,(present tense marker),Particle,Particles,words,120,3,,exact
+563,حَسّ,حَسّ,7ass,To feel,felt / sensed,Verb,Communication,words,121,3,,exact
+576,احْتاج,احْتَاج,i7taaj,To need,needed,Verb,Emotions,words,123,3,,exact
+29,ل,لَـ,la,To / for / of / by,to / for,Preposition,Prepositions,words,124,3,,exact
+528,اتَّصَل,اتَّصَل,ittasal,To contact,called (phone),Verb,Common Verbs,words,125,3,,exact
+2569,قَدم,قَدَّم,addam,foot,submitted / applied / offered,Verb,Common Verbs,words+phrases,126,3,Body Parts,exact
+714,ضَحِك,ضِحِك,di7ik,To laugh at,laughed,Verb,Emotions,words,127,3,,exact
+584,انْبَسَط,انْبَسَط,inbasat,To enjoy,enjoyed / was happy,Verb,Emotions,words,129,3,,exact
+738,دَخَل,دَخَل,dakhal,To enter,entered,Verb,Motion Verbs,words,130,3,,exact
+739,خَرَج,خَرَج,kharaj,To exit,went out / exited,Verb,Motion Verbs,words,131,3,,exact
+602,ساعَد,سَاعَد,saa3ad,To help,helped,Verb,Common Verbs,words,133,3,,exact
+869,قَلب,قَلِب,alib,Heart,heart,Noun,Body,words+phrases,134,3,Dictionary,exact
+517,لاقَى,لَاقَى,laa'a,To find,found,Verb,Common Verbs,words,135,3,,exact
+1243,شارِع,شَارِع,shaari3,Street,street / road,Noun,City & Places,words+phrases,137,3,Dictionary,exact
+76,هون,هُون,hoon,Here,here,Adverb,Adverbs,words+phrases,138,3,Directions & Places,exact
+1100,دَرج,دَرَج,daraj,stairs,stairs / staircase,Noun,Household,words,140,3,,exact
+77,هُناك,هُنَاك,hunaak,There,there,Adverb,Adverbs,words+phrases,141,3,Directions & Places,exact
+1165,أسوَد,أَسْوَد,aswad,Black,black,Adjective,Colors,words+phrases,142,3,Colours,exact
+1164,أبيَض,أَبْيَض,abyad,White,white,Adjective,Colors,words+phrases,143,3,Colours,exact
+1161,أزرَق,أَزْرَق,azra',Blue,blue,Adjective,Colors,words+phrases,144,3,Colours,exact
+1162,أخضَر,أَخْضَر,akhdar,Green,green,Adjective,Colors,words+phrases,145,3,Colours,exact
+1274,حارة,حَارَة,7aara,Neighbourhood,neighborhood / alley,Noun,City & Places,words,146,3,,exact
+1160,أحمَر,أَحْمَر,a7mar,Red,red,Adjective,Colors,words+phrases,147,3,Colours,exact
+1163,أصفَر,أَصْفَر,asfar,Yellow,yellow,Adjective,Colors,words+phrases,148,3,Colours,exact
+1166,بِنّي,بُنِّي,bunni,Brown,brown,Adjective,Colors,words+phrases,149,3,Colours,exact
+1256,مَطعَم,مَطْعَم,mat3am,Restaurant,restaurant,Noun,City & Places,words+phrases,150,3,Eating Out,exact
+1258,فُندُق,فُنْدُق,fundu',Hotel,hotel,Noun,City & Places,words+phrases,151,3,Accommodation,exact
+1092,غُرفة,أُوضَة,ooda,room,room,Noun,Household,words+phrases,152,4,Dictionary,english-only
+1167,بُرتُقالي,بُرْتُقَالِي,burtu'aali,Orange,orange (color),Adjective,Colors,words,153,4,,exact
+1283,محَطة,مَحَطَّة,ma7atte,Station,station (bus/gas),Noun,City & Places,words+phrases,154,4,Transportation,exact
+1264,مَسجِد,مَسْجِد,masjid,Mosque,mosque,Noun,City & Places,words+phrases,155,4,Sightseeing,exact
+1265,جامِع,جَامِع,jaami3,Mosque,mosque (large / Friday mosque),Noun,City & Places,words,156,4,,exact
+141,اليوم,اليَوْم,ilyom,Today,today,Adverb,Time,words+phrases,158,4,Date,exact
+143,مبَارِح,إِمْبَارِح,imbaari7,Yesterday,yesterday,Adverb,Time,words+phrases,159,4,Date,english-only
+142,بُكرة,بُكْرَا,bukra,Tomorrow,tomorrow,Adverb,Time,words,160,4,,english-only
+1259,بَنك,بَنْك,bank,Bank,bank,Noun,City & Places,words+phrases,162,4,Directions & Places,exact
+1255,مَخبَز,مَخْبَز,makhbaz,Bakery,bakery,Noun,City & Places,words,163,4,,exact
+887,مُستَشفى,مُسْتَشْفَى,mustashfa,Hospital,hospital,Noun,Health & Medical,words+phrases,164,4,Emergencies,exact
+1263,جامِعة,جَامْعَة,jaam3a,University,university,Noun,City & Places,words,165,4,,exact
+557,نادي,نَادَى,naada,Gym,called out to someone,Verb,Communication,words,166,4,,spelling-mismatch
+1294,مَطار,مَطَار,mataar,airport,airport,Noun,Transportation,words+phrases,167,4,Transportation,exact
+1659,مَصنَع,مَصْنَع,masna3,Factory,factory,Noun,Professions,words,168,4,,exact
+1477,قَبيح,قَبِيح,abee7,Ugly,ugly,Adjective,Adjectives (Physical),words,169,4,,exact
+1229,وِسخ,وَسِخ,wasikh,Dirty,dirty,Adjective,Household,words+phrases,170,4,Dictionary,exact
+1499,مَكسور,مَكْسُور,maksoor,Broken,broken,Adjective,Adjectives (Physical),words+phrases,171,4,Dictionary,exact
+1248,جِسر,جِسِر,jisir,Bridge,bridge,Noun,City & Places,words,173,4,,exact
+35,عِند,عِنْد,3ind,To have,at / with (possession),Preposition,Prepositions,words+phrases,175,4,Dictionary,exact
+1,أنا,أَنَا,ana,I / me,I / me,Pronoun,Pronouns,words+phrases,176,4,Personal Pronouns,exact
+1210,حَديقة,حَدِيقَة,7adee'a,Park,garden / yard,Noun,Household,words,177,4,,exact
+2,إنتَ,إِنْتَ,inte,You (m.),you (m. sg.),Pronoun,Pronouns,words+phrases,178,4,Personal Pronouns,exact
+7,إنتو,إِنْتُو,intu,You (pl.),you (pl.),Pronoun,Pronouns,words+phrases,180,4,Personal Pronouns,exact
+6,إحنا,إِحْنَا,i7na,We,we / us,Pronoun,Pronouns,words+phrases,184,4,Personal Pronouns,exact
+4,هُوَّ,هُوِّ,huwwe,He,he / him,Pronoun,Pronouns,words+phrases,185,4,Personal Pronouns,exact
+5,هِيَّ,هِيِّ,hiyye,She,she / her,Pronoun,Pronouns,words+phrases,186,4,Personal Pronouns,exact
+8,هُمَّ,هُمِّ,humme,They,they / them,Pronoun,Pronouns,words+phrases,187,4,Personal Pronouns,exact
+1247,إشارة,إِشَارَة,ishaara,Sign,traffic light / signal,Noun,City & Places,words,190,4,,exact
+1132,زبالة,زِبَالَة,zibaale,"Trash, garbage",trash / garbage,Noun,Household,words,196,4,,exact
+1226,فاضي,فَاضِي,faadi,Empty,empty / free / available,Adjective,Adjectives (Physical),words+phrases,207,5,Dictionary,exact
+927,مَليان,مَلْيَان,malyaan,Full,fed up / full (m.),Adjective,Emotions,words+phrases,208,5,Dictionary,exact
+188,بَكير,بَكِّير,bakkeer,Early,early,Adverb,Time,words+phrases,209,5,Time,exact
+188,بَدري,بَكِّير,bakkeer,Early,early,Adverb,Time,words,210,5,,english-only
+189,مُتأخِر,مِتْأَخِّر,mit'akhkher,Late,late,Adjective,Time,words+phrases,211,5,Time,exact
+1082,حامِض,حَامِض,7aamid,Sour,sour,Adjective,Food & Drink,words,214,5,,exact
+1086,مُرّ,مُرّ,murr,Bitter,bitter,Adjective,Food & Drink,words,216,5,,exact
+1084,مالِح,مَالِح,maali7,Salty,salty,Adjective,Food & Drink,words,217,5,,exact
+1139,جَكَيت,جَاكِيت,jaakeet,jacket,jacket,Noun,Clothing,words,218,5,,english-only
+1350,حَرّ,حَرّ,7arr,Spicy,heat / hot weather,Noun,Nature & Weather,words+phrases,219,5,Weather,exact
+1137,قَميص,قَمِيص,amees,shirt,shirt,Noun,Clothing,words+phrases,220,5,Dictionary,exact
+1136,بَنَطلون,بَنْطَلُون,bantaloon,Trousers,pants / trousers,Noun,Clothing,words+phrases,222,5,Dictionary,exact
+19,كيف,كِيف,keef,How?,how,Adverb,Question Words,words+phrases,223,5,Question words,exact
+17,مين,مِين,meen,Who?,who,Pronoun,Question Words,words+phrases,224,5,Question words,exact
+16,شو,شُو,shu,What?,what,Pronoun,Question Words,words+phrases,225,5,Question words,exact
+21,أيمتى,إِيمْتَى,eimta,When?,when,Adverb,Question Words,words+phrases,226,5,Dictionary,spelling-mismatch
+18,وَين,وَين,wein,Where?,where,Adverb,Question Words,words+phrases,227,5,Question words,exact
+1142,فُستان,فُسْتَان,fustaan,dress,dress,Noun,Clothing,words,228,5,,exact
+2524,أيش,إِيش,eish,What?,what (variant),Pronoun,Question Words,words,229,5,,spelling-mismatch
+2661,نَظّارات,نَظَّارَات,nazzaaraat,"Glasses, spectacles",glasses / eyeglasses,Noun,Health & Medical,words+phrases,232,5,Dictionary,exact
+1290,بَسْكَلِيْتّ,دَرَّاجَة,darraaje,bicycle,bicycle,Noun,Transportation,words,234,5,,english-only
+131,ثَانِيِّة,ثَانْيَة,thanye,Second,second (time),Noun,Time,words+phrases,237,5,Time,exact
+130,دَقِيقة,دَقِيقَة,da'ii'a,Minute,minute,Noun,Time,words+phrases,238,5,Time,exact
+129,ساعة,سَاعَة,saa3a,Hour,hour / clock / watch,Noun,Time,words+phrases,239,5,Time,exact
+132,يُوم,يَوْم,yom,Day,day,Noun,Time,words+phrases,240,5,Time,exact
+133,أُسبُوع,أُسْبُوع,usboo3,Week,week,Noun,Time,words+phrases,241,5,Date,exact
+134,شَهِر,شَهِر,shaher,Month,month,Noun,Time,words+phrases,242,5,Date,exact
+135,سَنة,سَنَة,sane,Year,year,Noun,Time,words+phrases,243,5,Date,exact
+142,بُكرَا,بُكْرَا,bukra,Tomorrow,tomorrow,Adverb,Time,words+phrases,248,5,Date,exact
+136,صُبح,صُبُح,sub7,Morning,morning,Noun,Time,words+phrases,251,5,Time,exact
+139,مَسا,مَسَا,masa,Evening,evening,Noun,Time,words+phrases,252,5,Time,exact
+140,لَيل,لَيْل,leil,Nighttime,night,Noun,Time,words+phrases,253,5,Time,exact
+140,لَيلة,لَيْل,leil,Night,night,Noun,Time,words+phrases,254,5,Dictionary,english-only
+1091,بَيت,بَيْت,beit,House,house / home,Noun,Household,words,256,6,,exact
+1101,باب,بَاب,baab,Door,door,Noun,Household,words,258,6,,exact
+1111,كُرسي,كُرْسِي,kursi,Chair,chair,Noun,Household,words,259,6,,exact
+1075,فُرن,فُرِن,furin,Oven,oven,Noun,Cooking,words,260,6,,exact
+1103,مِفتاح,مُفْتَاح,muftaa7,Key,key,Noun,Household,words+phrases,261,6,Dictionary,exact
+157,الأحَد,يَوْم الأَحَد,yom ila7ad,Sunday,Sunday,Noun,Days & Months,words,262,6,,english-only
+158,الإتنَين,يَوْم الاِثْنَيْن,yom ilithnein,Monday,Monday,Noun,Days & Months,words,263,6,,english-only
+159,التَلاتة,يَوْم الثَّلَاثَا,yom ittalaata,Tuesday,Tuesday,Noun,Days & Months,words,264,6,,english-only
+160,الأربِعاء,يَوْم الأَرْبَعَا,yom ilarba3a,Wednesday,Wednesday,Noun,Days & Months,words,265,6,,english-only
+161,الخَميس,يَوْم الخَمِيس,yom ilkhamees,Thursday,Thursday,Noun,Days & Months,words,266,6,,english-only
+1126,تلفزيون,تَلَفِزْيُون,tilifizyoon,Television,television,Noun,Household,words+phrases,267,6,Dictionary,exact
+162,الجُمعة,يَوْم الجُمْعَة,yom iljum3a,Friday,Friday,Noun,Days & Months,words,268,6,,english-only
+163,السَبت,يَوْم السَّبْت,yom issabt,Saturday,Saturday,Noun,Days & Months,words,269,6,,english-only
+1105,تَخت,تَخْت,takht,Bed,bed,Noun,Household,words,270,6,,exact
+1097,حَمّام,حَمَّام,7ammaam,Bathroom,bathroom,Noun,Household,words+phrases,271,6,Dictionary,exact
+797,عَيلِة,عَيْلَة,3eile,Family,family,Noun,Family,words,272,6,,exact
+798,أهِل,أَهِل,ahil,Family / people,family / relatives,Noun,Family,words,273,6,,exact
+171,أَب,آب,aab,Father,August,Noun,Days & Months,words+phrases,275,6,Dictionary,spelling-mismatch
+833,وَلَد,وَلَد,walad,Boy,boy / child,Noun,Family,words+phrases,276,6,Dictionary,exact
+803,إِبِن,اِبِن,ibin,Son,son,Noun,Family,words+phrases,277,6,Family,spelling-mismatch
+804,بِنت,بِنْت,bint,"Daughter, woman",daughter / girl,Noun,Family,words+phrases,278,6,Family,exact
+1216,شَقّة,شَقَّة,sha''a,Flat; appartment,apartment,Noun,Household,words,279,6,,exact
+802,أُخت,أُخْت,ukht,Sister,sister,Noun,Family,words+phrases,280,6,Family,exact
+385,أَخ,أَخ,akh,Brother,ouch / ugh,Interjection,Exclamations,words,281,6,,exact
+1096,مَطبَخ,مَطْبَخ,matbakh,Kitchen,kitchen,Noun,Household,words+phrases,282,6,Dictionary,exact
+819,زُوجة,زَوْجَة,zoje,Wife,wife,Noun,Family,words+phrases,285,6,Dictionary,exact
+1062,فطور,فْطُور,ftoor,Breakfast,breakfast,Noun,Food & Drink,words+phrases,287,6,Eating Out,exact
+1063,غدا,غَدَا,ghada,Lunch,lunch,Noun,Food & Drink,words+phrases,288,6,Eating Out,exact
+1064,عشا,عَشَا,3asha,Dinner,dinner,Noun,Food & Drink,words+phrases,289,6,Eating Out,exact
+1018,شوربة,شُورْبَة,shoorba,Soup,soup,Noun,Food & Drink,words,290,6,,exact
+1048,قَهوة,قَهْوَة,ahwe,Coffee,coffee,Noun,Food & Drink,words+phrases,291,6,Dictionary,exact
+1047,شاي,شَاي,shaay,Tea,tea,Noun,Food & Drink,words,292,6,,exact
+1046,مَي,مَيّ,mayy,Water,water,Noun,Food & Drink,words+phrases,293,6,Dictionary,exact
+1001,حَليب,حَلِيب,7aleeb,Milk,milk,Noun,Food & Drink,words+phrases,294,6,Dictionary,exact
+999,سَمَك,سَمَك,samak,Fish,fish,Noun,Food & Drink,words+phrases,295,6,Dictionary,exact
+997,لَحمة,لَحْمَة,la7me,Meat,meat,Noun,Food & Drink,words,296,6,,exact
+1005,زَيت,زَيْت,zeit,Oil,oil / olive oil,Noun,Food & Drink,words+phrases,297,6,Dictionary,exact
+1007,زَيتون,زَيْتُون,zeitoon,Olives,olives,Noun,Food & Drink,words,298,6,,exact
+2370,لوز,لَوْز,loz,Almonds,almonds,Noun,Food & Drink,words,299,6,,exact
+996,رُزّ,رُزّ,ruzz,Rice,rice,Noun,Food & Drink,words,300,6,,exact
+512,سُكَّر,سَكَّر,sakkar,Sugar,closed / locked,Verb,Common Verbs,words,301,6,,exact
+1055,مَلح,مِلِح,mili7,Salt,salt,Noun,Food & Drink,words,302,6,,exact
+995,خُبز,خُبِز,khubiz,Bread,bread,Noun,Food & Drink,words,303,6,,exact
+1004,جِبنة,جُبْنَة,jubne,Cheese,cheese,Noun,Food & Drink,words,304,6,,exact
+1002,لَبن,لَبَن,laban,Yoghurt,yogurt,Noun,Food & Drink,words,305,6,,exact
+1000,بَيض,بَيْض,beid,Egg,eggs,Noun,Food & Drink,words,306,7,,exact
+1037,تُفّاح,تُفَّاح,tuffaa7,Apple,apple,Noun,Food & Drink,words,308,7,,exact
+1038,موز,مُوز,mooz,Banana,banana,Noun,Food & Drink,words,309,7,,exact
+1040,لَيمون,لَيْمُون,leimoon,Lemon,lemon,Noun,Food & Drink,words,310,7,,exact
+1043,بَطّيخ,بَطِّيخ,batteekh,Watermelon,watermelon,Noun,Food & Drink,words,311,7,,exact
+1042,تَين,تِين,teen,Figs,figs,Noun,Food & Drink,words,312,7,,exact
+1025,خُضَر,خُضْرَا,khudra,Vegetables,vegetables,Noun,Food & Drink,words,313,7,,english-only
+1031,بَطاطا,بَطَاطَا,bataata,Potato,potato,Noun,Food & Drink,words,314,7,,exact
+1029,بَصل,بَصَل,basal,Onion,onion,Noun,Food & Drink,words,316,7,,exact
+1030,تومة,ثُوم,thoom,Garlic,garlic,Noun,Food & Drink,words,317,7,,english-only
+1068,فِنجان,فِنْجَان,finjaan,Cup,small coffee cup,Noun,Food & Drink,words,318,7,,exact
+1067,كاسة,كَاسَة,kaase,Drinking glass,glass / cup,Noun,Food & Drink,words+phrases,320,7,Dictionary,exact
+1027,بَندورة,بَنَدُورَة,banadoora,Tomato,tomato,Noun,Food & Drink,words,321,7,,exact
+1066,صَحن,صَحِن,sa7in,Plate,plate / dish,Noun,Food & Drink,words+phrases,322,7,Dictionary,exact
+885,دُكتور,دُكْتُور,duktoor,Doctor,doctor,Noun,Health & Medical,words+phrases,323,7,Emergencies,exact
+669,وَجع,وَجَع,waja3,Pain,hurt / ached,Verb,Health & Medical,words,324,7,,exact
+1337,شَمس,شَمِس,shamis,Sun,sun,Noun,Nature & Weather,words+phrases,325,7,Weather,exact
+1338,قَمر,قَمَر,amar,Moon,moon,Noun,Nature & Weather,words,326,7,,exact
+1361,شَجَرة,شَجَرَة,shajara,Tree,tree,Noun,Nature & Weather,words,327,7,,exact
+128,وَقت,وَقْت,wa't,Time,time,Noun,Time,words+phrases,328,7,Dictionary,exact
+1288,تاكسي,تَاكْسِي,taaksi,Taxi,taxi,Noun,Transportation,words+phrases,330,7,Dictionary,exact
+1285,سَيارة,سَيَّارَة,sayyaara,Car,car,Noun,Transportation,words+phrases,331,7,Transportation,exact
+1601,فَصل,فَصِل,fasil,Season (time of year),semester / term,Noun,Education,words,332,7,,exact
+178,رَبيع,الرَّبِيع,irrabee3,Spring,spring,Noun,Days & Months,words+phrases,333,7,Weather,english-only
+1286,باص,بَاص,baas,Bus,bus,Noun,Transportation,words+phrases,334,7,Transportation,exact
+176,صَيف,الصَّيْف,isseif,Summer,summer,Noun,Days & Months,words+phrases,335,7,Weather,english-only
+1344,شِتا,شِتَا,shita,Winter,rain / winter rain,Noun,Nature & Weather,words+phrases,337,7,Weather,exact
+1293,طَيارة,طَيَّارَة,tayyaara,Aeroplane,airplane,Noun,Transportation,words+phrases,338,7,Transportation,exact
+476,صِفر,صَفِر,sifir,Zero,zero (0),Noun,Numbers,words+phrases,339,7,Numbers,exact
+82,واحَد,وَاحَد,waa7ad,One,one (1),Noun,Numbers,words+phrases,340,7,Numbers,exact
+87,أَربَعة,أَرْبَعَة,arba3a,Four,four (4),Noun,Numbers,words+phrases,343,7,Numbers,exact
+88,خَمسة,خَمْسَة,khamse,Five,five (5),Noun,Numbers,words+phrases,344,7,Numbers,exact
+89,سِتّة,سِتَّة,sitte,Six,six (6),Noun,Numbers,words+phrases,345,7,Numbers,exact
+90,سَبعة,سَبْعَة,sab3a,Seven,seven (7),Noun,Numbers,words+phrases,346,7,Numbers,exact
+92,تِسعة,تِسْعَة,tis3a,Nine,nine (9),Noun,Numbers,words+phrases,348,7,Numbers,exact
+93,عَشرة,عَشَرَة,3ashara,Ten,ten (10),Noun,Numbers,words+phrases,349,7,Numbers,exact
+197,مَرة,مَرَّة,marra,Woman,once / one time,Noun,Time,words+phrases,350,7,Dictionary,exact
+839,ناس,نَاس,naas,People,people,Noun,Family,words,352,7,,exact
+698,لَعِب,لَعِب,li3ib,To play,played,Verb,Common Verbs,words,353,7,,exact
+585,زَعِل,زَعَل,zi3il,To become upset,got upset / angry,Verb,Emotions,words,354,7,,exact
+534,نَزِل,نِزِل,nizil,To go down,went down / went out (to street),Verb,Motion Verbs,words+phrases,356,8,Accommodation,exact
+718,تَعِب,تَعِب,ti3ib,To become tired,got tired,Verb,Daily Routine Verbs,words,357,8,,exact
+511,فَتَح,فَتَح,fata7,To open,opened,Verb,Common Verbs,words,358,8,,exact
+674,دَفَع,دَفَع,dafa3,To pay,paid,Verb,Money & Shopping,words,360,8,,exact
+579,كَرِه,كِرِه,kirih,To hate,hated / disliked,Verb,Emotions,words,362,8,,exact
+533,طَلِع,طِلِع,tili3,To go up / rise,went up / went out,Verb,Motion Verbs,words,363,8,,exact
+2338,سَرَق,سَرَق,sara',To steal,stole,Verb,Common Verbs,words,365,8,,exact
+707,شَكَر,شَكَر,shakar,To thank,thanked,Verb,Common Verbs,words,366,8,,exact
+629,طَبَخ,طَبَخ,tabakh,To cook,cooked,Verb,Cooking,words,367,8,,exact
+725,طَلَب,طَلَب,talab,To ask for / order / request,ordered / requested,Verb,Common Verbs,words,368,8,,exact
+592,زار,زَار,zaar,To visit,visited,Verb,Common Verbs,words,371,8,,exact
+720,جاع,جَاع,jaa3,To become hungry,got hungry,Verb,Daily Routine Verbs,words,372,8,,exact
+733,ذاق,ذَاق,daa',To taste,tasted,Verb,Cooking,words,373,8,,exact
+715,بَكى,بَكَى,baka,To cry,cried,Verb,Emotions,words,374,8,,exact
+537,لَفّ,لَفّ,laff,To turn / wrap / roll / tour,turned / went around,Verb,Motion Verbs,words,376,8,,exact
+653,رَنّ,رَنّ,rann,To phone / ring,rang (phone) / called,Verb,Technology,words,377,8,,exact
+535,وَصِل,وِصِل,wisil,To arrive,arrived,Verb,Motion Verbs,words+phrases,380,8,Shopping,exact
+320,غَيَّر,غَيْر,gheir,To change,other / different,Adjective,Pronouns,words,382,8,,exact
+526,جَرَّب,جَرَّب,jarrab,To try / attempt,tried / tested,Verb,Common Verbs,words,383,8,,exact
+555,كَذَّب,كَذَب,kazab,To lie,lied,Verb,Communication,words,384,8,,exact
+514,بَلَّش,بَلَّش,ballash,To start,started / began,Verb,Common Verbs,words,387,8,,exact
+69,خَلَّص,خَلَص,khalas,To finish,enough / done / that's it,Particle,Exclamations,words,388,8,,exact
+652,خَرَّب,خَرَّب,kharrab,To ruin / mess up,ruined / broke (something),Verb,Household,words,389,8,,exact
+573,عَلَّم,عَلَّم,3allam,To teach,taught,Verb,Common Verbs,words,390,8,,exact
+641,نَظَّف,نَظَّف,nazzaf,To clean,cleaned,Verb,Household,words,391,8,,exact
+657,صَوَّر,صَوَّر,sawwar,To photograph,photographed / filmed,Verb,Technology,words,392,8,,exact
+2587,قَرَّر,قَرَّر,arrar,To decide,decided,Verb,Common Verbs,words,393,8,,exact
+2334,رَكَّز,رَكَّز,rakkaz,To concentrate / focus,focused / concentrated,Verb,Common Verbs,words,394,8,,exact
+516,خَلَّى,خَلَّى,khalla,To allow / let,let / left / made (someone do),Verb,Common Verbs,words,395,8,,exact
+627,صَلَّى,صَلَّى,salla,To pray,prayed,Verb,Daily Routine Verbs,words,396,8,,exact
+2340,خَبَّى,خَبَّى,khabba,To hide,hid (something),Verb,Common Verbs,words,398,8,,exact
+701,سافَر,سَافَر,saafar,To travel,traveled,Verb,Motion Verbs,words,400,8,,exact
+722,تَأَخَّر,تْأَخَّر,t'akhkhar,To be late,was late / got delayed,Verb,Daily Routine Verbs,words,405,8,,exact
+577,تَمَنّى,تْمَنَّى,tmanna,To wish / hope,wished / hoped,Verb,Emotions,words,406,9,,exact
+2588,اخْتار,اِخْتَار,ikhtaar,To choose / pick,chose,Verb,Common Verbs,words,408,9,,exact
+582,اشْتاق,اشْتَاق,ishta',To miss / long for,missed (someone),Verb,Emotions,words,409,9,,exact
+1450,فَلَسطين,فِلَسْطِين,filasteen,Palestine,Palestine,Noun,City & Places,words+phrases,411,9,Countries,exact
+1270,بَلَد,بَلَد,balad,Country,town / country,Noun,City & Places,words,412,9,,exact
+1213,أرض,أَرْض,ard,Land,floor / ground,Noun,Household,words,418,9,,exact
+2418,دين,دَيْن,dein,Religion,debt,Noun,Money & Shopping,words,420,9,,exact
+1460,حُرّية,حُرِّيَّة,7urriyye,Freedom,freedom,Noun,City & Places,words,421,9,,exact
+1262,مَدرَسة,مَدْرَسَة,madrase,School,school,Noun,City & Places,words,422,9,,exact
+1564,مُعَلِّم,مُعَلِّم,m3allim,Teacher,teacher / master,Noun,Professions,words,423,9,,exact
+1592,كِتاب,كِتَاب,ktaab,Book,book,Noun,Education,words+phrases,426,9,Dictionary,exact
+1594,قَلم,قَلَم,alam,Pen,pen / pencil,Noun,Education,words+phrases,428,9,Dictionary,exact
+327,حَق,حَقّ,7a'',Right,right / true / belongs to,Noun,Pronouns,words+phrases,429,9,Dictionary,exact
+1593,دَفتِر,دَفْتَر,daftar,Notebook,notebook,Noun,Education,words,430,9,,exact
+1606,لُغة,لُغَة,lugha,Language,language,Noun,Education,words,431,9,,exact
+1252,مَحَلّ,مَحَلّ,ma7all,Shop,shop / store,Noun,City & Places,words+phrases,432,9,Shopping,exact
+1689,سَعر,سِعِر,si3ir,Price,price,Noun,Money & Shopping,words,433,9,,exact
+1461,سَلام,سَلَام,salaam,Peace,peace,Noun,City & Places,words,435,9,,exact
+12,هَداك,هَدَاك,hadaak,That,that (m.),Pronoun,Pronouns,words,440,9,,exact
+13,هَديك,هَدِيك,hadeek,That (fem.),that (f.),Pronoun,Pronouns,words,441,9,,exact
+14,هَدُولاك,هَدُولَاك,hadolaak,That (plur.),those,Pronoun,Pronouns,words,442,9,,exact
+971,خَفِيف,خَفِيف,khafeef,Light (Weight),light / likeable (person),Adjective,Personality,words,443,9,,exact
+1530,بَطِيء,بَطِيء,batee',Slow,slow,Adjective,Adjectives (Abstract),words,444,9,,exact
+1529,سَرِيع,سَرِيع,saree3,Fast,fast / quick,Adjective,Adjectives (Abstract),words+phrases,445,9,Dictionary,exact
+45,بَس,بَسّ,bass,But,but / only / enough,Conjunction,Conjunctions,words,446,9,,exact
+49,لَو,لَو,law,If (usually used in past tense),if (hypothetical),Conjunction,Conjunctions,words,447,9,,exact
+48,إذا,إِذَا,iza,If / whether,if,Conjunction,Conjunctions,words,448,9,,exact
+1466,ضَيِق,ضَيِّق,dayyi',Narrow / Tight,narrow / tight,Adjective,Adjectives (Physical),words,449,9,,exact
+74,كَمان,كَمَان,kamaan,Also,also / too / more,Adverb,Adverbs,words+phrases,450,9,Conversation,exact
+1465,عَرِيض,عَرِيض,3areed,Wide / Broad,wide / broad,Adjective,Adjectives (Physical),words,451,9,,exact
+52,لَمّا,لَمَّا,lamma,When,when (past),Conjunction,Conjunctions,words,452,9,,exact
+1505,صَعِب,صَعِب,sa3ib,Difficult,difficult / hard,Adjective,Adjectives (Abstract),words,453,9,,exact
+1371,سَهِل,سَهِل,sahil,Easy,plain / flat land,Noun,Nature & Weather,words,454,9,,exact
+1528,رَخِيص,رْخِيص,rkhees,Cheap,cheap / inexpensive,Adjective,Adjectives (Abstract),words+phrases,455,9,Dictionary,exact
+1527,غالِي,غَالِي,ghaali,Expensive,expensive / dear,Adjective,Adjectives (Abstract),words+phrases,456,9,Dictionary,exact
+1199,بارِد,بَارِد,baarid,Cold,cold (food/drink),Adjective,Food & Drink,words+phrases,457,10,Dictionary,exact
+1119,ضاوي,نُور,noor,Light,light,Noun,Household,words,460,10,,english-only
+595,وَدَّع,وَدَّع,wadda3,To say goodbye to,said goodbye to,Verb,Culture & Customs,words,461,10,,exact
+1503,سَيء,سَيِّئ,sayyi',Bad,bad,Adjective,Adjectives (Abstract),words+phrases,464,10,Conversation,english-only
+241,منِيح,مْنِيح,mnee7,Good,good / well (m.),Adjective,Adjectives (Abstract),words+phrases,465,10,Conversation,exact
+933,مِتحَمِّس,مِتْحَمِّس,mit7ammis,Excited,excited (m.),Adjective,Emotions,words,468,10,,exact
+26,مِن,مِن,min,From / of / since,from,Preposition,Prepositions,words,471,10,,exact
+53,حَتَّى,حَتَّى,7atta,Until,until / even / so that,Conjunction,Conjunctions,words,473,10,,exact
+919,مِتضايِق,مِتْضَايِق,mitdaayi',Bothered,annoyed / uncomfortable (m.),Adjective,Emotions,words,474,10,,exact
+499,بِدُون,بَدُون,badoon,Without (with an absence of),without,Preposition,Prepositions,words+phrases,475,10,Dictionary,exact
+926,مِتفاجئ,مِتْفَاجِئ,mitfaaji',Surprised,surprised (m.),Adjective,Emotions,words,476,10,,exact
+31,عَن,عَنْ,3an,About,about,Preposition,Prepositions,words,477,10,,exact
+692,تَرَك,تَرَك,tarak,To leave,left (behind) / abandoned,Verb,Common Verbs,words,479,10,,exact
+496,زَيّ,زَيّ,zayy,Like,like / same as,Preposition,Prepositions,words,480,10,,exact
+553,شَرَح,شَرَح,shara7,To explain,explained (in detail),Verb,Communication,words,482,10,,exact
+700,خَسِر,خِسِر,khisir,To lose,lost (game/money),Verb,Common Verbs,words,484,10,,exact
+699,فاز,فَاز,faaz,To win,won,Verb,Common Verbs,words,485,10,,exact
+78,بَرَّا,بَرَّا,barra,Outside,outside,Adverb,Adverbs,words+phrases,489,10,Dictionary,exact
+79,جُوَّا,جُوَّا,juwwa,Inside,inside,Adverb,Adverbs,words,490,10,,exact
+38,فَوق,فَوْق,fo',"Up, above",above / on top,Preposition,Prepositions,words,491,10,,exact
+37,تَحت,تَحْت,ta7t,"Under, Below",under / below,Preposition,Prepositions,words,492,10,,exact
+72,هَلَّأ,هَلَّأْ,halla',Now,now,Adverb,Time,words+phrases,493,10,Greetings,exact
+34,قَبل,قَبْل,abl,Before,before,Preposition,Prepositions,words+phrases,494,10,Directions & Places,exact
+146,بَعدَين,بَعْدِين,ba3dein,Later,later / then / after that,Adverb,Time,words+phrases,496,10,Time,exact
+2347,شَلَح,شَلَح,shala7,To take off (clothes),undressed / took off (clothes),Verb,Common Verbs,words,497,10,,exact
+615,لَبِس,لِبِس,libis,To wear (clothes),got dressed / wore,Verb,Daily Routine Verbs,words,498,10,,exact
+1310,دُغري,دُغْرِي,dughri,Straight on,straight ahead,Adverb,Directions,words+phrases,499,10,Directions & Places,exact
+958,كِذّاب,كَذَّاب,kadhdhaab,Liar,liar,Adjective,Personality,words,501,10,,exact
+988,حامِل,حَامِل,7aamil,Carrying/Pregnant,pregnant,Adjective,Health & Medical,words+phrases,508,11,Dictionary,exact
+411,ماشي,مَاشِي,maashi,Walking,OK / agreed / fine,Phrase,Conversational Fillers,words,509,11,,exact
+593,عَزَم,عَزَم,3azam,To invite,invited (to a meal/gathering),Verb,Culture & Customs,words,515,11,,exact
+702,حَجَز,حَجَز,7ajaz,To book / reserve,booked / reserved,Verb,Common Verbs,words+phrases,516,11,Dictionary,exact
+407,غَلِط,غَلَط,ghalat,To make a mistake,wrong / mistake,Noun,Conversational Fillers,words,517,11,,exact
+603,نَجِح,نَجَح,naja7,To succeed in,succeeded / passed (exam),Verb,Common Verbs,words,520,11,,exact
+542,رَكِب,رَكِب,rikib,To ride,rode / got on (vehicle),Verb,Motion Verbs,words,521,11,,exact
+681,سَحَب,سَحَب,sa7ab,To pull out / withdraw,pulled,Verb,Common Verbs,words,522,11,,exact
+2642,قَطَف,قَطَف,ataf,To harvest / gather / pick,picked (fruit),Verb,Common Verbs,words,523,11,,exact
+540,رَكَض,رَكَض,rakad,To run,ran,Verb,Motion Verbs,words,529,11,,exact
+709,عاد,عَاد,3aad,To repeat,returned / did again,Verb,Common Verbs,words,532,11,,exact
+548,فات,فَات,faat,To enter into,entered / passed (time),Verb,Motion Verbs,words,533,11,,exact
+545,ساق,سَاق,saa',To drive,drove,Verb,Motion Verbs,words,534,11,,exact
+649,طَفى,طَفَّى,taffa,To turn off / extinguish,turned off,Verb,Household,words,537,11,,exact
+2209,خَوَّف,خَوْف,khof,To frighten / scare,fear,Noun,Adjectives (Abstract),words,546,11,,exact
+564,صَدَّق,صَدَّق,sadda',To believe / trust,believed,Verb,Common Verbs,words,548,11,,exact
+650,صَلَّح,صَلَّح,salla7,To fix / repair,fixed / repaired,Verb,Household,words,550,11,,exact
+691,مَسَك,مَسَك,masak,To grab,held / grabbed / caught,Verb,Common Verbs,words,556,11,,exact
+651,كَسَر,كَسَر,kasar,To break / smash,broke,Verb,Household,words,557,12,,exact
+617,غَسَل,غَسَل,ghasal,To wash (your hands e.t.c.),washed,Verb,Daily Routine Verbs,words,560,12,,exact
+726,حَضِر,حَضَّر,7addar,To attend,prepared,Verb,Common Verbs,words,561,12,,exact
+541,قَطَع,قَطَع,ata3,To cut,crossed (street) / cut,Verb,Motion Verbs,words,562,12,,exact
+2723,تَحَقَّق,تَحَقَّق,ta7aqqa',To become achieved / realized,verified / confirmed,Verb,Common Verbs,words,565,12,,exact
+502,عَمِل,عِمِل,3imil,To do / make,did / made,Verb,Common Verbs,words,567,12,,exact
+525,دَوَر,دَوَّر,dawwar,To search for,looked for / searched,Verb,Common Verbs,words,568,12,,exact
+655,رَفَع,رَفَع,rafa3,To lift / raise,uploaded,Verb,Technology,words,569,12,,exact
+2583,جَمَع,جَمَع,jama3,To collect,gathered / collected,Verb,Common Verbs,words,571,12,,exact
+609,مَنَع,مَنَع,mana3,To forbid / prohibit,prevented / forbade,Verb,Common Verbs,words,572,12,,exact
+736,هَمَس,هَمَس,hamas,To whisper,whispered,Verb,Communication,words,574,12,,exact
+620,حَلَق,حَلَق,7ala',To cut (hair),shaved,Verb,Daily Routine Verbs,words+phrases,575,12,Dictionary,exact
+1345,ثَلَج,ثَلِج,thalij,To be snowy,snow,Noun,Nature & Weather,words,576,12,,exact
+1343,مَطَر,مَطَر,matar,To be rainy,rain,Noun,Nature & Weather,words+phrases,577,12,Dictionary,exact
+685,رَبَط,رَبَط,rabat,To tie up,tied,Verb,Common Verbs,words,579,12,,exact
+2330,زاد,زَاد,zaad,To increase,increased / added,Verb,Common Verbs,words,580,12,,exact
+586,خاف,خَاف,khaaf,To be scared,was afraid / feared,Verb,Emotions,words,582,12,,exact
+600,غار,غَار,ghaar,To be jealous of,was jealous,Verb,Emotions,words,583,12,,exact
+680,رَمى,رَمَى,rama,To throw,threw,Verb,Common Verbs,words,586,12,,exact
+1172,فَضِي,فِضِّي,fiddi,To become available / empty,silver,Adjective,Colors,words+phrases,590,12,Colours,exact
+2196,حَلّ,حَلّ,7all,To solve / resolve,solution,Noun,Adjectives (Abstract),words,598,12,,exact
+569,شَكّ,شَكّ,shakk,To doubt,doubted,Verb,Common Verbs,words,600,12,,exact
+554,وَعَد,وَعَد,wa3ad,To promise,promised,Verb,Communication,words,603,12,,exact
+695,وَقِع,وِقِع,wi'i3,To fall / drop,fell,Verb,Common Verbs,words,605,12,,exact
+644,رَتَّب,رَتَّب,rattab,To tidy up,organized / tidied up,Verb,Household,words,611,13,,exact
+2132,بَطَّل,بَطَّل,battal,To quit,stopped / quit / it's no longer,Verb,Slang,words,612,13,,exact
+32,بَيَّن,بَيْن,bein,To appear / be visible,between,Preposition,Prepositions,words,614,13,,exact
+2708,أَكَّد,أَكَّد,akkad,To confirm,confirmed / emphasized,Verb,Common Verbs,words,622,13,,exact
+708,تَرْجَم,تَرْجَم,tarjam,To translate,translated,Verb,Communication,words,623,13,,exact
+2580,وَرْجَى,وَرْجَى,warja,To show (alternative pronunciation),showed,Verb,Common Verbs,words,625,13,,exact
+605,وافَق,وَافَق,waafa',To agree with,agreed,Verb,Common Verbs,words,627,13,,exact
+527,حاوَل,حَاوَل,7aawal,To try / attempt,tried / attempted,Verb,Common Verbs,words,629,13,,exact
+1541,أَبْعَد,أَبْعَد,ab3ad,To move away from,farther / farthest,Adjective,Adjectives (Abstract),words,630,13,,exact
+2699,أَلْغى,أَلْغَى,algha,To cancel,canceled,Verb,Common Verbs,words,634,13,,exact
+583,تَحَمَّس,تْحَمَّس,t7ammas,To be excited,got excited,Verb,Emotions,words,637,13,,exact
+671,تَحَسَّن,تَحَسَّن,ta7assan,To improve,improved / got better,Verb,Health & Medical,words,640,13,,exact
+624,تَغَدّى,تْغَدَّى,tghadda,To eat lunch,had lunch,Verb,Daily Routine Verbs,words,641,13,,exact
+625,تَعَشّى,تْعَشَّى,t3asha,To eat dinner,had dinner,Verb,Daily Routine Verbs,words,642,13,,exact
+2711,تَجاهَل,تَجَاهَل,tajaahаl,To ignore,ignored,Verb,Common Verbs,words,645,13,,exact
+559,اعْتَذَر,اعْتَذَر,i3tadhar,To apologize,apologized,Verb,Communication,words,650,13,,exact
+2710,اعْتَرَف,اِعْتَرَف,i3taraf,To confess / admit,confessed / admitted,Verb,Common Verbs,words,651,13,,exact
+570,اكْتَشَف,اكْتَشَف,iktashaf,To discover,discovered,Verb,Common Verbs,words,652,13,,exact
+2408,اسْتَأْجِر,اِسْتَأجَر,ista'jar,To rent,rented,Verb,Common Verbs,words,656,13,,exact
+234,أهلاً وَ سَهلاً,أَهْلَا وْسَهْلَا,ahla w sahla,Welcome,welcome,Phrase,Greetings,phrases,,,Greetings,english-only
+235,أهلاً فيك,أَهْلَا فِيك,ahla feek,Welcome to you too!,welcome to you (to m.),Phrase,Greetings,phrases,,,Greetings,exact
+230,السَلامُ عَلَيكُم,السَّلَامُ عَلَيْكُمْ,issalaamu 3aleikum,Hello (formal),peace be upon you (hello),Phrase,Greetings,phrases,,,Greetings,exact
+245,صَباح الخير,صَبَاح الخَيْر,saba7 ilkheir,Good morning,good morning,Phrase,Greetings,phrases,,,Greetings,exact
+246,صَباح النّور,صَبَاح النُّور,saba7 innoor,Good morning (reply),good morning (reply),Phrase,Greetings,phrases,,,Greetings,exact
+247,مَساء الخير,مَسَا الخَيْر,masa lkheir,Good evening,good evening,Phrase,Greetings,phrases,,,Greetings,english-only
+248,مَساء النّور,مَسَا النُّور,masa nnoor,Good evening (reply),good evening (reply),Phrase,Greetings,phrases,,,Greetings,english-only
+427,شو إسمَك؟,شُو اسْمَك؟,shu ismak?,What's your name,what's your name? (to m.),Phrase,Greetings,phrases,,,Greetings,spelling-mismatch
+425,مِن وَين إنت؟,مِن وَين إِنْتَ؟,min wein inte?,Where are you from?,where are you from? (to m.),Phrase,Greetings,phrases,,,Greetings,exact
+980,قَدَيش عُمرَك؟,قَدِّيش عُمْرَك؟,addeish 3umrak?,How old are you?,how old are you? (to m.),Phrase,Family,phrases,,,Greetings,exact
+249,تُصبَح عَلَى خير,تِصْبَح عَلَى خَيْر,tisba7 3ala kheir,Good night,good night (to m.),Phrase,Farewells,phrases,,,Greetings,exact
+252,مَع السَلامة,مَعَ السَّلَامِة,ma3 issalaame,Good bye,goodbye (to the one leaving),Phrase,Farewells,phrases,,,Greetings,exact
+253,أللَّه مَعَك,اللَّه مَعَك,allah ma3ak,Goodbye (reply),God be with you / bye (to m.),Phrase,Farewells,phrases,,,Greetings,spelling-mismatch
+431,تشَرَفنا,تْشَرَّفْنَا,tsharrafna,Nice to meet you,pleased to meet you,Phrase,Greetings,phrases,,,Greetings,exact
+440,دير بالَك,دِير بَالَك,deer baalak,Take care,take care / be careful (to m.),Phrase,Politeness,phrases,,,Greetings,exact
+268,لَو سمَحت,لَوْ سَمَحْت,law sama7t,Please,please / excuse me (to m.),Phrase,Politeness,phrases,,,General,exact
+267,عَفواً,عَفْوًا,3afwan,Excuse me,you're welcome / excuse me,Phrase,Politeness,phrases,,,General,exact
+1612,مُسلِم,مُسْلِم,muslim,Muslim Noun,Muslim (m.),Noun,Religion,phrases,,,About Me,exact
+1613,مَسيحي,مَسِيحِي,masee7i,Christian Noun,Christian (m.),Noun,Religion,phrases,,,About Me,exact
+944,نَشيط,نَشِيط,nasheet,Energetic Adjective,active / energetic,Adjective,Personality,phrases,,,About Me,exact
+959,أمين,أَمِين,ameen,Faithful Adjective,trustworthy / honest,Adjective,Personality,phrases,,,About Me,exact
+962,إجتِماعي,اجْتِمَاعِي,ijtimaa3i,Sociable Adjective,social / outgoing,Adjective,Personality,phrases,,,About Me,spelling-mismatch
+947,كَريم,كَرِيم,kareem,Generous Adjective,generous,Adjective,Personality,phrases,,,About Me,exact
+964,عَنيد,عَنِيد,3aneed,Stubborn Adjective,stubborn,Adjective,Personality,phrases,,,About Me,exact
+777,كيف حالَك؟,كِيف حَالَك؟,keef 7aalak?,How are you?,"how are you? (formal, to m.)",Phrase,Greetings,phrases,,,Conversation,exact
+243,تَمام,تَمَام,tamaam,Ok,fine / perfect / OK,Adjective,Adjectives (Abstract),phrases,,,Conversation,exact
+36,ال,إِلَـ,il-,The Functional,to / for (possession),Preposition,Prepositions,phrases,,,Conversation,spelling-mismatch
+65,مُمكِن,مُمْكِن,mumkin,Maybe Functional,possible / can / may I,Particle,Particles,phrases,,,Conversation,exact
+317,كُلّشي,كُلّ إِشِي,kull ishi,Everything,everything,Pronoun,Pronouns,phrases,,,Conversation,english-only
+1879,شو بِدَّك؟,شُو بِدَّك؟,shu biddak?,What do you want?,What do you want? (to m.),Phrase,Sentence Patterns,phrases,,,Conversation,exact
+2110,شو بِدَّك تَعمِل,شُو بِدَّك تِعْمَل,shu biddak ti3mal,What do you want to do?,What can you do (= nothing to be done),Expression,Idioms & Expressions,phrases,,,Conversation,exact
+103,عَشرين,عِشْرِين,3ishreen,Twenty Noun,twenty (20),Noun,Numbers,phrases,,,Numbers,exact
+105,أربَعين,أَرْبَعِين,arba3een,Forty,forty (40),Noun,Numbers,phrases,,,Numbers,exact
+106,خَمسين,خَمْسِين,khamseen,Fifty,fifty (50),Noun,Numbers,phrases,,,Numbers,exact
+107,سِتّين,سِتِّين,sitteen,Sixty,sixty (60),Noun,Numbers,phrases,,,Numbers,exact
+108,سَبعين,سَبْعِين,sab3een,Seventy,seventy (70),Noun,Numbers,phrases,,,Numbers,exact
+110,تِسعين,تِسْعِين,tis3een,Ninety,ninety (90),Noun,Numbers,phrases,,,Numbers,exact
+111,ميّة,مِيَّة,miyye,One hundred,one hundred (100),Noun,Numbers,phrases,,,Numbers,exact
+113,ألف,أَلْف,alf,One thousand,one thousand (1000),Noun,Numbers,phrases,,,Numbers,exact
+484,ألفَين,أَلْفَيْن,alfein,Two thousand,two thousand (2000),Noun,Numbers,phrases,,,Numbers,exact
+83,وَحَدة,وَحْدِة,wa7de,One (f),"one (1, f.)",Noun,Numbers,phrases,,,Numbers,exact
+1309,شمال,شْمَال,shmaal,Left,left (direction),Noun,Directions,phrases,,,Directions & Places,exact
+1308,يمين,يَمِين,yameen,Right,right (direction),Noun,Directions,phrases,,,Directions & Places,exact
+40,قُدَّام,قُدَّام,uddaam,In front of Functional,in front of,Preposition,Prepositions,phrases,,,Directions & Places,exact
+41,جَنب,جَنْب,janb,Next to Functional,next to / beside,Preposition,Prepositions,phrases,,,Directions & Places,exact
+1321,عالزاوية,عَ الزَّاوْيَة,3azzaawye,On the corner,on the corner,Phrase,Directions,phrases,,,Directions & Places,english-only
+1280,بَريد,مَكْتَب بَرِيد,maktab bareed,Post office,post office,Noun,City & Places,phrases,,,Directions & Places,english-only
+1250,سوق,سُوق,soo',Market Noun,market / bazaar,Noun,City & Places,phrases,,,Directions & Places,exact
+2284,رِحلة,رِحْلَة,ri7le,Trip Noun,trip / flight,Noun,Transportation,phrases,,,Transportation,exact
+1334,نَزِّلني هون,نَزِّلْنِي هُون,nazzilni hoon,Let me off here,Drop me off here,Phrase,Directions,phrases,,,Transportation,exact
+1065,وَجبة,وَجْبَة,wajbe,Dish (portion) Noun,meal,Noun,Food & Drink,phrases,,,Eating Out,exact
+638,حُمُّص,حَمَّص,7ammas,Hummus,toasted / roasted (nuts/chickpeas),Verb,Cooking,phrases,,,Eating Out,exact
+1011,فَلافَل,فَلَافِل,falaafil,Falafel,falafel,Noun,Food & Drink,phrases,,,Eating Out,exact
+1010,فول,فُول,fool,Fool (beans) Noun,fava beans,Noun,Food & Drink,phrases,,,Eating Out,exact
+1019,سَلَطة,سَلَطَة,salata,Salad Noun,salad,Noun,Food & Drink,phrases,,,Eating Out,exact
+1020,مُتَبَّل,مُتَبَّل,mutabbal,Mutabal,mutabbal (eggplant dip),Noun,Food & Drink,phrases,,,Eating Out,exact
+1021,تَبولة,تَبُّولَة,tabboole,Tabooleh,tabbouleh,Noun,Food & Drink,phrases,,,Eating Out,exact
+1014,مَقلوبة,مَقْلُوبَة,ma'loobe,Maqloobeh,maqlubeh (upside-down rice dish),Noun,Food & Drink,phrases,,,Eating Out,exact
+1016,وَرَق عِنب,وَرَق دَوَالِي,wara' dawaali,Stuffed grape leaves,stuffed grape leaves,Noun,Food & Drink,phrases,,,Eating Out,english-only
+1015,مَنسَف,مَنْسَف,mansaf,Mansaf,mansaf (lamb and yogurt dish),Noun,Food & Drink,phrases,,,Eating Out,exact
+1013,مسَخَّن,مْسَخَّن,msakhan,Msakhan,musakhan (roasted chicken on bread),Noun,Food & Drink,phrases,,,Eating Out,exact
+1690,حِساب,حِسَاب,7isaab,Bill Noun,bill / check / account,Noun,Money & Shopping,phrases,,,Eating Out,exact
+1867,مينيو,مِنْيُو,minyu,Menu,menu,Noun,Money & Shopping,phrases,,,Eating Out,english-only
+1620,حَلال,حَلَال,7alaal,Halal Adjective,permissible / halal,Noun,Religion,phrases,,,Eating Out,exact
+2362,المُكَسَرات,مُكَسَّرَات,mukassaraat,Nuts,nuts,Noun,Food & Drink,phrases,,,Eating Out,english-only
+1261,مَكتَبة,مَكْتَبَة,maktabe,Bookshop Noun,bookstore / library,Noun,City & Places,phrases,,,Shopping,exact
+1251,دُكّانة,دُكَّانَة,dukkaane,Small shop Noun,shop / small store,Noun,City & Places,phrases,,,Shopping,exact
+1497,مَفتوح,مَفْتُوح,maftoo7,Open,open,Adjective,Adjectives (Physical),phrases,,,Shopping,exact
+1498,مسَكِّر,مْسَكَّر,msakkar,Closed,closed / locked,Adjective,Adjectives (Physical),phrases,,,Shopping,exact
+1220,مَدخَل,مَدْخَل,madkhal,Entrance Noun,entrance,Noun,Household,phrases,,,Shopping,exact
+1133,كيس,كِيس,kees,A bag Noun,bag / plastic bag,Noun,Household,phrases,,,Shopping,exact
+205,بَعد شْوَي,بَعْد شْوَيّ,ba3d shwayy,A little later,in a little while,Phrase,Time,phrases,,,Time,exact
+147,قَبل شْوَي,قَبْل شْوَيّ,abl shwayy,Not long little ago,a little while ago,Phrase,Time,phrases,,,Time,exact
+2342,ظُهر,ظَهَر,dhahar,Noon Noun,appeared / showed up,Verb,Common Verbs,phrases,,,Time,exact
+138,بَعد الظُهر,عَصِر,3asir,Afternoon,afternoon,Noun,Time,phrases,,,Time,english-only
+770,نُص اللَيل,نُصّ اللَّيْل,nuss illeil,Midnight,midnight,Phrase,Time,phrases,,,Time,exact
+157,يوم الأحَد,يَوْم الأَحَد,yom ila7ad,Sunday,Sunday,Noun,Days & Months,phrases,,,Date,exact
+158,يوم الإتنين,يَوْم الاِثْنَيْن,yom ilithnein,Monday,Monday,Noun,Days & Months,phrases,,,Date,english-only
+159,يوم التَلات,يَوْم الثَّلَاثَا,yom ittalaata,Tuesday,Tuesday,Noun,Days & Months,phrases,,,Date,english-only
+160,يوم الأربِعة,يَوْم الأَرْبَعَا,yom ilarba3a,Wednesday,Wednesday,Noun,Days & Months,phrases,,,Date,english-only
+161,يوم الخَميس,يَوْم الخَمِيس,yom ilkhamees,Thursday,Thursday,Noun,Days & Months,phrases,,,Date,exact
+162,يوم الجُمِع,يَوْم الجُمْعَة,yom iljum3a,Friday,Friday,Noun,Days & Months,phrases,,,Date,english-only
+163,يوم السَبت,يَوْم السَّبْت,yom issabt,Saturday,Saturday,Noun,Days & Months,phrases,,,Date,exact
+145,أوَّل مبارِح,أَوَّل إِمْبَارِح,awwal imbari7,The day before yesterday,the day before yesterday,Phrase,Time,phrases,,,Date,english-only
+144,بَعد بُكرا,بَعْد بُكْرَا,ba3d bukra,The day after tomorrow,the day after tomorrow,Phrase,Time,phrases,,,Date,exact
+1317,وَين ال...؟,وَين الـ...؟,wein il...?,Where is the ...? 6 options,Where is the...?,Phrase,Directions,phrases,,,Emergencies,exact
+1208,حرامي,حَرَامِي,7araami,Thief!,thief,Noun,Household,phrases,,,Emergencies,exact
+1282,مَركِز الشُرطة,مَرْكَز شُرْطَة,markaz shurta,Police station,police station,Noun,City & Places,phrases,,,Emergencies,english-only
+1281,مَحكَمة,مَحْكَمَة,ma7kame,Court,court (legal),Noun,City & Places,phrases,,,Emergencies,exact
+1561,مُحَامِي,مُحَامِي,mu7aami,Lawyer Noun,lawyer,Noun,Professions,phrases,,,Emergencies,exact
+2280,جَوّاز,جَوَاز سَفَر,jawaaz safar,Passport,passport,Noun,Transportation,phrases,,,Emergencies,english-only
+1717,تَلِفون,تَلَفُون,talafoon,Telephone Noun,phone / telephone,Noun,Technology,phrases,,,Emergencies,exact
+1684,مَصاري,مَصَارِي,masaari,Money Noun,money,Noun,Money & Shopping,phrases,,,Emergencies,exact
+2181,مَتى,مَتَى,mata,When,when (MSA/formal),Adverb,Idioms & Expressions,phrases,,,Question words,exact
+20,لَيش,لَيْش,leish,Why Functional,why,Adverb,Question Words,phrases,,,Question words,exact
+22,قَدَّيش,قَدِّيش,addeish,How much Functional,how much / how many,Adverb,Question Words,phrases,,,Question words,exact
+367,أكيد,أَكِيد,akeed,Definitely Functional,sure / definitely / of course,Adverb,Conversational Fillers,phrases,,,Response words,exact
+366,طَبعاً,طَبْعًا,tab3an,Of course,of course / naturally,Adverb,Conversational Fillers,phrases,,,Response words,exact
+1171,ذَهبي,ذَهَبِي,dhahabi,Gold Adjective,gold / golden,Adjective,Colors,phrases,,,Colours,exact
+1809,شو بتِشتَغِل؟,شُو بْتِشْتِغِل؟,shu btishtaghil?,What do you work as?,What do you do for work? (to m.),Phrase,Professions,phrases,,,Work,exact
+1560,مُهَندَس,مُهَنْدِس,muhandis,Engineer Noun,engineer,Noun,Professions,phrases,,,Work,exact
+1577,طَبّاخ,طَبَّاخ,tabbaakh,Chef Noun,cook / chef,Noun,Professions,phrases,,,Work,exact
+1570,خَبّاز,خَبَّاز,khabbaaz,Baker,baker,Noun,Professions,phrases,,,Work,exact
+1448,البَحر المَيت,البَحِر المَيِّت,ilba7ir ilmayyit,The dead sea,the Dead Sea,Noun,City & Places,phrases,,,Sightseeing,exact
+1266,كَنيسة,كْنِيسَة,kneese,Church Noun,church,Noun,City & Places,phrases,,,Sightseeing,exact
+799,أبو,أَبُو,abu,Father,father,Noun,Family,phrases,,,Family,exact
+801,أخو,أَخ,akh,Brother,brother,Noun,Family,phrases,,,Family,english-only
+812,خالة,خَالَة,khaale,Aunt (mother's side) Noun,maternal aunt,Noun,Family,phrases,,,Family,exact
+811,خال,خَال,khaal,Uncle (mother's side) Noun,maternal uncle,Noun,Family,phrases,,,Family,exact
+810,عمّة,عَمَّة,3amme,Aunt (father's side) Noun,paternal aunt,Noun,Family,phrases,,,Family,exact
+60,عمّ,عَمْ,3:00 AM,Uncle (father's side) Noun,(progressive marker),Particle,Particles,phrases,,,Family,exact
+807,جِدّ,جَدّ,jadd,Grandfather Noun,grandfather (formal),Noun,Family,phrases,,,Family,exact
+808,جِدّة,جَدَّة,jadde,Grandmother Noun,grandmother (formal),Noun,Family,phrases,,,Family,exact
+853,أُنف,أَنْف,anf,Nose Noun,nose,Noun,Body,phrases,,,Body Parts,exact
+855,فَم,ثُمّ,thumm,Mouth,mouth,Noun,Body,phrases,,,Body Parts,english-only
+864,بَطن,بَطِن,batin,Belly Noun,stomach / belly,Noun,Body,phrases,,,Body Parts,exact
+859,كَتف,كَتِف,katif,Shoulder Noun,shoulder,Noun,Body,phrases,,,Body Parts,exact
+883,كُوع,كُوع,koo3,Elbow Noun,elbow,Noun,Body,phrases,,,Body Parts,exact
+875,معِدة,مَعِدَة,ma3ide,Stomach Noun,stomach (organ),Noun,Body,phrases,,,Body Parts,exact
+867,رُكبة,رُكْبَة,rukbe,Knee Noun,knee,Noun,Body,phrases,,,Body Parts,exact
+284,مَبروك,مَبْرُوك,mabrook,Congratulations,congratulations,Phrase,Blessings & Wishes,phrases,,,Occasions,exact
+1846,بالتَوفيق,بِالتَّوْفِيق,bittawfee',Good luck,good luck,Phrase,Blessings & Wishes,phrases,,,Occasions,exact
+2267,عِيد ميلادَك سَعيد,يَوْم مِيلَاد سَعِيد,yom milaad sa3eed,Happy Birthday,Happy birthday,Phrase,Blessings & Wishes,phrases,,,Occasions,english-only
+457,عِيد مُبارَك,عِيد مُبَارَك,3eed mubaarak,Happy Eid,blessed Eid / happy Eid,Phrase,Blessings & Wishes,phrases,,,Occasions,exact
+1353,كيف الجَو؟,كِيف الجَوّ؟,keef iljauw?,How's the weather?,How's the weather?,Phrase,Nature & Weather,phrases,,,Weather,exact
+634,بَرد,بَرَّد,barrad,Cold Adjective,cooled down,Verb,Cooking,phrases,,,Weather,exact
+952,لَطيف,لَطِيف,lateef,Fresh,nice / kind / cute,Adjective,Personality,phrases,,,Weather,exact
+1349,ضَباب,ضَبَاب,dabaab,Fog Noun,fog,Noun,Nature & Weather,phrases,,,Weather,exact
+474,بِالكاد,بِالكَاد,bilkaad,Barely,barely / hardly,Adverb,Adverbs,phrases,,,Adverbs,exact
+193,دايماً,دَايْمًا,dayman,Always Functional,always,Adverb,Time,phrases,,,Adverbs,exact
+195,مَرّات,أَحْيَانًا,a7yaanan,Sometimes,sometimes,Adverb,Time,phrases,,,Adverbs,english-only
+1552,بِالعادة,بِالعَادَة,bil3aade,Usually,usually,Adverb,Adverbs,phrases,,,Adverbs,exact
+203,قَليلاً,نَادِرًا,naadiran,Rarely,rarely,Adverb,Time,phrases,,,Adverbs,english-only
+194,أبَداً,أَبَدًا,abadan,Never Functional,never,Adverb,Time,phrases,,,Adverbs,exact
+415,يِمكِن,يِمْكِن,yimkin,Perhaps Functional,maybe / perhaps,Adverb,Conversational Fillers,phrases,,,Adverbs,exact
+1303,حادِث,حَادِث,7aadith,Accident Noun,accident,Noun,Transportation,phrases,,,Dictionary,exact
+1128,مكَيِّف,مُكَيِّف,mukayyif,Air conditioning Adjective,air conditioner,Noun,Household,phrases,,,Dictionary,exact
+316,كُلّ,كُلّ,kull,All Noun,all / every / each,Pronoun,Pronouns,phrases,,,Dictionary,exact
+896,حَساسية,حَسَاسِيَّة,7asaasiyye,Allergy Noun,allergy,Noun,Health & Medical,phrases,,,Dictionary,exact
+908,إسعاف,إِسْعَاف,is3aaf,Ambulance Noun,ambulance / first aid,Noun,Health & Medical,phrases,,,Dictionary,exact
+882,ذِراع,ذْرَاع,dhraa3,Arm Noun,arm,Noun,Body,phrases,,,Dictionary,exact
+1699,جِهاز الصرافة,صَرَّاف آلِي,sarraaf aali,ATM,ATM,Noun,Money & Shopping,phrases,,,Dictionary,english-only
+832,طِفل,طِفِل,tifil,Baby Noun,child / baby,Noun,Family,phrases,,,Dictionary,exact
+1736,بَطارية,بَطَّارِيَّة,battaariyye,Battery,battery,Noun,Technology,phrases,,,Dictionary,exact
+39,خَلف,وَرَا,wara,Behind,behind,Preposition,Prepositions,phrases,,,Dictionary,english-only
+1107,بَطَنيّة,بَطَّانِيَّة,battaaniyye,Blanket,blanket,Noun,Household,phrases,,,Dictionary,english-only
+1658,شَركة,شَرِكَة,sharike,Business Noun,company,Noun,Professions,phrases,,,Dictionary,exact
+1276,مُخَيِّم,مُخَيَّم,mukhayyam,Camp site,refugee camp,Noun,City & Places,phrases,,,Dictionary,exact
+1705,عِلبة,عِلْبَة,3ilbe,Can Noun,box / can / package,Noun,Money & Shopping,phrases,,,Dictionary,exact
+1719,كُمبيوتَر,كَمْبْيُوتَر,kambyootar,Computer Noun,computer,Noun,Technology,phrases,,,Dictionary,exact
+2662,عَدَسة الأصقة,عَدَسَات,3adasaat,Contact lenses,contact lenses,Noun,Health & Medical,phrases,,,Dictionary,english-only
+2555,تاريخ,تَارِيخ,taareekh,Date Noun,history,Noun,Education,phrases,,,Dictionary,exact
+2287,تأخير,تَأخِير,ta'kheer,Delay,delay,Noun,Transportation,phrases,,,Dictionary,exact
+1693,خَصم,خَصِم,khasim,Discount,discount,Noun,Money & Shopping,phrases,,,Dictionary,exact
+1219,مَصعَد,أَسَانْسِير,asaanseer,Elevator,elevator,Noun,Household,phrases,,,Dictionary,english-only
+1728,بَريد الَكتروني,إِيمَيل,eemeil,Email,email,Noun,Technology,phrases,,,Dictionary,english-only
+1871,سَعر التَحويل,سِعِر الصَّرِف,si3ir issarif,Exchange rate,exchange rate,Noun,Money & Shopping,phrases,,,Dictionary,english-only
+1070,شَوكة,شُوكَة,shooke,Fork Noun,fork,Noun,Food & Drink,phrases,,,Dictionary,exact
+1716,هَدية,هَدِيَّة,hadiyye,Gift Noun,gift / present,Noun,Money & Shopping,phrases,,,Dictionary,exact
+115,نُص,نُصّ,nuss,Half Noun,half,Noun,Numbers,phrases,,,Dictionary,exact
+891,حَرارة,حَرَارَة,7araara,Heat Noun,fever / temperature,Noun,Health & Medical,phrases,,,Dictionary,exact
+1301,طَريق عام,أُوتُوسْتْرَاد,otoostraad,Highway,highway,Noun,Transportation,phrases,,,Dictionary,english-only
+1664,إجازة,إِجَازَة,ijaaze,Holiday,vacation / leave,Noun,Professions,phrases,,,Dictionary,exact
+1085,حار,حَارّ,7aarr,Hot,spicy / hot,Adjective,Food & Drink,phrases,,,Dictionary,exact
+1671,هَوية,هُوِيَّة,huwiyye,Identity card,identity / ID card,Noun,Culture & Customs,phrases,,,Dictionary,exact
+884,مَريض,مَرِيض,mareed,Ill Noun,sick / ill,Adjective,Health & Medical,phrases,,,Dictionary,exact
+1507,مُهِمّ,مُهِمّ,muhimm,Important Adjective,important,Adjective,Adjectives (Abstract),phrases,,,Dictionary,exact
+2234,ضَرَر,ضَرَر,darar,Injury,harm / damage,Noun,Adjectives (Abstract),phrases,,,Dictionary,exact
+2653,تأمين,تَأمِين,ta'meen,Insurance,insurance,Noun,Money & Shopping,phrases,,,Dictionary,exact
+1723,إنتَرنِت,إِنْتِرْنِت,internet,Internet,internet,Noun,Technology,phrases,,,Dictionary,exact
+648,شُغل,شَغَّل,shagghal,Job Noun,turned on (device/machine),Verb,Household,phrases,,,Dictionary,exact
+1701,كيلوغرام,كِيلُو,keelo,Kilogram,kilogram,Noun,Money & Shopping,phrases,,,Dictionary,english-only
+1071,سَكينة,سِكِّينَة,sikkeene,Knife Noun,knife,Noun,Food & Drink,phrases,,,Dictionary,exact
+1236,مَغسَل,غَسِيل,ghaseel,Laundry,laundry,Noun,Household,phrases,,,Dictionary,english-only
+1536,أقَل,أَقَلّ,a'all,Less,less / least,Adjective,Adjectives (Abstract),phrases,,,Dictionary,exact
+1754,رِسالة,رِسَالَة,risaale,Letter Noun,message / letter,Noun,Communication,phrases,,,Dictionary,exact
+1119,ضَوء,نُور,noor,Light,light,Noun,Household,phrases,,,Dictionary,english-only
+1104,قِفل,قُفِل,ufil,Lock,lock,Noun,Household,phrases,,,Dictionary,exact
+1329,ضايع,ضَايِع,daay3,Lost Adjective,"lost (person, m.)",Adjective,Directions,phrases,,,Dictionary,exact
+1188,كبريت,كِبْرِيت,kibrit,Matches,matches,Noun,Household,phrases,,,Dictionary,exact
+889,دَوا,دَوَا,dawa,Medicine Noun,medicine / medication,Noun,Health & Medical,phrases,,,Dictionary,exact
+1867,مانيو,مِنْيُو,minyu,Menu,menu,Noun,Money & Shopping,phrases,,,Dictionary,english-only
+1291,موتور,مُوتُور,mutoor,Motorcycle,motorcycle / motor,Noun,Transportation,phrases,,,Dictionary,exact
+1301,أوتوستراد,أُوتُوسْتْرَاد,otoostraad,Motorway,highway,Noun,Transportation,phrases,,,Dictionary,exact
+858,رَقبة,رَقَبَة,ra'abe,Neck Noun,neck,Noun,Body,phrases,,,Dictionary,exact
+486,رَقم,رَقَم,ra'am,Number,number (formal),Noun,Numbers,phrases,,,Dictionary,exact
+2566,طَرد,طَرَد,tarad,Package,fired / kicked out,Verb,Common Verbs,phrases,,,Dictionary,exact
+2280,جَواز السَفر,جَوَاز سَفَر,jawaaz safar,Passport,passport,Noun,Transportation,phrases,,,Dictionary,english-only
+1297,بَنزين,بَنْزِين,benzeen,Petrol,gasoline / petrol,Noun,Transportation,phrases,,,Dictionary,exact
+888,صَيدَلية,صَيْدَلِيَّة,saidaliyye,Pharmacy Noun,pharmacy,Noun,Health & Medical,phrases,,,Dictionary,exact
+1280,مَكتَب البَريد,مَكْتَب بَرِيد,maktab bareed,Post office,post office,Noun,City & Places,phrases,,,Dictionary,english-only
+1244,طَريق,طَرِيق,taree',Road Noun,road / way,Noun,City & Places,phrases,,,Dictionary,exact
+2390,دوش,دُشّ,dush,Shower,shower,Noun,Household,phrases,,,Dictionary,english-only
+872,جِلد,جِلِد,jilid,Skin Noun,skin,Noun,Body,phrases,,,Dictionary,exact
+1143,تَنورة,تَنُّورَة,tannoora,Skirt Noun,skirt,Noun,Clothing,phrases,,,Dictionary,exact
+459,شوَي شوَي,شْوَيّ شْوَيّ,shwayy shwayy,Slowly,little by little / slowly,Phrase,Adverbs,phrases,,,Dictionary,exact
+1134,صابون,صَابُون,saaboon,Soap Noun,soap,Noun,Household,phrases,,,Dictionary,exact
+1284,مَوقِف,مَوْقِف,maw'if,Stop (bus) Noun,parking lot / bus stop,Noun,City & Places,phrases,,,Dictionary,exact
+1411,دَرَجة,دَرَجَة,daraje,Temperature Noun,degree (temperature),Noun,Nature & Weather,phrases,,,Dictionary,exact
+1295,تَذكِرة,تَذْكَرَة,tadhkara,Ticket Noun,ticket,Noun,Transportation,phrases,,,Dictionary,exact
+1135,مَنشَفة,مَنْشَفَة,manshafe,Towel,towel,Noun,Household,phrases,,,Dictionary,exact
+1298,عَجل,عَجَل,3ajal,Tyre Noun,wheel / tire,Noun,Transportation,phrases,,,Dictionary,exact
+215,عُطلة,عُطْلَة,3utle,Vacation Noun,holiday / vacation / day off,Noun,Time,phrases,,,Dictionary,exact
+1695,مَحفَظة,مَحْفَظَة,ma7faze,Wallet Noun,wallet,Noun,Money & Shopping,phrases,,,Dictionary,exact
+1488,دافي,دَافِي,daafi,Warm Adjective,warm,Adjective,Adjectives (Physical),phrases,,,Dictionary,exact
+214,نَهاية الأُسبوع,آخِر الأُسْبُوع,aakhir il'usboo3,Weekend,weekend,Phrase,Time,phrases,,,Dictionary,english-only
+2660,كُرسي المُقَعِّدين,كُرْسِي مُتَحَرِّك,kursi muta7arrik,Wheelchair,wheelchair,Noun,Health & Medical,phrases,,,Dictionary,english-only
+1102,شُبّاك,شُبَّاك,shubbaak,Window Noun,window,Noun,Household,phrases,,,Dictionary,exact

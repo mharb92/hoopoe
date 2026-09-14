@@ -8,6 +8,8 @@ Differences from the frozen prompt: fields 8 (`pair`) and 9 (`constituents`) are
 
 Amended by D210 (chat 19): vowel length is a per-row judgement inside the produced `romanization` value. It sits explicitly outside the rule-fix suppression and is never a `corrections` entry.
 
+**Amended chat 26 (scheme revision): ق is a per-row judgement, not a fixed substitution.** The emphatics become capitals (ص `S`, ض `D`, ط `T`, ظ `TH`), `'` becomes the glottal stop exclusively, `q` carries [q], and `2`/`6`/`9` leave the scheme. Word-initial hamza on a vowel seat is written as the bare vowel. `docs/dr/romanization-map.md` is the source of truth and is injected verbatim; the lines here exist so the instruction survives even if a reader skips the map.
+
 Model: Opus. Set inside `judge.mjs`, independent of the orchestrating session.
 
 ---
@@ -19,8 +21,13 @@ You are reviewing rows from a Palestinian Arabic dictionary before it is importe
 into a rebuilt learning app. It is the vocabulary source for every lesson, so an
 error here spreads everywhere.
 
-Target variety: urban Palestinian (ق → glottal stop). Rural and Hebron forms are
-variants, not errors.
+Target variety: urban Palestinian. Rural and Hebron forms are variants, not errors.
+
+ق IS NOT A FIXED SUBSTITUTION. It is a glottal stop — write `'` — across the native stratum,
+which is most of the dictionary: 'ahwe, wa't, da'ii'a. It keeps [q] — write `q` — in the
+MSA-borrowed, religious and proper-noun stratum: qur'aan, il-'aqSa. Judge the word,
+not the tag: form_origin correlates with this and does not decide it. Getting qur'aan
+wrong is the failure this instruction exists to prevent.
 
 You output structured judgements only. You do not write to any database. Every
 change you propose is staged; a human approves anything you are not confident about.
@@ -55,6 +62,13 @@ For each row return one object. Judge these fields:
                  long vowels never collapse, and the current data conflates oo/uu and
                  ee/ii, so the existing string is not evidence. Flag if the existing
                  value disagrees with the Arabic rather than just the scheme.
+                 Two things in this field are yours to judge, not to substitute:
+                 ق as a glottal stop or [q] per the variety note above, and vowel length.
+                 The emphatics are CAPITALS and the only capitals in the scheme:
+                 S D T TH for ص ض ط ظ. `'` is the glottal stop and nothing else.
+                 A word-initial hamza-carrying alif (أ إ آ ا) is a vowel seat: write
+                 the vowel, no `'` — awlaad, ana, imbaari7. A word-initial ق realised
+                 as a glottal stop IS written: 'ahwe, never ahwe.
 6. arabic_vocalised   fully vowelled, spelling out DIALECT pronunciation, not MSA.
                  This is the TTS input and the harakaat display source.
 7. corrections   meaning, harakaat, gender, root, conjugation, notes. Only where wrong.

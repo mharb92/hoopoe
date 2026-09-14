@@ -1,0 +1,25 @@
+DR run dr-formula-2026-09-14
+stop reason: completed
+batches 1/1  staged 32  skipped(resume) 0
+spend $0.4880 of cap $2.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":32,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":19,"2":10,"3":3}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0,"lowBandRows":29,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.78125,"held":25,"rows":32,"nativeCheckRate":0.0625,"nativeCheck":2}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":478.84375,"p50":478.84375,"p90":478.84375,"max":478.84375,"mean":478.84375},"outputTokensPerCall":{"min":15323,"p50":15323,"p90":15323,"max":15323,"mean":15323},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.239421875,"thinkingTokens":{"total":9830,"perCall":{"min":9830,"p50":9830,"p90":9830,"max":9830,"mean":9830},"shareOfOutput":0.6415192847353651},"preambleTokens":{"created":{"min":8864,"p50":8864,"p90":8864,"max":8864,"mean":8864},"read":{"min":32557,"p50":32557,"p90":32557,"max":32557,"mean":32557}},"metered":["transport"],"usd":0.4880035,"usdPerRow":0.015250109375,"usdExtrapolated":41.602298375}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"2":25,"3":7},"extrapolated":{"2":2131,"3":597},"rows":32}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.21875,"flipped":7,"rows":32,"flippedIds":[1846,246,440,235,457,248,284]}

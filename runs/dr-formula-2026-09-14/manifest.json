@@ -1,0 +1,18 @@
+{
+  "run_id": "dr-formula-2026-09-14",
+  "seed": 3457701593,
+  "batch_size": 40,
+  "transport": "judge-cli",
+  "model": "claude-opus-5",
+  "effort": "high",
+  "max_tokens": 64000,
+  "spend_cap_usd": 2,
+  "stage": true,
+  "judge_from": null,
+  "rows_from": "/tmp/claude-0/-home-user-hoopoe/8c480794-3f2b-515d-8e2b-8cd4e4c60cad/scratchpad/formula-rows.json",
+  "prompt_doc": "docs/dr/dr-prompt-scoped.md",
+  "romanization_map": "docs/dr/romanization-map.md",
+  "started_at": "2026-09-14T15:32:43.252Z",
+  "finished_at": "2026-09-14T15:35:58.514Z",
+  "stop_reason": "completed"
+}

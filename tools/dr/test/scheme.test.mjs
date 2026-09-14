@@ -206,3 +206,24 @@ test('prompt: every numbered field in the instruction list appears in the output
   assert.deepEqual(missing, [],
     `fields instructed but absent from the contract, so the model will never emit them: ${missing.join(', ')}`);
 });
+
+// --- the worked example is the strongest shape signal in the prompt ---------
+// It showed a `formula` row carrying neither pair nor constituents, so the
+// model copied it and emitted neither across 32 formula rows. It was also
+// stale on the scheme, giving `mabrook` as the CORRECT answer when D210/D262
+// make it `mabruuk` — teaching the exact vowel-length error P10 exists to
+// catch. Both are structural and both are now asserted.
+test('prompt: the worked example conforms to the current scheme and contract', () => {
+  const doc = readFileSync(new URL('../../../docs/dr/dr-prompt-scoped.md', import.meta.url), 'utf8');
+  const m = doc.match(/\{\s*\n\s*"id":\s*\d+[\s\S]*?\n\}/);
+  assert.ok(m, 'the prompt must carry a worked JSON example');
+  const example = JSON.parse(m[0]);
+  assert.deepEqual(validateRow(example, example.id).errors, [],
+    'the example must itself pass validation');
+  assert.equal(checkCharset(example.romanization.value), null);
+  // A formula example that omits these teaches the model to omit them.
+  if (['formula', 'frame'].includes(example.pos)) {
+    assert.ok(example.constituents, 'a formula/frame example must show constituents');
+    assert.ok(example.pair, 'a formula example with a known reply must show pair');
+  }
+});

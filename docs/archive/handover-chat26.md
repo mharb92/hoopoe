@@ -2,7 +2,7 @@
 
 Reference only. **State stays in `docs/spec-tracker.md`**; this file exists so a parallel session can align without replaying the transcript. Decisions D260-D268 are in the tracker's decision log; where this file and the tracker disagree, the tracker wins.
 
-Branch: `claude/serene-goldberg-0fomh0`, 16 commits ahead of `main`, tree clean, 150 `node:test` cases pass. **Not merged.** `dictionary` untouched: 0 of 2,728 rows carry `level` or `review_confidence`.
+Branch: `claude/serene-goldberg-0fomh0`, 16 commits, tree clean, 150 `node:test` cases pass. **Merged to `main` as PR #19**; only this file was outstanding, and it lands with the chat-27 fold-in. `dictionary` untouched: 0 of 2,728 rows carry `level` or `review_confidence`. Written when the work was unmerged, so it speaks in that tense throughout; that is history, not a live claim.
 
 ## 1. What changed, in order
 
@@ -73,7 +73,7 @@ Of D141's eight deferrals, six are human work; only `pair` and `constituents` we
 | `dr-essential-2026-09-14` | 615 | **the MVP content** |
 | `dr-formula-2026-09-14b` | 32 | **use this** — carries `pair`/`constituents` |
 | `dr-formula-2026-09-14` | 32 | superseded, kept per §7.8 |
-| `dr-full-2026-09-13` | 360 | **superseded — do not promote** (old scheme, old rubric) |
+| `dr-full-2026-09-13` | 360 | **superseded — do not promote** (old scheme, old rubric). 360 confirmed on the database, `Content-Range: 0-359/360` (chat 27); the tracker's 300 was corrected to match |
 
 Spend: **~$9.19** on the Claude Code account, against the $36 ceiling.
 
@@ -99,11 +99,13 @@ Then the essentials list came in at **40% verbs**. The floor is **right** — it
 
 ## 5. Live decisions, Marwan's call
 
-- **P6** at 0.178 against the 0.30 floor: add the 92 verbs, lower the floor, or accept.
-- Which of the 730 missing entries to add.
-- The 65 different-word rows: synonym, replacement, or ignore.
-- `تصبح على خير` — phrase list says `تلاقي خير`, model says `وإنت من أهل الخير`. Both attested.
-- Whether to merge the 16-commit branch.
+These are now tracked as **Q23-Q26** in `docs/spec-tracker.md`, which is where they live; the lines below are the reasoning behind them.
+
+- **P6** at 0.178 against the 0.30 floor: add the 92 verbs, lower the floor, or accept (Q23).
+- Which of the 730 missing entries to add (Q24).
+- The 65 different-word rows: synonym, replacement, or ignore (Q25).
+- `تصبح على خير` — phrase list says `تلاقي خير`, model says `وإنت من أهل الخير`. Both attested (Q26).
+- ~~Whether to merge the 16-commit branch~~ — merged as PR #19.
 
 Available on his word: judge the remaining 2,113 rows (~$30 warm, explicitly deferred — "essential first, this will be enough to ship the MVP"); amend `PROJECT_SPEC.md` §C4.6 prose; run the 40-row native spot check.
 

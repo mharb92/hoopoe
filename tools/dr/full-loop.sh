@@ -25,7 +25,7 @@
 #         fallback variable, so anthropic-direct fails loudly and stages nothing.
 #         The pre-flight below refuses to start if the key is present at all.
 #
-# Usage: env -u DR_ANTHROPIC_KEY tools/dr/full-loop.sh [run-id]
+# Usage: env -u DR_ANTHROPIC_KEY bash tools/dr/full-loop.sh <run-id>
 # Resume: re-run with the same run id. Nothing is re-judged that is already staged.
 
 set -uo pipefail
@@ -33,7 +33,13 @@ set -uo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_ROOT" || exit 1
 
-RUN_ID="${1:-dr-full-2026-09-13}"
+# No default (chat 27). It defaulted to dr-full-2026-09-13, which D262 supersedes,
+# and resuming that run is not inert: its loop-state.json holds p6_verdict: fail, the
+# D246 checkpoint below re-reads only while the verdict is not-yet-readable, and
+# batches_run: 3 against BATCH_BUDGET=6 leaves three batches. A bare invocation
+# therefore staged 180 rows on the retired scheme with no gate in the way. The
+# operator names the run; the script never guesses which one.
+RUN_ID="${1:?run id required — full-loop.sh no longer defaults to a run id. Pass one explicitly: env -u DR_ANTHROPIC_KEY bash tools/dr/full-loop.sh <run-id>}"
 CEILING=36.00          # D247 cumulative ceiling
 STAGE1_CAP=4.00        # D247: chunk 1, the D246 checkpoint window
 # 2, not 5: three batches are already staged (two on the API, one the D260

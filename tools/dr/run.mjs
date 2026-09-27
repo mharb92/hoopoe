@@ -243,8 +243,21 @@ export async function writeArtefacts(cfg, state) {
     started_at: state.startedAt, finished_at: state.finishedAt ?? null, stop_reason: state.stopReason,
   }, null, 2)}\n`);
   const report = buildReport(state);
-  await writeFile(path.join(dir, 'report.json'), `${JSON.stringify(report, null, 2)}\n`);
+  const json = `${JSON.stringify(report, null, 2)}\n`;
+  // report.json and report.txt are the LATEST invocation and stay authoritative:
+  // full-loop.sh reads report.json for chunk cost and stop_reason, so nothing may
+  // point it at an older file. They are also rewritten every invocation, which is
+  // how dr-essential-2026-09-14's cost became unrecoverable — its report holds the
+  // last 15 rows of a 615-row run. The timestamped copy is the archive that fixes
+  // that: one per invocation, never overwritten, safe to commit because a report is
+  // a cost-and-checks summary and not raw model output (§7.7).
+  await writeFile(path.join(dir, 'report.json'), json);
   await writeFile(path.join(dir, 'report.txt'), `${renderReport(report)}\n`);
+  // Stamped from the run's own clock, not wall-clock at write time, so the archive
+  // names the invocation it describes. Re-writing artefacts for the same state
+  // therefore rewrites its own archive rather than adding a second copy.
+  const stamp = (state.finishedAt ?? state.startedAt).replace(/[:.]/g, '-');
+  await writeFile(path.join(dir, `report-${stamp}.json`), json);
   return { dir, report };
 }
 

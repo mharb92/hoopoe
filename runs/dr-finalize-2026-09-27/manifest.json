@@ -12,7 +12,7 @@
   "rows_from": "runs/dr-finalize-2026-09-27/source-rows.json",
   "prompt_doc": "docs/dr/dr-prompt-scoped.md",
   "romanization_map": "docs/dr/romanization-map.md",
-  "started_at": "2026-09-27T10:16:19.831Z",
-  "finished_at": "2026-09-27T10:27:37.668Z",
-  "stop_reason": "max-batches"
+  "started_at": "2026-09-27T12:07:17.732Z",
+  "finished_at": "2026-09-27T14:09:58.557Z",
+  "stop_reason": "completed"
 }

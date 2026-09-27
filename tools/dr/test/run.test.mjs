@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import {
@@ -214,6 +214,37 @@ test('ids the model volunteered are never staged, and a duplicate is not staged 
 });
 
 // --- artefacts -------------------------------------------------------------
+
+test('writeArtefacts archives every invocation, so a later one cannot erase an earlier cost figure',
+  async () => {
+    // The defect this closes: report.json is rewritten per invocation, so
+    // dr-essential-2026-09-14 reads $0.24 over 15 rows for a 615-row run. Its real
+    // cost is no longer recoverable from the repo at all. full-loop.sh archives per
+    // chunk, but a run driven straight through run.mjs had nothing.
+    const dir = await mkdtemp(path.join(tmpdir(), 'dr-runs-'));
+    try {
+      const cfg = cfgFor({ 'runs-dir': dir });
+      const first = await writeArtefacts(cfg, await runLoop(cfg, deps({ rows: sourceRows(10) })));
+      const second = await writeArtefacts(cfg, await runLoop(cfg, deps({ rows: sourceRows(5) })));
+
+      const archives = (await readdir(first.dir)).filter((n) => /^report-.+\.json$/.test(n));
+      assert.equal(archives.length, 2, 'one archive per invocation');
+
+      // report.json stays authoritative and latest: full-loop.sh reads it for chunk
+      // cost and stop_reason, so the archive is a copy and never the live file.
+      const latest = JSON.parse(await readFile(path.join(first.dir, 'report.json'), 'utf8'));
+      assert.deepEqual(latest.totals, second.report.totals);
+
+      // The point of the whole change: the first invocation's figures survived the second.
+      const archived = await Promise.all(archives.map((n) =>
+        readFile(path.join(first.dir, n), 'utf8').then(JSON.parse)));
+      assert.notDeepEqual(archived[0].totals, archived[1].totals, 'the two runs differ');
+      assert.ok(archived.some((r) => r.totals.planned_batches === first.report.totals.planned_batches
+        && r.totals.planned_batches !== second.report.totals.planned_batches));
+    } finally {
+      await rm(dir, { recursive: true, force: true });
+    }
+  });
 
 test('writeArtefacts leaves a manifest and a report under runs/<run_id>/', async () => {
   const dir = await mkdtemp(path.join(tmpdir(), 'dr-runs-'));

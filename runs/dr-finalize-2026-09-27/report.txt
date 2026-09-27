@@ -1,0 +1,25 @@
+DR run dr-finalize-2026-09-27
+stop reason: max-batches
+batches 1/36  staged 60  skipped(resume) 0
+spend $0.7502 of cap $1000.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":60,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":6,"2":26,"3":23,"4":5}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.0625,"lowBandRows":32,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.9666666666666667,"held":58,"rows":60,"nativeCheckRate":0.05,"nativeCheck":3}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":369.56666666666666,"p50":369.56666666666666,"p90":369.56666666666666,"max":369.56666666666666,"mean":369.56666666666666},"outputTokensPerCall":{"min":22174,"p50":22174,"p90":22174,"max":22174,"mean":22174},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.34646875,"thinkingTokens":{"total":11776,"perCall":{"min":11776,"p50":11776,"p90":11776,"max":11776,"mean":11776},"shareOfOutput":0.5310724271669522},"preambleTokens":{"created":{"min":38337,"p50":38337,"p90":38337,"max":38337,"mean":38337},"read":{"min":0,"p50":0,"p90":0,"max":0,"mean":0}},"metered":["transport"],"usd":0.750184,"usdPerRow":0.012503066666666666,"usdExtrapolated":34.10836586666667}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":1,"2":58,"3":1},"extrapolated":{"1":45,"2":2637,"3":45},"rows":60}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.11666666666666667,"flipped":7,"rows":60,"flippedIds":[1687,192,256,1679,2637,917,1765]}

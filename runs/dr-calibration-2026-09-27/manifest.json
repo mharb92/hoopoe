@@ -1,0 +1,18 @@
+{
+  "run_id": "dr-calibration-2026-09-27",
+  "seed": 1564115195,
+  "batch_size": 30,
+  "transport": "judge-cli",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "max_tokens": 64000,
+  "spend_cap_usd": 1000,
+  "stage": true,
+  "judge_from": null,
+  "rows_from": "runs/dr-calibration-2026-09-27/source-rows.json",
+  "prompt_doc": "docs/dr/dr-prompt-scoped.md",
+  "romanization_map": "docs/dr/romanization-map.md",
+  "started_at": "2026-09-27T10:16:24.567Z",
+  "finished_at": "2026-09-27T10:18:16.772Z",
+  "stop_reason": "completed"
+}

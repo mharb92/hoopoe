@@ -1,0 +1,25 @@
+DR run dr-finalize-2026-09-27
+stop reason: max-batches
+batches 3/36  staged 180  skipped(resume) 60
+spend $1.7771 of cap $1000.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":180,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":9,"2":57,"3":84,"4":29,"5":1}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.030303030303030304,"lowBandRows":66,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.9833333333333333,"held":177,"rows":180,"nativeCheckRate":0.06111111111111111,"nativeCheck":11}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":387.9,"p50":415.6,"p90":450.23333333333335,"max":450.23333333333335,"mean":417.9111111111111},"outputTokensPerCall":{"min":23274,"p50":24936,"p90":27014,"max":27014,"mean":25074.666666666668},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.42209375,"thinkingTokens":{"total":44739,"perCall":{"min":13362,"p50":14306,"p90":17071,"max":17071,"mean":14913},"shareOfOutput":0.5947436988195257},"preambleTokens":{"created":{"min":10655,"p50":10675,"p90":10681,"max":10681,"mean":10670.333333333334},"read":{"min":27542,"p50":27542,"p90":27542,"max":27542,"mean":27542}},"metered":["transport"],"usd":1.7771172000000002,"usdPerRow":0.009872873333333334,"usdExtrapolated":26.933198453333336}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":12,"2":165,"3":3},"extrapolated":{"1":182,"2":2501,"3":45},"rows":180}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.19444444444444445,"flipped":35,"rows":180,"flippedIds":[1850,1447,938,1685,2025,473,480,1965,2483,1438,311,2552,2727,270,1241,2200,948,2281,1430,2634,2671,2188,2512,2605,2308,1196,1225,1804,2522,1032,2249,2620,1845,1072,1668]}

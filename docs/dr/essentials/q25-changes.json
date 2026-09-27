@@ -1,0 +1,321 @@
+{
+ "source": "Q25 close-out, chat 28: Marwan's judgments on essential-different-word.csv, Gemini notes as input, recommendations accepted",
+ "edits": [
+  {
+   "id": 401,
+   "before": {
+    "arabic": "إِي",
+    "romanization": "ee",
+    "notes": "Casual yes. More formal: نَعَم"
+   },
+   "after": {
+    "arabic": "آه",
+    "romanization": "aah",
+    "notes": "Casual yes. Also: إِي (ee), rural/northern. More formal: نَعَم"
+   }
+  },
+  {
+   "id": 1477,
+   "before": {
+    "arabic": "قَبِيح",
+    "romanization": "abee7",
+    "notes": "Urban ق→ء. Can be rude"
+   },
+   "after": {
+    "arabic": "بَشِع",
+    "romanization": "bashi3",
+    "notes": "MSA: قَبِيح, which in dialect leans to rude / badly-behaved"
+   }
+  },
+  {
+   "id": 853,
+   "before": {
+    "arabic": "أَنْف",
+    "romanization": "anf",
+    "notes": "Also: خَشِم (khashim) more colloquial"
+   },
+   "after": {
+    "arabic": "مَنْخَار",
+    "romanization": "mankhaar",
+    "notes": "MSA: أَنْف (anf). Plural: مَنَاخِير. Also: خَشِم (khashim)"
+   }
+  },
+  {
+   "id": 1227,
+   "before": {
+    "english": "full"
+   },
+   "after": {
+    "english": "full (a container)"
+   }
+  },
+  {
+   "id": 142,
+   "before": {
+    "arabic": "بُكْرَا"
+   },
+   "after": {
+    "arabic": "بُكْرَة"
+   }
+  },
+  {
+   "id": 1139,
+   "before": {
+    "arabic": "جَاكِيت",
+    "romanization": "jaakeet"
+   },
+   "after": {
+    "arabic": "جَكِيت",
+    "romanization": "jakeet"
+   }
+  },
+  {
+   "id": 1290,
+   "before": {
+    "arabic": "دَرَّاجَة",
+    "romanization": "darraaje",
+    "notes": null
+   },
+   "after": {
+    "arabic": "بَسْكَلِيت",
+    "romanization": "baskaleet",
+    "notes": "MSA: دَرَّاجَة (darraaje)"
+   }
+  },
+  {
+   "id": 158,
+   "before": {
+    "arabic": "يَوْم الاِثْنَيْن",
+    "romanization": "yom ilithnein",
+    "notes": null
+   },
+   "after": {
+    "arabic": "يَوْم الإِتْنِين",
+    "romanization": "yoom il-itneen",
+    "notes": "MSA: الاِثْنَيْن"
+   }
+  },
+  {
+   "id": 159,
+   "before": {
+    "arabic": "يَوْم الثَّلَاثَا",
+    "romanization": "yom ittalaata"
+   },
+   "after": {
+    "arabic": "يَوْم التَّلَاتَة",
+    "romanization": "yoom it-talaate"
+   }
+  },
+  {
+   "id": 1025,
+   "before": {
+    "arabic": "خُضْرَا",
+    "romanization": "khudra"
+   },
+   "after": {
+    "arabic": "خُضْرَة",
+    "romanization": "khuDra"
+   }
+  },
+  {
+   "id": 1030,
+   "before": {
+    "arabic": "ثُوم",
+    "romanization": "thoom",
+    "notes": null
+   },
+   "after": {
+    "arabic": "تُوم",
+    "romanization": "toom",
+    "notes": "MSA: ثُوم (thoom)"
+   }
+  },
+  {
+   "id": 178,
+   "before": {
+    "arabic": "الرَّبِيع",
+    "romanization": "irrabee3"
+   },
+   "after": {
+    "arabic": "رَبِيع",
+    "romanization": "rabii3"
+   }
+  },
+  {
+   "id": 176,
+   "before": {
+    "arabic": "الصَّيْف",
+    "romanization": "isseif"
+   },
+   "after": {
+    "arabic": "صَيْف",
+    "romanization": "Seef"
+   }
+  },
+  {
+   "id": 177,
+   "before": {
+    "arabic": "الشِّتَا",
+    "romanization": "ishita"
+   },
+   "after": {
+    "arabic": "شِتَا",
+    "romanization": "shita"
+   }
+  },
+  {
+   "id": 179,
+   "before": {
+    "arabic": "الخَرِيف",
+    "romanization": "ilkhareef"
+   },
+   "after": {
+    "arabic": "خَرِيف",
+    "romanization": "khariif"
+   }
+  },
+  {
+   "id": 2267,
+   "before": {
+    "arabic": "يَوْم مِيلَاد سَعِيد",
+    "romanization": "yom milaad sa3eed",
+    "notes": "More modern/neutral"
+   },
+   "after": {
+    "arabic": "عِيد مِيلَاد سَعِيد",
+    "romanization": "3iid miilaad sa3iid",
+    "notes": "Also: كُلّ سَنَة وإِنْتَ سَالِم"
+   }
+  },
+  {
+   "id": 195,
+   "before": {
+    "arabic": "أَحْيَانًا",
+    "romanization": "a7yaanan",
+    "notes": "Same as MSA"
+   },
+   "after": {
+    "arabic": "مَرَّات",
+    "romanization": "marraat",
+    "notes": "MSA: أَحْيَانًا (a7yaanan)"
+   }
+  },
+  {
+   "id": 855,
+   "before": {
+    "arabic": "ثُمّ",
+    "romanization": "thumm"
+   },
+   "after": {
+    "arabic": "تُمّ",
+    "romanization": "tumm"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "root": null,
+   "conjugation": null,
+   "gender": null,
+   "confidence": 4,
+   "track_id": "palestinian",
+   "arabic": "غُرْفَة",
+   "romanization": "ghurfe",
+   "english": "room",
+   "pos": "Noun",
+   "category": "Household",
+   "dialect_tag": "S",
+   "notes": "Everyday: أُوضَة (ooda)"
+  },
+  {
+   "root": null,
+   "conjugation": null,
+   "gender": null,
+   "confidence": 4,
+   "track_id": "palestinian",
+   "arabic": "شَبْعَان",
+   "romanization": "shab3aan",
+   "english": "full (after eating)",
+   "pos": "Adjective",
+   "category": "Food & Drink",
+   "dialect_tag": "D",
+   "notes": "For a container: مَلْيَان"
+  },
+  {
+   "root": null,
+   "conjugation": null,
+   "gender": null,
+   "confidence": 4,
+   "track_id": "palestinian",
+   "arabic": "ضَوّ",
+   "romanization": "Daww",
+   "english": "light (a lamp, a light source)",
+   "pos": "Noun",
+   "category": "Household",
+   "dialect_tag": "D",
+   "notes": "MSA: ضَوْء. Also: نُور"
+  },
+  {
+   "root": null,
+   "conjugation": null,
+   "gender": null,
+   "confidence": 4,
+   "track_id": "palestinian",
+   "arabic": "عَاطِل",
+   "romanization": "3aaTil",
+   "english": "bad",
+   "pos": "Adjective",
+   "category": "Adjectives (Abstract)",
+   "dialect_tag": "D",
+   "notes": "MSA: سَيِّئ"
+  },
+  {
+   "root": null,
+   "conjugation": null,
+   "gender": null,
+   "confidence": 4,
+   "track_id": "palestinian",
+   "arabic": "كُلْشِي",
+   "romanization": "kullshi",
+   "english": "everything",
+   "pos": "Pronoun",
+   "category": "Pronouns",
+   "dialect_tag": "D",
+   "notes": "More Palestinian: كُلّ إِشِي"
+  }
+ ],
+ "essential": {
+  "add": [
+   769
+  ],
+  "add_inserted": true,
+  "remove": [
+   138
+  ]
+ },
+ "rejudge_essential": [
+  401,
+  1477,
+  853,
+  1227,
+  142,
+  1139,
+  1290,
+  158,
+  159,
+  1025,
+  1030,
+  178,
+  176,
+  2267,
+  195,
+  855,
+  769
+ ],
+ "native_check": [
+  {
+   "id": 1301,
+   "why": "أوتوستراد may be Lebanese rather than Palestinian for highway"
+  }
+ ]
+}

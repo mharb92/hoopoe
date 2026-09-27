@@ -1,0 +1,25 @@
+DR run dr-essential-o55-2026-09-27
+stop reason: completed
+batches 10/10  staged 597  skipped(resume) 0
+spend $5.3275 of cap $1000.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":597,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":152,"2":289,"3":143,"4":13}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.23129251700680273,"lowBandRows":441,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.8609715242881072,"held":514,"rows":597,"nativeCheckRate":0.06700167504187604,"nativeCheck":40}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":300.18333333333334,"p50":359.78333333333336,"p90":398.93333333333334,"max":398.93333333333334,"mean":352.03526315789475},"outputTokensPerCall":{"min":18011,"p50":21424,"p90":23936,"max":23936,"mean":21011.1},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.374,"thinkingTokens":{"total":117590,"perCall":{"min":8763,"p50":12430,"p90":14399,"max":14399,"mean":11759},"shareOfOutput":0.5596565624836396},"preambleTokens":{"created":{"min":10473,"p50":10705,"p90":38241,"max":38241,"mean":13444.7},"read":{"min":0,"p50":27542,"p90":27542,"max":27542,"mean":24787.8}},"metered":["transport"],"usd":5.327451600000002,"usdPerRow":0.008923704522613068,"usdExtrapolated":24.343865937688452}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":10,"2":505,"3":82},"extrapolated":{"1":46,"2":2308,"3":375},"rows":597}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.13400335008375208,"flipped":80,"rows":597,"flippedIds":[1040,108,1280,1479,1528,777,947,133,1529,1846,1137,971,1007,1062,1133,959,1266,214,2555,2653,1210,1465,1530,440,982,13,944,106,1313,860,1297,1701,1463,17,1250,1119,952,246,1719,457,1236,107,1490,1014,1308,248,1464,1010,884,1244,916,367,73,1143,1134,235,204,188,1499,1043,1021,161,1450,1042,1071,241,1613,284,964,2287,1387,110,983,1491,103,1001,499,1497,105,970]}

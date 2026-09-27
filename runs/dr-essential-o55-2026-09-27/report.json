@@ -1,0 +1,401 @@
+{
+  "run_id": "dr-essential-o55-2026-09-27",
+  "generated_at": "2026-09-27T12:07:00.055Z",
+  "stop_reason": "completed",
+  "stub_judge": null,
+  "config": {
+    "runId": "dr-essential-o55-2026-09-27",
+    "seed": 625598218,
+    "batchSize": 60,
+    "transport": "judge-cli",
+    "spendCapUsd": 1000,
+    "totalRows": 2728,
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "maxTokens": 64000,
+    "maxBatches": null,
+    "rowsFrom": "runs/dr-essential-o55-2026-09-27/source-rows.json",
+    "judgeFrom": null,
+    "stage": true,
+    "runsDir": "/home/user/hoopoe/runs"
+  },
+  "totals": {
+    "planned_batches": 10,
+    "batches_run": 10,
+    "rows_skipped_resume": 0,
+    "rows_staged": 597,
+    "model_calls": 10,
+    "usd_spent": 5.327451600000002,
+    "spend_cap_usd": 1000
+  },
+  "checks": [
+    {
+      "id": "P1",
+      "label": "every requested id returned exactly once (first response)",
+      "pass": true,
+      "value": {
+        "requested": 597,
+        "batches": [
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "label": "schema conformance after at most 1 repair retry",
+      "pass": true,
+      "value": {
+        "unresolvedIds": [],
+        "repairCalls": 0
+      }
+    },
+    {
+      "id": "P3",
+      "label": "pos/register/form_origin/level are enum values only",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P4",
+      "label": "every row carries level, level_reason, level_conf",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P5",
+      "label": "level spread is at least 3 distinct values",
+      "pass": true,
+      "value": {
+        "levels": {
+          "1": 152,
+          "2": 289,
+          "3": 143,
+          "4": 13
+        }
+      }
+    },
+    {
+      "id": "P6",
+      "label": "verb share of level 1-2 rows >= 0.3 (external signal 0.4)",
+      "pass": false,
+      "value": {
+        "verbShare": 0.23129251700680273,
+        "lowBandRows": 441,
+        "externalSignal": 0.4
+      }
+    },
+    {
+      "id": "P7",
+      "label": "held rate and native_check rate (recorded, not a gate)",
+      "pass": null,
+      "value": {
+        "heldRate": 0.8609715242881072,
+        "held": 514,
+        "rows": 597,
+        "nativeCheckRate": 0.06700167504187604,
+        "nativeCheck": 40
+      }
+    },
+    {
+      "id": "P8",
+      "label": "cost and output tokens per row, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "outputTokensPerRow": {
+          "min": 300.18333333333334,
+          "p50": 359.78333333333336,
+          "p90": 398.93333333333334,
+          "max": 398.93333333333334,
+          "mean": 352.03526315789475
+        },
+        "outputTokensPerCall": {
+          "min": 18011,
+          "p50": 21424,
+          "p90": 23936,
+          "max": 23936,
+          "mean": 21011.1
+        },
+        "maxTokensConfigured": 64000,
+        "worstCallVsMaxTokens": 0.374,
+        "thinkingTokens": {
+          "total": 117590,
+          "perCall": {
+            "min": 8763,
+            "p50": 12430,
+            "p90": 14399,
+            "max": 14399,
+            "mean": 11759
+          },
+          "shareOfOutput": 0.5596565624836396
+        },
+        "preambleTokens": {
+          "created": {
+            "min": 10473,
+            "p50": 10705,
+            "p90": 38241,
+            "max": 38241,
+            "mean": 13444.7
+          },
+          "read": {
+            "min": 0,
+            "p50": 27542,
+            "p90": 27542,
+            "max": 27542,
+            "mean": 24787.8
+          }
+        },
+        "metered": [
+          "transport"
+        ],
+        "usd": 5.327451600000002,
+        "usdPerRow": 0.008923704522613068,
+        "usdExtrapolated": 24.343865937688452
+      }
+    },
+    {
+      "id": "P9",
+      "label": "review_confidence distribution, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "distribution": {
+          "1": 10,
+          "2": 505,
+          "3": 82
+        },
+        "extrapolated": {
+          "1": 46,
+          "2": 2308,
+          "3": 375
+        },
+        "rows": 597
+      }
+    },
+    {
+      "id": "P10",
+      "label": "vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)",
+      "pass": true,
+      "value": {
+        "flipRate": 0.13400335008375208,
+        "flipped": 80,
+        "rows": 597,
+        "flippedIds": [
+          1040,
+          108,
+          1280,
+          1479,
+          1528,
+          777,
+          947,
+          133,
+          1529,
+          1846,
+          1137,
+          971,
+          1007,
+          1062,
+          1133,
+          959,
+          1266,
+          214,
+          2555,
+          2653,
+          1210,
+          1465,
+          1530,
+          440,
+          982,
+          13,
+          944,
+          106,
+          1313,
+          860,
+          1297,
+          1701,
+          1463,
+          17,
+          1250,
+          1119,
+          952,
+          246,
+          1719,
+          457,
+          1236,
+          107,
+          1490,
+          1014,
+          1308,
+          248,
+          1464,
+          1010,
+          884,
+          1244,
+          916,
+          367,
+          73,
+          1143,
+          1134,
+          235,
+          204,
+          188,
+          1499,
+          1043,
+          1021,
+          161,
+          1450,
+          1042,
+          1071,
+          241,
+          1613,
+          284,
+          964,
+          2287,
+          1387,
+          110,
+          983,
+          1491,
+          103,
+          1001,
+          499,
+          1497,
+          105,
+          970
+        ]
+      }
+    }
+  ],
+  "batches": [
+    {
+      "batch_no": 1,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.784656
+    },
+    {
+      "batch_no": 2,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.5044204
+    },
+    {
+      "batch_no": 3,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.4618604
+    },
+    {
+      "batch_no": 4,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.4833164
+    },
+    {
+      "batch_no": 5,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.5295764000000001
+    },
+    {
+      "batch_no": 6,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.5576084000000001
+    },
+    {
+      "batch_no": 7,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.4512164
+    },
+    {
+      "batch_no": 8,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.5228964
+    },
+    {
+      "batch_no": 9,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.5207404
+    },
+    {
+      "batch_no": 10,
+      "requested": 57,
+      "staged": 57,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.5111604000000001
+    }
+  ]
+}

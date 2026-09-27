@@ -1,0 +1,4 @@
+(node:1932) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+batch 5: staged 60/60, spend $0.6855
+batch 6: staged 60/60, spend $1.2951

@@ -210,6 +210,19 @@
     "arabic": "تُمّ",
     "romanization": "tumm"
    }
+  },
+  {
+   "id": 317,
+   "before": {
+    "arabic": "كُلّ إِشِي",
+    "romanization": "kull ishi",
+    "notes": null
+   },
+   "after": {
+    "arabic": "كُلْشِي",
+    "romanization": "kullshi",
+    "notes": "Also: كُلّ إِشِي. كُلّ and إِشِي are their own entries (316, 313)"
+   }
   }
  ],
  "inserts": [
@@ -268,20 +281,6 @@
    "category": "Adjectives (Abstract)",
    "dialect_tag": "D",
    "notes": "MSA: سَيِّئ"
-  },
-  {
-   "root": null,
-   "conjugation": null,
-   "gender": null,
-   "confidence": 4,
-   "track_id": "palestinian",
-   "arabic": "كُلْشِي",
-   "romanization": "kullshi",
-   "english": "everything",
-   "pos": "Pronoun",
-   "category": "Pronouns",
-   "dialect_tag": "D",
-   "notes": "More Palestinian: كُلّ إِشِي"
   }
  ],
  "essential": {
@@ -294,23 +293,24 @@
   ]
  },
  "rejudge_essential": [
-  401,
-  1477,
-  853,
-  1227,
   142,
-  1139,
-  1290,
   158,
   159,
+  176,
+  178,
+  195,
+  317,
+  401,
+  769,
+  853,
+  855,
   1025,
   1030,
-  178,
-  176,
-  2267,
-  195,
-  855,
-  769
+  1139,
+  1227,
+  1290,
+  1477,
+  2267
  ],
  "native_check": [
   {
@@ -322,7 +322,13 @@
   2729,
   2730,
   2731,
-  2732,
-  2733
- ]
+  2732
+ ],
+ "deleted": [
+  {
+   "id": 2733,
+   "why": "inserted as a second كلشي entry earlier in chat 28; Marwan chose one entry, so كلشي replaces كل إشي on row 317. Deleted before anything referenced it: no dictionary_review rows, no content"
+  }
+ ],
+ "calibration": "30 essential rows outside the rejudge list, judged on Opus 5.5 to compare levels with Opus 5: calibration-ids.json"
 }

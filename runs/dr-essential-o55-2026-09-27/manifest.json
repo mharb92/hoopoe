@@ -1,6 +1,6 @@
 {
-  "run_id": "dr-finalize-2026-09-27",
-  "seed": 3271456288,
+  "run_id": "dr-essential-o55-2026-09-27",
+  "seed": 625598218,
   "batch_size": 60,
   "transport": "judge-cli",
   "model": "claude-opus-5-5",
@@ -9,10 +9,10 @@
   "spend_cap_usd": 1000,
   "stage": true,
   "judge_from": null,
-  "rows_from": "runs/dr-finalize-2026-09-27/source-rows.json",
+  "rows_from": "runs/dr-essential-o55-2026-09-27/source-rows.json",
   "prompt_doc": "docs/dr/dr-prompt-scoped.md",
   "romanization_map": "docs/dr/romanization-map.md",
-  "started_at": "2026-09-27T12:07:17.732Z",
-  "finished_at": "2026-09-27T14:09:58.557Z",
+  "started_at": "2026-09-27T11:36:11.950Z",
+  "finished_at": "2026-09-27T12:07:00.055Z",
   "stop_reason": "completed"
 }

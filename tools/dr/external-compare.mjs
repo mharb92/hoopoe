@@ -20,6 +20,9 @@ export const SOURCE_CSV = 'docs/dr/external/levantine-dictionary.csv';
 export const SOURCE_SHA256 = 'e6fe21dbfe57cf3fa9a2badd94dd7544fd7a4929f71f1d304a2455a7d96f6881';
 const ESSENTIAL_IDS = 'docs/dr/essentials/essential-ids-final.json';
 const JUDGED_RUNS = ['dr-essential-o55-2026-09-27', 'dr-finalize-2026-09-27']; // D273: one 5.5 judgement per id
+// Later runs that supersede a JUDGED_RUNS judgement for the ids they cover.
+// dr-rejudge-2026-09-29: dr-finalize-2026-09-27 batches 8, 24, 27, whose arabic_vocalised drifted into Hebrew.
+const OVERRIDE_RUNS = ['dr-rejudge-2026-09-29'];
 const REST = 'https://pniwgnjljpkiimssortp.supabase.co/rest/v1';
 // §5 estimate band per model-bound row, for the dry run's projection only.
 const USD_PER_ROW = [0.002, 0.004];
@@ -68,6 +71,12 @@ async function snapshot(runId) {
       judged.set(s.dictionary_id, s.payload.model);
     }
   }
+  for (const run of OVERRIDE_RUNS) {
+    for (const s of await pullAll(`${REST}/dictionary_review?select=dictionary_id,payload&run_id=eq.${run}&order=dictionary_id.asc`)) {
+      if (!judged.has(s.dictionary_id)) throw new Error(`${run} covers id ${s.dictionary_id}, which has no base judgement`);
+      judged.set(s.dictionary_id, s.payload.model);
+    }
+  }
   const essential = new Set(readJson(ESSENTIAL_IDS));
   const ours = dict.map((d) => {
     const m = judged.get(d.id);
@@ -106,10 +115,19 @@ function loadSnapshot(runId) {
   return { ours: readJson(path.join(runDir(runId), 'ours.json')), theirs: readJson(path.join(runDir(runId), 'theirs-deduped.json')) };
 }
 
+/**
+ * Content key: a row keeps its verdict across re-snapshots only while its pair,
+ * our Arabic and its category are unchanged; a changed row gets a new key and is
+ * re-judged (a re-judge that rewrites our Arabic invalidates the old verdict).
+ */
+export const rowKey = (r) => 'x' + createHash('sha256')
+  .update([r.theirs.word, r.theirs.meaning, r.ours?.id ?? '', r.ours ? (r.ours.vocalised || r.ours.arabic) : '',
+    r.category].join('\u0000')).digest('hex').slice(0, 12);
+
 /** The script rows with stable keys, as the model step and the export read them. */
 export function scriptRows({ ours, theirs }) {
   const { rows, onlyOurs, skipped } = categorise(theirs, ours);
-  return { rows: rows.filter(isExported).map((r, i) => ({ k: `r${i + 1}`, ...r })), onlyOurs,
+  return { rows: rows.filter(isExported).map((r) => ({ k: rowKey(r), ...r })), onlyOurs,
     same: rows.filter((r) => !isExported(r)).length, skipped: skipped.length };
 }
 

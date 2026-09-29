@@ -1,6354 +1,6349 @@
 {
- "usd": 3.3105674,
+ "usd": 3.609149,
  "verdicts": {
-  "r2": {
+  "x7e558a75386f": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Fruit; Palestinian fawāke(h)"
+  },
+  "xcce9a602dd9b": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "H"
   },
-  "r7": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r24": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r25": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r43": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r52": {
+  "x4136838d45e5": {
    "v": "both_valid",
    "d": "pal",
    "c": "M"
   },
-  "r165": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r187": {
-   "v": "keep_ours",
-   "d": "unsure",
+  "x0a7fdf716835": {
+   "v": "skip",
+   "d": "lev_other",
    "c": "M"
   },
-  "r195": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r197": {
+  "x070020a8362c": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "M"
   },
-  "r206": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r211": {
-   "v": "keep_ours",
+  "xeca5b41567e9": {
+   "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r229": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r232": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r233": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r235": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r245": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "L"
-  },
-  "r262": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r263": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r264": {
+  "x4a45919e1286": {
    "v": "keep_ours",
    "d": "msa",
    "c": "M"
   },
-  "r271": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r304": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r323": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r325": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r346": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r348": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r349": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r360": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r402": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r404": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r408": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r413": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r414": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "L"
-  },
-  "r436": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r452": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r455": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r485": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r494": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r500": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r503": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r512": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r562": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r581": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r585": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r586": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r632": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r639": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r651": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r652": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r676": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r678": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r696": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r730": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r743": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r752": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r784": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r785": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r786": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r787": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r788": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r822": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r837": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r843": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r845": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r875": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r881": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r898": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r929": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r930": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r964": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r965": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r993": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r8": {
+  "x28f2e702f655": {
    "v": "same_sense",
    "d": "pal",
    "c": "H"
   },
-  "r10": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r11": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r12": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r13": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r14": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r16": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r19": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r21": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r22": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r23": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r26": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r34": {
-   "v": "ours_wrong",
+  "xd7c64983419f": {
+   "v": "add",
    "d": "pal",
    "c": "H",
-   "fix": "مِشْمِش",
-   "n": "Ours is written in Hebrew script, not Arabic"
+   "n": "Common verb: ripen, get cooked"
   },
-  "r46": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r58": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r60": {
+  "x71eebe3e6750": {
    "v": "same_sense",
    "d": "pal",
    "c": "H"
   },
-  "r75": {
+  "x665aaa65dd74": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r84": {
+  "xe8d8c31d153f": {
    "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x91333345d987": {
+   "v": "same_sense",
    "d": "pal",
    "c": "H"
   },
-  "r92": {
-   "v": "keep_ours",
+  "xaca841cdd2bd": {
+   "v": "same_sense",
    "d": "pal",
    "c": "H"
   },
-  "r102": {
+  "x56d0dded16c3": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Basic everyday verb"
+  },
+  "xcb075b78fd8d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x13ab8d53a56e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday verb for washing dishes"
+  },
+  "x54b7852c4cbb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common: throw away, spill"
+  },
+  "x708183c4033a": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x45a65c3aff0b": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xa79bdcf23699": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x168c9f324fe9": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x65508b3faf00": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7815d46b7532": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x24de6a2a82fe": {
    "v": "keep_ours",
    "d": "unsure",
    "c": "M"
   },
-  "r149": {
+  "x1e43c6bb3a2e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Basic food word"
+  },
+  "x59bf43de5598": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xfa77ea34dccd": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Spices; spelled بهارات"
+  },
+  "xb55f41b57b26": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Cardamom, essential for coffee"
+  },
+  "x9190f58b8f0a": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Common loanword"
+  },
+  "xf550dc8420a3": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Drinks, common on menus and in speech"
+  },
+  "xd3ad8e66750d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Pineapple"
+  },
+  "x964ba3385408": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Cherry"
+  },
+  "x927333d5fe8d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Lettuce"
+  },
+  "x808f7f7cecad": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x55af169a6de1": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x972e11963175": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Cabbage"
+  },
+  "xdd41345d9b8b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Vinegar"
+  },
+  "x9ca8ba72b5e6": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Sesame"
+  },
+  "xbbdb0221ceee": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x1bf8f35a2214": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Lentils"
+  },
+  "xe7b440813499": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Pistachio"
+  },
+  "xfd4df281c265": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x6687b297fbd9": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Green beans"
+  },
+  "xcf562a05cf69": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Honey"
+  },
+  "x8cbe6980e616": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Ice cream; usually spelled بوظة"
+  },
+  "x28addc6e84ce": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Taste"
+  },
+  "x3800434ee4ee": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x5a323175d9c1": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x76bda9ef6148": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Passive of fry, common in cooking"
+  },
+  "xd84c0b52706d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Passive of grill"
+  },
+  "x9a28c38e6534": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "To burn"
+  },
+  "x11a11e4b0c5f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "To boil"
+  },
+  "xedc1db9022cb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "To bite"
+  },
+  "x5072e997918d": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r179": {
+  "xc9c54162b38c": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "To feed, also heard as ṭaʿʿam"
+  },
+  "xef5ede75036d": {
    "v": "same_sense",
    "d": "pal",
    "c": "H"
   },
-  "r191": {
-   "v": "same_sense",
+  "xbb8a252ce74e": {
+   "v": "add",
    "d": "pal",
+   "c": "H",
+   "n": "Lamb meat"
+  },
+  "x7acf7993875c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Beef"
+  },
+  "x2d04f82c0766": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Pork"
+  },
+  "x0db32d722c8f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x41a378263b2f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Basil"
+  },
+  "x7b3aca1fe73d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Coriander/cilantro"
+  },
+  "xc9661754fdd2": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Ginger"
+  },
+  "xad1cbbffaea1": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Wine, nbīd"
+  },
+  "xd83ba74a047e": {
+   "v": "skip",
+   "d": "lev_other",
    "c": "H"
   },
-  "r208": {
+  "xe05bd760e6fd": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Melon"
+  },
+  "x265516b4e5e3": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Pears, often injāṣ"
+  },
+  "x23ad0ccb68bc": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Vegetarian"
+  },
+  "xaa3938802e0c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Peas"
+  },
+  "xfcb0317c2fee": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Okra"
+  },
+  "x360d7dac1ff4": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r212": {
+  "xa82d7e643045": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x8673d1097797": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Hazelnut"
+  },
+  "xf32cd4281f62": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Cashew"
+  },
+  "x15493b2e8ac4": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Oats"
+  },
+  "x82a2b20dfa53": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Wheat"
+  },
+  "x6daf8cf6d94a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Bulgur"
+  },
+  "xbb948fef3f9c": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x39875419f075": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Fried potatoes/fries"
+  },
+  "xa1e3367acd36": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd4dbcb3103e9": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "To melt, dissolve"
+  },
+  "x737bf41fdd56": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Law"
+  },
+  "x88b8a199727b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "War"
+  },
+  "xcf54a6a59626": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "State"
+  },
+  "x586bc886e3ff": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Government"
+  },
+  "x111a394b4a9d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common everyday word for president"
+  },
+  "x0b9a6b324598": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Palestinian says حْدود; check the vowel on the first letter"
+  },
+  "xb0449ac5d0b9": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xc55691bf7c0e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for politics"
+  },
+  "xddd715b323bc": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in political talk and news"
+  },
+  "x3c189c435bd1": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in political talk and news"
+  },
+  "xf48e5510c6ed": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common; plural انتخابات used more"
+  },
+  "xdda7aa380ff8": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for revolution"
+  },
+  "x97ebe8f85244": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for demonstration"
+  },
+  "x2fd1ee566a3a": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for protest in everyday talk"
+  },
+  "x7c8920bd8b2b": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in news-influenced speech"
+  },
+  "x5df8cb921399": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for coup"
+  },
+  "x64a7c3b7244e": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x45634c19becc": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x9db602debae1": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x1a2bcbf4a7c3": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for civilization"
+  },
+  "xd27d970e772c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common in Palestinian speech"
+  },
+  "x6040357d2f59": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common; the vowels need checking (مستوطَنة)"
+  },
+  "x4b7aa09489ac": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common in Palestinian speech"
+  },
+  "x5576ce0c4338": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for judge"
+  },
+  "xd247d9790d4d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common word for prisoner"
+  },
+  "xa10af1a50a87": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common set phrase"
+  },
+  "x747951faaa82": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for ally"
+  },
+  "x9961ba9a70ae": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for enemy"
+  },
+  "xdb84ee0a5b3c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for tank"
+  },
+  "x186353f98a54": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for bullets"
+  },
+  "xe0d7a6c0f799": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for weapon"
+  },
+  "x57b4a0a0a6e3": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Real word; the extra shadda in THEIRS is wrong"
+  },
+  "xb8a0fc61e6f0": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for system or regime"
+  },
+  "x2ee9a0d0a88b": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for parliament"
+  },
+  "xfdbc5050cb06": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common phrase for prime minister"
+  },
+  "x45b0bd1a80e7": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for minister"
+  },
+  "xab7467b32b42": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for ministry"
+  },
+  "x6c8ff5021f35": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for economy"
+  },
+  "x805d904bea85": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for nation"
+  },
+  "x5bc41fad2a62": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb44203363248": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for republic"
+  },
+  "x6d2e89dd45eb": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common loanword for democracy"
+  },
+  "x69e4cecf77bd": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x961faffb7868": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common loanword for dictator"
+  },
+  "xdedbc2bd49a2": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for agreement"
+  },
+  "xe20554015c1d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for collapse in everyday talk"
+  },
+  "x3dec6623a806": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Real word, misspelled; should be صَحافة"
+  },
+  "xfc8487515dcd": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common verb for to rule"
+  },
+  "x12c80f3e36a7": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for rising up or rebelling"
+  },
+  "xfd0c2854a42b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common verb for to divide"
+  },
+  "x4e2adf48435f": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for to defeat"
+  },
+  "x892b2d6228d3": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for import"
+  },
+  "xa1c01abdc6cc": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for export"
+  },
+  "xc0c149197df1": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for tribe"
+  },
+  "x9bc7c1895801": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common political phrase; should be حُكم"
+  },
+  "xee00b6c67510": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common political phrase in Palestinian speech"
+  },
+  "xec7da7137e19": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common phrase in Palestinian speech"
+  },
+  "x0d47223cdf05": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x1e867c270fc4": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x5c0d081946f4": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for campaign"
+  },
+  "xbb1af896d9d2": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for massacre"
+  },
+  "x564b53052232": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for bomb"
+  },
+  "x194c5080d127": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xbbd1e5fed643": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x2d75b3cd0526": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for oppression"
+  },
+  "x1d8a6c17d00c": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x45eca642941a": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x9c9fe06f5b1d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for capitalism"
+  },
+  "x9fee661ac91d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Known word for communism"
+  },
+  "x6be4d581d098": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for colonialism"
+  },
+  "x05c62a38d605": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for reality"
+  },
+  "xa6d691e3e60a": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "tamyeez, used for discrimination"
+  },
+  "x8f16ef47028f": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x386cb64220a0": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common word for equality"
+  },
+  "x60554691b955": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common political term"
+  },
+  "x4723bde730d7": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common political term"
+  },
+  "xe1e3ef255e0d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "used in everyday speech"
+  },
+  "x5ef8b1b22fdb": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xc453c97db46c": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "ittifaaqiyye is common"
+  },
+  "x88d7e1a773f2": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "x090b152ef2c9": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x916d17751ab0": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xb73a1275e46b": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x364983b7df03": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "khyaane, common"
+  },
+  "x8b29389afd76": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "khaayin, common"
+  },
+  "xcf942602a57f": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x5edde10d279e": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x00e3945758ea": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "a3lan is used in Palestinian speech"
+  },
+  "x4c8941bf0417": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x1e07d9c0f406": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x5c540ebeee2d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "used for strikes"
+  },
+  "x654b9b65b948": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "iHtall, very common"
+  },
+  "xadc6556fbb93": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "ijtaaH, common for incursions"
+  },
+  "x0365138476d1": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xaa3854f411e8": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x3aea49e50576": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd3f718444c99": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x5244f00eaa3d": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x9b1943cee81a": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x497fc2028346": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xfd6c948b61ac": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe5b8d8c707c3": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x7d35003a4cdf": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x2c8b3c347b35": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xaa04391fe001": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb8b20dbffbd8": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x5b9531cde079": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x78107ec8970e": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xc033f2960e89": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x649064e762e7": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xdeb5391ea285": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x810e0a7731b1": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common time expression"
+  },
+  "xcf3de46aaeea": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common time expression"
+  },
+  "x55c4adeb4e3b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common time expression"
+  },
+  "xbca0dbc3d4b8": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "xa29e23352001": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common time expression"
+  },
+  "x012c89ed140e": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x297ac3cf7acb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common time expression"
+  },
+  "xc7ab8c9ded0d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x14b36cf0966a": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xa26c1779d35c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x3ca1bca63998": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x0f0ad70ba837": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x518d7f695a5d": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xb34f8f2f9c7c": {
    "v": "same_sense",
    "d": "pal",
    "c": "M"
   },
-  "r217": {
+  "x8dff6a532157": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "xf67c37251cdc": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "x58fc35b50890": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "xad1fb9675f83": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0aafb853256d": {
    "v": "keep_ours",
    "d": "pal",
    "c": "M"
   },
-  "r231": {
+  "xa647beedebdf": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "x72559cc88764": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe28a48946ef8": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x23ea4f9d4824": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x70b34042b0ac": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x554d984a4515": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x4c90ad00ad09": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x7162c7e28df8": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x84f32526db9f": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x4a1feaac4290": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "basic body word"
+  },
+  "x82e486e67e99": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x6aa9cc7c81db": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x14dd4c5fda60": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r236": {
+  "x75c00b07e71b": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x02e9c2e9b17f": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x5da3e80a7db0": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x241498015b1d": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x1c522ef62b12": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r238": {
+  "xcfe4998ffabd": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "basic body word"
+  },
+  "x1d09df96cb78": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r239": {
+  "x2906b92cd3cb": {
    "v": "same_sense",
    "d": "pal",
    "c": "H"
   },
-  "r257": {
+  "xafd6762e6a6a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common, vulgar"
+  },
+  "x99ddc995ddb4": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "xf4ec77554c5f": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "xc3522fa7bbf5": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xd84a2d6dafee": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xc39f32a7f50e": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "L"
+  },
+  "x1db50e29bec8": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "da'n, beard or chin"
+  },
+  "x57ffc17f5b44": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common; plural shawaarib"
+  },
+  "xbf3b4af62672": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common body word"
+  },
+  "x505ae24af427": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xefe2251e9147": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common body word"
+  },
+  "xfe84a3dc80ff": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "xaf3118a014b7": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "L"
+  },
+  "x1f588a8131f1": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x390070a43f2b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common word for forehead"
+  },
+  "xd9f783558a37": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r258": {
+  "x177086fcc75c": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r259": {
+  "x376edba98940": {
    "v": "ours_wrong",
    "d": "pal",
    "c": "M",
    "fix": "كْتِير",
    "n": "marra meaning 'very' is Gulf usage, not Palestinian"
   },
-  "r278": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r282": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r302": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r305": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r307": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r311": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r339": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r362": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r369": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r385": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r386": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r403": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r406": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r419": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r421": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r426": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r445": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r460": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r464": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r487": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r488": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r489": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r496": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r514": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r522": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r579": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r583": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r584": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r587": {
-   "v": "same_sense",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r588": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r589": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r590": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r591": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r595": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r605": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r636": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r655": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r662": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r668": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r669": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r677": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r682": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r693": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r701": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r702": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r727": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r728": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r729": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r731": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r732": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r733": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r734": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r735": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r736": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r737": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r740": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r742": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r748": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r750": {
-   "v": "same_sense",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r756": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r763": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r768": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r769": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r780": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r781": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r782": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r783": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r789": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r790": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r795": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r800": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r819": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r823": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r824": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r825": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r826": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r827": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r846": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r847": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r850": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r854": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r856": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r857": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r858": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r865": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r866": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r868": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r921": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r927": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r931": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r932": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r933": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r946": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r951": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r952": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r953": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r954": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r956": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r957": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r967": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r968": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r969": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r970": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "H"
-  },
-  "r971": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r972": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "M"
-  },
-  "r973": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r974": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "H"
-  },
-  "r975": {
-   "v": "same_sense",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r976": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r977": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r979": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r980": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r986": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r987": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r989": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1000": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1004": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1006": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1008": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1009": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1013": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1015": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1018": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1019": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1022": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1023": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1027": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1033": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1049": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1055": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1111": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1115": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1117": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1131": {
+  "xaa96317dc240": {
    "v": "keep_ours",
    "d": "msa",
    "c": "H"
   },
-  "r1141": {
+  "x69c98aef41f6": {
    "v": "keep_ours",
    "d": "msa",
    "c": "H"
   },
-  "r1144": {
+  "x1c50064e8fa2": {
    "v": "keep_ours",
    "d": "msa",
    "c": "H"
   },
-  "r1147": {
-   "v": "same_sense",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1148": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r1159": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1160": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1163": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1174": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1176": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1178": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1180": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1187": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r3": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r5": {
+  "x765f8364f824": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "M"
   },
-  "r27": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "H"
-  },
-  "r29": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r64": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r103": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r104": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r125": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r143": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r158": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r166": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r180": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r181": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r182": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r183": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r184": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r185": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r186": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r188": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r189": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r190": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r192": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r194": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r196": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r201": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r203": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r209": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r210": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r219": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r220": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r221": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r222": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r223": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r224": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r225": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r226": {
+  "x533f7c9f54a9": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "L"
   },
-  "r227": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r230": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r234": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r242": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r243": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r244": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r250": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r256": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r260": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r261": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r265": {
+  "xa1f3d3589761": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "L"
   },
-  "r266": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r267": {
+  "xbc43e6333485": {
    "v": "both_valid",
    "d": "pal",
    "c": "H"
   },
-  "r268": {
+  "x5fdf32a00702": {
    "v": "both_valid",
    "d": "pal",
    "c": "H"
   },
-  "r269": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r273": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r274": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r279": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r283": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r284": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r286": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r287": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r289": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r291": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r300": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r301": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r308": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r316": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r317": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r343": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r347": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r350": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r351": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r352": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r353": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r354": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r355": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r357": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r358": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r359": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r365": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r370": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r371": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r372": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r373": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r375": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r376": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r378": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r381": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r382": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r383": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r389": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r394": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r395": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r396": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r400": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r405": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r415": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r432": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r437": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r438": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r444": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r447": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r449": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r459": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r465": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r468": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r471": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "L"
-  },
-  "r473": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r474": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r478": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r481": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r486": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r493": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r495": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r499": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r501": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r502": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r504": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r505": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r506": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r507": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r508": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r510": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r518": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r519": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r521": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r523": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r597": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r598": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r599": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r600": {
-   "v": "ours_wrong",
+  "x392cf8ffd46a": {
+   "v": "add",
    "d": "pal",
    "c": "H",
-   "fix": "ثْمَانْيِة",
-   "n": "Hebrew sheva character in place of Arabic sukun"
+   "n": "common adjective"
   },
-  "r601": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r602": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r603": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r604": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r623": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r624": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r625": {
+  "x4c35a0312374": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "M"
   },
-  "r626": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r627": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r628": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r629": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r630": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r631": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r634": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r635": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r648": {
-   "v": "both_valid",
+  "xd015099afd39": {
+   "v": "add",
    "d": "pal",
-   "c": "M"
-  },
-  "r653": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r654": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "L"
-  },
-  "r659": {
-   "v": "both_valid",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r663": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r665": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r667": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r681": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r685": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r687": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r703": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r704": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r710": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r714": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r719": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r725": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r757": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r760": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "L"
-  },
-  "r761": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r764": {
-   "v": "ours_wrong",
-   "d": "msa",
    "c": "H",
-   "fix": "مَعْلِش",
-   "n": "Hebrew letters and vowel points mixed into Arabic spelling"
+   "n": "common plural of mara"
   },
-  "r765": {
+  "x0b7116fda1e8": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xa16a4deccfc2": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "used for female teacher or Miss"
+  },
+  "xb1f6859b5f13": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common adjective"
+  },
+  "xd01e2ced5bbc": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common adjective"
+  },
+  "xeeab74bcdb22": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x5fd97436defc": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x3c71a99b8c76": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common adjective"
+  },
+  "x94e581068f5b": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "L"
+  },
+  "x3826b407bea8": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0c5e328a3adb": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x12dc9a2780ce": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xc3a975a1d25e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common adjective"
+  },
+  "x5c0bf3feb44d": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x412c1ef90316": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x3f9b8feed8df": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common adjective"
+  },
+  "xbf0f85243392": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xa8d7ec6d500a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "very common word"
+  },
+  "x9f0d297e1cb8": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common everyday word"
+  },
+  "xe88ed80f27e0": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common everyday word"
+  },
+  "x453f7f849955": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common everyday word"
+  },
+  "xb9880be52374": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common adjective"
+  },
+  "x05e60867c01c": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "common adjective"
+  },
+  "xacebff86337f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "common adjective"
+  },
+  "x3f77cc960175": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "basic noun"
+  },
+  "x6b677e314ffe": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xaaf291c3a8ff": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xf00ae3c13074": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x03b194c3e633": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "xdda55436de5b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common everyday word for a small shop"
+  },
+  "xe7bf976dd68f": {
    "v": "keep_ours",
    "d": "msa",
    "c": "H"
   },
-  "r770": {
-   "v": "both_valid",
+  "x44def87e7ea1": {
+   "v": "keep_ours",
    "d": "pal",
-   "c": "M"
+   "c": "H"
   },
-  "r774": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
+  "x0e883f1486b2": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for tower"
   },
-  "r777": {
+  "x9384e346eaa4": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x3592e4a83fdc": {
    "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x0e8df45ca02f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common expression for downtown"
+  },
+  "x947d1d9cbe45": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Used for public squares"
+  },
+  "x4df672dab5bc": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x5ddbe0432d58": {
+   "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r791": {
-   "v": "keep_ours",
+  "x2aab2eae3ad6": {
+   "v": "add",
    "d": "pal",
+   "c": "H",
+   "n": "Common word for sewage or drains"
+  },
+  "x236a01ad8e7d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for a hole or pit"
+  },
+  "xa25b7806ca22": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "xa843bad3ea2d": {
+   "v": "keep_ours",
+   "d": "msa",
    "c": "H"
   },
-  "r794": {
-   "v": "both_valid",
-   "d": "pal",
+  "xf4972b891054": {
+   "v": "keep_ours",
+   "d": "msa",
    "c": "H"
   },
-  "r799": {
-   "v": "keep_ours",
-   "d": "unsure",
+  "xbd21fd3ba1e9": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Standard everyday word for museum"
+  },
+  "x97dd32406d59": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Standard everyday word for theater"
+  },
+  "x377791dfac9a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for a small grocery shop"
+  },
+  "x2c8150aea24c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for cinema"
+  },
+  "xe5fa6572aef9": {
+   "v": "skip",
+   "d": "msa",
    "c": "M"
   },
-  "r801": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r802": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r806": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r807": {
+  "xff4a662a945e": {
    "v": "keep_ours",
-   "d": "pal",
+   "d": "msa",
    "c": "H"
   },
-  "r808": {
-   "v": "both_valid",
+  "xc7118a935091": {
+   "v": "add",
    "d": "pal",
-   "c": "M"
+   "c": "H",
+   "n": "Palestinian word for synagogue"
   },
-  "r810": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r811": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r812": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r813": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r814": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r815": {
+  "x8fa240f5ea9e": {
    "v": "keep_ours",
    "d": "lev_other",
    "c": "M"
   },
-  "r828": {
+  "x4ef32881b942": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for palace"
+  },
+  "xdb88060dce50": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x3ab47b25b4f9": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Heard for pool, alongside birket sibaaHa"
+  },
+  "xb47df430a406": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "xf3640b708f90": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "x8166f121fff4": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "x26e8632538c8": {
+   "v": "skip",
+   "d": "pal",
+   "c": "M"
+  },
+  "xc445234b9cd7": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for real estate and property"
+  },
+  "x7fdeae386d0c": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x671c503a3781": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for a seller or vendor"
+  },
+  "xf29b35e38c5d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for tunnel"
+  },
+  "x7d8a6f2579fe": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for speed bump"
+  },
+  "x815335288d51": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Standard word for embassy"
+  },
+  "x8da121950632": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xc24cf18e0957": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for temple"
+  },
+  "x4dbed1f2c12b": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for auditoriums and lecture halls"
+  },
+  "xa04a93be4393": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for citadel, e.g., Jerusalem's"
+  },
+  "xb658d52fecac": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x890d9da96bbe": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Word for pollution heard in daily speech"
+  },
+  "xf1c0971e8d97": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x2b0528cde643": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xd78a2269feb9": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x9929dc6d7ad7": {
    "v": "both_valid",
    "d": "pal",
    "c": "M"
   },
-  "r829": {
+  "x981df4b2a6c9": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xab7ac3f3313d": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x673da895a127": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x97f1e103bbb4": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x0f7abd9e9a9e": {
    "v": "keep_ours",
    "d": "pal",
    "c": "M"
   },
-  "r830": {
+  "x40e5fda799db": {
    "v": "keep_ours",
    "d": "pal",
    "c": "M"
   },
-  "r831": {
+  "x8c3ba8839396": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xdba2dc524feb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Means loud when describing a voice"
+  },
+  "x1cb3733b333b": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x786f578b1a58": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x1dd211dd84d6": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Means delicate or gentle"
+  },
+  "xd621b8a5c18f": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "xf6ab8341d431": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common adjective meaning clear or obvious"
+  },
+  "x434997816749": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common adjective meaning traditional"
+  },
+  "x5d8584d1802a": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0571d4c2025f": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x2c7e00126c5b": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used as a word of praise"
+  },
+  "x89686725f179": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common word for excellent"
+  },
+  "xcad72aa01c7b": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7ed41b482949": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xbd8eb1fc9a2c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x1f8f5dc8b3ba": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x2b5ae6c6ae99": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0eb89dd09be2": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Means chaotic or disorderly"
+  },
+  "x89f17dc84f99": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x856a1ae2d9d1": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x400b3e8cbaf7": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for dangerous"
+  },
+  "x9641cf69c45f": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x596bb52ab347": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Means deformed or disfigured"
+  },
+  "x6bd9bc10c872": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for disgusting"
+  },
+  "xfa6644497784": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xbed6a73d7bc3": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x62d2bff937d2": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x709cdaae9c2d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for huge"
+  },
+  "x7f96155248c0": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x2863c25cfb28": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "xd1b03cd687d2": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Means lukewarm"
+  },
+  "x4f5277d1ae85": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for neat or tidy"
+  },
+  "x49299e0c9f49": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x94d599281ced": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for modern"
+  },
+  "x93b33ecacf08": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Means luxurious"
+  },
+  "x199ded55c3dc": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x1cfe2b34a6da": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for useful"
+  },
+  "x214e6c000c8f": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xd08ca33fa1fc": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x29380e034980": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x8adf608f2f69": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Means severe or intense"
+  },
+  "x8ab626a4bb57": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Used for top students or superior performance"
+  },
+  "xe0ecdfb555d2": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xfa82e39d114e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for trivial or worthless"
+  },
+  "xa6ee949cf16f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x467b9669506a": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Means valuable; pronounced qayyim"
+  },
+  "x50f94ac1b718": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x236e8860495a": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xafad42a8ac63": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "x947db5711e67": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xea7cac20d7fb": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x05a35a686375": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for actor"
+  },
+  "x0dbc2e519b9d": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "xc2c65f4ea1e4": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for analyst"
+  },
+  "x1c4a85aaf2bc": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common word for researcher"
+  },
+  "x3a0c85943690": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for writer"
+  },
+  "x86533b9cecbb": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xfa2d34b9a1e4": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "L"
+  },
+  "x55ad30939424": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xc68f7217d306": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for queen"
+  },
+  "xdb744acf412c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for teacher"
+  },
+  "x64267ef511d3": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x716cd6c5ba99": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0cee89361b73": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Passive of dafa3, used for bills being paid"
+  },
+  "xef62866e1df4": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x09f5e66fae0e": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in everyday speech for support"
+  },
+  "xa88bb36fb1a8": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for manufacture, e.g. صناعة وطنية"
+  },
+  "x56b216481076": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "L"
+  },
+  "x90b7840ae582": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common in Palestinian volunteer contexts"
+  },
+  "xa7e38a04cc94": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xda599512c712": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x8e528e448a71": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday verb for being at work"
+  },
+  "x574e8b9248d7": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "xebf58612e2f9": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "xf04d0b4040e4": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "xad915d108b78": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "x48b8ac5ed12b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "x07699b695e6c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "x4911204a3eb8": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x68ed5b34f900": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x58c5d1802b2c": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0af592fb74d1": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "x91ec5651a874": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "xcd7c96854a4c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common animal noun"
+  },
+  "xd5fd3623a21b": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x0022aa9d503a": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech, often pronounced ta3lab"
+  },
+  "x61cf437773cc": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x3a3556504392": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xe6690a1ae519": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for chick"
+  },
+  "x67f04f58fdcf": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xaabc97660e8f": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech, often pronounced toor"
+  },
+  "xaa1fa92606d0": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x8ce65fcebf91": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used alongside أواعي"
+  },
+  "xb7a7f230c80c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Core everyday word for clothes"
+  },
+  "x1fe98359681f": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x0c0fe62693b2": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x13cee6546fa9": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for boots"
+  },
+  "x05d3a0a2d241": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xda56952f443c": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x926ba11b5334": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for suit"
+  },
+  "xfef27151a677": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x2a4159335022": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x336b783b480d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x1327455b1906": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xfe977684ee81": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common material noun"
+  },
+  "x8eb4d006481a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common material noun"
+  },
+  "x522a1729b7fe": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for button"
+  },
+  "xc554a94cb36c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x091aa84369be": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for zipper"
+  },
+  "x007047862543": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for thread"
+  },
+  "xe3feb51273b2": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x070762aa3394": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used alongside قشاط"
+  },
+  "x67f6eb4696ed": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x835853b7695a": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "L"
+  },
+  "xce7f94e52e04": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common loanword"
+  },
+  "x2900ad2a6515": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd91e5b1f316a": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xc50bb3ab5183": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "xe2e6dd4c03cb": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Used, though أواعي داخلية is more colloquial"
+  },
+  "xeddff177316c": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common loanword for underpants"
+  },
+  "xab5700012039": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x282cadf46529": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Everyday phrase for summer clothes"
+  },
+  "x0c456514f533": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Everyday phrase; شتوية also heard"
+  },
+  "xca644a8ea993": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x93356954f530": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xb3cb985001d7": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "L"
+  },
+  "x40fc2b9938b1": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xcc121222163c": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xa35760b012b4": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xa5006b78b44e": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x622541f89d8f": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xdf9a1bfbb8c1": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xa92dfb042688": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common room name"
+  },
+  "x94dec295d1a3": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common room name"
+  },
+  "xdd5495fbcf77": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common room name"
+  },
+  "xa7eac87443e3": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xeb26a2f52fa2": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x655deae6bdc6": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xaf24fc45d346": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for curtain"
+  },
+  "xca86cf5feea3": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for picture"
+  },
+  "xf07624cb4bc4": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xd0cf52276d5e": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x5ad97d9847e8": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x5b3fa39efdf2": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xbc5a1801d9b1": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x3cf43ef1521e": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xaa57b242ccff": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x02841f4f0eb9": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xb93c4c41917f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x6b3527e4a3c7": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x178459a1008f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common word for tent"
+  },
+  "x971b0560e1ee": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x6af4b4e3815d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for veranda"
+  },
+  "x7a2fa4379150": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for moving house"
+  },
+  "x6cd00bf969f9": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xdabefc1c6b70": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for furniture"
+  },
+  "x42a08497c040": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x6eaec5d3aefb": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xd4a0b2b89a09": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xf837eb6e4985": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x0bdcd9e65dcb": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used for the water valve"
+  },
+  "x053045b6ef15": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x6dfbc4364252": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x4a34edfa26e2": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x5fb7914470b8": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x919185940a63": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Colloquial verb, from عربون"
+  },
+  "xcc798d1d34cb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common proper noun"
+  },
+  "xebc896de10d8": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xc04bb6d653de": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xd68b02338b1e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x6fdce43e3b21": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Palestinians say maSr"
+  },
+  "x38b99b6037a0": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x85b63e645201": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xfa53fbc7f7f7": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common colloquial name for Europe"
+  },
+  "x4d5a9ec37438": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x99d0be701c70": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x6cf7896eb812": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xfeae1ef0e39c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common term for the Levant"
+  },
+  "x5d8be8ceb3a5": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech; the gloss needs care"
+  },
+  "x8b26b13625ba": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x4de0386d3129": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x5c31c1ed2539": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xd680e5bca707": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xabfc7a3b9e38": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x42c2396b18d4": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x5cb40afab7a2": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xbaae32c156ab": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common in Palestinian speech about working abroad"
+  },
+  "xcba8d6f6ec57": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Palestinians say likwayt"
+  },
+  "x1d31fd26f221": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x056c4bf2239b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x827f6a834fa4": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x6489beea0411": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x4b3c6a5b6a44": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xe4048da230d3": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xa5ecdfda154b": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Region name, used as is in speech"
+  },
+  "xb0408084c65b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Palestinians usually say is-soodan"
+  },
+  "x456ad9ca0022": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xdf4e5264fda6": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x278f7a9eefd2": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x6bb7e83652af": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xc7ef06723db7": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x3d4c191d2eb1": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Colloquial form; هولندا is also common"
+  },
+  "x52a7a155630f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe530fd505bb1": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xa9e54e69ec7c": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Colloquial name for Argentina"
+  },
+  "x8a3c6ca9d44a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x8fd331c18a45": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xa20865bfc265": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x5ea13dae977f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xffe0b94548fe": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xc193bac5c63d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xedf340efb534": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Region name, used as is in speech"
+  },
+  "x4760c1035b31": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x11d70fe4d3b1": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xcc2fc6c744bc": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Colloquial form; بولندا is also heard"
+  },
+  "x142bf253bb35": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x62cc0ae11005": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "x4a9b9fb5a1c9": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Country name, used as is in Palestinian speech"
+  },
+  "xa97e165ae72a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Distinctly Palestinian term for the 1948 lands"
+  },
+  "x8272df7be804": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x95aa23cdcfb6": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Political term that is common in Palestinian speech"
+  },
+  "x07c3d80967d6": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xe951acb74d01": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Basic everyday noun"
+  },
+  "xf13f667ec688": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x8f7ffb98e9ad": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x9fb25ab583de": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x32ebf806ee2c": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xf9c9dbd27000": {
+   "v": "same_sense",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x1c1c2a2ab4b4": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0c7ed89c19cf": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd0b4930a5f05": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xadffb9a3f49e": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xfacc7187f5dc": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Basic noun; Palestinians say wara2a"
+  },
+  "x73df637feb33": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday noun for learners"
+  },
+  "x416cc8869d15": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday noun"
+  },
+  "xa76173d78970": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xbcad9005a0d7": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Palestinians more often say 3aamiyye"
+  },
+  "x60d99f62589d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x3bf4268babfe": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xab33418e4134": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xa16d0f847ef0": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x55d766d130f4": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xe6ca9cb9de40": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xbe6751e9e814": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xdf608e9dfd94": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x63cff9944561": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Short form of 'four' before a noun: arba3"
+  },
+  "xbbd4b4ae7d78": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Short form of 'five' before a noun: khams"
+  },
+  "x7dac8d264739": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Short form of 'six' before a noun: sitt"
+  },
+  "x1b77c0001ddf": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Construct form: sab3 snīn"
+  },
+  "x82929993854d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Construct form tamn, e.g. tamn snīn"
+  },
+  "x07406181ddc5": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Construct form: tis3 snīn"
+  },
+  "x00267d3deafb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Construct form: 3ashr snīn"
+  },
+  "x7535d2f88dce": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xbdc1702ff45d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x1dc2b18a6444": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x827eeb165375": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x8809fb531330": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xccd7f30cd36f": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x02697f412ea1": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xe8340b91af10": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xe187d7957518": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x4e673e4dcce5": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Pronounced miyye; commonly spelled مية"
+  },
+  "xfeaad05e95c4": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xf1b602b90a20": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x1fd354ac7bd6": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xebd32e18be07": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for children"
+  },
+  "xbef98b1406b1": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x8473408dad0d": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "xa7c63058614e": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "xf8ba9cbfdbb0": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "xd072ad1cc026": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x937352ead78b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "x2f9c2cde8b01": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "xc87d5a0b043f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "x550db28e3efc": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common kinship term"
+  },
+  "xe224e1408674": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x6e29663a6b91": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for dad"
+  },
+  "x1ef151142061": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Pronounced ikhwe"
+  },
+  "xd39236f578df": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x6ff1530d94f7": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x10de82a1aa5f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x7927ee752470": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "L"
+  },
+  "x086c2f1a5c56": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "xd78e12bf6cf1": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech"
+  },
+  "x1727ef4ad670": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech"
+  },
+  "xc26f112172d4": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech"
+  },
+  "x2b45b05a9419": {
+   "v": "both_valid",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "xeaf707492c7d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in speech"
+  },
+  "x55d0635fd4a3": {
+   "v": "add",
+   "d": "pal",
+   "c": "L",
+   "n": "Heard in speech, somewhat formal"
+  },
+  "x627e41b24793": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd317d2f48ed5": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x4839c3c4278a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for public transport"
+  },
+  "x67b4b1f93e8d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x93480cd30adb": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Pronounced sfīne"
+  },
+  "xe8aad68a0d1e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xc8bc09f28b0d": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x66e123f33b4e": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x98008e83be6c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for boat"
+  },
+  "xcb47f945ee59": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x3b5b178058a6": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used alongside ṭrēn"
+  },
+  "xde406f5ecdd2": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x6be7e508ebc3": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday adjective"
+  },
+  "x6be2a4c2f3eb": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday adjective"
+  },
+  "x57601dd4e3bd": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xbaf53f47eb0e": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xcad9c4ec9662": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xbce7dfcf8392": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xd5b049986d36": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "xa1b70c4a6826": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xa26185b6d06e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe651d2a13e36": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common phrase for direction"
+  },
+  "x14a7635de923": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common phrase for direction"
+  },
+  "xf08e939251c1": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7c374be17920": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "xb9763c7abfbe": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x034c62041776": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x9c5b40e5ccb7": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x4805cc218db7": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "xcd1a2cd6ca25": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday word for crook"
+  },
+  "xb854404a7edc": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "x4ac1b2d3e208": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "x89481c5d431b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "x7a0b77de86b1": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x1effeda022e0": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x5f2a44bfb5e8": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x9e3c995b169b": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x946e556bb449": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "xcefdd59a86b5": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xdf60afd126c4": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "xf7e14f14ed29": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xc07073c1c259": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x250c87464da8": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x5bd2c9eb6691": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x05e0c067f015": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Colloquial word for troublemaker"
+  },
+  "xcb7bfd25ed99": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "x3352d68fff05": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x7ac603b0121b": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x759fc70304f4": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x892ecba5769b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "xc074d9fe0cea": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "xf9f512c959e0": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xea314b6bedee": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "x6beadf3d1a58": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "x167aa829ecfd": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x38cc39f14362": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x4ba148eaab79": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x144a7e89ea6a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "xc6b269017c4b": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x5f98404084c6": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Commonly used"
+  },
+  "x1e5cd38d630b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Commonly used"
+  },
+  "x17bdf5096944": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Common Palestinian adjective for open-minded"
+  },
+  "xa41f81d02d56": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "xfc180748e9b0": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common Palestinian adjective, sincere or loyal"
+  },
+  "x94b46c568ca9": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xff79167fd013": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xd92f0ec3e8a1": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x0970376c6e94": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x662285676578": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x21876033549d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x330ab9fb3f67": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x91045ef2ae5b": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x03211a6e26d4": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xe27ecdd19d9d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xbd159f49430d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7fe494501759": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian verb, to be annoyed or upset"
+  },
+  "xb52a977c5040": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian verb, to get angry"
+  },
+  "xed7fb164bf46": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xdcd137533263": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common Palestinian verb, to be satisfied or agree"
+  },
+  "x281bcd099723": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x6c515db9fe74": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x8ea88fb41d3d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, to be bothered"
+  },
+  "x0bc089ad3199": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, to long for"
+  },
+  "xbc007a54508c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common Palestinian verb, to crave"
+  },
+  "x97eaae3f1b14": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x75cb934baf01": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xace8cbc0a38c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian verb, to get used to"
+  },
+  "x325f0bce2aec": {
+   "v": "same_sense",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xa3360a9dfc62": {
+   "v": "skip",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x817fa9551b8c": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x019db230c97c": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, to suffer"
+  },
+  "xd0bc4a833ea3": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "xe21fe0830f6d": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x403d98de480b": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x49d7eb4cb3bd": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x3c2176adf532": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, depressed"
+  },
+  "x9e14c458c461": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x54fd8c9f3f0c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "L"
+  },
+  "xe38e0709a677": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x310646b52bb3": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Common Palestinian adjective, lonely or alone"
+  },
+  "x5e3b309b0f98": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xa18a3600b038": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xcba9bdafdd4f": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian verb, to be unsure what to do"
+  },
+  "x1031260b4044": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, to take precautions"
+  },
+  "x4f4250cdc780": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7608d6c58da7": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x5c385a04eb6f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xaef1a7762e55": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian word for a cloud"
+  },
+  "xbcb676a9d0fd": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian word for world or life"
+  },
+  "x0ac0d3b07fe1": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian phrase for tree leaves"
+  },
+  "x1c77f56f439a": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x6da8239d5304": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian form of desert"
+  },
+  "xacac8d97593a": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x6f4a46cbcee3": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x292e1b1b1891": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xedc825ce0440": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "xd5cdd3bac6c0": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x61d714ed4956": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x1a4dfd623f84": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xbe9cccf048db": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xed1a74df051d": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xfa3943132c77": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x8a4a90bf9abc": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x2795b3500dc5": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x167f9d4465e0": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x56e9a19ccaf7": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xf9ec013c3974": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x86637c972ede": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x84a987eeac77": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian phrase for everyone"
+  },
+  "xce31eaef046a": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian phrase for anything"
+  },
+  "xf0aafd7c3f7d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd2396dde6e40": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "xbe798e9cf9cc": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian adjective, sleepy"
+  },
+  "x445b17cc526b": {
+   "v": "skip",
+   "d": "msa",
+   "c": "L"
+  },
+  "x25da3d424b86": {
+   "v": "skip",
+   "d": "msa",
+   "c": "M"
+  },
+  "x94e1533a64c7": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x4429d148655d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xa1925684a34c": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x7725a34295d6": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x9ae6cba7e387": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian adjective, under pressure"
+  },
+  "x2056c58126db": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian adjective, tense or nervous"
+  },
+  "x29f1108dd975": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x13c81682c98d": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xc2fe4b4d542e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe5c4638c5ac1": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xef708a3db55d": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Palestinian adjective for someone with a cold"
+  },
+  "x09f60c3b329c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb2936211577e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xefd0b96ebfd7": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x4e90541d95ac": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x4db00695c6f8": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xdbf5045607ea": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x4a876db5efec": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, optimistic"
+  },
+  "x328d7b93fe9e": {
+   "v": "add",
+   "d": "pal",
+   "c": "M",
+   "n": "Used in Palestinian speech, pessimistic"
+  },
+  "x138ad960331b": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Everyday Palestinian adjective, sweaty"
+  },
+  "x9effd76af591": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x4cb9ff11c7c7": {
+   "v": "skip",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "x82fbc571228c": {
+   "v": "add",
+   "d": "pal",
+   "c": "H",
+   "n": "Very common Palestinian word, deeply upset or wronged"
+  },
+  "xfcf7b3f6ed82": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0b5541c9fc6f": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "xcc32749f46a7": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "x8c3aa2486e03": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xf9235efedaf4": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xc94a2f47bcf7": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x2db88b5e9614": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x3ac4e5cbc8e9": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x5151703a186e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0791ef3a6392": {
    "v": "ours_wrong",
    "d": "pal",
    "c": "M",
    "fix": "وَيْن",
    "n": "أين is MSA; everyday Palestinian uses وين"
   },
-  "r832": {
+  "xab2dddd05f13": {
    "v": "both_valid",
    "d": "pal",
    "c": "H"
   },
-  "r833": {
+  "xac9633e42a5a": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r834": {
+  "x85783b01cea8": {
    "v": "keep_ours",
    "d": "pal",
    "c": "H"
   },
-  "r838": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "H"
-  },
-  "r839": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r844": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r855": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r869": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r878": {
-   "v": "ours_wrong",
-   "d": "pal",
-   "c": "H",
-   "fix": "وَرْدِي",
-   "n": "Ours contains Hebrew letters; corrupted spelling"
-  },
-  "r879": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r895": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r900": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r901": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r920": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r922": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r923": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r924": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r925": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r926": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r939": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r958": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r966": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r981": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r990": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r994": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r995": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r996": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r998": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1001": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1026": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1031": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1036": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1042": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1046": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r1050": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1051": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r1057": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1082": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1083": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1084": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1085": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1091": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "M"
-  },
-  "r1094": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1095": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1096": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1101": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r1104": {
-   "v": "keep_ours",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r1135": {
-   "v": "keep_ours",
-   "d": "msa",
-   "c": "H"
-  },
-  "r1140": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1145": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1170": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r1171": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r1172": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1173": {
-   "v": "keep_ours",
-   "d": "pal",
-   "c": "H"
-  },
-  "r1175": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1177": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1179": {
-   "v": "ours_wrong",
-   "d": "pal",
-   "c": "H",
-   "fix": "شِتَا",
-   "n": "Ours is written in Hebrew letters, not Arabic"
-  },
-  "r1181": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1182": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r1183": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r1184": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r1185": {
-   "v": "both_valid",
-   "d": "pal",
-   "c": "M"
-  },
-  "r1186": {
-   "v": "keep_ours",
-   "d": "unsure",
-   "c": "H"
-  },
-  "r1": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Fruit; Palestinian fawāke(h)"
-  },
-  "r4": {
+  "xd1294ea699c3": {
    "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r6": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r9": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common verb: ripen, get cooked"
-  },
-  "r15": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Basic everyday verb"
-  },
-  "r17": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday verb for washing dishes"
-  },
-  "r18": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common: throw away, spill"
-  },
-  "r20": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r28": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Basic food word"
-  },
-  "r30": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Spices; spelled بهارات"
-  },
-  "r31": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Cardamom, essential for coffee"
-  },
-  "r32": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Common loanword"
-  },
-  "r33": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Drinks, common on menus and in speech"
-  },
-  "r35": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Pineapple"
-  },
-  "r36": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Cherry"
-  },
-  "r37": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Lettuce"
-  },
-  "r38": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r39": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r40": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Cabbage"
-  },
-  "r41": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Vinegar"
-  },
-  "r42": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Sesame"
-  },
-  "r44": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Lentils"
-  },
-  "r45": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Pistachio"
-  },
-  "r47": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Green beans"
-  },
-  "r48": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Honey"
-  },
-  "r49": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Ice cream; usually spelled بوظة"
-  },
-  "r50": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Taste"
-  },
-  "r51": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r53": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Passive of fry, common in cooking"
-  },
-  "r54": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Passive of grill"
-  },
-  "r55": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "To burn"
-  },
-  "r56": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "To boil"
-  },
-  "r57": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "To bite"
-  },
-  "r59": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "To feed, also heard as ṭaʿʿam"
-  },
-  "r61": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Lamb meat"
-  },
-  "r62": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Beef"
-  },
-  "r63": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Pork"
-  },
-  "r65": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Basil"
-  },
-  "r66": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Coriander/cilantro"
-  },
-  "r67": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Ginger"
-  },
-  "r68": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Wine, nbīd"
-  },
-  "r69": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "H"
-  },
-  "r70": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Melon"
-  },
-  "r71": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Pears, often injāṣ"
-  },
-  "r72": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Vegetarian"
-  },
-  "r73": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Peas"
-  },
-  "r74": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Okra"
-  },
-  "r76": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r77": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Hazelnut"
-  },
-  "r78": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Cashew"
-  },
-  "r79": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Oats"
-  },
-  "r80": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Wheat"
-  },
-  "r81": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Bulgur"
-  },
-  "r82": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r83": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Fried potatoes/fries"
-  },
-  "r85": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "To melt, dissolve"
-  },
-  "r86": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Law"
-  },
-  "r87": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "War"
-  },
-  "r88": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "State"
-  },
-  "r89": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Government"
-  },
-  "r90": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common everyday word for president"
-  },
-  "r91": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Palestinian says حْدود; check the vowel on the first letter"
-  },
-  "r93": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for politics"
-  },
-  "r94": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in political talk and news"
-  },
-  "r95": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in political talk and news"
-  },
-  "r96": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common; plural انتخابات used more"
-  },
-  "r97": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for revolution"
-  },
-  "r98": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for demonstration"
-  },
-  "r99": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for protest in everyday talk"
-  },
-  "r100": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in news-influenced speech"
-  },
-  "r101": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for coup"
-  },
-  "r105": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for civilization"
-  },
-  "r106": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common in Palestinian speech"
-  },
-  "r107": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common; the vowels need checking (مستوطَنة)"
-  },
-  "r108": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common in Palestinian speech"
-  },
-  "r109": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for judge"
-  },
-  "r110": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common word for prisoner"
-  },
-  "r111": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common set phrase"
-  },
-  "r112": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for ally"
-  },
-  "r113": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for enemy"
-  },
-  "r114": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for tank"
-  },
-  "r115": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for bullets"
-  },
-  "r116": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for weapon"
-  },
-  "r117": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Real word; the extra shadda in THEIRS is wrong"
-  },
-  "r118": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for system or regime"
-  },
-  "r119": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for parliament"
-  },
-  "r120": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common phrase for prime minister"
-  },
-  "r121": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for minister"
-  },
-  "r122": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for ministry"
-  },
-  "r123": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for economy"
-  },
-  "r124": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for nation"
-  },
-  "r126": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for republic"
-  },
-  "r127": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common loanword for democracy"
-  },
-  "r128": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r129": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common loanword for dictator"
-  },
-  "r130": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for agreement"
-  },
-  "r131": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for collapse in everyday talk"
-  },
-  "r132": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Real word, misspelled; should be صَحافة"
-  },
-  "r133": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common verb for to rule"
-  },
-  "r134": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for rising up or rebelling"
-  },
-  "r135": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common verb for to divide"
-  },
-  "r136": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for to defeat"
-  },
-  "r137": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for import"
-  },
-  "r138": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for export"
-  },
-  "r139": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for tribe"
-  },
-  "r140": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common political phrase; should be حُكم"
-  },
-  "r141": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common political phrase in Palestinian speech"
-  },
-  "r142": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common phrase in Palestinian speech"
-  },
-  "r144": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r145": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for campaign"
-  },
-  "r146": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for massacre"
-  },
-  "r147": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for bomb"
-  },
-  "r148": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r150": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for oppression"
-  },
-  "r151": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r152": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r153": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for capitalism"
-  },
-  "r154": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Known word for communism"
-  },
-  "r155": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for colonialism"
-  },
-  "r156": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for reality"
-  },
-  "r157": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "tamyeez, used for discrimination"
-  },
-  "r159": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common word for equality"
-  },
-  "r160": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common political term"
-  },
-  "r161": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common political term"
-  },
-  "r162": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "used in everyday speech"
-  },
-  "r163": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r164": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "ittifaaqiyye is common"
-  },
-  "r167": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r168": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r169": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "khyaane, common"
-  },
-  "r170": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "khaayin, common"
-  },
-  "r171": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r172": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r173": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "a3lan is used in Palestinian speech"
-  },
-  "r174": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r175": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r176": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "used for strikes"
-  },
-  "r177": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "iHtall, very common"
-  },
-  "r178": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "ijtaaH, common for incursions"
-  },
-  "r198": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common time expression"
-  },
-  "r199": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common time expression"
-  },
-  "r200": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common time expression"
-  },
-  "r202": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common time expression"
-  },
-  "r205": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common time expression"
-  },
-  "r207": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r213": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r214": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r215": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r216": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r218": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r228": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "basic body word"
-  },
-  "r237": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "basic body word"
-  },
-  "r240": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common, vulgar"
-  },
-  "r241": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r246": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "da'n, beard or chin"
-  },
-  "r247": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common; plural shawaarib"
-  },
-  "r248": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common body word"
-  },
-  "r249": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r251": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common body word"
-  },
-  "r252": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r253": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "L"
-  },
-  "r254": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r255": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common word for forehead"
-  },
-  "r270": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common adjective"
-  },
-  "r272": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common plural of mara"
-  },
-  "r275": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "used for female teacher or Miss"
-  },
-  "r276": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common adjective"
-  },
-  "r277": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common adjective"
-  },
-  "r280": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common adjective"
-  },
-  "r281": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "L"
-  },
-  "r285": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common adjective"
-  },
-  "r288": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common adjective"
-  },
-  "r290": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "very common word"
-  },
-  "r292": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common everyday word"
-  },
-  "r293": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common everyday word"
-  },
-  "r294": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common everyday word"
-  },
-  "r295": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common adjective"
-  },
-  "r296": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "common adjective"
-  },
-  "r297": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "common adjective"
-  },
-  "r298": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "basic noun"
-  },
-  "r299": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r303": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common everyday word for a small shop"
-  },
-  "r306": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for tower"
-  },
-  "r309": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common expression for downtown"
-  },
-  "r310": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Used for public squares"
-  },
-  "r312": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r313": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for sewage or drains"
-  },
-  "r314": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for a hole or pit"
-  },
-  "r315": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r318": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Standard everyday word for museum"
-  },
-  "r319": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Standard everyday word for theater"
-  },
-  "r320": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for a small grocery shop"
-  },
-  "r321": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for cinema"
-  },
-  "r322": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r324": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Palestinian word for synagogue"
-  },
-  "r326": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for palace"
-  },
-  "r327": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r328": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Heard for pool, alongside birket sibaaHa"
-  },
-  "r329": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r330": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r331": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r332": {
-   "v": "skip",
-   "d": "pal",
-   "c": "M"
-  },
-  "r333": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for real estate and property"
-  },
-  "r334": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r335": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for a seller or vendor"
-  },
-  "r336": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for tunnel"
-  },
-  "r337": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for speed bump"
-  },
-  "r338": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Standard word for embassy"
-  },
-  "r340": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for temple"
-  },
-  "r341": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for auditoriums and lecture halls"
-  },
-  "r342": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for citadel, e.g., Jerusalem's"
-  },
-  "r344": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Word for pollution heard in daily speech"
-  },
-  "r345": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r356": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Means loud when describing a voice"
-  },
-  "r361": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Means delicate or gentle"
-  },
-  "r363": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common adjective meaning clear or obvious"
-  },
-  "r364": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common adjective meaning traditional"
-  },
-  "r366": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r367": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used as a word of praise"
-  },
-  "r368": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common word for excellent"
-  },
-  "r374": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Means chaotic or disorderly"
-  },
-  "r377": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for dangerous"
-  },
-  "r379": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Means deformed or disfigured"
-  },
-  "r380": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for disgusting"
-  },
-  "r384": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for huge"
-  },
-  "r387": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Means lukewarm"
-  },
-  "r388": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for neat or tidy"
-  },
-  "r390": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for modern"
-  },
-  "r391": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Means luxurious"
-  },
-  "r392": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r393": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for useful"
-  },
-  "r397": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Means severe or intense"
-  },
-  "r398": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Used for top students or superior performance"
-  },
-  "r399": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for trivial or worthless"
-  },
-  "r401": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Means valuable; pronounced qayyim"
-  },
-  "r407": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for actor"
-  },
-  "r409": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for analyst"
-  },
-  "r410": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common word for researcher"
-  },
-  "r412": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for writer"
-  },
-  "r416": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for queen"
-  },
-  "r417": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for teacher"
-  },
-  "r418": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r420": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Passive of dafa3, used for bills being paid"
-  },
-  "r422": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in everyday speech for support"
-  },
-  "r423": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for manufacture, e.g. صناعة وطنية"
-  },
-  "r424": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "L"
-  },
-  "r425": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common in Palestinian volunteer contexts"
-  },
-  "r427": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r428": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday verb for being at work"
-  },
-  "r429": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r430": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r431": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r433": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r434": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r435": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r439": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r440": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r441": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common animal noun"
-  },
-  "r442": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r443": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech, often pronounced ta3lab"
-  },
-  "r446": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for chick"
-  },
-  "r448": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech, often pronounced toor"
-  },
-  "r450": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used alongside أواعي"
-  },
-  "r451": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Core everyday word for clothes"
-  },
-  "r453": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for boots"
-  },
-  "r454": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r456": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for suit"
-  },
-  "r457": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r458": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r461": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common material noun"
-  },
-  "r462": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common material noun"
-  },
-  "r463": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for button"
-  },
-  "r466": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for zipper"
-  },
-  "r467": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for thread"
-  },
-  "r469": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used alongside قشاط"
-  },
-  "r470": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r472": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common loanword"
-  },
-  "r475": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r476": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Used, though أواعي داخلية is more colloquial"
-  },
-  "r477": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common loanword for underpants"
-  },
-  "r479": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Everyday phrase for summer clothes"
-  },
-  "r480": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Everyday phrase; شتوية also heard"
-  },
-  "r482": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r483": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "L"
-  },
-  "r484": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r490": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common room name"
-  },
-  "r491": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common room name"
-  },
-  "r492": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common room name"
-  },
-  "r497": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for curtain"
-  },
-  "r498": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for picture"
-  },
-  "r509": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common word for tent"
-  },
-  "r511": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for veranda"
-  },
-  "r513": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for moving house"
-  },
-  "r515": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for furniture"
-  },
-  "r516": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r517": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r520": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used for the water valve"
-  },
-  "r524": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r525": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Colloquial verb, from عربون"
-  },
-  "r526": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common proper noun"
-  },
-  "r527": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r528": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r529": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r530": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Palestinians say maSr"
-  },
-  "r531": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r532": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r533": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common colloquial name for Europe"
-  },
-  "r534": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r535": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r536": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r537": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common term for the Levant"
-  },
-  "r538": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech; the gloss needs care"
-  },
-  "r539": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r540": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r541": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r542": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r543": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r544": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r545": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r546": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common in Palestinian speech about working abroad"
-  },
-  "r547": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Palestinians say likwayt"
-  },
-  "r548": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r549": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r550": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r551": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r552": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r553": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r554": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Region name, used as is in speech"
-  },
-  "r555": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Palestinians usually say is-soodan"
-  },
-  "r556": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r557": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r558": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r559": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r560": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r561": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Colloquial form; هولندا is also common"
-  },
-  "r563": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r564": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Colloquial name for Argentina"
-  },
-  "r565": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r566": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r567": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r568": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r569": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r570": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r571": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Region name, used as is in speech"
-  },
-  "r572": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r573": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r574": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Colloquial form; بولندا is also heard"
-  },
-  "r575": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r576": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r577": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Country name, used as is in Palestinian speech"
-  },
-  "r578": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Distinctly Palestinian term for the 1948 lands"
-  },
-  "r580": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Political term that is common in Palestinian speech"
-  },
-  "r582": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Basic everyday noun"
-  },
-  "r592": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Basic noun; Palestinians say wara2a"
-  },
-  "r593": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday noun for learners"
-  },
-  "r594": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday noun"
-  },
-  "r596": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Palestinians more often say 3aamiyye"
-  },
-  "r606": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Short form of 'four' before a noun: arba3"
-  },
-  "r607": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Short form of 'five' before a noun: khams"
-  },
-  "r608": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Short form of 'six' before a noun: sitt"
-  },
-  "r609": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Construct form: sab3 snīn"
-  },
-  "r610": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Construct form tamn, e.g. tamn snīn"
-  },
-  "r611": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Construct form: tis3 snīn"
-  },
-  "r612": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Construct form: 3ashr snīn"
-  },
-  "r633": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Pronounced miyye; commonly spelled مية"
-  },
-  "r638": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for children"
-  },
-  "r640": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r641": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r642": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r643": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r644": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r645": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r646": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r647": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common kinship term"
-  },
-  "r649": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for dad"
-  },
-  "r650": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Pronounced ikhwe"
-  },
-  "r656": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech"
-  },
-  "r657": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech"
-  },
-  "r658": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech"
-  },
-  "r660": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in speech"
-  },
-  "r661": {
-   "v": "add",
-   "d": "pal",
-   "c": "L",
-   "n": "Heard in speech, somewhat formal"
-  },
-  "r664": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for public transport"
-  },
-  "r666": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Pronounced sfīne"
-  },
-  "r670": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for boat"
-  },
-  "r671": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r672": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used alongside ṭrēn"
-  },
-  "r673": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r674": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday adjective"
-  },
-  "r675": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday adjective"
-  },
-  "r679": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r680": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r683": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common phrase for direction"
-  },
-  "r684": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common phrase for direction"
-  },
-  "r686": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r688": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r689": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r690": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r691": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday word for crook"
-  },
-  "r692": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r694": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r695": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r698": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r699": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r700": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r705": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r706": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r707": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Colloquial word for troublemaker"
-  },
-  "r708": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r709": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r711": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r712": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r713": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r715": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r716": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r717": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r718": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r720": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r721": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r722": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Commonly used"
-  },
-  "r723": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Commonly used"
-  },
-  "r724": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Common Palestinian adjective for open-minded"
-  },
-  "r726": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common Palestinian adjective, sincere or loyal"
-  },
-  "r738": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian verb, to be annoyed or upset"
-  },
-  "r739": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian verb, to get angry"
-  },
-  "r741": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common Palestinian verb, to be satisfied or agree"
-  },
-  "r744": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, to be bothered"
-  },
-  "r745": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, to long for"
-  },
-  "r746": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common Palestinian verb, to crave"
-  },
-  "r747": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r749": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian verb, to get used to"
-  },
-  "r751": {
-   "v": "skip",
-   "d": "unsure",
-   "c": "M"
-  },
-  "r753": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, to suffer"
-  },
-  "r754": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r755": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r758": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, depressed"
-  },
-  "r759": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r762": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Common Palestinian adjective, lonely or alone"
-  },
-  "r766": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian verb, to be unsure what to do"
-  },
-  "r767": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, to take precautions"
-  },
-  "r771": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian word for a cloud"
-  },
-  "r772": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian word for world or life"
-  },
-  "r773": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian phrase for tree leaves"
-  },
-  "r775": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian form of desert"
-  },
-  "r776": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r778": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r779": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r792": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian phrase for everyone"
-  },
-  "r793": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian phrase for anything"
-  },
-  "r796": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian adjective, sleepy"
-  },
-  "r797": {
-   "v": "skip",
-   "d": "msa",
-   "c": "L"
-  },
-  "r798": {
-   "v": "skip",
-   "d": "msa",
-   "c": "M"
-  },
-  "r803": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian adjective, under pressure"
-  },
-  "r804": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian adjective, tense or nervous"
-  },
-  "r805": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r809": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Palestinian adjective for someone with a cold"
-  },
-  "r816": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, optimistic"
-  },
-  "r817": {
-   "v": "add",
-   "d": "pal",
-   "c": "M",
-   "n": "Used in Palestinian speech, pessimistic"
-  },
-  "r818": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Everyday Palestinian adjective, sweaty"
-  },
-  "r820": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "L"
-  },
-  "r821": {
-   "v": "add",
-   "d": "pal",
-   "c": "H",
-   "n": "Very common Palestinian word, deeply upset or wronged"
-  },
-  "r835": {
-   "v": "skip",
-   "d": "lev_other",
-   "c": "M"
-  },
-  "r836": {
+  "x71abd19f735a": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core Palestinian word, because or so that"
   },
-  "r840": {
+  "x965142ea9b06": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x550e04877d50": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "H"
+  },
+  "xfbd9ffe1ccfd": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x5e5f0132da8f": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian phrase, even if"
   },
-  "r841": {
+  "x115bc7939803": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian phrase, not even"
   },
-  "r842": {
+  "x8daf78bd4fad": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian phrase, even so"
   },
-  "r848": {
+  "xd9486fa1e7d0": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x7933f0bb3d02": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb0ef08ec2dc7": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x15cb45b6cfef": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x0363312ff32b": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x55c533ad65c1": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian word for umbrella"
   },
-  "r851": {
+  "x39e6f79bb690": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xe0257e285d3a": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian word for sport"
   },
-  "r852": {
+  "xd3bd76fabfa1": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian word for football"
   },
-  "r853": {
+  "x42a152ecb7c5": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian word for swimming"
   },
-  "r859": {
+  "xa65e962b16b7": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xc089660b7d6c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0ed6b9a1d1b5": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xec03bf1337dd": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x4c87b9169037": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x9a7b557153ec": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Loanword used in Palestinian speech, tennis"
   },
-  "r860": {
+  "x3828c6b94d73": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian word for basketball"
   },
-  "r861": {
+  "x18f3f4d4f40a": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Palestinian word for handball"
   },
-  "r862": {
+  "x6ef582f76f46": {
    "v": "skip",
    "d": "msa",
    "c": "L"
   },
-  "r863": {
+  "x5e3296a13f1f": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Loanword used in Palestinian speech, yoga"
   },
-  "r864": {
+  "xeda9003f276b": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian word for player"
   },
-  "r867": {
+  "xebc8b2c82d4b": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0fb378027313": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xddc4284387d3": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r870": {
+  "xf17f85ce36ce": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xcd903d7d8b69": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x9c6fc35fddb9": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in Palestinian speech, to compete"
   },
-  "r871": {
+  "x4a337239650e": {
    "v": "skip",
    "d": "msa",
    "c": "L"
   },
-  "r872": {
+  "xb607fa4a6f9a": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r873": {
+  "xa10f86742cfa": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in Palestinian speech, diving"
   },
-  "r874": {
+  "xad5d6545f559": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common word for boxing"
   },
-  "r876": {
+  "x1666b8e8b73f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x55e693ab09e0": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common colour term, navy blue"
   },
-  "r877": {
+  "x67641fd000db": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common colour term, olive green"
   },
-  "r880": {
+  "x308bb739b100": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xf3bc6cdf448c": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Turquoise, heard as turkwāz"
   },
-  "r882": {
+  "x1c6e0978fa34": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x4d67c1822e1f": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common compound colour term"
   },
-  "r883": {
+  "x6e19928bb6e6": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common compound colour term"
   },
-  "r884": {
+  "x476cc0799894": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common compound colour term"
   },
-  "r885": {
+  "x6b9239819438": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for customer"
   },
-  "r886": {
+  "x20851319e283": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in everyday speech"
   },
-  "r887": {
+  "xdc19416565b6": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for profit"
   },
-  "r888": {
+  "x330c281498bb": {
    "v": "skip",
    "d": "unsure",
    "c": "L"
   },
-  "r889": {
+  "x039fc0ba2056": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for partner"
   },
-  "r890": {
+  "x260598c9b937": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r891": {
+  "x235c1bcf1c77": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common colloquial form of capital"
   },
-  "r892": {
+  "x185186c2a15b": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common word for compensation"
   },
-  "r893": {
+  "x398143e668e7": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in everyday speech"
   },
-  "r894": {
+  "xa82681d34d02": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in everyday speech"
   },
-  "r896": {
+  "x9e99cd1ed0a4": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x23bd22f44e39": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r897": {
+  "x52b046bbbd5c": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used for importer in trade talk"
   },
-  "r899": {
+  "x6fd92c047ece": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x9840ee2dd868": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in everyday speech"
   },
-  "r902": {
+  "xff0e0f9b4846": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x66cadea73e39": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x338bcb396b20": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in everyday speech"
   },
-  "r903": {
+  "x071be0d6c476": {
    "v": "skip",
    "d": "msa",
    "c": "L"
   },
-  "r904": {
+  "xf12a77c1f464": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Loan concept, used colloquially"
   },
-  "r905": {
+  "x1024ac013b90": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r906": {
+  "xdac36f51f35a": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for knowledge"
   },
-  "r907": {
+  "xd87cf6c3d80c": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common word, conservative person"
   },
-  "r908": {
+  "x6066591ce908": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for control"
   },
-  "r909": {
+  "x4493c2abd582": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common word for values"
   },
-  "r910": {
+  "x519a43fcb56e": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for morals"
   },
-  "r911": {
+  "x3b294a03d6c4": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common word for theory"
   },
-  "r912": {
+  "x973f0b4db121": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday word for logic"
   },
-  "r913": {
+  "x598983dda757": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r914": {
+  "x29cd0dbcd91f": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r915": {
+  "x3d23073c731f": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r916": {
+  "xf6dae2eae3b0": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common word for opposition"
   },
-  "r917": {
+  "xc51adeef7bdd": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r918": {
+  "x629d0ee41924": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r919": {
+  "xddca753724bc": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common word for mandatory"
   },
-  "r928": {
+  "xcdbb741de49b": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x456041e2880e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x5d023c425529": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x7ef7e4df0772": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xe55fd4b1b2f2": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x769137e94583": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xc3d89b8affea": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xc2d06201f0fe": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0de99686cbd3": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core function word, except"
   },
-  "r934": {
+  "x58fc9d228179": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x42d4bc2df181": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xe499ae692d88": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x471393e8606e": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0cf558c1b67b": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x59e40ec3fc31": {
    "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r935": {
+  "xa5392b8328f8": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common phrase for bank card"
   },
-  "r936": {
+  "x0767adb535b7": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday verb, to cost"
   },
-  "r937": {
+  "xf5949a86dd8a": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used for raising prices"
   },
-  "r938": {
+  "x7d90555caed6": {
    "v": "skip",
    "d": "msa",
    "c": "L"
   },
-  "r940": {
+  "x2fcb98ee30fc": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xf9cd6d05d49e": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, going"
   },
-  "r941": {
+  "xb121ed52db01": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, coming"
   },
-  "r942": {
+  "x16f0d7f92d4a": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, knowing"
   },
-  "r943": {
+  "x63c3d4a93205": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, driving"
   },
-  "r944": {
+  "xb06867ea3377": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, going out"
   },
-  "r945": {
+  "xcd0f7f43a85c": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, standing"
   },
-  "r947": {
+  "xcb7d990b030b": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x792e5265eb24": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, seeing"
   },
-  "r948": {
+  "x32ebb3a9f5c9": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, sitting"
   },
-  "r949": {
+  "xb1176448edb9": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, hearing"
   },
-  "r950": {
+  "xdf4dd6499ae6": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core participle, understanding"
   },
-  "r955": {
+  "xfdd03f0e1ab2": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x25cc2c49bdb2": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd75702800b28": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x23b9e2df2177": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb912282cabe5": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday verb, to wake up"
   },
-  "r959": {
+  "x15e87c603b80": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xf7c06e9ca9a7": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x1252d6c586ac": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x7ae64faec176": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used for dozing off"
   },
-  "r960": {
+  "xebce891630bb": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used for brushing, e.g. teeth"
   },
-  "r978": {
+  "xa71beae11f84": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x8dc61bb595e8": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xd46866222870": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x230fb66c9dcb": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x04937a67a91a": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb10b8a46390d": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x6f663addf89d": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "H"
+  },
+  "xdb07d16dc60e": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x9faa6571061f": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "x08cb3020eb32": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x8370548a9f5f": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "H"
+  },
+  "x95d1160a7196": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x5adafd126f20": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xac59595012a5": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xf6a5449b6048": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r982": {
+  "xba120eb48669": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0c085cdcb28b": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xf2e2bf8f49e3": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb3fc5e686e14": {
    "v": "add",
    "d": "pal",
    "c": "L",
    "n": "Real currency name, also means money"
   },
-  "r983": {
+  "x792b49dff5d2": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common word for pound currency"
   },
-  "r984": {
+  "xefd4749f2952": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Lira; Palestinians say shekel but lira also used"
   },
-  "r985": {
+  "x46d9d3c79644": {
    "v": "skip",
    "d": "lev_other",
    "c": "L"
   },
-  "r988": {
+  "x4e80a4ea3073": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xec8a20929ad6": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x90f47b7ae8d6": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common verb: to greet"
   },
-  "r991": {
+  "x5f07f8a60310": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x570115aaba0c": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x3cc83196ff02": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r992": {
+  "x36f6d571422b": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r997": {
+  "xc9ae9ee5dab8": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "x027bcc3865bd": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xcaabaee01313": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0f62bb2876d7": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x43b307b5f0f2": {
    "v": "skip",
    "d": "pal",
    "c": "M"
   },
-  "r1002": {
+  "xaf1d9ff3a2ac": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "xf11480ca796f": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xcf692c3b849a": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xe4c8c59a3042": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common word for bottle"
   },
-  "r1005": {
+  "xaca642843717": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x6fd0d42036f9": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Core pseudo-verb 'want'"
   },
-  "r1010": {
+  "x22b69cf9347a": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x4ab9e6977541": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7f2f177798a3": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x57ed4073c7a8": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1011": {
+  "x7173e810f2f3": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday verb to kiss"
   },
-  "r1012": {
+  "x6024f8255e1a": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used alongside itjawwaz"
   },
-  "r1014": {
+  "x8de370bb3d24": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x4f9bb5596123": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Common: to reconcile"
   },
-  "r1016": {
+  "xf00dec3ad215": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd0c003708ee0": {
    "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r1017": {
+  "xad15c42cf0bf": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Basic verb to live"
   },
-  "r1020": {
+  "x395561cc23e2": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xac17ee4a0f4d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x0d55e95fe718": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Basic verb to die"
   },
-  "r1021": {
+  "xa8d44742e223": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common: to be born"
   },
-  "r1024": {
+  "x02388b95d788": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe38ece799b2d": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x3ac74cb11777": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Hobby"
   },
-  "r1025": {
+  "x6b8279a25a41": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Administration"
   },
-  "r1028": {
+  "x36561ea94519": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x58235fa18919": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb7706f5a6b57": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Association, society"
   },
-  "r1029": {
+  "x18f712a80373": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Attempt"
   },
-  "r1030": {
+  "x1fe3c54cf4ef": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Bargain, a real find"
   },
-  "r1032": {
+  "x41905bd00140": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x734509956644": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Bribe"
   },
-  "r1034": {
+  "xd90f96999514": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xd04466430834": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Small change"
   },
-  "r1035": {
+  "xd4082b9e2dac": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Chore, task, thing"
   },
-  "r1037": {
+  "x8c939948b9b7": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x1ec90ed0f3c6": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Conference"
   },
-  "r1038": {
+  "xeb395885561f": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1039": {
+  "xb53ee5b98da0": {
    "v": "skip",
    "d": "unsure",
    "c": "L"
   },
-  "r1040": {
+  "xb1bd820c24d1": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Connections, wasta"
   },
-  "r1041": {
+  "x330e2b5287ab": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Logo, slogan"
   },
-  "r1043": {
+  "xc32d411e2981": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x541061f41d90": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Official paperwork, application"
   },
-  "r1044": {
+  "xd1405cdb1fcb": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Organization"
   },
-  "r1045": {
+  "x582111918a72": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Participation"
   },
-  "r1047": {
+  "x9ce8fe1039c1": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x546cfcd54f81": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1048": {
+  "xb47d2676aa51": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Quantity"
   },
-  "r1052": {
+  "x0ccf206ddfe1": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xe5e5eab54fd9": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "xfa5e53e50b91": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1053": {
+  "x7e82f55b223d": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Storefront, shop window"
   },
-  "r1054": {
+  "x64f5b264815d": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Team"
   },
-  "r1056": {
+  "x5aed01ce6893": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb8f8f33a4097": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1058": {
+  "x3d7da5cd224f": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x97e95a73833b": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Civil defense"
   },
-  "r1059": {
+  "xeaa4e855b6a9": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1060": {
+  "xd8cc57efedee": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Corruption"
   },
-  "r1061": {
+  "xfa9798add6c2": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Crime"
   },
-  "r1062": {
+  "x11b9c397ffbe": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1063": {
+  "x7d84d4e9373b": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1064": {
+  "x80f35cf9782d": {
    "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r1065": {
+  "xeeff0149e5bb": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Explosion"
   },
-  "r1066": {
+  "x7d8bdf379123": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1067": {
+  "x11320189388c": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1068": {
+  "x4c3c66d6d052": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Fingerprint"
   },
-  "r1069": {
+  "x94dd09bc084d": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1070": {
+  "x955d64536ce3": {
    "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r1071": {
+  "x44faf00d4bb9": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1072": {
+  "x11c613e83813": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1073": {
+  "x74f700baac00": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1074": {
+  "x8f6bf7d57148": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1075": {
+  "xccba4633329d": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Prize, award"
   },
-  "r1076": {
+  "xbf6c35e3827a": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Investigation"
   },
-  "r1077": {
+  "x4262ae3d0814": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Matter, issue"
   },
-  "r1078": {
+  "x06fc04a6ce63": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Massacre"
   },
-  "r1079": {
+  "xb47b89c934f2": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1080": {
+  "x80184b1a493c": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1081": {
+  "x19ec69d41e2b": {
    "v": "skip",
    "d": "unsure",
    "c": "H"
   },
-  "r1086": {
+  "x8d9aeeb001bf": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x20f9db228e68": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xcf9e3979a304": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x4c18e3e7317b": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x7b6d1bb3efaf": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common Palestinian word for sit-in or protest"
   },
-  "r1087": {
+  "x4c56b3e5afa6": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Red Cross, very common in Palestinian usage"
   },
-  "r1088": {
+  "x14018a9a73a2": {
    "v": "skip",
    "d": "unsure",
    "c": "H"
   },
-  "r1089": {
+  "xd10cca5259f9": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Reform, widely used in news and everyday talk"
   },
-  "r1090": {
+  "x7dfad79d4b3b": {
    "v": "skip",
    "d": "lev_other",
    "c": "M"
   },
-  "r1092": {
+  "x9a0b89c27896": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x9f2700382c9b": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Gunshot or bullet; common, gloss 'shooting' is loose"
   },
-  "r1093": {
+  "x6ca64d039ab7": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1097": {
+  "x1f2258c2b744": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x46f98e7adcae": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x9db526062077": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "x3e4c87f09246": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1098": {
+  "x1024e3ecb7de": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used for US states, e.g. الولايات المتحدة"
   },
-  "r1099": {
+  "xd3e51ad04326": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Suicide; standard word used in speech"
   },
-  "r1100": {
+  "x9da2ca572709": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Tax; everyday word, plural ضرايب"
   },
-  "r1102": {
+  "xb5727d42a763": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x90ca7c758c28": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "United Nations, very frequent in Palestinian speech"
   },
-  "r1103": {
+  "x957bb7bd7be7": {
    "v": "skip",
    "d": "unsure",
    "c": "H"
   },
-  "r1105": {
+  "xf72039c41392": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "xa5d4b0d66129": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Believer, common religious word"
   },
-  "r1106": {
+  "x69952a47fa99": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1107": {
+  "x6d93313b97d5": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Grave; everyday word"
   },
-  "r1108": {
+  "xd650c3d3f822": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Heaven or paradise; everyday word"
   },
-  "r1109": {
+  "x81faf9665aad": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1110": {
+  "xe9dceef325e5": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1112": {
+  "xb311d755fcfd": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xb3aab56bc3b7": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Jew; common word"
   },
-  "r1113": {
+  "xf60b8a6157a6": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Easter, used by Palestinian Christians and Muslims"
   },
-  "r1114": {
+  "x94ebd052349e": {
    "v": "skip",
    "d": "lev_other",
    "c": "L"
   },
-  "r1116": {
+  "x6006ef358ca9": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x1b6f04606c33": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Church mass; used by Palestinian Christians"
   },
-  "r1118": {
+  "x0c1bbff382e2": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x602d333f180c": {
    "v": "skip",
    "d": "msa",
    "c": "H"
   },
-  "r1119": {
+  "x1d3f96c0a012": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1120": {
+  "x9bf2be60dc97": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1121": {
+  "x7c7d0c704b8f": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Religious community or sect; used in speech"
   },
-  "r1122": {
+  "xbeea14f5cd96": {
    "v": "skip",
    "d": "msa",
    "c": "H"
   },
-  "r1123": {
+  "x89b0172192c0": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1124": {
+  "x52743358c324": {
    "v": "skip",
    "d": "unsure",
    "c": "H"
   },
-  "r1125": {
+  "x0d7407b81d71": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1126": {
+  "x66aa400b149a": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1127": {
+  "x96b00a6dd838": {
    "v": "skip",
    "d": "unsure",
    "c": "H"
   },
-  "r1128": {
+  "x7fde1d91235c": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Atheist; understood and used in speech"
   },
-  "r1129": {
+  "x32719bd7c8ee": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Word; everyday Palestinian form kilme/kalme"
   },
-  "r1130": {
+  "xeb17948d79d9": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Accent or dialect; everyday word"
   },
-  "r1132": {
+  "x05c6d6ea8ad8": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xaabebeac7285": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1133": {
+  "x23fe807677bb": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1134": {
+  "x19d30139e041": {
    "v": "skip",
    "d": "msa",
    "c": "H"
   },
-  "r1136": {
+  "x56d609d4a8b9": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x6049e85093b1": {
    "v": "skip",
    "d": "unsure",
    "c": "H"
   },
-  "r1137": {
+  "x0de2eced090c": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Paragraph, also TV segment; used in speech"
   },
-  "r1138": {
+  "xe11bb1b191cb": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1139": {
+  "x46f53fde6bce": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1142": {
+  "xdba3058fec60": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x9cbcbdd467d5": {
    "v": "skip",
    "d": "msa",
    "c": "H"
   },
-  "r1143": {
+  "xd336dc29aeba": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Source or origin; used in speech"
   },
-  "r1146": {
+  "x87d4fee5f32a": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x22996c2e720e": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "xe5c848546b7e": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Sentence; also 'wholesale' (bil-jumle)"
   },
-  "r1149": {
+  "xe03870da1814": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x33cf703dfc89": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x39367e2ca959": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Art; everyday word"
   },
-  "r1150": {
+  "xc4ef17533ae3": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Band or troupe, e.g. dabke troupe"
   },
-  "r1151": {
+  "xd55078cbf4a8": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1152": {
+  "x9593ad7bf3c9": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Instrument or machine; everyday word"
   },
-  "r1153": {
+  "x907bf467b050": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Melody or tune; everyday word"
   },
-  "r1154": {
+  "x8220bb2747ee": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1155": {
+  "x1477e14e30f4": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Playing an instrument; used in speech"
   },
-  "r1156": {
+  "x4a16efd96924": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Poem; everyday word"
   },
-  "r1157": {
+  "x6c8ae4ddbfee": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Folk improvised poetry, also found in Palestine"
   },
-  "r1158": {
+  "x40de54c41ad6": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1161": {
+  "x338b889e882b": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xefa71e9d2561": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x74a460476f52": {
    "v": "skip",
    "d": "msa",
    "c": "M"
   },
-  "r1162": {
+  "x661cc241429f": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Song; everyday word, ughniye"
   },
-  "r1164": {
+  "xb75ab526bbd5": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x2c7998ce1edd": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Common Palestinian word for festival"
   },
-  "r1165": {
+  "x3b421b0c55b2": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Everyday Palestinian loanword for film"
   },
-  "r1166": {
+  "x4e03885f8d7a": {
    "v": "add",
    "d": "pal",
    "c": "H",
    "n": "Standard Palestinian word for theatrical play"
   },
-  "r1167": {
+  "x7a1d52860f0e": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Used in Palestinian speech for publishing house"
   },
-  "r1168": {
+  "xc4e950e2505d": {
    "v": "skip",
    "d": "unsure",
    "c": "M"
   },
-  "r1169": {
+  "xc071ad68238f": {
    "v": "add",
    "d": "pal",
    "c": "M",
    "n": "Commonly used in Palestinian speech for style, manner"
+  },
+  "xca802fc4bea3": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xf7bd0448456e": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xe055a4d81f6a": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x6e67ff744054": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x14d656962a19": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x68cc4109aa2f": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x1dd9f02d4503": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xb67bb048b603": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xfe3766c0e5a9": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7c9ef97edd38": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0041835cb689": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "x73663cac8650": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "x6d2fe80c0fc0": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "xa36bd3c58f4e": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xd097a8313eea": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "x6c26b5325d6a": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "xc6e3aed31d31": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x35e86da1b333": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x1a5f9a7fd616": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xbd5854b42179": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "x7117454f75eb": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "x7337961a51c2": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "x1620d05fa74a": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xb833bdb14a9f": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x8184c309d3fc": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "x0aa20248fee7": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x0c619796f985": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xeae60022ebd5": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "xdbc8e477d77a": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "xd81c92332dd6": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "x77e56d571af1": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x84fb77b61f48": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "x68f3632fa1e2": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xd57785fed3df": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xf89cd9a408d8": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "xaf3a5a9fca41": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xda05c0aa9656": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "xc1c53ed3d826": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "x52b3c15e12c2": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
   }
  }
 }

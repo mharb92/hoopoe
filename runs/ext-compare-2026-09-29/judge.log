@@ -26,3 +26,12 @@
 2026-09-29T20:16:41.671Z done: 1165 judged, $3.3106
 2026-09-29T21:03:43.078Z start: 0 batches, 1165 rows already judged, $3.3106 spent, cap $15
 2026-09-29T21:03:43.298Z done: 1165 judged, $3.3106
+2026-09-29T21:19:40.790Z start: 2 batches, 1165 rows already judged, $3.3106 spent, cap $15
+2026-09-29T21:19:49.541Z batch 1/2 harakaat_variant (medium): 3 rows, 0 repaired, $0.0621, total $3.3727
+2026-09-29T21:19:53.190Z batch 2/2 meaning_mismatch (low): 1 rows, 0 repaired, $0.0452, total $3.4180
+2026-09-29T21:19:53.366Z done: 1166 judged, $3.4180
+2026-09-29T21:20:28.481Z start: 3 batches, 1143 rows already judged, $3.4180 spent, cap $15
+2026-09-29T21:20:36.422Z batch 1/3 harakaat_variant (medium): 3 rows, 0 repaired, $0.0545, total $3.4725
+2026-09-29T21:20:40.649Z batch 2/3 meaning_mismatch (low): 2 rows, 0 repaired, $0.0466, total $3.5191
+2026-09-29T21:20:55.796Z batch 3/3 different_word (low): 18 rows, 0 repaired, $0.0901, total $3.6091
+2026-09-29T21:20:55.971Z done: 1166 judged, $3.6091

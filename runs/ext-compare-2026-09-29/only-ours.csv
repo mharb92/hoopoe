@@ -10,6 +10,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 111,Y,3,مِيَّة,one hundred (100),noun,2
 113,Y,3,أَلْف,one thousand (1000),noun,2
 147,Y,2,قَبْل شْوَيّ,a little while ago,adverb,2
+159,Y,2,يَوْم التَّلَاتَة,Tuesday,noun,2
 205,Y,3,بَعْد شْوَيّ,in a little while,adverb,2
 214,Y,2,آخِر الأُسْبُوع,weekend,noun,3
 215,Y,2,عُطْلَة,holiday / vacation / day off,noun,2
@@ -233,17 +234,17 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 198,,2,مَرَّتِين,twice,adverb,2
 199,,3,كَم مَرَّة,a few times / how many times,frame,2
 200,,3,كُلّ مَرَّة,every time,adverb,2
-201,,1,أَغْلַب الوַقْت,most of the time,adverb,3
+201,,3,أَغْلَب الوَقْت,most of the time,adverb,3
 202,,2,مِن وَقْت لَوَقْت,from time to time,adverb,3
 211,,3,وَقْت الغَدَا,lunchtime,noun,2
 212,,3,وَقْت العَشَا,dinnertime,noun,2
 213,,2,وَقْت الفْطُور,breakfast time,noun,2
 218,,2,عِنْدِي مَوْعِد,I have an appointment,frame,2
 219,,2,شُو الوَقْت؟,What time is it? (casual),formula,2
-220,,1,مَا عִنْدِي وَقְت,I don't have time,formula,2
+220,,3,مَا عِنْدِي وَقْت,I don't have time,frame,2
 221,,3,عَ مَهْلَك,take your time / slowly (to m.),formula,2
 222,,3,عَ مَهْلِك,take your time / slowly (to f.),formula,2
-223,,1,בִسُرְעַة,quickly,adverb,2
+223,,3,بِسُرْعَة,quickly,adverb,2
 224,,3,شُو بِدَّك تِعْمَل هَلَّأ؟,What do you want to do now? (to m.),frame,1
 225,,3,مَا بَلْحَق,I can't make it in time,formula,2
 226,,3,خَلَّصْنَا,we're done / we finished,verb,2
@@ -262,7 +263,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 254,,2,اللّه مَعِك,God be with you / bye (to f.),formula,1
 255,,2,بَشُوفَك,see you (to m.),formula,1
 256,,2,بْشُوفِك,see you (to f.),formula,1
-257,,1,بْشُوفَك بَعْدֵين,see you later (to m.),formula,1
+257,,2,بْشُوفَك بَعْدِين,see you later (to m.),formula,2
 258,,2,يَلَّا بَاي,OK bye! (casual),formula,1
 259,,2,رُوح بِالسَّلَامِة,go safely (to m.),formula,2
 260,,3,رُوحِي بِالسَّلَامِة,go safely (to f.),formula,2
@@ -288,12 +289,12 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 286,,3,عُقْبَالَك,may it happen to you too (to m.),formula,2
 287,,3,عُقْبَالِك,may it happen to you too (to f.),formula,2
 288,,3,سَلَامْتَك,get well soon (to m.),formula,1
-289,,1,سَلَامְתִك,get well soon (to f.),formula,1
+289,,3,سَلَامْتِك,get well soon (to f.),formula,2
 290,,3,اللَّه يِشْفِيك,may God heal you (to m.),formula,2
 291,,3,الله يِرْحَمُو,may God have mercy on him,formula,2
 292,,2,البَقَاء لِلَّه,condolences (lit: permanence is God's),formula,2
-293,,2,اللَّه يْصَبِّرْكُم,may God give you patience,formula,3
-294,,1,تَقْبُرْنِي,you're so dear to me,formula,4
+293,,3,اللَّه يْصَبِّرْكُم,may God give you patience,formula,3
+294,,2,تَقْبُرْنِي,you're so dear to me,formula,3
 295,,2,يِخْرِب بِيتَك,expression of exasperation (to m.),formula,2
 296,,3,يَا حَرَام,oh poor thing / how sad,formula,2
 297,,3,يَا لَطِيف,oh my goodness,formula,2
@@ -329,7 +330,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 341,,2,بِالنِّسْبِة لَ,regarding / as for,preposition,3
 342,,3,بِخْصُوص,concerning / about,preposition,3
 343,,3,بِشَكِل عَامّ,in general / generally,adverb,3
-344,,1,غִير הִيك,besides that / other than that,adverb,3
+344,,2,غَيْر هَيْك,besides that / other than that,adverb,3
 345,,2,بِالإِضَافِة,in addition,adverb,4
 346,,3,بِنَفْس الوَقْت,at the same time,adverb,2
 347,,3,رَغْم إِنُّو,despite that / even though,frame,3
@@ -340,7 +341,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 352,,3,نِرْجَع لَلْمَوْضُوع,let's get back to the topic,formula,3
 353,,3,بِمَا إِنُّو,given that / since,conjunction,3
 354,,2,طَالَمَا,as long as,conjunction,3
-355,,3,مَهْما,no matter what,conjunction,3
+355,,3,مَهْمَا,no matter what,conjunction,3
 356,,3,سَوَاء ... وَلَّا,whether... or,frame,4
 358,,3,لَحَدّ مَا,until,conjunction,2
 359,,3,أَوَّل مَا,as soon as,conjunction,3
@@ -354,14 +355,14 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 369,,2,بِالزَّبْط,exactly,adverb,2
 370,,3,بِصَرَاحَة,honestly / frankly,adverb,2
 371,,3,شَكْلُو,it seems / apparently,frame,2
-373,,1,بْتִעْרַף شُو,you know what (to m.),formula,2
+373,,2,بْتِعْرَف شُو,you know what (to m.),formula,2
 374,,2,مَا هُوِّ,the thing is / well,particle,3
 375,,3,اِللِّي هُوِّ,which is / that is (filler),particle,3
 376,,2,يَا سِيدِي,well / look / OK fine,interjection,3
 377,,3,هَسَّا خَلِّينِي أَفَكِّر,let me think now,formula,3
 378,,2,شُو بِدِّي أَقُولَّك,what can I say (to m.),formula,3
 379,,3,اِسْمَع,"listen (attention-getter, to m.)",interjection,2
-380,,1,اِسْمַعִي,"listen (attention-getter, to f.)",interjection,2
+380,,3,اِسْمَعِي,"listen (attention-getter, to f.)",interjection,2
 381,,3,وَلَك,"hey / dude (attention, to m.)",interjection,2
 383,,3,يَا بِنْت,girl (attention-getter),interjection,3
 384,,3,يَا خَبَر,oh wow / oh no,formula,3
@@ -372,7 +373,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 391,,2,تَقِيل دَم,annoying person (lit: heavy blood),adjective,3
 393,,2,قَصْف جَبْهِة,sick burn / comeback (lit: forehead bombing),noun,4
 394,,2,مَخِّي وِقِف,I'm overwhelmed (lit: my brain stopped),formula,4
-395,,2,زْهِقِت,I'm so bored / fed up,verb,2
+395,,2,زْهِقْت,I'm so bored / fed up,formula,2
 396,,3,طَنَّشْنِي,he ignored me,verb,3
 397,,3,بِتْهَبِّل,you're amazing (lit: you drive crazy),formula,3
 398,,2,فَلَّت,escaped / got away,verb,4
@@ -405,7 +406,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 435,,3,نَوَّرْتِي,you've lit up the place (to f.),formula,2
 436,,3,البَيْت بَيْتَك,make yourself at home (to m.),formula,2
 437,,2,اِلْبِيت بِيتِك,make yourself at home (to f.),formula,2
-438,,1,لَا تִתْعַب حَالַك,don't trouble yourself (to m.),formula,2
+438,,3,لَا تِتْعَب حَالَك,don't trouble yourself (to m.),formula,2
 439,,2,لَا تِتْعَبِي حَالِك,don't trouble yourself (to f.),formula,2
 441,,3,دِيرِي بَالِك,take care / be careful (to f.),formula,2
 442,,3,دِيرُو بَالْكُم,take care / be careful (to pl.),formula,2
@@ -439,14 +440,14 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 473,,3,بِالتَّأْكِيد,certainly / for sure,adverb,3
 475,,2,بِالزُّور,barely / with difficulty,adverb,3
 477,,2,زَوْج,pair / couple,noun,3
-478,,1,دَرْزِن,dozen,noun,4
+478,,2,دَرْزِن,dozen,noun,4
 480,,3,خَمْسِة وْعِشْرِين,twenty-five (25),noun,2
 481,,3,مِيِّة وْخَمْسِة,one hundred and five (105),noun,2
 483,,2,خَمْسِمِيَّة,five hundred (500),noun,2
 485,,2,عَشَر تْلَاف,"ten thousand (10,000)",noun,2
 488,,3,مَرَّة وَحْدِة,one time / at once,adverb,2
 489,,3,أَوَّل مَرَّة,first time,adverb,2
-490,,1,آخִר מַרַّة,last time,adverb,2
+490,,3,آخِر مَرَّة,last time,adverb,2
 492,,3,شُو مَا كَان,whatever / no matter what,formula,3
 493,,2,مِين مَا كَان,whoever,pronoun,3
 494,,2,وَيْن مَا كَان,wherever,adverb,3
@@ -489,7 +490,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 616,,2,قَلَع,took off (clothes/shoes),verb,2
 618,,3,اِسْتَحَمَّى,showered / bathed,verb,2
 619,,3,مَشَّط,combed,verb,3
-621,,1,فَرַّش,brushed (teeth),verb,2
+621,,2,فَرَش,brushed (teeth),verb,3
 630,,3,قَلَى,fried,verb,3
 631,,3,شَوَى,grilled / roasted,verb,3
 632,,3,سَلَق,boiled,verb,4
@@ -524,7 +525,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 687,,3,لَزَق,stuck / glued,verb,4
 688,,3,مَلَا,filled,verb,3
 689,,3,فَضَّى,emptied,verb,3
-693,,1,ضַاע,got lost,verb,2
+693,,3,ضَاع,got lost,verb,2
 694,,3,طَاح,fell,verb,3
 696,,1,اِسْتَلْقَى,lay down,verb,4
 697,,2,تْمَدَّد,stretched out / lay down,verb,3
@@ -544,8 +545,8 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 728,,3,اِسْتَعَدّ,got ready / prepared,verb,4
 729,,2,حَضَر,attended / was present,verb,3
 730,,3,غَاب,was absent / missed,verb,3
-731,,2,تْلَاقَى,met (each other),verb,2
-734,,1,عَرָّف,introduced,verb,2
+731,,3,تْلَاقَى,met (each other),verb,2
+734,,3,عَرَّف,introduced,verb,3
 735,,2,سِكِت,was quiet / shut up,verb,2
 737,,3,حَسَد,envied,verb,3
 740,,3,هَرَب,ran away / escaped,verb,3
@@ -564,7 +565,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 754,,2,مَعْ إِنُّو... بَسّ,even though... but,frame,3
 755,,3,عَشَان مَا,so that... not,conjunction,2
 756,,3,طَالَمَا إِنُّو,as long as,conjunction,3
-757,,3,كَم وَاحَد,how many / a few (people),pronoun,2
+757,,3,كَم وَاحَد,how many / a few (people),frame,2
 759,,3,مِن وَيْن,from where,adverb,1
 761,,2,مِيتَيْن وْخَمْسِين,two hundred and fifty (250),noun,2
 762,,2,تْلَاتَة وْنُصّ,three and a half,noun,2
@@ -575,13 +576,13 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 767,,2,عَتْمِة,darkness / late night,noun,3
 768,,3,قَبْل الضُّهُر,before noon / AM,adverb,2
 771,,3,السَّاعَة سِتِّة الصُّبُح,six in the morning,frame,2
-772,,3,وَقْت اِلْفَرَاغ,free time,noun,3
+772,,3,وَقْت الفَرَاغ,free time,noun,3
 774,,3,رَاس السَّنَة,New Year's,noun,3
 778,,3,شُو عَامِل؟,what are you up to? / how are you? (to m.),formula,1
 779,,3,شُو عَامْلِة,what are you up to? / how are you? (to f.),formula,1
 780,,2,وَحَشْتِنِي,I missed you (to f.),formula,2
 781,,3,وَحَشْتْنَا,we missed you,formula,2
-782,,2,أَهْلًا فِيكُم,welcome (to pl.),formula,1
+782,,3,أَهْلًا فِيكُم,welcome (to pl.),formula,1
 783,,2,خَلِّيك بْخَيْر,"stay well (farewell, to m.)",formula,2
 784,,3,خَلِّيكِي بْخَيْر,"stay well (farewell, to f.)",formula,2
 785,,3,يَلَّا أَنَا رَايِح,alright I'm heading out (m.),formula,1
@@ -662,7 +663,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 977,,2,مِش طَبِيعِي,not normal / weird,adjective,2
 979,,3,عُمُر,age / life,noun,1
 981,,2,عُمْرِي ... سَنِة,I'm ... years old,frame,2
-984,,1,مִتْزَوִّج,married (m.),adjective,2
+984,,3,مِتْزَوِّج,married (m.),adjective,2
 985,,3,أَعْزَب,single / unmarried (m.),adjective,3
 986,,2,مْطَلَّق,divorced (m.),adjective,3
 987,,3,أَرْمَل,widower,adjective,4
@@ -690,7 +691,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1056,,3,فِلْفِل أَسْوَد,black pepper,noun,3
 1057,,3,كَمُّون,cumin,noun,4
 1058,,2,قِرْفِة,cinnamon,noun,3
-1059,,3,هَال,cardamom,noun,4
+1059,,3,هَال,cardamom,noun,3
 1060,,3,سُمَّاق,sumac,noun,4
 1061,,3,طَحِينِة,tahini,noun,2
 1069,,2,مَلْعَقَة,spoon,noun,2
@@ -698,13 +699,13 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1076,,3,غَاز,gas stove / gas,noun,3
 1079,,3,خَمِيرَة,yeast,noun,4
 1080,,3,وَصْفِة,recipe,noun,3
-1090,,2,نَيّ,raw / uncooked,adjective,3
+1090,,2,نِيّ,raw / uncooked,adjective,3
 1093,,2,أُوضِة النُّوم,bedroom,noun,2
 1106,,3,مْخَدِّة,pillow,noun,2
 1108,,3,لِحَاف,duvet / comforter,noun,3
 1109,,3,فَرْشَة,mattress,noun,3
 1114,,3,دُرْج,drawer,noun,3
-1115,,1,مִرָايִة,mirror,noun,3
+1115,,3,مِرَايِة,mirror,noun,3
 1116,,2,سِجَّادِة,rug / carpet,noun,3
 1118,,2,لَمْبَة,light bulb / lamp,noun,3
 1121,,3,غَسَّالَة,washing machine,noun,2
@@ -715,7 +716,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1127,,2,رِيمُوت,remote control,noun,3
 1129,,2,مِدْفَأَة,heater,noun,4
 1130,,2,صُوبِة,heater (kerosene/portable),noun,3
-1131,,1,مַרְوַחַة,fan,noun,3
+1131,,2,مَرْوَحَة,fan,noun,2
 1140,,2,كَنْزِة,sweater,noun,3
 1145,,2,تِي شِيرْت,t-shirt,noun,3
 1148,,3,صَنْدَل,sandal,noun,4
@@ -756,7 +757,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1232,,3,مْصَلَّح,fixed / repaired,adjective,3
 1233,,3,مَطْفِي,turned off,adjective,3
 1234,,2,مْشَغَّل,turned on,adjective,3
-1235,,1,حַבְل غַسִيل,clothesline,noun,4
+1235,,3,حَبْل غَسِيل,clothesline,noun,4
 1237,,2,مْنَظِّف,cleaning product / detergent,noun,4
 1238,,2,مَسْحُوق,powder / detergent powder,noun,4
 1239,,2,جَارُور,drawer (variant),noun,3
@@ -793,17 +794,17 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1326,,3,اِمْشِي دُغْرِي,go straight,formula,2
 1327,,3,أَوَّل شَارِع عَ اليَمِين,first street on the right,frame,2
 1328,,2,تَانِي شَارِع عَ الشْمَال,second street on the left,frame,2
-1330,,1,بْتِعْرَف وֵين ال...؟,Do you know where the...? (to m.),frame,2
+1330,,2,بْتِعْرِف وَين ال...؟,Do you know where the...? (to m.),frame,2
 1331,,3,قَدِّيش بْيَاخُد؟,How long does it take?,formula,2
 1332,,3,بْيَاخُد رُبُع سَاعَة,It takes fifteen minutes,frame,2
 1333,,2,عَالبَلَد لَوْ سَمَحْت,To downtown please (to taxi driver),frame,2
 1335,,2,قَدِّيش بْتَاخُد؟,"How much do you charge? (to taxi driver, m.)",formula,2
 1339,,2,نَجْمِة,star,noun,3
 1341,,2,غِيم,clouds,noun,3
-1346,,1,בַרַד,hail,noun,4
+1346,,3,بَرَد,hail,noun,4
 1347,,3,رَعِد,thunder,noun,3
 1351,,2,بَرْد,cold / cold weather,noun,2
-1352,,3,رُطُوبِة,humidity,noun,3
+1352,,2,رُطُوبِة,humidity,noun,3
 1354,,2,اليُوم حَرّ,It's hot today,formula,2
 1355,,2,اليَوْم بَرْد,It's cold today,formula,2
 1356,,2,عَم بْتِشْتِي,It's raining,formula,2
@@ -817,7 +818,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1367,,3,بَحِر,sea,noun,2
 1370,,3,وَادِي,valley / wadi,noun,3
 1372,,3,غَابَة,forest,noun,3
-1373,,1,בִרְכֶה,pool / pond,noun,3
+1373,,2,بِرْكِة,pool / pond,noun,3
 1376,,2,زَيْتُونَة,olive tree,noun,2
 1377,,2,تِينِة,fig tree,noun,3
 1385,,2,دْجَاجِة,chicken (one),noun,2
@@ -851,9 +852,9 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1429,,3,بُسْتَان,orchard / garden,noun,4
 1430,,2,سُور القُدِس,the walls of Jerusalem,noun,4
 1431,,3,بَاب العَامُود,Damascus Gate,noun,3
-1432,,2,كْنِيسِةِ القِيَامِة,Church of the Holy Sepulchre,noun,4
+1432,,1,كْنِيسَة القِيَامِة,Church of the Holy Sepulchre,noun,4
 1433,,3,حَائِط البُرَاق,the Western Wall / Al-Buraq Wall,noun,4
-1434,,1,اِلْمَدִينِة اِلْقَدִيمِة,the Old City (general),noun,3
+1434,,2,المَدِينِة القَدِيمِة,the Old City (general),noun,2
 1435,,2,رَام اللَّه,Ramallah,noun,2
 1436,,2,القُدِس,Jerusalem,noun,2
 1437,,3,نَابْلُس,Nablus,noun,2
@@ -870,7 +871,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1452,,2,قِطَاع غَزِّة,the Gaza Strip,noun,2
 1454,,3,لَاجِئ,refugee,noun,3
 1455,,3,مُهَجَّر,displaced person,noun,4
-1456,,1,حַقّ العَوְדֶה,the right of return,noun,3
+1456,,2,حَقّ العَوْدِة,the right of return,noun,4
 1457,,2,نَكْبَة,catastrophe / Nakba,noun,3
 1459,,3,تَصْرِيح,permit (travel),noun,3
 1462,,3,وَطَن,homeland,noun,3
@@ -888,13 +889,13 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1502,,2,أَمْلَس,smooth / slippery,adjective,4
 1509,,3,غَرِيب,strange / weird / foreign,adjective,2
 1511,,3,مَعْرُوف,known / well-known,adjective,3
-1514,,1,صَحִيح,correct / true / right,adjective,2
+1514,,3,صَحِيح,correct / true / right,adjective,2
 1516,,3,أَكِيد,certain / sure,adjective,1
 1520,,3,كَافِي,enough / sufficient,adjective,3
 1522,,3,زَايِد,extra / too much,adjective,3
 1524,,3,حَقِيقِي,real / true / genuine,adjective,2
 1525,,3,وَهْمِي,fake / imaginary,adjective,4
-1526,,1,مَجָּانִي,free (no cost),adjective,2
+1526,,3,مَجَّانِي,free (no cost),adjective,3
 1531,,3,أَحْسَن,better / best,adjective,2
 1532,,3,أَسْوَأ,worse / worst,adjective,3
 1533,,3,أَكْبَر,bigger / biggest / older,adjective,2
@@ -909,7 +910,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1544,,3,مِن,than (comparison),preposition,2
 1546,,3,أَحْلَى,prettier / prettiest / nicer,adjective,2
 1547,,2,لَحَالُو,by himself / alone,adverb,2
-1548,,2,مَعْ بَعِض,together,adverb,2
+1548,,3,مَع بَعْض,together,adverb,2
 1549,,3,فَجْأَة,suddenly,adverb,3
 1550,,2,بِالعَافْيِة,with difficulty / barely,adverb,3
 1551,,1,بْكِفَايِة,enough,adverb,2
@@ -930,7 +931,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1580,,3,كَهْرَبَائِي,electrician,noun,3
 1581,,3,سَبَّاك,plumber,noun,3
 1582,,2,مِيكَانِيكِي,mechanic,noun,3
-1584,,1,عَسְكَرִي,soldier / military,noun,3
+1584,,3,عَسْكَرِي,soldier / military,noun,3
 1585,,3,ضَابِط,officer,noun,3
 1586,,3,مُحَرِّر,editor,noun,4
 1587,,3,مُبَرْمِج,programmer,noun,3
@@ -942,9 +943,9 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1599,,3,مِنْحَة,scholarship,noun,4
 1600,,3,تَسْجِيل,registration,noun,3
 1602,,3,مُحَاضَرَة,lecture,noun,3
-1603,,3,بَحِث,research / paper,noun,4
+1603,,2,بَحِث,research / paper,noun,3
 1604,,3,تَوْجِيهِي,Tawjihi (Palestinian high school exam),noun,3
-1605,,1,أַלִף בַא,alphabet / ABCs,noun,4
+1605,,2,أَلِف بَا,alphabet / ABCs,noun,3
 1607,,3,عَرَبِي,Arabic (language/adj.),adjective,1
 1608,,3,إِنْجْلِيزِي,English (language/adj.),adjective,1
 1609,,3,اللَّه,God,noun,1
@@ -956,8 +957,8 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1618,,3,رَمَضان,Ramadan,noun,2
 1619,,3,حَجّ,pilgrimage / Hajj,noun,3
 1622,,2,أَذَان,call to prayer,noun,3
-1623,,1,إִמַאם,imam / prayer leader,noun,3
-1624,,2,شَيْخ,sheikh / religious elder,noun,3
+1623,,3,إِمَام,imam / prayer leader,noun,3
+1624,,3,شَيْخ,sheikh / religious elder,noun,3
 1625,,2,قِسِّيس,priest,noun,4
 1626,,2,زَكَاة,alms / zakat,noun,4
 1627,,2,دُعَاء,supplication / prayer,noun,3
@@ -968,7 +969,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1632,,2,دَبْكِة,dabke (traditional dance),noun,3
 1633,,3,تَطْرِيز,embroidery,noun,3
 1634,,2,ثُوب مُطَرَّز,embroidered dress,noun,4
-1635,,2,مُنَاسَبِة,occasion / event,noun,3
+1635,,3,مُنَاسَبِة,occasion / event,noun,3
 1636,,2,عَادِة,custom / habit,noun,3
 1637,,2,تَقْلِيد,tradition,noun,3
 1638,,2,ضِيَافِة,hospitality,noun,3
@@ -983,7 +984,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1651,,2,خَمْسَة وْخْمَيْسَة,hand of Fatima (evil eye protection),noun,4
 1654,,3,رَاتِب,salary (formal),noun,3
 1661,,2,خِبْرَة,experience,noun,3
-1662,,1,سִيرَة ذَاتִيָّة,CV / resume,noun,4
+1662,,2,سِيرَة ذَاتِيِّة,CV / resume,noun,4
 1663,,2,تَقَاعُد,retirement,noun,3
 1665,,3,دَوَام,work shift / work hours,noun,3
 1666,,3,مُقَاوِل,contractor,noun,4
@@ -1008,7 +1009,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1688,,1,دُولَار,dollar,noun,2
 1697,,3,كَاش,cash,noun,3
 1700,,3,تَحْوِيل,transfer (money),noun,3
-1702,,1,نُصّ كִيلُو,half a kilo,noun,2
+1702,,3,نُصّ كِيلُو,half a kilo,noun,2
 1703,,2,رُبُع كِيلُو,quarter kilo,noun,2
 1706,,2,بِقَدَّيْش هَاد؟,How much is this?,formula,1
 1707,,3,غَالِي كْتِير,Too expensive,formula,1
@@ -1022,7 +1023,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1715,,2,مُمْكِن تِلِفِّي هَدِيَّة,Can you gift wrap it? (to f.),frame,3
 1718,,2,مُوبَايْل,mobile phone,noun,2
 1720,,2,لَابْتُوب,laptop,noun,2
-1721,,1,תַאבְלִת,tablet,noun,3
+1721,,2,تَابْلِت,tablet,noun,3
 1722,,3,شاشِة,screen,noun,2
 1724,,2,وَاي فَاي,WiFi,noun,2
 1725,,2,مَوْقِع,website,noun,3
@@ -1036,8 +1037,8 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1734,,3,لَايْك,like (social media),noun,3
 1735,,2,نُوتِفِكِيشِن,notification,noun,3
 1737,,3,سَمَّاعَات,headphones / earbuds,noun,3
-1738,,1,مَايְك,microphone,noun,4
-1739,,1,بْرِינْتَر,printer,noun,4
+1738,,3,مَايْك,microphone,noun,4
+1739,,2,بْرِنْتَر,printer,noun,4
 1740,,1,أَلُو,hello (on phone),formula,1
 1741,,3,مِين مَعِي؟,Who is this? (on phone),formula,2
 1742,,3,اِلْخَطّ مِش وَاضِح,The line isn't clear,formula,3
@@ -1057,7 +1058,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1758,,2,شَرِيحَة,SIM card,noun,2
 1759,,1,غْرُوب,group chat,noun,3
 1760,,1,فُويْس نُوت,voice note,noun,3
-1761,,2,اِبْعَتْلِي فُويْس,Send me a voice note (to m.),frame,2
+1761,,2,ابْعَتْلِي فُويْس,Send me a voice note (to m.),formula,3
 1762,,2,حَكِيتْلُو عَ التِّلِفُون,I talked to him on the phone,frame,2
 1763,,3,بِدِّي أَعَبِّي رَصِيد,I need to top up my credit,formula,2
 1764,,3,مُمْكِن المِنْيُو؟,Can I see the menu?,formula,2
@@ -1074,20 +1075,20 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1777,,3,فِي عِنْدْكُم أَكِل حَلَال؟,Do you have halal food?,frame,3
 1778,,2,بِدِّي طاوْلِة لَتْنِين,I want a table for two,frame,2
 1779,,3,مَحْجُوز,reserved,adjective,3
-1780,,1,بِدִّي أَحْجِز طَاوְلِة,I'd like to reserve a table,formula,3
+1780,,2,بِدِّي أَحْجِز طَاوْلِة,I'd like to reserve a table,frame,3
 1781,,3,وَقِّفْنِي هُون,Stop here / let me off here,formula,2
-1782,,1,قَدֵّيش بْتَاخُد عَ...؟,"How much to go to...? (taxi, to m.)",frame,2
+1782,,2,قَدَّيْش بْتَاخُد عَ...؟,"How much to go to...? (taxi, to m.)",frame,2
 1783,,3,بِالعَدَّاد لَو سَمَحْت,By the meter please,formula,3
 1784,,2,فِي عَدَّاد؟,Is there a meter?,formula,3
 1785,,2,مِن هُون لَ... بِقَدِّيش؟,"From here to..., how much?",frame,2
 1786,,3,خَلِّي الْبَاقِي إِلَك,Keep the change (to m.),formula,2
 1787,,3,شُو عِنْدَك؟,"What's wrong? / What do you have? (doctor, to m.)",formula,2
 1788,,3,وِين الوَجَع؟,Where's the pain?,formula,3
-1789,,2,مِن إِيمْتَى عِنْدَك هَالْوَجَع؟,Since when have you had this pain? (to m.),frame,3
+1789,,3,مِن إِيمْتَى عِنْدَك هَالوَجَع,Since when have you had this pain? (to m.),frame,3
 1790,,3,بَاخُد دَوَا لَ,I take medicine for...,frame,2
 1791,,3,عِنْدِي ضَغِط عَالِي,I have high blood pressure,frame,3
 1792,,1,بَحِسّ بْغَثَيَان,I feel nauseous,formula,3
-1793,,1,مَا بَقְدَر أَنָام,I can't sleep,formula,2
+1793,,3,مَا بَقْدَر أَنَام,I can't sleep,frame,2
 1794,,3,بِدِّي تَحْلِيل دَمّ,I need a blood test,formula,3
 1795,,3,لَازِم تَاخُد هَالدَّوَا,You need to take this medicine (to m.),frame,3
 1796,,3,كَم حَبِّة بِالْيوْم؟,How many pills per day?,frame,3
@@ -1095,13 +1096,13 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1798,,3,سَلَامْتَك مَا تْشِيل هَمّ,"Get well soon, don't worry (to m.)",formula,2
 1799,,3,شُو بِدَّك تِشْرَب؟,What would you like to drink? (to m.),formula,1
 1800,,3,شُو بِدِّك تِشْرَبِي؟,What would you like to drink? (to f.),formula,2
-1801,,1,بِدַّك كَمَان؟,Do you want more? (to m.),formula,1
+1801,,3,بِدَّك كَمَان؟,Do you want more? (to m.),formula,1
 1802,,3,لَأ يِسْلَمُو كْفايِة,"No thanks, enough",formula,2
 1803,,2,خَلِّينِي أَسَاعْدِك,Let me help you (to f.),formula,2
 1804,,2,الأَكِل رِيحْتُو زَاكْيِة,The food smells wonderful,formula,3
 1805,,3,تِسْلَم إِيدَيْكِي,Bless your hands (to f. who cooked),formula,1
 1806,,3,اللَّه يْخَلِّيلِك إِيَّاهُم,"God keep them for you (about kids, to f.)",formula,3
-1807,,1,اِلْبֵيت كْتِير حِلُو,The house is very nice,frame,2
+1807,,2,البَيْت كْتِير حِلُو,The house is very nice,frame,2
 1808,,3,تْفَضَّلُوا عَ الأَكِل,Please come eat (to pl.),formula,2
 1810,,3,شُو بْتِشْتِغْلِي؟,What do you do for work? (to f.),formula,2
 1811,,2,وَيْن بْتِشْتِغِل,Where do you work? (to m.),formula,2
@@ -1120,7 +1121,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1824,,3,مَا بَقْدَر أَلْحَق,I can't make it (in time),formula,3
 1825,,1,بَعْتِلَّك لُوكَيشِن,I'll send you the location (to m.),formula,2
 1826,,2,مِن قَدَّيْش سَاكِن هُون؟,How long have you lived here? (to m.),formula,2
-1827,,3,أَوَّل مَرَّة بْتِيجِي؟,Is it your first time coming? (to m.),formula,2
+1827,,2,أَوَّل مَرَّة بْتِيجِي؟,Is it your first time coming? (to m.),formula,2
 1828,,2,كِيف تْعَرَّفْتُوا عَلَى بَعِض؟,How did you meet each other?,formula,3
 1829,,3,عِنْدَك إِخْوِة؟,Do you have siblings? (to m.),formula,2
 1830,,3,مِتْزَوِّج؟,Are you married? (to m.),formula,2
@@ -1130,11 +1131,11 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1834,,3,سَاعْدُونِي,Help me! (to pl.),formula,3
 1835,,3,اِلْحَقُونِي,Help! / Come quick! (to pl.),formula,3
 1836,,2,اِتَّصْلُو عَ الإِسْعَاف,Call the ambulance (to pl.),formula,3
-1837,,1,اِتַّصְلُو عَ الشُّرְطַה,Call the police (to pl.),frame,3
+1837,,2,اتِّصْلُو عَ الشُّرْطَة,Call the police (to pl.),formula,2
 1838,,2,فِي حَرِيقَة,There's a fire,frame,3
 1839,,2,فِي حَادِث,There's been an accident,formula,3
-1840,,1,اِنْسַרַقִت,I got robbed,verb,3
-1841,,1,ضَاع تَلَفُونִي,My phone got lost,formula,2
+1840,,3,اِنْسَرَقْت,I got robbed,verb,3
+1841,,2,ضَاع تَلَفُونِي,My phone got lost,frame,2
 1842,,3,وَيْن أَقْرَب مُسْتَشْفَى؟,Where's the nearest hospital?,frame,2
 1843,,2,بِحَاجِة لَدُكْتُور,I need a doctor,frame,2
 1844,,3,بِالسَّلَامَة,safe travels / take care,formula,2
@@ -1145,7 +1146,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1850,,2,مِشْتَاقِينَك,We miss you (to m.),formula,2
 1851,,2,تِعَالُو عِنَّا,Come to our place (to pl.),formula,2
 1852,,3,لَازِم تِيجِي تْزُورْنَا,You must come visit us (to m.),formula,2
-1853,,1,يِعْطִيكِي العَافְיֵה,God give you strength (to f.),formula,1
+1853,,2,يِعْطِيكِي العَافْيِة,God give you strength (to f.),formula,1
 1854,,3,مَا قَصَّرْتِي,You've been so kind (to f.),formula,1
 1855,,2,كَيْف الأَوْلَاد,How are the kids?,formula,2
 1856,,2,كِيف الأَهِل؟,How's the family?,formula,2
@@ -1183,7 +1184,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1892,,2,المَفْرُوض كَان يْخَلِّص,He was supposed to finish,frame,3
 1893,,2,بَأْدَر أَسَاعْدَك,I can help you (to m.),formula,2
 1894,,3,مَا بَقْدَر أَرُوح,I can't go,frame,1
-1895,,1,مُمْكִن تْسَاعִדْנִי؟,Can you help me? (to m.),frame,1
+1895,,3,مُمْكِن تْسَاعِدْنِي؟,Can you help me? (to m.),frame,1
 1896,,2,مُمْكِن أَقْعُد هُون؟,Can I sit here?,frame,2
 1897,,3,مَا بَقْدَر أَسْتَنَّى أَكْتَر,I can't wait any longer,formula,2
 1898,,2,مُمْكِن تْعِيد؟,Can you repeat? (to m.),formula,1
@@ -1226,13 +1227,13 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1935,,3,كُلّ مَا بَشُوفُو,every time I see him,frame,3
 1936,,3,بَعْد مَا تْخَلِّص رَنِّيلِي,"After you finish, call me (to m.)",frame,3
 1937,,3,قَالِّي إِنُّو مِش جَاي,He told me he's not coming,frame,2
-1938,,1,חַكַתְלִي إִנُّو,She told me that,frame,2
+1938,,3,حَكَتْلِي إِنُّو,She told me that,frame,2
 1939,,3,سْمِعْت إِنُّو,I heard that,frame,2
 1940,,3,طِلِع إِنُّو,It turned out that,frame,2
 1941,,2,ظَنَّيْت إِنُّو,I thought that,frame,3
 1942,,2,وَعَدْنِي إِنُّه,He promised me that,frame,3
 1943,,3,اِتَّفَقْنَا إِنُّو,We agreed that,frame,3
-1944,,3,لَا تْرُوح,Don't go (to m.),formula,1
+1944,,3,لَا تْرُوح,Don't go (to m.),frame,2
 1945,,3,لَا تِحْكِي هَيْك,Don't say that (to m.),formula,2
 1946,,3,لَا تِقْلَق,Don't worry (to m.),formula,2
 1947,,3,لَا تِنْسَى,Don't forget (to m.),formula,2
@@ -1242,8 +1243,8 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1951,,3,لَا تِتْأَخَّرِي,Don't be late (to f.),formula,2
 1952,,3,عِنْدِي سَيَّارَة,I have a car,frame,1
 1953,,3,عِنْدَك أَخ؟,Do you have a brother? (to m.),frame,1
-1954,,1,عִنْدُو مَشَاكִل,He has problems,frame,2
-1955,,1,إִלִي صַاחִب,I have a friend (lit: to me a friend),frame,3
+1954,,3,عِنْدُو مَشَاكِل,He has problems,frame,2
+1955,,3,إِلِي صَاحِب,I have a friend (lit: to me a friend),frame,3
 1956,,3,هَاد إِلَك,This is yours (to m.),formula,2
 1957,,3,مَعِي مَصَارِي,I have money (on me),frame,2
 1958,,3,مَا مَعِي شِي,I don't have anything (on me),formula,2
@@ -1256,7 +1257,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1965,,2,رَح يِكُون فِي حَفْلِة,There will be a party,frame,2
 1966,,3,عَمْ بَاكُل,I'm eating (right now),frame,2
 1967,,2,عَمْ بِتْشَتِّي,It's raining (right now),frame,2
-1968,,1,شُو עַם בְּתִעְמַל؟,What are you doing? (to m.),formula,1
+1968,,3,شُو عَمْ بْتِعْمَل؟,What are you doing? (to m.),formula,1
 1969,,3,كُنْت عَمْ بَحْكِي مَعُو,I was talking with him,frame,3
 1970,,3,عَم بَحَاوِل,I'm trying,frame,2
 1971,,2,عَم بِنِسْتَنَّاك,We're waiting for you (to m.),formula,2
@@ -1265,14 +1266,14 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1974,,3,مِش رَح أَقْدَر,I won't be able to,formula,2
 1975,,3,رَحْ نِتْلَاقَى بُكْرَا,We'll meet tomorrow,frame,2
 1976,,3,رَح أَحْكِيلَك بَعْدِين,I'll tell you later (to m.),formula,2
-1977,,1,رَحْ تִنْدَم,You'll regret it (to m.),formula,3
+1977,,3,رَح تِنْدَم,You'll regret it (to m.),frame,3
 1978,,2,كُنْت بَرُوح كُلّ يُوم,I used to go every day,frame,2
 1979,,2,كَانُو بِيِلْعَبُو بَرَّا,They used to play outside,frame,2
 1980,,3,كُنَّا مْنِرُوح عِنْد سِتِّي,We used to go to grandma's,frame,2
-1981,,1,לַמַّא כֻנְת צְغִير,When I was young,frame,3
+1981,,2,لَمَّا كُنْت زْغِير,When I was young,frame,2
 1982,,3,زَمَان كَانُو...,In the old days they used to...,frame,3
 1983,,3,كَان عِنَّا كَلِب,We used to have a dog,frame,2
-1984,,1,بْتִعْرَف لֵيش؟,Do you know why? (to m.),formula,2
+1984,,3,بْتِعْرَف لَيْش؟,Do you know why? (to m.),frame,2
 1985,,3,مَا بَعْرِف شُو أَعْمَل,I don't know what to do,frame,2
 1986,,3,قُلِّي وَيْن رَاح,Tell me where he went,frame,2
 1987,,2,مَا بَعْرِف إِذَا بِيِجِي,I don't know if he's coming,frame,2
@@ -1282,7 +1283,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 1991,,2,شُو هَالحَلَاوَة,How sweet/beautiful this is,frame,3
 1992,,2,يَا سَلَام شُو حِلُو,"Wow, how beautiful",frame,2
 1993,,2,شُو هَالْأَكِل الطَّيِّب,What delicious food this is,formula,2
-1994,,3,اللّٰه يَا لَطِيف شُو حَرّ,"Oh my, how hot it is",frame,3
+1994,,2,اللَّه يَا لَطِيف شُو حَرّ,"Oh my, how hot it is",frame,3
 1995,,2,مَا رُحْتِش,I didn't go (emphatic),frame,1
 1996,,2,مَا شُفْتُوش,I didn't see him (emphatic),frame,2
 1997,,2,مَا بَعْرِفْش,I don't know (emphatic),formula,1
@@ -1294,7 +1295,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2003,,3,وَلَا مَرَّة,not even once / never,adverb,2
 2004,,2,بِالمَرَّة مَا بْيِعْرِف,He doesn't know at all,frame,3
 2005,,2,اللِّي بْيِعْرِف بْيِعْرِف,"Those who know, know",formula,4
-2006,,1,اِللִّي صَار إِنּو,What happened was that,frame,3
+2006,,3,اللِّي صَار إِنُّو,What happened was that,frame,3
 2007,,2,اِللِّي حَكِيتُو صَحّ,What you said is correct,formula,2
 2008,,3,هَاد اللِّي بِدِّي إِيَّاه,This is what I want,frame,2
 2009,,3,اللِّي بِدُّو يِيجِي يِيجِي,"Whoever wants to come, let them come",frame,3
@@ -1337,7 +1338,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2046,,3,شُو رَأْيَك؟,What's your opinion? (to m.),formula,2
 2047,,3,حَسَب,it depends,formula,2
 2048,,2,عَلَى حَسَب الوَضِع,depending on the situation,formula,3
-2049,,2,بِغَضِّ النَّظَر عَن,regardless of,preposition,4
+2049,,2,بِغَضّ النَّظَر عَن,regardless of,preposition,4
 2050,,3,القَصِد إِنُّو,What I mean is that,frame,3
 2051,,2,بِالمُقَابِل,on the other hand / in return,adverb,4
 2052,,3,نِرْجَع وْنِحْكِي,let's come back and talk (about it),formula,2
@@ -1373,14 +1374,14 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2083,,2,عَلَى رَاسِي مِن فَوْق,Absolutely / with the highest honor,formula,2
 2084,,3,مِن وَرَا ضَهْرِي,Behind my back,frame,3
 2085,,3,عَيْنِي عَيْنَك,shamelessly / to one's face,adverb,4
-2086,,2,بِالْعَرَبِي,to put it plainly (lit: in Arabic),adverb,2
+2086,,2,بِالعَرَبِي,to put it plainly (lit: in Arabic),adverb,2
 2087,,3,اللَّه يِلْعَنُو,damn him / curse him,formula,3
 2088,,3,اللَّه لَا يْوَرِّيك,God forbid you see (something bad),formula,3
 2089,,3,اللَّه يْسَاعِدْنَا,God help us,formula,3
 2090,,3,عَلَى عَيْنِي وْرَاسِي,with pleasure / on my head and eye,formula,2
 2091,,2,اللَّه يُسْتُر مِن الجَاي,God protect us from what's coming,formula,3
 2092,,2,كُلّ شِي بِوَقْتُو حِلُو,Everything is good in its time,formula,4
-2093,,1,اللִّي פַאת מַאת,What's past is dead (= let it go),formula,3
+2093,,3,اللِّي فَات مَات,What's past is dead (= let it go),formula,3
 2094,,2,بُكْرَا بِيطْلَع الصُّبُح,Tomorrow the morning will come (= things will work out),formula,4
 2095,,2,مَا بِيصِير إِلَّا الخَيْر,Only good things will happen (= don't worry),formula,2
 2096,,2,اللَّه كَرِيم,God is generous (= it'll work out),formula,2
@@ -1397,15 +1398,15 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2107,,2,خَلِّيهَا عَلَى الله,Leave it to God,formula,3
 2108,,3,كُلّ شِي نَصِيب,Everything is fate/destiny,formula,3
 2109,,2,هَيْك الدِّنْيَا,That's life / that's how it is,formula,3
-2111,,1,اللَّه يִرْحَم أَيָّامُو,God bless those days (nostalgia),formula,4
+2111,,2,اللَّه يِرْحَم أَيَّامُو,God bless those days (nostalgia),formula,3
 2112,,3,يَا عَمِّي,bro / dude (lit: my uncle),interjection,2
 2113,,3,يَا خَيِّي,bro (lit: my brother),interjection,2
 2114,,3,يَا حَبِيبِي,my dear / dude (friendly),interjection,1
 2115,,2,شُو هَالْحَكِي,what kind of talk is this / nonsense,formula,3
-2116,,1,بَلָا مَصْخَرَة,stop joking / be serious,formula,3
+2116,,3,بَلَا مَصْخَرَة,stop joking / be serious,formula,4
 2117,,3,وَلَك رُوح,get out of here / go away (to m.),formula,3
 2118,,3,يِخْرِب بِيتَك,"damn you (lit: may your house be ruined, to m.)",formula,2
-2119,,1,اللَّه يִلْعَن أَبُو,damn the father of... (= damn...),frame,3
+2119,,3,اللَّه يِلْعَن أَبُو...,damn the father of... (= damn...),frame,3
 2120,,3,يَا حَيَوَان,you animal (insult),formula,3
 2121,,2,مْخَرِّف,talking nonsense / senile,adjective,4
 2122,,3,مْجَنِّن,amazing / driving crazy,adjective,3
@@ -1430,9 +1431,9 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2145,,2,رَاحِت عَلَيّ,I missed my chance / it's over for me,formula,3
 2146,,2,خَلَص عَلَيّ,I'm done for / it's over,formula,4
 2147,,3,مَا إِلِي خُلْق,I'm not in the mood,formula,2
-2148,,1,مِش فَايְתִתْلِي,I can't handle it / it doesn't fit in my head,formula,4
+2148,,1,مِش فَايْتِتْلِي,I can't handle it / it doesn't fit in my head,formula,4
 2149,,2,عَالفاضِي وِالمَلْيان,for no good reason / over nothing,formula,4
-2150,,1,מִن תַحְת לַתַحְת,sneakily / under the table,adverb,4
+2150,,2,مِن تَحْت لَتَحْت,sneakily / under the table,adverb,4
 2151,,1,وَجّ,face (slang),noun,4
 2154,,3,أَخُو شَرْمُوطَة,son of a b*tch (vulgar insult),formula,4
 2155,,3,كُسّ أُخْتَك,extremely vulgar insult,formula,4
@@ -1464,7 +1465,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2200,,3,حَقِيقَة,truth / fact,noun,3
 2201,,3,رَأْي,opinion,noun,2
 2202,,3,قَرَار,decision,noun,3
-2203,,2,خِيَار,choice / option,noun,3
+2203,,3,خِيَار,choice / option,noun,3
 2206,,3,سَلَامَة,safety,noun,3
 2207,,2,ثِقَة,trust / confidence,noun,3
 2208,,3,أَمَل,hope,noun,3
@@ -1478,16 +1479,16 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2219,,2,قِسْمِة,fate / destiny,noun,3
 2221,,2,حَيَاة,life,noun,2
 2224,,3,وَاجِب,duty / obligation,noun,3
-2225,,1,שַרַף,honor,noun,3
+2225,,3,شَرَف,honor,noun,3
 2226,,2,كَرَامِة,dignity,noun,3
 2228,,3,سِرّ,secret,noun,3
-2229,,2,كِذْبِة,lie,noun,3
+2229,,1,كِذْبِة,lie,noun,3
 2230,,3,صِدْق,truth / honesty,noun,3
 2231,,3,خَطَأ,mistake / error,noun,3
 2232,,1,عُذُر,excuse,noun,3
 2233,,3,فَايْدِة,benefit / use / point,noun,3
 2235,,3,خَطَر,danger,noun,3
-2237,,2,رَاحَة,comfort / rest,noun,3
+2237,,3,رَاحَة,comfort / rest,noun,3
 2239,,2,مُسْتَأْبَل,future,noun,3
 2240,,3,مَاضِي,past,noun,3
 2241,,3,حَاضِر,present (time),noun,4
@@ -1516,14 +1517,14 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2270,,3,مِين عَ الخَطّ؟,Who's on the line?,formula,2
 2271,,2,بِتْقْدَر تِحْكِي هَلَّأ؟,Can you talk now? (to m.),formula,2
 2272,,3,مَشْغُول هَلَّأ بَرْجَعْلَك,"I'm busy now, I'll call you back (to m.)",formula,2
-2273,,1,الخَطّ بِيقْطַع,The line keeps cutting out,formula,3
+2273,,2,الخَطّ بْيِقْطَع,The line keeps cutting out,formula,3
 2274,,2,مَا بَسْمَعَك مْنِيح,I can't hear you well (to m.),formula,2
 2275,,3,بَرْجَعْلَك بَعْدِين,I'll call you back later (to m.),formula,2
 2276,,3,أَنَا بِالْمَطَار,I'm at the airport,frame,2
 2277,,2,وَيْن بَوَّابِة رَقِم ...؟,Where is gate number...?,frame,4
 2278,,2,الطَّيَّارَة مِتْأَخِّرَة,The plane is delayed,frame,3
 2281,,1,حَقِيبِة,suitcase / bag,noun,3
-2282,,2,شَنْطِةْ سَفَر,travel bag,noun,3
+2282,,2,شَنْطِة سَفَر,travel bag,noun,3
 2285,,3,مُغَادَرَة,departure,noun,4
 2286,,3,وُصُول,arrival,noun,3
 2288,,2,إِلْغَاء,cancellation,noun,4
@@ -1531,7 +1532,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2290,,3,عِنْدِي اِمْتِحَان بُكْرَا,I have an exam tomorrow,frame,3
 2291,,3,لَازِم أَدْرُس,I need to study,frame,2
 2292,,2,نْجَحْت بِالاِمْتِحَان,I passed the exam,formula,2
-2293,,1,رַسַבְת בִالاِمְתִחַאן,I failed the exam,formula,3
+2293,,3,رَسَبْت بِالاِمْتِحَان,I failed the exam,frame,3
 2294,,3,رَسَب,failed (exam),verb,3
 2295,,3,شُو عَلَامْتَك؟,What's your grade? (to m.),formula,3
 2296,,2,مْعَدَّل,GPA / average,noun,3
@@ -1546,13 +1547,13 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2305,,3,اِنْطَرَد مِن الشُّغُل,He got fired,formula,3
 2306,,2,تَرْقِيَة,promotion,noun,4
 2309,,3,حَكَى مَعُو,he spoke with him,frame,2
-2310,,2,فَات,entered,verb,2
+2310,,3,فَات,entered,verb,2
 2311,,3,شَاف,saw,verb,1
 2312,,3,بَلَّش,started,verb,2
 2314,,3,خَلَّص,finished,verb,1
 2315,,3,دَبَّر,managed / arranged,verb,3
 2316,,3,نَقَل,moved / transferred / copied,verb,3
-2317,,1,بַدַّل,changed / switched / exchanged,verb,2
+2317,,3,بَدَّل,changed / switched / exchanged,verb,3
 2318,,3,اِنْكَسَر,got broken,verb,2
 2319,,3,اِنْفَتَح,got opened / opened (intransitive),verb,3
 2320,,3,اِنْسَكَّر,got closed / closed (intransitive),verb,3
@@ -1580,7 +1581,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2349,,2,عَيْنِي حَمْرَا,My eye is red,frame,3
 2350,,2,سْنَانِي بْتُوجَعْنِي,My teeth hurt,frame,2
 2351,,2,ضَهْرِي بْيُوجَعْنِي,My back hurts,frame,2
-2352,,1,مَا بַقְדַר أַתְנַפַّס,I can't breathe,frame,3
+2352,,3,مَا بَقْدَر أَتْنَفَّس,I can't breathe,frame,3
 2353,,2,عِنْدِي سُخُونِيَّة,I have a fever,frame,2
 2354,,3,عِنْدِي إِسْهَال,I have diarrhea,frame,3
 2355,,3,عِنْدِي إِمْسَاك,I have constipation,frame,4
@@ -1615,7 +1616,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2391,,2,مِكْنَسِة كَهْرَبَا,vacuum cleaner,noun,3
 2392,,3,تَنَك,tin can / metal container,noun,4
 2393,,2,قُفِّة,basket / crate,noun,4
-2394,,2,طَنْجَرِةْ ضَغِط,pressure cooker,noun,4
+2394,,3,طُنْجَرَة ضَغِط,pressure cooker,noun,4
 2395,,3,حَبْل,rope / cord,noun,3
 2396,,3,مِسْمَار,nail (hardware),noun,4
 2397,,2,بْرَاغِي,screw,noun,4
@@ -1631,16 +1632,16 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2410,,3,شَحَن,charged (phone/device),verb,2
 2412,,2,عِمِل سْكْرِين شُوت,took a screenshot,verb,3
 2414,,3,سَحَب مَصَارِي,withdrew money,verb,3
-2415,,3,حَوَّل مَصَارِي,transferred money,verb,3
+2415,,3,حَوَّل مَصَارِي,transferred money,frame,3
 2416,,3,فَتَح حِسَاب,opened an account,verb,3
 2419,,2,قَرْض,loan,noun,3
 2420,,2,مِيزَانِيِّة,budget,noun,4
 2421,,2,فَاتُورَةِ الكَهْرَبَا,electricity bill,noun,3
-2422,,2,فَاتُورِة المَيّ,water bill,noun,3
+2422,,2,فَاتُورَة المَيّ,water bill,noun,3
 2423,,2,فَاتُورَةِ التِّلِفُون,phone bill,noun,3
 2424,,2,مِتْأَكِّد؟,Are you sure? (to m.),formula,2
 2425,,2,مِش مِتْأَكِّد,I'm not sure (m.),formula,2
-2426,,1,بْظُنّ آه,I think so,formula,2
+2426,,2,بِظُنّ آه,I think so,formula,2
 2427,,2,بَظُنّ لَأ,I don't think so,formula,2
 2428,,3,بِدُون شَكّ,without a doubt,adverb,3
 2429,,2,إِنْ شَاءَ اللَّه خَيْر,hopefully it's good (worried response),formula,2
@@ -1658,7 +1659,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2441,,2,إِمِّي,my mom (term of endearment),noun,2
 2443,,3,اِبْنِي,my son (term of endearment),noun,2
 2444,,3,بِنْتِي,my daughter (term of endearment),noun,2
-2445,,1,نَفْسִيָּة,mood / psychology / mental state,noun,3
+2445,,2,نَفْسِيِّة,mood / psychology / mental state,noun,3
 2447,,3,اِحْتِرَام,respect,noun,3
 2448,,2,تَقْدِير,appreciation / estimation,noun,4
 2450,,2,اِنْتِمَاء,belonging / identity,noun,4
@@ -1680,7 +1681,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2468,,3,بِكُلّ صَرَاحَة,frankly / honestly,adverb,3
 2469,,3,الحَقِيقَة إِنُّو,the truth is that,frame,3
 2470,,3,لَحَدّ هَلَّأ,until now / so far,adverb,2
-2471,,1,مִن هַלַّأ לַقُدַّام,from now on,adverb,3
+2471,,3,مِن هَلَّأ لَقُدَّام,from now on,adverb,3
 2472,,2,بَيْن قَوْسَيْن,in parentheses / so to speak,adverb,4
 2473,,3,بِمَعْنَى آخَر,in other words,adverb,4
 2474,,2,عَلَى سَبِيل المِثَال,for example (formal),adverb,4
@@ -1704,10 +1705,10 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2494,,2,حَرَق الأَخْضَر وِاليَابِس,destroyed everything (lit: burned green and dry),formula,4
 2495,,3,طِلِع مِن المَوْضُوع,got off topic,verb,4
 2496,,2,دَخَل بِالعَمِيق,got into deep detail,formula,4
-2497,,1,خَلَّى الأُمُور تִمْشִي,let things take their course,formula,4
+2497,,2,خَلَّى الأُمُور تِمْشِي,let things take their course,formula,4
 2498,,3,مَسَك أَعْصَابُو,kept his cool / controlled himself,frame,4
 2499,,3,طَار عَقْلُو,he lost his mind,formula,4
-2500,,1,اِنْقَلَب وִجְהוּ,his expression changed (shock/anger),formula,4
+2500,,3,اِنْقَلَب وِجْهُو,his expression changed (shock/anger),formula,4
 2501,,2,حَطّ إِيدُو بِالنَّار,got himself into trouble,formula,4
 2502,,3,مَشَّى حَالُو,managed / got by,frame,3
 2503,,2,قَلْبُو عَلَى لْسانُو,he speaks his mind (lit: heart on tongue),formula,4
@@ -1717,21 +1718,21 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2507,,2,كِبِر رَاسُه,he became arrogant,formula,4
 2508,,3,إِيدُو فَاضْيَة,he's broke / empty-handed,formula,4
 2509,,2,عَلَى رَاسُو بَطْحَة,he's guilty (lit: he has a bump on his head),formula,4
-2510,,1,مَا بْيִسְوַى,it's worthless / not worth it,formula,3
+2510,,2,مَا بْيِسْوَى,it's worthless / not worth it,formula,3
 2511,,2,بْيِسْوَى,it's worth it,verb,3
 2512,,3,خَلِّيهَا عَلَيّ,leave it to me / my treat,formula,3
-2513,,1,مִش قִصִּتִي,not my problem / not my business,formula,3
+2513,,2,مِش قِصِّتِي,not my problem / not my business,formula,3
 2514,,2,اللَّه يْعَوّْضَك,God compensate you (to m.),formula,3
-2515,,2,اللّٰه يْرُدُّو بِالسَّلَامِة,God return him safely,formula,3
+2515,,2,اللَّه يْرُدُّو بِالسَّلَامِة,God return him safely,formula,3
 2516,,2,اللَّه يْنَوِّر دَرْبَك,God light your path (to m.),formula,3
 2517,,1,تْقَبَّل اللَّه,May God accept (prayers/fasting),formula,3
 2518,,2,اللّه يِفْتَحْها بْوِجْهَك,God open doors for you (to m.),formula,3
 2519,,2,اللَّه يْقَوِّيك,God strengthen you (to m.),formula,2
 2520,,2,اللَّه يْحَقِّقْلَك أَمَانِيك,God fulfill your wishes (to m.),formula,3
-2521,,2,عَلَى خِير,all is well / good,formula,2
+2521,,3,عَلَى خَيْر,all is well / good,formula,2
 2522,,2,بِالرِّفَاه وَالْبَنِين,with prosperity and sons (wedding blessing),formula,4
 2523,,3,هَلّا,now (variant),adverb,3
-2525,,3,شْلُون,how (variant),adverb,4
+2525,,2,شْلُون,how (variant),adverb,5
 2526,,1,قَال بِالقَاف,said (with full qaf — Hebron),verb,4
 2527,,1,كِيفَك يَا قَلْبِي,how are you my heart (Hebron style),formula,4
 2528,,2,مُو,not (northern variant),particle,4
@@ -1744,7 +1745,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2536,,3,قَصّ شَعِر,haircut,noun,3
 2537,,3,السَّلَامُ عَلَيْكُم يَا جَار,Hello neighbor,formula,2
 2538,,3,كِيف الجِيرَان؟,How are the neighbors?,formula,2
-2539,,1,مُمْكִن أَسْتַعִير مִنַّك...؟,Can I borrow... from you? (to m.),frame,3
+2539,,2,مُمْكِن أَسْتَعِير مِنَّك...؟,Can I borrow... from you? (to m.),frame,3
 2540,,3,اِسْتَعَار,borrowed,verb,4
 2541,,3,سَلَّف,lent,verb,3
 2542,,2,رَجَّعْتِيلِّي الطَّنْجَرَة,Did you return my pot? (to f.),formula,4
@@ -1762,12 +1763,12 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2554,,3,عُلُوم,science,noun,3
 2556,,3,جُغْرَافْيَا,geography,noun,3
 2557,,3,اِجْتِمَاعِيَّات,social studies,noun,3
-2558,,2,مْعَلّْمِةِ الصَّفّ,the class teacher (f.),noun,3
+2558,,2,مْعَلّْمِة الصَّفّ,the class teacher (f.),noun,3
 2559,,2,مُدِير المَدْرَسِة,the school principal,noun,3
 2560,,3,حَفْلِة تَخَرُّج,graduation ceremony,noun,3
-2561,,1,כִيف השֻّغֻל מַעַك؟,How's work going for you? (to m.),formula,2
+2561,,3,كَيْف الشُّغُل مَعَك؟,How's work going for you? (to m.),formula,2
 2562,,3,الشُّغُل ضَاغِط,Work is stressful,formula,3
-2563,,1,بִدִّי إِجَازِة,I need a vacation,frame,3
+2563,,3,بِدِّي إِجَازِة,I need a vacation,frame,3
 2564,,1,المُدِير بِيِضْغَط عَلَيْنَا,The boss is pressuring us,frame,3
 2565,,2,ضَغَط,pressured,verb,3
 2567,,3,عَيَّن,hired / appointed,verb,4
@@ -1777,7 +1778,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2573,,3,عَمْ بْدَوِّر عَ شُغُل,I'm looking for work,frame,2
 2574,,2,بِدُّو يِبْلُش,It's about to start,formula,2
 2575,,2,كَانِّي مَا حْكِيت,As if I didn't say anything,formula,3
-2576,,1,مَهْمَا عْمِلְت,No matter what you do (to m.),frame,3
+2576,,3,مَهْمَا عْمِلْت,No matter what you do (to m.),frame,3
 2577,,2,بْتِعْرَف تْسُوق؟,Do you know how to drive? (to m.),frame,2
 2578,,2,بْتِقْدَر تْعَلِّمْنِي؟,Can you teach me? (to m.),formula,2
 2579,,3,لَو سَمَحْت وَرْجِينِي,Please show me (to m.),frame,2
@@ -1786,7 +1787,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2584,,3,فَرَّق,separated / distributed,verb,3
 2585,,1,قَارَن,compared,verb,3
 2586,,3,خَمَّن,guessed,verb,3
-2589,,2,رَتَّب مَوْعِد,arranged an appointment,verb,3
+2589,,3,رَتَّب مَوْعِد,arranged an appointment,verb,3
 2590,,2,لَغَى المَوْعِد,canceled the appointment,verb,3
 2591,,2,غَيَّر المَوْعِد,changed the appointment,frame,3
 2592,,2,أَجَّل المَوْعِد,postponed the appointment,frame,3
@@ -1798,15 +1799,15 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2598,,3,شَكْلِي رَح أَتْأَخَّر,Looks like I'm going to be late,frame,2
 2599,,2,بِيبَيِّن إِنُّو,It seems that / it's apparent that,frame,3
 2600,,2,مَا بِيبَيِّن عَلَيْك,It doesn't show on you (to m.),formula,3
-2601,,1,طִלְעִת أַحְסַן מִמַّא תְוַقַّעְת,It turned out better than I expected,frame,3
+2601,,2,طِلْعَت أَحْسَن مِمَّا تْوَقَّعْت,It turned out better than I expected,frame,3
 2602,,2,مَا تْوَقَّعْت إِنُّو هَيْك,I didn't expect it to be like this,frame,3
 2603,,3,عَ حَسَب شُو بْتِحْكِي,According to what you say (to m.),frame,3
 2604,,2,بِغَضّ النَّظَر عَن هَاد,Regardless of this,frame,4
 2605,,3,كُلّ مَا فَكَّرْت فِيهَا,The more I think about it,frame,3
-2606,,1,مִش بَسّ هֵيك كَمَان,"Not only that, also...",frame,3
+2606,,3,مِش بَسّ هَيْك كَمَان,"Not only that, also...",frame,3
 2607,,3,لَا هَاد وَلَا هَاد,Neither this nor that,formula,3
 2608,,3,بِدِّي أَفْهَم إِشِي,I want to understand something,formula,2
-2609,,1,يَعْنִي بְתִقْصִد,You mean... (to m.),frame,2
+2609,,2,يَعْنِي بْتِقْصِد...,You mean... (to m.),frame,2
 2610,,3,مِش فَاهِم عَلَيْك,I don't understand you (to m.),formula,1
 2611,,2,مُمْكِن تِشْرَحْلِي؟,Can you explain to me? (to m.),formula,2
 2612,,3,إِعَادَة,repetition / replay,noun,3
@@ -1814,7 +1815,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2614,,2,مِن الأَوَّل,from the beginning,adverb,2
 2615,,3,كَرَّر,repeated,verb,3
 2616,,2,خَلِّينِي أَتَأَكَّد,Let me make sure,frame,2
-2617,,2,مِتْأَكّْدِة؟,Are you sure? (to f.),formula,2
+2617,,2,مِتْأَكّْدِة,Are you sure? (to f.),formula,2
 2618,,3,كَرْت,card (general),noun,3
 2619,,3,فْلَاشِة,USB drive / flash drive,noun,3
 2620,,2,سْبِيكَر,speaker,noun,3
@@ -1822,7 +1823,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2622,,3,وَصْلِة,adapter / cable,noun,3
 2623,,2,كَابِل,cable,noun,4
 2626,,2,اِسْتَغَلّ,took advantage of / exploited,verb,4
-2627,,2,أَثَّر,influenced / affected,verb,3
+2627,,1,أَثَّر,influenced / affected,verb,3
 2628,,3,اِهْتَمّ,cared / was interested,verb,3
 2629,,3,هَمَّل,neglected,verb,4
 2630,,3,أَهْمَل,neglected (MSA form),verb,4
@@ -1834,7 +1835,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2638,,2,شُرُوق,sunrise,noun,4
 2640,,2,زَرَع,planted / farmed,verb,3
 2641,,3,حَصَد,harvested,verb,4
-2643,,2,مُوسِم,season (harvest/agricultural),noun,3
+2643,,2,مَوْسِم,season (harvest/agricultural),noun,3
 2644,,2,مَوْسِم الزَّيْتُون,olive season,noun,3
 2645,,3,قَطْف الزَّيْتُون,olive picking,noun,3
 2646,,2,عَصِر الزِّيتُون,olive pressing,noun,3
@@ -1903,8 +1904,8 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2720,,2,بَلَّغ,reported / notified,verb,3
 2721,,3,أَبْلَغ,reported / informed (Form IV),verb,4
 2722,,3,اِسْتَفْسَر,inquired,verb,4
-2724,,1,أَنَا مِن فَلَسْطִين,I'm from Palestine,formula,1
-2725,,1,أַנַא פִלַسְطִينִي,I'm Palestinian (m.),formula,1
+2724,,2,أَنَا مِن فِلَسْطِين,I'm from Palestine,frame,1
+2725,,2,أَنَا فِلَسْطِينِي,I'm Palestinian (m.),frame,2
 2726,,2,أَنَا فِلَسْطِينِيِّة,I'm Palestinian (f.),frame,1
 2727,,2,اللَّه يِحْفَظ فِلَسْطِين,God protect Palestine,formula,3
 2728,,2,عَاشِت فِلَسْطِين,Long live Palestine,formula,4

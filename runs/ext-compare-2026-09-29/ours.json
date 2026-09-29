@@ -720,16 +720,14 @@
  {
   "id": 57,
   "arabic": "مَا",
-  "vocalised": "מַא",
+  "vocalised": "مَا",
   "english": "not (before verbs)",
   "pos": "particle",
   "level": 1,
   "romanization": "ma",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 58,
@@ -1092,7 +1090,7 @@
  {
   "id": 86,
   "arabic": "ثْلَاثَة",
-  "vocalised": "ثْلَاثِة",
+  "vocalised": "تْلَاتِة",
   "english": "three (3)",
   "pos": "noun",
   "level": 1,
@@ -1100,9 +1098,7 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "correction romanization M: tlaate"
+   "vocalised M"
   ]
  },
  {
@@ -1158,18 +1154,14 @@
  {
   "id": 91,
   "arabic": "ثْمَانْيَة",
-  "vocalised": "ثْمَانְيِة",
+  "vocalised": "ثْمَانْيِة",
   "english": "eight (8)",
   "pos": "noun",
   "level": 1,
   "romanization": "tmaanye",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 92,
@@ -1224,17 +1216,16 @@
  {
   "id": 96,
   "arabic": "ثَلَاثْطَعْش",
-  "vocalised": "ثْلَثْطَعْش",
+  "vocalised": "تْلَتْطَعْش",
   "english": "thirteen (13)",
   "pos": "noun",
   "level": 2,
   "romanization": "tlatTa3sh",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L",
-   "native_check"
+   "vocalised M"
   ]
  },
  {
@@ -2293,18 +2284,14 @@
  {
   "id": 177,
   "arabic": "شِتَا",
-  "vocalised": "شִתַא",
+  "vocalised": "شِتَا",
   "english": "winter",
   "pos": "noun",
   "level": 2,
   "romanization": "shita",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters",
-   "correction meaning M: winter; also rain (dialect)"
-  ]
+  "held_on": []
  },
  {
   "id": 178,
@@ -2602,17 +2589,14 @@
  {
   "id": 201,
   "arabic": "أَغْلَب الوَقْت",
-  "vocalised": "أَغْلַب الوַقْت",
+  "vocalised": "أَغْلَب الوَقْت",
   "english": "most of the time",
   "pos": "adverb",
   "level": 3,
   "romanization": "aghlab il-wa't",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 202,
@@ -2761,11 +2745,11 @@
   "english": "breakfast time",
   "pos": "noun",
   "level": 2,
-  "romanization": "wa't il-fuTuur",
+  "romanization": "wa't il-fTuur",
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "romanization M"
   ]
  },
  {
@@ -2852,16 +2836,14 @@
  {
   "id": 220,
   "arabic": "مَا عِنْدِي وَقْت",
-  "vocalised": "مَا عִنْدِي وَقְت",
+  "vocalised": "مَا عِنْدِي وَقْت",
   "english": "I don't have time",
-  "pos": "formula",
+  "pos": "frame",
   "level": 2,
   "romanization": "ma 3indi wa't",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 221,
@@ -2890,16 +2872,14 @@
  {
   "id": 223,
   "arabic": "بِسُرْعَة",
-  "vocalised": "בִسُرְעַة",
+  "vocalised": "بِسُرْعَة",
   "english": "quickly",
   "pos": "adverb",
   "level": 2,
   "romanization": "bisur3a",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 224,
@@ -3125,17 +3105,14 @@
  {
   "id": 242,
   "arabic": "مْنِيحَة",
-  "vocalised": "مْنִيحَة",
+  "vocalised": "مْنِيحَة",
   "english": "good / well (f.)",
   "pos": "adjective",
   "level": 1,
   "romanization": "mnii7a",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 243,
@@ -3330,16 +3307,16 @@
  {
   "id": 257,
   "arabic": "بْشُوفَك بَعْدِين",
-  "vocalised": "بْشُوفَك بَعْدֵين",
+  "vocalised": "بْشُوفَك بَعْدِين",
   "english": "see you later (to m.)",
   "pos": "formula",
-  "level": 1,
+  "level": 2,
   "romanization": "bshuufak ba3deen",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "romanization M",
+   "vocalised M"
   ]
  },
  {
@@ -3549,17 +3526,16 @@
  {
   "id": 274,
   "arabic": "مَعْلَش",
-  "vocalised": "مַעְلִش",
+  "vocalised": "مَعْلَش",
   "english": "never mind / it's OK / sorry",
   "pos": "formula",
   "level": 1,
   "romanization": "ma3lish",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -3742,17 +3718,14 @@
  {
   "id": 289,
   "arabic": "سَلَامْتِك",
-  "vocalised": "سَلَامְתִك",
+  "vocalised": "سَلَامْتِك",
   "english": "get well soon (to f.)",
   "pos": "formula",
-  "level": 1,
+  "level": 2,
   "romanization": "salaamtik",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 290,
@@ -3800,12 +3773,10 @@
   "english": "may God give you patience",
   "pos": "formula",
   "level": 3,
-  "romanization": "allaah ySabbirkum",
-  "confidence": 2,
+  "romanization": "allah ySabbirkum",
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M"
-  ]
+  "held_on": []
  },
  {
   "id": 294,
@@ -3813,14 +3784,12 @@
   "vocalised": "تَقْبُرْنِي",
   "english": "you're so dear to me",
   "pos": "formula",
-  "level": 4,
+  "level": 3,
   "romanization": "ta'burni",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization L",
-   "vocalised L",
-   "native_check"
+   "correction gender M: m"
   ]
  },
  {
@@ -4333,15 +4302,15 @@
  {
   "id": 334,
   "arabic": "بِالآخِر",
-  "vocalised": "بִالْآخִر",
+  "vocalised": "بِالآخِر",
   "english": "in the end / finally",
   "pos": "adverb",
   "level": 2,
   "romanization": "bil-'aakhir",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised has non-Arabic characters"
+   "romanization M"
   ]
  },
  {
@@ -4462,16 +4431,15 @@
  {
   "id": 344,
   "arabic": "غَيْر هَيْك",
-  "vocalised": "غִير הִيك",
+  "vocalised": "غَيْر هَيْك",
   "english": "besides that / other than that",
   "pos": "adverb",
   "level": 3,
   "romanization": "gheer heek",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -4609,7 +4577,7 @@
  {
   "id": 355,
   "arabic": "مَهْمَا",
-  "vocalised": "مَهْما",
+  "vocalised": "مَهْمَا",
   "english": "no matter what",
   "pos": "conjunction",
   "level": 3,
@@ -4831,19 +4799,18 @@
  {
   "id": 373,
   "arabic": "بِتْعَرِف شُو",
-  "vocalised": "بْتִעْרַף شُو",
+  "vocalised": "بْتِعْرَف شُو",
   "english": "you know what (to m.)",
   "pos": "formula",
   "level": 2,
   "romanization": "bti3raf shu",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L",
+   "vocalised M",
    "native_check",
-   "vocalised has non-Arabic characters",
-   "correction harakaat M: بْتِعْرَف"
+   "correction harakaat M: بْتِعْرَف شُو"
   ]
  },
  {
@@ -4928,16 +4895,14 @@
  {
   "id": 380,
   "arabic": "اسْمَعِي",
-  "vocalised": "اِسْمַعִي",
+  "vocalised": "اِسْمَعِي",
   "english": "listen (attention-getter, to f.)",
   "pos": "interjection",
   "level": 2,
   "romanization": "isma3i",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 381,
@@ -5127,9 +5092,9 @@
  {
   "id": 395,
   "arabic": "زَهَقْت",
-  "vocalised": "زْهِقِت",
+  "vocalised": "زْهِقْت",
   "english": "I'm so bored / fed up",
-  "pos": "verb",
+  "pos": "formula",
   "level": 2,
   "romanization": "zhi't",
   "confidence": 2,
@@ -5137,7 +5102,6 @@
   "held_on": [
    "romanization M",
    "vocalised M",
-   "native_check",
    "correction harakaat M: زْهِقْت"
   ]
  },
@@ -5670,17 +5634,14 @@
  {
   "id": 438,
   "arabic": "لَا تِتْعَب حَالَك",
-  "vocalised": "لَا تִתْعַب حَالַك",
+  "vocalised": "لَا تِتْعَب حَالَك",
   "english": "don't trouble yourself (to m.)",
   "pos": "formula",
   "level": 2,
   "romanization": "la tit3ab 7aalak",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 439,
@@ -6197,10 +6158,10 @@
   "pos": "noun",
   "level": 4,
   "romanization": "darzin",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization L",
+   "romanization M",
    "vocalised M",
    "native_check"
   ]
@@ -6208,18 +6169,14 @@
  {
   "id": 479,
   "arabic": "وَاحَد وْعِشْرِين",
-  "vocalised": "وَاحَد وْعِشْرִين",
+  "vocalised": "وَاحَد وْعِشْرِين",
   "english": "twenty-one (21)",
   "pos": "noun",
   "level": 2,
   "romanization": "waa7ad w 3ishriin",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 480,
@@ -6360,16 +6317,14 @@
  {
   "id": 490,
   "arabic": "آخِر مَرَّة",
-  "vocalised": "آخִר מַרַّة",
+  "vocalised": "آخِر مَرَّة",
   "english": "last time",
   "pos": "adverb",
   "level": 2,
   "romanization": "aakhir marra",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 491,
@@ -8034,19 +7989,18 @@
  {
   "id": 621,
   "arabic": "فَرَش",
-  "vocalised": "فَرַّش",
+  "vocalised": "فَرَش",
   "english": "brushed (teeth)",
   "pos": "verb",
-  "level": 2,
-  "romanization": "farrash",
-  "confidence": 1,
+  "level": 3,
+  "romanization": "farash",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
    "native_check",
-   "vocalised has non-Arabic characters",
-   "correction harakaat M: فَرَّش"
+   "correction meaning M: spread out / furnished; brushing is فرّش or فرشى"
   ]
  },
  {
@@ -8967,17 +8921,14 @@
  {
   "id": 693,
   "arabic": "ضَاع",
-  "vocalised": "ضַاע",
+  "vocalised": "ضَاع",
   "english": "got lost",
   "pos": "verb",
   "level": 2,
   "romanization": "Daa3",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters",
-   "correction conjugation M: بيضيع (biDii3) = he gets lost"
-  ]
+  "held_on": []
  },
  {
   "id": 694,
@@ -9471,11 +9422,9 @@
   "pos": "verb",
   "level": 2,
   "romanization": "tlaa'a",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M"
-  ]
+  "held_on": []
  },
  {
   "id": 732,
@@ -9506,16 +9455,14 @@
  {
   "id": 734,
   "arabic": "عَرَّف",
-  "vocalised": "عَرָّف",
+  "vocalised": "عَرَّف",
   "english": "introduced",
   "pos": "verb",
-  "level": 2,
+  "level": 3,
   "romanization": "3arraf",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 735,
@@ -9806,7 +9753,7 @@
   "arabic": "كَم وَاحَد",
   "vocalised": "كَم وَاحَد",
   "english": "how many / a few (people)",
-  "pos": "pronoun",
+  "pos": "frame",
   "level": 2,
   "romanization": "kam waa7ad",
   "confidence": 3,
@@ -9994,7 +9941,7 @@
  {
   "id": 772,
   "arabic": "وَقْت الفَرَاغ",
-  "vocalised": "وَقْت اِلْفَرَاغ",
+  "vocalised": "وَقْت الفَرَاغ",
   "english": "free time",
   "pos": "noun",
   "level": 3,
@@ -10126,12 +10073,9 @@
   "pos": "formula",
   "level": 1,
   "romanization": "ahlan fiikum",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "correction meaning M: welcome to you too (reply to أهلا وسهلا, to pl.)"
-  ]
+  "held_on": []
  },
  {
   "id": 783,
@@ -10872,18 +10816,14 @@
  {
   "id": 840,
   "arabic": "وَاحَد",
-  "vocalised": "وَاحַد",
+  "vocalised": "وَاحَد",
   "english": "someone / a person / one",
-  "pos": "noun",
+  "pos": "pronoun",
   "level": 1,
   "romanization": "waa7ad",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 841,
@@ -11402,17 +11342,16 @@
  {
   "id": 880,
   "arabic": "رِمِش",
-  "vocalised": "رִمִش",
+  "vocalised": "رِمِش",
   "english": "eyelash",
   "pos": "noun",
   "level": 4,
   "romanization": "rimish",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -12747,16 +12686,14 @@
  {
   "id": 984,
   "arabic": "مِتْزَوِّج",
-  "vocalised": "مִتْزَوִّج",
+  "vocalised": "مِتْزَوِّج",
   "english": "married (m.)",
   "pos": "adjective",
   "level": 2,
   "romanization": "mitzawwij",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 985,
@@ -13297,7 +13234,8 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M"
+   "romanization M",
+   "vocalised M"
   ]
  },
  {
@@ -13528,16 +13466,14 @@
  {
   "id": 1044,
   "arabic": "مِشْمِش",
-  "vocalised": "מִשְמִש",
+  "vocalised": "مِشْمِش",
   "english": "apricot",
   "pos": "noun",
   "level": 3,
   "romanization": "mishmish",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1045,
@@ -13730,7 +13666,7 @@
   "vocalised": "هَال",
   "english": "cardamom",
   "pos": "noun",
-  "level": 4,
+  "level": 3,
   "romanization": "haal",
   "confidence": 3,
   "mvp": 0,
@@ -14128,19 +14064,16 @@
  {
   "id": 1090,
   "arabic": "نِيّ",
-  "vocalised": "نَيّ",
+  "vocalised": "نِيّ",
   "english": "raw / uncooked",
   "pos": "adjective",
   "level": 3,
-  "romanization": "nayy",
+  "romanization": "niyy",
   "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "native_check",
-   "correction harakaat M: نَيّ",
-   "correction conjugation M: نَيّة (nayye) f."
+   "vocalised M"
   ]
  },
  {
@@ -14456,17 +14389,14 @@
  {
   "id": 1115,
   "arabic": "مِرَايَة",
-  "vocalised": "مִرָايִة",
+  "vocalised": "مِرَايِة",
   "english": "mirror",
   "pos": "noun",
   "level": 3,
   "romanization": "miraaye",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1116,
@@ -14677,15 +14607,15 @@
  {
   "id": 1131,
   "arabic": "مَرْوَحَة",
-  "vocalised": "مַרְوַחַة",
+  "vocalised": "مَرْوَحَة",
   "english": "fan",
   "pos": "noun",
-  "level": 3,
+  "level": 2,
   "romanization": "marwa7a",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised has non-Arabic characters"
+   "romanization M"
   ]
  },
  {
@@ -14784,17 +14714,16 @@
  {
   "id": 1139,
   "arabic": "جَكِيت",
-  "vocalised": "جَكֵيت",
+  "vocalised": "جَكِيت",
   "english": "jacket",
   "pos": "noun",
-  "level": 2,
+  "level": 3,
   "romanization": "jakeet",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 1,
   "held_on": [
    "romanization M",
-   "vocalised L",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -15053,16 +14982,15 @@
  {
   "id": 1159,
   "arabic": "جَيْبَة",
-  "vocalised": "جֵيبِة",
+  "vocalised": "جَيْبِة",
   "english": "pocket",
   "pos": "noun",
   "level": 3,
   "romanization": "jeebe",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -15170,16 +15098,14 @@
  {
   "id": 1168,
   "arabic": "وَرْدِي",
-  "vocalised": "وַרְדִي",
+  "vocalised": "وَرْدِي",
   "english": "pink",
   "pos": "adjective",
-  "level": 2,
+  "level": 3,
   "romanization": "wardi",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1169,
@@ -15196,15 +15122,15 @@
  {
   "id": 1170,
   "arabic": "رَمَادِي",
-  "vocalised": "رَمָادִي",
+  "vocalised": "رَمَادِي",
   "english": "gray",
   "pos": "adjective",
-  "level": 2,
+  "level": 3,
   "romanization": "ramaadi",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised has non-Arabic characters"
+   "correction variant M: colloquial also سكني (sakani)"
   ]
  },
  {
@@ -15910,9 +15836,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "iijaar",
-  "confidence": 3,
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "romanization M"
+  ]
  },
  {
   "id": 1223,
@@ -16073,16 +16001,14 @@
  {
   "id": 1235,
   "arabic": "حَبْل غَسِيل",
-  "vocalised": "حַבְل غַسִيل",
+  "vocalised": "حَبْل غَسِيل",
   "english": "clothesline",
   "pos": "noun",
   "level": 4,
   "romanization": "7abl ghasiil",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1236,
@@ -17319,17 +17245,18 @@
  {
   "id": 1330,
   "arabic": "بِتْعَرِف وَين الـ...؟",
-  "vocalised": "بْتِعْرَف وֵين ال...؟",
+  "vocalised": "بْتِعْرِف وَين ال...؟",
   "english": "Do you know where the...? (to m.)",
   "pos": "frame",
   "level": 2,
-  "romanization": "bti3raf ween il-",
-  "confidence": 1,
+  "romanization": "bti3rif ween il-",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L",
-   "vocalised has non-Arabic characters"
+   "vocalised M",
+   "native_check",
+   "correction harakaat M: بْتِعْرِف"
   ]
  },
  {
@@ -17400,17 +17327,14 @@
  {
   "id": 1336,
   "arabic": "الجَوّ",
-  "vocalised": "اِلْجَوّ",
+  "vocalised": "الجَوّ",
   "english": "the weather",
   "pos": "noun",
   "level": 2,
   "romanization": "il-jaww",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 1337,
@@ -17534,16 +17458,14 @@
  {
   "id": 1346,
   "arabic": "بَرَد",
-  "vocalised": "בַרַד",
+  "vocalised": "بَرَد",
   "english": "hail",
   "pos": "noun",
   "level": 4,
   "romanization": "barad",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1347,
@@ -17617,9 +17539,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "ruTuube",
-  "confidence": 3,
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised M"
+  ]
  },
  {
   "id": 1353,
@@ -17901,15 +17825,15 @@
  {
   "id": 1373,
   "arabic": "بِرْكَة",
-  "vocalised": "בִרְכֶה",
+  "vocalised": "بِرْكِة",
   "english": "pool / pond",
   "pos": "noun",
   "level": 3,
   "romanization": "birke",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -18150,16 +18074,16 @@
  {
   "id": 1391,
   "arabic": "نَامُوسَة",
-  "vocalised": "نָامُوسِة",
+  "vocalised": "نَامُوسِة",
   "english": "mosquito",
   "pos": "noun",
   "level": 3,
   "romanization": "naamuuse",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "romanization M",
+   "vocalised M"
   ]
  },
  {
@@ -18680,15 +18604,15 @@
  {
   "id": 1432,
   "arabic": "كْنِيسَة القِيَامَة",
-  "vocalised": "كْنِيسِةِ القِيَامِة",
+  "vocalised": "كْنِيسَة القِيَامِة",
   "english": "Church of the Holy Sepulchre",
   "pos": "noun",
   "level": 4,
-  "romanization": "kniisit il-'iyaame",
-  "confidence": 2,
+  "romanization": "kniisat il-'iyaame",
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "romanization M",
+   "romanization L",
    "vocalised M",
    "native_check"
   ]
@@ -18708,16 +18632,15 @@
  {
   "id": 1434,
   "arabic": "المَدِينَة القَدِيمَة",
-  "vocalised": "اِلْمَدִينِة اِلْقَدִيمِة",
+  "vocalised": "المَدِينِة القَدِيمِة",
   "english": "the Old City (general)",
   "pos": "noun",
-  "level": 3,
+  "level": 2,
   "romanization": "il-madiine il-'adiime",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -19002,19 +18925,17 @@
  {
   "id": 1456,
   "arabic": "حَقّ العَوْدَة",
-  "vocalised": "حַقّ العَوְדֶה",
+  "vocalised": "حَقّ العَوْدِة",
   "english": "the right of return",
   "pos": "noun",
-  "level": 3,
-  "romanization": "7aqq il-3awde",
-  "confidence": 1,
+  "level": 4,
+  "romanization": "7a'' il-3awde",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
-   "native_check",
-   "vocalised has non-Arabic characters",
-   "correction romanization L: 7aqq il-3awde"
+   "native_check"
   ]
  },
  {
@@ -19173,7 +19094,7 @@
   "vocalised": "سَمِيك",
   "english": "thick",
   "pos": "adjective",
-  "level": 3,
+  "level": 4,
   "romanization": "samiik",
   "confidence": 3,
   "mvp": 0,
@@ -19182,14 +19103,17 @@
  {
   "id": 1470,
   "arabic": "رَفِيع",
-  "vocalised": "رَفِيع",
+  "vocalised": "رْفِيع",
   "english": "thin / slim (object)",
   "pos": "adjective",
   "level": 3,
-  "romanization": "rafii3",
-  "confidence": 3,
+  "romanization": "rfii3",
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
  },
  {
   "id": 1471,
@@ -19235,9 +19159,11 @@
   "pos": "adjective",
   "level": 1,
   "romanization": "7ilu",
-  "confidence": 3,
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised M"
+  ]
  },
  {
   "id": 1475,
@@ -19733,16 +19659,14 @@
  {
   "id": 1514,
   "arabic": "صَحِيح",
-  "vocalised": "صَحִيح",
+  "vocalised": "صَحِيح",
   "english": "correct / true / right",
   "pos": "adjective",
   "level": 2,
   "romanization": "Sa7ii7",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1515,
@@ -19879,16 +19803,14 @@
  {
   "id": 1526,
   "arabic": "مَجَّانِي",
-  "vocalised": "مَجָּانִي",
+  "vocalised": "مَجَّانِي",
   "english": "free (no cost)",
   "pos": "adjective",
-  "level": 2,
+  "level": 3,
   "romanization": "majjaani",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1527,
@@ -20152,16 +20074,14 @@
  {
   "id": 1548,
   "arabic": "مَعَ بَعْض",
-  "vocalised": "مَعْ بَعِض",
+  "vocalised": "مَع بَعْض",
   "english": "together",
   "pos": "adverb",
   "level": 2,
-  "romanization": "ma3 ba3d",
-  "confidence": 2,
+  "romanization": "ma3 ba3D",
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 1549,
@@ -20608,16 +20528,14 @@
  {
   "id": 1584,
   "arabic": "عَسْكَرِي",
-  "vocalised": "عَسְكَرִي",
+  "vocalised": "عَسْكَرِي",
   "english": "soldier / military",
   "pos": "noun",
   "level": 3,
   "romanization": "3askari",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1585,
@@ -20845,11 +20763,14 @@
   "vocalised": "بَحِث",
   "english": "research / paper",
   "pos": "noun",
-  "level": 4,
+  "level": 3,
   "romanization": "ba7ith",
-  "confidence": 3,
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
  },
  {
   "id": 1604,
@@ -20866,17 +20787,15 @@
  {
   "id": 1605,
   "arabic": "أَلِف بَا",
-  "vocalised": "أַלִף בַא",
+  "vocalised": "أَلِف بَا",
   "english": "alphabet / ABCs",
   "pos": "noun",
-  "level": 4,
+  "level": 3,
   "romanization": "alif baa",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "romanization M"
   ]
  },
  {
@@ -21093,16 +21012,14 @@
  {
   "id": 1623,
   "arabic": "إِمَام",
-  "vocalised": "إִמַאם",
+  "vocalised": "إِمَام",
   "english": "imam / prayer leader",
   "pos": "noun",
   "level": 3,
   "romanization": "imaam",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1624,
@@ -21112,11 +21029,9 @@
   "pos": "noun",
   "level": 3,
   "romanization": "sheekh",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 1625,
@@ -21129,9 +21044,7 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "native_check"
+   "romanization M"
   ]
  },
  {
@@ -21263,11 +21176,9 @@
   "pos": "noun",
   "level": 3,
   "romanization": "munaasabe",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 1636,
@@ -21315,17 +21226,14 @@
  {
   "id": 1639,
   "arabic": "ضَيْف",
-  "vocalised": "ضِيف",
+  "vocalised": "ضَيْف",
   "english": "guest",
   "pos": "noun",
   "level": 2,
   "romanization": "Deef",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "correction conjugation M: ضْيُوف (Dyuuf)"
-  ]
+  "held_on": []
  },
  {
   "id": 1640,
@@ -21623,17 +21531,17 @@
  {
   "id": 1662,
   "arabic": "سِيرَة ذَاتِيَّة",
-  "vocalised": "سִيرَة ذَاتִيָّة",
+  "vocalised": "سِيرَة ذَاتِيِّة",
   "english": "CV / resume",
   "pos": "noun",
   "level": 4,
   "romanization": "siira dhaatiyye",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
-   "vocalised has non-Arabic characters"
+   "native_check"
   ]
  },
  {
@@ -21828,8 +21736,9 @@
   "mvp": 0,
   "held_on": [
    "romanization L",
-   "vocalised L",
-   "native_check"
+   "vocalised M",
+   "native_check",
+   "correction variant L: nidir"
   ]
  },
  {
@@ -22179,17 +22088,14 @@
  {
   "id": 1702,
   "arabic": "نُصّ كِيلُو",
-  "vocalised": "نُصّ كִيلُو",
+  "vocalised": "نُصّ كِيلُو",
   "english": "half a kilo",
   "pos": "noun",
   "level": 2,
   "romanization": "nuSS kiilo",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1703,
@@ -22431,17 +22337,16 @@
  {
   "id": 1721,
   "arabic": "تَابْلِت",
-  "vocalised": "תַאבְלִת",
+  "vocalised": "تَابْلِت",
   "english": "tablet",
   "pos": "noun",
   "level": 3,
   "romanization": "taablit",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -22667,33 +22572,28 @@
  {
   "id": 1738,
   "arabic": "مَايِك",
-  "vocalised": "مَايְك",
+  "vocalised": "مَايْك",
   "english": "microphone",
   "pos": "noun",
   "level": 4,
   "romanization": "maayk",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1739,
   "arabic": "بْرِينْتَر",
-  "vocalised": "بْرِינْتَر",
+  "vocalised": "بْرِنْتَر",
   "english": "printer",
   "pos": "noun",
   "level": 4,
   "romanization": "brintar",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -22984,10 +22884,10 @@
  {
   "id": 1761,
   "arabic": "ابْعَتْلِي فُويْس",
-  "vocalised": "اِبْعَتْلِي فُويْس",
+  "vocalised": "ابْعَتْلِي فُويْس",
   "english": "Send me a voice note (to m.)",
-  "pos": "frame",
-  "level": 2,
+  "pos": "formula",
+  "level": 3,
   "romanization": "ib3atli foys",
   "confidence": 2,
   "mvp": 0,
@@ -23231,16 +23131,15 @@
  {
   "id": 1780,
   "arabic": "بِدِّي أَحْجِز طَاوْلَة",
-  "vocalised": "بِدִّي أَحْجِز طَاوְلِة",
+  "vocalised": "بِدِّي أَحْجِز طَاوْلِة",
   "english": "I'd like to reserve a table",
-  "pos": "formula",
+  "pos": "frame",
   "level": 3,
   "romanization": "biddi a7jiz Taawle",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -23258,16 +23157,15 @@
  {
   "id": 1782,
   "arabic": "قَدِّيش بْتَاخُد عَ...؟",
-  "vocalised": "قَدֵّيش بْتَاخُد عَ...؟",
+  "vocalised": "قَدَّيْش بْتَاخُد عَ...؟",
   "english": "How much to go to...? (taxi, to m.)",
   "pos": "frame",
   "level": 2,
   "romanization": "'addeesh btaakhud 3a",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -23349,17 +23247,14 @@
  {
   "id": 1789,
   "arabic": "مِن إِيمْتَى عِنْدَك هَالوَجَع؟",
-  "vocalised": "مِن إِيمْتَى عِنْدَك هَالْوَجَع؟",
+  "vocalised": "مِن إِيمْتَى عِنْدَك هَالوَجَع",
   "english": "Since when have you had this pain? (to m.)",
   "pos": "frame",
   "level": 3,
-  "romanization": "min eemta 3indak hal-waja3",
-  "confidence": 2,
+  "romanization": "min eemta 3indak halwaja3",
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 1790,
@@ -23404,17 +23299,14 @@
  {
   "id": 1793,
   "arabic": "مَا بَقْدَر أَنَام",
-  "vocalised": "مَا بَقְدَر أَنָام",
+  "vocalised": "مَا بَقْدَر أَنَام",
   "english": "I can't sleep",
-  "pos": "formula",
+  "pos": "frame",
   "level": 2,
   "romanization": "ma ba'dar anaam",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1794,
@@ -23506,16 +23398,14 @@
  {
   "id": 1801,
   "arabic": "بِدَّك كَمَان؟",
-  "vocalised": "بِدַّك كَمَان؟",
+  "vocalised": "بِدَّك كَمَان؟",
   "english": "Do you want more? (to m.)",
   "pos": "formula",
   "level": 1,
   "romanization": "biddak kamaan",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1802,
@@ -23585,16 +23475,15 @@
  {
   "id": 1807,
   "arabic": "البَيْت كْتِير حِلْو",
-  "vocalised": "اِلْبֵيت كْتِير حِلُو",
+  "vocalised": "البَيْت كْتِير حِلُو",
   "english": "The house is very nice",
   "pos": "frame",
   "level": 2,
   "romanization": "il-beet ktiir 7ilu",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -23865,9 +23754,11 @@
   "pos": "formula",
   "level": 2,
   "romanization": "awwal marra btiiji",
-  "confidence": 3,
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "correction meaning M: Is it your first time coming? (to m./f.)"
+  ]
  },
  {
   "id": 1828,
@@ -23942,8 +23833,7 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M"
+   "romanization M"
   ]
  },
  {
@@ -23988,17 +23878,16 @@
  {
   "id": 1837,
   "arabic": "اتِّصْلُو عَ الشُّرْطَة",
-  "vocalised": "اِتַّصְلُو عَ الشُّرְطַה",
+  "vocalised": "اتِّصْلُو عَ الشُّرْطَة",
   "english": "Call the police (to pl.)",
-  "pos": "frame",
-  "level": 3,
-  "romanization": "ittaSlu 3ash-shurTa",
-  "confidence": 1,
+  "pos": "formula",
+  "level": 2,
+  "romanization": "ittiSlu 3ash-shurTa",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -24033,32 +23922,28 @@
  {
   "id": 1840,
   "arabic": "اِنْسَرَقْت",
-  "vocalised": "اِنْسַרַقִت",
+  "vocalised": "اِنْسَرَقْت",
   "english": "I got robbed",
   "pos": "verb",
   "level": 3,
   "romanization": "insara't",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1841,
   "arabic": "ضَاع تَلَفُونِي",
-  "vocalised": "ضَاع تَلَفُونִي",
+  "vocalised": "ضَاع تَلَفُونِي",
   "english": "My phone got lost",
-  "pos": "formula",
+  "pos": "frame",
   "level": 2,
   "romanization": "Daa3 talafooni",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -24209,17 +24094,15 @@
  {
   "id": 1853,
   "arabic": "يِعْطِيكِي العَافِيَة",
-  "vocalised": "يِعْطִيكِي العَافְיֵה",
+  "vocalised": "يِعْطِيكِي العَافْيِة",
   "english": "God give you strength (to f.)",
   "pos": "formula",
   "level": 1,
   "romanization": "yi3Tiiki il-3aafye",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised L",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -24756,17 +24639,14 @@
  {
   "id": 1895,
   "arabic": "مُمْكِن تْسَاعِدْنِي؟",
-  "vocalised": "مُمْكִن تْسَاعִדْנִי؟",
+  "vocalised": "مُمْكِن تْسَاعِدْنِي؟",
   "english": "Can you help me? (to m.)",
   "pos": "frame",
   "level": 1,
   "romanization": "mumkin tsaa3idni",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1896,
@@ -25316,17 +25196,14 @@
  {
   "id": 1938,
   "arabic": "حَكَتْلِي إِنُّو",
-  "vocalised": "חַكַתְלִي إִנُّو",
+  "vocalised": "حَكَتْلِي إِنُّو",
   "english": "She told me that",
   "pos": "frame",
   "level": 2,
   "romanization": "7akatli innu",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1939,
@@ -25399,8 +25276,8 @@
   "arabic": "لَا تْرُوح",
   "vocalised": "لَا تْرُوح",
   "english": "Don't go (to m.)",
-  "pos": "formula",
-  "level": 1,
+  "pos": "frame",
+  "level": 2,
   "romanization": "la truu7",
   "confidence": 3,
   "mvp": 0,
@@ -25517,30 +25394,26 @@
  {
   "id": 1954,
   "arabic": "عِنْدُو مَشَاكِل",
-  "vocalised": "عִنْدُو مَشَاكִل",
+  "vocalised": "عِنْدُو مَشَاكِل",
   "english": "He has problems",
   "pos": "frame",
   "level": 2,
   "romanization": "3indu mashaakil",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1955,
   "arabic": "إِلِي صَاحِب",
-  "vocalised": "إִלִي صַاחִب",
+  "vocalised": "إِلِي صَاحِب",
   "english": "I have a friend (lit: to me a friend)",
   "pos": "frame",
   "level": 3,
   "romanization": "ili Saa7ib",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1956,
@@ -25699,17 +25572,14 @@
  {
   "id": 1968,
   "arabic": "شُو عَمْ بْتِعْمَل؟",
-  "vocalised": "شُو עַם בְּתִעְמַל؟",
+  "vocalised": "شُو عَمْ بْتِعْمَل؟",
   "english": "What are you doing? (to m.)",
   "pos": "formula",
   "level": 1,
   "romanization": "shu 3am bti3mal",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1969,
@@ -25813,16 +25683,14 @@
  {
   "id": 1977,
   "arabic": "رَحْ تِنْدَم",
-  "vocalised": "رَحْ تִنْدَم",
+  "vocalised": "رَح تِنْدَم",
   "english": "You'll regret it (to m.)",
-  "pos": "formula",
+  "pos": "frame",
   "level": 3,
   "romanization": "ra7 tindam",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1978,
@@ -25868,17 +25736,17 @@
  {
   "id": 1981,
   "arabic": "لَمَّا كُنْت صْغِير",
-  "vocalised": "לַמַّא כֻנְת צְغִير",
+  "vocalised": "لَمَّا كُنْت زْغِير",
   "english": "When I was young",
   "pos": "frame",
-  "level": 3,
-  "romanization": "lamma kunt Sghiir",
-  "confidence": 1,
+  "level": 2,
+  "romanization": "lamma kunt zghiir",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
-   "vocalised has non-Arabic characters"
+   "native_check"
   ]
  },
  {
@@ -25908,17 +25776,14 @@
  {
   "id": 1984,
   "arabic": "بْتِعْرَف لَيْش؟",
-  "vocalised": "بْتִعْرَف لֵيش؟",
+  "vocalised": "بْتِعْرَف لَيْش؟",
   "english": "Do you know why? (to m.)",
-  "pos": "formula",
+  "pos": "frame",
   "level": 2,
   "romanization": "bti3raf leesh",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 1985,
@@ -26044,14 +25909,16 @@
  {
   "id": 1994,
   "arabic": "اللَّه يَا لَطِيف شُو حَرّ",
-  "vocalised": "اللّٰه يَا لَطِيف شُو حَرّ",
+  "vocalised": "اللَّه يَا لَطِيف شُو حَرّ",
   "english": "Oh my, how hot it is",
   "pos": "frame",
   "level": 3,
-  "romanization": "allah ya laTiif shu 7arr",
-  "confidence": 3,
+  "romanization": "allaah ya laTiif shu 7arr",
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "romanization M"
+  ]
  },
  {
   "id": 1995,
@@ -26208,17 +26075,14 @@
  {
   "id": 2006,
   "arabic": "اللِّي صَار إِنُّو",
-  "vocalised": "اِللִّي صَار إِنּو",
+  "vocalised": "اللِّي صَار إِنُّو",
   "english": "What happened was that",
   "pos": "frame",
   "level": 3,
   "romanization": "illi Saar innu",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2007,
@@ -26773,7 +26637,7 @@
  {
   "id": 2049,
   "arabic": "بِغِضّ النَّظَر عَن",
-  "vocalised": "بِغَضِّ النَّظَر عَن",
+  "vocalised": "بِغَضّ النَّظَر عَن",
   "english": "regardless of",
   "pos": "preposition",
   "level": 4,
@@ -26781,7 +26645,8 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M"
+   "romanization M",
+   "vocalised M"
   ]
  },
  {
@@ -27267,7 +27132,7 @@
  {
   "id": 2086,
   "arabic": "بِالعَرَبِي",
-  "vocalised": "بِالْعَرَبِي",
+  "vocalised": "بِالعَرَبِي",
   "english": "to put it plainly (lit: in Arabic)",
   "pos": "adverb",
   "level": 2,
@@ -27358,16 +27223,14 @@
  {
   "id": 2093,
   "arabic": "اللِّي فَات مَات",
-  "vocalised": "اللִّي פַאת מַאת",
+  "vocalised": "اللِّي فَات مَات",
   "english": "What's past is dead (= let it go)",
   "pos": "formula",
   "level": 3,
   "romanization": "illi faat maat",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2094,
@@ -27523,7 +27386,7 @@
   "english": "Take care of yourself (to m.)",
   "pos": "formula",
   "level": 2,
-  "romanization": "deer baalak 3a 7aalak",
+  "romanization": "diir baalak 3a 7aalak",
   "confidence": 3,
   "mvp": 0,
   "held_on": []
@@ -27607,17 +27470,14 @@
  {
   "id": 2111,
   "arabic": "اللَّه يْرَحِم أَيَّامُو",
-  "vocalised": "اللَّه يִرْحَم أَيָّامُو",
+  "vocalised": "اللَّه يِرْحَم أَيَّامُو",
   "english": "God bless those days (nostalgia)",
   "pos": "formula",
-  "level": 4,
-  "romanization": "allaah yir7am ayyaamu",
-  "confidence": 1,
+  "level": 3,
+  "romanization": "allah yir7am ayyaamu",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters",
    "correction harakaat M: اللَّه يِرْحَم أَيَّامُو"
   ]
  },
@@ -27674,16 +27534,14 @@
  {
   "id": 2116,
   "arabic": "بَلَا مَصْخَرَة",
-  "vocalised": "بَلָا مَصْخَرَة",
+  "vocalised": "بَلَا مَصْخَرَة",
   "english": "stop joking / be serious",
   "pos": "formula",
-  "level": 3,
+  "level": 4,
   "romanization": "bala maSkhara",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2117,
@@ -27712,17 +27570,14 @@
  {
   "id": 2119,
   "arabic": "اللَّه يِلْعَن أَبُو...",
-  "vocalised": "اللَّه يִلْعَن أَبُو",
+  "vocalised": "اللَّه يِلْعَن أَبُو...",
   "english": "damn the father of... (= damn...)",
   "pos": "frame",
   "level": 3,
-  "romanization": "allaah yil3an abu",
-  "confidence": 1,
+  "romanization": "allah yil3an abu",
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2120,
@@ -28104,7 +27959,7 @@
  {
   "id": 2148,
   "arabic": "مِش فَايْتِتْلِي",
-  "vocalised": "مِش فَايְתִתْلِي",
+  "vocalised": "مِش فَايْتِتْلِي",
   "english": "I can't handle it / it doesn't fit in my head",
   "pos": "formula",
   "level": 4,
@@ -28112,10 +27967,9 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "romanization M",
+   "romanization L",
    "vocalised L",
-   "native_check",
-   "vocalised has non-Arabic characters"
+   "native_check"
   ]
  },
  {
@@ -28137,16 +27991,15 @@
  {
   "id": 2150,
   "arabic": "مِن تَحْت لَتَحْت",
-  "vocalised": "מִن תַحְת לַתַحְת",
+  "vocalised": "مِن تَحْت لَتَحْت",
   "english": "sneakily / under the table",
   "pos": "adverb",
   "level": 4,
   "romanization": "min ta7t lata7t",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "romanization M"
   ]
  },
  {
@@ -28815,12 +28668,9 @@
   "pos": "noun",
   "level": 3,
   "romanization": "khiyaar",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 2204,
@@ -29096,16 +28946,14 @@
  {
   "id": 2225,
   "arabic": "شَرَف",
-  "vocalised": "שַרַף",
+  "vocalised": "شَرَف",
   "english": "honor",
   "pos": "noun",
   "level": 3,
   "romanization": "sharaf",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2226,
@@ -29153,12 +29001,13 @@
   "pos": "noun",
   "level": 3,
   "romanization": "kidhbe",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "romanization M",
+   "romanization L",
    "vocalised M",
-   "native_check"
+   "native_check",
+   "correction variant L: kizbe"
   ]
  },
  {
@@ -29257,11 +29106,9 @@
   "pos": "noun",
   "level": 3,
   "romanization": "raa7a",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M"
-  ]
+  "held_on": []
  },
  {
   "id": 2238,
@@ -29724,17 +29571,15 @@
  {
   "id": 2273,
   "arabic": "الخَطّ بِيقْطَع",
-  "vocalised": "الخَطّ بِيقْطַع",
+  "vocalised": "الخَطّ بْيِقْطَع",
   "english": "The line keeps cutting out",
   "pos": "formula",
   "level": 3,
-  "romanization": "il-khaTT bi'Ta3",
-  "confidence": 1,
+  "romanization": "il-khaTT byi'Ta3",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -29849,7 +29694,7 @@
  {
   "id": 2282,
   "arabic": "شَنْطَة سَفَر",
-  "vocalised": "شَنْطِةْ سَفَر",
+  "vocalised": "شَنْطِة سَفَر",
   "english": "travel bag",
   "pos": "noun",
   "level": 3,
@@ -29857,6 +29702,7 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
+   "romanization M",
    "vocalised M"
   ]
  },
@@ -29992,17 +29838,14 @@
  {
   "id": 2293,
   "arabic": "رَسَبْت بِالاِمْتِحَان",
-  "vocalised": "رַسַבְת בִالاِمְתִחַאן",
+  "vocalised": "رَسَبْت بِالاِمْتِحَان",
   "english": "I failed the exam",
-  "pos": "formula",
+  "pos": "frame",
   "level": 3,
   "romanization": "rasabt bil-imti7aan",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2294,
@@ -30220,11 +30063,9 @@
   "pos": "verb",
   "level": 2,
   "romanization": "faat",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "correction meaning M: entered / went in; also passed (time)"
-  ]
+  "held_on": []
  },
  {
   "id": 2311,
@@ -30303,17 +30144,14 @@
  {
   "id": 2317,
   "arabic": "بَدَّل",
-  "vocalised": "بַدַّل",
+  "vocalised": "بَدَّل",
   "english": "changed / switched / exchanged",
   "pos": "verb",
-  "level": 2,
+  "level": 3,
   "romanization": "baddal",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised has non-Arabic characters",
-   "correction conjugation M: ببدّل (babaddil) = I change"
-  ]
+  "held_on": []
  },
  {
   "id": 2318,
@@ -30556,8 +30394,7 @@
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "correction meaning M: granted success (esp. God) / reconciled",
-   "correction conjugation M: بيوفّق (biwaffi') = he grants success"
+   "correction conjugation M: بيوفّق (byiwaffi') = he grants success"
   ]
  },
  {
@@ -30619,8 +30456,7 @@
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M"
+   "correction conjugation M: بستخبى (bastakhba) = I hide"
   ]
  },
  {
@@ -30763,17 +30599,14 @@
  {
   "id": 2352,
   "arabic": "مَا بَقْدَر أَتْنَفَّس",
-  "vocalised": "مَا بַقְדַר أַתְנַפַّס",
+  "vocalised": "مَا بَقْدَر أَتْنَفَّس",
   "english": "I can't breathe",
   "pos": "frame",
   "level": 3,
   "romanization": "ma ba'dar atnaffas",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2353,
@@ -31332,18 +31165,14 @@
  {
   "id": 2394,
   "arabic": "طُنْجَرَة ضَغِط",
-  "vocalised": "طَنْجَرِةْ ضَغِط",
+  "vocalised": "طُنْجَرَة ضَغِط",
   "english": "pressure cooker",
   "pos": "noun",
   "level": 4,
-  "romanization": "Tanjarit DaghiT",
-  "confidence": 2,
+  "romanization": "Tunjarat DaghiT",
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M",
-   "correction harakaat M: طَنْجَرَة"
-  ]
+  "held_on": []
  },
  {
   "id": 2395,
@@ -31615,7 +31444,7 @@
   "arabic": "حَوَّل مَصَارِي",
   "vocalised": "حَوَّل مَصَارِي",
   "english": "transferred money",
-  "pos": "verb",
+  "pos": "frame",
   "level": 3,
   "romanization": "7awwal maSaari",
   "confidence": 3,
@@ -31709,11 +31538,11 @@
  {
   "id": 2422,
   "arabic": "فَاتُورَة المَيّ",
-  "vocalised": "فَاتُورِة المَيّ",
+  "vocalised": "فَاتُورَة المَيّ",
   "english": "water bill",
   "pos": "noun",
   "level": 3,
-  "romanization": "faatuurit il-mayy",
+  "romanization": "faatuurat il-mayy",
   "confidence": 2,
   "mvp": 0,
   "held_on": [
@@ -31771,15 +31600,15 @@
  {
   "id": 2426,
   "arabic": "بِظُنّ آه",
-  "vocalised": "بْظُنّ آه",
+  "vocalised": "بِظُنّ آه",
   "english": "I think so",
   "pos": "formula",
   "level": 2,
   "romanization": "bTHunn aah",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization L",
+   "romanization M",
    "vocalised M",
    "native_check"
   ]
@@ -32025,16 +31854,15 @@
  {
   "id": 2445,
   "arabic": "نَفْسِيَّة",
-  "vocalised": "نَفْسִيָּة",
+  "vocalised": "نَفْسِيِّة",
   "english": "mood / psychology / mental state",
   "pos": "noun",
   "level": 3,
   "romanization": "nafsiyye",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -32365,17 +32193,14 @@
  {
   "id": 2471,
   "arabic": "مِن هَلَّأ لَقُدَّام",
-  "vocalised": "مִن هַלַّأ לַقُدַّام",
+  "vocalised": "مِن هَلَّأ لَقُدَّام",
   "english": "from now on",
   "pos": "adverb",
   "level": 3,
   "romanization": "min halla' la'uddaam",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2472,
@@ -32723,19 +32548,16 @@
  {
   "id": 2497,
   "arabic": "خَلَّى الأُمُور تِمْشِي",
-  "vocalised": "خَلَّى الأُمُور تִمْشִي",
+  "vocalised": "خَلَّى الأُمُور تِمْشِي",
   "english": "let things take their course",
   "pos": "formula",
   "level": 4,
   "romanization": "khalla il-'umuur timshi",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "native_check",
-   "vocalised has non-Arabic characters",
-   "correction harakaat L: خَلِّي"
+   "vocalised M"
   ]
  },
  {
@@ -32765,17 +32587,14 @@
  {
   "id": 2500,
   "arabic": "اِنْقَلَب وِجْهُو",
-  "vocalised": "اِنْقَلَب وִجְהוּ",
+  "vocalised": "اِنْقَلَب وِجْهُو",
   "english": "his expression changed (shock/anger)",
   "pos": "formula",
   "level": 4,
   "romanization": "in'alab wijhu",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2501,
@@ -32911,17 +32730,15 @@
  {
   "id": 2510,
   "arabic": "مَا بِيسْوَى",
-  "vocalised": "مَا بْيִسְوַى",
+  "vocalised": "مَا بْيِسْوَى",
   "english": "it's worthless / not worth it",
   "pos": "formula",
   "level": 3,
   "romanization": "ma byiswa",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised L",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -32953,16 +32770,16 @@
  {
   "id": 2513,
   "arabic": "مِش قِصِّتِي",
-  "vocalised": "مִش قִصִּتִي",
+  "vocalised": "مِش قِصِّتِي",
   "english": "not my problem / not my business",
   "pos": "formula",
   "level": 3,
   "romanization": "mish 'iSSiti",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "romanization M",
+   "vocalised M"
   ]
  },
  {
@@ -32983,11 +32800,11 @@
  {
   "id": 2515,
   "arabic": "اللَّه يْرِدُّو بِالسَّلَامَة",
-  "vocalised": "اللّٰه يْرُدُّو بِالسَّلَامِة",
+  "vocalised": "اللَّه يْرُدُّو بِالسَّلَامِة",
   "english": "God return him safely",
   "pos": "formula",
   "level": 3,
-  "romanization": "allah yruddo bis-salaame",
+  "romanization": "allaah yruddu bis-salaame",
   "confidence": 2,
   "mvp": 0,
   "held_on": [
@@ -33075,17 +32892,14 @@
  {
   "id": 2521,
   "arabic": "عَلَى خَيْر",
-  "vocalised": "عَلَى خِير",
+  "vocalised": "عَلَى خَيْر",
   "english": "all is well / good",
   "pos": "formula",
   "level": 2,
   "romanization": "3ala kheer",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "correction meaning M: (hopefully) all will be well; well, fine"
-  ]
+  "held_on": []
  },
  {
   "id": 2522,
@@ -33136,11 +32950,15 @@
   "vocalised": "شْلُون",
   "english": "how (variant)",
   "pos": "adverb",
-  "level": 4,
+  "level": 5,
   "romanization": "shloon",
-  "confidence": 3,
+  "confidence": 2,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
  },
  {
   "id": 2526,
@@ -33330,17 +33148,16 @@
  {
   "id": 2539,
   "arabic": "مُمْكِن أَسْتَعِير مِنَّك...؟",
-  "vocalised": "مُمْكִن أَسْتַعִير مִنַّك...؟",
+  "vocalised": "مُمْكِن أَسْتَعِير مِنَّك...؟",
   "english": "Can I borrow... from you? (to m.)",
   "pos": "frame",
   "level": 3,
   "romanization": "mumkin asta3iir minnak",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "vocalised M"
   ]
  },
  {
@@ -33580,7 +33397,7 @@
  {
   "id": 2558,
   "arabic": "مُعَلِّمَة الصَّفّ",
-  "vocalised": "مْعَلّْمِةِ الصَّفّ",
+  "vocalised": "مْعَلّْمِة الصَّفّ",
   "english": "the class teacher (f.)",
   "pos": "noun",
   "level": 3,
@@ -33621,17 +33438,14 @@
  {
   "id": 2561,
   "arabic": "كِيف الشُّغُل مَعَك؟",
-  "vocalised": "כִيف השֻّغֻל מַעַك؟",
+  "vocalised": "كَيْف الشُّغُل مَعَك؟",
   "english": "How's work going for you? (to m.)",
   "pos": "formula",
   "level": 2,
   "romanization": "keef ish-shughul ma3ak",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2562,
@@ -33648,17 +33462,14 @@
  {
   "id": 2563,
   "arabic": "بِدِّي إِجَازَة",
-  "vocalised": "بִدִّי إِجَازِة",
+  "vocalised": "بِدِّي إِجَازِة",
   "english": "I need a vacation",
   "pos": "frame",
   "level": 3,
   "romanization": "biddi ijaaze",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised L",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2564,
@@ -33828,17 +33639,14 @@
  {
   "id": 2576,
   "arabic": "مَهْمَا عْمِلْت",
-  "vocalised": "مَهْمَا عْمِلְت",
+  "vocalised": "مَهْمَا عْمِلْت",
   "english": "No matter what you do (to m.)",
   "pos": "frame",
   "level": 3,
   "romanization": "mahma 3milt",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2577,
@@ -34007,12 +33815,9 @@
   "pos": "verb",
   "level": 3,
   "romanization": "rattab maw3id",
-  "confidence": 2,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "romanization M",
-   "vocalised M"
-  ]
+  "held_on": []
  },
  {
   "id": 2590,
@@ -34171,17 +33976,19 @@
  {
   "id": 2601,
   "arabic": "طِلِعْت أَحْسَن مِمَّا تَوَقَّعْت",
-  "vocalised": "طִלְעִת أַحְסַן מִמַّא תְוַقַّעְת",
+  "vocalised": "طِلْعَت أَحْسَن مِمَّا تْوَقَّعْت",
   "english": "It turned out better than I expected",
   "pos": "frame",
   "level": 3,
-  "romanization": "Til3it a7san mimma twa''a3t",
-  "confidence": 1,
+  "romanization": "Til3at a7san mimma twa''a3t",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
-   "vocalised has non-Arabic characters"
+   "native_check",
+   "correction harakaat M: طِلْعَت",
+   "correction romanization M: twa''a3t"
   ]
  },
  {
@@ -34240,17 +34047,14 @@
  {
   "id": 2606,
   "arabic": "مِش بَسّ هَيْك كَمَان...",
-  "vocalised": "مִش بَسّ هֵيك كَمَان",
+  "vocalised": "مِش بَسّ هَيْك كَمَان",
   "english": "Not only that, also...",
   "pos": "frame",
   "level": 3,
   "romanization": "mish bass heek kamaan",
-  "confidence": 1,
+  "confidence": 3,
   "mvp": 0,
-  "held_on": [
-   "vocalised M",
-   "vocalised has non-Arabic characters"
-  ]
+  "held_on": []
  },
  {
   "id": 2607,
@@ -34279,19 +34083,18 @@
  {
   "id": 2609,
   "arabic": "يَعْنِي بِتْقَصِد...",
-  "vocalised": "يَعْنִي بְתִقْصִد",
+  "vocalised": "يَعْنِي بْتِقْصِد...",
   "english": "You mean... (to m.)",
   "pos": "frame",
   "level": 2,
   "romanization": "ya3ni bti'Sid",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
    "native_check",
-   "vocalised has non-Arabic characters",
-   "correction harakaat M: يَعْنِي بْتِقْصِد..."
+   "correction harakaat M: بْتِقْصِد"
   ]
  },
  {
@@ -34393,7 +34196,7 @@
  {
   "id": 2617,
   "arabic": "مِتَأَكِّدَة؟",
-  "vocalised": "مِتْأَكّْدِة؟",
+  "vocalised": "مِتْأَكّْدِة",
   "english": "Are you sure? (to f.)",
   "pos": "formula",
   "level": 2,
@@ -34501,11 +34304,11 @@
  {
   "id": 2625,
   "arabic": "تَعَجَّب",
-  "vocalised": "تْعَجَّب",
+  "vocalised": "تَعَجَّب",
   "english": "was amazed / wondered",
   "pos": "verb",
   "level": 4,
-  "romanization": "t3ajjab",
+  "romanization": "ta3ajjab",
   "confidence": 2,
   "mvp": 0,
   "held_on": [
@@ -34534,11 +34337,12 @@
   "english": "influenced / affected",
   "pos": "verb",
   "level": 3,
-  "romanization": "aththar",
-  "confidence": 2,
+  "romanization": "assar",
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "romanization M",
+   "romanization L",
+   "vocalised M",
    "native_check"
   ]
  },
@@ -34739,16 +34543,15 @@
  {
   "id": 2643,
   "arabic": "مَوْسِم",
-  "vocalised": "مُوسِم",
+  "vocalised": "مَوْسِم",
   "english": "season (harvest/agricultural)",
   "pos": "noun",
   "level": 3,
-  "romanization": "moosim",
+  "romanization": "mawsim",
   "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M"
+   "romanization M"
   ]
  },
  {
@@ -35797,34 +35600,29 @@
  {
   "id": 2724,
   "arabic": "أَنَا مِن فِلَسْطِين",
-  "vocalised": "أَنَا مِن فَلَسْطִين",
+  "vocalised": "أَنَا مِن فِلَسْطِين",
   "english": "I'm from Palestine",
-  "pos": "formula",
+  "pos": "frame",
   "level": 1,
-  "romanization": "ana min falasTiin",
-  "confidence": 1,
+  "romanization": "ana min filasTiin",
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "native_check",
-   "vocalised has non-Arabic characters"
+   "romanization M"
   ]
  },
  {
   "id": 2725,
   "arabic": "أَنَا فِلَسْطِينِي",
-  "vocalised": "أַנַא פִלַسְطִينִي",
+  "vocalised": "أَنَا فِلَسْطِينِي",
   "english": "I'm Palestinian (m.)",
-  "pos": "formula",
-  "level": 1,
+  "pos": "frame",
+  "level": 2,
   "romanization": "ana filasTiini",
-  "confidence": 1,
+  "confidence": 2,
   "mvp": 0,
   "held_on": [
-   "romanization M",
-   "vocalised M",
-   "vocalised has non-Arabic characters"
+   "romanization M"
   ]
  },
  {
@@ -35916,7 +35714,7 @@
   "vocalised": "عَاطِل",
   "english": "bad",
   "pos": "adjective",
-  "level": 3,
+  "level": 2,
   "romanization": "3aaTil",
   "confidence": 3,
   "mvp": 1,

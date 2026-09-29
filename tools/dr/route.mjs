@@ -1,15 +1,29 @@
 // Confidence -> status routing and review_confidence derivation
-// (dr-runner-spec.md §7.2, dr-scoped-pass.md §3). No pair rule: scoped pass
-// collects no pair claims.
+// (dr-runner-spec.md §7.2, dr-scoped-pass.md §3 as amended by D276). No pair
+// rule: scoped pass collects no pair claims.
+//
+// D276: review_confidence says whether the word's data is accurate — its
+// pronunciation and its Arabic — not how sure the model is of its level band.
+// `level_conf` and `enum_conf` are still recorded in `routing`, but no longer
+// score or hold a row. Row status follows the score: only a 3 is `auto`.
 
-const CORRECTION_TYPES_THAT_CAP_SCORE = new Set(['meaning', 'harakaat', 'romanization']);
+// Pronunciation fields: the only field confidences that score a row (D276).
+const SCORED_FIELDS = ['romanization', 'arabic_vocalised'];
+
+// D274: M/L corrections to the Arabic are not applied, so the source value
+// stays unverified; M/L `meaning` fixes apply but still cap (D245's open point,
+// settled by D276). H corrections apply cleanly and do not cap. `notes`, `pos`,
+// `tag`, `duplicate` and `gap` never cap.
+const CORRECTION_TYPES_THAT_CAP_SCORE = new Set(
+  ['meaning', 'harakaat', 'romanization', 'variant', 'conjugation', 'root', 'gender']);
 
 function isAuto(conf) {
   return conf === 'H';
 }
 
 function hasCappingCorrection(corrections) {
-  return Array.isArray(corrections) && corrections.some((c) => CORRECTION_TYPES_THAT_CAP_SCORE.has(c?.type));
+  return Array.isArray(corrections) &&
+    corrections.some((c) => c?.conf !== 'H' && CORRECTION_TYPES_THAT_CAP_SCORE.has(c?.type));
 }
 
 /**
@@ -30,22 +44,16 @@ export function routeRow(obj) {
     routing[field] = isAuto(conf) ? 'auto' : 'held';
   }
 
-  const allFieldsAuto = Object.values(routing).every((s) => s === 'auto');
-  const status = allFieldsAuto && obj.native_check === false ? 'auto' : 'held';
-
-  const criticalConfs = Object.values(fieldConf);
-  const anyL = criticalConfs.includes('L');
-  const anyM = criticalConfs.includes('M');
-  const cappingCorrection = hasCappingCorrection(obj.corrections);
-
+  const scoredConfs = SCORED_FIELDS.map((f) => fieldConf[f]);
   let review_confidence;
-  if (anyL) {
+  if (scoredConfs.includes('L')) {
     review_confidence = 1;
-  } else if (anyM || obj.native_check === true || cappingCorrection) {
+  } else if (scoredConfs.includes('M') || obj.native_check === true || hasCappingCorrection(obj.corrections)) {
     review_confidence = 2;
   } else {
     review_confidence = 3;
   }
 
+  const status = review_confidence === 3 ? 'auto' : 'held';
   return { status, routing, review_confidence };
 }

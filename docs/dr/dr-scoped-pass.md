@@ -47,17 +47,21 @@ Deferred items are attached to a gate, not to a list. The §J bullet list alread
 
 New column on `dictionary`, written at promotion. Distinct from the legacy `confidence` column, which is generation-time and near-useless as signal (2,422 of 2,728 rows are a 5). The legacy column is not a selection signal anywhere after this pass.
 
-**Critical fields:** `level`, `romanization`, `arabic_vocalised`, and the enum triple (`pos`, `register`, `form_origin`) which carries one shared `enum_conf`.
+**Amended by D276 (chat 31): the score says whether the word's data is accurate, not how sure the model is of its level band.** A level one band off teaches a word slightly early or late; a wrong pronunciation taught is the expensive failure. `level_conf` and `enum_conf` are still recorded in `payload.routing` but no longer score or hold a row, and row `status` is `auto` exactly when the score is 3.
+
+**Critical fields:** `romanization` and `arabic_vocalised`.
 
 | score | rule |
 |---|---|
-| **3** | every critical field `H`, `native_check` false, and no `corrections` entry of type `meaning`, `harakaat` or `romanization` |
-| **2** | no critical field `L`, and any of: a critical field `M`, `native_check` true, a flagged correction on meaning, harakaat or romanization |
+| **3** | both critical fields `H`, `native_check` false, and no capping correction |
+| **2** | no critical field `L`, and any of: a critical field `M`, `native_check` true, a capping correction |
 | **1** | any critical field `L`, or a required field missing or not a valid enum value |
+
+A **capping correction** is an M or L correction of type `meaning`, `harakaat`, `romanization`, `variant`, `conjugation`, `root` or `gender` (D274, D276). H corrections apply cleanly at promotion and do not cap; `notes`, `pos`, `tag`, `duplicate` and `gap` never cap. Staged rows carry the pre-D276 `review_confidence` and `status`; promotion re-derives both from `payload.model` with `route.mjs`.
 
 Row score is the **minimum** across critical fields: a row is only as usable as its weakest one. Non-critical detail never drags it down.
 
-A flagged correction caps a row at 2 even when the model is confident about the fix, because this pass does not apply corrections. A row whose gloss is known-suspect and unfixed is not safe to teach from. That is what makes collecting the flags worth doing even with triage deferred.
+A flagged correction caps a row at 2 unless it is H, because only H corrections to the Arabic are applied (D274). A row whose gloss is known-suspect and unfixed is not safe to teach from. That is what makes collecting the flags worth doing even with triage deferred.
 
 **Vowel length does not cap (D210).** It is part of the produced `romanization` value, not a correction, so a routine `oo` to `uu` rewrite leaves the row at 3. Uncertainty about it still shows up, through `romanization.conf`: an M drags the row to 2 by the minimum rule, which is the correct route. The alternative, treating every vowel-length rewrite as a flagged romanization correction, would cap most of the dictionary at 2 and leave the MVP pool near empty.
 

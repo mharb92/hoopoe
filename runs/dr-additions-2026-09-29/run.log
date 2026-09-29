@@ -1,0 +1,37 @@
+(node:489) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+batch 1: staged 60/60, spend $0.5914
+batch 2: staged 60/60, spend $1.0851
+batch 3: staged 60/60, spend $1.5360
+batch 4: staged 60/60, spend $1.9740
+batch 5: staged 60/60, spend $2.4781
+batch 6: staged 60/60, spend $2.9445
+batch 7: staged 60/60, spend $3.5759
+batch 8: staged 60/60, spend $4.0814
+batch 9: staged 29/29, spend $4.3719
+DR run dr-additions-2026-09-29
+stop reason: completed
+batches 9/9  staged 509  skipped(resume) 0
+spend $4.3719 of cap $12.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":509,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":1}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":15,"2":87,"3":240,"4":165,"5":2}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.11764705882352941,"lowBandRows":102,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.4774066797642436,"held":243,"rows":509,"nativeCheckRate":0.14538310412573674,"nativeCheck":74}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":291.68333333333334,"p50":347.7,"p90":831,"max":831,"mean":394.7981034482758},"outputTokensPerCall":{"min":831,"p50":20320,"p90":25137,"max":25137,"mean":17638.2},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.392765625,"thinkingTokens":{"total":90896,"perCall":{"min":473,"p50":9167,"p90":15089,"max":15089,"mean":9089.6},"shareOfOutput":0.5153360320214081},"preambleTokens":{"created":{"min":7017,"p50":9678,"p90":9752,"max":9752,"mean":9274.2},"read":{"min":28198,"p50":28198,"p90":28198,"max":28198,"mean":28198}},"metered":["transport"],"usd":4.371937000000001,"usdPerRow":0.008589267190569747,"usdExtrapolated":23.431520895874268}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":24,"2":219,"3":266},"extrapolated":{"1":129,"2":1174,"3":1426},"rows":509}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.15520628683693516,"flipped":79,"rows":509,"flippedIds":[2747,3104,2907,2944,2890,3136,3023,2801,3220,2785,3008,3175,3094,3133,2871,3215,2803,3004,2950,3005,3001,2974,3202,3054,2880,3075,3049,3138,3017,3048,2934,2859,2985,3014,2990,3015,2891,2743,3069,3080,2992,2781,3027,2754,2984,3173,2972,2826,2973,3206,3066,3199,3022,2767,2910,2752,3072,2956,2977,2812,2811,2828,3073,2862,3210,2963,2784,2786,2768,2996,2827,3110,3009,3235,2991,3143,2965,3079,2765]}
+artefacts: /home/user/hoopoe/runs/dr-additions-2026-09-29

@@ -19,10 +19,12 @@ import { categorise, isExported, MODEL_CATEGORIES, americanise } from './externa
 export const SOURCE_CSV = 'docs/dr/external/levantine-dictionary.csv';
 export const SOURCE_SHA256 = 'e6fe21dbfe57cf3fa9a2badd94dd7544fd7a4929f71f1d304a2455a7d96f6881';
 const ESSENTIAL_IDS = 'docs/dr/essentials/essential-ids-final.json';
-const JUDGED_RUNS = ['dr-essential-o55-2026-09-27', 'dr-finalize-2026-09-27']; // D273: one 5.5 judgement per id
+const JUDGED_RUNS = ['dr-essential-o55-2026-09-27', 'dr-finalize-2026-09-27', 'dr-additions-2026-09-29']; // D273, D278: one 5.5 judgement per id
 // Later runs that supersede a JUDGED_RUNS judgement for the ids they cover.
 // dr-rejudge-2026-09-29: dr-finalize-2026-09-27 batches 8, 24, 27, whose arabic_vocalised drifted into Hebrew.
 const OVERRIDE_RUNS = ['dr-rejudge-2026-09-29'];
+// D279: level moves from the level-3 verb re-check, applied over the judged level.
+const LEVEL_MOVES = 'runs/dr-level-recheck-2026-09-29/level-moves.json';
 const REST = 'https://pniwgnjljpkiimssortp.supabase.co/rest/v1';
 // §5 estimate band per model-bound row, for the dry run's projection only.
 const USD_PER_ROW = [0.002, 0.004];
@@ -78,12 +80,13 @@ async function snapshot(runId) {
     }
   }
   const essential = new Set(readJson(ESSENTIAL_IDS));
+  const levelMoves = existsSync(LEVEL_MOVES) ? readJson(LEVEL_MOVES) : {};
   const ours = dict.map((d) => {
     const m = judged.get(d.id);
     if (!m) throw new Error(`id ${d.id} has no round-2 judgement`);
     return {
       id: d.id, arabic: d.arabic, vocalised: m.arabic_vocalised?.value ?? null, english: d.english,
-      pos: m.pos ?? d.pos, level: m.level, romanization: m.romanization?.value ?? '',
+      pos: m.pos ?? d.pos, level: levelMoves[d.id]?.to ?? m.level, romanization: m.romanization?.value ?? '',
       confidence: routeRow(m).review_confidence, mvp: essential.has(d.id) ? 1 : 0,
       // Why a row is below 3 (D276), for the review queue.
       held_on: [
@@ -250,7 +253,11 @@ export function exportCsvs(runId, rows, onlyOurs, ours, verdicts = {}) {
   const oo = [...onlyOurs].sort((a, b) => (b.mvp - a.mvp) || (a.id - b.id)).map((o) => ({
     our_id: o.id, mvp: o.mvp ? 'Y' : '', our_confidence: o.confidence, our_arabic: o.vocalised || o.arabic,
     our_english: o.english, our_pos: o.pos, our_level: o.level }));
-  writeFileSync(path.join(dir, 'review-queue.csv'), toCsv(REVIEW_COLUMNS, reviewQueue(rows, ours, verdicts)));
+  const queue = reviewQueue(rows, ours, verdicts);
+  writeFileSync(path.join(dir, 'review-queue.csv'), toCsv(REVIEW_COLUMNS, queue));
+  // Level 1-2 verbs to clear first: the verb supply the early levels are short of (chat 31).
+  writeFileSync(path.join(dir, 'review-verbs-level-1-2.csv'),
+    toCsv(REVIEW_COLUMNS, queue.filter((q) => q.our_pos === 'verb' && q.level_band === '1-2')));
   writeFileSync(path.join(dir, 'only-ours.csv'),
     toCsv(['our_id', 'mvp', 'our_confidence', 'our_arabic', 'our_english', 'our_pos', 'our_level'], oo));
 }

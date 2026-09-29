@@ -1,45 +1,48 @@
 {
- "same_not_exported": 466,
+ "same_not_exported": 894,
  "bound_morphemes_skipped": 15,
- "exported": 1188,
+ "exported": 757,
  "by_category": {
-  "only_theirs": 666,
-  "harakaat_variant": 74,
-  "different_word": 246,
-  "meaning_mismatch": 180,
-  "spelling_variant": 22
+  "harakaat_variant": 118,
+  "different_word": 252,
+  "only_theirs": 144,
+  "meaning_mismatch": 220,
+  "spelling_variant": 22,
+  "same": 1
  },
  "by_category_mvp": {
   "harakaat_variant": 48,
-  "different_word": 75,
+  "different_word": 71,
   "meaning_mismatch": 112,
   "spelling_variant": 6
  },
  "by_category_our_confidence": {
-  "harakaat_variant @3": 39,
-  "different_word @3": 143,
-  "different_word @2": 96,
-  "harakaat_variant @2": 32,
-  "meaning_mismatch @3": 124,
-  "meaning_mismatch @2": 56,
+  "harakaat_variant @3": 51,
+  "different_word @3": 146,
+  "different_word @2": 99,
+  "harakaat_variant @2": 61,
+  "meaning_mismatch @3": 145,
+  "meaning_mismatch @2": 73,
+  "harakaat_variant @1": 6,
+  "meaning_mismatch @1": 2,
   "spelling_variant @3": 16,
-  "harakaat_variant @1": 3,
   "different_word @1": 7,
-  "spelling_variant @2": 6
+  "spelling_variant @2": 6,
+  "same @3": 1
  },
- "pos_gap": 36,
- "their_entries_exported_with_a_match": 460,
- "only_ours": 1910,
+ "pos_gap": 37,
+ "their_entries_exported_with_a_match": 554,
+ "only_ours": 1912,
  "only_ours_mvp": 199,
- "model_bound": 1166,
+ "model_bound": 734,
  "model_bound_by_category": {
-  "only_theirs": 666,
-  "harakaat_variant": 74,
-  "different_word": 246,
-  "meaning_mismatch": 180
+  "harakaat_variant": 118,
+  "different_word": 252,
+  "only_theirs": 144,
+  "meaning_mismatch": 220
  },
  "projected_usd": [
-  2.33,
-  4.66
+  1.47,
+  2.94
  ]
 }

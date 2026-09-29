@@ -1,0 +1,1035 @@
+{
+ "usd": 0.4421914,
+ "results": {
+  "396": {
+   "level": 3,
+   "c": "M",
+   "r": "Common slang but social-narrative; not survival conversation"
+  },
+  "536": {
+   "level": 2,
+   "c": "M",
+   "r": "مرق very frequent daily: passing by, dropping in"
+  },
+  "543": {
+   "level": 3,
+   "c": "M",
+   "r": "Concrete action, moderately frequent; not conversation core"
+  },
+  "552": {
+   "level": 3,
+   "c": "H",
+   "r": "Explaining meaning is topic-level; شرح more common daily"
+  },
+  "553": {
+   "level": 2,
+   "c": "M",
+   "r": "اشرحلي constantly needed by learners in daily exchanges"
+  },
+  "554": {
+   "level": 3,
+   "c": "M",
+   "r": "Promising occurs but less daily than core verbs"
+  },
+  "556": {
+   "level": 3,
+   "c": "M",
+   "r": "Narrative verb; moderately frequent"
+  },
+  "557": {
+   "level": 2,
+   "c": "M",
+   "r": "ناديلو / نادي عليه heard daily in households"
+  },
+  "559": {
+   "level": 3,
+   "c": "M",
+   "r": "Apologizing uses formulas; verb itself less frequent"
+  },
+  "560": {
+   "level": 3,
+   "c": "M",
+   "r": "Complaining is topic-level narration"
+  },
+  "561": {
+   "level": 3,
+   "c": "H",
+   "r": "Advice verb; topic-level, less daily"
+  },
+  "567": {
+   "level": 3,
+   "c": "H",
+   "r": "ظن somewhat formal; مفكر/فكرت used daily instead"
+  },
+  "568": {
+   "level": 3,
+   "c": "H",
+   "r": "Expectation talk; topic-level"
+  },
+  "569": {
+   "level": 3,
+   "c": "H",
+   "r": "Doubting is abstract, topic-level"
+  },
+  "570": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract/narrative; not everyday conversational"
+  },
+  "571": {
+   "level": 2,
+   "c": "H",
+   "r": "انتبه! heard constantly; warnings and daily care"
+  },
+  "573": {
+   "level": 2,
+   "c": "M",
+   "r": "علمني heard often; learners request teaching daily"
+  },
+  "579": {
+   "level": 3,
+   "c": "M",
+   "r": "Likes/dislikes use بحبش more; كره less common"
+  },
+  "581": {
+   "level": 3,
+   "c": "M",
+   "r": "زهق more common daily for boredom"
+  },
+  "583": {
+   "level": 3,
+   "c": "H",
+   "r": "Emotional nuance; topic-level"
+  },
+  "588": {
+   "level": 3,
+   "c": "H",
+   "r": "Emotional nuance; narrative use"
+  },
+  "590": {
+   "level": 3,
+   "c": "H",
+   "r": "Regret is abstract, topic-level"
+  },
+  "591": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract emotional verb"
+  },
+  "594": {
+   "level": 3,
+   "c": "H",
+   "r": "Formal hosting/event verb; topic-level"
+  },
+  "595": {
+   "level": 3,
+   "c": "M",
+   "r": "Farewell narration; moderately frequent"
+  },
+  "597": {
+   "level": 3,
+   "c": "H",
+   "r": "Conflict resolution; topic-level"
+  },
+  "598": {
+   "level": 3,
+   "c": "M",
+   "r": "Common narrative but not survival-conversation core"
+  },
+  "599": {
+   "level": 3,
+   "c": "H",
+   "r": "Conflict narrative; topic-level"
+  },
+  "600": {
+   "level": 3,
+   "c": "H",
+   "r": "Emotion verb, topic-level"
+  },
+  "604": {
+   "level": 3,
+   "c": "H",
+   "r": "Exams/work topics; not daily core"
+  },
+  "606": {
+   "level": 3,
+   "c": "M",
+   "r": "Frequent but narrative; topic-level"
+  },
+  "607": {
+   "level": 2,
+   "c": "M",
+   "r": "قبل/ما قبل very common in daily negotiation"
+  },
+  "609": {
+   "level": 3,
+   "c": "H",
+   "r": "Rules/prohibition talk; topic-level"
+  },
+  "610": {
+   "level": 3,
+   "c": "H",
+   "r": "Formal-ish, topic-level"
+  },
+  "619": {
+   "level": 3,
+   "c": "H",
+   "r": "Grooming specific; lower frequency"
+  },
+  "620": {
+   "level": 3,
+   "c": "H",
+   "r": "Grooming specific; barber context"
+  },
+  "621": {
+   "level": 3,
+   "c": "M",
+   "r": "Daily routine but narrow vocabulary"
+  },
+  "627": {
+   "level": 2,
+   "c": "H",
+   "r": "صلى heard constantly daily in Palestine"
+  },
+  "630": {
+   "level": 3,
+   "c": "H",
+   "r": "Cooking topic vocabulary"
+  },
+  "631": {
+   "level": 3,
+   "c": "H",
+   "r": "Cooking/BBQ topic vocabulary"
+  },
+  "634": {
+   "level": 3,
+   "c": "M",
+   "r": "Food/weather contexts; topic-level"
+  },
+  "635": {
+   "level": 3,
+   "c": "H",
+   "r": "Cooking topic vocabulary"
+  },
+  "636": {
+   "level": 3,
+   "c": "H",
+   "r": "Cooking topic vocabulary"
+  },
+  "639": {
+   "level": 3,
+   "c": "H",
+   "r": "Cooking specialized; could be 4"
+  },
+  "640": {
+   "level": 3,
+   "c": "H",
+   "r": "Cooking topic; محشي culture but verb specific"
+  },
+  "642": {
+   "level": 3,
+   "c": "H",
+   "r": "Housework topic vocabulary"
+  },
+  "643": {
+   "level": 3,
+   "c": "H",
+   "r": "Housework topic vocabulary"
+  },
+  "646": {
+   "level": 3,
+   "c": "H",
+   "r": "Housework specific"
+  },
+  "647": {
+   "level": 3,
+   "c": "H",
+   "r": "Household topic verb"
+  },
+  "650": {
+   "level": 3,
+   "c": "M",
+   "r": "Repairs topic; moderately frequent"
+  },
+  "652": {
+   "level": 3,
+   "c": "M",
+   "r": "Frequent but topic-level"
+  },
+  "654": {
+   "level": 3,
+   "c": "H",
+   "r": "Tech topic vocabulary"
+  },
+  "655": {
+   "level": 3,
+   "c": "H",
+   "r": "Tech sense is topic-specific"
+  },
+  "656": {
+   "level": 3,
+   "c": "H",
+   "r": "Registration/recording topic"
+  },
+  "658": {
+   "level": 3,
+   "c": "H",
+   "r": "Social media topic slang"
+  },
+  "660": {
+   "level": 3,
+   "c": "H",
+   "r": "Social media topic"
+  },
+  "661": {
+   "level": 2,
+   "c": "M",
+   "r": "فتش عن heard daily looking for things"
+  },
+  "662": {
+   "level": 3,
+   "c": "H",
+   "r": "Tech topic slang"
+  },
+  "664": {
+   "level": 3,
+   "c": "H",
+   "r": "School/work topic"
+  },
+  "666": {
+   "level": 3,
+   "c": "H",
+   "r": "Education topic"
+  },
+  "667": {
+   "level": 3,
+   "c": "M",
+   "r": "School/exam topic; learners mostly meet the noun امتحان"
+  },
+  "668": {
+   "level": 3,
+   "c": "M",
+   "r": "Medical and car contexts; tied to a situation or topic"
+  },
+  "671": {
+   "level": 3,
+   "c": "M",
+   "r": "Used about health or progress; talking about a topic"
+  },
+  "677": {
+   "level": 3,
+   "c": "H",
+   "r": "Money-saving topic, not a daily survival need"
+  },
+  "678": {
+   "level": 2,
+   "c": "M",
+   "r": "Carrying bags and kids comes up daily at home"
+  },
+  "681": {
+   "level": 3,
+   "c": "M",
+   "r": "Pulling or withdrawing cash; less frequent in daily talk"
+  },
+  "682": {
+   "level": 3,
+   "c": "M",
+   "r": "Physical-action verb with narrower everyday use"
+  },
+  "684": {
+   "level": 2,
+   "c": "M",
+   "r": "Common daily for untying and opening; فكّني heard often"
+  },
+  "685": {
+   "level": 3,
+   "c": "M",
+   "r": "Specific physical action with lower frequency"
+  },
+  "686": {
+   "level": 2,
+   "c": "M",
+   "r": "قصّيت شعري is common everyday talk"
+  },
+  "688": {
+   "level": 2,
+   "c": "M",
+   "r": "Filling water, tank or gas comes up in daily household talk"
+  },
+  "689": {
+   "level": 3,
+   "c": "M",
+   "r": "Verb less common than adjective فاضي"
+  },
+  "692": {
+   "level": 3,
+   "c": "M",
+   "r": "Palestinians usually say خلّى; ترك is less colloquial"
+  },
+  "694": {
+   "level": 3,
+   "c": "M",
+   "r": "وقع is the usual Palestinian verb; طاح is secondary"
+  },
+  "697": {
+   "level": 3,
+   "c": "M",
+   "r": "Specific posture verb, moderate frequency"
+  },
+  "699": {
+   "level": 3,
+   "c": "H",
+   "r": "Sports and competition topic"
+  },
+  "700": {
+   "level": 3,
+   "c": "M",
+   "r": "Games or money topic, not situational survival"
+  },
+  "704": {
+   "level": 3,
+   "c": "H",
+   "r": "Scheduling and admin topic"
+  },
+  "705": {
+   "level": 3,
+   "c": "H",
+   "r": "Scheduling and admin topic"
+  },
+  "706": {
+   "level": 3,
+   "c": "M",
+   "r": "ادعيلي is common, but verb broadly topical"
+  },
+  "708": {
+   "level": 3,
+   "c": "M",
+   "r": "Language-topic verb; learners need it occasionally"
+  },
+  "709": {
+   "level": 3,
+   "c": "M",
+   "r": "رجع is the usual Palestinian verb; عاد is secondary"
+  },
+  "710": {
+   "level": 2,
+   "c": "M",
+   "r": "اتفقنا is heard constantly for settling plans"
+  },
+  "711": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract, used when talking about a topic"
+  },
+  "712": {
+   "level": 3,
+   "c": "M",
+   "r": "Abstract emotional verb, used in topical talk"
+  },
+  "715": {
+   "level": 3,
+   "c": "M",
+   "r": "Emotional narration; عيّط also competes"
+  },
+  "721": {
+   "level": 3,
+   "c": "M",
+   "r": "Adjective عطشان covers most daily use"
+  },
+  "723": {
+   "level": 3,
+   "c": "L",
+   "r": "لا تستعجل is common but the verb is secondary"
+  },
+  "724": {
+   "level": 3,
+   "c": "M",
+   "r": "Leisure topic, moderate frequency"
+  },
+  "729": {
+   "level": 3,
+   "c": "M",
+   "r": "Events and attendance; semi-formal topic"
+  },
+  "730": {
+   "level": 3,
+   "c": "M",
+   "r": "Absence at school or work; topical"
+  },
+  "733": {
+   "level": 2,
+   "c": "M",
+   "r": "دوق is constant in food hospitality"
+  },
+  "734": {
+   "level": 2,
+   "c": "M",
+   "r": "Introductions like عرّفني عليه are frequent socially"
+  },
+  "737": {
+   "level": 3,
+   "c": "M",
+   "r": "Evil-eye talk exists but the verb is topical"
+  },
+  "739": {
+   "level": 3,
+   "c": "M",
+   "r": "Palestinians usually say طلع; خرج is more formal"
+  },
+  "740": {
+   "level": 3,
+   "c": "H",
+   "r": "Narrative verb, not daily conversation"
+  },
+  "742": {
+   "level": 3,
+   "c": "M",
+   "r": "ضاع is more common; narrow situation"
+  },
+  "743": {
+   "level": 3,
+   "c": "M",
+   "r": "Specific physical action with lower frequency"
+  },
+  "744": {
+   "level": 3,
+   "c": "L",
+   "r": "يلا نتحرك is common but still secondary"
+  },
+  "1840": {
+   "level": 3,
+   "c": "H",
+   "r": "Incident narration, not daily conversation"
+  },
+  "2133": {
+   "level": 3,
+   "c": "M",
+   "r": "Common slang, but social-commentary topic"
+  },
+  "2136": {
+   "level": 3,
+   "c": "M",
+   "r": "Colloquial, used for narrating mishaps"
+  },
+  "2139": {
+   "level": 3,
+   "c": "M",
+   "r": "Expressive slang, used for narration"
+  },
+  "2140": {
+   "level": 3,
+   "c": "M",
+   "r": "Expressive verb with moderate frequency"
+  },
+  "2294": {
+   "level": 3,
+   "c": "H",
+   "r": "School and exam topic"
+  },
+  "2315": {
+   "level": 3,
+   "c": "M",
+   "r": "دبّر حالك is common but the verb is topical"
+  },
+  "2316": {
+   "level": 3,
+   "c": "M",
+   "r": "Moving house or transfers; topical"
+  },
+  "2317": {
+   "level": 2,
+   "c": "M",
+   "r": "Changing clothes and swapping items happen daily"
+  },
+  "2319": {
+   "level": 3,
+   "c": "M",
+   "r": "Passive form; adjective مفتوح covers daily needs"
+  },
+  "2320": {
+   "level": 3,
+   "c": "M",
+   "r": "Passive form; adjective مسكّر covers daily needs"
+  },
+  "2321": {
+   "level": 3,
+   "c": "H",
+   "r": "Repair topic, passive form"
+  },
+  "2322": {
+   "level": 3,
+   "c": "M",
+   "r": "Passive form used when narrating a situation"
+  },
+  "2323": {
+   "level": 3,
+   "c": "H",
+   "r": "Incident narration"
+  },
+  "2324": {
+   "level": 3,
+   "c": "M",
+   "r": "Breakdown narration; خرب is more basic"
+  },
+  "2325": {
+   "level": 3,
+   "c": "H",
+   "r": "Passive of a level-3 verb"
+  },
+  "2326": {
+   "level": 3,
+   "c": "H",
+   "r": "Passive of a level-3 verb"
+  },
+  "2327": {
+   "level": 3,
+   "c": "H",
+   "r": "Passive form used in commerce talk"
+  },
+  "2328": {
+   "level": 3,
+   "c": "H",
+   "r": "Theft incident narration"
+  },
+  "2329": {
+   "level": 3,
+   "c": "M",
+   "r": "Common for traffic and checkpoints, yet situational narration"
+  },
+  "2330": {
+   "level": 3,
+   "c": "M",
+   "r": "Quantities and prices topic, moderate frequency"
+  },
+  "2331": {
+   "level": 3,
+   "c": "M",
+   "r": "Adjective ناقص is everyday; the verb itself is less frequent"
+  },
+  "2332": {
+   "level": 2,
+   "c": "H",
+   "r": "بكفي/خلص بكفي heard constantly in daily talk"
+  },
+  "2334": {
+   "level": 2,
+   "c": "M",
+   "r": "ركّز معي is common in everyday speech"
+  },
+  "2336": {
+   "level": 3,
+   "c": "M",
+   "r": "Mostly heard in the fixed blessing; the verb itself is topical"
+  },
+  "2337": {
+   "level": 2,
+   "c": "H",
+   "r": "دبّر حالك is an everyday coping expression"
+  },
+  "2338": {
+   "level": 2,
+   "c": "M",
+   "r": "Theft comes up often in ordinary daily talk"
+  },
+  "2340": {
+   "level": 2,
+   "c": "M",
+   "r": "Common household verb, with kids and objects"
+  },
+  "2341": {
+   "level": 3,
+   "c": "M",
+   "r": "Less frequent reflexive form than خبّى"
+  },
+  "2342": {
+   "level": 3,
+   "c": "M",
+   "r": "Everyday speech prefers طلع; ظهر is more topical"
+  },
+  "2343": {
+   "level": 3,
+   "c": "M",
+   "r": "Occasional; everyday speech often uses راح/ضاع instead"
+  },
+  "2344": {
+   "level": 2,
+   "c": "H",
+   "r": "Crying and yelling are heard daily, especially with kids"
+  },
+  "2345": {
+   "level": 3,
+   "c": "M",
+   "r": "والله is level 1, but the verb حلف is less frequent"
+  },
+  "2347": {
+   "level": 2,
+   "c": "M",
+   "r": "Daily routine verb for taking off clothes or shoes"
+  },
+  "2408": {
+   "level": 3,
+   "c": "H",
+   "r": "Housing topic vocabulary, formal-leaning"
+  },
+  "2409": {
+   "level": 3,
+   "c": "M",
+   "r": "Housing and rental topic vocabulary"
+  },
+  "2411": {
+   "level": 2,
+   "c": "H",
+   "r": "Bring down or download; very frequent in daily life"
+  },
+  "2412": {
+   "level": 3,
+   "c": "M",
+   "r": "Tech-specific phrase, narrower setting"
+  },
+  "2413": {
+   "level": 3,
+   "c": "M",
+   "r": "Banking and phone topic vocabulary"
+  },
+  "2414": {
+   "level": 3,
+   "c": "H",
+   "r": "Banking situation, topic-specific"
+  },
+  "2416": {
+   "level": 3,
+   "c": "H",
+   "r": "Banking topic vocabulary"
+  },
+  "2511": {
+   "level": 2,
+   "c": "M",
+   "r": "بيسوى / ما بيسوى is common in everyday evaluation"
+  },
+  "2535": {
+   "level": 3,
+   "c": "H",
+   "r": "Hair and paint topic vocabulary"
+  },
+  "2541": {
+   "level": 2,
+   "c": "M",
+   "r": "سلّفني is a common everyday request"
+  },
+  "2565": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract; used when talking about a topic"
+  },
+  "2566": {
+   "level": 3,
+   "c": "M",
+   "r": "Work topic vocabulary"
+  },
+  "2569": {
+   "level": 3,
+   "c": "H",
+   "r": "Applications and work topic vocabulary"
+  },
+  "2570": {
+   "level": 3,
+   "c": "H",
+   "r": "Employment topic vocabulary"
+  },
+  "2571": {
+   "level": 3,
+   "c": "H",
+   "r": "Moving house or job; a topic, not daily talk"
+  },
+  "2581": {
+   "level": 3,
+   "c": "H",
+   "r": "Presentation or offer; topical"
+  },
+  "2582": {
+   "level": 3,
+   "c": "H",
+   "r": "Topical and somewhat formal"
+  },
+  "2583": {
+   "level": 3,
+   "c": "M",
+   "r": "Used, but not core daily conversation"
+  },
+  "2584": {
+   "level": 3,
+   "c": "H",
+   "r": "Topical"
+  },
+  "2585": {
+   "level": 3,
+   "c": "H",
+   "r": "Discussion verb, topical"
+  },
+  "2586": {
+   "level": 3,
+   "c": "H",
+   "r": "Less frequent; used when talking about a topic"
+  },
+  "2587": {
+   "level": 2,
+   "c": "M",
+   "r": "قررت / شو قررت is common in daily plans"
+  },
+  "2589": {
+   "level": 3,
+   "c": "H",
+   "r": "Appointments are a situation-specific topic"
+  },
+  "2590": {
+   "level": 3,
+   "c": "H",
+   "r": "Appointments are a situation-specific topic"
+  },
+  "2594": {
+   "level": 3,
+   "c": "H",
+   "r": "Appointments are a situation-specific topic"
+  },
+  "2615": {
+   "level": 2,
+   "c": "M",
+   "r": "Learners need كرّر لو سمحت constantly"
+  },
+  "2624": {
+   "level": 3,
+   "c": "H",
+   "r": "Emotional nuance, topical"
+  },
+  "2627": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract verb"
+  },
+  "2628": {
+   "level": 3,
+   "c": "M",
+   "r": "Abstract, though fairly common"
+  },
+  "2640": {
+   "level": 3,
+   "c": "H",
+   "r": "Agriculture topic"
+  },
+  "2642": {
+   "level": 3,
+   "c": "H",
+   "r": "Harvest and agriculture topic"
+  },
+  "2692": {
+   "level": 3,
+   "c": "M",
+   "r": "Conjugated form of قاطع, so share its level"
+  },
+  "2693": {
+   "level": 3,
+   "c": "H",
+   "r": "Conversation-management verb, topical"
+  },
+  "2694": {
+   "level": 3,
+   "c": "H",
+   "r": "Topical, social media or discussion"
+  },
+  "2697": {
+   "level": 3,
+   "c": "M",
+   "r": "Sports and support contexts; topical"
+  },
+  "2698": {
+   "level": 3,
+   "c": "H",
+   "r": "Specific use"
+  },
+  "2699": {
+   "level": 3,
+   "c": "H",
+   "r": "Formal cancel; dialect لغى also sits at 3"
+  },
+  "2700": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract improvement verb"
+  },
+  "2701": {
+   "level": 3,
+   "c": "H",
+   "r": "Topical"
+  },
+  "2703": {
+   "level": 3,
+   "c": "H",
+   "r": "Topical"
+  },
+  "2705": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract"
+  },
+  "2706": {
+   "level": 3,
+   "c": "M",
+   "r": "Abstract, though لا تعقّدها is heard"
+  },
+  "2707": {
+   "level": 3,
+   "c": "M",
+   "r": "Explanation verb, discussion-oriented"
+  },
+  "2708": {
+   "level": 3,
+   "c": "M",
+   "r": "Confirming plans is somewhat topical"
+  },
+  "2710": {
+   "level": 3,
+   "c": "H",
+   "r": "Topical, legal or emotional"
+  },
+  "2712": {
+   "level": 3,
+   "c": "H",
+   "r": "Abstract social value verb"
+  },
+  "2719": {
+   "level": 2,
+   "c": "H",
+   "r": "ذكّرني is an everyday request"
+  },
+  "2720": {
+   "level": 3,
+   "c": "M",
+   "r": "Reporting/notifying is situational; officialdom and news contexts"
+  },
+  "2735": {
+   "level": 2,
+   "c": "H",
+   "r": "\"استوى الأكل؟\" is everyday kitchen and fruit talk"
+  },
+  "2758": {
+   "level": 2,
+   "c": "H",
+   "r": "Burning food or hands comes up constantly at home"
+  },
+  "2759": {
+   "level": 2,
+   "c": "H",
+   "r": "Boiling water for tea/coffee is a daily routine"
+  },
+  "2760": {
+   "level": 2,
+   "c": "M",
+   "r": "Common with kids, dogs, insects in daily talk"
+  },
+  "2761": {
+   "level": 2,
+   "c": "M",
+   "r": "\"طعمي الولد\" heard daily in family settings"
+  },
+  "2780": {
+   "level": 3,
+   "c": "M",
+   "r": "Melting/dissolving is occasional, not daily conversation"
+  },
+  "2824": {
+   "level": 3,
+   "c": "M",
+   "r": "Form I قسم less common than قسّم in speech"
+  },
+  "2849": {
+   "level": 3,
+   "c": "M",
+   "r": "Strikes are a news/politics topic, not daily situation"
+  },
+  "2850": {
+   "level": 3,
+   "c": "M",
+   "r": "Political topic verb; noun الاحتلال more frequent"
+  },
+  "2929": {
+   "level": 3,
+   "c": "M",
+   "r": "Passive payment verb, moderately frequent in transactions"
+  },
+  "2930": {
+   "level": 3,
+   "c": "H",
+   "r": "Support/investment belongs to topic discussion"
+  },
+  "2931": {
+   "level": 3,
+   "c": "H",
+   "r": "Manufacturing is topic vocabulary; عمل used daily"
+  },
+  "3085": {
+   "level": 2,
+   "c": "H",
+   "r": "\"تضايقت\" extremely common for everyday feelings"
+  },
+  "3087": {
+   "level": 2,
+   "c": "H",
+   "r": "\"مش راضي\" heard constantly in daily life"
+  },
+  "3088": {
+   "level": 2,
+   "c": "M",
+   "r": "Common everyday expression of annoyance"
+  },
+  "3089": {
+   "level": 3,
+   "c": "M",
+   "r": "Nostalgia/longing is emotional topic vocabulary"
+  },
+  "3090": {
+   "level": 2,
+   "c": "M",
+   "r": "\"اشتهيت\" common in everyday food talk"
+  },
+  "3091": {
+   "level": 2,
+   "c": "H",
+   "r": "\"تعودت\" very common for newcomers' daily conversations"
+  },
+  "3095": {
+   "level": 3,
+   "c": "M",
+   "r": "Used, but less frequent than basic feeling verbs"
+  },
+  "3157": {
+   "level": 3,
+   "c": "M",
+   "r": "Price-raising complaints, topical economic talk"
+  },
+  "3169": {
+   "level": 2,
+   "c": "M",
+   "r": "\"غفيت\" common for naps in daily routine"
+  },
+  "3170": {
+   "level": 2,
+   "c": "M",
+   "r": "Brushing teeth is daily routine talk, esp. with kids"
+  },
+  "3177": {
+   "level": 2,
+   "c": "H",
+   "r": "Kissing greetings, بوس إيد, heard daily"
+  },
+  "3179": {
+   "level": 3,
+   "c": "M",
+   "r": "Reconciliation is situational, relationship topic"
+  },
+  "3180": {
+   "level": 2,
+   "c": "H",
+   "r": "Where you live/lived is basic daily conversation"
+  }
+ }
+}

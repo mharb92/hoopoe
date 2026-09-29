@@ -1,0 +1,5092 @@
+[
+ {
+  "arabic": "فَواكي",
+  "english": "fruit",
+  "romanization": "fawakee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "اسْتَوى",
+  "english": "ripened / cooked through",
+  "romanization": "astawa",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "شَمّ",
+  "english": "smelled",
+  "romanization": "shamm",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "جَلى",
+  "english": "washed (dishes)",
+  "romanization": "jala",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food | Daily Routine"
+ },
+ {
+  "arabic": "كَبّ",
+  "english": "threw away / spilled",
+  "romanization": "kabb",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "زِبدة",
+  "english": "butter",
+  "romanization": "zibda",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بحارات",
+  "english": "spices",
+  "romanization": "bHarat",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "هَيل",
+  "english": "cardamon",
+  "romanization": "hayl",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "كولا",
+  "english": "cola",
+  "romanization": "koola",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "مَشروبات",
+  "english": "drinks",
+  "romanization": "mashroobat",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "أناناس",
+  "english": "pineapple",
+  "romanization": "ananas",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "كَرَز",
+  "english": "cherry",
+  "romanization": "karaz",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "خَسّ",
+  "english": "lettuce",
+  "romanization": "khass",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "مَلفوف",
+  "english": "cabbage",
+  "romanization": "malfoof",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "خَل",
+  "english": "vinegar",
+  "romanization": "khal",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "سِمسِم",
+  "english": "sesame",
+  "romanization": "simsim",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "عَدَس",
+  "english": "lentil",
+  "romanization": "3adas",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "فُستُق حَلَبي",
+  "english": "pistachio",
+  "romanization": "foostooq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "فاصوليا",
+  "english": "green beans",
+  "romanization": "faSooleea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "عَسل",
+  "english": "honey",
+  "romanization": "3asl",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بوزة",
+  "english": "ice Cream",
+  "romanization": "booza",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "طَعم",
+  "english": "taste",
+  "romanization": "Ta3m",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "انْقَلى",
+  "english": "was fried",
+  "romanization": "anqala",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "انْشَوى",
+  "english": "was grilled",
+  "romanization": "anshawa",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "حَرَق",
+  "english": "burned",
+  "romanization": "Haraq",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "غَلى",
+  "english": "boiled",
+  "romanization": "ghala",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "عَضّ",
+  "english": "bit",
+  "romanization": "3aDD",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "طَعْمَى",
+  "english": "fed",
+  "romanization": "Ta3maa",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "لَحم خَروف",
+  "english": "lamb (meat)",
+  "romanization": "laHm",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "لَحم بَقر",
+  "english": "beef",
+  "romanization": "laHm",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "لَحم خَنزير",
+  "english": "pork",
+  "romanization": "laHm",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "ريحان",
+  "english": "basil",
+  "romanization": "reeHan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "كُزبُرة",
+  "english": "coriander",
+  "romanization": "koozboora",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "زَنجَبيل",
+  "english": "ginger",
+  "romanization": "zanjabeel",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "نَبيذ",
+  "english": "wine",
+  "romanization": "nabeedh",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "شَمام",
+  "english": "melon",
+  "romanization": "shamam",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "نِجاص",
+  "english": "pears",
+  "romanization": "nijaS",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "نَباتي",
+  "english": "vegetarian",
+  "romanization": "nabatee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بازيلا",
+  "english": "peas",
+  "romanization": "bazeela",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بامية",
+  "english": "okra",
+  "romanization": "bameea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بُندُق",
+  "english": "hazelnut",
+  "romanization": "boondooq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "كاشو",
+  "english": "cashew",
+  "romanization": "kashoo",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "شوفان",
+  "english": "oatmeal",
+  "romanization": "shoofan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "قَمح",
+  "english": "wheat",
+  "romanization": "qamH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بُرغُل",
+  "english": "bulgur wheat",
+  "romanization": "boorghool",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "بطاطا مقليّة",
+  "english": "chips",
+  "romanization": "bTaTa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "ذاب",
+  "english": "melted / dissolved",
+  "romanization": "dhab",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Food"
+ },
+ {
+  "arabic": "قانون",
+  "english": "law",
+  "romanization": "qanoon",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَرب",
+  "english": "war",
+  "romanization": "Harb",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "دَولة",
+  "english": "state",
+  "romanization": "dawla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَكومة",
+  "english": "government",
+  "romanization": "Hakooma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "رَئيس",
+  "english": "president",
+  "romanization": "ra2ees",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَدود",
+  "english": "border",
+  "romanization": "Hadood",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "سياسة",
+  "english": "politics",
+  "romanization": "seeasa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "أكثَرية",
+  "english": "majority",
+  "romanization": "akthareea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "أقَلية",
+  "english": "minority",
+  "romanization": "aqaleea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إنتِخاب",
+  "english": "election",
+  "romanization": "intikhab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "ثَورة",
+  "english": "revolution",
+  "romanization": "thawra",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "مُظاهَرة",
+  "english": "demonstration",
+  "romanization": "mooZahara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إحتِجاج",
+  "english": "protest",
+  "romanization": "iHtijaj",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "مُحتَجّ",
+  "english": "protestor",
+  "romanization": "mooHtajj",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إنقِلاب",
+  "english": "coup",
+  "romanization": "inqilab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حِضارة",
+  "english": "civilization",
+  "romanization": "HiDara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حِصار",
+  "english": "blockade / siege",
+  "romanization": "HiSar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "مُستوطنة",
+  "english": "settlement",
+  "romanization": "moostooTna",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "مُستَوطِن",
+  "english": "settler",
+  "romanization": "moostawTin",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "قاضي",
+  "english": "judge",
+  "romanization": "qaDee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "أسير",
+  "english": "prisoner",
+  "romanization": "aseer",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَرب أهلية",
+  "english": "civil war",
+  "romanization": "Harb",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَليف",
+  "english": "ally",
+  "romanization": "Haleef",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "عَدو",
+  "english": "enemy",
+  "romanization": "3adoo",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "دُبابة",
+  "english": "tank",
+  "romanization": "doobaba",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "رُصاص",
+  "english": "bullets",
+  "romanization": "rooSaS",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "سلاح",
+  "english": "weapon / gun",
+  "romanization": "slaH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "سيّاسي",
+  "english": "politician",
+  "romanization": "seeeeasee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "نِظام",
+  "english": "regime / system",
+  "romanization": "niZam",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "بَرلمَان",
+  "english": "parliament",
+  "romanization": "barlman",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "رَئيس وزراء",
+  "english": "prime minister",
+  "romanization": "ra2ees",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "وَزير",
+  "english": "minister",
+  "romanization": "wazeer",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "وَزارة",
+  "english": "ministry",
+  "romanization": "wazara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إقتِصاد",
+  "english": "economy",
+  "romanization": "iqtiSad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "أُمّة",
+  "english": "nation",
+  "romanization": "oomma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "جُمهوريّة",
+  "english": "republic",
+  "romanization": "joomhooreeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "ديمُقراطية",
+  "english": "democracy",
+  "romanization": "deemooqraTeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "دِكتاتور",
+  "english": "dictator",
+  "romanization": "diktatoor",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إتفاق",
+  "english": "agreement",
+  "romanization": "itfaq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إنهيار",
+  "english": "collapse",
+  "romanization": "inheear",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "صحّافة",
+  "english": "press, Media",
+  "romanization": "SHHafa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَكَم",
+  "english": "governed / ruled over",
+  "romanization": "Hakam",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "ثار",
+  "english": "rebelled against",
+  "romanization": "thar",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "قَسَم",
+  "english": "divided",
+  "romanization": "qasam",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "هَزَم",
+  "english": "defeated",
+  "romanization": "hazam",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إستيراد",
+  "english": "import",
+  "romanization": "isteerad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "تَصدير",
+  "english": "export",
+  "romanization": "taSdeer",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "قَبيلة",
+  "english": "tribe",
+  "romanization": "qabeela",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَكم ذاتي",
+  "english": "autonomy",
+  "romanization": "Hakm",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "ضَم أراضي",
+  "english": "annexation of territory",
+  "romanization": "Dam",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إعتِقال إداري",
+  "english": "administrative detention",
+  "romanization": "i3tiqal",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "حَملة",
+  "english": "campaign",
+  "romanization": "Hamla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "مَجزَرة",
+  "english": "massacre",
+  "romanization": "majzara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "قَنبِلة",
+  "english": "bomb",
+  "romanization": "qanbila",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إضطِهاد",
+  "english": "oppression",
+  "romanization": "iDTihad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "راسمالية",
+  "english": "capitalism",
+  "romanization": "rasmaleea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "شُيوعيّة",
+  "english": "communism",
+  "romanization": "shooeeoo3eeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إستِعمار",
+  "english": "colonialism",
+  "romanization": "isti3mar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "واقِع",
+  "english": "reality",
+  "romanization": "waqi3",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "تَميِّز",
+  "english": "discrimination",
+  "romanization": "tameeeeiz",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "مُساواة",
+  "english": "equality",
+  "romanization": "moosaooaa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إشتِراكيّة",
+  "english": "socialism",
+  "romanization": "ishtirakeeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إشتراكي",
+  "english": "socialist",
+  "romanization": "ishtrakee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "شَفافية",
+  "english": "transparency",
+  "romanization": "shafafeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "إتفاقية",
+  "english": "agreement",
+  "romanization": "itfaqeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "خيّانة",
+  "english": "betrayal",
+  "romanization": "kheeeeana",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "خاين",
+  "english": "traitor",
+  "romanization": "khaeen",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "أَعْلَن",
+  "english": "announced / declared / proclaimed",
+  "romanization": "a3lan",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "أَضْرَب",
+  "english": "went on strike",
+  "romanization": "aDrab",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics | Work"
+ },
+ {
+  "arabic": "احْتَلّ",
+  "english": "occupied",
+  "romanization": "aHtall",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "اجْتاح",
+  "english": "invaded",
+  "romanization": "ajtaH",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Politics"
+ },
+ {
+  "arabic": "اليُوم الصُبِح",
+  "english": "this morning",
+  "romanization": "il-yoom",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Time"
+ },
+ {
+  "arabic": "اليُوم بَعد الظُهر",
+  "english": "this afternoon",
+  "romanization": "il-yoom",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Time"
+ },
+ {
+  "arabic": "لَيلة مْبارِح",
+  "english": "last night",
+  "romanization": "layla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Time"
+ },
+ {
+  "arabic": "الشَهِر الماضي",
+  "english": "last month",
+  "romanization": "ish-shahir",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Time"
+ },
+ {
+  "arabic": "الشَهِر الجاي",
+  "english": "next month",
+  "romanization": "ish-shahir",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Time"
+ },
+ {
+  "arabic": "جِسم",
+  "english": "body",
+  "romanization": "jism",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "عَضلة",
+  "english": "muscle",
+  "romanization": "3aDla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "طيز",
+  "english": "buttocks",
+  "romanization": "Teez",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "دَقن",
+  "english": "beard / chin",
+  "romanization": "daqn",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "شارِب",
+  "english": "mustache",
+  "romanization": "sharib",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "جَبين",
+  "english": "forehead",
+  "romanization": "jabeen",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "مَفصِل",
+  "english": "joint",
+  "romanization": "mafSil",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "جَبهة",
+  "english": "forehead",
+  "romanization": "jabha",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Body"
+ },
+ {
+  "arabic": "مِتعَلِّم",
+  "english": "educated",
+  "romanization": "mit3allim",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "نِسوان",
+  "english": "women",
+  "romanization": "nisooan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "أُستاذة",
+  "english": "miss",
+  "romanization": "oostadha",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "غَنِي",
+  "english": "rich",
+  "romanization": "ghani",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "فَقِير",
+  "english": "poor",
+  "romanization": "faqir",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "عَنِيف",
+  "english": "violent",
+  "romanization": "3anif",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People | Things"
+ },
+ {
+  "arabic": "حَسود",
+  "english": "envious",
+  "romanization": "Hasood",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "لَيِّن",
+  "english": "flexible",
+  "romanization": "layyin",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "مِسكِين",
+  "english": "pitiful Person",
+  "romanization": "miskin",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "مِفطِر",
+  "english": "has eaten breakfast",
+  "romanization": "mifTir",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "مِتغَدي",
+  "english": "has eaten lunch",
+  "romanization": "mitghadee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "مِتعَشي",
+  "english": "has eaten dinner",
+  "romanization": "mit3ashee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "أشقَر",
+  "english": "blond",
+  "romanization": "ashqar",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People | Colours"
+ },
+ {
+  "arabic": "مِبتَسِم",
+  "english": "smiling",
+  "romanization": "mibtasim",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "ناجِح",
+  "english": "successful",
+  "romanization": "najiH",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: People"
+ },
+ {
+  "arabic": "مَدينة",
+  "english": "city",
+  "romanization": "madeena",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "دُكّان",
+  "english": "small shop",
+  "romanization": "dookkan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "بُرج",
+  "english": "tower",
+  "romanization": "boorj",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "وَسط البَلد",
+  "english": "downtown",
+  "romanization": "wasT",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَيدان",
+  "english": "public square",
+  "romanization": "maydan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَجاري",
+  "english": "sewage",
+  "romanization": "majaree",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "حُفرة",
+  "english": "hole",
+  "romanization": "Hoofra",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَتحَف",
+  "english": "museum",
+  "romanization": "matHaf",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَسرَح",
+  "english": "theater",
+  "romanization": "masraH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "بَقالة",
+  "english": "small grocery shop",
+  "romanization": "baqala",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "سينِما",
+  "english": "cinema",
+  "romanization": "seenima",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "كنيس",
+  "english": "synagogue",
+  "romanization": "knees",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "قَصر",
+  "english": "palace",
+  "romanization": "qaSr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَسبَح",
+  "english": "swimming pool",
+  "romanization": "masbaH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "عَقار",
+  "english": "real estate",
+  "romanization": "3aqar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "بيّاع",
+  "english": "salesman",
+  "romanization": "beeeea3",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City | Work"
+ },
+ {
+  "arabic": "نَفَق",
+  "english": "tunnel",
+  "romanization": "nafaq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَطَبّ",
+  "english": "speed bump",
+  "romanization": "maTabb",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "سَفارة",
+  "english": "embassy",
+  "romanization": "safara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مَعبَد",
+  "english": "temple",
+  "romanization": "ma3bad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "مُدَرِّج",
+  "english": "auditorium, amphitheater",
+  "romanization": "moodarrij",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "قَلعة",
+  "english": "citadel",
+  "romanization": "qal3a",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "تَلَوُّث",
+  "english": "pollution",
+  "romanization": "talawwooth",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: City"
+ },
+ {
+  "arabic": "عالي",
+  "english": "loud / high",
+  "romanization": "3alee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "رَقِيق",
+  "english": "delicate / gentle",
+  "romanization": "raqiq",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "واضِح",
+  "english": "clear",
+  "romanization": "waDiH",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "تَقلِيدِيّ",
+  "english": "traditional",
+  "romanization": "taqlidi",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "عَظيم",
+  "english": "great",
+  "romanization": "3aZeem",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "مُمتاز",
+  "english": "excellent",
+  "romanization": "moomtaz",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "فَوضَوي",
+  "english": "chaotic",
+  "romanization": "fawDawee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "خَطير",
+  "english": "dangerous",
+  "romanization": "khaTeer",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "مُشَوَّه",
+  "english": "deformed",
+  "romanization": "mooshawwah",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "مُقرِف",
+  "english": "disgusting",
+  "romanization": "mooqrif",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "ضَخم",
+  "english": "huge",
+  "romanization": "Dakhm",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "فاتِر",
+  "english": "lukewarm / tepid",
+  "romanization": "fatir",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "مرَتَّب",
+  "english": "neat/Tidy",
+  "romanization": "mrattab",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "حَدِيث",
+  "english": "modern",
+  "romanization": "Hadith",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "فَاخِر",
+  "english": "luxurious",
+  "romanization": "fakhir",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "مُفِيد",
+  "english": "useful",
+  "romanization": "moofid",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "شَدِيد",
+  "english": "severe, intense",
+  "romanization": "shadid",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "متفوق",
+  "english": "superior",
+  "romanization": "mtfooq",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "تافِه",
+  "english": "trivial/worthless",
+  "romanization": "tafih",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "قَيم",
+  "english": "worthy/precious",
+  "romanization": "qaym",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Things"
+ },
+ {
+  "arabic": "مُمَثِّل",
+  "english": "actor",
+  "romanization": "moomaththil",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "محلل",
+  "english": "analyst",
+  "romanization": "mHll",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "باحِث",
+  "english": "researcher",
+  "romanization": "baHith",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "كاتِب",
+  "english": "writer",
+  "romanization": "katib",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "مَلِكة",
+  "english": "queen",
+  "romanization": "malika",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "مُدَرِّس",
+  "english": "school teacher",
+  "romanization": "moodarris",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work | School"
+ },
+ {
+  "arabic": "انْدَفَع",
+  "english": "was paid",
+  "romanization": "andafa3",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work | Shopping"
+ },
+ {
+  "arabic": "دَعَم",
+  "english": "supported / invested in",
+  "romanization": "da3am",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "صَنَع",
+  "english": "made / manufactured",
+  "romanization": "Sana3",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "تَطَوَّع",
+  "english": "volunteered",
+  "romanization": "taTawwa3",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "داوَم",
+  "english": "was on duty / at work",
+  "romanization": "dawam",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Work"
+ },
+ {
+  "arabic": "خَنزير",
+  "english": "pig",
+  "romanization": "khanzeer",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "بَطّة",
+  "english": "duck",
+  "romanization": "baTTa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "فِراشة",
+  "english": "butterfly",
+  "romanization": "firasha",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "نَسر",
+  "english": "eagle",
+  "romanization": "nasr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "دُب",
+  "english": "bear",
+  "romanization": "doob",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "نِمر",
+  "english": "tiger",
+  "romanization": "nimr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "نَحلة",
+  "english": "bee",
+  "romanization": "naHla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "غراب",
+  "english": "crow",
+  "romanization": "ghrab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "صَقر",
+  "english": "hawk",
+  "romanization": "Saqr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "ثَعلَب",
+  "english": "fox",
+  "romanization": "tha3lab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "صوص",
+  "english": "chick",
+  "romanization": "SooS",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "ثور",
+  "english": "bull",
+  "romanization": "thoor",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Animals"
+ },
+ {
+  "arabic": "مَلابِس",
+  "english": "clothes",
+  "romanization": "malabis",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "أواعي",
+  "english": "clothes",
+  "romanization": "aooa3ee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "جَزمة",
+  "english": "boots",
+  "romanization": "jazma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "بَدلة",
+  "english": "suit",
+  "romanization": "badla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "صوف",
+  "english": "wool",
+  "romanization": "Soof",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "قُطُن",
+  "english": "cotton",
+  "romanization": "qooToon",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "زِرّ",
+  "english": "button",
+  "romanization": "zirr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "سِحاب",
+  "english": "zipper",
+  "romanization": "siHab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "خَيط",
+  "english": "thread",
+  "romanization": "khayT",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "حِزام",
+  "english": "belt",
+  "romanization": "Hizam",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "جينز",
+  "english": "jeans",
+  "romanization": "jeenz",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "ملابِس داخِلية",
+  "english": "underwear",
+  "romanization": "mlabis",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "كِلوت",
+  "english": "underpants",
+  "romanization": "kiloot",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "أواعي صَيفية",
+  "english": "summer clothes",
+  "romanization": "aooa3ee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "أواعي شِتاوية",
+  "english": "winter clothes",
+  "romanization": "aooa3ee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Clothes"
+ },
+ {
+  "arabic": "غُرفة نوم",
+  "english": "bed room",
+  "romanization": "ghoorfa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "غُرفة قعدة",
+  "english": "sitting room",
+  "romanization": "ghoorfa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "غُرفة ضَيوف",
+  "english": "reception room",
+  "romanization": "ghoorfa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "بُرداية",
+  "english": "curtains",
+  "romanization": "boordaeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "صورة",
+  "english": "picture",
+  "romanization": "Soora",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "خَيمة",
+  "english": "tent",
+  "romanization": "khayma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "فَرَندة",
+  "english": "veranda",
+  "romanization": "faranda",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "رَحَل",
+  "english": "moved (house)",
+  "romanization": "raHal",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "عَفِش",
+  "english": "furniture",
+  "romanization": "3afish",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "مَحبَس",
+  "english": "valve",
+  "romanization": "maHbas",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "عَرْبَن",
+  "english": "put down a deposit",
+  "romanization": "3arban",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: The Home"
+ },
+ {
+  "arabic": "أمريكا",
+  "english": "america (USA)",
+  "romanization": "amreeka",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "روسيّا",
+  "english": "russia",
+  "romanization": "rooseeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الصين",
+  "english": "china",
+  "romanization": "iS-Seen",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الهِند",
+  "english": "india",
+  "romanization": "il-hind",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "مَصر",
+  "english": "egypt",
+  "romanization": "maSr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "تونِس",
+  "english": "tunisia",
+  "romanization": "toonis",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الجزائر",
+  "english": "algeria",
+  "romanization": "il-jza2r",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "أُروبّا",
+  "english": "europe",
+  "romanization": "ooroobba",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "برِيطانيا",
+  "english": "britain",
+  "romanization": "briTaneea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "فرَنسا",
+  "english": "france",
+  "romanization": "fransa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "ألمانيا",
+  "english": "germany",
+  "romanization": "almaneea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "بِلاد الشام",
+  "english": "the Levant",
+  "romanization": "bilad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "إسرائيل",
+  "english": "israel (Palestine)",
+  "romanization": "isra2eel",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "سوريا",
+  "english": "syria",
+  "romanization": "sooreea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "لُبنان",
+  "english": "lebanon",
+  "romanization": "loobnan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الأُردُن",
+  "english": "jordan",
+  "romanization": "il-oordoon",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "العِراق",
+  "english": "iraq",
+  "romanization": "il-3iraq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "كَنَدا",
+  "english": "canada",
+  "romanization": "kanada",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "المَكسيك",
+  "english": "mexico",
+  "romanization": "il-makseek",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "برازيل",
+  "english": "brazil",
+  "romanization": "brazeel",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الخَليج",
+  "english": "the Gulf",
+  "romanization": "il-khaleej",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "كوَيت",
+  "english": "kuwait",
+  "romanization": "kwayt",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "عُمان",
+  "english": "oman",
+  "romanization": "3ooman",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "اليَمَن",
+  "english": "yemen",
+  "romanization": "il-yaman",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "السَعوديّة",
+  "english": "saudi Arabia",
+  "romanization": "is-sa3oodeeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الإمارات",
+  "english": "united Arab Emirates",
+  "romanization": "il-imarat",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "بَحرَين",
+  "english": "bahrain",
+  "romanization": "baHrayn",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "تُركيّا",
+  "english": "turkey",
+  "romanization": "toorkeeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "شَمال أفريقيا",
+  "english": "north Africa",
+  "romanization": "shamal",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "سودان",
+  "english": "sudan",
+  "romanization": "soodan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "ليبيا",
+  "english": "libya",
+  "romanization": "leebeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "المَغرَب",
+  "english": "morocco",
+  "romanization": "il-maghrab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "بَلجيكا",
+  "english": "belgium",
+  "romanization": "baljeeka",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "إيطاليا",
+  "english": "italy",
+  "romanization": "ieeTaleea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "إسبانيا",
+  "english": "spain",
+  "romanization": "isbaneea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "هُلاندا",
+  "english": "the Netherlands",
+  "romanization": "hoolanda",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "إيران",
+  "english": "iran",
+  "romanization": "ieeran",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الأرجَنتينا",
+  "english": "argentina",
+  "romanization": "il-arjanteena",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "كولومبيا",
+  "english": "colombia",
+  "romanization": "kooloombeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "اليابان",
+  "english": "japan",
+  "romanization": "il-eeaban",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "باكِستان",
+  "english": "pakistan",
+  "romanization": "bakistan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "أفغَنِستان",
+  "english": "afghanistan",
+  "romanization": "afghanistan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "إندونيسيا",
+  "english": "indonesia",
+  "romanization": "indooneeseea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الصومال",
+  "english": "somalia",
+  "romanization": "iS-Soomal",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الصَحراء الغَربيّة",
+  "english": "western Sahara",
+  "romanization": "iS-SaHra2",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "موريتانيا",
+  "english": "mauritania",
+  "romanization": "mooreetaneea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "مالي",
+  "english": "mali",
+  "romanization": "malee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "بُلاندا",
+  "english": "poland",
+  "romanization": "boolanda",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "النِمسا",
+  "english": "austria",
+  "romanization": "in-nimsa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "اليونان",
+  "english": "greece",
+  "romanization": "il-eeoonan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "سويسرا",
+  "english": "switzerland",
+  "romanization": "sooeesra",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "تَمَنية وأربَعين",
+  "english": "forty Eight Palestine (refers to the 1948 borders of Palestine, and Palestinians often use this when talking about the land of modern day Israel)",
+  "romanization": "tamaneea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "الكيان الصَهيونيّ",
+  "english": "the Zionist entity",
+  "romanization": "il-keean",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Countries"
+ },
+ {
+  "arabic": "طالِب",
+  "english": "student",
+  "romanization": "Talib",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: School"
+ },
+ {
+  "arabic": "وَرَقة",
+  "english": "piece of paper",
+  "romanization": "waraqa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: School"
+ },
+ {
+  "arabic": "قاموس",
+  "english": "dictionary",
+  "romanization": "qamoos",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: School"
+ },
+ {
+  "arabic": "رَسم",
+  "english": "drawing",
+  "romanization": "rasm",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: School"
+ },
+ {
+  "arabic": "عَمّية",
+  "english": "colloquial arabic",
+  "romanization": "3ammeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: School"
+ },
+ {
+  "arabic": "أربع",
+  "english": "four + noun",
+  "romanization": "arb3",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "خمس",
+  "english": "five + noun",
+  "romanization": "khms",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "ست",
+  "english": "six + noun",
+  "romanization": "st",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "سبع",
+  "english": "seven + noun",
+  "romanization": "sb3",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "ثمن",
+  "english": "eight + noun",
+  "romanization": "thmn",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "تسع",
+  "english": "nine + noun",
+  "romanization": "ts3",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "عشر",
+  "english": "ten + noun",
+  "romanization": "3shr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "مئة",
+  "english": "hundred",
+  "romanization": "m2a",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Numbers"
+ },
+ {
+  "arabic": "ولاد",
+  "english": "children",
+  "romanization": "wlad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "مَرةْ عَمّ",
+  "english": "aunt (father’s brother’s wife)",
+  "romanization": "mara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "جوز عَمّة",
+  "english": "uncle (father’s sister’s husband)",
+  "romanization": "jooz",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "مَرةْ خال",
+  "english": "aunt (mother’s brother’s wife)",
+  "romanization": "mara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "اِبِن عمِّة",
+  "english": "cousin (father’s sister’s son)",
+  "romanization": "ibin",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "بِنْت عمِّة",
+  "english": "cousin (father’s sister’s daughter)",
+  "romanization": "bint",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "اِبِن خالِة",
+  "english": "cousin (mother’s sister’s son)",
+  "romanization": "ibin",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "بِنْت خالِة",
+  "english": "cousin (mother’s sister’s daughter)",
+  "romanization": "bint",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "بابا",
+  "english": "dad",
+  "romanization": "baba",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "إِخوة",
+  "english": "siblings",
+  "romanization": "ikhooa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "حفيد",
+  "english": "grandson",
+  "romanization": "Hfeed",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "حفيدة",
+  "english": "grandaughter",
+  "romanization": "Hfeeda",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "أحْفاد",
+  "english": "grandchildren",
+  "romanization": "aHfad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "أجْداد",
+  "english": "ancestors, forefathers",
+  "romanization": "ajdad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "تَبَنّي",
+  "english": "adoption",
+  "romanization": "tabannee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Family"
+ },
+ {
+  "arabic": "مواصلات",
+  "english": "public transportation",
+  "romanization": "mooaSlat",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Transport"
+ },
+ {
+  "arabic": "سَفينة",
+  "english": "ship",
+  "romanization": "safeena",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Transport"
+ },
+ {
+  "arabic": "مَركَب",
+  "english": "boat",
+  "romanization": "markab",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Transport"
+ },
+ {
+  "arabic": "قطار",
+  "english": "train",
+  "romanization": "qTar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Transport"
+ },
+ {
+  "arabic": "واطي",
+  "english": "low",
+  "romanization": "waTee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Places"
+ },
+ {
+  "arabic": "على اليَمين",
+  "english": "on the right",
+  "romanization": "3la",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Places"
+ },
+ {
+  "arabic": "على الشمال",
+  "english": "on the left",
+  "romanization": "3la",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Places"
+ },
+ {
+  "arabic": "مُدمِن",
+  "english": "addicted",
+  "romanization": "moodmin",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "عَدواني",
+  "english": "aggressive / hostile",
+  "romanization": "3adooanee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "نَصّاب",
+  "english": "crook",
+  "romanization": "naSSab",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "فُضُولِيّ",
+  "english": "curious",
+  "romanization": "fooDooli",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مِزاجِيّ",
+  "english": "moody",
+  "romanization": "mizaji",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مُتهَوِّر",
+  "english": "reckless / Careless",
+  "romanization": "moothawwir",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مَوهوب",
+  "english": "talented",
+  "romanization": "mawhoob",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مِتسامِح",
+  "english": "tolerant",
+  "romanization": "mitsamiH",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "أناني",
+  "english": "selfish",
+  "romanization": "ananee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "حَقود",
+  "english": "spiteful",
+  "romanization": "Haqood",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مِتشَدِّد",
+  "english": "strict",
+  "romanization": "mitshaddid",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مُشكلجي",
+  "english": "troublemaker",
+  "romanization": "mooshkljee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مَغرور",
+  "english": "snobby/Vain",
+  "romanization": "maghroor",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "حَكيم",
+  "english": "wise",
+  "romanization": "Hakeem",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "جذاب",
+  "english": "attractive charming",
+  "romanization": "jdhab",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مَحبوب",
+  "english": "beloved",
+  "romanization": "maHboob",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مِتباهي",
+  "english": "boastful",
+  "romanization": "mitbahee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "غَشّاش",
+  "english": "cheater",
+  "romanization": "ghashshash",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "جَبّان",
+  "english": "coward",
+  "romanization": "jabban",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "شَرير",
+  "english": "evil",
+  "romanization": "shareer",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "خَبيث",
+  "english": "malicious",
+  "romanization": "khabeeth",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "جَبّار",
+  "english": "mighty",
+  "romanization": "jabbar",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "شَهم",
+  "english": "noble",
+  "romanization": "shahm",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مُنفَتِح",
+  "english": "open minded",
+  "romanization": "moonfatiH",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "مُخْلِص",
+  "english": "sincere / Loyal",
+  "romanization": "mookhliS",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Character"
+ },
+ {
+  "arabic": "تَضايَق",
+  "english": "was annoyed",
+  "romanization": "taDayaq",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "عَصَّب",
+  "english": "got angry",
+  "romanization": "3aSSab",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "رَضِي",
+  "english": "was pleased / satisfied",
+  "romanization": "raDi",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "انْزَعَج",
+  "english": "was annoyed",
+  "romanization": "anza3aj",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "حَنّ",
+  "english": "longed for",
+  "romanization": "Hann",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "اشْتَهى",
+  "english": "craved / desired",
+  "romanization": "ashtaha",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "تَعَوَّد",
+  "english": "got used to",
+  "romanization": "ta3awwad",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "عانَى",
+  "english": "suffered",
+  "romanization": "3anaa",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "مُكتَئِب",
+  "english": "depressed",
+  "romanization": "mookta2ib",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "وَحيد",
+  "english": "lonely",
+  "romanization": "waHeed",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "احْتار",
+  "english": "was confused / at a loss",
+  "romanization": "aHtar",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "احْتاط",
+  "english": "was cautious / took precautions",
+  "romanization": "aHtaT",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Emotions"
+ },
+ {
+  "arabic": "غَيمة",
+  "english": "cloud",
+  "romanization": "ghayma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Nature"
+ },
+ {
+  "arabic": "دُنيا",
+  "english": "world",
+  "romanization": "dooneea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Nature"
+ },
+ {
+  "arabic": "وَرق شَجر",
+  "english": "leaves",
+  "romanization": "warq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Nature"
+ },
+ {
+  "arabic": "صَحرا",
+  "english": "desert",
+  "romanization": "SaHra",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Nature"
+ },
+ {
+  "arabic": "كُلّ حَدا",
+  "english": "everyone",
+  "romanization": "kooll",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Pronouns"
+ },
+ {
+  "arabic": "أي إشي",
+  "english": "anything",
+  "romanization": "aee",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Pronouns"
+ },
+ {
+  "arabic": "نَعسان",
+  "english": "sleepy",
+  "romanization": "na3san",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "مَضغُوط",
+  "english": "stressed (under pressure)",
+  "romanization": "maDghooT",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "مِتوَتِّر",
+  "english": "stressed (tense)",
+  "romanization": "mitwattir",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "مرَشِّح",
+  "english": "have a cold",
+  "romanization": "mrashshiH",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "مِتفائل",
+  "english": "optimistic",
+  "romanization": "mitfa2l",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "مِتشائم",
+  "english": "pessimistic",
+  "romanization": "mitsha2m",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "عَرقان",
+  "english": "sweaty",
+  "romanization": "3arqan",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "مَقهُور",
+  "english": "deeply disappointed",
+  "romanization": "maqhoor",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Moods"
+ },
+ {
+  "arabic": "عَشَان",
+  "english": "because of (in order to)",
+  "romanization": "3ashan",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Conjunctions; variant: عَلَى شَان"
+ },
+ {
+  "arabic": "حَتَّى لَو",
+  "english": "even if",
+  "romanization": "Hattaa",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Conjunctions"
+ },
+ {
+  "arabic": "وَلا حَتَّى",
+  "english": "not even",
+  "romanization": "wala",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Conjunctions"
+ },
+ {
+  "arabic": "مَع هَيك",
+  "english": "even so",
+  "romanization": "ma3",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Conjunctions"
+ },
+ {
+  "arabic": "شَمسية",
+  "english": "umbrella",
+  "romanization": "shamseea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Weather"
+ },
+ {
+  "arabic": "رياضة",
+  "english": "sport",
+  "romanization": "reeaDa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "كُرة قَدم",
+  "english": "football",
+  "romanization": "koora",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "سِباحة",
+  "english": "swimming",
+  "romanization": "sibaHa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "تَنِس",
+  "english": "tennis",
+  "romanization": "tanis",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "كُرة سَلّة",
+  "english": "basketball",
+  "romanization": "koora",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "كُرة إيد",
+  "english": "handball",
+  "romanization": "koora",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "يوغا",
+  "english": "yoga",
+  "romanization": "yoogha",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "لاعِب",
+  "english": "player",
+  "romanization": "la3ib",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "نافَس",
+  "english": "competed against",
+  "romanization": "nafas",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "غوص",
+  "english": "diving",
+  "romanization": "ghooS",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "ملاكمة",
+  "english": "boxing",
+  "romanization": "mlakma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Sport"
+ },
+ {
+  "arabic": "كُحلي",
+  "english": "navy blue",
+  "romanization": "kooHlee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Colours"
+ },
+ {
+  "arabic": "زَيتي",
+  "english": "olive green",
+  "romanization": "zaytee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Colours"
+ },
+ {
+  "arabic": "تِرِكوأز",
+  "english": "turquoise",
+  "romanization": "tirikooaz",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Colours"
+ },
+ {
+  "arabic": "أزرَق فاتِح",
+  "english": "light blue",
+  "romanization": "azraq",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Colours"
+ },
+ {
+  "arabic": "أخضَر فاتِح",
+  "english": "light green",
+  "romanization": "akhDar",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Colours"
+ },
+ {
+  "arabic": "أحمَر غامِق",
+  "english": "dark red",
+  "romanization": "aHmar",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Colours"
+ },
+ {
+  "arabic": "زبون",
+  "english": "customer",
+  "romanization": "zboon",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "إستِثمار",
+  "english": "investment",
+  "romanization": "istithmar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "رُبح",
+  "english": "profit",
+  "romanization": "roobH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "شَريك",
+  "english": "partner",
+  "romanization": "shareek",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "راسمال",
+  "english": "capital",
+  "romanization": "rasmal",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "تَعويض",
+  "english": "compensation",
+  "romanization": "ta3ooeeD",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "مُسْتهلك",
+  "english": "consumer",
+  "romanization": "moosthlk",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "إستِهلاك",
+  "english": "consumption",
+  "romanization": "istihlak",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "مستورد",
+  "english": "importer",
+  "romanization": "mstoord",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "إحتِكار",
+  "english": "monopoly",
+  "romanization": "iHtikar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "تَمويل",
+  "english": "financing",
+  "romanization": "tamooeel",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "عولمة",
+  "english": "globalization",
+  "romanization": "3oolma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Economics"
+ },
+ {
+  "arabic": "مَعرِفة",
+  "english": "knowledge",
+  "romanization": "ma3rifa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "مُحافِظ",
+  "english": "conservative",
+  "romanization": "mooHafiZ",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "سَيطَرة",
+  "english": "control",
+  "romanization": "sayTara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "قيم",
+  "english": "values",
+  "romanization": "qeem",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "أخلاق",
+  "english": "ethics / morals",
+  "romanization": "akhlaq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "نَظرية",
+  "english": "theory",
+  "romanization": "naZreea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "مَنطِق",
+  "english": "logic",
+  "romanization": "manTiq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "معارِضة",
+  "english": "opposition (to a position)",
+  "romanization": "m3ariDa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "إلزامي",
+  "english": "mandatory",
+  "romanization": "ilzamee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Philosophy"
+ },
+ {
+  "arabic": "إِلّا",
+  "english": "except",
+  "romanization": "illa",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Prepositions"
+ },
+ {
+  "arabic": "بَطاقة بنَك",
+  "english": "bank card",
+  "romanization": "baTaqa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Shopping"
+ },
+ {
+  "arabic": "كَلَّف",
+  "english": "cost (an amount)",
+  "romanization": "kallaf",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Shopping"
+ },
+ {
+  "arabic": "غَلَّى",
+  "english": "raised the price",
+  "romanization": "ghallaa",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Shopping"
+ },
+ {
+  "arabic": "رايح",
+  "english": "going",
+  "romanization": "raeeH",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "جاي",
+  "english": "coming",
+  "romanization": "jaee",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "عارِف",
+  "english": "knowing",
+  "romanization": "3arif",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "سايق",
+  "english": "driving",
+  "romanization": "saeeq",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "طالِع",
+  "english": "going out/Leaving",
+  "romanization": "Tali3",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "واقِف",
+  "english": "standing",
+  "romanization": "waqif",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "شايف",
+  "english": "seeing",
+  "romanization": "shaeef",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "قاعِد",
+  "english": "sitting",
+  "romanization": "qa3id",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "سامِع",
+  "english": "hearing",
+  "romanization": "sami3",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "فاهِم",
+  "english": "understanding",
+  "romanization": "fahim",
+  "pos": "Adjective",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Active Participles"
+ },
+ {
+  "arabic": "فاق",
+  "english": "woke up",
+  "romanization": "faq",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Daily Routine"
+ },
+ {
+  "arabic": "غَفِي",
+  "english": "dozed off / took a nap",
+  "romanization": "ghafi",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Daily Routine"
+ },
+ {
+  "arabic": "فَرْشَى",
+  "english": "brushed",
+  "romanization": "farshaa",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Daily Routine"
+ },
+ {
+  "arabic": "دِرهَم",
+  "english": "dirham",
+  "romanization": "dirham",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Money"
+ },
+ {
+  "arabic": "جنيه",
+  "english": "pound (currency)",
+  "romanization": "jneeh",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Money"
+ },
+ {
+  "arabic": "ليرة",
+  "english": "lira (singular)",
+  "romanization": "leera",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Money"
+ },
+ {
+  "arabic": "سَلَّم",
+  "english": "greeted",
+  "romanization": "sallam",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Social"
+ },
+ {
+  "arabic": "قَنينة",
+  "english": "bottle",
+  "romanization": "qaneena",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Kitchen"
+ },
+ {
+  "arabic": "بِدّ",
+  "english": "to want",
+  "romanization": "bidd",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Modals"
+ },
+ {
+  "arabic": "باس",
+  "english": "kissed",
+  "romanization": "bas",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Relationships"
+ },
+ {
+  "arabic": "تَزَوَّج",
+  "english": "married",
+  "romanization": "tazawwaj",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Relationships"
+ },
+ {
+  "arabic": "تَصالَح",
+  "english": "made up with",
+  "romanization": "taSalaH",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Relationships"
+ },
+ {
+  "arabic": "عاش",
+  "english": "lived",
+  "romanization": "3ash",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Life"
+ },
+ {
+  "arabic": "مات",
+  "english": "died",
+  "romanization": "mat",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Life"
+ },
+ {
+  "arabic": "انْوَلَد",
+  "english": "was born",
+  "romanization": "anwalad",
+  "pos": "Verb",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Life"
+ },
+ {
+  "arabic": "هِوَاية",
+  "english": "hobby",
+  "romanization": "hiwaeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Hobbies"
+ },
+ {
+  "arabic": "إدارة",
+  "english": "administration",
+  "romanization": "idara",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "جَمعية",
+  "english": "association",
+  "romanization": "jam3eea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "مُحاوَلة",
+  "english": "attempt",
+  "romanization": "mooHawala",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "لَقطة",
+  "english": "bargain",
+  "romanization": "laqTa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "رَشوة",
+  "english": "bribe",
+  "romanization": "rashooa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "فَراطة",
+  "english": "change of money",
+  "romanization": "faraTa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "شَغلة",
+  "english": "chore",
+  "romanization": "shaghla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "مؤتَمَر",
+  "english": "conference",
+  "romanization": "m2tamar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "واسِطة",
+  "english": "intermediary",
+  "romanization": "wasiTa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "شِعار",
+  "english": "logo",
+  "romanization": "shi3ar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "مُعامَلة",
+  "english": "official application",
+  "romanization": "moo3amala",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "مُنَظّمة",
+  "english": "organization",
+  "romanization": "moonaZZma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "مُشارَكة",
+  "english": "participation",
+  "romanization": "moosharaka",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "كَمّية",
+  "english": "quantity",
+  "romanization": "kammeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "واجِهة",
+  "english": "store window",
+  "romanization": "wajiha",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "فَريق",
+  "english": "team",
+  "romanization": "fareeq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Business"
+ },
+ {
+  "arabic": "دِفاع مَدَني",
+  "english": "civil defense",
+  "romanization": "difa3",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "الفَساد",
+  "english": "corruption",
+  "romanization": "il-fasad",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "جَريمة",
+  "english": "crime",
+  "romanization": "jareema",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "إنفِجار",
+  "english": "explosion",
+  "romanization": "infijar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "بَصمة",
+  "english": "fingerprint",
+  "romanization": "baSma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "جايزة",
+  "english": "grand prize",
+  "romanization": "jaeeza",
+  "pos": null,
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "تَحقيق",
+  "english": "investigation",
+  "romanization": "taHqeeq",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "أَمر",
+  "english": "issue",
+  "romanization": "amr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "مَذبَحة",
+  "english": "massacre",
+  "romanization": "madhbaHa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "إعتِصام",
+  "english": "protest",
+  "romanization": "i3tiSam",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "الصَليب الأحمَر",
+  "english": "red Cross",
+  "romanization": "iS-Saleeb",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "إصلاح",
+  "english": "reform",
+  "romanization": "iSlaH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "طلقة ناريّة",
+  "english": "shooting",
+  "romanization": "Tlqa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "وِلاية",
+  "english": "state",
+  "romanization": "wilaeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "إنتِحار",
+  "english": "suicide",
+  "romanization": "intiHar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "ضَريبة",
+  "english": "tax",
+  "romanization": "Dareeba",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "الأُمَم المُتَّحِدة",
+  "english": "united Nations",
+  "romanization": "il-oomam",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Government"
+ },
+ {
+  "arabic": "مؤمِن",
+  "english": "believer",
+  "romanization": "m2min",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "قَبر",
+  "english": "grave",
+  "romanization": "qabr",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "جَنّة",
+  "english": "heaven",
+  "romanization": "janna",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "يَهودي",
+  "english": "jew",
+  "romanization": "yahoodee",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "الفِصح",
+  "english": "easter",
+  "romanization": "il-fiSH",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "قُدّاس",
+  "english": "mass",
+  "romanization": "qooddas",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "طائِفة",
+  "english": "rel. branch",
+  "romanization": "Ta2ifa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "مُلحِد",
+  "english": "unbeliever",
+  "romanization": "moolHid",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Religion"
+ },
+ {
+  "arabic": "كَلمة",
+  "english": "word",
+  "romanization": "kalma",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Language"
+ },
+ {
+  "arabic": "لَهجة",
+  "english": "accent",
+  "romanization": "lahja",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Language"
+ },
+ {
+  "arabic": "فِقرة",
+  "english": "paragraph",
+  "romanization": "fiqra",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Language"
+ },
+ {
+  "arabic": "مَصدَر",
+  "english": "gerund, resource, origin",
+  "romanization": "maSdar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Language"
+ },
+ {
+  "arabic": "جُملة",
+  "english": "sentence",
+  "romanization": "joomla",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Language"
+ },
+ {
+  "arabic": "فَنّ",
+  "english": "art",
+  "romanization": "fann",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "فِرقة",
+  "english": "band",
+  "romanization": "firqa",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "آلة",
+  "english": "instrument",
+  "romanization": "aala",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "لَحن",
+  "english": "melody",
+  "romanization": "laHn",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "عَزف",
+  "english": "playing",
+  "romanization": "3azf",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "قَصيدة",
+  "english": "poem",
+  "romanization": "qaSeeda",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "زَجَل",
+  "english": "poetry singing",
+  "romanization": "zajal",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "أُغنيّة",
+  "english": "song",
+  "romanization": "ooghneeeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "مِهرَجان",
+  "english": "festival",
+  "romanization": "mihrajan",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "فيلم",
+  "english": "film",
+  "romanization": "feelm",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "مَسرَحية",
+  "english": "play",
+  "romanization": "masraHeea",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "دار نَشر",
+  "english": "publishing house",
+  "romanization": "dar",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ },
+ {
+  "arabic": "أُسلوب",
+  "english": "style",
+  "romanization": "oosloob",
+  "pos": "Noun",
+  "category": null,
+  "dialect_tag": null,
+  "confidence": null,
+  "notes": "source: Levantine dictionary (D278), topics: Art"
+ }
+]

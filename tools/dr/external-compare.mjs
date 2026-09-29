@@ -174,8 +174,24 @@ export function sortRecords(recs) {
   });
 }
 
-export const REVIEW_COLUMNS = ['level_band', 'our_level', 'mvp', 'our_id', 'our_arabic', 'our_romanization', 'our_english',
-  'our_pos', 'confidence', 'reasons', 'external_verdict', 'external_fix', 'external_note', 'their_word', 'their_meaning'];
+// One filterable column per reason kind, plus the combination, so a reviewer can
+// clear one kind at a time (e.g. romanization-only rows) (Marwan, chat 31).
+export const ISSUE_KINDS = ['romanization', 'vowel_marks', 'native_check', 'correction', 'other_dictionary', 'rejudge'];
+export function issueKinds(reasons) {
+  const k = new Set();
+  for (const p of reasons) {
+    if (p.startsWith('romanization')) k.add('romanization');
+    else if (p.startsWith('vocalised has non-Arabic')) k.add('rejudge');
+    else if (p.startsWith('vocalised')) k.add('vowel_marks');
+    else if (p.startsWith('native_check')) k.add('native_check');
+    else if (p.startsWith('correction')) k.add('correction');
+    else if (p.startsWith('external')) k.add('other_dictionary');
+  }
+  return ISSUE_KINDS.filter((x) => k.has(x));
+}
+
+export const REVIEW_COLUMNS = ['level_band', 'our_level', 'mvp', 'issues', ...ISSUE_KINDS, 'our_id', 'our_arabic',
+  'our_romanization', 'our_english', 'our_pos', 'confidence', 'reasons', 'external_verdict', 'external_fix', 'external_note', 'their_word', 'their_meaning'];
 
 /**
  * Every id of ours that needs review before it is taught: below 3 under D276,
@@ -192,11 +208,15 @@ export function reviewQueue(rows, ours, verdicts = {}) {
   for (const o of ours) {
     const ext = external.get(o.id);
     if (o.confidence === 3 && !ext) continue;
+    const reasons = [...(o.held_on ?? []), ...(ext ? [`external ${ext.r.category}: ${ext.r.discrepancy}`] : [])];
+    const kinds = issueKinds(reasons);
     recs.push({
-      level_band: levelBand(o.level), our_level: o.level, mvp: o.mvp ? 'Y' : '', our_id: o.id,
+      level_band: levelBand(o.level), our_level: o.level, mvp: o.mvp ? 'Y' : '',
+      issues: kinds.join(' + '), ...Object.fromEntries(ISSUE_KINDS.map((x) => [x, kinds.includes(x) ? 'Y' : ''])),
+      our_id: o.id,
       our_arabic: o.vocalised || o.arabic, our_romanization: o.romanization, our_english: o.english, our_pos: o.pos,
       confidence: ext ? Math.min(o.confidence, 2) : o.confidence,
-      reasons: [...(o.held_on ?? []), ...(ext ? [`external ${ext.r.category}: ${ext.r.discrepancy}`] : [])].join('; '),
+      reasons: reasons.join('; '),
       external_verdict: ext?.v.v ?? '', external_fix: ext?.v.fix ?? '', external_note: ext?.v.n ?? '',
       their_word: ext?.r.theirs.word ?? '', their_meaning: ext ? americanise(ext.r.theirs.meaning) : '',
     });

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { reviewQueue, sortRecords, levelBand, dedupeTheirs } from '../external-compare.mjs';
+import { reviewQueue, sortRecords, levelBand, dedupeTheirs, issueKinds } from '../external-compare.mjs';
 
 const o = (id, level, confidence, extra = {}) => ({ id, level, confidence, arabic: 'ا', vocalised: 'ا', english: 'e',
   romanization: 'a', pos: 'noun', mvp: 0, held_on: confidence < 3 ? ['romanization M'] : [], ...extra });
@@ -32,4 +32,10 @@ test('dedupe on (Word, Meaning), joining topics', () => {
   const d = dedupeTheirs([row('Food'), row('Home'), row('Food', 'other')]);
   assert.equal(d.length, 2);
   assert.deepEqual(d[0].topics, ['Food', 'Home']);
+});
+
+test('issue kinds: one per reason family, in a fixed order', () => {
+  assert.deepEqual(issueKinds(['vocalised M', 'romanization L', 'correction meaning M: x']), ['romanization', 'vowel_marks', 'correction']);
+  assert.deepEqual(issueKinds(['vocalised has non-Arabic characters', 'vocalised M']), ['vowel_marks', 'rejudge']);
+  assert.deepEqual(issueKinds(['native_check', 'external harakaat_variant: d']), ['native_check', 'other_dictionary']);
 });

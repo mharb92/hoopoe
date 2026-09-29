@@ -1,0 +1,305 @@
+{
+ "usd": 0.419776,
+ "verdicts": {
+  "r2": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "H"
+  },
+  "r7": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r24": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r25": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r43": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r52": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r165": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "r187": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r195": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r197": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r206": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r211": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r229": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r232": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r233": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r235": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r245": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "L"
+  },
+  "r262": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r263": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r264": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r271": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r304": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r323": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r325": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r346": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r348": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r349": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r360": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r402": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "r404": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "r408": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r413": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r414": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "L"
+  },
+  "r436": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r452": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r455": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "L"
+  },
+  "r485": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r494": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r500": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r503": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r512": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r562": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "r581": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r585": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "H"
+  },
+  "r586": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r632": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r639": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r651": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r652": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r676": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r678": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r696": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r730": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "H"
+  },
+  "r743": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r752": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r784": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r785": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r786": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r787": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r788": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  }
+ }
+}

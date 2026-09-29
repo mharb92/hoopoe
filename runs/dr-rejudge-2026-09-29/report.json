@@ -1,0 +1,266 @@
+{
+  "run_id": "dr-rejudge-2026-09-29",
+  "generated_at": "2026-09-29T21:18:36.696Z",
+  "stop_reason": "completed",
+  "stub_judge": null,
+  "config": {
+    "runId": "dr-rejudge-2026-09-29",
+    "seed": 748576934,
+    "batchSize": 60,
+    "transport": "judge-cli",
+    "spendCapUsd": 5,
+    "totalRows": 2728,
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "maxTokens": 64000,
+    "maxBatches": null,
+    "rowsFrom": "runs/dr-rejudge-2026-09-29/source-rows.json",
+    "judgeFrom": null,
+    "stage": true,
+    "runsDir": "/home/user/hoopoe/runs"
+  },
+  "totals": {
+    "planned_batches": 3,
+    "batches_run": 3,
+    "rows_skipped_resume": 0,
+    "rows_staged": 180,
+    "model_calls": 3,
+    "usd_spent": 2.1391691999999995,
+    "spend_cap_usd": 5
+  },
+  "checks": [
+    {
+      "id": "P1",
+      "label": "every requested id returned exactly once (first response)",
+      "pass": true,
+      "value": {
+        "requested": 180,
+        "batches": [
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          },
+          {
+            "missingIds": [],
+            "extraIds": [],
+            "duplicateIds": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "label": "schema conformance after at most 1 repair retry",
+      "pass": true,
+      "value": {
+        "unresolvedIds": [],
+        "repairCalls": 0
+      }
+    },
+    {
+      "id": "P3",
+      "label": "pos/register/form_origin/level are enum values only",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P4",
+      "label": "every row carries level, level_reason, level_conf",
+      "pass": true,
+      "value": {
+        "violations": []
+      }
+    },
+    {
+      "id": "P5",
+      "label": "level spread is at least 3 distinct values",
+      "pass": true,
+      "value": {
+        "levels": {
+          "1": 14,
+          "2": 56,
+          "3": 85,
+          "4": 24,
+          "5": 1
+        }
+      }
+    },
+    {
+      "id": "P6",
+      "label": "verb share of level 1-2 rows >= 0.3 (external signal 0.4)",
+      "pass": false,
+      "value": {
+        "verbShare": 0.04285714285714286,
+        "lowBandRows": 70,
+        "externalSignal": 0.4
+      }
+    },
+    {
+      "id": "P7",
+      "label": "held rate and native_check rate (recorded, not a gate)",
+      "pass": null,
+      "value": {
+        "heldRate": 0.4388888888888889,
+        "held": 79,
+        "rows": 180,
+        "nativeCheckRate": 0.1,
+        "nativeCheck": 18
+      }
+    },
+    {
+      "id": "P8",
+      "label": "cost and output tokens per row, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "outputTokensPerRow": {
+          "min": 464.26666666666665,
+          "p50": 507.2,
+          "p90": 537.3166666666667,
+          "max": 537.3166666666667,
+          "mean": 502.92777777777775
+        },
+        "outputTokensPerCall": {
+          "min": 27856,
+          "p50": 30432,
+          "p90": 32239,
+          "max": 32239,
+          "mean": 30175.666666666668
+        },
+        "maxTokensConfigured": 64000,
+        "worstCallVsMaxTokens": 0.503734375,
+        "thinkingTokens": {
+          "total": 60632,
+          "perCall": {
+            "min": 18270,
+            "p50": 20359,
+            "p90": 22003,
+            "max": 22003,
+            "mean": 20210.666666666668
+          },
+          "shareOfOutput": 0.669767030830581
+        },
+        "preambleTokens": {
+          "created": {
+            "min": 10556,
+            "p50": 10643,
+            "p90": 15667,
+            "max": 15667,
+            "mean": 12288.666666666666
+          },
+          "read": {
+            "min": 23245,
+            "p50": 28198,
+            "p90": 28198,
+            "max": 28198,
+            "mean": 26547
+          }
+        },
+        "metered": [
+          "transport"
+        ],
+        "usd": 2.1391691999999995,
+        "usdPerRow": 0.01188427333333333,
+        "usdExtrapolated": 32.42029765333333
+      }
+    },
+    {
+      "id": "P9",
+      "label": "review_confidence distribution, extrapolated to 2,728 (recorded)",
+      "pass": null,
+      "value": {
+        "distribution": {
+          "1": 5,
+          "2": 74,
+          "3": 101
+        },
+        "extrapolated": {
+          "1": 76,
+          "2": 1122,
+          "3": 1531
+        },
+        "rows": 180
+      }
+    },
+    {
+      "id": "P10",
+      "label": "vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)",
+      "pass": true,
+      "value": {
+        "flipRate": 0.19444444444444445,
+        "flipped": 35,
+        "rows": 180,
+        "flippedIds": [
+          2154,
+          1700,
+          1352,
+          1222,
+          2082,
+          1235,
+          1625,
+          479,
+          2725,
+          1604,
+          1203,
+          1994,
+          1432,
+          1702,
+          257,
+          2497,
+          2422,
+          1853,
+          1391,
+          213,
+          1434,
+          782,
+          1514,
+          1833,
+          1469,
+          2724,
+          1470,
+          1981,
+          467,
+          2539,
+          965,
+          1944,
+          242,
+          2104,
+          1662
+        ]
+      }
+    }
+  ],
+  "batches": [
+    {
+      "batch_no": 1,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.7446060000000001
+    },
+    {
+      "batch_no": 2,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.7414915999999999
+    },
+    {
+      "batch_no": 3,
+      "requested": 60,
+      "staged": 60,
+      "repair_attempts": 0,
+      "unresolved_ids": [],
+      "usd": 0.6530715999999999
+    }
+  ]
+}

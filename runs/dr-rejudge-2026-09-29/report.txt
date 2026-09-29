@@ -1,8 +1,3 @@
-(node:681) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
-(Use `node --trace-warnings ...` to show where the warning was created)
-batch 1: staged 60/60, spend $0.7446
-batch 2: staged 60/60, spend $1.4861
-batch 3: staged 60/60, spend $2.1392
 DR run dr-rejudge-2026-09-29
 stop reason: completed
 batches 3/3  staged 180  skipped(resume) 0
@@ -28,4 +23,3 @@ P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
       {"distribution":{"1":5,"2":74,"3":101},"extrapolated":{"1":76,"2":1122,"3":1531},"rows":180}
 P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
       {"flipRate":0.19444444444444445,"flipped":35,"rows":180,"flippedIds":[2154,1700,1352,1222,2082,1235,1625,479,2725,1604,1203,1994,1432,1702,257,2497,2422,1853,1391,213,1434,782,1514,1833,1469,2724,1470,1981,467,2539,965,1944,242,2104,1662]}
-artefacts: /home/user/hoopoe/runs/dr-rejudge-2026-09-29

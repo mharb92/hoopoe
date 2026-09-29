@@ -103,11 +103,35 @@ export const harakaatText = (diffs, ours, theirs) =>
   ` (${ours} / ${theirs})`;
 
 // --- §4.2 gloss -------------------------------------------------------------
+// Glosses use American spelling (Marwan, chat 31). British spellings in the
+// source are normalised before comparing and before anything is exported.
+const US_WORDS = {
+  yoghurt: 'yogurt', theatre: 'theater', centre: 'center', metre: 'meter', litre: 'liter', fibre: 'fiber',
+  defence: 'defense', offence: 'offense', licence: 'license', moustache: 'mustache', aeroplane: 'airplane',
+  grey: 'gray', programme: 'program', tyre: 'tire', jewellery: 'jewelry', cheque: 'check', pyjamas: 'pajamas',
+  mum: 'mom', catalogue: 'catalog', dialogue: 'dialog', plough: 'plow', mould: 'mold', sceptical: 'skeptical',
+  practise: 'practice', analyse: 'analyze', analysed: 'analyzed', travelled: 'traveled', travelling: 'traveling',
+  traveller: 'traveler', cancelled: 'canceled', cancelling: 'canceling', storey: 'story', cosy: 'cozy',
+};
+const OUR_STEMS = /\b(colo|flavo|neighbo|favo|hono|labo|behavio|humo|rumo|harbo|odo|vapo|armo|parlo|savo|endeavo|glamo|clamo|rigo|vigo|valo|splendo|tumo)ur/gi;
+const ISE_STEMS = /\b(organ|real|recogn|apolog|memor|summar|categor|priorit|custom|minim|maxim|critic|visual|final|special|civil|global|modern|normal|character|emphas|sympath|util|stabil|legal|fertil|steril|symbol|harmon|agon|colon|terror|author|jeopard|mobil|neutral|popular|standard|subsid|vapor|hospital|immun|capital|central|familiar|general|natural|patron|revolution)is(e|ed|es|ing|ation|ations)\b/gi;
+
+export function americanise(text) {
+  return (text ?? '')
+    .replace(/[A-Za-z]+/g, (w) => {
+      const us = US_WORDS[w.toLowerCase()];
+      if (!us) return w;
+      return w[0] === w[0].toUpperCase() ? us[0].toUpperCase() + us.slice(1) : us;
+    })
+    .replace(OUR_STEMS, '$1r')
+    .replace(ISE_STEMS, '$1iz$2');
+}
+
 const STOP = new Set(['a', 'an', 'the', 'to', 'of', 'be', 'is', 'it', 'one', 'someone', 'something', 'sth', 'sb']);
 
 /** Normalised senses of an English gloss. */
 export function senses(gloss) {
-  return (gloss ?? '').toLowerCase()
+  return americanise(gloss ?? '').toLowerCase()
     .replace(/\([^)]*\)/g, ' ')
     .replace(/\be\.?t\.?c\.?/g, ' ')
     .split(/\s*(?:\/|,|;|\bor\b)\s*/)

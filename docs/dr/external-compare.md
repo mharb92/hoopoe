@@ -38,7 +38,7 @@ Their bound morphemes (entries written with tatweel or `...`, e.g. `... ـــك
 Each unique pair of theirs is matched against ours at the lowest tier that hits. If a match hits several of our ids (homographs), the gloss check (4.2) picks the one whose gloss agrees; if none or several agree, all are kept, one output row each.
 
 ### 4.2 Gloss check
-Both glosses are normalised: lowercase; drop a leading `to `, parentheticals and `e.t.c.`/`etc`; split on `/`, `,` and ` or `. The result is `agree` if any normalised sense is equal, or one contains the other as whole words; otherwise it's `disagree`.
+Both glosses are normalised: British spellings to American (`yoghurt` → `yogurt`, `-our` → `-or`, `-ise` → `-ize` on a fixed stem list), which is also how their gloss appears in every export (Marwan, chat 31: glosses use American spelling); lowercase; drop a leading `to `, parentheticals and `e.t.c.`/`etc`; split on `/`, `,` and ` or `. The result is `agree` if any normalised sense is equal, or one contains the other as whole words; otherwise it's `disagree`.
 - Our verbs are glossed in the past tense ("came") and theirs as infinitives ("To come"), which the script can't equate. A verb `disagree` therefore goes to the model rather than straight to `meaning_mismatch`.
 
 ### 4.3 Harakaat compare (letter matches only)
@@ -109,7 +109,8 @@ Only for categories marked "yes" in 4.5.
 ## 6. Outputs, at `runs/ext-compare-<date>/`
 - `ours.json` and `theirs-deduped.json`, each with its sha256.
 - **`differences.csv`**, the deliverable. Columns: `category`, `verdict`, `their_dialect`, `conf`, `discrepancy`, `note`, `fix`, `pos_gap`, `our_confidence`, `mvp`, `our_id`, `our_arabic`, `our_romanization`, `our_english`, `our_pos`, `our_level`, `their_word`, `their_transliteration`, `their_meaning`, `their_category`, `their_topics`, `their_feminine`, `their_plural`, `their_superlative`, `their_other_variants`.
-  - Sorted with MVP rows first, then `our_confidence` 3 before 2 before 1 (a row we would teach that the source contradicts is the most valuable find), then by category, with `ours_wrong` first within each category.
+  - Sorted by our level band (1-2, 3, 4-5; rows with no level of ours last), then MVP, then `our_confidence` 3 before 2 before 1 (a row we would teach that the source contradicts is the most valuable find), then category, with `ours_wrong` first within it.
+- **`review-queue.csv`**: every id of ours to review before it is taught, meaning below 3 under D276, or `ours_wrong` here (capped at 2). Sorted by level band (1-2, then 3, then 4-5), then level, then MVP, so level 1-2 is worked first (Marwan, chat 31). Columns: `level_band`, `our_level`, `mvp`, `our_id`, `our_arabic`, `our_romanization`, `our_english`, `our_pos`, `confidence`, `reasons` (pronunciation M/L, `native_check`, each capping correction, the external discrepancy), `external_verdict`, `external_fix`, `external_note`, `their_word`, `their_meaning`.
 - `only-ours.csv`: `our_id`, `mvp`, `our_confidence`, `our_arabic`, `our_english`, `our_pos`, `our_level`.
 - `summary.json`: counts per category and verdict, the same counts split by `our_confidence`, the pos cross-tab, MVP coverage, and cost from the CLI envelope.
 

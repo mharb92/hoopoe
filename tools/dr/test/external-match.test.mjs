@@ -125,3 +125,12 @@ test('bound morphemes are skipped, not compared', () => {
   assert.equal(rows.length, 0);
   assert.equal(skipped.length, 1);
 });
+
+test('American spelling: British glosses are normalised, ordinary words untouched', async () => {
+  const { americanise } = await import('../external-match.mjs');
+  assert.equal(americanise('Yoghurt'), 'Yogurt');
+  assert.equal(americanise('neighbourhood / flavour'), 'neighborhood / flavor');
+  assert.equal(americanise('to organise'), 'to organize');
+  assert.equal(americanise('exercise, promise, otherwise'), 'exercise, promise, otherwise');
+  assert.equal(glossCheck('yogurt', 'Yoghurt'), 'agree');
+});

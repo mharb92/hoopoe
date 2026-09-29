@@ -21,9 +21,15 @@ function isAuto(conf) {
   return conf === 'H';
 }
 
+/** The corrections that hold a row at 2: M or L, to the meaning or the Arabic. */
+export function cappingCorrections(corrections) {
+  return Array.isArray(corrections)
+    ? corrections.filter((c) => c?.conf !== 'H' && CORRECTION_TYPES_THAT_CAP_SCORE.has(c?.type))
+    : [];
+}
+
 function hasCappingCorrection(corrections) {
-  return Array.isArray(corrections) &&
-    corrections.some((c) => c?.conf !== 'H' && CORRECTION_TYPES_THAT_CAP_SCORE.has(c?.type));
+  return cappingCorrections(corrections).length > 0;
 }
 
 /**

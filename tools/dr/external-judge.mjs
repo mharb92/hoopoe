@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, appendFileSync, existsSync } from 'node:fs
 import path from 'node:path';
 import { callClaudeCli } from './judge-cli.mjs';
 import { parseObjects } from './judge.mjs';
-import { MODEL_CATEGORIES } from './external-match.mjs';
+import { MODEL_CATEGORIES, americanise } from './external-match.mjs';
 import { exportCsvs, summarise, scriptRows } from './external-compare.mjs';
 
 export const MODEL = 'claude-opus-5-5'; // D273
@@ -50,7 +50,7 @@ export function buildUser(category, rows) {
   const lines = rows.map((r) => JSON.stringify({
     k: r.k,
     ours: r.ours ? { ar: r.ours.vocalised || r.ours.arabic, en: r.ours.english, pos: r.ours.pos } : null,
-    theirs: { ar: r.theirs.word, tr: r.theirs.transliteration, en: r.theirs.meaning, pos: r.theirs.category },
+    theirs: { ar: r.theirs.word, tr: r.theirs.transliteration, en: americanise(r.theirs.meaning), pos: r.theirs.category },
     diff: r.discrepancy,
   }));
   const extra = category === 'only_theirs' ? ' For these rows ours is null.'
@@ -148,7 +148,7 @@ export async function judgeRun(runId, { spendCap = 15, callImpl = callClaudeCli,
   const snap = JSON.parse(readFileSync(path.join(dir, 'ours.json'), 'utf8'));
   const theirs = JSON.parse(readFileSync(path.join(dir, 'theirs-deduped.json'), 'utf8'));
   const sr = scriptRows({ ours: snap, theirs });
-  exportCsvs(runId, sr.rows, sr.onlyOurs, state.verdicts);
+  exportCsvs(runId, sr.rows, sr.onlyOurs, snap, state.verdicts);
   const judged = sr.rows.filter((r) => state.verdicts[r.k]);
   const tally = (f) => judged.reduce((m, r) => { const k = f(r); m[k] = (m[k] ?? 0) + 1; return m; }, {});
   const summary = {

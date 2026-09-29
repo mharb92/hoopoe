@@ -12,8 +12,8 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { parseCsv, toCsv } from './essentials.mjs';
-import { routeRow } from './route.mjs';
-import { categorise, isExported, MODEL_CATEGORIES } from './external-match.mjs';
+import { routeRow, cappingCorrections } from './route.mjs';
+import { categorise, isExported, MODEL_CATEGORIES, americanise } from './external-match.mjs';
 
 export const SOURCE_CSV = 'docs/dr/external/levantine-dictionary.csv';
 export const SOURCE_SHA256 = 'e6fe21dbfe57cf3fa9a2badd94dd7544fd7a4929f71f1d304a2455a7d96f6881';
@@ -75,6 +75,13 @@ async function snapshot(runId) {
       id: d.id, arabic: d.arabic, vocalised: m.arabic_vocalised?.value ?? null, english: d.english,
       pos: m.pos ?? d.pos, level: m.level, romanization: m.romanization?.value ?? '',
       confidence: routeRow(m).review_confidence, mvp: essential.has(d.id) ? 1 : 0,
+      // Why a row is below 3 (D276), for the review queue.
+      held_on: [
+        ...(m.romanization?.conf !== 'H' ? [`romanization ${m.romanization?.conf}`] : []),
+        ...(m.arabic_vocalised?.conf !== 'H' ? [`vocalised ${m.arabic_vocalised?.conf}`] : []),
+        ...(m.native_check ? ['native_check'] : []),
+        ...cappingCorrections(m.corrections).map((c) => `correction ${c.type} ${c.conf}: ${c.suggested ?? ''}`.trim()),
+      ],
     };
   });
   const theirs = dedupeTheirs(parseCsv(csvText.toString('utf8')));
@@ -140,16 +147,24 @@ export function diffRecord(r, v = {}) {
     our_confidence: o?.confidence ?? '', mvp: o?.mvp ? 'Y' : '', our_id: o?.id ?? '',
     our_arabic: o ? (o.vocalised || o.arabic) : '', our_romanization: o?.romanization ?? '', our_english: o?.english ?? '',
     our_pos: o?.pos ?? '', our_level: o?.level ?? '', their_word: t.word, their_transliteration: t.transliteration,
-    their_meaning: t.meaning, their_category: t.category, their_topics: t.topics.join(' | '),
+    their_meaning: americanise(t.meaning), their_category: t.category, their_topics: t.topics.join(' | '),
     their_feminine: t.feminine, their_plural: t.plural, their_superlative: t.superlative,
     their_other_variants: t.other_variants,
   };
 }
 
-/** MVP first, then our_confidence 3 → 1, then category, `ours_wrong` first within it. */
+export const levelBand = (level) => (level === '' || level == null ? '' : level <= 2 ? '1-2' : level === 3 ? '3' : '4-5');
+const BAND_ORDER = ['1-2', '3', '4-5', ''];
+
+/**
+ * Level band first, so level 1-2 is worked first (Marwan, chat 31), then MVP,
+ * then our_confidence 3 → 1, then category, `ours_wrong` first within it.
+ * Rows with no level of ours (only_theirs) sort last.
+ */
 export function sortRecords(recs) {
-  const key = (x) => [x.mvp === 'Y' ? 0 : 1, x.our_confidence === '' ? 9 : 3 - x.our_confidence,
-    CATEGORY_ORDER.indexOf(x.category), x.verdict === 'ours_wrong' ? 0 : 1, Number(x.our_id) || 0];
+  const key = (x) => [BAND_ORDER.indexOf(levelBand(x.our_level)), Number(x.our_level) || 9, x.mvp === 'Y' ? 0 : 1,
+    x.our_confidence === '' ? 9 : 3 - x.our_confidence, CATEGORY_ORDER.indexOf(x.category),
+    x.verdict === 'ours_wrong' ? 0 : 1, Number(x.our_id) || 0];
   return [...recs].sort((a, b) => {
     const ka = key(a), kb = key(b);
     for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return ka[i] - kb[i];
@@ -157,21 +172,54 @@ export function sortRecords(recs) {
   });
 }
 
-export function exportCsvs(runId, rows, onlyOurs, verdicts = {}) {
+export const REVIEW_COLUMNS = ['level_band', 'our_level', 'mvp', 'our_id', 'our_arabic', 'our_romanization', 'our_english',
+  'our_pos', 'confidence', 'reasons', 'external_verdict', 'external_fix', 'external_note', 'their_word', 'their_meaning'];
+
+/**
+ * Every id of ours that needs review before it is taught: below 3 under D276,
+ * or contradicted by the source (`ours_wrong`, which caps it at 2). Sorted by
+ * level band, then level, then MVP, then id.
+ */
+export function reviewQueue(rows, ours, verdicts = {}) {
+  const external = new Map();
+  for (const r of rows) {
+    const v = verdicts[r.k];
+    if (r.ours && v?.v === 'ours_wrong' && !external.has(r.ours.id)) external.set(r.ours.id, { r, v });
+  }
+  const recs = [];
+  for (const o of ours) {
+    const ext = external.get(o.id);
+    if (o.confidence === 3 && !ext) continue;
+    recs.push({
+      level_band: levelBand(o.level), our_level: o.level, mvp: o.mvp ? 'Y' : '', our_id: o.id,
+      our_arabic: o.vocalised || o.arabic, our_romanization: o.romanization, our_english: o.english, our_pos: o.pos,
+      confidence: ext ? Math.min(o.confidence, 2) : o.confidence,
+      reasons: [...(o.held_on ?? []), ...(ext ? [`external ${ext.r.category}: ${ext.r.discrepancy}`] : [])].join('; '),
+      external_verdict: ext?.v.v ?? '', external_fix: ext?.v.fix ?? '', external_note: ext?.v.n ?? '',
+      their_word: ext?.r.theirs.word ?? '', their_meaning: ext ? americanise(ext.r.theirs.meaning) : '',
+    });
+  }
+  return recs.sort((a, b) => (BAND_ORDER.indexOf(a.level_band) - BAND_ORDER.indexOf(b.level_band)) ||
+    (a.our_level - b.our_level) || ((b.mvp === 'Y') - (a.mvp === 'Y')) || (a.our_id - b.our_id));
+}
+
+export function exportCsvs(runId, rows, onlyOurs, ours, verdicts = {}) {
   const dir = runDir(runId);
   const recs = sortRecords(rows.map((r) => diffRecord(r, verdicts[r.k])));
   writeFileSync(path.join(dir, 'differences.csv'), toCsv(DIFF_COLUMNS, recs));
   const oo = [...onlyOurs].sort((a, b) => (b.mvp - a.mvp) || (a.id - b.id)).map((o) => ({
     our_id: o.id, mvp: o.mvp ? 'Y' : '', our_confidence: o.confidence, our_arabic: o.vocalised || o.arabic,
     our_english: o.english, our_pos: o.pos, our_level: o.level }));
+  writeFileSync(path.join(dir, 'review-queue.csv'), toCsv(REVIEW_COLUMNS, reviewQueue(rows, ours, verdicts)));
   writeFileSync(path.join(dir, 'only-ours.csv'),
     toCsv(['our_id', 'mvp', 'our_confidence', 'our_arabic', 'our_english', 'our_pos', 'our_level'], oo));
 }
 
 function compare(runId) {
-  const sr = scriptRows(loadSnapshot(runId));
+  const snap = loadSnapshot(runId);
+  const sr = scriptRows(snap);
   writeJson(path.join(runDir(runId), 'script-rows.json'), sr.rows);
-  exportCsvs(runId, sr.rows, sr.onlyOurs);
+  exportCsvs(runId, sr.rows, sr.onlyOurs, snap.ours);
   const summary = summarise(sr);
   writeJson(path.join(runDir(runId), 'summary-script.json'), summary);
   console.log(JSON.stringify(summary, null, 1));

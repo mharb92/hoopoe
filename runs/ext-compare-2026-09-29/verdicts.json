@@ -1,5 +1,5 @@
 {
- "usd": 0.419776,
+ "usd": 0.6789688,
  "verdicts": {
   "r2": {
    "v": "keep_ours",
@@ -300,6 +300,370 @@
    "v": "keep_ours",
    "d": "lev_other",
    "c": "M"
+  },
+  "r822": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r837": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r843": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r845": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r875": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r881": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r898": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r929": {
+   "v": "keep_ours",
+   "d": "msa",
+   "c": "M"
+  },
+  "r930": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r964": {
+   "v": "both_valid",
+   "d": "pal",
+   "c": "M"
+  },
+  "r965": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r993": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "r8": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r10": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r11": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r12": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r13": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r14": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r16": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r19": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r21": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r22": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r23": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r26": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r34": {
+   "v": "ours_wrong",
+   "d": "pal",
+   "c": "H",
+   "fix": "مِشْمِش",
+   "n": "Ours is written in Hebrew script, not Arabic"
+  },
+  "r46": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r58": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r60": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r75": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r84": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r92": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r102": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r149": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r179": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r191": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r208": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r212": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r217": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r231": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r236": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r238": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r239": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r257": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r258": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r259": {
+   "v": "ours_wrong",
+   "d": "pal",
+   "c": "M",
+   "fix": "كْتِير",
+   "n": "marra meaning 'very' is Gulf usage, not Palestinian"
+  },
+  "r278": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r282": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r302": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r305": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r307": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r311": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r339": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r362": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r369": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r385": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r386": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r403": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r406": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r419": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r421": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r426": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r445": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r460": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r464": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r487": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r488": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r489": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r496": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r514": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r522": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r579": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r583": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
   }
  }
 }

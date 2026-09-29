@@ -1,14 +1,3 @@
-(node:489) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
-(Use `node --trace-warnings ...` to show where the warning was created)
-batch 1: staged 60/60, spend $0.5914
-batch 2: staged 60/60, spend $1.0851
-batch 3: staged 60/60, spend $1.5360
-batch 4: staged 60/60, spend $1.9740
-batch 5: staged 60/60, spend $2.4781
-batch 6: staged 60/60, spend $2.9445
-batch 7: staged 60/60, spend $3.5759
-batch 8: staged 60/60, spend $4.0814
-batch 9: staged 29/29, spend $4.3719
 DR run dr-additions-2026-09-29
 stop reason: completed
 batches 9/9  staged 509  skipped(resume) 0
@@ -34,4 +23,3 @@ P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
       {"distribution":{"1":24,"2":219,"3":266},"extrapolated":{"1":129,"2":1174,"3":1426},"rows":509}
 P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
       {"flipRate":0.15520628683693516,"flipped":79,"rows":509,"flippedIds":[2747,3104,2907,2944,2890,3136,3023,2801,3220,2785,3008,3175,3094,3133,2871,3215,2803,3004,2950,3005,3001,2974,3202,3054,2880,3075,3049,3138,3017,3048,2934,2859,2985,3014,2990,3015,2891,2743,3069,3080,2992,2781,3027,2754,2984,3173,2972,2826,2973,3206,3066,3199,3022,2767,2910,2752,3072,2956,2977,2812,2811,2828,3073,2862,3210,2963,2784,2786,2768,2996,2827,3110,3009,3235,2991,3143,2965,3079,2765]}
-artefacts: /home/user/hoopoe/runs/dr-additions-2026-09-29

@@ -318,6 +318,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 324,,2,هَيّ,here it is (f.) / this is,particle,2
 325,,2,هَيُّو,here it is (m.) / here he is,particle,2
 326,,3,إِيَّاه,him / it (object pronoun),pronoun,2
+328,,3,تَبَع,belonging to / of,preposition,1
 329,,3,لَحَالِي,by myself / alone,adverb,2
 330,,3,سَوَا,together,adverb,2
 332,,3,أَوَّل إِشِي,first of all / first thing,adverb,2
@@ -396,6 +397,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 421,,3,شُو أَخْبَارِك؟,what's your news? / how have you been? (to f.),formula,1
 422,,3,شُو فِي مَا فِي؟,what's going on? / what's up?,formula,2
 423,,3,وَلَا إِشِي جْدِيد,nothing new,formula,2
+424,,2,الحَمْدُ لِلَّه مَاشِي الحَال,"fine, getting by",formula,1
 426,,3,مِن وِين إِنْتِ؟,where are you from? (to f.),formula,1
 428,,3,شُو اسْمِك؟,what's your name? (to f.),formula,1
 429,,3,اِسْمِي...,my name is...,frame,1

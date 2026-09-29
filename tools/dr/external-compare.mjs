@@ -19,7 +19,7 @@ import { categorise, isExported, MODEL_CATEGORIES, americanise } from './externa
 export const SOURCE_CSV = 'docs/dr/external/levantine-dictionary.csv';
 export const SOURCE_SHA256 = 'e6fe21dbfe57cf3fa9a2badd94dd7544fd7a4929f71f1d304a2455a7d96f6881';
 const ESSENTIAL_IDS = 'docs/dr/essentials/essential-ids-final.json';
-const JUDGED_RUNS = ['dr-essential-o55-2026-09-27', 'dr-finalize-2026-09-27']; // D273: one 5.5 judgement per id
+const JUDGED_RUNS = ['dr-essential-o55-2026-09-27', 'dr-finalize-2026-09-27', 'dr-additions-2026-09-29']; // D273, D278: one 5.5 judgement per id
 // Later runs that supersede a JUDGED_RUNS judgement for the ids they cover.
 // dr-rejudge-2026-09-29: dr-finalize-2026-09-27 batches 8, 24, 27, whose arabic_vocalised drifted into Hebrew.
 const OVERRIDE_RUNS = ['dr-rejudge-2026-09-29'];

@@ -35719,5 +35719,6872 @@
   "confidence": 3,
   "mvp": 1,
   "held_on": []
+ },
+ {
+  "id": 2734,
+  "arabic": "فَواكي",
+  "vocalised": "فَوَاكِي",
+  "english": "fruit",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "fawaaki",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2735,
+  "arabic": "اسْتَوى",
+  "vocalised": "اِسْتَوَى",
+  "english": "ripened / cooked through",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "istawa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2736,
+  "arabic": "شَمّ",
+  "vocalised": "شَمّ",
+  "english": "smelled",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "shamm",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2737,
+  "arabic": "جَلى",
+  "vocalised": "جَلَى",
+  "english": "washed (dishes)",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "jala",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2738,
+  "arabic": "كَبّ",
+  "vocalised": "كَبّ",
+  "english": "threw away / spilled",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "kabb",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction conjugation M: bikibb"
+  ]
+ },
+ {
+  "id": 2739,
+  "arabic": "زِبدة",
+  "vocalised": "زِبْدِة",
+  "english": "butter",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "zibde",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2740,
+  "arabic": "بحارات",
+  "vocalised": "بْهَارَات",
+  "english": "spices",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "bhaaraat",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction meaning M: بهارات"
+  ]
+ },
+ {
+  "id": 2741,
+  "arabic": "هَيل",
+  "vocalised": "هِيل",
+  "english": "cardamon",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "heel",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2742,
+  "arabic": "كولا",
+  "vocalised": "كُولا",
+  "english": "cola",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "koola",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2743,
+  "arabic": "مَشروبات",
+  "vocalised": "مَشْرُوبَات",
+  "english": "drinks",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "mashruubaat",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2744,
+  "arabic": "أناناس",
+  "vocalised": "أَناناس",
+  "english": "pineapple",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ananaas",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2745,
+  "arabic": "كَرَز",
+  "vocalised": "كَرَز",
+  "english": "cherry",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "karaz",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2746,
+  "arabic": "خَسّ",
+  "vocalised": "خَسّ",
+  "english": "lettuce",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "khass",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2747,
+  "arabic": "مَلفوف",
+  "vocalised": "مَلْفُوف",
+  "english": "cabbage",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "malfuuf",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2748,
+  "arabic": "خَل",
+  "vocalised": "خَلّ",
+  "english": "vinegar",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "khall",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2749,
+  "arabic": "سِمسِم",
+  "vocalised": "سِمْسِم",
+  "english": "sesame",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "simsim",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2750,
+  "arabic": "عَدَس",
+  "vocalised": "عَدَس",
+  "english": "lentil",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "3adas",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2751,
+  "arabic": "فُستُق حَلَبي",
+  "vocalised": "فُسْتُق حَلَبِي",
+  "english": "pistachio",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "fustu' 7alabi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2752,
+  "arabic": "فاصوليا",
+  "vocalised": "فَاصُولْيَا",
+  "english": "green beans",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "faSuulya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2753,
+  "arabic": "عَسل",
+  "vocalised": "عَسَل",
+  "english": "honey",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "3asal",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2754,
+  "arabic": "بوزة",
+  "vocalised": "بُوزَة",
+  "english": "ice Cream",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "buuza",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2755,
+  "arabic": "طَعم",
+  "vocalised": "طَعْم",
+  "english": "taste",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "Ta3m",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2756,
+  "arabic": "انْقَلى",
+  "vocalised": "اِنْقَلَى",
+  "english": "was fried",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "in'ala",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2757,
+  "arabic": "انْشَوى",
+  "vocalised": "انْشَوَى",
+  "english": "was grilled",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "inshawa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2758,
+  "arabic": "حَرَق",
+  "vocalised": "حَرَق",
+  "english": "burned",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "7ara'",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2759,
+  "arabic": "غَلى",
+  "vocalised": "غَلَى",
+  "english": "boiled",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "ghala",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2760,
+  "arabic": "عَضّ",
+  "vocalised": "عَضّ",
+  "english": "bit",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "3aDD",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: to bite (he bit)"
+  ]
+ },
+ {
+  "id": 2761,
+  "arabic": "طَعْمَى",
+  "vocalised": "طَعْمَى",
+  "english": "fed",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "Ta3ma",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction meaning M: fed (someone); to feed",
+   "correction conjugation M: past 3ms; imperfect biTa3mi"
+  ]
+ },
+ {
+  "id": 2762,
+  "arabic": "لَحم خَروف",
+  "vocalised": "لَحْم خَرُوف",
+  "english": "lamb (meat)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "la7m kharuuf",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2763,
+  "arabic": "لَحم بَقر",
+  "vocalised": "لَحْم بَقَر",
+  "english": "beef",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "la7m ba'ar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2764,
+  "arabic": "لَحم خَنزير",
+  "vocalised": "لَحْم خَنْزِير",
+  "english": "pork",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "la7m khanziir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2765,
+  "arabic": "ريحان",
+  "vocalised": "رِيحَان",
+  "english": "basil",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "rii7aan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2766,
+  "arabic": "كُزبُرة",
+  "vocalised": "كُزْبَرَة",
+  "english": "coriander",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kuzbara",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2767,
+  "arabic": "زَنجَبيل",
+  "vocalised": "زَنْجَبِيل",
+  "english": "ginger",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "zanjabiil",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2768,
+  "arabic": "نَبيذ",
+  "vocalised": "نْبِيد",
+  "english": "wine",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "nbiid",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2769,
+  "arabic": "شَمام",
+  "vocalised": "شَمّام",
+  "english": "melon",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "shammaam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: cantaloupe, melon"
+  ]
+ },
+ {
+  "id": 2770,
+  "arabic": "نِجاص",
+  "vocalised": "نْجاص",
+  "english": "pears",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "njaaS",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2771,
+  "arabic": "نَباتي",
+  "vocalised": "نَبَاتِي",
+  "english": "vegetarian",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "nabaati",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2772,
+  "arabic": "بازيلا",
+  "vocalised": "بازِيلّا",
+  "english": "peas",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "baazeella",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2773,
+  "arabic": "بامية",
+  "vocalised": "بَامْيِة",
+  "english": "okra",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "baamye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2774,
+  "arabic": "بُندُق",
+  "vocalised": "بُنْدُق",
+  "english": "hazelnut",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "bundu'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2775,
+  "arabic": "كاشو",
+  "vocalised": "كَاشُو",
+  "english": "cashew",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "kaashu",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2776,
+  "arabic": "شوفان",
+  "vocalised": "شُوفان",
+  "english": "oatmeal",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "shoofaan",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2777,
+  "arabic": "قَمح",
+  "vocalised": "قَمْح",
+  "english": "wheat",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'am7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2778,
+  "arabic": "بُرغُل",
+  "vocalised": "بُرْغُل",
+  "english": "bulgur wheat",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "burghul",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2779,
+  "arabic": "بطاطا مقليّة",
+  "vocalised": "بَطاطا مَقْلِيِّة",
+  "english": "chips",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "baTaaTa ma'liyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2780,
+  "arabic": "ذاب",
+  "vocalised": "ذاب",
+  "english": "melted / dissolved",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "dhaab",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2781,
+  "arabic": "قانون",
+  "vocalised": "قَانُون",
+  "english": "law",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'aanuun",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2782,
+  "arabic": "حَرب",
+  "vocalised": "حَرْب",
+  "english": "war",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7arb",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2783,
+  "arabic": "دَولة",
+  "vocalised": "دَوْلِة",
+  "english": "state",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "dawle",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2784,
+  "arabic": "حَكومة",
+  "vocalised": "حُكُومِة",
+  "english": "government",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7ukuume",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2785,
+  "arabic": "رَئيس",
+  "vocalised": "رَئِيس",
+  "english": "president",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ra'iis",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: president; head, chief"
+  ]
+ },
+ {
+  "id": 2786,
+  "arabic": "حَدود",
+  "vocalised": "حُدُود",
+  "english": "border",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7uduud",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2787,
+  "arabic": "سياسة",
+  "vocalised": "سِيَاسِة",
+  "english": "politics",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "siyaase",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2788,
+  "arabic": "أكثَرية",
+  "vocalised": "أَكْثَرِيِّة",
+  "english": "majority",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "aktariyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2789,
+  "arabic": "أقَلية",
+  "vocalised": "أَقَلِّيِّة",
+  "english": "minority",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "aqalliyye",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2790,
+  "arabic": "إنتِخاب",
+  "vocalised": "إِنْتِخَاب",
+  "english": "election",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "intikhaab",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2791,
+  "arabic": "ثَورة",
+  "vocalised": "ثَوْرَة",
+  "english": "revolution",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "thawra",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2792,
+  "arabic": "مُظاهَرة",
+  "vocalised": "مُظاهَرة",
+  "english": "demonstration",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "muTHaahara",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2793,
+  "arabic": "إحتِجاج",
+  "vocalised": "اِحْتِجَاج",
+  "english": "protest",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "i7tijaaj",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2794,
+  "arabic": "مُحتَجّ",
+  "vocalised": "مُحْتَجّ",
+  "english": "protestor",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mu7tajj",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2795,
+  "arabic": "إنقِلاب",
+  "vocalised": "اِنْقِلَاب",
+  "english": "coup",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "inqilaab",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2796,
+  "arabic": "حِضارة",
+  "vocalised": "حَضارة",
+  "english": "civilization",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "7aDaara",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: حَضارة"
+  ]
+ },
+ {
+  "id": 2797,
+  "arabic": "حِصار",
+  "vocalised": "حِصَار",
+  "english": "blockade / siege",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7iSaar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2798,
+  "arabic": "مُستوطنة",
+  "vocalised": "مُسْتَوْطَنِة",
+  "english": "settlement",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mustawTane",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2799,
+  "arabic": "مُستَوطِن",
+  "vocalised": "مُسْتَوْطِن",
+  "english": "settler",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mustawTin",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2800,
+  "arabic": "قاضي",
+  "vocalised": "قاضِي",
+  "english": "judge",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'aaDi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2801,
+  "arabic": "أسير",
+  "vocalised": "أَسِير",
+  "english": "prisoner",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "asiir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2802,
+  "arabic": "حَرب أهلية",
+  "vocalised": "حَرْب أَهْلِيِّة",
+  "english": "civil war",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7arb ahliyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2803,
+  "arabic": "حَليف",
+  "vocalised": "حَلِيف",
+  "english": "ally",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "7aliif",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2804,
+  "arabic": "عَدو",
+  "vocalised": "عَدُو",
+  "english": "enemy",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "3adu",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2805,
+  "arabic": "دُبابة",
+  "vocalised": "دَبّابِة",
+  "english": "tank",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "dabbaabe",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2806,
+  "arabic": "رُصاص",
+  "vocalised": "رُصَاص",
+  "english": "bullets",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ruSaaS",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2807,
+  "arabic": "سلاح",
+  "vocalised": "سْلَاح",
+  "english": "weapon / gun",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "slaa7",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2808,
+  "arabic": "سيّاسي",
+  "vocalised": "سِيَاسِي",
+  "english": "politician",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "siyaasi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: politician; political"
+  ]
+ },
+ {
+  "id": 2809,
+  "arabic": "نِظام",
+  "vocalised": "نِظَام",
+  "english": "regime / system",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "niTHaam",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2810,
+  "arabic": "بَرلمَان",
+  "vocalised": "بَرْلَمَان",
+  "english": "parliament",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "barlamaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2811,
+  "arabic": "رَئيس وزراء",
+  "vocalised": "رَئِيس وُزَرَا",
+  "english": "prime minister",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ra'iis wuzara",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2812,
+  "arabic": "وَزير",
+  "vocalised": "وَزِير",
+  "english": "minister",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "waziir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2813,
+  "arabic": "وَزارة",
+  "vocalised": "وَزارَة",
+  "english": "ministry",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "wazaara",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2814,
+  "arabic": "إقتِصاد",
+  "vocalised": "إِقْتِصاد",
+  "english": "economy",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "iqtiSaad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2815,
+  "arabic": "أُمّة",
+  "vocalised": "أُمِّة",
+  "english": "nation",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "umme",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2816,
+  "arabic": "جُمهوريّة",
+  "vocalised": "جُمْهُورِيِّة",
+  "english": "republic",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "jumhuuriyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2817,
+  "arabic": "ديمُقراطية",
+  "vocalised": "دِيمُقْرَاطِيِّة",
+  "english": "democracy",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "diimuqraaTiyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2818,
+  "arabic": "دِكتاتور",
+  "vocalised": "دِكْتَاتُور",
+  "english": "dictator",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "diktaatoor",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2819,
+  "arabic": "إتفاق",
+  "vocalised": "اِتِّفَاق",
+  "english": "agreement",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ittifaa'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2820,
+  "arabic": "إنهيار",
+  "vocalised": "اِنْهِيَار",
+  "english": "collapse",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "inhiyaar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2821,
+  "arabic": "صحّافة",
+  "vocalised": "صَحافِة",
+  "english": "press, Media",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "Sa7aafe",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: press, media; journalism"
+  ]
+ },
+ {
+  "id": 2822,
+  "arabic": "حَكَم",
+  "vocalised": "حَكَم",
+  "english": "governed / ruled over",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "7akam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: governed / ruled over; sentenced, judged"
+  ]
+ },
+ {
+  "id": 2823,
+  "arabic": "ثار",
+  "vocalised": "ثَار",
+  "english": "rebelled against",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "saar",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2824,
+  "arabic": "قَسَم",
+  "vocalised": "قَسَم",
+  "english": "divided",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "'asam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2825,
+  "arabic": "هَزَم",
+  "vocalised": "هَزَم",
+  "english": "defeated",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "hazam",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2826,
+  "arabic": "إستيراد",
+  "vocalised": "إِسْتِيرَاد",
+  "english": "import",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "istiiraad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2827,
+  "arabic": "تَصدير",
+  "vocalised": "تَصْدِير",
+  "english": "export",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "taSdiir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2828,
+  "arabic": "قَبيلة",
+  "vocalised": "قَبِيلِة",
+  "english": "tribe",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "'abiile",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2829,
+  "arabic": "حَكم ذاتي",
+  "vocalised": "حُكْم ذَاتِي",
+  "english": "autonomy",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "7ukm dhaati",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2830,
+  "arabic": "ضَم أراضي",
+  "vocalised": "ضَمّ أَرَاضِي",
+  "english": "annexation of territory",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "Damm araaDi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2831,
+  "arabic": "إعتِقال إداري",
+  "vocalised": "إِعْتِقَال إِدَارِي",
+  "english": "administrative detention",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "i3ti'aal idaari",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M",
+   "native_check",
+   "correction romanization M: i3ti'aal idaari"
+  ]
+ },
+ {
+  "id": 2832,
+  "arabic": "حَملة",
+  "vocalised": "حَمْلِة",
+  "english": "campaign",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "7amle",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2833,
+  "arabic": "مَجزَرة",
+  "vocalised": "مَجْزَرَة",
+  "english": "massacre",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "majzara",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2834,
+  "arabic": "قَنبِلة",
+  "vocalised": "قُنْبُلِة",
+  "english": "bomb",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "'unbule",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction harakaat M: قُنبُلة"
+  ]
+ },
+ {
+  "id": 2835,
+  "arabic": "إضطِهاد",
+  "vocalised": "اضْطِهاد",
+  "english": "oppression",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "iDTihaad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2836,
+  "arabic": "راسمالية",
+  "vocalised": "رَاسْمَالِيِّة",
+  "english": "capitalism",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "raasmaaliyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2837,
+  "arabic": "شُيوعيّة",
+  "vocalised": "شُيُوعِيِّة",
+  "english": "communism",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "shuyuu3iyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2838,
+  "arabic": "إستِعمار",
+  "vocalised": "اِسْتِعْمَار",
+  "english": "colonialism",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "isti3maar",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction harakaat M: اِستِعمار"
+  ]
+ },
+ {
+  "id": 2839,
+  "arabic": "واقِع",
+  "vocalised": "وَاقِع",
+  "english": "reality",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "waa'i3",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2840,
+  "arabic": "تَميِّز",
+  "vocalised": "تَمْيِيز",
+  "english": "discrimination",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "tamyiiz",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2841,
+  "arabic": "مُساواة",
+  "vocalised": "مُسَاوَاة",
+  "english": "equality",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "musaawa",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2842,
+  "arabic": "إشتِراكيّة",
+  "vocalised": "اِشْتِرَاكِيِّة",
+  "english": "socialism",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ishtiraakiyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2843,
+  "arabic": "إشتراكي",
+  "vocalised": "اِشْتِرَاكِي",
+  "english": "socialist",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ishtiraaki",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2844,
+  "arabic": "شَفافية",
+  "vocalised": "شَفَافِيِّة",
+  "english": "transparency",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "shafaafiyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2845,
+  "arabic": "إتفاقية",
+  "vocalised": "اِتِّفاقِيِّة",
+  "english": "agreement",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ittifaa'iyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2846,
+  "arabic": "خيّانة",
+  "vocalised": "خِيانِة",
+  "english": "betrayal",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "khiyaane",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2847,
+  "arabic": "خاين",
+  "vocalised": "خَايِن",
+  "english": "traitor",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "khaayin",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2848,
+  "arabic": "أَعْلَن",
+  "vocalised": "أَعْلَن",
+  "english": "announced / declared / proclaimed",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "a3lan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2849,
+  "arabic": "أَضْرَب",
+  "vocalised": "أَضْرَب",
+  "english": "went on strike",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "aDrab",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2850,
+  "arabic": "احْتَلّ",
+  "vocalised": "اِحْتَلّ",
+  "english": "occupied",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "i7tall",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2851,
+  "arabic": "اجْتاح",
+  "vocalised": "اِجْتَاح",
+  "english": "invaded",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "ijtaa7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2852,
+  "arabic": "اليُوم الصُبِح",
+  "vocalised": "اليُوم الصُّبِح",
+  "english": "this morning",
+  "pos": "adverb",
+  "level": 2,
+  "romanization": "il-yoom iS-Subi7",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2853,
+  "arabic": "اليُوم بَعد الظُهر",
+  "vocalised": "اليُوم بَعْد الظُّهُر",
+  "english": "this afternoon",
+  "pos": "adverb",
+  "level": 2,
+  "romanization": "il-yoom ba3d iD-Duhr",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2854,
+  "arabic": "لَيلة مْبارِح",
+  "vocalised": "لَيْلْة امْبَارِح",
+  "english": "last night",
+  "pos": "adverb",
+  "level": 2,
+  "romanization": "leelt imbaari7",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2855,
+  "arabic": "الشَهِر الماضي",
+  "vocalised": "الشَّهِر المَاضِي",
+  "english": "last month",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ish-shahir il-maaDi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction variant M: الشهر اللي فات also common in speech"
+  ]
+ },
+ {
+  "id": 2856,
+  "arabic": "الشَهِر الجاي",
+  "vocalised": "الشَّهِر الجَّاي",
+  "english": "next month",
+  "pos": "adverb",
+  "level": 2,
+  "romanization": "ish-shahir ij-jaay",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2857,
+  "arabic": "جِسم",
+  "vocalised": "جِسْم",
+  "english": "body",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jism",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2858,
+  "arabic": "عَضلة",
+  "vocalised": "عَضَلِة",
+  "english": "muscle",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "3aDale",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2859,
+  "arabic": "طيز",
+  "vocalised": "طِيز",
+  "english": "buttocks",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "Tiiz",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2860,
+  "arabic": "دَقن",
+  "vocalised": "دَقْن",
+  "english": "beard / chin",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "da'n",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2861,
+  "arabic": "شارِب",
+  "vocalised": "شَارِب",
+  "english": "mustache",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "shaarib",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2862,
+  "arabic": "جَبين",
+  "vocalised": "جَبِين",
+  "english": "forehead",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jabiin",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2863,
+  "arabic": "مَفصِل",
+  "vocalised": "مَفْصِل",
+  "english": "joint",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mafSil",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2864,
+  "arabic": "جَبهة",
+  "vocalised": "جَبْهَة",
+  "english": "forehead",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jabha",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2865,
+  "arabic": "مِتعَلِّم",
+  "vocalised": "مِتْعَلِّم",
+  "english": "educated",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mit3allim",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2866,
+  "arabic": "نِسوان",
+  "vocalised": "نِسْوان",
+  "english": "women",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "niswaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2867,
+  "arabic": "أُستاذة",
+  "vocalised": "أُسْتَاذِة",
+  "english": "miss",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ustaaze",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction meaning M: female teacher; Miss (form of address)"
+  ]
+ },
+ {
+  "id": 2868,
+  "arabic": "غَنِي",
+  "vocalised": "غَنِي",
+  "english": "rich",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "ghani",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2869,
+  "arabic": "فَقِير",
+  "vocalised": "فَقِير",
+  "english": "poor",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "fa'iir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2870,
+  "arabic": "عَنِيف",
+  "vocalised": "عَنِيف",
+  "english": "violent",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "3aniif",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2871,
+  "arabic": "حَسود",
+  "vocalised": "حَسُود",
+  "english": "envious",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "7asuud",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2872,
+  "arabic": "لَيِّن",
+  "vocalised": "لَيِّن",
+  "english": "flexible",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "layyin",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2873,
+  "arabic": "مِسكِين",
+  "vocalised": "مِسْكِين",
+  "english": "pitiful Person",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "miskiin",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2874,
+  "arabic": "مِفطِر",
+  "vocalised": "مِفْطِر",
+  "english": "has eaten breakfast",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mifTir",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2875,
+  "arabic": "مِتغَدي",
+  "vocalised": "مِتْغَدّي",
+  "english": "has eaten lunch",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "mitghaddi",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2876,
+  "arabic": "مِتعَشي",
+  "vocalised": "مِتْعَشِّي",
+  "english": "has eaten dinner",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mit3ashshi",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2877,
+  "arabic": "أشقَر",
+  "vocalised": "أَشْقَر",
+  "english": "blond",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ash'ar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2878,
+  "arabic": "مِبتَسِم",
+  "vocalised": "مِبْتَسِم",
+  "english": "smiling",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mibtasim",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2879,
+  "arabic": "ناجِح",
+  "vocalised": "ناجِح",
+  "english": "successful",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "naaji7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2880,
+  "arabic": "مَدينة",
+  "vocalised": "مَدِينِة",
+  "english": "city",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "madiine",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2881,
+  "arabic": "دُكّان",
+  "vocalised": "دُكّان",
+  "english": "small shop",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "dukkaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2882,
+  "arabic": "بُرج",
+  "vocalised": "بُرْج",
+  "english": "tower",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "burj",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2883,
+  "arabic": "وَسط البَلد",
+  "vocalised": "وَسَط البَلَد",
+  "english": "downtown",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "wasaT il-balad",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2884,
+  "arabic": "مَيدان",
+  "vocalised": "مَيْدَان",
+  "english": "public square",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "maydaan",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2885,
+  "arabic": "مَجاري",
+  "vocalised": "مَجَارِي",
+  "english": "sewage",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "majaari",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2886,
+  "arabic": "حُفرة",
+  "vocalised": "حُفْرَة",
+  "english": "hole",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7ufra",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2887,
+  "arabic": "مَتحَف",
+  "vocalised": "مَتْحَف",
+  "english": "museum",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mat7af",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2888,
+  "arabic": "مَسرَح",
+  "vocalised": "مَسْرَح",
+  "english": "theater",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "masra7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2889,
+  "arabic": "بَقالة",
+  "vocalised": "بَقّالِة",
+  "english": "small grocery shop",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ba''aale",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2890,
+  "arabic": "سينِما",
+  "vocalised": "سِينَمَا",
+  "english": "cinema",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "siinama",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction harakaat L: سِينَمَا"
+  ]
+ },
+ {
+  "id": 2891,
+  "arabic": "كنيس",
+  "vocalised": "كْنِيس",
+  "english": "synagogue",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "kniis",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2892,
+  "arabic": "قَصر",
+  "vocalised": "قَصْر",
+  "english": "palace",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'aSr",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2893,
+  "arabic": "مَسبَح",
+  "vocalised": "مَسْبَح",
+  "english": "swimming pool",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "masba7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2894,
+  "arabic": "عَقار",
+  "vocalised": "عَقَار",
+  "english": "real estate",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "3aqaar",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2895,
+  "arabic": "بيّاع",
+  "vocalised": "بَيَّاع",
+  "english": "salesman",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "bayyaa3",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2896,
+  "arabic": "نَفَق",
+  "vocalised": "نَفَق",
+  "english": "tunnel",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "nafa'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2897,
+  "arabic": "مَطَبّ",
+  "vocalised": "مَطَبّ",
+  "english": "speed bump",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "maTabb",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2898,
+  "arabic": "سَفارة",
+  "vocalised": "سَفارَة",
+  "english": "embassy",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "safaara",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2899,
+  "arabic": "مَعبَد",
+  "vocalised": "مَعْبَد",
+  "english": "temple",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ma3bad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2900,
+  "arabic": "مُدَرِّج",
+  "vocalised": "مُدَرَّج",
+  "english": "auditorium, amphitheater",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mudarraj",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: مُدَرَّج"
+  ]
+ },
+ {
+  "id": 2901,
+  "arabic": "قَلعة",
+  "vocalised": "قَلْعَة",
+  "english": "citadel",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "'al3a",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check",
+   "correction romanization M: 'al3a"
+  ]
+ },
+ {
+  "id": 2902,
+  "arabic": "تَلَوُّث",
+  "vocalised": "تَلَوُّث",
+  "english": "pollution",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "talawwuth",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2903,
+  "arabic": "عالي",
+  "vocalised": "عالِي",
+  "english": "loud / high",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "3aali",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2904,
+  "arabic": "رَقِيق",
+  "vocalised": "رَقِيق",
+  "english": "delicate / gentle",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ra'ii'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2905,
+  "arabic": "واضِح",
+  "vocalised": "وَاضِح",
+  "english": "clear",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "waaDi7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2906,
+  "arabic": "تَقلِيدِيّ",
+  "vocalised": "تَقْلِيدِي",
+  "english": "traditional",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ta'liidi",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2907,
+  "arabic": "عَظيم",
+  "vocalised": "عَظِيم",
+  "english": "great",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "3aTHiim",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2908,
+  "arabic": "مُمتاز",
+  "vocalised": "مُمْتَاز",
+  "english": "excellent",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "mumtaaz",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2909,
+  "arabic": "فَوضَوي",
+  "vocalised": "فَوْضَوِي",
+  "english": "chaotic",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "fawDawi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2910,
+  "arabic": "خَطير",
+  "vocalised": "خَطِير",
+  "english": "dangerous",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "khaTiir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2911,
+  "arabic": "مُشَوَّه",
+  "vocalised": "مْشَوَّه",
+  "english": "deformed",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "mshawwah",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2912,
+  "arabic": "مُقرِف",
+  "vocalised": "مُقْرِف",
+  "english": "disgusting",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "mu'rif",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2913,
+  "arabic": "ضَخم",
+  "vocalised": "ضَخْم",
+  "english": "huge",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "Dakhm",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2914,
+  "arabic": "فاتِر",
+  "vocalised": "فاتِر",
+  "english": "lukewarm / tepid",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "faatir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2915,
+  "arabic": "مرَتَّب",
+  "vocalised": "مْرَتَّب",
+  "english": "neat/Tidy",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mrattab",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2916,
+  "arabic": "حَدِيث",
+  "vocalised": "حَدِيث",
+  "english": "modern",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "7adiith",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2917,
+  "arabic": "فَاخِر",
+  "vocalised": "فَاخِر",
+  "english": "luxurious",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "faakhir",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2918,
+  "arabic": "مُفِيد",
+  "vocalised": "مُفِيد",
+  "english": "useful",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "mufiid",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2919,
+  "arabic": "شَدِيد",
+  "vocalised": "شَدِيد",
+  "english": "severe, intense",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "shadiid",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2920,
+  "arabic": "متفوق",
+  "vocalised": "مِتْفَوِّق",
+  "english": "superior",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mitfawwi'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction meaning M: outstanding / excelling (esp. academically)"
+  ]
+ },
+ {
+  "id": 2921,
+  "arabic": "تافِه",
+  "vocalised": "تافِه",
+  "english": "trivial/worthless",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "taafih",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2922,
+  "arabic": "قَيم",
+  "vocalised": "قَيِّم",
+  "english": "worthy/precious",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "qayyim",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2923,
+  "arabic": "مُمَثِّل",
+  "vocalised": "مُمَثِّل",
+  "english": "actor",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mumaththil",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2924,
+  "arabic": "محلل",
+  "vocalised": "مْحَلِّل",
+  "english": "analyst",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "m7allil",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2925,
+  "arabic": "باحِث",
+  "vocalised": "باحِث",
+  "english": "researcher",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "baa7ith",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2926,
+  "arabic": "كاتِب",
+  "vocalised": "كَاتِب",
+  "english": "writer",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kaatib",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2927,
+  "arabic": "مَلِكة",
+  "vocalised": "مَلِكِة",
+  "english": "queen",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "malike",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2928,
+  "arabic": "مُدَرِّس",
+  "vocalised": "مُدَرِّس",
+  "english": "school teacher",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "mudarris",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2929,
+  "arabic": "انْدَفَع",
+  "vocalised": "اِنْدَفَع",
+  "english": "was paid",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "indafa3",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2930,
+  "arabic": "دَعَم",
+  "vocalised": "دَعَم",
+  "english": "supported / invested in",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "da3am",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: supported / backed"
+  ]
+ },
+ {
+  "id": 2931,
+  "arabic": "صَنَع",
+  "vocalised": "صَنَع",
+  "english": "made / manufactured",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "Sana3",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2932,
+  "arabic": "تَطَوَّع",
+  "vocalised": "تْطَوَّع",
+  "english": "volunteered",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "tTawwa3",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2933,
+  "arabic": "داوَم",
+  "vocalised": "داوَم",
+  "english": "was on duty / at work",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "daawam",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2934,
+  "arabic": "خَنزير",
+  "vocalised": "خَنْزِير",
+  "english": "pig",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "khanziir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2935,
+  "arabic": "بَطّة",
+  "vocalised": "بَطَّة",
+  "english": "duck",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "baTTa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2936,
+  "arabic": "فِراشة",
+  "vocalised": "فَرَاشِة",
+  "english": "butterfly",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "faraashe",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: فَراشة"
+  ]
+ },
+ {
+  "id": 2937,
+  "arabic": "نَسر",
+  "vocalised": "نَسْر",
+  "english": "eagle",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "nasr",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2938,
+  "arabic": "دُب",
+  "vocalised": "دُبّ",
+  "english": "bear",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "dubb",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2939,
+  "arabic": "نِمر",
+  "vocalised": "نِمِر",
+  "english": "tiger",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "nimir",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2940,
+  "arabic": "نَحلة",
+  "vocalised": "نَحْلِة",
+  "english": "bee",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "na7le",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2941,
+  "arabic": "غراب",
+  "vocalised": "غْرَاب",
+  "english": "crow",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ghraab",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2942,
+  "arabic": "صَقر",
+  "vocalised": "صَقْر",
+  "english": "hawk",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "Sa'r",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2943,
+  "arabic": "ثَعلَب",
+  "vocalised": "ثَعْلَب",
+  "english": "fox",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ta3lab",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2944,
+  "arabic": "صوص",
+  "vocalised": "صُوص",
+  "english": "chick",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "SuuS",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2945,
+  "arabic": "ثور",
+  "vocalised": "ثُور",
+  "english": "bull",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "thoor",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2946,
+  "arabic": "مَلابِس",
+  "vocalised": "مَلَابِس",
+  "english": "clothes",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "malaabis",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2947,
+  "arabic": "أواعي",
+  "vocalised": "أَواعِي",
+  "english": "clothes",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "awaa3i",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2948,
+  "arabic": "جَزمة",
+  "vocalised": "جَزْمِة",
+  "english": "boots",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jazme",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2949,
+  "arabic": "بَدلة",
+  "vocalised": "بَدْلِة",
+  "english": "suit",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "badle",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2950,
+  "arabic": "صوف",
+  "vocalised": "صُوف",
+  "english": "wool",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "Suuf",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2951,
+  "arabic": "قُطُن",
+  "vocalised": "قُطُن",
+  "english": "cotton",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "'uTun",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2952,
+  "arabic": "زِرّ",
+  "vocalised": "زِرّ",
+  "english": "button",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "zirr",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2953,
+  "arabic": "سِحاب",
+  "vocalised": "سِحاب",
+  "english": "zipper",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "si7aab",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2954,
+  "arabic": "خَيط",
+  "vocalised": "خَيْط",
+  "english": "thread",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kheeT",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2955,
+  "arabic": "حِزام",
+  "vocalised": "حْزَام",
+  "english": "belt",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7zaam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2956,
+  "arabic": "جينز",
+  "vocalised": "جِينْز",
+  "english": "jeans",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "jiinz",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2957,
+  "arabic": "ملابِس داخِلية",
+  "vocalised": "مْلابِس داخْلِيِّة",
+  "english": "underwear",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mlaabis daakhliyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2958,
+  "arabic": "كِلوت",
+  "vocalised": "كِلُوت",
+  "english": "underpants",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kiloot",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction meaning M: underpants (esp. women's), panties"
+  ]
+ },
+ {
+  "id": 2959,
+  "arabic": "أواعي صَيفية",
+  "vocalised": "أَوَاعِي صَيْفِيِّة",
+  "english": "summer clothes",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "awaa3i Seefiyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2960,
+  "arabic": "أواعي شِتاوية",
+  "vocalised": "أَوَاعِي شِتَاوِيِّة",
+  "english": "winter clothes",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "awaa3i shitaawiyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2961,
+  "arabic": "غُرفة نوم",
+  "vocalised": "غُرْفِة نُوم",
+  "english": "bed room",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ghurfit noom",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2962,
+  "arabic": "غُرفة قعدة",
+  "vocalised": "غُرْفِت قَعْدِة",
+  "english": "sitting room",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ghurfit 'a3de",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction variant M: urban variant أوضة القعدة ('ooDit il-'a3de) also common"
+  ]
+ },
+ {
+  "id": 2963,
+  "arabic": "غُرفة ضَيوف",
+  "vocalised": "غُرْفِة ضُيُوف",
+  "english": "reception room",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ghurfit Duyuuf",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2964,
+  "arabic": "بُرداية",
+  "vocalised": "بُرْدَايِة",
+  "english": "curtains",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "burdaaye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction meaning M: curtain"
+  ]
+ },
+ {
+  "id": 2965,
+  "arabic": "صورة",
+  "vocalised": "صُورة",
+  "english": "picture",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "Suura",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2966,
+  "arabic": "خَيمة",
+  "vocalised": "خَيْمِة",
+  "english": "tent",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kheeme",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2967,
+  "arabic": "فَرَندة",
+  "vocalised": "فَرَنْدِة",
+  "english": "veranda",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "farande",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2968,
+  "arabic": "رَحَل",
+  "vocalised": "رَحَل",
+  "english": "moved (house)",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "ra7al",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2969,
+  "arabic": "عَفِش",
+  "vocalised": "عَفْش",
+  "english": "furniture",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "3afsh",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: عَفْش"
+  ]
+ },
+ {
+  "id": 2970,
+  "arabic": "مَحبَس",
+  "vocalised": "مَحْبَس",
+  "english": "valve",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ma7bas",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "native_check",
+   "correction meaning M: valve, stopcock; also (wedding) ring"
+  ]
+ },
+ {
+  "id": 2971,
+  "arabic": "عَرْبَن",
+  "vocalised": "عَرْبَن",
+  "english": "put down a deposit",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "3arban",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2972,
+  "arabic": "أمريكا",
+  "vocalised": "أَمْرِيكَا",
+  "english": "america (USA)",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "amriika",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2973,
+  "arabic": "روسيّا",
+  "vocalised": "رُوسْيَا",
+  "english": "russia",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ruusya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2974,
+  "arabic": "الصين",
+  "vocalised": "اِلصِّين",
+  "english": "china",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "iS-Siin",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2975,
+  "arabic": "الهِند",
+  "vocalised": "الهِنْد",
+  "english": "india",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-hind",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2976,
+  "arabic": "مَصر",
+  "vocalised": "مَصْر",
+  "english": "egypt",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "maSr",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2977,
+  "arabic": "تونِس",
+  "vocalised": "تُونِس",
+  "english": "tunisia",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "tuunis",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2978,
+  "arabic": "الجزائر",
+  "vocalised": "الجَزائِر",
+  "english": "algeria",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "il-jazaa'ir",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2979,
+  "arabic": "أُروبّا",
+  "vocalised": "أُورُبّا",
+  "english": "europe",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "urubba",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2980,
+  "arabic": "برِيطانيا",
+  "vocalised": "بْرِيطَانْيَا",
+  "english": "britain",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "briTaanya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2981,
+  "arabic": "فرَنسا",
+  "vocalised": "فْرَنْسَا",
+  "english": "france",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "fransa",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2982,
+  "arabic": "ألمانيا",
+  "vocalised": "أَلْمَانْيَا",
+  "english": "germany",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "almaanya",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2983,
+  "arabic": "بِلاد الشام",
+  "vocalised": "بِلاد الشّام",
+  "english": "the Levant",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "bilaad ish-shaam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 2984,
+  "arabic": "إسرائيل",
+  "vocalised": "إِسْرَائِيل",
+  "english": "israel (Palestine)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "israa'iil",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "native_check",
+   "correction meaning M: Israel"
+  ]
+ },
+ {
+  "id": 2985,
+  "arabic": "سوريا",
+  "vocalised": "سُورْيَا",
+  "english": "syria",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "suurya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2986,
+  "arabic": "لُبنان",
+  "vocalised": "لِبْنان",
+  "english": "lebanon",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "libnaan",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: لِبْنان"
+  ]
+ },
+ {
+  "id": 2987,
+  "arabic": "الأُردُن",
+  "vocalised": "الأُرْدُن",
+  "english": "jordan",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "il-'urdun",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2988,
+  "arabic": "العِراق",
+  "vocalised": "العِرَاق",
+  "english": "iraq",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-3iraa'",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 2989,
+  "arabic": "كَنَدا",
+  "vocalised": "كَنَدَا",
+  "english": "canada",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kanada",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2990,
+  "arabic": "المَكسيك",
+  "vocalised": "المَكْسِيك",
+  "english": "mexico",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "il-maksiik",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2991,
+  "arabic": "برازيل",
+  "vocalised": "بَرازِيل",
+  "english": "brazil",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "baraaziil",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2992,
+  "arabic": "الخَليج",
+  "vocalised": "الخَلِيج",
+  "english": "the Gulf",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-khaliij",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2993,
+  "arabic": "كوَيت",
+  "vocalised": "كْوَيْت",
+  "english": "kuwait",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kweet",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2994,
+  "arabic": "عُمان",
+  "vocalised": "عُمان",
+  "english": "oman",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "3umaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2995,
+  "arabic": "اليَمَن",
+  "vocalised": "اِلْيَمَن",
+  "english": "yemen",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-yaman",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2996,
+  "arabic": "السَعوديّة",
+  "vocalised": "السَّعُودِيِّة",
+  "english": "saudi Arabia",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "is-sa3uudiyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2997,
+  "arabic": "الإمارات",
+  "vocalised": "الإِمَارَات",
+  "english": "united Arab Emirates",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-imaaraat",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 2998,
+  "arabic": "بَحرَين",
+  "vocalised": "بَحْرِين",
+  "english": "bahrain",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ba7reen",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 2999,
+  "arabic": "تُركيّا",
+  "vocalised": "تُرْكِيّا",
+  "english": "turkey",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "turkiyya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3000,
+  "arabic": "شَمال أفريقيا",
+  "vocalised": "شَمَال أَفْرِيقْيَا",
+  "english": "north Africa",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "shamaal afriiqya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3001,
+  "arabic": "سودان",
+  "vocalised": "سُودان",
+  "english": "sudan",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "suudaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3002,
+  "arabic": "ليبيا",
+  "vocalised": "لِيبْيَا",
+  "english": "libya",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "liibya",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3003,
+  "arabic": "المَغرَب",
+  "vocalised": "المَغْرِب",
+  "english": "morocco",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-maghrib",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3004,
+  "arabic": "بَلجيكا",
+  "vocalised": "بَلْجِيكا",
+  "english": "belgium",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "baljiika",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3005,
+  "arabic": "إيطاليا",
+  "vocalised": "إِيطالْيا",
+  "english": "italy",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "iiTaalya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3006,
+  "arabic": "إسبانيا",
+  "vocalised": "إِسْبانْيا",
+  "english": "spain",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "isbaanya",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3007,
+  "arabic": "هُلاندا",
+  "vocalised": "هُولَنْدَا",
+  "english": "the Netherlands",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "hulanda",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3008,
+  "arabic": "إيران",
+  "vocalised": "إِيران",
+  "english": "iran",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "iiraan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3009,
+  "arabic": "الأرجَنتينا",
+  "vocalised": "الأَرْجَنْتِينا",
+  "english": "argentina",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "il-'arjantiina",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3010,
+  "arabic": "كولومبيا",
+  "vocalised": "كُولُومْبْيَا",
+  "english": "colombia",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "kuloombya",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3011,
+  "arabic": "اليابان",
+  "vocalised": "اليَابَان",
+  "english": "japan",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-yaabaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3012,
+  "arabic": "باكِستان",
+  "vocalised": "بَاكِسْتَان",
+  "english": "pakistan",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "baakistaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3013,
+  "arabic": "أفغَنِستان",
+  "vocalised": "أَفْغانِسْتان",
+  "english": "afghanistan",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "afghanistaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3014,
+  "arabic": "إندونيسيا",
+  "vocalised": "إِنْدُونِيسْيَا",
+  "english": "indonesia",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "induuniisya",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3015,
+  "arabic": "الصومال",
+  "vocalised": "الصُّومَال",
+  "english": "somalia",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "iS-Suumaal",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3016,
+  "arabic": "الصَحراء الغَربيّة",
+  "vocalised": "اِلصَّحْرا الْغَرْبِيِّة",
+  "english": "western Sahara",
+  "pos": "noun",
+  "level": 5,
+  "romanization": "iS-Sa7ra il-gharbiyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3017,
+  "arabic": "موريتانيا",
+  "vocalised": "مُورِيتَانْيَا",
+  "english": "mauritania",
+  "pos": "noun",
+  "level": 5,
+  "romanization": "muuritaanya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3018,
+  "arabic": "مالي",
+  "vocalised": "مالِي",
+  "english": "mali",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "maali",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3019,
+  "arabic": "بُلاندا",
+  "vocalised": "بُلانْدا",
+  "english": "poland",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "bulanda",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3020,
+  "arabic": "النِمسا",
+  "vocalised": "النِّمْسَا",
+  "english": "austria",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "in-nimsa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3021,
+  "arabic": "اليونان",
+  "vocalised": "اليُونَان",
+  "english": "greece",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "il-yuunaan",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3022,
+  "arabic": "سويسرا",
+  "vocalised": "سْوِيسْرَا",
+  "english": "switzerland",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "swiisra",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3023,
+  "arabic": "تَمَنية وأربَعين",
+  "vocalised": "تَمَنْيِة وْأَرْبْعِين",
+  "english": "forty Eight Palestine (refers to the 1948 borders of Palestine, and Palestinians often use this when talking about the land of modern day Israel)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "tamanye w-arb3iin",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3024,
+  "arabic": "الكيان الصَهيونيّ",
+  "vocalised": "الكَيان الصَّهْيُونِي",
+  "english": "the Zionist entity",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "il-kayaan iS-Sahyuuni",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3025,
+  "arabic": "طالِب",
+  "vocalised": "طَالِب",
+  "english": "student",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "Taalib",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3026,
+  "arabic": "وَرَقة",
+  "vocalised": "وَرَقَة",
+  "english": "piece of paper",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "wara'a",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3027,
+  "arabic": "قاموس",
+  "vocalised": "قَامُوس",
+  "english": "dictionary",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'aamuus",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3028,
+  "arabic": "رَسم",
+  "vocalised": "رَسْم",
+  "english": "drawing",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "rasm",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3029,
+  "arabic": "عَمّية",
+  "vocalised": "عَمِّيِّة",
+  "english": "colloquial arabic",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "3ammiyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3030,
+  "arabic": "أربع",
+  "vocalised": "أَرْبَع",
+  "english": "four + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "arba3",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3031,
+  "arabic": "خمس",
+  "vocalised": "خَمَس",
+  "english": "five + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "khamas",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3032,
+  "arabic": "ست",
+  "vocalised": "سِتّ",
+  "english": "six + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "sitt",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3033,
+  "arabic": "سبع",
+  "vocalised": "سَبِع",
+  "english": "seven + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "sabi3",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3034,
+  "arabic": "ثمن",
+  "vocalised": "تَمَن",
+  "english": "eight + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "taman",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction meaning M: eight (form used before a counted noun)"
+  ]
+ },
+ {
+  "id": 3035,
+  "arabic": "تسع",
+  "vocalised": "تِسِع",
+  "english": "nine + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "tisi3",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3036,
+  "arabic": "عشر",
+  "vocalised": "عَشَر",
+  "english": "ten + noun",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "3ashar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3037,
+  "arabic": "مئة",
+  "vocalised": "مِيِّة",
+  "english": "hundred",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "miyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3038,
+  "arabic": "ولاد",
+  "vocalised": "وْلاد",
+  "english": "children",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "wlaad",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: children, kids; boys"
+  ]
+ },
+ {
+  "id": 3039,
+  "arabic": "مَرةْ عَمّ",
+  "vocalised": "مَرْت عَمّ",
+  "english": "aunt (father’s brother’s wife)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mart 3amm",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3040,
+  "arabic": "جوز عَمّة",
+  "vocalised": "جُوز عَمِّة",
+  "english": "uncle (father’s sister’s husband)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jooz 3amme",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3041,
+  "arabic": "مَرةْ خال",
+  "vocalised": "مَرْت خَال",
+  "english": "aunt (mother’s brother’s wife)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mart khaal",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3042,
+  "arabic": "اِبِن عمِّة",
+  "vocalised": "اِبِن عَمِّة",
+  "english": "cousin (father’s sister’s son)",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ibin 3amme",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3043,
+  "arabic": "بِنْت عمِّة",
+  "vocalised": "بِنْت عَمِّة",
+  "english": "cousin (father’s sister’s daughter)",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "bint 3amme",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3044,
+  "arabic": "اِبِن خالِة",
+  "vocalised": "اِبِن خَالِة",
+  "english": "cousin (mother’s sister’s son)",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ibin khaale",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3045,
+  "arabic": "بِنْت خالِة",
+  "vocalised": "بِنْت خَالِة",
+  "english": "cousin (mother’s sister’s daughter)",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "bint khaale",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3046,
+  "arabic": "بابا",
+  "vocalised": "بَابَا",
+  "english": "dad",
+  "pos": "noun",
+  "level": 1,
+  "romanization": "baaba",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3047,
+  "arabic": "إِخوة",
+  "vocalised": "إِخْوِة",
+  "english": "siblings",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ikhwe",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: brothers; siblings"
+  ]
+ },
+ {
+  "id": 3048,
+  "arabic": "حفيد",
+  "vocalised": "حَفِيد",
+  "english": "grandson",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7afiid",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3049,
+  "arabic": "حفيدة",
+  "vocalised": "حَفِيدِة",
+  "english": "grandaughter",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "7afiide",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3050,
+  "arabic": "أحْفاد",
+  "vocalised": "أَحْفَاد",
+  "english": "grandchildren",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "a7faad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3051,
+  "arabic": "أجْداد",
+  "vocalised": "أَجْدَاد",
+  "english": "ancestors, forefathers",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ajdaad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3052,
+  "arabic": "تَبَنّي",
+  "vocalised": "تَبَنِّي",
+  "english": "adoption",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "tabanni",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3053,
+  "arabic": "مواصلات",
+  "vocalised": "مُواصَلات",
+  "english": "public transportation",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "muwaaSalaat",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3054,
+  "arabic": "سَفينة",
+  "vocalised": "سَفِينِة",
+  "english": "ship",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "safiine",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3055,
+  "arabic": "مَركَب",
+  "vocalised": "مَرْكَب",
+  "english": "boat",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "markab",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3056,
+  "arabic": "قطار",
+  "vocalised": "قِطَار",
+  "english": "train",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'iTaar",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3057,
+  "arabic": "واطي",
+  "vocalised": "وَاطِي",
+  "english": "low",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "waaTi",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3058,
+  "arabic": "على اليَمين",
+  "vocalised": "عَاليَمِين",
+  "english": "on the right",
+  "pos": "adverb",
+  "level": 2,
+  "romanization": "3al-yamiin",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3059,
+  "arabic": "على الشمال",
+  "vocalised": "عَالشْمال",
+  "english": "on the left",
+  "pos": "adverb",
+  "level": 2,
+  "romanization": "3ash-shmaal",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3060,
+  "arabic": "مُدمِن",
+  "vocalised": "مُدْمِن",
+  "english": "addicted",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mudmin",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3061,
+  "arabic": "عَدواني",
+  "vocalised": "عَدْوَانِي",
+  "english": "aggressive / hostile",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "3adwaani",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3062,
+  "arabic": "نَصّاب",
+  "vocalised": "نَصَّاب",
+  "english": "crook",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "naSSaab",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3063,
+  "arabic": "فُضُولِيّ",
+  "vocalised": "فُضُولِي",
+  "english": "curious",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "fuDuuli",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: nosy, curious"
+  ]
+ },
+ {
+  "id": 3064,
+  "arabic": "مِزاجِيّ",
+  "vocalised": "مِزاجِي",
+  "english": "moody",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mizaaji",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3065,
+  "arabic": "مُتهَوِّر",
+  "vocalised": "مِتْهَوِّر",
+  "english": "reckless / Careless",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "mit-hawwir",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3066,
+  "arabic": "مَوهوب",
+  "vocalised": "مَوْهُوب",
+  "english": "talented",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mawhuub",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3067,
+  "arabic": "مِتسامِح",
+  "vocalised": "مِتْسَامِح",
+  "english": "tolerant",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "mitsaami7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3068,
+  "arabic": "أناني",
+  "vocalised": "أَنَانِي",
+  "english": "selfish",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "anaani",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3069,
+  "arabic": "حَقود",
+  "vocalised": "حَقُود",
+  "english": "spiteful",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "7a'uud",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3070,
+  "arabic": "مِتشَدِّد",
+  "vocalised": "مِتْشَدِّد",
+  "english": "strict",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mitshaddid",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3071,
+  "arabic": "مُشكلجي",
+  "vocalised": "مُشْكَلْجِي",
+  "english": "troublemaker",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mushkalji",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3072,
+  "arabic": "مَغرور",
+  "vocalised": "مَغْرُور",
+  "english": "snobby/Vain",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "maghruur",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3073,
+  "arabic": "حَكيم",
+  "vocalised": "حَكِيم",
+  "english": "wise",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "7akiim",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3074,
+  "arabic": "جذاب",
+  "vocalised": "جَذَّاب",
+  "english": "attractive charming",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "jadhdhaab",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3075,
+  "arabic": "مَحبوب",
+  "vocalised": "مَحْبُوب",
+  "english": "beloved",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ma7buub",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3076,
+  "arabic": "مِتباهي",
+  "vocalised": "مِتْبَاهِي",
+  "english": "boastful",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "mitbaahi",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3077,
+  "arabic": "غَشّاش",
+  "vocalised": "غَشّاش",
+  "english": "cheater",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ghashshaash",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3078,
+  "arabic": "جَبّان",
+  "vocalised": "جَبَان",
+  "english": "coward",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "jabaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3079,
+  "arabic": "شَرير",
+  "vocalised": "شَرِّير",
+  "english": "evil",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "sharriir",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction harakaat M: شَرِّير"
+  ]
+ },
+ {
+  "id": 3080,
+  "arabic": "خَبيث",
+  "vocalised": "خَبِيث",
+  "english": "malicious",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "khabiith",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3081,
+  "arabic": "جَبّار",
+  "vocalised": "جَبَّار",
+  "english": "mighty",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "jabbaar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3082,
+  "arabic": "شَهم",
+  "vocalised": "شَهِم",
+  "english": "noble",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "shahim",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3083,
+  "arabic": "مُنفَتِح",
+  "vocalised": "مُنْفَتِح",
+  "english": "open minded",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "munfati7",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3084,
+  "arabic": "مُخْلِص",
+  "vocalised": "مُخْلِص",
+  "english": "sincere / Loyal",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mukhliS",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3085,
+  "arabic": "تَضايَق",
+  "vocalised": "تْضايَق",
+  "english": "was annoyed",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "tDaaya'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3086,
+  "arabic": "عَصَّب",
+  "vocalised": "عَصَّب",
+  "english": "got angry",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "3aSSab",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3087,
+  "arabic": "رَضِي",
+  "vocalised": "رِضِي",
+  "english": "was pleased / satisfied",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "riDi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: رِضِي",
+   "correction conjugation M: byirDa"
+  ]
+ },
+ {
+  "id": 3088,
+  "arabic": "انْزَعَج",
+  "vocalised": "اِنْزَعَج",
+  "english": "was annoyed",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "inza3aj",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3089,
+  "arabic": "حَنّ",
+  "vocalised": "حَنّ",
+  "english": "longed for",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "7ann",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3090,
+  "arabic": "اشْتَهى",
+  "vocalised": "اِشْتَهَى",
+  "english": "craved / desired",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "ishtaha",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3091,
+  "arabic": "تَعَوَّد",
+  "vocalised": "تْعَوَّد",
+  "english": "got used to",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "t3awwad",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3092,
+  "arabic": "عانَى",
+  "vocalised": "عَانَى",
+  "english": "suffered",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "3aana",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3093,
+  "arabic": "مُكتَئِب",
+  "vocalised": "مُكْتَئِب",
+  "english": "depressed",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mukta'ib",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3094,
+  "arabic": "وَحيد",
+  "vocalised": "وَحِيد",
+  "english": "lonely",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "wa7iid",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: alone, lonely; only (child)"
+  ]
+ },
+ {
+  "id": 3095,
+  "arabic": "احْتار",
+  "vocalised": "اِحْتَار",
+  "english": "was confused / at a loss",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "i7taar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3096,
+  "arabic": "احْتاط",
+  "vocalised": "احْتاط",
+  "english": "was cautious / took precautions",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "i7taaT",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3097,
+  "arabic": "غَيمة",
+  "vocalised": "غَيْمِة",
+  "english": "cloud",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "gheeme",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3098,
+  "arabic": "دُنيا",
+  "vocalised": "دُنْيا",
+  "english": "world",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "dunya",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3099,
+  "arabic": "وَرق شَجر",
+  "vocalised": "وَرَق شَجَر",
+  "english": "leaves",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "wara' shajar",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "correction meaning M: tree leaves"
+  ]
+ },
+ {
+  "id": 3100,
+  "arabic": "صَحرا",
+  "vocalised": "صَحْرَا",
+  "english": "desert",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "Sa7ra",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3101,
+  "arabic": "كُلّ حَدا",
+  "vocalised": "كُلّ حَدَا",
+  "english": "everyone",
+  "pos": "pronoun",
+  "level": 2,
+  "romanization": "kull 7ada",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3102,
+  "arabic": "أي إشي",
+  "vocalised": "أَيّ إِشِي",
+  "english": "anything",
+  "pos": "pronoun",
+  "level": 2,
+  "romanization": "ayy ishi",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3103,
+  "arabic": "نَعسان",
+  "vocalised": "نَعْسَان",
+  "english": "sleepy",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "na3saan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3104,
+  "arabic": "مَضغُوط",
+  "vocalised": "مَضْغُوط",
+  "english": "stressed (under pressure)",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "maDghuuT",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3105,
+  "arabic": "مِتوَتِّر",
+  "vocalised": "مِتْوَتِّر",
+  "english": "stressed (tense)",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "mitwattir",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3106,
+  "arabic": "مرَشِّح",
+  "vocalised": "مْرَشِّح",
+  "english": "have a cold",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "mrashshi7",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction meaning M: having a cold"
+  ]
+ },
+ {
+  "id": 3107,
+  "arabic": "مِتفائل",
+  "vocalised": "مِتْفَائِل",
+  "english": "optimistic",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "mitfaa'il",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3108,
+  "arabic": "مِتشائم",
+  "vocalised": "مِتْشَائِم",
+  "english": "pessimistic",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "mitshaa'im",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3109,
+  "arabic": "عَرقان",
+  "vocalised": "عَرْقَان",
+  "english": "sweaty",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "3ar'aan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3110,
+  "arabic": "مَقهُور",
+  "vocalised": "مَقْهُور",
+  "english": "deeply disappointed",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ma'huur",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: heartbroken, aggrieved; oppressed"
+  ]
+ },
+ {
+  "id": 3111,
+  "arabic": "عَشَان",
+  "vocalised": "عَشَان",
+  "english": "because of (in order to)",
+  "pos": "conjunction",
+  "level": 1,
+  "romanization": "3ashaan",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3112,
+  "arabic": "حَتَّى لَو",
+  "vocalised": "حَتَّى لَو",
+  "english": "even if",
+  "pos": "conjunction",
+  "level": 3,
+  "romanization": "7atta law",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3113,
+  "arabic": "وَلا حَتَّى",
+  "vocalised": "وَلا حَتَّى",
+  "english": "not even",
+  "pos": "particle",
+  "level": 2,
+  "romanization": "wala 7atta",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3114,
+  "arabic": "مَع هَيك",
+  "vocalised": "مَع هَيك",
+  "english": "even so",
+  "pos": "conjunction",
+  "level": 3,
+  "romanization": "ma3 heek",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3115,
+  "arabic": "شَمسية",
+  "vocalised": "شَمْسِيِّة",
+  "english": "umbrella",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "shamsiyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3116,
+  "arabic": "رياضة",
+  "vocalised": "رِياضة",
+  "english": "sport",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "riyaaDa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3117,
+  "arabic": "كُرة قَدم",
+  "vocalised": "كُرِةْ قَدَم",
+  "english": "football",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "kurit 'adam",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3118,
+  "arabic": "سِباحة",
+  "vocalised": "سْبَاحَة",
+  "english": "swimming",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "sbaa7a",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3119,
+  "arabic": "تَنِس",
+  "vocalised": "تَنِس",
+  "english": "tennis",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "tanis",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3120,
+  "arabic": "كُرة سَلّة",
+  "vocalised": "كُرَة سَلِّة",
+  "english": "basketball",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kurat salle",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3121,
+  "arabic": "كُرة إيد",
+  "vocalised": "كُرَة إِيد",
+  "english": "handball",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "kurat iid",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3122,
+  "arabic": "يوغا",
+  "vocalised": "يُوغَا",
+  "english": "yoga",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "yooga",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3123,
+  "arabic": "لاعِب",
+  "vocalised": "لاعِب",
+  "english": "player",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "laa3ib",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3124,
+  "arabic": "نافَس",
+  "vocalised": "نافَس",
+  "english": "competed against",
+  "pos": "verb",
+  "level": 4,
+  "romanization": "naafas",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction conjugation M: binaafis"
+  ]
+ },
+ {
+  "id": 3125,
+  "arabic": "غوص",
+  "vocalised": "غُوص",
+  "english": "diving",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ghooS",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3126,
+  "arabic": "ملاكمة",
+  "vocalised": "مُلَاكَمِة",
+  "english": "boxing",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mulaakame",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3127,
+  "arabic": "كُحلي",
+  "vocalised": "كُحْلِي",
+  "english": "navy blue",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "ku7li",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3128,
+  "arabic": "زَيتي",
+  "vocalised": "زَيْتِي",
+  "english": "olive green",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "zeeti",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3129,
+  "arabic": "تِرِكوأز",
+  "vocalised": "تِرْكْوَاز",
+  "english": "turquoise",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "tirkwaaz",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction harakaat M: تركواز"
+  ]
+ },
+ {
+  "id": 3130,
+  "arabic": "أزرَق فاتِح",
+  "vocalised": "أَزْرَق فَاتِح",
+  "english": "light blue",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "azra' faati7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3131,
+  "arabic": "أخضَر فاتِح",
+  "vocalised": "أَخْضَر فَاتِح",
+  "english": "light green",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "akhDar faati7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3132,
+  "arabic": "أحمَر غامِق",
+  "vocalised": "أَحْمَر غامِق",
+  "english": "dark red",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "a7mar ghaami'",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3133,
+  "arabic": "زبون",
+  "vocalised": "زْبُون",
+  "english": "customer",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "zbuun",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3134,
+  "arabic": "إستِثمار",
+  "vocalised": "اسْتِثْمار",
+  "english": "investment",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "istithmaar",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3135,
+  "arabic": "رُبح",
+  "vocalised": "رُبْح",
+  "english": "profit",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "rub7",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "vocalised L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3136,
+  "arabic": "شَريك",
+  "vocalised": "شَرِيك",
+  "english": "partner",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "shariik",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3137,
+  "arabic": "راسمال",
+  "vocalised": "رَاسْمَال",
+  "english": "capital",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "raasmaal",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3138,
+  "arabic": "تَعويض",
+  "vocalised": "تَعْوِيض",
+  "english": "compensation",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ta3wiiD",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3139,
+  "arabic": "مُسْتهلك",
+  "vocalised": "مُسْتَهْلِك",
+  "english": "consumer",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mustahlik",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3140,
+  "arabic": "إستِهلاك",
+  "vocalised": "إِسْتِهْلَاك",
+  "english": "consumption",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "istihlaak",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3141,
+  "arabic": "مستورد",
+  "vocalised": "مِسْتَوْرِد",
+  "english": "importer",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mistawrid",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction romanization M: mistawrid"
+  ]
+ },
+ {
+  "id": 3142,
+  "arabic": "إحتِكار",
+  "vocalised": "إِحْتِكَار",
+  "english": "monopoly",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "i7tikaar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3143,
+  "arabic": "تَمويل",
+  "vocalised": "تَمْوِيل",
+  "english": "financing",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "tamwiil",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3144,
+  "arabic": "عولمة",
+  "vocalised": "عَوْلَمِة",
+  "english": "globalization",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "3awlame",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3145,
+  "arabic": "مَعرِفة",
+  "vocalised": "مَعْرِفِة",
+  "english": "knowledge",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "ma3rife",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3146,
+  "arabic": "مُحافِظ",
+  "vocalised": "مُحَافِظ",
+  "english": "conservative",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mu7aafiTH",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3147,
+  "arabic": "سَيطَرة",
+  "vocalised": "سَيْطَرَة",
+  "english": "control",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "sayTara",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3148,
+  "arabic": "قيم",
+  "vocalised": "قِيَم",
+  "english": "values",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "qiyam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction romanization M: qiyam"
+  ]
+ },
+ {
+  "id": 3149,
+  "arabic": "أخلاق",
+  "vocalised": "أَخْلاق",
+  "english": "ethics / morals",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "akhlaa'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3150,
+  "arabic": "نَظرية",
+  "vocalised": "نَظَرِيِّة",
+  "english": "theory",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "naTHariyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction harakaat M: نَظَرِيّة"
+  ]
+ },
+ {
+  "id": 3151,
+  "arabic": "مَنطِق",
+  "vocalised": "مَنْطِق",
+  "english": "logic",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "manTi'",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3152,
+  "arabic": "معارِضة",
+  "vocalised": "مُعَارَضَة",
+  "english": "opposition (to a position)",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mu3aaraDa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3153,
+  "arabic": "إلزامي",
+  "vocalised": "إِلْزَامِي",
+  "english": "mandatory",
+  "pos": "adjective",
+  "level": 4,
+  "romanization": "ilzaami",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3154,
+  "arabic": "إِلّا",
+  "vocalised": "إِلَّا",
+  "english": "except",
+  "pos": "particle",
+  "level": 2,
+  "romanization": "illa",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3155,
+  "arabic": "بَطاقة بنَك",
+  "vocalised": "بَطَاقِة بَنْك",
+  "english": "bank card",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "baTaa'it bank",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3156,
+  "arabic": "كَلَّف",
+  "vocalised": "كَلَّف",
+  "english": "cost (an amount)",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "kallaf",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3157,
+  "arabic": "غَلَّى",
+  "vocalised": "غَلَّى",
+  "english": "raised the price",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "ghalla",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "correction conjugation M: bighalli",
+   "correction meaning M: raised the price; boiled"
+  ]
+ },
+ {
+  "id": 3158,
+  "arabic": "رايح",
+  "vocalised": "رَايِح",
+  "english": "going",
+  "pos": "adjective",
+  "level": 1,
+  "romanization": "raayi7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3159,
+  "arabic": "جاي",
+  "vocalised": "جَاي",
+  "english": "coming",
+  "pos": "adjective",
+  "level": 1,
+  "romanization": "jaay",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: coming; next, upcoming"
+  ]
+ },
+ {
+  "id": 3160,
+  "arabic": "عارِف",
+  "vocalised": "عارِف",
+  "english": "knowing",
+  "pos": "adjective",
+  "level": 1,
+  "romanization": "3aarif",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: knowing; (I) know"
+  ]
+ },
+ {
+  "id": 3161,
+  "arabic": "سايق",
+  "vocalised": "سَايِق",
+  "english": "driving",
+  "pos": "adjective",
+  "level": 3,
+  "romanization": "saayi'",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3162,
+  "arabic": "طالِع",
+  "vocalised": "طالِع",
+  "english": "going out/Leaving",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "Taali3",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3163,
+  "arabic": "واقِف",
+  "vocalised": "وَاقِف",
+  "english": "standing",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "waa'if",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3164,
+  "arabic": "شايف",
+  "vocalised": "شَايِف",
+  "english": "seeing",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "shaayif",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3165,
+  "arabic": "قاعِد",
+  "vocalised": "قاعِد",
+  "english": "sitting",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "'aa3id",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3166,
+  "arabic": "سامِع",
+  "vocalised": "سامِع",
+  "english": "hearing",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "saami3",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: hearing; (have) heard"
+  ]
+ },
+ {
+  "id": 3167,
+  "arabic": "فاهِم",
+  "vocalised": "فَاهِم",
+  "english": "understanding",
+  "pos": "adjective",
+  "level": 2,
+  "romanization": "faahim",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3168,
+  "arabic": "فاق",
+  "vocalised": "فَاق",
+  "english": "woke up",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "faa'",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3169,
+  "arabic": "غَفِي",
+  "vocalised": "غِفِي",
+  "english": "dozed off / took a nap",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "ghifi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction harakaat M: غِفِي",
+   "correction conjugation M: byighfa"
+  ]
+ },
+ {
+  "id": 3170,
+  "arabic": "فَرْشَى",
+  "vocalised": "فَرْشَى",
+  "english": "brushed",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "farsha",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3171,
+  "arabic": "دِرهَم",
+  "vocalised": "دِرْهَم",
+  "english": "dirham",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "dirham",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3172,
+  "arabic": "جنيه",
+  "vocalised": "جْنِيه",
+  "english": "pound (currency)",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "jneeh",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3173,
+  "arabic": "ليرة",
+  "vocalised": "لِيرَة",
+  "english": "lira (singular)",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "liira",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3174,
+  "arabic": "سَلَّم",
+  "vocalised": "سَلَّم",
+  "english": "greeted",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "sallam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: greeted; handed over; surrendered",
+   "correction conjugation M: bisallim"
+  ]
+ },
+ {
+  "id": 3175,
+  "arabic": "قَنينة",
+  "vocalised": "قَنِّينِة",
+  "english": "bottle",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "'anniine",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3176,
+  "arabic": "بِدّ",
+  "vocalised": "بِدّ",
+  "english": "to want",
+  "pos": "verb",
+  "level": 1,
+  "romanization": "bidd",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3177,
+  "arabic": "باس",
+  "vocalised": "بَاس",
+  "english": "kissed",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "baas",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3178,
+  "arabic": "تَزَوَّج",
+  "vocalised": "تْزَوَّج",
+  "english": "married",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "tzawwaj",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction meaning M: to get married (he married)",
+   "correction variant M: variant: اتجوز (tjawwaz)"
+  ]
+ },
+ {
+  "id": 3179,
+  "arabic": "تَصالَح",
+  "vocalised": "تْصالَح",
+  "english": "made up with",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "tSaala7",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction conjugation M: byitSaala7"
+  ]
+ },
+ {
+  "id": 3180,
+  "arabic": "عاش",
+  "vocalised": "عَاش",
+  "english": "lived",
+  "pos": "verb",
+  "level": 3,
+  "romanization": "3aash",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3181,
+  "arabic": "مات",
+  "vocalised": "مات",
+  "english": "died",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "maat",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3182,
+  "arabic": "انْوَلَد",
+  "vocalised": "اِنْوَلَد",
+  "english": "was born",
+  "pos": "verb",
+  "level": 2,
+  "romanization": "inwalad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3183,
+  "arabic": "هِوَاية",
+  "vocalised": "هِوايِة",
+  "english": "hobby",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "hiwaaye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3184,
+  "arabic": "إدارة",
+  "vocalised": "إِدَارَة",
+  "english": "administration",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "idaara",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3185,
+  "arabic": "جَمعية",
+  "vocalised": "جَمْعِيِّة",
+  "english": "association",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "jam3iyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3186,
+  "arabic": "مُحاوَلة",
+  "vocalised": "مُحاوَلِة",
+  "english": "attempt",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mu7aawale",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3187,
+  "arabic": "لَقطة",
+  "vocalised": "لَقْطَة",
+  "english": "bargain",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "la'Ta",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3188,
+  "arabic": "رَشوة",
+  "vocalised": "رَشْوِة",
+  "english": "bribe",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "rashwe",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3189,
+  "arabic": "فَراطة",
+  "vocalised": "فَراطَة",
+  "english": "change of money",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "faraaTa",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3190,
+  "arabic": "شَغلة",
+  "vocalised": "شَغْلِة",
+  "english": "chore",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "shaghle",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: thing, matter; task, chore"
+  ]
+ },
+ {
+  "id": 3191,
+  "arabic": "مؤتَمَر",
+  "vocalised": "مُؤْتَمَر",
+  "english": "conference",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mu'tamar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3192,
+  "arabic": "واسِطة",
+  "vocalised": "وَاسْطَة",
+  "english": "intermediary",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "waasTa",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "vocalised M",
+   "correction meaning M: connections, pull (string-pulling); intermediary"
+  ]
+ },
+ {
+  "id": 3193,
+  "arabic": "شِعار",
+  "vocalised": "شِعَار",
+  "english": "logo",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "shi3aar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3194,
+  "arabic": "مُعامَلة",
+  "vocalised": "مُعامَلِة",
+  "english": "official application",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mu3aamale",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: official paperwork, transaction; treatment"
+  ]
+ },
+ {
+  "id": 3195,
+  "arabic": "مُنَظّمة",
+  "vocalised": "مُنَظَّمِة",
+  "english": "organization",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "munaTHTHame",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M"
+  ]
+ },
+ {
+  "id": 3196,
+  "arabic": "مُشارَكة",
+  "vocalised": "مُشَارَكِة",
+  "english": "participation",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mushaarake",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3197,
+  "arabic": "كَمّية",
+  "vocalised": "كَمِّيِّة",
+  "english": "quantity",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "kammiyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3198,
+  "arabic": "واجِهة",
+  "vocalised": "واجْهِة",
+  "english": "store window",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "waajhe",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction meaning M: shop window; facade, front"
+  ]
+ },
+ {
+  "id": 3199,
+  "arabic": "فَريق",
+  "vocalised": "فَرِيق",
+  "english": "team",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "farii'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3200,
+  "arabic": "دِفاع مَدَني",
+  "vocalised": "دِفاع مَدَنِي",
+  "english": "civil defense",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "difaa3 madani",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3201,
+  "arabic": "الفَساد",
+  "vocalised": "الفَسَاد",
+  "english": "corruption",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-fasaad",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3202,
+  "arabic": "جَريمة",
+  "vocalised": "جَرِيمِة",
+  "english": "crime",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jariime",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3203,
+  "arabic": "إنفِجار",
+  "vocalised": "اِنْفِجَار",
+  "english": "explosion",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "infijaar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3204,
+  "arabic": "بَصمة",
+  "vocalised": "بَصْمِة",
+  "english": "fingerprint",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "baSme",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3205,
+  "arabic": "جايزة",
+  "vocalised": "جَايْزِة",
+  "english": "grand prize",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jaayze",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "correction meaning M: prize, award"
+  ]
+ },
+ {
+  "id": 3206,
+  "arabic": "تَحقيق",
+  "vocalised": "تَحْقِيق",
+  "english": "investigation",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "ta7'ii'",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3207,
+  "arabic": "أَمر",
+  "vocalised": "أَمْر",
+  "english": "issue",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "amr",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: matter, issue; order, command"
+  ]
+ },
+ {
+  "id": 3208,
+  "arabic": "مَذبَحة",
+  "vocalised": "مَذْبَحَة",
+  "english": "massacre",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "madba7a",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3209,
+  "arabic": "إعتِصام",
+  "vocalised": "اِعْتِصَام",
+  "english": "protest",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "i3tiSaam",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: sit-in (protest)"
+  ]
+ },
+ {
+  "id": 3210,
+  "arabic": "الصَليب الأحمَر",
+  "vocalised": "الصَّلِيب الأَحْمَر",
+  "english": "red Cross",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "iS-Saliib il-'a7mar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3211,
+  "arabic": "إصلاح",
+  "vocalised": "إِصْلاح",
+  "english": "reform",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "iSlaa7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3212,
+  "arabic": "طلقة ناريّة",
+  "vocalised": "طَلْقَة نارِيِّة",
+  "english": "shooting",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "Tal'a naariyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check",
+   "correction meaning M: gunshot"
+  ]
+ },
+ {
+  "id": 3213,
+  "arabic": "وِلاية",
+  "vocalised": "وِلَايِة",
+  "english": "state",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "wilaaye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3214,
+  "arabic": "إنتِحار",
+  "vocalised": "انْتِحار",
+  "english": "suicide",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "inti7aar",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3215,
+  "arabic": "ضَريبة",
+  "vocalised": "ضَرِيبِة",
+  "english": "tax",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "Dariibe",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3216,
+  "arabic": "الأُمَم المُتَّحِدة",
+  "vocalised": "الأُمَم المُتَّحِدِة",
+  "english": "united Nations",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-'umam il-mutta7ide",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3217,
+  "arabic": "مؤمِن",
+  "vocalised": "مُؤْمِن",
+  "english": "believer",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mu'min",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3218,
+  "arabic": "قَبر",
+  "vocalised": "قَبْر",
+  "english": "grave",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'abr",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3219,
+  "arabic": "جَنّة",
+  "vocalised": "جَنِّة",
+  "english": "heaven",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "janne",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3220,
+  "arabic": "يَهودي",
+  "vocalised": "يَهُودِي",
+  "english": "jew",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "yahuudi",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: Jew; Jewish"
+  ]
+ },
+ {
+  "id": 3221,
+  "arabic": "الفِصح",
+  "vocalised": "الفِصْح",
+  "english": "easter",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "il-fiS7",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3222,
+  "arabic": "قُدّاس",
+  "vocalised": "قُدَّاس",
+  "english": "mass",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "'uddaas",
+  "confidence": 1,
+  "mvp": 0,
+  "held_on": [
+   "romanization L",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3223,
+  "arabic": "طائِفة",
+  "vocalised": "طَايْفِة",
+  "english": "rel. branch",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "Taayfe",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3224,
+  "arabic": "مُلحِد",
+  "vocalised": "مُلْحِد",
+  "english": "unbeliever",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "mul7id",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3225,
+  "arabic": "كَلمة",
+  "vocalised": "كِلْمِة",
+  "english": "word",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "kilme",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3226,
+  "arabic": "لَهجة",
+  "vocalised": "لَهْجِة",
+  "english": "accent",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "lahje",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: dialect, accent"
+  ]
+ },
+ {
+  "id": 3227,
+  "arabic": "فِقرة",
+  "vocalised": "فِقْرَة",
+  "english": "paragraph",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "fiqra",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3228,
+  "arabic": "مَصدَر",
+  "vocalised": "مَصْدَر",
+  "english": "gerund, resource, origin",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "maSdar",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: source, origin; (grammar) verbal noun"
+  ]
+ },
+ {
+  "id": 3229,
+  "arabic": "جُملة",
+  "vocalised": "جُمْلِة",
+  "english": "sentence",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "jumle",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3230,
+  "arabic": "فَنّ",
+  "vocalised": "فَنّ",
+  "english": "art",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "fann",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3231,
+  "arabic": "فِرقة",
+  "vocalised": "فِرْقَة",
+  "english": "band",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "fir'a",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3232,
+  "arabic": "آلة",
+  "vocalised": "آلِة",
+  "english": "instrument",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "aale",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: machine, device; (musical) instrument"
+  ]
+ },
+ {
+  "id": 3233,
+  "arabic": "لَحن",
+  "vocalised": "لَحْن",
+  "english": "melody",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "la7n",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3234,
+  "arabic": "عَزف",
+  "vocalised": "عَزْف",
+  "english": "playing",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "3azf",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3235,
+  "arabic": "قَصيدة",
+  "vocalised": "قَصِيدِة",
+  "english": "poem",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "'aSiide",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3236,
+  "arabic": "زَجَل",
+  "vocalised": "زَجَل",
+  "english": "poetry singing",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "zajal",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "correction meaning M: improvised colloquial folk poetry, sung"
+  ]
+ },
+ {
+  "id": 3237,
+  "arabic": "أُغنيّة",
+  "vocalised": "أُغْنِيِّة",
+  "english": "song",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "ughniyye",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3238,
+  "arabic": "مِهرَجان",
+  "vocalised": "مِهْرَجان",
+  "english": "festival",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "mihrajaan",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M"
+  ]
+ },
+ {
+  "id": 3239,
+  "arabic": "فيلم",
+  "vocalised": "فِلِم",
+  "english": "film",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "filim",
+  "confidence": 2,
+  "mvp": 0,
+  "held_on": [
+   "romanization M",
+   "vocalised M",
+   "native_check"
+  ]
+ },
+ {
+  "id": 3240,
+  "arabic": "مَسرَحية",
+  "vocalised": "مَسْرَحِيِّة",
+  "english": "play",
+  "pos": "noun",
+  "level": 3,
+  "romanization": "masra7iyye",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3241,
+  "arabic": "دار نَشر",
+  "vocalised": "دار نَشْر",
+  "english": "publishing house",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "daar nashr",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 3242,
+  "arabic": "أُسلوب",
+  "vocalised": "أُسْلُوب",
+  "english": "style",
+  "pos": "noun",
+  "level": 4,
+  "romanization": "usluub",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
  }
 ]

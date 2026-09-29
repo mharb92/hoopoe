@@ -725,9 +725,11 @@
   "pos": "particle",
   "level": 1,
   "romanization": "ma",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 58,
@@ -1161,11 +1163,12 @@
   "pos": "noun",
   "level": 1,
   "romanization": "tmaanye",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -2295,10 +2298,11 @@
   "pos": "noun",
   "level": 2,
   "romanization": "shita",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "vocalised M",
+   "vocalised has non-Arabic characters",
    "correction meaning M: winter; also rain (dialect)"
   ]
  },
@@ -2606,7 +2610,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -2852,9 +2857,11 @@
   "pos": "formula",
   "level": 2,
   "romanization": "ma 3indi wa't",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 221,
@@ -2888,9 +2895,11 @@
   "pos": "adverb",
   "level": 2,
   "romanization": "bisur3a",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 224,
@@ -3121,10 +3130,11 @@
   "pos": "adjective",
   "level": 1,
   "romanization": "mnii7a",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "romanization M"
+   "romanization M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -3325,10 +3335,11 @@
   "pos": "formula",
   "level": 1,
   "romanization": "bshuufak ba3deen",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -3543,11 +3554,12 @@
   "pos": "formula",
   "level": 1,
   "romanization": "ma3lish",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -3738,7 +3750,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -4325,9 +4338,11 @@
   "pos": "adverb",
   "level": 2,
   "romanization": "bil-'aakhir",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 335,
@@ -4452,10 +4467,11 @@
   "pos": "adverb",
   "level": 3,
   "romanization": "gheer heek",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -4826,6 +4842,7 @@
    "romanization M",
    "vocalised L",
    "native_check",
+   "vocalised has non-Arabic characters",
    "correction harakaat M: بْتِعْرَف"
   ]
  },
@@ -4916,9 +4933,11 @@
   "pos": "interjection",
   "level": 2,
   "romanization": "isma3i",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 381,
@@ -5659,7 +5678,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -6193,11 +6213,12 @@
   "pos": "noun",
   "level": 2,
   "romanization": "waa7ad w 3ishriin",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -6344,9 +6365,11 @@
   "pos": "adverb",
   "level": 2,
   "romanization": "aakhir marra",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 491,
@@ -8016,12 +8039,13 @@
   "pos": "verb",
   "level": 2,
   "romanization": "farrash",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
    "native_check",
+   "vocalised has non-Arabic characters",
    "correction harakaat M: فَرَّش"
   ]
  },
@@ -8948,9 +8972,10 @@
   "pos": "verb",
   "level": 2,
   "romanization": "Daa3",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
+   "vocalised has non-Arabic characters",
    "correction conjugation M: بيضيع (biDii3) = he gets lost"
   ]
  },
@@ -9486,9 +9511,11 @@
   "pos": "verb",
   "level": 2,
   "romanization": "3arraf",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 735,
@@ -10850,11 +10877,12 @@
   "pos": "noun",
   "level": 1,
   "romanization": "waa7ad",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -11379,11 +11407,12 @@
   "pos": "noun",
   "level": 4,
   "romanization": "rimish",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -12723,9 +12752,11 @@
   "pos": "adjective",
   "level": 2,
   "romanization": "mitzawwij",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 985,
@@ -13502,9 +13533,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "mishmish",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1045,
@@ -14428,10 +14461,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "miraaye",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -14648,9 +14682,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "marwa7a",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1132,
@@ -14757,7 +14793,8 @@
   "mvp": 1,
   "held_on": [
    "romanization M",
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -15021,10 +15058,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "jeebe",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -15137,9 +15175,11 @@
   "pos": "adjective",
   "level": 2,
   "romanization": "wardi",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1169,
@@ -15161,9 +15201,11 @@
   "pos": "adjective",
   "level": 2,
   "romanization": "ramaadi",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1171,
@@ -16036,9 +16078,11 @@
   "pos": "noun",
   "level": 4,
   "romanization": "7abl ghasiil",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1236,
@@ -17284,7 +17328,8 @@
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -17494,9 +17539,11 @@
   "pos": "noun",
   "level": 4,
   "romanization": "barad",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1347,
@@ -17859,9 +17906,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "birke",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1374,
@@ -18106,10 +18155,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "naamuuse",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -18663,10 +18713,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "il-madiine il-'adiime",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -18956,12 +19007,13 @@
   "pos": "noun",
   "level": 3,
   "romanization": "7aqq il-3awde",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
    "native_check",
+   "vocalised has non-Arabic characters",
    "correction romanization L: 7aqq il-3awde"
   ]
  },
@@ -19686,9 +19738,11 @@
   "pos": "adjective",
   "level": 2,
   "romanization": "Sa7ii7",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1515,
@@ -19830,9 +19884,11 @@
   "pos": "adjective",
   "level": 2,
   "romanization": "majjaani",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1527,
@@ -20557,9 +20613,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "3askari",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1585,
@@ -20813,11 +20871,12 @@
   "pos": "noun",
   "level": 4,
   "romanization": "alif baa",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -21039,9 +21098,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "imaam",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1624,
@@ -21567,11 +21628,12 @@
   "pos": "noun",
   "level": 4,
   "romanization": "siira dhaatiyye",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -22122,10 +22184,11 @@
   "pos": "noun",
   "level": 2,
   "romanization": "nuSS kiilo",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -22373,11 +22436,12 @@
   "pos": "noun",
   "level": 3,
   "romanization": "taablit",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -22612,7 +22676,8 @@
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -22623,11 +22688,12 @@
   "pos": "noun",
   "level": 4,
   "romanization": "brintar",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23170,10 +23236,11 @@
   "pos": "formula",
   "level": 3,
   "romanization": "biddi a7jiz Taawle",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23199,7 +23266,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23341,10 +23409,11 @@
   "pos": "formula",
   "level": 2,
   "romanization": "ma ba'dar anaam",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23442,9 +23511,11 @@
   "pos": "formula",
   "level": 1,
   "romanization": "biddak kamaan",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1802,
@@ -23519,10 +23590,11 @@
   "pos": "frame",
   "level": 2,
   "romanization": "il-beet ktiir 7ilu",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23925,7 +23997,8 @@
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23965,10 +24038,11 @@
   "pos": "verb",
   "level": 3,
   "romanization": "insara't",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -23979,11 +24053,12 @@
   "pos": "formula",
   "level": 2,
   "romanization": "Daa3 talafooni",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -24143,7 +24218,8 @@
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -24688,7 +24764,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -25244,10 +25321,11 @@
   "pos": "frame",
   "level": 2,
   "romanization": "7akatli innu",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -25444,9 +25522,11 @@
   "pos": "frame",
   "level": 2,
   "romanization": "3indu mashaakil",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1955,
@@ -25456,9 +25536,11 @@
   "pos": "frame",
   "level": 3,
   "romanization": "ili Saa7ib",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1956,
@@ -25625,7 +25707,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -25735,9 +25818,11 @@
   "pos": "formula",
   "level": 3,
   "romanization": "ra7 tindam",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 1978,
@@ -25788,11 +25873,12 @@
   "pos": "frame",
   "level": 3,
   "romanization": "lamma kunt Sghiir",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -25827,10 +25913,11 @@
   "pos": "formula",
   "level": 2,
   "romanization": "bti3raf leesh",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -26126,10 +26213,11 @@
   "pos": "frame",
   "level": 3,
   "romanization": "illi Saar innu",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -27275,9 +27363,11 @@
   "pos": "formula",
   "level": 3,
   "romanization": "illi faat maat",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 2094,
@@ -27522,11 +27612,12 @@
   "pos": "formula",
   "level": 4,
   "romanization": "allaah yir7am ayyaamu",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
+   "vocalised has non-Arabic characters",
    "correction harakaat M: اللَّه يِرْحَم أَيَّامُو"
   ]
  },
@@ -27588,9 +27679,11 @@
   "pos": "formula",
   "level": 3,
   "romanization": "bala maSkhara",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 2117,
@@ -27624,10 +27717,11 @@
   "pos": "frame",
   "level": 3,
   "romanization": "allaah yil3an abu",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "romanization M"
+   "romanization M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -28020,7 +28114,8 @@
   "held_on": [
    "romanization M",
    "vocalised L",
-   "native_check"
+   "native_check",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -28047,10 +28142,11 @@
   "pos": "adverb",
   "level": 4,
   "romanization": "min ta7t lata7t",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -29005,9 +29101,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "sharaf",
-  "confidence": 3,
+  "confidence": 1,
   "mvp": 0,
-  "held_on": []
+  "held_on": [
+   "vocalised has non-Arabic characters"
+  ]
  },
  {
   "id": 2226,
@@ -29631,11 +29729,12 @@
   "pos": "formula",
   "level": 3,
   "romanization": "il-khaTT bi'Ta3",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -29898,10 +29997,11 @@
   "pos": "formula",
   "level": 3,
   "romanization": "rasabt bil-imti7aan",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -30208,9 +30308,10 @@
   "pos": "verb",
   "level": 2,
   "romanization": "baddal",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
+   "vocalised has non-Arabic characters",
    "correction conjugation M: ببدّل (babaddil) = I change"
   ]
  },
@@ -30670,7 +30771,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -31928,10 +32030,11 @@
   "pos": "noun",
   "level": 3,
   "romanization": "nafsiyye",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -32267,10 +32370,11 @@
   "pos": "adverb",
   "level": 3,
   "romanization": "min halla' la'uddaam",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -32624,12 +32728,13 @@
   "pos": "formula",
   "level": 4,
   "romanization": "khalla il-'umuur timshi",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
    "native_check",
+   "vocalised has non-Arabic characters",
    "correction harakaat L: خَلِّي"
   ]
  },
@@ -32668,7 +32773,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -32814,7 +32920,8 @@
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -32851,10 +32958,11 @@
   "pos": "formula",
   "level": 3,
   "romanization": "mish 'iSSiti",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -33227,11 +33335,12 @@
   "pos": "frame",
   "level": 3,
   "romanization": "mumkin asta3iir minnak",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -33517,10 +33626,11 @@
   "pos": "formula",
   "level": 2,
   "romanization": "keef ish-shughul ma3ak",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -33546,7 +33656,8 @@
   "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised L"
+   "vocalised L",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -33722,10 +33833,11 @@
   "pos": "frame",
   "level": 3,
   "romanization": "mahma 3milt",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -34064,11 +34176,12 @@
   "pos": "frame",
   "level": 3,
   "romanization": "Til3it a7san mimma twa''a3t",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -34132,10 +34245,11 @@
   "pos": "frame",
   "level": 3,
   "romanization": "mish bass heek kamaan",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -34170,12 +34284,13 @@
   "pos": "frame",
   "level": 2,
   "romanization": "ya3ni bti'Sid",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
    "native_check",
+   "vocalised has non-Arabic characters",
    "correction harakaat M: يَعْنِي بْتِقْصِد..."
   ]
  },
@@ -35687,12 +35802,13 @@
   "pos": "formula",
   "level": 1,
   "romanization": "ana min falasTiin",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
    "vocalised M",
-   "native_check"
+   "native_check",
+   "vocalised has non-Arabic characters"
   ]
  },
  {
@@ -35703,11 +35819,12 @@
   "pos": "formula",
   "level": 1,
   "romanization": "ana filasTiini",
-  "confidence": 2,
+  "confidence": 1,
   "mvp": 0,
   "held_on": [
    "romanization M",
-   "vocalised M"
+   "vocalised M",
+   "vocalised has non-Arabic characters"
   ]
  },
  {

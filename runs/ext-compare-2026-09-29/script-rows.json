@@ -987,9 +987,11 @@
    "pos": "noun",
    "level": 3,
    "romanization": "mishmish",
-   "confidence": 3,
+   "confidence": 1,
    "mvp": 0,
-   "held_on": []
+   "held_on": [
+    "vocalised has non-Arabic characters"
+   ]
   },
   "pos_gap": false,
   "category": "meaning_mismatch",
@@ -5810,9 +5812,11 @@
    "pos": "adverb",
    "level": 2,
    "romanization": "bil-'aakhir",
-   "confidence": 3,
+   "confidence": 1,
    "mvp": 0,
-   "held_on": []
+   "held_on": [
+    "vocalised has non-Arabic characters"
+   ]
   },
   "category": "different_word",
   "tier": null,
@@ -6757,11 +6761,12 @@
    "pos": "noun",
    "level": 4,
    "romanization": "rimish",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
     "romanization M",
-    "vocalised M"
+    "vocalised M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -7164,10 +7169,11 @@
    "pos": "adjective",
    "level": 1,
    "romanization": "mnii7a",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
-    "romanization M"
+    "romanization M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -7313,11 +7319,12 @@
    "pos": "noun",
    "level": 1,
    "romanization": "waa7ad",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
     "romanization M",
-    "vocalised M"
+    "vocalised M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -11660,10 +11667,11 @@
    "pos": "noun",
    "level": 3,
    "romanization": "naamuuse",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
-    "vocalised M"
+    "vocalised M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -12552,10 +12560,11 @@
    "pos": "noun",
    "level": 3,
    "romanization": "jeebe",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
-    "vocalised M"
+    "vocalised M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -16130,11 +16139,12 @@
    "pos": "noun",
    "level": 1,
    "romanization": "tmaanye",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
     "romanization M",
-    "vocalised M"
+    "vocalised M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -20770,11 +20780,12 @@
    "pos": "formula",
    "level": 1,
    "romanization": "ma3lish",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
     "romanization M",
-    "vocalised M"
+    "vocalised M",
+    "vocalised has non-Arabic characters"
    ]
   },
   "category": "different_word",
@@ -24112,9 +24123,11 @@
    "pos": "adjective",
    "level": 2,
    "romanization": "wardi",
-   "confidence": 3,
+   "confidence": 1,
    "mvp": 0,
-   "held_on": []
+   "held_on": [
+    "vocalised has non-Arabic characters"
+   ]
   },
   "category": "different_word",
   "tier": null,
@@ -32130,10 +32143,11 @@
    "pos": "noun",
    "level": 2,
    "romanization": "shita",
-   "confidence": 2,
+   "confidence": 1,
    "mvp": 0,
    "held_on": [
     "vocalised M",
+    "vocalised has non-Arabic characters",
     "correction meaning M: winter; also rain (dialect)"
    ]
   },

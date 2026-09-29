@@ -13,6 +13,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { parseCsv, toCsv } from './essentials.mjs';
 import { routeRow, cappingCorrections } from './route.mjs';
+import { checkArabicScript } from './validate.mjs';
 import { categorise, isExported, MODEL_CATEGORIES, americanise } from './external-match.mjs';
 
 export const SOURCE_CSV = 'docs/dr/external/levantine-dictionary.csv';
@@ -80,6 +81,7 @@ async function snapshot(runId) {
         ...(m.romanization?.conf !== 'H' ? [`romanization ${m.romanization?.conf}`] : []),
         ...(m.arabic_vocalised?.conf !== 'H' ? [`vocalised ${m.arabic_vocalised?.conf}`] : []),
         ...(m.native_check ? ['native_check'] : []),
+        ...(checkArabicScript(m.arabic_vocalised?.value ?? '') ? ['vocalised has non-Arabic characters'] : []),
         ...cappingCorrections(m.corrections).map((c) => `correction ${c.type} ${c.conf}: ${c.suggested ?? ''}`.trim()),
       ],
     };

@@ -22,3 +22,5 @@
 2026-09-29T20:14:28.847Z batch 21/22 only_theirs (low): 60 rows, 0 repaired, $0.1300, total $3.2573
 2026-09-29T20:14:35.630Z batch 22/22 only_theirs (low): 6 rows, 0 repaired, $0.0533, total $3.3106
 2026-09-29T20:14:35.773Z done: 1165 judged, $3.3106
+2026-09-29T20:16:41.503Z start: 0 batches, 1165 rows already judged, $3.3106 spent, cap $15
+2026-09-29T20:16:41.671Z done: 1165 judged, $3.3106

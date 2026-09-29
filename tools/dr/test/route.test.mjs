@@ -34,7 +34,7 @@ test('D276: level and enum confidence are recorded but neither score nor hold th
 
 test('an M on romanization or arabic_vocalised holds the row at 2', () => {
   for (const row of [goodRow({ romanization: { value: 'x', conf: 'M', changed: false } }),
-    goodRow({ arabic_vocalised: { value: 'x', conf: 'M' } })]) {
+    goodRow({ arabic_vocalised: { value: 'مَبْرُوك', conf: 'M' } })]) {
     const { status, review_confidence } = routeRow(row);
     assert.equal(status, 'held');
     assert.equal(review_confidence, 2);
@@ -42,7 +42,7 @@ test('an M on romanization or arabic_vocalised holds the row at 2', () => {
 });
 
 test('an L on a pronunciation field scores 1, regardless of other signals', () => {
-  const row = goodRow({ arabic_vocalised: { value: 'x', conf: 'L' }, native_check: true });
+  const row = goodRow({ arabic_vocalised: { value: 'مَبْرُوك', conf: 'L' }, native_check: true });
   const { status, review_confidence } = routeRow(row);
   assert.equal(status, 'held');
   assert.equal(review_confidence, 1);
@@ -74,4 +74,11 @@ test('notes, pos, tag, duplicate and gap never cap, at any confidence', () => {
   for (const type of ['notes', 'pos', 'tag', 'duplicate', 'gap']) {
     assert.equal(routeRow(goodRow({ corrections: corr(type, 'L') })).review_confidence, 3, type);
   }
+});
+
+test('a non-Arabic character in arabic_vocalised scores 1 (chat 31: Hebrew niqqud in staged rows)', () => {
+  const { status, review_confidence } = routeRow(goodRow({ arabic_vocalised: { value: 'מִשְמִש', conf: 'H' } }));
+  assert.equal(review_confidence, 1);
+  assert.equal(status, 'held');
+  assert.equal(routeRow(goodRow({ arabic_vocalised: { value: 'بِدَّك كَمَان؟', conf: 'H' } })).review_confidence, 3);
 });

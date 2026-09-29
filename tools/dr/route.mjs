@@ -7,6 +7,8 @@
 // `level_conf` and `enum_conf` are still recorded in `routing`, but no longer
 // score or hold a row. Row status follows the score: only a 3 is `auto`.
 
+import { checkArabicScript } from './validate.mjs';
+
 // Pronunciation fields: the only field confidences that score a row (D276).
 const SCORED_FIELDS = ['romanization', 'arabic_vocalised'];
 
@@ -52,7 +54,9 @@ export function routeRow(obj) {
 
   const scoredConfs = SCORED_FIELDS.map((f) => fieldConf[f]);
   let review_confidence;
-  if (scoredConfs.includes('L')) {
+  // Staged rows predate validate.mjs's script check, and promotion re-derives
+  // from them, so a non-Arabic vocalised value scores 1 here as well.
+  if (scoredConfs.includes('L') || (typeof obj.arabic_vocalised?.value === 'string' && checkArabicScript(obj.arabic_vocalised.value) !== null)) {
     review_confidence = 1;
   } else if (scoredConfs.includes('M') || obj.native_check === true || hasCappingCorrection(obj.corrections)) {
     review_confidence = 2;

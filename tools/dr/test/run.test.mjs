@@ -12,7 +12,7 @@ import { WRITE_TABLE, SupabaseError } from '../db.mjs';
 
 function sourceRows(n) {
   return Array.from({ length: n }, (_, i) => ({
-    id: i + 1, arabic: `كلمة${i}`, romanization: 'maktoob', english: `word ${i}`,
+    id: i + 1, arabic: `كلمة${String(i).replace(/\d/g, (d) => String.fromCharCode(0x0660 + Number(d)))}`, romanization: 'maktoob', english: `word ${i}`,
     pos: i % 4 === 0 ? 'Verb' : 'Noun', category: i % 2 ? 'Verbs' : 'Nouns',
     root: null, conjugation: null, gender: null, dialect_tag: 'D', notes: null, confidence: 5,
   }));

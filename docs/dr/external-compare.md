@@ -34,6 +34,7 @@ Compares our `dictionary` against a Levantine dictionary, to check our data's ac
 
 ## 4. Script (no model, no cost)
 ### 4.1 Letter match
+Their bound morphemes (entries written with tatweel or `...`, e.g. `... ـــكُم`) are not lexemes and are skipped, with a count in the summary.
 Each unique pair of theirs is matched against ours at the lowest tier that hits. If a match hits several of our ids (homographs), the gloss check (4.2) picks the one whose gloss agrees; if none or several agree, all are kept, one output row each.
 
 ### 4.2 Gloss check
@@ -44,6 +45,7 @@ Both glosses are normalised: lowercase; drop a leading `to `, parentheticals and
 The two words are aligned letter by letter on the T1 skeleton; for a T3 match, on the part after the article. For each letter, a mark set is read on each side: shadda, plus one of fatha, damma, kasra, sukun, or the tanween marks.
 - **Only letters marked on both sides are compared.** A missing mark is not a difference, since about half the source is lightly vocalised: فطور and شوربة carry none.
 - Sukun against no mark is ignored.
+- On a T3 match, the shadda a sun letter takes after the article (الثّامن) belongs to the article, so it is dropped before comparing.
 - Shadda present on one side against a vowel without shadda on the other *is* a difference, because gemination is phonemic.
 - Any compared difference makes the row `harakaat_variant`, and each one is written out, e.g. `letter 1: ours i, theirs a (عِمِل / عَمَل)`.
 

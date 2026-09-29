@@ -1,5 +1,5 @@
 {
- "usd": 0.6789688,
+ "usd": 0.8358392,
  "verdicts": {
   "r2": {
    "v": "keep_ours",
@@ -662,6 +662,306 @@
   },
   "r583": {
    "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r584": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r587": {
+   "v": "same_sense",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r588": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r589": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r590": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r591": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r595": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r605": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r636": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r655": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "H"
+  },
+  "r662": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r668": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r669": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r677": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r682": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r693": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r701": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r702": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r727": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r728": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r729": {
+   "v": "keep_ours",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r731": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r732": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r733": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r734": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r735": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r736": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r737": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r740": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r742": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r748": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r750": {
+   "v": "same_sense",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r756": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r763": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r768": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r769": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r780": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r781": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r782": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r783": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r789": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r790": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "M"
+  },
+  "r795": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r800": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r819": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r823": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r824": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "M"
+  },
+  "r825": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r826": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r827": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r846": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r847": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r850": {
+   "v": "keep_ours",
+   "d": "unsure",
+   "c": "M"
+  },
+  "r854": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r856": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r857": {
+   "v": "same_sense",
+   "d": "lev_other",
+   "c": "M"
+  },
+  "r858": {
+   "v": "same_sense",
+   "d": "pal",
+   "c": "H"
+  },
+  "r865": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r866": {
+   "v": "keep_ours",
+   "d": "pal",
+   "c": "H"
+  },
+  "r868": {
+   "v": "same_sense",
    "d": "pal",
    "c": "H"
   }

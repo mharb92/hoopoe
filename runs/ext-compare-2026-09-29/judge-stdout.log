@@ -1,0 +1,24 @@
+2026-09-29T20:05:06.161Z start: 22 batches, 0 rows already judged, $0.0000 spent, cap $15
+2026-09-29T20:06:04.277Z batch 1/22 harakaat_variant (medium): 60 rows, 0 repaired, $0.4198, total $0.4198
+2026-09-29T20:06:23.219Z batch 2/22 harakaat_variant (medium): 12 rows, 0 repaired, $0.0874, total $0.5072
+2026-09-29T20:06:51.562Z batch 3/22 meaning_mismatch (low): 60 rows, 0 repaired, $0.1718, total $0.6790
+2026-09-29T20:07:14.213Z batch 4/22 meaning_mismatch (low): 60 rows, 0 repaired, $0.1569, total $0.8358
+2026-09-29T20:07:37.103Z batch 5/22 meaning_mismatch (low): 59 rows, 0 repaired, $0.1615, total $0.9974
+2026-09-29T20:08:03.604Z batch 6/22 different_word (low): 60 rows, 0 repaired, $0.1654, total $1.1628
+2026-09-29T20:08:36.175Z batch 7/22 different_word (low): 60 rows, 0 repaired, $0.1798, total $1.3426
+2026-09-29T20:09:08.112Z batch 8/22 different_word (low): 60 rows, 0 repaired, $0.1764, total $1.5189
+2026-09-29T20:09:29.920Z batch 9/22 different_word (low): 60 rows, 0 repaired, $0.1542, total $1.6731
+2026-09-29T20:09:36.296Z batch 10/22 different_word (low): 8 rows, 0 repaired, $0.0602, total $1.7333
+2026-09-29T20:10:06.573Z batch 11/22 only_theirs (low): 60 rows, 0 repaired, $0.1447, total $1.8781
+2026-09-29T20:10:30.490Z batch 12/22 only_theirs (low): 60 rows, 0 repaired, $0.1339, total $2.0120
+2026-09-29T20:10:55.245Z batch 13/22 only_theirs (low): 60 rows, 0 repaired, $0.1318, total $2.1438
+2026-09-29T20:11:27.775Z batch 14/22 only_theirs (low): 60 rows, 0 repaired, $0.1463, total $2.2902
+2026-09-29T20:11:58.715Z batch 15/22 only_theirs (low): 60 rows, 0 repaired, $0.1475, total $2.4377
+2026-09-29T20:12:25.674Z batch 16/22 only_theirs (low): 60 rows, 0 repaired, $0.1425, total $2.5802
+2026-09-29T20:12:52.853Z batch 17/22 only_theirs (low): 60 rows, 0 repaired, $0.1411, total $2.7213
+2026-09-29T20:13:21.942Z batch 18/22 only_theirs (low): 60 rows, 0 repaired, $0.1459, total $2.8671
+2026-09-29T20:13:48.947Z batch 19/22 only_theirs (low): 60 rows, 0 repaired, $0.1398, total $3.0069
+2026-09-29T20:14:06.511Z batch 20/22 only_theirs (low): 60 rows, 0 repaired, $0.1203, total $3.1273
+2026-09-29T20:14:28.847Z batch 21/22 only_theirs (low): 60 rows, 0 repaired, $0.1300, total $3.2573
+2026-09-29T20:14:35.630Z batch 22/22 only_theirs (low): 6 rows, 0 repaired, $0.0533, total $3.3106
+2026-09-29T20:14:35.773Z done: 1165 judged, $3.3106

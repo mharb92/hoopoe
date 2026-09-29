@@ -54,6 +54,18 @@ export function checkCharset(value) {
   return null;
 }
 
+// `arabic_vocalised` must be Arabic script. Chat 31 found 91 rows of
+// dr-finalize-2026-09-27 carrying Hebrew letters and niqqud (מִשְמִש for مشمش),
+// 26 of them scored 3: nothing checked this field's script until now.
+const ARABIC_SCRIPT_CHAR = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF .()?!…-]/u;
+
+/** Returns null when every character is Arabic script or allowed punctuation, else the first offender. */
+export function checkArabicScript(value) {
+  if (typeof value !== 'string' || value.length === 0) return '(empty)';
+  for (const ch of value) if (!ARABIC_SCRIPT_CHAR.test(ch)) return ch;
+  return null;
+}
+
 export function validateRow(obj, expectedId) {
   const errors = [];
 
@@ -92,6 +104,9 @@ export function validateRow(obj, expectedId) {
   const vocalised = obj.arabic_vocalised;
   if (!vocalised || typeof vocalised !== 'object' || !isNonEmptyString(vocalised.value) || !isConf(vocalised.conf)) {
     errors.push('arabic_vocalised: must be {value, conf}');
+  } else {
+    const bad = checkArabicScript(vocalised.value);
+    if (bad) errors.push(`arabic_vocalised.value: non-Arabic character ${JSON.stringify(bad)} in "${vocalised.value}"`);
   }
 
   if (typeof obj.native_check !== 'boolean') errors.push('native_check: missing or not a boolean');

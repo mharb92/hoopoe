@@ -1,0 +1,1911 @@
+our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
+60,Y,3,عَم,(progressive marker),particle,2
+69,Y,3,خَلَص,enough / done / that's it,interjection,1
+83,Y,2,وَحْدِة,"one (1, f.)",noun,1
+105,Y,3,أَرْبَعِين,forty (40),noun,1
+106,Y,3,خَمْسِين,fifty (50),noun,2
+107,Y,3,سِتِّين,sixty (60),noun,2
+108,Y,3,سَبْعِين,seventy (70),noun,2
+110,Y,3,تِسْعِين,ninety (90),noun,2
+111,Y,3,مِيَّة,one hundred (100),noun,2
+113,Y,3,أَلْف,one thousand (1000),noun,2
+147,Y,2,قَبْل شْوَيّ,a little while ago,adverb,2
+159,Y,2,يَوْم التَّلَاتَة,Tuesday,noun,2
+205,Y,3,بَعْد شْوَيّ,in a little while,adverb,2
+214,Y,2,آخِر الأُسْبُوع,weekend,noun,3
+215,Y,2,عُطْلَة,holiday / vacation / day off,noun,2
+230,Y,2,السَّلَامُ عَلَيْكُم,peace be upon you (hello),formula,1
+234,Y,3,أَهْلَا وْسَهْلَا,welcome,formula,1
+235,Y,3,أَهْلَا فِيك,welcome to you (to m.),formula,1
+245,Y,2,صَبَاح الخِير,good morning,formula,1
+246,Y,3,صَبَاح النُّور,good morning (reply),formula,1
+247,Y,2,مَسَا الخَيْر,good evening,formula,1
+248,Y,2,مَسَا النُّور,good evening (reply),formula,1
+249,Y,2,تِصْبَح عَلَى خِير,good night (to m.),formula,1
+252,Y,2,مَعْ السَّلَامِة,goodbye (to the one leaving),formula,1
+253,Y,2,اللَّه مَعَك,God be with you / bye (to m.),formula,1
+267,Y,3,عَفْوًا,you're welcome / excuse me,formula,1
+268,Y,3,لَوْ سَمَحْت,please / excuse me (to m.),formula,1
+284,Y,3,مَبْرُوك,congratulations,formula,1
+366,Y,3,طَبْعًا,of course / naturally,adverb,1
+367,Y,3,أَكِيد,sure / definitely / of course,adverb,1
+385,Y,2,أَخ,ouch / ugh,interjection,2
+425,Y,3,مِن وَيْن إِنْتَ؟,where are you from? (to m.),formula,1
+427,Y,3,شُو اِسْمَك؟,what's your name? (to m.),formula,1
+431,Y,3,تْشَرَّفْنَا,pleased to meet you,formula,1
+440,Y,2,دِير بَالَك,take care / be careful (to m.),formula,2
+457,Y,3,عِيد مُبَارَك,blessed Eid / happy Eid,formula,2
+459,Y,3,شْوَيّ شْوَيّ,little by little / slowly,adverb,2
+474,Y,3,بِالكَاد,barely / hardly,adverb,4
+484,Y,2,أَلْفَيْن,two thousand (2000),noun,2
+486,Y,2,رَقَم,number (formal),noun,2
+500,Y,3,كَان,was / to be (past),verb,1
+501,Y,3,صَار,became / happened,verb,1
+503,Y,3,حَكَى,spoke / said / told,verb,1
+504,Y,3,قَال,said,verb,1
+505,Y,3,عِرِف,knew,verb,1
+506,Y,3,شَاف,saw / watched,verb,1
+507,Y,2,أَخَد,took,verb,1
+508,Y,2,أَعْطَى,gave,verb,1
+510,Y,3,حَطّ,put / placed,verb,1
+511,Y,3,فَتَح,opened,verb,2
+512,Y,3,سَكَّر,closed / locked,verb,2
+514,Y,3,بَلَّش,started / began,verb,2
+516,Y,3,خَلَّى,let / left / made (someone do),verb,2
+517,Y,3,لَاقَى,found,verb,2
+518,Y,2,جَاب,brought,verb,1
+521,Y,2,قِدِر,was able to / could,verb,1
+522,Y,3,نِسِي,forgot,verb,2
+523,Y,2,اِتْذَكَّر,remembered,verb,2
+524,Y,3,رَدّ,replied / returned (something),verb,2
+526,Y,3,جَرَّب,tried / tested,verb,2
+527,Y,3,حَاوَل,tried / attempted,verb,2
+528,Y,3,اِتَّصَل,called (phone),verb,2
+531,Y,2,مِشِي,walked,verb,2
+535,Y,3,وِصِل,arrived,verb,1
+537,Y,3,لَفّ,turned / went around,verb,2
+538,Y,3,وَقَف,stopped / stood,verb,2
+539,Y,3,قَعَد,sat down,verb,1
+548,Y,3,فَات,entered / passed (time),verb,1
+549,Y,2,سَأَل,asked,verb,2
+550,Y,3,جَاوَب,answered,verb,2
+551,Y,3,خَبَّر,told / informed,verb,2
+553,Y,3,شَرَح,explained (in detail),verb,3
+554,Y,3,وَعَد,promised,verb,3
+555,Y,2,كَذَب,lied,verb,2
+559,Y,2,اِعْتَذَر,apologized,verb,3
+562,Y,3,سِمِع,heard,verb,2
+564,Y,3,صَدَّق,believed,verb,2
+565,Y,3,فَكَّر,thought,verb,2
+566,Y,3,فِهِم,understood,verb,1
+570,Y,3,اِكْتَشَف,discovered,verb,3
+576,Y,3,احْتَاج,needed,verb,2
+577,Y,3,تْمَنَّى,wished / hoped,verb,2
+592,Y,3,زَار,visited,verb,2
+593,Y,3,عَزَم,invited (to a meal/gathering),verb,2
+602,Y,3,سَاعَد,helped,verb,2
+603,Y,2,نِجِح,succeeded / passed (exam),verb,2
+605,Y,3,وَافَق,agreed,verb,2
+609,Y,3,مَنَع,prevented / forbade,verb,3
+620,Y,3,حَلَق,shaved,verb,3
+627,Y,2,صَلَّى,prayed,verb,3
+634,Y,3,بَرَّد,cooled down,verb,3
+638,Y,3,حَمَّص,toasted / roasted (nuts/chickpeas),verb,4
+648,Y,2,شَغَّل,turned on (device/machine),verb,2
+649,Y,3,طَفَّى,turned off,verb,2
+650,Y,2,صَلَّح,fixed / repaired,verb,3
+651,Y,3,كَسَر,broke,verb,2
+652,Y,3,خَرَّب,ruined / broke (something),verb,3
+653,Y,3,رَنّ,rang (phone) / called,verb,2
+655,Y,3,رَفَع,uploaded,verb,3
+657,Y,3,صَوَّر,photographed / filmed,verb,2
+669,Y,2,وَجَع,hurt / ached,verb,2
+671,Y,2,تْحَسَّن,improved / got better,verb,3
+680,Y,2,رَمَى,threw,verb,2
+681,Y,2,سَحَب,pulled,verb,3
+685,Y,2,رَبَط,tied,verb,3
+691,Y,3,مَسَك,held / grabbed / caught,verb,2
+695,Y,3,وِقِع,fell,verb,2
+707,Y,2,شَكَر,thanked,verb,2
+708,Y,3,تَرْجَم,translated,verb,3
+709,Y,3,عَاد,returned / did again,verb,3
+714,Y,3,ضِحِك,laughed,verb,2
+722,Y,3,تْأَخَّر,was late / got delayed,verb,2
+726,Y,3,حَضَّر,prepared,verb,2
+777,Y,3,كِيف حَالَك؟,"how are you? (formal, to m.)",formula,1
+799,Y,3,أَبُو,father,noun,1
+832,Y,3,طِفِل,child / baby,noun,2
+884,Y,3,مَرِيض,sick / ill,adjective,2
+889,Y,3,دَوَا,medicine / medication,noun,2
+908,Y,3,إِسْعَاف,ambulance / first aid,noun,3
+952,Y,3,لَطِيف,nice / kind / cute,adjective,2
+980,Y,3,قَدَّيْش عُمْرَك؟,how old are you? (to m.),formula,2
+1011,Y,3,فَلَافِل,falafel,noun,2
+1013,Y,3,مْسَخَّن,musakhan (roasted chicken on bread),noun,2
+1014,Y,3,مَقْلُوبَة,maqlubeh (upside-down rice dish),noun,3
+1015,Y,3,مَنْسَف,mansaf (lamb and yogurt dish),noun,3
+1016,Y,3,وَرَق دَوَالِي,stuffed grape leaves,noun,3
+1020,Y,2,مْتَبَّل,mutabbal (eggplant dip),noun,3
+1021,Y,2,تَبُّولِة,tabbouleh,noun,3
+1065,Y,2,وَجْبِة,meal,noun,3
+1070,Y,2,شُوكَة,fork,noun,2
+1071,Y,2,سِكِّينِة,knife,noun,2
+1092,Y,3,أُوضَة,room,noun,2
+1104,Y,2,قُفِل,lock,noun,3
+1107,Y,3,بَطَّانِيَّة,blanket,noun,3
+1133,Y,3,كِيس,bag / plastic bag,noun,2
+1135,Y,2,مَنْشَفِة,towel,noun,2
+1188,Y,2,كِبْرِيت,matches,noun,3
+1208,Y,3,حَرَامِي,thief,noun,3
+1220,Y,3,مَدْخَل,entrance,noun,3
+1236,Y,3,غَسِيل,laundry,noun,3
+1251,Y,2,دُكَّانِة,shop / small store,noun,2
+1276,Y,3,مُخَيَّم,refugee camp,noun,2
+1281,Y,2,مَحْكَمِة,court (legal),noun,3
+1284,Y,1,مَوْقِف,parking lot / bus stop,noun,2
+1295,Y,2,تَذْكَرَة,ticket,noun,2
+1297,Y,2,بَنْزِين,gasoline / petrol,noun,3
+1301,Y,1,أُوتُوسْتْرَاد,highway,noun,4
+1303,Y,1,حَادِث,accident,noun,3
+1308,Y,3,يَمِين,right (direction),noun,1
+1309,Y,3,شْمَال,left (direction),noun,1
+1317,Y,2,وِين الـ...؟,Where is the...?,frame,1
+1321,Y,2,عَ الزَّاوْيِة,on the corner,adverb,2
+1329,Y,3,ضَايِع,"lost (person, m.)",adjective,2
+1334,Y,3,نَزِّلْنِي هُون,Drop me off here,formula,2
+1349,Y,3,ضَبَاب,fog,noun,3
+1353,Y,2,كِيف الجَوّ؟,How's the weather?,formula,2
+1371,Y,2,سَهِل,plain / flat land,noun,4
+1411,Y,2,دَرَجِة,degree (temperature),noun,3
+1448,Y,2,البَحِر المَيِّت,the Dead Sea,noun,3
+1497,Y,3,مَفْتُوح,open,adjective,2
+1498,Y,3,مْسَكَّر,closed / locked,adjective,2
+1536,Y,3,أَقَلّ,less / least,adjective,2
+1541,Y,3,أَبْعَد,farther / farthest,adjective,3
+1570,Y,3,خَبَّاز,baker,noun,4
+1620,Y,3,حَلَال,permissible / halal,adjective,3
+1671,Y,2,هَوِيِّة,identity / ID card,noun,2
+1693,Y,2,خَصِم,discount,noun,3
+1701,Y,2,كِيلُو,kilogram,noun,2
+1723,Y,1,إِنْتَرْنِت,internet,noun,2
+1728,Y,2,إِيمِيل,email,noun,3
+1736,Y,3,بَطَّارِيَّة,battery,noun,2
+1809,Y,2,شُو بْتِشْتَغِل؟,What do you do for work? (to m.),formula,2
+1846,Y,2,بِالتَّوْفِيق,good luck,formula,2
+1867,Y,2,مِنْيُو,menu,noun,2
+1871,Y,2,سِعْر الصَّرْف,exchange rate,noun,3
+1879,Y,3,شُو بِدَّك؟,What do you want? (to m.),frame,1
+2110,Y,3,شُو بِدَّك تِعْمَل,What can you do (= nothing to be done),formula,2
+2181,Y,3,مَتَى,when (MSA/formal),adverb,2
+2196,Y,3,حَلّ,solution,noun,3
+2234,Y,3,ضَرَر,harm / damage,noun,4
+2267,Y,3,عِيد مِيلاد سَعِيد,Happy birthday,formula,2
+2287,Y,3,تَأْخِير,delay,noun,3
+2330,Y,3,زَاد,increased / added,verb,3
+2338,Y,3,سَرَق,stole,verb,3
+2340,Y,3,خَبَّى,hid (something),verb,3
+2408,Y,3,اِسْتَأْجَر,rented,verb,3
+2555,Y,3,تَارِيخ,history,noun,3
+2566,Y,3,طَرَد,fired / kicked out,verb,3
+2580,Y,2,وَرْجَى,showed,verb,2
+2583,Y,3,جَمَع,gathered / collected,verb,3
+2587,Y,3,قَرَّر,decided,verb,3
+2588,Y,3,اِخْتَار,chose,verb,2
+2653,Y,3,تَأْمِين,insurance,noun,3
+2660,Y,3,كُرْسِي مُتَحَرِّك,wheelchair,noun,4
+2662,Y,3,عَدَسَات,contact lenses,noun,4
+2699,Y,3,أَلْغَى,canceled,verb,3
+2708,Y,3,أَكَّد,confirmed / emphasized,verb,3
+2710,Y,3,اِعْتَرَف,confessed / admitted,verb,3
+2723,Y,1,تَحَقَّق,verified / confirmed,verb,4
+9,,3,هَاد,this (m.),pronoun,1
+10,,3,هَاي,this (f.),pronoun,1
+15,,3,حَالِي,myself,pronoun,2
+24,,3,مِين هَاد؟,Who is this?,formula,1
+25,,3,شُو هَاد؟,What is this?,frame,1
+28,,3,فِي,in / at,preposition,1
+42,,2,حَوَالَيْن,around,preposition,3
+58,,1,مَا... ش,not (emphatic verb negation),particle,1
+62,,2,فِي,there is / there are,particle,1
+63,,3,مَا فِي,there isn't / there aren't,frame,1
+66,,3,بِدِّي,I want,particle,1
+67,,3,يَعْنِي,meaning / like / I mean,particle,1
+68,,3,طَيِّب,OK / alright,particle,1
+70,,3,يَلّا,let's go / come on / hurry,interjection,1
+71,,3,هَيْك,like this / so,adverb,1
+81,,3,تَحْت,down / downstairs,adverb,1
+109,,3,تْمَانِين,eighty (80),noun,1
+114,,3,مَلْيُون,one million,noun,2
+137,,3,ضُهُر,noon / midday,noun,2
+148,,3,هَسَّا,now (variant),adverb,2
+150,,2,كَم يُوم,a few days,adverb,2
+151,,2,هَالأُسْبُوع,this week,adverb,2
+154,,3,هَالشَّهِر,this month,adverb,2
+180,,3,السَّاعَة كَمْ,What time is it?,formula,2
+181,,3,اِلسَّاعَة وَحْدِة,It's one o'clock,formula,2
+182,,2,السَّاعَة ثِنْتِين,It's two o'clock,frame,2
+183,,2,السَّاعَة ثْلَاثِة,It's three o'clock,frame,2
+184,,3,السَّاعَة وْنُصّ,half past,frame,2
+185,,2,السَّاعَة وْرُبُع,quarter past,frame,2
+186,,3,السَّاعَة إِلَّا رُبُع,quarter to,frame,2
+187,,2,السَّاعَة وْعَشَرَة,ten past,frame,2
+191,,3,كُلّ يُوم,every day,adverb,1
+192,,3,كُلّ أُسْبُوع,every week,adverb,2
+198,,2,مَرَّتِين,twice,adverb,2
+199,,3,كَم مَرَّة,a few times / how many times,frame,2
+200,,3,كُلّ مَرَّة,every time,adverb,2
+201,,3,أَغْلَب الوَقْت,most of the time,adverb,3
+202,,2,مِن وَقْت لَوَقْت,from time to time,adverb,3
+211,,3,وَقْت الغَدَا,lunchtime,noun,2
+212,,3,وَقْت العَشَا,dinnertime,noun,2
+213,,2,وَقْت الفْطُور,breakfast time,noun,2
+218,,2,عِنْدِي مَوْعِد,I have an appointment,frame,2
+219,,2,شُو الوَقْت؟,What time is it? (casual),formula,2
+220,,3,مَا عِنْدِي وَقْت,I don't have time,frame,2
+221,,3,عَ مَهْلَك,take your time / slowly (to m.),formula,2
+222,,3,عَ مَهْلِك,take your time / slowly (to f.),formula,2
+223,,3,بِسُرْعَة,quickly,adverb,2
+224,,3,شُو بِدَّك تِعْمَل هَلَّأ؟,What do you want to do now? (to m.),frame,1
+225,,3,مَا بَلْحَق,I can't make it in time,formula,2
+226,,3,خَلَّصْنَا,we're done / we finished,verb,2
+227,,3,لِسَّا مَا خَلَّصْت,I haven't finished yet,formula,2
+228,,3,مِن هَلَّأ وْرَايِح,from now on,adverb,3
+231,,3,وَعَلَيْكُم السَّلَام,and upon you peace (reply),formula,1
+233,,2,مَرْحَبْتِين,double hello (warm reply),formula,1
+236,,3,أَهْلَا فِيكِي,welcome to you (to f.),formula,1
+237,,3,كِيفَك؟,how are you? (to m.),formula,1
+238,,3,كِيفِك,how are you? (to f.),formula,1
+239,,3,كِيفْكُم,how are you? (to pl.),formula,1
+240,,3,اِلْحَمْدُ لِلَّه,praise God / I'm fine (reply),formula,1
+244,,3,مِش بَطَّال,not bad,formula,1
+250,,2,تِصْبَحِي عَلَى خِير,good night (to f.),formula,1
+251,,3,وْإِنْتَ مِن أَهْلُو,"and you too (good night reply, to m.)",formula,1
+254,,2,اللّه مَعِك,God be with you / bye (to f.),formula,1
+255,,2,بَشُوفَك,see you (to m.),formula,1
+256,,2,بْشُوفِك,see you (to f.),formula,1
+257,,2,بْشُوفَك بَعْدِين,see you later (to m.),formula,2
+258,,2,يَلَّا بَاي,OK bye! (casual),formula,1
+259,,2,رُوح بِالسَّلَامِة,go safely (to m.),formula,2
+260,,3,رُوحِي بِالسَّلَامِة,go safely (to f.),formula,2
+261,,2,اللَّه يْسَلّْمَك,God keep you safe (to m.),formula,1
+262,,3,بِتْوَحِّشْنِي,I'll miss you (to m.),formula,2
+264,,3,يِسْلَمُو,thanks (casual),formula,1
+265,,3,يِسْلَمُو إِيدَيْك,bless your hands (to m.),formula,1
+266,,2,يِسْلَمُو إِيدَيْكِي,bless your hands (to f.),formula,1
+269,,3,لَوْ سَمَحْتِي,please / excuse me (to f.),formula,1
+270,,3,اللَّه يْخَلِّيك,please / God bless you (to m.),formula,1
+271,,3,اللَّه يْخَلِّيكِي,please / God bless you (to f.),formula,1
+272,,3,تِكْرَم عِينَك,of course / gladly (to m.),formula,2
+273,,2,تِكْرَمِي عَيْنِك,of course / gladly (to f.),formula,2
+276,,3,تْفَضَّل,please (come in / sit / take),formula,1
+277,,3,تْفَضَّلِي,"please (come in / sit / take, to f.)",formula,1
+278,,3,تْفَضَّلُو,"please (come in / sit / take, to pl.)",formula,1
+279,,3,عَ رَاسِي,with pleasure / on my head,formula,2
+280,,2,إِنْ شَاء اللَّه,God willing / hopefully,formula,1
+281,,3,مَا شَاءَ اللَّه,God has willed it (admiration),formula,1
+282,,2,اللَّه يَعْطِيك العَافْيِة,God give you strength (to m.),formula,1
+283,,2,اللَّه يْعَافِيك,"God bless you (reply, to m.)",formula,1
+285,,3,اللَّه يْبَارِك فِيك,"God bless you (reply to mabrook, to m.)",formula,1
+286,,3,عُقْبَالَك,may it happen to you too (to m.),formula,2
+287,,3,عُقْبَالِك,may it happen to you too (to f.),formula,2
+288,,3,سَلَامْتَك,get well soon (to m.),formula,1
+289,,3,سَلَامْتِك,get well soon (to f.),formula,2
+290,,3,اللَّه يِشْفِيك,may God heal you (to m.),formula,2
+291,,3,الله يِرْحَمُو,may God have mercy on him,formula,2
+292,,2,البَقَاء لِلَّه,condolences (lit: permanence is God's),formula,2
+293,,3,اللَّه يْصَبِّرْكُم,may God give you patience,formula,3
+294,,2,تَقْبُرْنِي,you're so dear to me,formula,3
+295,,2,يِخْرِب بِيتَك,expression of exasperation (to m.),formula,2
+296,,3,يَا حَرَام,oh poor thing / how sad,formula,2
+297,,3,يَا لَطِيف,oh my goodness,formula,2
+298,,3,يَا اللَّه,oh God,formula,2
+299,,3,يَا سَلَام,wow / how wonderful,formula,2
+300,,3,مِش مَعْقُول,unbelievable / no way,formula,2
+301,,3,عَنْجَد؟,really? / seriously?,formula,2
+302,,3,وَاللّه,really? / I swear?,formula,1
+303,,3,يَا عِينِي,oh how sweet / oh dear,formula,2
+304,,2,اللَّه يُسْتُر,God protect us,formula,2
+305,,2,يَا رَيْت,I wish / if only,formula,2
+306,,2,الحَمْدُ لِلَّه عَ السَّلَامِة,thank God for your safe arrival,formula,2
+307,,2,اللّه يِحْفَظَك,God protect you (to m.),formula,2
+308,,3,بِالهَنَا وِالشِّفَا,may it bring you health (after eating),formula,2
+309,,2,صَحْتَيْن,bon appétit / to your health,formula,1
+310,,3,عَلَى قَلْبِي,my pleasure / you're dear to me,formula,2
+311,,2,يَعْطِيك أَلْف عَافْيِة,God give you a thousand strengths,formula,2
+312,,2,نِمْرَة,number,noun,2
+322,,2,تَانِي,other / another / again,adjective,1
+323,,3,هَيْك,like this / so / that's it,adverb,1
+324,,2,هَيّ,here it is (f.) / this is,particle,2
+325,,2,هَيُّو,here it is (m.) / here he is,particle,2
+326,,3,إِيَّاه,him / it (object pronoun),pronoun,2
+329,,3,لَحَالِي,by myself / alone,adverb,2
+330,,3,سَوَا,together,adverb,2
+332,,3,أَوَّل إِشِي,first of all / first thing,adverb,2
+333,,2,ثَانِي إِشِي,second of all / secondly,adverb,3
+336,,2,لَهَيْك,that's why,conjunction,2
+337,,3,بِالعَكْس,on the contrary,adverb,2
+338,,3,عَلَى كُلّ حَال,in any case / anyway,adverb,2
+339,,3,المُهِمّ,the important thing / anyway,particle,2
+340,,3,عَلَى فِكْرَة,by the way,adverb,2
+341,,2,بِالنِّسْبِة لَ,regarding / as for,preposition,3
+342,,3,بِخْصُوص,concerning / about,preposition,3
+343,,3,بِشَكِل عَامّ,in general / generally,adverb,3
+344,,2,غَيْر هَيْك,besides that / other than that,adverb,3
+345,,2,بِالإِضَافِة,in addition,adverb,4
+346,,3,بِنَفْس الوَقْت,at the same time,adverb,2
+347,,3,رَغْم إِنُّو,despite that / even though,frame,3
+348,,2,مِن نَاحْيِة,on one hand,adverb,3
+349,,2,مِن نَاحْيِة تَانْيِة,on the other hand,adverb,3
+350,,3,بِاخْتِصَار,in short / briefly,adverb,3
+351,,2,يَعْنِي بِمَعْنَى ثَانِي,in other words,adverb,3
+352,,3,نِرْجَع لَلْمَوْضُوع,let's get back to the topic,formula,3
+353,,3,بِمَا إِنُّو,given that / since,conjunction,3
+354,,2,طَالَمَا,as long as,conjunction,3
+355,,3,مَهْمَا,no matter what,conjunction,3
+356,,3,سَوَاء ... وَلَّا,whether... or,frame,4
+358,,3,لَحَدّ مَا,until,conjunction,2
+359,,3,أَوَّل مَا,as soon as,conjunction,3
+360,,3,كُلّ مَا,every time / whenever,conjunction,2
+361,,3,مِن وَقْت مَا,ever since,conjunction,3
+362,,3,بَعْد مَا,after (+ verb),conjunction,2
+363,,3,قَبْل مَا,before (+ verb),conjunction,2
+364,,3,عَلَى أَسَاس,supposedly / on the basis of,conjunction,3
+365,,3,عَلَى مَا يِبْدُو,apparently / it seems,adverb,3
+368,,2,وَاللَّه,I swear / really (emphatic),interjection,1
+369,,2,بِالزَّبْط,exactly,adverb,2
+370,,3,بِصَرَاحَة,honestly / frankly,adverb,2
+371,,3,شَكْلُو,it seems / apparently,frame,2
+373,,2,بْتِعْرَف شُو,you know what (to m.),formula,2
+374,,2,مَا هُوِّ,the thing is / well,particle,3
+375,,3,اِللِّي هُوِّ,which is / that is (filler),particle,3
+376,,2,يَا سِيدِي,well / look / OK fine,interjection,3
+377,,3,هَسَّا خَلِّينِي أَفَكِّر,let me think now,formula,3
+378,,2,شُو بِدِّي أَقُولَّك,what can I say (to m.),formula,3
+379,,3,اِسْمَع,"listen (attention-getter, to m.)",interjection,2
+380,,3,اِسْمَعِي,"listen (attention-getter, to f.)",interjection,2
+381,,3,وَلَك,"hey / dude (attention, to m.)",interjection,2
+383,,3,يَا بِنْت,girl (attention-getter),interjection,3
+384,,3,يَا خَبَر,oh wow / oh no,formula,3
+386,,3,يَا رَبّ,oh God / oh Lord,interjection,2
+387,,2,أُوف,ugh / sigh,interjection,2
+388,,3,مَسْخَرَة,ridiculous / a joke,noun,3
+390,,2,مَا إِلُه دَاعِي,unnecessary / pointless,formula,3
+391,,2,تَقِيل دَم,annoying person (lit: heavy blood),adjective,3
+393,,2,قَصْف جَبْهِة,sick burn / comeback (lit: forehead bombing),noun,4
+394,,2,مَخِّي وِقِف,I'm overwhelmed (lit: my brain stopped),formula,4
+395,,2,زْهِقْت,I'm so bored / fed up,formula,2
+396,,3,طَنَّشْنِي,he ignored me,verb,3
+397,,3,بِتْهَبِّل,you're amazing (lit: you drive crazy),formula,3
+398,,2,فَلَّت,escaped / got away,verb,4
+399,,2,طَقّ,went / hit (slang),verb,4
+400,,3,مَا عَلَيْك,don't worry about it (to m.),formula,2
+402,,3,أَيْوَا,yes,particle,1
+405,,3,صَحّ,right / correct,adjective,1
+406,,3,مَزْبُوط,correct / exactly / right,adjective,1
+408,,3,مِش هَيْك؟,isn't that so? / right?,formula,2
+409,,3,بِجَدّ,seriously / for real,adverb,2
+410,,3,هَاد هُوِّ,that's it / exactly,formula,2
+412,,3,خَلَص يَلَّا,OK let's go / alright then,formula,2
+413,,2,إِنْتَ وْإِيَّاه,that's between you and him,formula,4
+414,,2,اللَّه أَعْلَم,God knows / who knows,formula,2
+416,,2,إِنْ شَاء اللَّه,maybe / we'll see (hedging use),formula,1
+417,,3,بَدِّي أَسْأَلَك إِشِي,I want to ask you something (to m.),formula,2
+418,,2,بِدِّي أَحْكِيلَك إِشِي,I want to tell you something (to m.),formula,2
+419,,3,شُو صَار مَعَك؟,what happened with you? (to m.),formula,2
+420,,3,شُو أَخْبَارَك؟,what's your news? / how have you been? (to m.),formula,1
+421,,3,شُو أَخْبَارِك؟,what's your news? / how have you been? (to f.),formula,1
+422,,3,شُو فِي مَا فِي؟,what's going on? / what's up?,formula,2
+423,,3,وَلَا إِشِي جْدِيد,nothing new,formula,2
+426,,3,مِن وِين إِنْتِ؟,where are you from? (to f.),formula,1
+428,,3,شُو اسْمِك؟,what's your name? (to f.),formula,1
+429,,3,اِسْمِي...,my name is...,frame,1
+430,,3,أَنَا مِن...,I'm from...,frame,1
+432,,3,اِلشَّرَف إِلْنَا,the honor is ours (reply),formula,1
+433,,3,أَهْلَا وْمَرْحَبَا فِيك,"welcome (warm, to m.)",formula,2
+434,,3,نَوَّرْت,you've lit up the place (welcome),formula,2
+435,,3,نَوَّرْتِي,you've lit up the place (to f.),formula,2
+436,,3,البَيْت بَيْتَك,make yourself at home (to m.),formula,2
+437,,2,اِلْبِيت بِيتِك,make yourself at home (to f.),formula,2
+438,,3,لَا تِتْعَب حَالَك,don't trouble yourself (to m.),formula,2
+439,,2,لَا تِتْعَبِي حَالِك,don't trouble yourself (to f.),formula,2
+441,,3,دِيرِي بَالِك,take care / be careful (to f.),formula,2
+442,,3,دِيرُو بَالْكُم,take care / be careful (to pl.),formula,2
+443,,2,عَلَى رَاسِي وْعِينِي,with all my heart / absolutely,formula,2
+444,,2,تِعِيشِي وْتَاكْلِي غَيْرُو,may you live and eat more (to f. host),formula,3
+445,,2,اللَّه يْخَلِّيلَك إِيَّاهُم,"God keep them for you (about children, to m.)",formula,3
+446,,3,عُمْرَك,your age / your life (term of endearment),noun,2
+447,,3,حَبِيبِي,my dear / my love (to m.),noun,1
+448,,3,حَبِيبْتِي,my dear / my love (to f.),noun,1
+449,,3,يَا عُمْرِي,oh my life (endearment),formula,2
+450,,3,يَا رُوحِي,oh my soul (endearment),formula,2
+451,,2,هَاد مِن ذَوْقَك,that's kind of you (to m.),formula,2
+452,,3,اللَّه يِرْضَى عَلَيْك,may God be pleased with you (to m.),formula,2
+453,,3,عُقْبَال عِنْدَك,may you have the same (to m.),formula,2
+454,,3,كُلّ عَام وْإِنْتُو بْخَيْر,happy holidays (to pl.),formula,2
+455,,3,رَمَضَان كَرِيم,Ramadan greetings,formula,2
+456,,3,اللَّه أَكْرَم,God is most generous (reply),formula,2
+458,,3,وَحْدِة وَحْدِة,one by one / slowly,adverb,3
+460,,2,عَ الفَاضِي,for nothing / pointlessly,adverb,3
+461,,3,بِالمَرَّة,at all / completely,adverb,3
+462,,2,عَ الأَقَلّ,at least,adverb,2
+463,,1,عَالأَكْتَر,at most,adverb,3
+465,,3,بِالضَّبْط,exactly / precisely,adverb,2
+466,,2,مَثَلًا,for example,adverb,2
+467,,3,خُصُوصًا,especially,adverb,3
+468,,3,فِعْلًا,really / actually,adverb,2
+469,,3,لِلْأَسَف,unfortunately,adverb,2
+470,,2,الحَمْدُ لِلَّه,thankfully / praise God,formula,1
+471,,2,بِإِذْن اللَّه,God willing (formal),formula,2
+472,,2,عَ الأَغْلَب,most likely / probably,adverb,3
+473,,3,بِالتَّأْكِيد,certainly / for sure,adverb,3
+475,,2,بِالزُّور,barely / with difficulty,adverb,3
+477,,2,زَوْج,pair / couple,noun,3
+478,,2,دَرْزِن,dozen,noun,4
+480,,3,خَمْسِة وْعِشْرِين,twenty-five (25),noun,2
+481,,3,مِيِّة وْخَمْسِة,one hundred and five (105),noun,2
+483,,2,خَمْسِمِيَّة,five hundred (500),noun,2
+485,,2,عَشَر تْلَاف,"ten thousand (10,000)",noun,2
+488,,3,مَرَّة وَحْدِة,one time / at once,adverb,2
+489,,3,أَوَّل مَرَّة,first time,adverb,2
+490,,3,آخِر مَرَّة,last time,adverb,2
+492,,3,شُو مَا كَان,whatever / no matter what,formula,3
+493,,2,مِين مَا كَان,whoever,pronoun,3
+494,,2,وَيْن مَا كَان,wherever,adverb,3
+495,,3,مِتْل,like / same as,preposition,1
+497,,3,قَدّ,as much as / the size of,preposition,2
+498,,3,حَسَب,according to / depending on,preposition,3
+513,,3,خَلَّص,finished / completed,verb,2
+515,,2,ضَلّ,stayed / remained / kept,verb,2
+519,,2,بَعَت,sent,verb,2
+520,,3,اِسْتَنَّى,waited,verb,1
+536,,3,مَرَق,passed by,verb,3
+543,,3,نَطّ,jumped,verb,3
+544,,3,زَحَف,crawled,verb,4
+546,,3,وَصَّل,gave a ride / dropped off,verb,2
+547,,2,لِحِق,caught up / followed,verb,2
+552,,2,فَسَّر,explained,verb,3
+556,,3,صَرَخ,yelled / shouted,verb,3
+558,,2,حَذَّر,warned,verb,4
+560,,3,اِشْتَكَى,complained,verb,3
+561,,2,نَصَح,advised,verb,3
+567,,2,ظَنّ,assumed / thought,verb,3
+568,,2,تْوَقَّع,expected,verb,3
+571,,3,اِنْتَبَه,noticed / paid attention,verb,3
+580,,3,زِهِق,got bored / fed up,verb,2
+581,,3,مَلّ,got bored,verb,3
+587,,2,فِرِح,was happy / rejoiced,verb,2
+588,,3,تْفَاجَأ,was surprised,verb,3
+589,,2,قِلِق,worried,verb,2
+590,,2,نِدِم,regretted,verb,3
+594,,3,اِسْتَقْبَل,received / welcomed,verb,3
+597,,3,صَالَح,made peace with,verb,3
+598,,3,تْخَانَق,fought / argued,verb,3
+599,,3,اِتْصَالَح,reconciled / made up,verb,3
+601,,3,عَاتَب,reproached / blamed,verb,4
+604,,1,فَشَل,failed,verb,3
+606,,3,رَفَض,refused,verb,3
+607,,2,أِبِل,accepted,verb,3
+610,,2,اِعْتَرَض,objected,verb,3
+611,,3,غَيَّر,changed,verb,2
+616,,2,قَلَع,took off (clothes/shoes),verb,2
+618,,3,اِسْتَحَمَّى,showered / bathed,verb,2
+619,,3,مَشَّط,combed,verb,3
+621,,2,فَرَش,brushed (teeth),verb,3
+630,,3,قَلَى,fried,verb,3
+631,,3,شَوَى,grilled / roasted,verb,3
+632,,3,سَلَق,boiled,verb,4
+633,,3,سَخَّن,heated up / warmed,verb,2
+635,,3,قَطَّع,cut up / chopped,verb,3
+636,,3,خَلَط,mixed,verb,3
+637,,2,عَجَن,kneaded,verb,4
+639,,2,تَبَّل,seasoned / spiced,verb,3
+640,,3,حَشَى,stuffed (food),verb,3
+642,,2,كَنَّس,swept,verb,3
+643,,3,مَسَح,wiped / mopped,verb,3
+645,,2,غَسَّل,did laundry,verb,2
+646,,3,كَوَى,ironed,verb,3
+647,,3,عَلَّق,hung up,verb,3
+654,,2,حَمَّل,downloaded,verb,3
+656,,3,سَجَّل,recorded / registered,verb,3
+658,,3,شَيَّر,shared (social media),verb,3
+659,,2,بْلَك,blocked (someone online),verb,4
+660,,2,ضَاف,added (friend/contact),verb,3
+661,,3,فَتَّش,searched / looked for,verb,3
+662,,2,سَيَّف,saved (file),verb,3
+666,,3,تْخَرَّج,graduated,verb,3
+667,,3,امْتَحَن,took an exam,verb,3
+668,,3,فَحَص,examined / checked,verb,3
+670,,2,مِرِض,got sick,verb,2
+676,,3,صَرَف,spent (money) / exchanged,verb,2
+677,,3,وَفَّر,saved (money),verb,3
+678,,2,حَمَل,carried / picked up,verb,3
+679,,3,شَال,carried / picked up / removed,verb,2
+682,,3,دَفَش,pushed,verb,3
+683,,3,دَقّ,knocked / hit / rang,verb,2
+687,,3,لَزَق,stuck / glued,verb,4
+688,,3,مَلَا,filled,verb,3
+689,,3,فَضَّى,emptied,verb,3
+693,,3,ضَاع,got lost,verb,2
+694,,3,طَاح,fell,verb,3
+696,,1,اِسْتَلْقَى,lay down,verb,4
+697,,2,تْمَدَّد,stretched out / lay down,verb,3
+703,,2,لَحَّق,made it in time / caught up,verb,2
+705,,3,لَغَى,canceled,verb,3
+706,,3,دَعَا,prayed / invited,verb,3
+710,,3,اِتَّفَق,agreed (with someone),verb,3
+712,,3,تْحَمَّل,endured / put up with,verb,3
+713,,3,ضَحَّى,sacrificed,verb,4
+716,,2,تْنَهَّد,sighed,verb,4
+717,,2,غِضِب,got angry,verb,4
+719,,2,اسْتَرَاح,rested,verb,2
+721,,2,عِطِش,got thirsty,verb,3
+723,,3,اِسْتَعْجَل,hurried / was in a rush,verb,3
+724,,2,تْسَلَّى,had fun / was entertained,verb,3
+727,,3,جَهَّز,prepared / got ready,verb,2
+728,,3,اِسْتَعَدّ,got ready / prepared,verb,4
+729,,2,حَضَر,attended / was present,verb,3
+730,,3,غَاب,was absent / missed,verb,3
+731,,3,تْلَاقَى,met (each other),verb,2
+734,,3,عَرَّف,introduced,verb,3
+735,,2,سِكِت,was quiet / shut up,verb,2
+737,,3,حَسَد,envied,verb,3
+740,,3,هَرَب,ran away / escaped,verb,3
+741,,2,فَلَّت,escaped / slipped away,verb,4
+742,,2,تَاه,got lost,verb,3
+743,,3,حَرَّك,moved (something),verb,3
+744,,3,تْحَرَّك,moved (intransitive) / got going,verb,3
+745,,3,وَقَّف,stopped (something) / parked,verb,2
+747,,3,إِلْهُم,theirs / to them,pronoun,1
+748,,3,إِلْنَا,ours / to us,pronoun,1
+749,,3,حَالْهُم,themselves,pronoun,3
+750,,2,بَيْنَاتْهُم,between them / among themselves,preposition,3
+751,,3,مِن عِنْد,from (someone's place),preposition,2
+752,,3,لَعِنْد,to (someone's place),preposition,2
+753,,2,لَا... وَلَا,neither... nor,conjunction,2
+754,,2,مَعْ إِنُّو... بَسّ,even though... but,frame,3
+755,,3,عَشَان مَا,so that... not,conjunction,2
+756,,3,طَالَمَا إِنُّو,as long as,conjunction,3
+757,,3,كَم وَاحَد,how many / a few (people),frame,2
+759,,3,مِن وَيْن,from where,adverb,1
+761,,2,مِيتَيْن وْخَمْسِين,two hundred and fifty (250),noun,2
+762,,2,تْلَاتَة وْنُصّ,three and a half,noun,2
+763,,3,عَشَرَات,tens / dozens (approximate),noun,3
+764,,3,مِيَّات,hundreds (approximate),noun,3
+765,,3,آلَاف,thousands (approximate),noun,2
+766,,3,فَجِر,dawn,noun,3
+767,,2,عَتْمِة,darkness / late night,noun,3
+768,,3,قَبْل الضُّهُر,before noon / AM,adverb,2
+771,,3,السَّاعَة سِتِّة الصُّبُح,six in the morning,frame,2
+772,,3,وَقْت الفَرَاغ,free time,noun,3
+774,,3,رَاس السَّنَة,New Year's,noun,3
+778,,3,شُو عَامِل؟,what are you up to? / how are you? (to m.),formula,1
+779,,3,شُو عَامْلِة,what are you up to? / how are you? (to f.),formula,1
+780,,2,وَحَشْتِنِي,I missed you (to f.),formula,2
+781,,3,وَحَشْتْنَا,we missed you,formula,2
+782,,3,أَهْلًا فِيكُم,welcome (to pl.),formula,1
+783,,2,خَلِّيك بْخَيْر,"stay well (farewell, to m.)",formula,2
+784,,3,خَلِّيكِي بْخَيْر,"stay well (farewell, to f.)",formula,2
+785,,3,يَلَّا أَنَا رَايِح,alright I'm heading out (m.),formula,1
+786,,2,يَلَّا أَنَا رَايْحَة,alright I'm heading out (f.),formula,2
+787,,2,بَعْتِذِر,I apologize,formula,2
+788,,2,سَامِحْنِي,forgive me (to m.),formula,2
+789,,2,سَامْحِينِي,forgive me (to f.),formula,2
+790,,3,مَا قَصَّرْت,you've been so generous/kind (to m.),formula,1
+791,,2,اللَّه لَا يْهِينَك,"God not disgrace you (polite request, to m.)",formula,2
+792,,2,حَيَّاك اللَّه,God greet you / welcome (to m.),formula,3
+793,,2,مَا تْوَاخِذْنِي,don't hold it against me (to m.),formula,3
+794,,3,بِالهَنَا,enjoy it / congrats (on a purchase/new thing),formula,2
+795,,1,اللَّه يِحْفَظْهُم,God protect them,formula,3
+796,,3,اللَّه يِرْضَى عَلَيْكُم,may God be pleased with you (pl.),formula,3
+805,,2,سِيدِي,my grandfather,noun,2
+806,,3,سِتِّي,my grandmother,noun,2
+818,,3,جُوز,husband (colloquial),noun,2
+820,,3,مَرَا,woman / wife (colloquial),noun,2
+821,,2,خَطِيب,fiancé,noun,2
+822,,2,خَطِيبِة,fiancée,noun,3
+823,,3,عَرِيس,groom / bridegroom,noun,3
+824,,3,عَرُوس,bride,noun,3
+825,,3,حَما,father-in-law,noun,3
+826,,2,حَمَاة,mother-in-law,noun,2
+827,,2,نَسِيب,in-law (relative by marriage),noun,3
+828,,3,صِهِر,son-in-law / brother-in-law,noun,3
+829,,2,كِنَّة,daughter-in-law,noun,3
+831,,2,تَوْأَم,twin,noun,3
+834,,3,شَبّ,young man,noun,2
+835,,3,صَبِيِّة,young woman,noun,2
+837,,2,خِتْيَار,old man,noun,2
+838,,3,خْتِيَارَة,old woman,noun,3
+841,,3,وَحْدِة,a woman / one (f.),noun,2
+842,,3,صَاحِب,friend (m.),noun,2
+843,,3,صَاحْبِة,friend (f.),noun,2
+844,,2,رَفِيق,companion / close friend (m.),noun,3
+846,,3,جَارَة,neighbor (f.),noun,2
+862,,2,ضُفُر,fingernail,noun,3
+865,,3,ضَهِر,back,noun,2
+876,,3,حَلِق,throat,noun,3
+877,,3,ضِرِس,molar / back tooth,noun,4
+886,,2,دُكْتُورَة,doctor (f.),noun,2
+894,,2,كَحَّة,cough,noun,3
+898,,3,سُكَّرِي,diabetes,noun,3
+899,,2,عَمَلِيِّة,surgery / operation,noun,3
+900,,2,إِبْرَة,needle / injection,noun,3
+901,,3,جَبِيرَة,cast (medical),noun,4
+902,,1,ضَمَّاد,bandage,noun,4
+903,,2,دُوخَة,dizziness,noun,3
+904,,2,غَثَيَان,nausea,noun,4
+905,,3,تَحْلِيل,blood test / analysis,noun,3
+906,,3,أَشِعَّة,X-ray,noun,3
+909,,2,رَاسِي بْوَجِّعْنِي,my head hurts,frame,2
+910,,2,بَطْنِي بْتُوجَعْنِي,my stomach hurts,formula,2
+911,,3,مِش مْنِيح,I'm not well,formula,1
+912,,3,بِدِّي أَرُوح عَ الدُّكْتُور,I need to go to the doctor,frame,2
+913,,2,وِين أَقْرَب صَيْدَلِيِّة؟,where's the nearest pharmacy?,frame,2
+914,,3,عِنْدِي حَسَاسِيِّة مِن...,I'm allergic to...,frame,3
+915,,3,بِدِّي دَوَا لَلصُّدَاع,I need headache medicine,frame,2
+917,,3,مَبْسُوطَة,happy / pleased (f.),adjective,1
+922,,3,مِشْتَاق,missing someone (m.),adjective,2
+928,,2,مِتْنَرْفِز,nervous / irritated (m.),adjective,3
+937,,2,طَيِّب,kind / good-hearted,adjective,2
+948,,3,بَخِيل,stingy / cheap,adjective,3
+949,,3,صَبُور,patient (personality),adjective,3
+951,,3,قَلِيل أَدَب,rude / ill-mannered,adjective,3
+953,,3,مِحْتَرَم,respectable / respectful,adjective,3
+954,,2,وَقِح,rude / shameless,adjective,3
+957,,3,صَرِيح,frank / honest / direct,adjective,3
+960,,3,مِتْكَبِّر,arrogant,adjective,3
+963,,3,اِنْطِوائِي,introverted / antisocial,adjective,4
+965,,3,حَنُون,affectionate / tender,adjective,3
+967,,3,مَسْؤُول,responsible,adjective,3
+968,,3,مُجْتَهِد,hardworking / diligent,adjective,3
+972,,2,مِعَقَّد,uptight / complicated (person),adjective,3
+974,,3,حَشَرِي,nosy,adjective,3
+975,,3,ثَرْثَار,talkative,adjective,4
+977,,2,مِش طَبِيعِي,not normal / weird,adjective,2
+979,,3,عُمُر,age / life,noun,1
+981,,2,عُمْرِي ... سَنِة,I'm ... years old,frame,2
+984,,3,مِتْزَوِّج,married (m.),adjective,2
+985,,3,أَعْزَب,single / unmarried (m.),adjective,3
+986,,2,مْطَلَّق,divorced (m.),adjective,3
+987,,3,أَرْمَل,widower,adjective,4
+989,,2,هُمِّ تَوَائِم,they're twins,formula,3
+990,,3,مَوْلُود,newborn,noun,3
+991,,3,عَزِيمَة,gathering / dinner invitation,noun,3
+992,,2,عِرِس,wedding,noun,2
+993,,3,جَنَازَة,funeral,noun,3
+1003,,3,لَبْنَة,labneh (strained yogurt),noun,2
+1008,,3,زَعْتَر,thyme / za'atar,noun,2
+1009,,3,حُمُّص,chickpeas / hummus,noun,1
+1012,,2,شَاوَرْمَا,shawarma,noun,2
+1017,,3,مَحْشِي,stuffed vegetables,noun,2
+1022,,2,فَتُّوش,fattoush (bread salad),noun,3
+1023,,2,كْنَافِة,knafeh (cheese pastry dessert),noun,2
+1024,,2,بَقْلَاوِة,baklava,noun,3
+1026,,2,فَوَاكِه,fruits,noun,2
+1034,,3,فِلْفِل,pepper,noun,3
+1039,,2,بُرْتُقَال,orange (fruit),noun,2
+1041,,3,عِنَب,grapes,noun,2
+1049,,3,قَهْوِة سَادِة,plain Arabic coffee,noun,2
+1050,,2,قَهْوِة عَرَبِيِّة,Arabic coffee,noun,2
+1051,,2,نِسْكَافِيه,instant coffee / Nescafé,noun,2
+1053,,2,غَازِي,soda / carbonated drink,noun,4
+1056,,3,فِلْفِل أَسْوَد,black pepper,noun,3
+1057,,3,كَمُّون,cumin,noun,4
+1058,,2,قِرْفِة,cinnamon,noun,3
+1059,,3,هَال,cardamom,noun,3
+1060,,3,سُمَّاق,sumac,noun,4
+1061,,3,طَحِينِة,tahini,noun,2
+1069,,2,مَلْعَقَة,spoon,noun,2
+1072,,2,صِينِيِّة,tray / baking pan,noun,3
+1076,,3,غَاز,gas stove / gas,noun,3
+1079,,3,خَمِيرَة,yeast,noun,4
+1080,,3,وَصْفِة,recipe,noun,3
+1090,,2,نِيّ,raw / uncooked,adjective,3
+1093,,2,أُوضِة النُّوم,bedroom,noun,2
+1106,,3,مْخَدِّة,pillow,noun,2
+1108,,3,لِحَاف,duvet / comforter,noun,3
+1109,,3,فَرْشَة,mattress,noun,3
+1114,,3,دُرْج,drawer,noun,3
+1115,,3,مِرَايِة,mirror,noun,3
+1116,,2,سِجَّادِة,rug / carpet,noun,3
+1118,,2,لَمْبَة,light bulb / lamp,noun,3
+1121,,3,غَسَّالَة,washing machine,noun,2
+1122,,2,نَشَّافِة,dryer,noun,3
+1123,,1,مَكْنَسِة,broom,noun,3
+1124,,2,مَمْسَحَة,mop,noun,3
+1125,,3,سَطِل,bucket,noun,3
+1127,,2,رِيمُوت,remote control,noun,3
+1129,,2,مِدْفَأَة,heater,noun,4
+1130,,2,صُوبِة,heater (kerosene/portable),noun,3
+1131,,2,مَرْوَحَة,fan,noun,2
+1140,,2,كَنْزِة,sweater,noun,3
+1145,,2,تِي شِيرْت,t-shirt,noun,3
+1148,,3,صَنْدَل,sandal,noun,4
+1149,,2,شُرَّاب,socks,noun,3
+1151,,3,شَنْطَة,bag / purse,noun,2
+1152,,3,حِجَاب,hijab / headscarf,noun,3
+1154,,2,كُفِّيِّة,keffiyeh (Palestinian scarf),noun,3
+1155,,2,ثُوب,traditional Palestinian dress,noun,3
+1156,,3,سَاعَة,watch (wrist),noun,2
+1175,,2,لُون,color,noun,2
+1177,,3,سَادَة,plain / solid (color),adjective,2
+1178,,2,مْأَلَّم,striped,adjective,4
+1179,,2,مْنَقَّط,polka-dotted / spotted,adjective,4
+1180,,3,طَبَق,plate / dish (serving),noun,3
+1181,,2,كَبَّايِة,glass / drinking cup,noun,3
+1183,,2,رَكْوِة,small coffee pot (Arabic),noun,3
+1184,,3,خَلَّاط,blender,noun,4
+1185,,1,مَيْكْرُوِيف,microwave,noun,3
+1186,,3,جَلَّايَة,dishwasher,noun,4
+1187,,2,أَدَّاحَة,lighter,noun,3
+1189,,3,مَغْسَلَة,sink,noun,3
+1190,,2,بَانْيُو,bathtub,noun,3
+1192,,2,مُفْتَاح النُّور,light switch,noun,4
+1195,,3,شَاحِن,charger,noun,3
+1196,,3,تَكْيِيف,air conditioning,noun,3
+1197,,1,خَلَّاص,done / finished (emphatic),adjective,4
+1198,,3,مَحْرُوق,burnt,adjective,3
+1201,,2,لَذِيذ,delicious,adjective,2
+1202,,1,مْقَرْمِش,crispy / crunchy,adjective,4
+1203,,3,مَسْلُوق,boiled,adjective,3
+1206,,2,مْحَمَّص,toasted / roasted,adjective,3
+1209,,3,جَرَس,doorbell / bell,noun,3
+1215,,3,بْلَاط,tiles / floor tiles,noun,3
+1221,,2,كَرَاج,garage,noun,2
+1224,,2,مُسْتَأْجِر,tenant,noun,4
+1230,,3,مْكَسَّر,broken,adjective,2
+1231,,3,مْخَرَّب,ruined / out of order,adjective,3
+1232,,3,مْصَلَّح,fixed / repaired,adjective,3
+1233,,3,مَطْفِي,turned off,adjective,3
+1234,,2,مْشَغَّل,turned on,adjective,3
+1235,,3,حَبْل غَسِيل,clothesline,noun,4
+1237,,2,مْنَظِّف,cleaning product / detergent,noun,4
+1238,,2,مَسْحُوق,powder / detergent powder,noun,4
+1239,,2,جَارُور,drawer (variant),noun,3
+1240,,3,رَفّ,shelf,noun,3
+1241,,3,صَابُونِة,bar of soap,noun,3
+1242,,2,فُوطَة,towel (small) / napkin,noun,3
+1246,,3,دَوَّار,roundabout / traffic circle,noun,3
+1253,,3,مُول,mall / shopping center,noun,3
+1254,,2,سُوبَرْمَارْكِت,supermarket,noun,2
+1268,,2,حَدِيقَة عَامِّة,public park,noun,3
+1271,,2,البَلْدَة القَدِيمَة,the Old City,noun,3
+1272,,3,الأَقْصَى,Al-Aqsa (mosque),noun,2
+1273,,3,الحَرَم,the sanctuary / holy site,noun,3
+1278,,3,مَعْبَر,crossing point / border crossing,noun,3
+1287,,1,سَرْفِيس,shared taxi / minibus,noun,2
+1289,,2,شاحْنِة,truck,noun,3
+1292,,2,أَمْبُولَانْس,ambulance,noun,3
+1296,,3,رُخْصَة,license / permit,noun,3
+1299,,3,سِكَّة,road / track / way,noun,4
+1302,,3,مَفْرَق,intersection / junction,noun,3
+1304,,2,رُكُوب,riding / getting on,noun,4
+1305,,3,نُزُول,getting off / going down,noun,3
+1307,,2,مَشْوَار,trip / errand / outing,noun,2
+1311,,3,عَلَى طُول,straight ahead / right away,adverb,1
+1314,,2,مُقَابِل,across from / opposite,preposition,3
+1316,,2,كِيف بَرُوح عَ...؟,How do I get to...?,frame,2
+1318,,3,قَرِيب مِن هُون؟,Is it close to here?,formula,2
+1319,,3,بَعْد الإِشَارَة,after the traffic light,adverb,3
+1320,,3,قَبْل الدَّوَّار,before the roundabout,frame,2
+1322,,3,عَ إِيد اليَمِين,on the right side,adverb,2
+1323,,2,عَ إِيد الشّْمَال,on the left side,frame,2
+1324,,3,لِفّ يَمِين,turn right,frame,2
+1325,,3,لِفّ شْمَال,turn left,frame,2
+1326,,3,اِمْشِي دُغْرِي,go straight,formula,2
+1327,,3,أَوَّل شَارِع عَ اليَمِين,first street on the right,frame,2
+1328,,2,تَانِي شَارِع عَ الشْمَال,second street on the left,frame,2
+1330,,2,بْتِعْرِف وَين ال...؟,Do you know where the...? (to m.),frame,2
+1331,,3,قَدِّيش بْيَاخُد؟,How long does it take?,formula,2
+1332,,3,بْيَاخُد رُبُع سَاعَة,It takes fifteen minutes,frame,2
+1333,,2,عَالبَلَد لَوْ سَمَحْت,To downtown please (to taxi driver),frame,2
+1335,,2,قَدِّيش بْتَاخُد؟,"How much do you charge? (to taxi driver, m.)",formula,2
+1339,,2,نَجْمِة,star,noun,3
+1341,,2,غِيم,clouds,noun,3
+1346,,3,بَرَد,hail,noun,4
+1347,,3,رَعِد,thunder,noun,3
+1351,,2,بَرْد,cold / cold weather,noun,2
+1352,,2,رُطُوبِة,humidity,noun,3
+1354,,2,اليُوم حَرّ,It's hot today,formula,2
+1355,,2,اليَوْم بَرْد,It's cold today,formula,2
+1356,,2,عَم بْتِشْتِي,It's raining,formula,2
+1357,,2,عَم بْتِثْلِج,It's snowing,formula,3
+1358,,2,الجَوّ حِلُو,The weather is nice,formula,2
+1359,,3,الجَوّ مْغَيِّم,It's cloudy,formula,3
+1360,,2,الدِّنْيَا عَمْ بْتِبْرَق وْبْتِرْعَد,It's lightning and thundering,formula,4
+1364,,3,حَجَر,stone / rock,noun,3
+1365,,3,تْرَاب,dirt / soil,noun,3
+1366,,2,رَمِل,sand,noun,3
+1367,,3,بَحِر,sea,noun,2
+1370,,3,وَادِي,valley / wadi,noun,3
+1372,,3,غَابَة,forest,noun,3
+1373,,2,بِرْكِة,pool / pond,noun,3
+1376,,2,زَيْتُونَة,olive tree,noun,2
+1377,,2,تِينِة,fig tree,noun,3
+1385,,2,دْجَاجِة,chicken (one),noun,2
+1386,,3,دِيك,rooster,noun,3
+1392,,3,عَنْكَبُوت,spider,noun,3
+1400,,3,حَيَوَان,animal,noun,2
+1401,,3,طَيْر,bird (general),noun,3
+1402,,3,حَشَرَة,insect / bug,noun,3
+1403,,2,مَحْمِيِّة,nature reserve,noun,4
+1405,,3,مُنَاخ,climate,noun,4
+1406,,2,زَلْزَلِة,earthquake,noun,4
+1408,,2,عَاصْفِة,storm,noun,3
+1409,,3,نَسْمَة,breeze,noun,4
+1412,,2,الجَوّ شُوب,It's muggy / humid,formula,3
+1413,,2,هَاد اليُوم حِلُو,It's a nice day today,formula,2
+1414,,2,الدِّنْيَا بَرْد,It's cold out,frame,2
+1415,,3,خَلِّي الشُّبَّاك مَفْتُوح,Leave the window open,frame,2
+1416,,3,سَكِّر الشُّبَّاك فِي هَوَا,"Close the window, it's windy",frame,2
+1417,,2,الشَّمِس قَوِيِّة,The sun is strong,frame,3
+1418,,2,بِدُّو يِمْطُر,It's going to rain,frame,2
+1419,,3,حَيَوَان أَلِيف,pet,noun,3
+1420,,2,بَيْطَرِي,veterinarian,noun,4
+1421,,3,قَفَص,cage,noun,4
+1422,,3,حَظِيرَة,barn / pen (animals),noun,4
+1423,,3,رَاعِي,shepherd,noun,4
+1424,,2,قَطِيع,flock / herd,noun,4
+1425,,3,عَلَف,animal feed,noun,4
+1426,,3,وَحِش,wild animal / monster,noun,3
+1427,,3,مَزْرَعَة,farm,noun,3
+1428,,3,حَقْل,field (agricultural),noun,3
+1429,,3,بُسْتَان,orchard / garden,noun,4
+1430,,2,سُور القُدِس,the walls of Jerusalem,noun,4
+1431,,3,بَاب العَامُود,Damascus Gate,noun,3
+1432,,1,كْنِيسَة القِيَامِة,Church of the Holy Sepulchre,noun,4
+1433,,3,حَائِط البُرَاق,the Western Wall / Al-Buraq Wall,noun,4
+1434,,2,المَدِينِة القَدِيمِة,the Old City (general),noun,2
+1435,,2,رَام اللَّه,Ramallah,noun,2
+1436,,2,القُدِس,Jerusalem,noun,2
+1437,,3,نَابْلُس,Nablus,noun,2
+1438,,3,الخَلِيل,Hebron,noun,3
+1439,,3,بَيْت لَحِم,Bethlehem,noun,2
+1441,,3,يَافَا,Jaffa,noun,3
+1442,,3,عَكّا,Acre / Akka,noun,3
+1443,,2,حَيْفَا,Haifa,noun,3
+1444,,3,النَّاصْرَة,Nazareth,noun,3
+1445,,2,جِنِين,Jenin,noun,3
+1446,,1,طُولْكَرِم,Tulkarem,noun,3
+1447,,3,أَرِيحَا,Jericho,noun,3
+1449,,2,نَهِر الأُرْدُن,the Jordan River,noun,4
+1452,,2,قِطَاع غَزِّة,the Gaza Strip,noun,2
+1454,,3,لَاجِئ,refugee,noun,3
+1455,,3,مُهَجَّر,displaced person,noun,4
+1456,,2,حَقّ العَوْدِة,the right of return,noun,4
+1457,,2,نَكْبَة,catastrophe / Nakba,noun,3
+1459,,3,تَصْرِيح,permit (travel),noun,3
+1462,,3,وَطَن,homeland,noun,3
+1475,,3,حِلْوِة,pretty / beautiful (f.),adjective,1
+1476,,2,مْلِيح,handsome / good-looking,adjective,3
+1480,,3,صُلْب,hard / solid / tough,adjective,4
+1481,,3,طَرِي,soft / tender,adjective,3
+1484,,2,رَطِب,moist / damp,adjective,4
+1493,,3,مُسْتَدِير,round,adjective,4
+1494,,2,مُرَبَّع,square (shape),adjective,3
+1495,,3,مُسْتَطِيل,rectangular,adjective,4
+1496,,2,مُثَلَّث,triangular,noun,4
+1500,,3,سَلِيم,intact / fine / healthy,adjective,3
+1501,,3,حَادّ,sharp,adjective,3
+1502,,2,أَمْلَس,smooth / slippery,adjective,4
+1509,,3,غَرِيب,strange / weird / foreign,adjective,2
+1511,,3,مَعْرُوف,known / well-known,adjective,3
+1514,,3,صَحِيح,correct / true / right,adjective,2
+1516,,3,أَكِيد,certain / sure,adjective,1
+1520,,3,كَافِي,enough / sufficient,adjective,3
+1522,,3,زَايِد,extra / too much,adjective,3
+1524,,3,حَقِيقِي,real / true / genuine,adjective,2
+1525,,3,وَهْمِي,fake / imaginary,adjective,4
+1526,,3,مَجَّانِي,free (no cost),adjective,3
+1531,,3,أَحْسَن,better / best,adjective,2
+1532,,3,أَسْوَأ,worse / worst,adjective,3
+1533,,3,أَكْبَر,bigger / biggest / older,adjective,2
+1534,,3,أَصْغَر,smaller / smallest / younger,adjective,2
+1535,,3,أَكْتَر,more / most,adjective,1
+1537,,3,أَطْوَل,taller / tallest / longer,adjective,2
+1538,,3,أَقْصَر,shorter / shortest,adjective,3
+1539,,3,أَسْرَع,faster / fastest,adjective,3
+1540,,3,أَقْرَب,closer / closest / nearest,adjective,2
+1542,,3,أَرْخَص,cheaper / cheapest,adjective,2
+1543,,3,أَغْلَى,more expensive / most expensive,adjective,2
+1544,,3,مِن,than (comparison),preposition,2
+1546,,3,أَحْلَى,prettier / prettiest / nicer,adjective,2
+1547,,2,لَحَالُو,by himself / alone,adverb,2
+1548,,3,مَع بَعْض,together,adverb,2
+1549,,3,فَجْأَة,suddenly,adverb,3
+1550,,2,بِالعَافْيِة,with difficulty / barely,adverb,3
+1551,,1,بْكِفَايِة,enough,adverb,2
+1553,,3,قَصْدًا,on purpose / intentionally,adverb,3
+1554,,3,بِالغَلَط,by mistake / accidentally,adverb,2
+1555,,3,لَوَحْدِي,by myself / alone,adverb,2
+1556,,3,مَعًا,together (formal),adverb,4
+1557,,3,بِالتَّحْدِيد,specifically / exactly,adverb,3
+1559,,3,مُمَرِّضَة,nurse (f.),noun,3
+1565,,2,مْعَلّْمِة,teacher (f.),noun,2
+1567,,3,فَلَّاح,farmer,noun,3
+1568,,3,نَجَّار,carpenter,noun,3
+1569,,3,حَدَّاد,blacksmith,noun,4
+1573,,2,مْوَظَّفِة,employee (f.),noun,2
+1575,,3,تَاجِر,merchant / trader,noun,3
+1578,,3,حَلَّاق,barber / hairdresser,noun,3
+1579,,3,خَيَّاط,tailor,noun,3
+1580,,3,كَهْرَبَائِي,electrician,noun,3
+1581,,3,سَبَّاك,plumber,noun,3
+1582,,2,مِيكَانِيكِي,mechanic,noun,3
+1584,,3,عَسْكَرِي,soldier / military,noun,3
+1585,,3,ضَابِط,officer,noun,3
+1586,,3,مُحَرِّر,editor,noun,4
+1587,,3,مُبَرْمِج,programmer,noun,3
+1589,,3,حِصَّة,class period / lesson,noun,3
+1590,,3,اِمْتِحَان,exam / test,noun,2
+1591,,3,وَاجِب,homework / duty,noun,2
+1596,,2,شَهَادِة,degree / certificate / diploma,noun,3
+1597,,3,تَخَصُّص,major / specialization,noun,3
+1599,,3,مِنْحَة,scholarship,noun,4
+1600,,3,تَسْجِيل,registration,noun,3
+1602,,3,مُحَاضَرَة,lecture,noun,3
+1603,,2,بَحِث,research / paper,noun,3
+1604,,3,تَوْجِيهِي,Tawjihi (Palestinian high school exam),noun,3
+1605,,2,أَلِف بَا,alphabet / ABCs,noun,3
+1607,,3,عَرَبِي,Arabic (language/adj.),adjective,1
+1608,,3,إِنْجْلِيزِي,English (language/adj.),adjective,1
+1609,,3,اللَّه,God,noun,1
+1610,,3,رَبّ,Lord / God,noun,2
+1611,,3,إِسْلَام,Islam,noun,3
+1614,,3,قُرْآن,Quran,noun,3
+1615,,2,إِنْجِيل,Bible / Gospel,noun,4
+1616,,2,صَلَاة,prayer,noun,2
+1618,,3,رَمَضان,Ramadan,noun,2
+1619,,3,حَجّ,pilgrimage / Hajj,noun,3
+1622,,2,أَذَان,call to prayer,noun,3
+1623,,3,إِمَام,imam / prayer leader,noun,3
+1624,,3,شَيْخ,sheikh / religious elder,noun,3
+1625,,2,قِسِّيس,priest,noun,4
+1626,,2,زَكَاة,alms / zakat,noun,4
+1627,,2,دُعَاء,supplication / prayer,noun,3
+1628,,3,إِفْطَار,breaking fast (Ramadan meal),noun,2
+1629,,3,سُحُور,pre-dawn meal (Ramadan),noun,3
+1630,,2,عَزَا,condolences / funeral gathering,noun,3
+1631,,3,زَفِّة,wedding procession,noun,3
+1632,,2,دَبْكِة,dabke (traditional dance),noun,3
+1633,,3,تَطْرِيز,embroidery,noun,3
+1634,,2,ثُوب مُطَرَّز,embroidered dress,noun,4
+1635,,3,مُنَاسَبِة,occasion / event,noun,3
+1636,,2,عَادِة,custom / habit,noun,3
+1637,,2,تَقْلِيد,tradition,noun,3
+1638,,2,ضِيَافِة,hospitality,noun,3
+1640,,3,كَرَم,generosity,noun,3
+1641,,3,عَيْب,shame / shameful,noun,2
+1642,,1,حِشْمِة,modesty / decency,noun,4
+1645,,2,مُنَاسَبِة دِينِيِّة,religious occasion,noun,4
+1646,,2,صُلْحَة,reconciliation / tribal peace,noun,4
+1647,,2,دِيوَان,guest reception room,noun,4
+1648,,2,حَكَوَاتِي,storyteller,noun,4
+1650,,3,عَيْن الحَسَد,evil eye,noun,3
+1651,,2,خَمْسَة وْخْمَيْسَة,hand of Fatima (evil eye protection),noun,4
+1654,,3,رَاتِب,salary (formal),noun,3
+1661,,2,خِبْرَة,experience,noun,3
+1662,,2,سِيرَة ذَاتِيِّة,CV / resume,noun,4
+1663,,2,تَقَاعُد,retirement,noun,3
+1665,,3,دَوَام,work shift / work hours,noun,3
+1666,,3,مُقَاوِل,contractor,noun,4
+1667,,2,صَنَايْعِي,craftsman / tradesman,noun,4
+1668,,3,تَعْلِيم,education,noun,3
+1669,,2,ثَقَافَة,culture,noun,3
+1670,,2,تُرَاث,heritage,noun,4
+1672,,3,مَهِر,dowry / bride price,noun,4
+1673,,3,خُطْبَة,engagement / sermon,noun,3
+1674,,1,طُهُور,circumcision celebration,noun,4
+1675,,1,سَبُوع,week-old baby celebration,noun,4
+1676,,1,نَذِر,vow / religious pledge,noun,4
+1677,,3,بَرَكِة,blessing,noun,3
+1678,,1,قِبْلِة,direction of prayer (Mecca),noun,3
+1679,,2,وُضُوء,ablution (before prayer),noun,4
+1680,,2,تِلَاوِة,Quran recitation,noun,4
+1681,,3,سُورَة,chapter of Quran,noun,4
+1682,,3,آيِة,verse (of Quran),noun,4
+1683,,2,صَدَقَة,charity,noun,3
+1685,,3,فْلُوس,money,noun,2
+1686,,1,شِيكِل,shekel (currency),noun,1
+1688,,1,دُولَار,dollar,noun,2
+1697,,3,كَاش,cash,noun,3
+1700,,3,تَحْوِيل,transfer (money),noun,3
+1702,,3,نُصّ كِيلُو,half a kilo,noun,2
+1703,,2,رُبُع كِيلُو,quarter kilo,noun,2
+1706,,2,بِقَدَّيْش هَاد؟,How much is this?,formula,1
+1707,,3,غَالِي كْتِير,Too expensive,formula,1
+1708,,3,فِي أَرْخَص؟,Is there cheaper?,formula,2
+1709,,3,آخِر سِعِر,Final price? (bargaining),formula,2
+1710,,3,بِدِّي أَجَرِّب,I want to try it on,formula,2
+1711,,3,عِنْدَك قِيَاس أَكْبَر؟,Do you have a bigger size? (to m.),frame,2
+1712,,2,بَاخُدُه,I'll take it,formula,2
+1713,,2,بْتِقْبَلُو كَاش بَسّ؟,Do you accept cash only? (to pl.),frame,2
+1714,,3,فِي بَاقِي؟,Is there change?,frame,2
+1715,,2,مُمْكِن تِلِفِّي هَدِيَّة,Can you gift wrap it? (to f.),frame,3
+1718,,2,مُوبَايْل,mobile phone,noun,2
+1720,,2,لَابْتُوب,laptop,noun,2
+1721,,2,تَابْلِت,tablet,noun,3
+1722,,3,شاشِة,screen,noun,2
+1724,,2,وَاي فَاي,WiFi,noun,2
+1725,,2,مَوْقِع,website,noun,3
+1726,,2,تَطْبِيق,app / application,noun,3
+1727,,3,لِينْك,link / URL,noun,3
+1729,,2,بَاسْوُورْد,password,noun,3
+1730,,2,يُوزَر,username,noun,4
+1731,,2,بُوسْت,post (social media),noun,3
+1732,,3,سْتُورِي,story (social media),noun,3
+1733,,2,فُولُو,follow (social media),noun,4
+1734,,3,لَايْك,like (social media),noun,3
+1735,,2,نُوتِفِكِيشِن,notification,noun,3
+1737,,3,سَمَّاعَات,headphones / earbuds,noun,3
+1738,,3,مَايْك,microphone,noun,4
+1739,,2,بْرِنْتَر,printer,noun,4
+1740,,1,أَلُو,hello (on phone),formula,1
+1741,,3,مِين مَعِي؟,Who is this? (on phone),formula,2
+1742,,3,اِلْخَطّ مِش وَاضِح,The line isn't clear,formula,3
+1743,,2,بَبْعَتِلَّك مِسِج,I'll send you a message (to m.),formula,2
+1744,,2,رَنِّيلِي لَمَّا تُوصَل,Call me when you arrive (to m.),formula,2
+1745,,2,شِيكِي الوَاتْسَاب,Check your WhatsApp (to f.),formula,3
+1746,,3,مَا رَدّ عَلَيّ,He didn't answer me,formula,2
+1747,,3,البَطَّارِيَّة خِلْصَت,My battery died,formula,2
+1748,,2,عَطِينِي رَأْمَك,Give me your number (to m.),formula,2
+1749,,3,فِي عِنْدَك وَاي فَاي؟,Do you have WiFi? (to m.),frame,2
+1750,,2,شُو البَاسْوُورْد؟,What's the password?,formula,2
+1751,,3,اِبْعَتْلِي اللِّينْك,Send me the link (to m.),frame,2
+1752,,2,الإِنْتِرْنِت مِش مَاشِي,The internet isn't working,frame,2
+1753,,2,مِسِج,text message,noun,2
+1755,,3,مُكَالَمَة,phone call,noun,3
+1756,,3,خَطّ,phone line / number,noun,3
+1758,,2,شَرِيحَة,SIM card,noun,2
+1759,,1,غْرُوب,group chat,noun,3
+1760,,1,فُويْس نُوت,voice note,noun,3
+1761,,2,ابْعَتْلِي فُويْس,Send me a voice note (to m.),formula,3
+1762,,2,حَكِيتْلُو عَ التِّلِفُون,I talked to him on the phone,frame,2
+1763,,3,بِدِّي أَعَبِّي رَصِيد,I need to top up my credit,formula,2
+1764,,3,مُمْكِن المِنْيُو؟,Can I see the menu?,formula,2
+1765,,2,شُو بْتِنْصَحْنِي فِيه؟,What do you recommend? (to m.),formula,2
+1766,,3,بِدِّي أَطْلُب,I'd like to order,formula,2
+1769,,3,الحِسَاب لَو سَمَحْت,The check please (to m.),formula,2
+1770,,2,عَلَى بَعْض وَلَّا كُلّ وَاحَد لَحَالُو؟,Together or separate? (bill),formula,3
+1771,,3,كُلّ إِشِي تَمَام؟,Is everything OK?,formula,1
+1772,,2,صَحْتَيْن وْعَافْيِة,Bon appétit (extended form),formula,2
+1773,,3,الأَكِل كْتِير طَيِّب,The food is very delicious,formula,2
+1774,,3,بِدِّي قَهْوِة سَادِة,I want plain coffee,formula,2
+1775,,3,بِدِّي شَاي بْنَعْنَع,I want mint tea,frame,1
+1776,,3,مِن دُون سُكَّر,Without sugar,formula,2
+1777,,3,فِي عِنْدْكُم أَكِل حَلَال؟,Do you have halal food?,frame,3
+1778,,2,بِدِّي طاوْلِة لَتْنِين,I want a table for two,frame,2
+1779,,3,مَحْجُوز,reserved,adjective,3
+1780,,2,بِدِّي أَحْجِز طَاوْلِة,I'd like to reserve a table,frame,3
+1781,,3,وَقِّفْنِي هُون,Stop here / let me off here,formula,2
+1782,,2,قَدَّيْش بْتَاخُد عَ...؟,"How much to go to...? (taxi, to m.)",frame,2
+1783,,3,بِالعَدَّاد لَو سَمَحْت,By the meter please,formula,3
+1784,,2,فِي عَدَّاد؟,Is there a meter?,formula,3
+1785,,2,مِن هُون لَ... بِقَدِّيش؟,"From here to..., how much?",frame,2
+1786,,3,خَلِّي الْبَاقِي إِلَك,Keep the change (to m.),formula,2
+1787,,3,شُو عِنْدَك؟,"What's wrong? / What do you have? (doctor, to m.)",formula,2
+1788,,3,وِين الوَجَع؟,Where's the pain?,formula,3
+1789,,3,مِن إِيمْتَى عِنْدَك هَالوَجَع,Since when have you had this pain? (to m.),frame,3
+1790,,3,بَاخُد دَوَا لَ,I take medicine for...,frame,2
+1791,,3,عِنْدِي ضَغِط عَالِي,I have high blood pressure,frame,3
+1792,,1,بَحِسّ بْغَثَيَان,I feel nauseous,formula,3
+1793,,3,مَا بَقْدَر أَنَام,I can't sleep,frame,2
+1794,,3,بِدِّي تَحْلِيل دَمّ,I need a blood test,formula,3
+1795,,3,لَازِم تَاخُد هَالدَّوَا,You need to take this medicine (to m.),frame,3
+1796,,3,كَم حَبِّة بِالْيوْم؟,How many pills per day?,frame,3
+1797,,2,قَبْل الأَكِل وَلَّا بَعْدُو؟,Before or after eating?,formula,3
+1798,,3,سَلَامْتَك مَا تْشِيل هَمّ,"Get well soon, don't worry (to m.)",formula,2
+1799,,3,شُو بِدَّك تِشْرَب؟,What would you like to drink? (to m.),formula,1
+1800,,3,شُو بِدِّك تِشْرَبِي؟,What would you like to drink? (to f.),formula,2
+1801,,3,بِدَّك كَمَان؟,Do you want more? (to m.),formula,1
+1802,,3,لَأ يِسْلَمُو كْفايِة,"No thanks, enough",formula,2
+1803,,2,خَلِّينِي أَسَاعْدِك,Let me help you (to f.),formula,2
+1804,,2,الأَكِل رِيحْتُو زَاكْيِة,The food smells wonderful,formula,3
+1805,,3,تِسْلَم إِيدَيْكِي,Bless your hands (to f. who cooked),formula,1
+1806,,3,اللَّه يْخَلِّيلِك إِيَّاهُم,"God keep them for you (about kids, to f.)",formula,3
+1807,,2,البَيْت كْتِير حِلُو,The house is very nice,frame,2
+1808,,3,تْفَضَّلُوا عَ الأَكِل,Please come eat (to pl.),formula,2
+1810,,3,شُو بْتِشْتِغْلِي؟,What do you do for work? (to f.),formula,2
+1811,,2,وَيْن بْتِشْتِغِل,Where do you work? (to m.),formula,2
+1812,,2,شُو بْتِدْرُس؟,What do you study? (to m.),formula,2
+1813,,1,شُو بْتِدْرُسِي؟,What do you study? (to f.),formula,2
+1814,,2,بْأَيّ جَامْعَة؟,At which university?,formula,2
+1815,,3,تْخَرَّجْت مِن...,I graduated from...,frame,3
+1816,,3,شُو عَامِل بُكْرَا؟,What are you doing tomorrow? (to m.),frame,2
+1817,,2,فَاضِي يَوْم الجُمْعَة؟,Are you free on Friday? (to m.),frame,2
+1818,,3,خَلِّينَا نِتْلَاقَى,Let's meet up,formula,2
+1819,,3,وِين بِدَّك نِتْلَاقَى؟,Where do you want to meet? (to m.),formula,2
+1820,,3,سَاعَة كَم؟,What time?,formula,2
+1821,,2,مَاشِي مُتَّفِقِين,"OK, we're agreed",formula,2
+1822,,3,بَشُوفَك هُنَاك,I'll see you there (to m.),formula,2
+1823,,2,مُمْكِن نِأَجِّل؟,Can we postpone?,formula,3
+1824,,3,مَا بَقْدَر أَلْحَق,I can't make it (in time),formula,3
+1825,,1,بَعْتِلَّك لُوكَيشِن,I'll send you the location (to m.),formula,2
+1826,,2,مِن قَدَّيْش سَاكِن هُون؟,How long have you lived here? (to m.),formula,2
+1827,,2,أَوَّل مَرَّة بْتِيجِي؟,Is it your first time coming? (to m.),formula,2
+1828,,2,كِيف تْعَرَّفْتُوا عَلَى بَعِض؟,How did you meet each other?,formula,3
+1829,,3,عِنْدَك إِخْوِة؟,Do you have siblings? (to m.),formula,2
+1830,,3,مِتْزَوِّج؟,Are you married? (to m.),formula,2
+1831,,3,عِنْدَك وْلَاد؟,Do you have kids? (to m.),frame,2
+1832,,3,قَدِّيش عُمْرُو؟,How old is he?,frame,2
+1833,,2,شُو بْيِشْتِغِل أَبُوك؟,What does your father do? (to m.),frame,2
+1834,,3,سَاعْدُونِي,Help me! (to pl.),formula,3
+1835,,3,اِلْحَقُونِي,Help! / Come quick! (to pl.),formula,3
+1836,,2,اِتَّصْلُو عَ الإِسْعَاف,Call the ambulance (to pl.),formula,3
+1837,,2,اتِّصْلُو عَ الشُّرْطَة,Call the police (to pl.),formula,2
+1838,,2,فِي حَرِيقَة,There's a fire,frame,3
+1839,,2,فِي حَادِث,There's been an accident,formula,3
+1840,,3,اِنْسَرَقْت,I got robbed,verb,3
+1841,,2,ضَاع تَلَفُونِي,My phone got lost,frame,2
+1842,,3,وَيْن أَقْرَب مُسْتَشْفَى؟,Where's the nearest hospital?,frame,2
+1843,,2,بِحَاجِة لَدُكْتُور,I need a doctor,frame,2
+1844,,3,بِالسَّلَامَة,safe travels / take care,formula,2
+1845,,3,تْرُوح وْتِرْجَع بِالسَّلَامَة,May you go and return safely (to m.),formula,3
+1847,,2,اللّه يْوَفّْقَك,May God grant you success (to m.),formula,2
+1848,,3,مَعَ السَّلَامَة يَا حَبِيبِي,Goodbye my dear,formula,2
+1849,,3,حَبَّيْت أَسَلِّم عَلَيْك,I wanted to say hi (to m.),formula,2
+1850,,2,مِشْتَاقِينَك,We miss you (to m.),formula,2
+1851,,2,تِعَالُو عِنَّا,Come to our place (to pl.),formula,2
+1852,,3,لَازِم تِيجِي تْزُورْنَا,You must come visit us (to m.),formula,2
+1853,,2,يِعْطِيكِي العَافْيِة,God give you strength (to f.),formula,1
+1854,,3,مَا قَصَّرْتِي,You've been so kind (to f.),formula,1
+1855,,2,كَيْف الأَوْلَاد,How are the kids?,formula,2
+1856,,2,كِيف الأَهِل؟,How's the family?,formula,2
+1857,,3,سَلِّمْلِي عَلَيْهُم,Say hi to them for me,formula,2
+1858,,2,اللّه يْسَلّْمَك,"God keep you safe (reply, to m.)",formula,1
+1859,,3,مِن عْيُونِي,with pleasure / anything for you,formula,2
+1860,,3,تِكْرَم,of course / gladly,formula,1
+1861,,2,عَلَى حِسَابِي,my treat / on me,formula,2
+1862,,3,هَاد مِنِّي إِلَك,"This is from me to you (gift, to m.)",formula,3
+1863,,3,مَا كَان لَازِم تِتْعَب حَالَك,You didn't have to go to the trouble (to m.),formula,3
+1864,,3,اللَّه يْبَارِك فِيكُم,God bless you (to pl.),formula,1
+1865,,3,عُمْرَك مَا تْخَاف,Don't ever be afraid (to m.),formula,3
+1866,,2,لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّه,There is no power except God's,formula,2
+1868,,3,بَقْشِيش,tip (gratuity),noun,4
+1869,,2,حِسَاب مُشْتَرَك,shared bill / split bill,noun,4
+1870,,3,مَحَلّ صِرَافَة,exchange office,noun,3
+1872,,2,بِدِّي أَصْرِف دُولَارَات,I want to exchange dollars,frame,2
+1874,,3,ضَمَان,warranty / guarantee,noun,3
+1875,,2,مُسْتَعْمَل,used / secondhand,adjective,3
+1876,,3,عَدَّاد,meter (taxi),noun,3
+1877,,3,بِدِّي أَرُوح,I want to go,frame,1
+1878,,2,بِدِّي إِيَّاه,I want it,frame,2
+1880,,3,شُو بِدِّك؟,What do you want? (to f.),frame,1
+1881,,3,مَا بِدِّي إِشِي,I don't want anything,formula,1
+1882,,3,بِدَّك تِيجِي مَعْنَا؟,Do you want to come with us? (to m.),frame,2
+1883,,3,بِدْنَا نِحْكِي مَعَك,We want to talk with you (to m.),frame,2
+1884,,3,بِدْهُم يِرُوحُو,They want to go,frame,1
+1885,,3,لَازِم أَرُوح,I have to go,frame,1
+1886,,3,لَازِم تِحْكِي مَعُو,You need to talk to him (to m.),frame,2
+1887,,3,المَفْرُوض يِيجِي,He's supposed to come,frame,2
+1888,,3,مِش لَازِم تِعْمَل هَيْك,You shouldn't do that (to m.),frame,2
+1889,,2,كَان لَازِم أَخَبّْرَك,I should have told you (to m.),frame,3
+1890,,2,مَا كَان المَفْرُوض تِحْكِي,You weren't supposed to say that (to m.),frame,3
+1891,,3,لَازِم نِتْحَرَّك هَلَّأ,We need to move now,frame,2
+1892,,2,المَفْرُوض كَان يْخَلِّص,He was supposed to finish,frame,3
+1893,,2,بَأْدَر أَسَاعْدَك,I can help you (to m.),formula,2
+1894,,3,مَا بَقْدَر أَرُوح,I can't go,frame,1
+1895,,3,مُمْكِن تْسَاعِدْنِي؟,Can you help me? (to m.),frame,1
+1896,,2,مُمْكِن أَقْعُد هُون؟,Can I sit here?,frame,2
+1897,,3,مَا بَقْدَر أَسْتَنَّى أَكْتَر,I can't wait any longer,formula,2
+1898,,2,مُمْكِن تْعِيد؟,Can you repeat? (to m.),formula,1
+1899,,2,بْتِقْدَر تِيجِي بُكْرا؟,Can you come tomorrow? (to m.),frame,2
+1900,,3,خَلِّينَا نْرُوح,Let's go,frame,2
+1901,,3,شُو رَأْيَك نِتْغَدَّى بَرَّا؟,How about we eat lunch out? (to m.),frame,2
+1902,,3,مَا تِيجِي عِنَّا؟,Why don't you come to our place? (to m.),frame,3
+1903,,3,يَلَّا نِمْشِي,Let's walk / let's go,frame,1
+1904,,3,لَو تِيجِي بَكِّير أَحْسَن,It'd be better if you come early (to m.),frame,3
+1905,,3,شُو رَأْيِك بْهَاد؟,What do you think of this? (to f.),frame,2
+1906,,3,إِذَا بِدَّك تِيجِي خَبِّرْنِي,"If you want to come, tell me (to m.)",frame,2
+1907,,3,لَو كُنْت مَحَلَّك,If I were in your place (to m.),frame,3
+1908,,2,إِزَا فِي وَقْت بَمُرّ عَلِيك,If there's time I'll pass by (to m.),frame,3
+1909,,3,لَو مَا حَكِيتِلِّي مَا كُنْت عْرِفْت,If you hadn't told me I wouldn't have known,frame,3
+1910,,1,إِزَا بْتِحْتَاج إِشِي رَنِّيلِي,"If you need something, call me (to m.)",formula,2
+1911,,3,لَو بَقْدَر كُنْت سَاعَدْتَك,"If I could, I would have helped you (to m.)",frame,3
+1912,,2,إِذَا مَا إِجِيت بَلّْشُو بْدُونِي,"If I don't come, start without me",formula,3
+1913,,2,مَا رُحْت لَإِنُّو كُنْت تَعْبَان,I didn't go because I was tired,frame,2
+1914,,2,عَشَان نِلْحَق,so that we make it on time,frame,2
+1915,,3,السَّبَب إِنُّو,the reason is that...,frame,3
+1916,,2,مِش عَشَان هِيك,not because of that,formula,2
+1917,,3,عَشَان مَا تِنْسَى,so that you don't forget (to m.),frame,2
+1918,,2,حَتَّى نْخَلِّص بَكِّير,so we finish early,frame,3
+1919,,3,حَتَّى مَا يِزْعَل,so he doesn't get upset,frame,2
+1920,,3,أَكْبَر مِن,bigger than,frame,2
+1921,,3,أَحْسَن مِن,better than,frame,2
+1922,,3,أَكْتَر مِن,more than,frame,2
+1923,,2,أَكْتَر إِشِي,the most / the most important,frame,2
+1924,,3,أَحْسَن إِشِي,the best thing,frame,2
+1925,,2,نَفْس الإِشِي,the same thing,noun,2
+1926,,3,قَدّ مَا بِدَّك,as much as you want (to m.),frame,2
+1927,,2,كُلّ مَا كْبِرْت,the more I grew up,frame,3
+1928,,2,مَا فِي أَحْسَن مِن هَيْك,there's nothing better than this,formula,3
+1929,,2,لَمَّا وْصِلْت,when I arrived,frame,2
+1930,,3,بَعْد مَا خَلَّصْنَا,after we finished,frame,2
+1931,,2,قَبْل مَا تْرُوح,before you go (to m.),frame,2
+1932,,3,أَوَّل مَا وِصِلْت,as soon as I arrived,frame,3
+1933,,3,لَحَدّ مَا يِيجِي,until he comes,frame,2
+1934,,3,مِن وَقْت مَا رَاح,ever since he left,frame,3
+1935,,3,كُلّ مَا بَشُوفُو,every time I see him,frame,3
+1936,,3,بَعْد مَا تْخَلِّص رَنِّيلِي,"After you finish, call me (to m.)",frame,3
+1937,,3,قَالِّي إِنُّو مِش جَاي,He told me he's not coming,frame,2
+1938,,3,حَكَتْلِي إِنُّو,She told me that,frame,2
+1939,,3,سْمِعْت إِنُّو,I heard that,frame,2
+1940,,3,طِلِع إِنُّو,It turned out that,frame,2
+1941,,2,ظَنَّيْت إِنُّو,I thought that,frame,3
+1942,,2,وَعَدْنِي إِنُّه,He promised me that,frame,3
+1943,,3,اِتَّفَقْنَا إِنُّو,We agreed that,frame,3
+1944,,3,لَا تْرُوح,Don't go (to m.),frame,2
+1945,,3,لَا تِحْكِي هَيْك,Don't say that (to m.),formula,2
+1946,,3,لَا تِقْلَق,Don't worry (to m.),formula,2
+1947,,3,لَا تِنْسَى,Don't forget (to m.),formula,2
+1948,,3,لَا تِسْتَنَّانِي,Don't wait for me (to m.),formula,2
+1949,,3,لَا تِحْكِيلُو,Don't tell him (to m.),frame,2
+1950,,3,لَا تِزْعَلِي,Don't be upset (to f.),formula,2
+1951,,3,لَا تِتْأَخَّرِي,Don't be late (to f.),formula,2
+1952,,3,عِنْدِي سَيَّارَة,I have a car,frame,1
+1953,,3,عِنْدَك أَخ؟,Do you have a brother? (to m.),frame,1
+1954,,3,عِنْدُو مَشَاكِل,He has problems,frame,2
+1955,,3,إِلِي صَاحِب,I have a friend (lit: to me a friend),frame,3
+1956,,3,هَاد إِلَك,This is yours (to m.),formula,2
+1957,,3,مَعِي مَصَارِي,I have money (on me),frame,2
+1958,,3,مَا مَعِي شِي,I don't have anything (on me),formula,2
+1959,,3,مَعَك المُفْتَاح؟,Do you have the key? (to m.),frame,2
+1960,,3,فِي نَاس بَرَّا,There are people outside,frame,2
+1961,,2,مَا فِي حَدَا,There's nobody,formula,2
+1962,,2,فِي إِشِي غَلَط,Something is wrong,formula,2
+1963,,3,مَا فِي مُشْكِلَة,No problem,formula,1
+1964,,3,كَان فِي كْتِير نَاس,There were a lot of people,frame,2
+1965,,2,رَح يِكُون فِي حَفْلِة,There will be a party,frame,2
+1966,,3,عَمْ بَاكُل,I'm eating (right now),frame,2
+1967,,2,عَمْ بِتْشَتِّي,It's raining (right now),frame,2
+1968,,3,شُو عَمْ بْتِعْمَل؟,What are you doing? (to m.),formula,1
+1969,,3,كُنْت عَمْ بَحْكِي مَعُو,I was talking with him,frame,3
+1970,,3,عَم بَحَاوِل,I'm trying,frame,2
+1971,,2,عَم بِنِسْتَنَّاك,We're waiting for you (to m.),formula,2
+1972,,3,رَح أَرُوح,I will go,frame,1
+1973,,3,رَحْ يِيجِي بُكْرَا,He will come tomorrow,frame,2
+1974,,3,مِش رَح أَقْدَر,I won't be able to,formula,2
+1975,,3,رَحْ نِتْلَاقَى بُكْرَا,We'll meet tomorrow,frame,2
+1976,,3,رَح أَحْكِيلَك بَعْدِين,I'll tell you later (to m.),formula,2
+1977,,3,رَح تِنْدَم,You'll regret it (to m.),frame,3
+1978,,2,كُنْت بَرُوح كُلّ يُوم,I used to go every day,frame,2
+1979,,2,كَانُو بِيِلْعَبُو بَرَّا,They used to play outside,frame,2
+1980,,3,كُنَّا مْنِرُوح عِنْد سِتِّي,We used to go to grandma's,frame,2
+1981,,2,لَمَّا كُنْت زْغِير,When I was young,frame,2
+1982,,3,زَمَان كَانُو...,In the old days they used to...,frame,3
+1983,,3,كَان عِنَّا كَلِب,We used to have a dog,frame,2
+1984,,3,بْتِعْرَف لَيْش؟,Do you know why? (to m.),frame,2
+1985,,3,مَا بَعْرِف شُو أَعْمَل,I don't know what to do,frame,2
+1986,,3,قُلِّي وَيْن رَاح,Tell me where he went,frame,2
+1987,,2,مَا بَعْرِف إِذَا بِيِجِي,I don't know if he's coming,frame,2
+1988,,2,سَأَلْنِي إِذَا بِدِّي,He asked me if I want to,frame,3
+1989,,3,شُو أَحْلَى مِن هَيْك,What's more beautiful than this,formula,3
+1990,,2,مَا أَحْلَاه,How beautiful he/it is,formula,3
+1991,,2,شُو هَالحَلَاوَة,How sweet/beautiful this is,frame,3
+1992,,2,يَا سَلَام شُو حِلُو,"Wow, how beautiful",frame,2
+1993,,2,شُو هَالْأَكِل الطَّيِّب,What delicious food this is,formula,2
+1994,,2,اللَّه يَا لَطِيف شُو حَرّ,"Oh my, how hot it is",frame,3
+1995,,2,مَا رُحْتِش,I didn't go (emphatic),frame,1
+1996,,2,مَا شُفْتُوش,I didn't see him (emphatic),frame,2
+1997,,2,مَا بَعْرِفْش,I don't know (emphatic),formula,1
+1998,,3,مَا حَدَا إِجَا,Nobody came,frame,2
+1999,,3,مَا عُمْرِي رُحْت,I've never gone,frame,3
+2000,,3,مَا عُمْرِي شُفْت هَيْك إِشِي,I've never seen such a thing,formula,3
+2001,,2,مَا حَدَا بْيِعْرِف,Nobody knows,formula,2
+2002,,3,مَا إِشِي تْغَيَّر,Nothing changed,formula,2
+2003,,3,وَلَا مَرَّة,not even once / never,adverb,2
+2004,,2,بِالمَرَّة مَا بْيِعْرِف,He doesn't know at all,frame,3
+2005,,2,اللِّي بْيِعْرِف بْيِعْرِف,"Those who know, know",formula,4
+2006,,3,اللِّي صَار إِنُّو,What happened was that,frame,3
+2007,,2,اِللِّي حَكِيتُو صَحّ,What you said is correct,formula,2
+2008,,3,هَاد اللِّي بِدِّي إِيَّاه,This is what I want,frame,2
+2009,,3,اللِّي بِدُّو يِيجِي يِيجِي,"Whoever wants to come, let them come",frame,3
+2010,,3,هَاد اللِّي قَالُو,This is what they said,formula,2
+2011,,2,بَفْتِكِر إِنُّو...,I think that...,frame,2
+2012,,3,بِرَأْيِي,in my opinion,adverb,3
+2013,,3,حَسَب مَا بَعْرِف,as far as I know,formula,3
+2014,,3,مَا بْوَافِق,I don't agree,formula,2
+2015,,3,مَعَك حَقّ,You're right (to m.),formula,2
+2016,,3,مِش مَعَك حَقّ,You're wrong (to m.),formula,2
+2017,,3,أَنَا مَعَك,I agree with you / I'm with you (to m.),formula,2
+2018,,2,بْتِعْرَف شُو اللِّي صَار,You know what happened (to m.),formula,2
+2019,,3,المُهِمّ إِنُّو,The important thing is that...,frame,2
+2020,,3,القِصَّة إِنُّو...,The thing is that... / The story is...,frame,2
+2021,,2,تْخَيَّل إِنُّو,Imagine that... (to m.),frame,3
+2022,,2,اللِّي فْهِمْتُو إِنُّو...,What I understood is that...,frame,3
+2023,,3,مَا إِلُو عَلَاقَة,It has nothing to do with it,formula,2
+2024,,3,هَاد مِش مَوْضُوعْنَا,That's not our topic,formula,3
+2025,,3,خَلِّينِي أَحْكِيلَك,Let me tell you (to m.),frame,2
+2026,,2,بِالأَوَّل... بَعْدِين...,First... then...,frame,2
+2027,,2,اللِّي صَار بِالآخِر,What happened in the end,frame,3
+2028,,2,طِلْعِت القِصَّة إِنُّو,The story turned out to be that,frame,3
+2029,,3,يا رِيت كُنْت هُون,I wish you were here,frame,2
+2030,,2,يَا رِيت بَقْدَر,I wish I could,formula,2
+2031,,3,يَا رَيْتْنِي مَا رُحْت,I wish I hadn't gone,frame,3
+2032,,1,كَانَّك مَا حَكَيْت,You should have kept quiet (to m.),formula,4
+2033,,3,بِدِّي أَعْرِف,I want to know,frame,1
+2034,,3,مَا كُنْت أَعْرِف,I didn't know (at that time),frame,2
+2035,,3,كُنَّا عَم نِحْكِي عَن,We were talking about,frame,3
+2036,,1,بْتِتْذَكَّر لَمَّا...؟,Do you remember when...? (to m.),frame,2
+2037,,2,هَاد بِذَكِّرْنِي بِـ,This reminds me of...,frame,3
+2038,,2,عَلَى مَا أَظُنّ,as far as I think / I believe,adverb,3
+2039,,3,مِن المُمْكِن إِنُّو,It's possible that,frame,3
+2040,,3,مِن الأَحْسَن إِنُّو,It would be better if,frame,3
+2041,,3,مَا فِي دَاعِي,There's no need / it's unnecessary,formula,2
+2042,,3,مِش مَعْقُول إِنُّو,It's unbelievable that,frame,3
+2043,,3,المُشْكِلَة إِنُّو,The problem is that,frame,3
+2044,,3,الحَلّ إِنُّو,The solution is that,frame,3
+2045,,3,بْتِتِّفِق مَعِي؟,Do you agree with me? (to m.),formula,3
+2046,,3,شُو رَأْيَك؟,What's your opinion? (to m.),formula,2
+2047,,3,حَسَب,it depends,formula,2
+2048,,2,عَلَى حَسَب الوَضِع,depending on the situation,formula,3
+2049,,2,بِغَضّ النَّظَر عَن,regardless of,preposition,4
+2050,,3,القَصِد إِنُّو,What I mean is that,frame,3
+2051,,2,بِالمُقَابِل,on the other hand / in return,adverb,4
+2052,,3,نِرْجَع وْنِحْكِي,let's come back and talk (about it),formula,2
+2053,,2,خَلِّينِي أَفَكِّر وْبَرْجَعْلَك,Let me think and I'll get back to you (to m.),formula,3
+2054,,3,بِدِّي أَضِيف إِشِي,I want to add something,frame,3
+2055,,3,مَا خَلَّصْت,I haven't finished (speaking),formula,3
+2056,,3,خَلِّينِي أَكَمِّل,Let me finish,frame,2
+2057,,3,بِالضَّبْط هَاد اللِّي قَصَدْتُو,That's exactly what I meant,formula,3
+2058,,3,مِش هَيْك بِالضَّبْط,Not exactly like that,formula,2
+2059,,2,قَبْل مَا أَنْسَى,before I forget,formula,3
+2061,,3,بِدِّي أَسْأَلَك سُؤَال,I want to ask you a question (to m.),formula,2
+2062,,3,اِلْجَوَاب إِنُّو,The answer is that,frame,3
+2063,,3,مِش ضَرُورِي,not necessarily / it's not essential,formula,2
+2064,,3,أَكِيد إِنُّو,It's certain that / surely,frame,2
+2065,,2,اللِّي عَلَى رَاسُو بَطْحَة بِحَسِّس عَلَيْهَا,The guilty one feels it (lit: who has a bump feels it),formula,4
+2066,,2,اللِّي بِيِطْلَع مِن الدَّار بِيْقِلّ مِقْدَارُو,The one who leaves home loses his worth,formula,4
+2067,,2,عَلَى قَدّ لِحَافَك مِدّ إِجْرَيْك,Stretch your legs according to your blanket,formula,4
+2068,,2,اللِّي بِيِزْرَع بِيِحْصُد,You reap what you sow,formula,4
+2069,,2,يَا غَايِب عَن العَيْن يَا غَايِب عَن القَلِب,"Out of sight, out of mind",formula,4
+2070,,3,الصَّبِر مِفْتَاح الفَرَج,Patience is the key to relief,formula,3
+2071,,2,اِللِّي مَا بِيعْرِف الصَّقِر بِيشْوِيه,He who doesn't know the falcon grills it,formula,4
+2072,,3,إِيد وَحْدَة مَا بْتِصَفِّق,One hand doesn't clap (= takes two),formula,4
+2073,,2,أَكْبَر مِنَّك بْيُوم أَعْرَف مِنَّك بِسَنِة,"Older by a day, wiser by a year",formula,4
+2074,,3,الجَار قَبْل الدَّار,The neighbor before the house,formula,4
+2075,,2,عَيْنُو وَاسْعَة,He's greedy (lit: his eye is wide),formula,4
+2076,,2,عَيْنُو ضَيّْقَة,He's stingy (lit: his eye is narrow),formula,4
+2077,,3,رَاسُو نَاشِف,He's stubborn (lit: his head is dry),formula,3
+2078,,3,إِيدُو طَوِيلِة,He steals (lit: his hand is long),formula,4
+2079,,3,لِسَانُو طَوِيل,He's rude/mouthy (lit: his tongue is long),formula,4
+2080,,3,قَلْبُو أَبْيَض,He's pure-hearted (lit: his heart is white),formula,3
+2081,,2,دَمُّه بَارِد,He's calm/patient (lit: his blood is cold),formula,4
+2082,,2,وِجْهُو قَلِيل,He's shameless (lit: his face is little),formula,4
+2083,,2,عَلَى رَاسِي مِن فَوْق,Absolutely / with the highest honor,formula,2
+2084,,3,مِن وَرَا ضَهْرِي,Behind my back,frame,3
+2085,,3,عَيْنِي عَيْنَك,shamelessly / to one's face,adverb,4
+2086,,2,بِالعَرَبِي,to put it plainly (lit: in Arabic),adverb,2
+2087,,3,اللَّه يِلْعَنُو,damn him / curse him,formula,3
+2088,,3,اللَّه لَا يْوَرِّيك,God forbid you see (something bad),formula,3
+2089,,3,اللَّه يْسَاعِدْنَا,God help us,formula,3
+2090,,3,عَلَى عَيْنِي وْرَاسِي,with pleasure / on my head and eye,formula,2
+2091,,2,اللَّه يُسْتُر مِن الجَاي,God protect us from what's coming,formula,3
+2092,,2,كُلّ شِي بِوَقْتُو حِلُو,Everything is good in its time,formula,4
+2093,,3,اللِّي فَات مَات,What's past is dead (= let it go),formula,3
+2094,,2,بُكْرَا بِيطْلَع الصُّبُح,Tomorrow the morning will come (= things will work out),formula,4
+2095,,2,مَا بِيصِير إِلَّا الخَيْر,Only good things will happen (= don't worry),formula,2
+2096,,2,اللَّه كَرِيم,God is generous (= it'll work out),formula,2
+2097,,2,تْوَكَّل عَلَى اللَّه,Trust in God / just go for it,formula,3
+2098,,3,مِش كُلّ مَرَّة بْتِسْلَم الجَرَّة,The jar doesn't survive every time (= luck runs out),formula,4
+2099,,2,الطُّيُور عَلَى أَشْكَالْهَا تَقَع,Birds of a feather flock together,formula,4
+2100,,2,يَا بَخْت مِن بَكَى وْضِحِك,Lucky is he who cried then laughed,formula,5
+2101,,2,عَصْفُور بِالإِيد وَلَا عَشْرَة عَ الشَّجَرَة,A bird in hand is better than ten on the tree,formula,4
+2102,,2,اللِّي بْيِحْفُر حُفْرَة لَأَخُوه بْيِقَع فِيهَا,He who digs a pit for his brother falls in it,formula,4
+2103,,2,خُبِز وْمِلِح,bread and salt (= shared bond/loyalty),noun,4
+2104,,3,دِير بَالَك عَ حَالَك,Take care of yourself (to m.),formula,2
+2105,,3,اللَّه يْعِينَك,God help you (to m.),formula,2
+2106,,3,مَا عَلَيْك مِنُّو,Don't worry about him (to m.),formula,3
+2107,,2,خَلِّيهَا عَلَى الله,Leave it to God,formula,3
+2108,,3,كُلّ شِي نَصِيب,Everything is fate/destiny,formula,3
+2109,,2,هَيْك الدِّنْيَا,That's life / that's how it is,formula,3
+2111,,2,اللَّه يِرْحَم أَيَّامُو,God bless those days (nostalgia),formula,3
+2112,,3,يَا عَمِّي,bro / dude (lit: my uncle),interjection,2
+2113,,3,يَا خَيِّي,bro (lit: my brother),interjection,2
+2114,,3,يَا حَبِيبِي,my dear / dude (friendly),interjection,1
+2115,,2,شُو هَالْحَكِي,what kind of talk is this / nonsense,formula,3
+2116,,3,بَلَا مَصْخَرَة,stop joking / be serious,formula,4
+2117,,3,وَلَك رُوح,get out of here / go away (to m.),formula,3
+2118,,3,يِخْرِب بِيتَك,"damn you (lit: may your house be ruined, to m.)",formula,2
+2119,,3,اللَّه يِلْعَن أَبُو...,damn the father of... (= damn...),frame,3
+2120,,3,يَا حَيَوَان,you animal (insult),formula,3
+2121,,2,مْخَرِّف,talking nonsense / senile,adjective,4
+2122,,3,مْجَنِّن,amazing / driving crazy,adjective,3
+2123,,3,خُرَافِي,legendary / insanely good,adjective,4
+2124,,2,أُسْطُورِي,legendary,adjective,4
+2125,,2,فَشِخ,extremely / insanely (intensifier),adverb,4
+2126,,2,عَ الآخِر,to the max / extremely,adverb,3
+2128,,2,جَامِد,cool / awesome (lit: solid),adjective,4
+2130,,3,خَرَا,shit / crap,noun,3
+2131,,3,يِلْعَن,damn (verb used as interjection),interjection,3
+2133,,2,طَنَّش,ignored,verb,3
+2134,,3,فَشَّر,showed off / bragged,verb,4
+2135,,2,تْنَيَّك,messed around / joked around,verb,4
+2136,,3,اتْبَهْدَل,got embarrassed / got humiliated,verb,3
+2137,,2,تْقَمَّص,got annoyed / got irritated,verb,4
+2138,,3,اِنْشَلّ,got paralyzed / froze (from shock),verb,4
+2139,,3,اِتْجَنَّن,went crazy / was amazed,verb,3
+2141,,3,حَرَق أَعْصَابِي,got on my nerves (lit: burned my nerves),formula,3
+2142,,2,طَلَّعْلِي بَلَا,caused me problems (lit: brought out trouble for me),formula,4
+2143,,2,نِزِل عَ أَعْصَابِي,got on my nerves (lit: went down on my nerves),frame,4
+2144,,3,فَقَع مَرَارْتِي,drove me crazy (lit: burst my gallbladder),verb,4
+2145,,2,رَاحِت عَلَيّ,I missed my chance / it's over for me,formula,3
+2146,,2,خَلَص عَلَيّ,I'm done for / it's over,formula,4
+2147,,3,مَا إِلِي خُلْق,I'm not in the mood,formula,2
+2148,,1,مِش فَايْتِتْلِي,I can't handle it / it doesn't fit in my head,formula,4
+2149,,2,عَالفاضِي وِالمَلْيان,for no good reason / over nothing,formula,4
+2150,,2,مِن تَحْت لَتَحْت,sneakily / under the table,adverb,4
+2151,,1,وَجّ,face (slang),noun,4
+2154,,3,أَخُو شَرْمُوطَة,son of a b*tch (vulgar insult),formula,4
+2155,,3,كُسّ أُخْتَك,extremely vulgar insult,formula,4
+2156,,3,بِدِّي,I want (dialect),verb,1
+2157,,2,أُرِيد,I want (MSA/formal),verb,2
+2158,,3,حَكَى,spoke/said (dialect),verb,1
+2159,,3,تَكَلَّم,spoke (MSA/formal),verb,4
+2161,,1,الْآن,now (MSA/formal),adverb,4
+2163,,3,ماذا,what (MSA/formal),pronoun,4
+2165,,3,لِمَاذَا,why (MSA/formal),adverb,2
+2166,,3,كْتِير,very/much (dialect),adverb,1
+2167,,3,جِدًّا,very (MSA/formal),adverb,2
+2169,,3,جَيِّد,good (MSA/formal),adjective,3
+2171,,3,لٰكِن,but (MSA/formal),conjunction,2
+2173,,3,لِأَنَّ,because (MSA/formal),conjunction,2
+2179,,3,مَنْ,who (MSA/formal),pronoun,2
+2182,,3,هَاد,this (dialect),pronoun,1
+2183,,3,هٰذَا,this (MSA/formal),pronoun,2
+2184,,3,بَعْرِف,I know (dialect),verb,1
+2185,,3,أَعْرِف,I know (MSA/formal),verb,4
+2186,,3,سَبَب,reason / cause,noun,2
+2187,,2,نَتِيجِة,result / consequence,noun,3
+2188,,2,تَأْثِير,effect / influence,noun,3
+2190,,3,فَرْق,difference,noun,2
+2191,,3,مَعْنَى,meaning,noun,2
+2197,,3,فُرْصَة,opportunity / chance,noun,3
+2198,,2,تَجْرُبِة,experience,noun,3
+2199,,2,ذِكْرَى,memory,noun,3
+2200,,3,حَقِيقَة,truth / fact,noun,3
+2201,,3,رَأْي,opinion,noun,2
+2202,,3,قَرَار,decision,noun,3
+2203,,3,خِيَار,choice / option,noun,3
+2206,,3,سَلَامَة,safety,noun,3
+2207,,2,ثِقَة,trust / confidence,noun,3
+2208,,3,أَمَل,hope,noun,3
+2210,,2,فَرَح,joy / happiness,noun,3
+2211,,2,حُزِن,sadness,noun,3
+2212,,3,غَضَب,anger,noun,4
+2213,,3,حُبّ,love,noun,2
+2215,,3,صَبِر,patience,noun,3
+2217,,3,فَشَل,failure,noun,3
+2218,,2,حَظّ,luck,noun,3
+2219,,2,قِسْمِة,fate / destiny,noun,3
+2221,,2,حَيَاة,life,noun,2
+2224,,3,وَاجِب,duty / obligation,noun,3
+2225,,3,شَرَف,honor,noun,3
+2226,,2,كَرَامِة,dignity,noun,3
+2228,,3,سِرّ,secret,noun,3
+2229,,1,كِذْبِة,lie,noun,3
+2230,,3,صِدْق,truth / honesty,noun,3
+2231,,3,خَطَأ,mistake / error,noun,3
+2232,,1,عُذُر,excuse,noun,3
+2233,,3,فَايْدِة,benefit / use / point,noun,3
+2235,,3,خَطَر,danger,noun,3
+2237,,3,رَاحَة,comfort / rest,noun,3
+2239,,2,مُسْتَأْبَل,future,noun,3
+2240,,3,مَاضِي,past,noun,3
+2241,,3,حَاضِر,present (time),noun,4
+2247,,2,قِيمِة,value / worth,noun,3
+2248,,3,مَبْدَأ,principle,noun,4
+2249,,3,مَبْرُوك الْعِرِس,Congratulations on the wedding,formula,2
+2250,,2,اللَّه يْتَمِّمْلَك عَلَى خَيْر,May God complete it well for you (to m.),formula,3
+2251,,3,عُقْبَال عِنْدَك,May you have the same (to m.),formula,2
+2252,,3,مَبْرُوك اِلْمَوْلُود,Congratulations on the new baby,formula,2
+2253,,2,اللَّه يْخَلِّيلَك إِيَّاه,"God keep him for you (about baby, to m.)",formula,3
+2254,,3,يِتْرَبَّى بْعِزَّك,May he be raised in your honor (to m.),formula,3
+2255,,2,اللَّه يِرْحَمُو وْيِغْفِرْلُو,God have mercy and forgive him,formula,3
+2256,,2,عَظَّم اللّه أَجْرَكُم,"May God increase your reward (condolence, to pl.)",formula,4
+2257,,2,اللَّه يْصَبّْرَك وْيِقَوِّيك,God give you patience and strength (to m.),formula,3
+2258,,2,الْفَاتْحَة,"the opening (Quran chapter, recited for deceased)",noun,3
+2259,,3,مَبْرُوك النَّجَاح,Congratulations on passing,formula,2
+2260,,3,مَبْرُوك التَّخَرُّج,Congratulations on graduating,formula,2
+2261,,2,بِالتَّوْفِيق بِالاِمْتِحَان,Good luck on the exam,formula,2
+2262,,2,مَبْرُوك البِيت الجْدِيد,Congratulations on the new house,formula,2
+2263,,3,مَبْرُوك الشُّغُل,Congratulations on the job,formula,2
+2264,,2,الله يْوَفّْقَك بِالشُّغُل,God grant you success at work (to m.),formula,3
+2265,,3,كُلّ سَنَة وْإِنْتَ سَالِم,Happy birthday / every year you're safe (to m.),formula,2
+2266,,3,كُلّ سَنَة وِإِنْتِ سَالْمِة,Happy birthday (to f.),formula,2
+2268,,3,سَنَة حِلْوَة يَا جَمِيل,Happy birthday song opening,formula,3
+2269,,2,أَلُو مَرْحَبَا,Hello (phone opening),formula,1
+2270,,3,مِين عَ الخَطّ؟,Who's on the line?,formula,2
+2271,,2,بِتْقْدَر تِحْكِي هَلَّأ؟,Can you talk now? (to m.),formula,2
+2272,,3,مَشْغُول هَلَّأ بَرْجَعْلَك,"I'm busy now, I'll call you back (to m.)",formula,2
+2273,,2,الخَطّ بْيِقْطَع,The line keeps cutting out,formula,3
+2274,,2,مَا بَسْمَعَك مْنِيح,I can't hear you well (to m.),formula,2
+2275,,3,بَرْجَعْلَك بَعْدِين,I'll call you back later (to m.),formula,2
+2276,,3,أَنَا بِالْمَطَار,I'm at the airport,frame,2
+2277,,2,وَيْن بَوَّابِة رَقِم ...؟,Where is gate number...?,frame,4
+2278,,2,الطَّيَّارَة مِتْأَخِّرَة,The plane is delayed,frame,3
+2281,,1,حَقِيبِة,suitcase / bag,noun,3
+2282,,2,شَنْطِة سَفَر,travel bag,noun,3
+2285,,3,مُغَادَرَة,departure,noun,4
+2286,,3,وُصُول,arrival,noun,3
+2288,,2,إِلْغَاء,cancellation,noun,4
+2289,,3,شُو عِنْدَك أَوَّل حِصَّة,What do you have first period? (to m.),frame,3
+2290,,3,عِنْدِي اِمْتِحَان بُكْرَا,I have an exam tomorrow,frame,3
+2291,,3,لَازِم أَدْرُس,I need to study,frame,2
+2292,,2,نْجَحْت بِالاِمْتِحَان,I passed the exam,formula,2
+2293,,3,رَسَبْت بِالاِمْتِحَان,I failed the exam,frame,3
+2294,,3,رَسَب,failed (exam),verb,3
+2295,,3,شُو عَلَامْتَك؟,What's your grade? (to m.),formula,3
+2296,,2,مْعَدَّل,GPA / average,noun,3
+2297,,3,حَضَانَة,kindergarten / nursery,noun,3
+2298,,2,ثَانَوِيِّة,high school,noun,3
+2299,,3,اِبْتِدائِيِّة,elementary school,noun,3
+2300,,2,حِصِّةِ رِيَاضَة,gym class / PE,noun,3
+2301,,2,بَاص المَدْرَسِة,school bus,noun,3
+2302,,3,كِيف الشُّغُل؟,How's work?,formula,2
+2303,,3,الشُّغُل كْتِير,There's a lot of work,frame,2
+2304,,2,بِدِّي أَسْتَقِيل,I want to resign,frame,3
+2305,,3,اِنْطَرَد مِن الشُّغُل,He got fired,formula,3
+2306,,2,تَرْقِيَة,promotion,noun,4
+2309,,3,حَكَى مَعُو,he spoke with him,frame,2
+2310,,3,فَات,entered,verb,2
+2311,,3,شَاف,saw,verb,1
+2312,,3,بَلَّش,started,verb,2
+2314,,3,خَلَّص,finished,verb,1
+2315,,3,دَبَّر,managed / arranged,verb,3
+2316,,3,نَقَل,moved / transferred / copied,verb,3
+2317,,3,بَدَّل,changed / switched / exchanged,verb,3
+2318,,3,اِنْكَسَر,got broken,verb,2
+2319,,3,اِنْفَتَح,got opened / opened (intransitive),verb,3
+2320,,3,اِنْسَكَّر,got closed / closed (intransitive),verb,3
+2321,,3,اِتْصَلَّح,got fixed,verb,3
+2322,,3,اِتْعَلَّق,got stuck / got attached,verb,3
+2323,,3,اِنْضَرَب,got hit,verb,3
+2324,,2,اِتْخَرَّب,got ruined / broke down,verb,3
+2325,,3,اِتْأَجَّل,got postponed,verb,3
+2326,,2,اِتْلَغَى,got canceled,verb,3
+2327,,3,اِتْبَاع,got sold,verb,3
+2328,,3,اِنْسَرَق,got stolen,verb,3
+2329,,2,عِلِق,got stuck,verb,3
+2331,,3,نَقَص,decreased,verb,3
+2332,,3,كَفَى,was enough,verb,3
+2333,,3,ضِحِك عَلَيّ,tricked me / fooled me (lit: laughed at me),frame,3
+2335,,2,نَسَّق,coordinated / organized,verb,4
+2336,,2,وَفَّق,succeeded / reconciled,verb,3
+2337,,3,دَبَّر,managed / figured out / arranged,verb,3
+2339,,3,كَشَف,revealed / uncovered / examined,verb,4
+2341,,2,اِسْتَخْبَى,hid (oneself),verb,3
+2343,,3,اِخْتَفَى,disappeared,verb,3
+2344,,3,عَيَّط,cried / yelled,verb,3
+2345,,3,حَلَف,swore / took an oath,verb,3
+2348,,3,إِجْرِي بْتُوجَعْنِي,My leg/foot hurts,formula,2
+2349,,2,عَيْنِي حَمْرَا,My eye is red,frame,3
+2350,,2,سْنَانِي بْتُوجَعْنِي,My teeth hurt,frame,2
+2351,,2,ضَهْرِي بْيُوجَعْنِي,My back hurts,frame,2
+2352,,3,مَا بَقْدَر أَتْنَفَّس,I can't breathe,frame,3
+2353,,2,عِنْدِي سُخُونِيَّة,I have a fever,frame,2
+2354,,3,عِنْدِي إِسْهَال,I have diarrhea,frame,3
+2355,,3,عِنْدِي إِمْسَاك,I have constipation,frame,4
+2356,,2,مِحْتَاج عَمَلِيِّة,He needs surgery,frame,3
+2357,,3,خَلِّيهَا تِبْرَد,Let it cool down (about food),frame,3
+2358,,3,زِيدْنِي شْوَيّ,Give me a bit more,formula,2
+2359,,1,بِكْفِينِي,That's enough for me,formula,3
+2360,,3,مَا بَاكُل,I don't eat...,frame,2
+2361,,3,عِنْدِي حَسَاسِيَّة مِن المُكَسَّرَات,I'm allergic to nuts,frame,3
+2364,,2,مُعَجَّنَات,pastries / baked goods,noun,3
+2365,,2,مْخَلَّل,pickles,noun,3
+2366,,3,مَعْمُول,maamoul (filled cookie),noun,3
+2367,,3,قَطَايِف,qatayef (stuffed Ramadan pancake),noun,3
+2368,,3,سَحْلَب,sahlab (hot orchid drink),noun,3
+2372,,2,جُوز,walnuts,noun,3
+2373,,2,هَاد القَمِيص بِيجِي عَلَيّ؟,Does this shirt fit me?,formula,2
+2374,,3,كْبِير عَلَيّ,Too big for me,formula,3
+2375,,2,صْغِير عَلَيّ,Too small for me,frame,2
+2376,,2,هَاد اللَّوْن مِش مَاشِي,This color doesn't work,formula,3
+2377,,2,عِنْدَك لُون تَانِي؟,Do you have another color? (to m.),formula,2
+2378,,2,بِتِلْبْسِي حِجَاب؟,Do you wear hijab? (to f.),formula,3
+2379,,3,شُو لَابِس؟,What are you wearing? (to m.),formula,2
+2380,,2,الجَوّ بِيصَحِّي,The weather is clearing up,formula,3
+2381,,2,الدِّنْيَا مْتَلّْجَة,It's snowing / icy,frame,3
+2382,,2,شَمِس وْمَطَر,Sun and rain (at the same time),noun,4
+2383,,2,اِنْقَطْعَت الكَهْرَبا,The electricity went out,formula,2
+2384,,2,اِنْقَطَعِت المَيّ,The water got cut off,formula,3
+2385,,3,بِدِّي أَسْتَأْجِر شَقَّة,I want to rent an apartment,frame,3
+2386,,2,بِقَدِّيش الإِيجَار بِالشَّهْر؟,How much is the rent per month?,frame,3
+2387,,3,حَنَفِيَّة,faucet / tap,noun,3
+2389,,2,مَغْسَلَة,sink (kitchen/bathroom),noun,3
+2391,,2,مِكْنَسِة كَهْرَبَا,vacuum cleaner,noun,3
+2392,,3,تَنَك,tin can / metal container,noun,4
+2393,,2,قُفِّة,basket / crate,noun,4
+2394,,3,طُنْجَرَة ضَغِط,pressure cooker,noun,4
+2395,,3,حَبْل,rope / cord,noun,3
+2396,,3,مِسْمَار,nail (hardware),noun,4
+2397,,2,بْرَاغِي,screw,noun,4
+2398,,2,شَاكُوش,hammer,noun,4
+2399,,3,مِفَكّ,screwdriver,noun,4
+2400,,2,زَرْدِيَّة,pliers,noun,4
+2402,,3,مَجْلَى,kitchen sink (Palestinian),noun,3
+2403,,2,عِمِلِت حَادِث,I had an accident,formula,3
+2404,,2,السَّيَّارَة خَرْبَانِة,The car is broken down,formula,3
+2405,,2,بِدِّي أَعَبِّي بَنْزِين,I need to fill up gas,formula,2
+2406,,2,وَيْن أَقْرَب كَرَاج؟,Where's the nearest garage/mechanic?,frame,3
+2407,,2,الْعَجَل فَقَع,The tire is flat,formula,4
+2410,,3,شَحَن,charged (phone/device),verb,2
+2412,,2,عِمِل سْكْرِين شُوت,took a screenshot,verb,3
+2414,,3,سَحَب مَصَارِي,withdrew money,verb,3
+2415,,3,حَوَّل مَصَارِي,transferred money,frame,3
+2416,,3,فَتَح حِسَاب,opened an account,verb,3
+2419,,2,قَرْض,loan,noun,3
+2420,,2,مِيزَانِيِّة,budget,noun,4
+2421,,2,فَاتُورَةِ الكَهْرَبَا,electricity bill,noun,3
+2422,,2,فَاتُورَة المَيّ,water bill,noun,3
+2423,,2,فَاتُورَةِ التِّلِفُون,phone bill,noun,3
+2424,,2,مِتْأَكِّد؟,Are you sure? (to m.),formula,2
+2425,,2,مِش مِتْأَكِّد,I'm not sure (m.),formula,2
+2426,,2,بِظُنّ آه,I think so,formula,2
+2427,,2,بَظُنّ لَأ,I don't think so,formula,2
+2428,,3,بِدُون شَكّ,without a doubt,adverb,3
+2429,,2,إِنْ شَاءَ اللَّه خَيْر,hopefully it's good (worried response),formula,2
+2430,,2,اللَّه يْسَهِّل,God make it easy,formula,2
+2431,,2,اللّه يْفَرّْجْهَا,God relieve it (the hardship),formula,3
+2432,,2,اللَّه يْكَرّْمَك,God honor you (to m.),formula,3
+2433,,3,تِسْتَاهِل,You deserve it (to m.),formula,2
+2434,,3,اللَّه لَا يِحْرِمْنَا مِنَّك,God not deprive us of you (to m.),formula,3
+2435,,2,مَا تِقْطَع عَنَّا,Don't be a stranger (to m.),formula,3
+2436,,3,حَيَاتِي,my life (term of endearment),noun,2
+2437,,3,رُوحِي,my soul (term of endearment),noun,3
+2438,,3,عُمْرِي,my life/age (term of endearment),noun,3
+2439,,3,عَيْنِي,my eye (term of endearment),noun,2
+2440,,3,قَلْبِي,my heart (term of endearment),noun,2
+2441,,2,إِمِّي,my mom (term of endearment),noun,2
+2443,,3,اِبْنِي,my son (term of endearment),noun,2
+2444,,3,بِنْتِي,my daughter (term of endearment),noun,2
+2445,,2,نَفْسِيِّة,mood / psychology / mental state,noun,3
+2447,,3,اِحْتِرَام,respect,noun,3
+2448,,2,تَقْدِير,appreciation / estimation,noun,4
+2450,,2,اِنْتِمَاء,belonging / identity,noun,4
+2451,,2,ذَاكِرَة,memory (faculty),noun,3
+2452,,3,خَيَال,imagination,noun,4
+2453,,3,ضَمِير حَيّ,a living conscience / good conscience,noun,4
+2455,,2,قَنَاعَة,contentment / conviction,noun,4
+2456,,3,طُمُوح,ambition,noun,4
+2457,,3,إِرَادِة,willpower / determination,noun,4
+2458,,2,تَجْرُبِة حَيَاتِيِّة,life experience,noun,4
+2459,,2,نُقْطِة ضَعِف,weak point / weakness,noun,4
+2460,,1,نُقْطَة قُوَّة,strong point / strength,noun,4
+2461,,3,رَأْي عَامّ,public opinion,noun,4
+2462,,2,مَسْأَلِة وَقْت,a matter of time,formula,4
+2464,,3,بِشَكِل أَسَاسِي,basically / fundamentally,adverb,4
+2465,,3,مِن جِهِة,from one perspective,adverb,3
+2466,,2,وْمِن جِهَة تَانْيِة,and from another perspective,adverb,4
+2467,,3,بِكُلّ بَسَاطَة,simply put,adverb,3
+2468,,3,بِكُلّ صَرَاحَة,frankly / honestly,adverb,3
+2469,,3,الحَقِيقَة إِنُّو,the truth is that,frame,3
+2470,,3,لَحَدّ هَلَّأ,until now / so far,adverb,2
+2471,,3,مِن هَلَّأ لَقُدَّام,from now on,adverb,3
+2472,,2,بَيْن قَوْسَيْن,in parentheses / so to speak,adverb,4
+2473,,3,بِمَعْنَى آخَر,in other words,adverb,4
+2474,,2,عَلَى سَبِيل المِثَال,for example (formal),adverb,4
+2475,,3,بِنَاءً عَلَى,based on,preposition,4
+2476,,2,نَتِيجِة لِـ,as a result of,preposition,4
+2477,,3,كَخُلَاصَة,in conclusion,adverb,4
+2478,,3,مِمَّا يَعْنِي,which means,conjunction,4
+2480,,3,لَحَدّ مَا نْشُوف,until we see / let's wait and see,formula,3
+2482,,3,بِالمُخْتَصَر,in brief / to sum up,adverb,3
+2483,,3,اللَّه يْعِينِّي,God help me,formula,2
+2484,,2,اللِّي بْيِجْرِي وَرَا الدِّنْيَا مَا بْيِلْحَقْهَا,He who chases the world never catches it,formula,5
+2485,,2,العَيْن بَصِيرَة وِالإِيد قَصِيرَة,The eye sees but the hand can't reach,formula,4
+2486,,2,اللِّي بِيحِبَّك بِيحِبّ كَلْبَك,Who loves you loves your dog,formula,4
+2487,,2,كِلْمِة حَقّ,a word of truth,noun,4
+2488,,2,ضَرَب عَصْفُورَيْن بِحَجَر,killed two birds with one stone,verb,4
+2489,,2,حَطّ رَاسُو بْرَاسُو,confronted him head-on,formula,4
+2490,,2,فَتَح عَيْنُو,became aware / wised up,frame,4
+2491,,2,كَبَّر مُخُّو,he matured / grew wiser,frame,4
+2492,,2,طَقَّت مَعُو,it clicked with him / he understood,formula,4
+2493,,3,قَلَب الطَّاوْلِة,turned the tables,formula,4
+2494,,2,حَرَق الأَخْضَر وِاليَابِس,destroyed everything (lit: burned green and dry),formula,4
+2495,,3,طِلِع مِن المَوْضُوع,got off topic,verb,4
+2496,,2,دَخَل بِالعَمِيق,got into deep detail,formula,4
+2497,,2,خَلَّى الأُمُور تِمْشِي,let things take their course,formula,4
+2498,,3,مَسَك أَعْصَابُو,kept his cool / controlled himself,frame,4
+2499,,3,طَار عَقْلُو,he lost his mind,formula,4
+2500,,3,اِنْقَلَب وِجْهُو,his expression changed (shock/anger),formula,4
+2501,,2,حَطّ إِيدُو بِالنَّار,got himself into trouble,formula,4
+2502,,3,مَشَّى حَالُو,managed / got by,frame,3
+2503,,2,قَلْبُو عَلَى لْسانُو,he speaks his mind (lit: heart on tongue),formula,4
+2504,,2,دَقّ الْمَيّ مَيّ,beat around the bush (lit: pound water into water),formula,4
+2505,,1,فَضَّى المَوْضُوع,dropped the subject / moved on,verb,4
+2506,,2,رِكِب رَاسُه,he was stubborn / insisted,formula,4
+2507,,2,كِبِر رَاسُه,he became arrogant,formula,4
+2508,,3,إِيدُو فَاضْيَة,he's broke / empty-handed,formula,4
+2509,,2,عَلَى رَاسُو بَطْحَة,he's guilty (lit: he has a bump on his head),formula,4
+2510,,2,مَا بْيِسْوَى,it's worthless / not worth it,formula,3
+2511,,2,بْيِسْوَى,it's worth it,verb,3
+2512,,3,خَلِّيهَا عَلَيّ,leave it to me / my treat,formula,3
+2513,,2,مِش قِصِّتِي,not my problem / not my business,formula,3
+2514,,2,اللَّه يْعَوّْضَك,God compensate you (to m.),formula,3
+2515,,2,اللَّه يْرُدُّو بِالسَّلَامِة,God return him safely,formula,3
+2516,,2,اللَّه يْنَوِّر دَرْبَك,God light your path (to m.),formula,3
+2517,,1,تْقَبَّل اللَّه,May God accept (prayers/fasting),formula,3
+2518,,2,اللّه يِفْتَحْها بْوِجْهَك,God open doors for you (to m.),formula,3
+2519,,2,اللَّه يْقَوِّيك,God strengthen you (to m.),formula,2
+2520,,2,اللَّه يْحَقِّقْلَك أَمَانِيك,God fulfill your wishes (to m.),formula,3
+2521,,3,عَلَى خَيْر,all is well / good,formula,2
+2522,,2,بِالرِّفَاه وَالْبَنِين,with prosperity and sons (wedding blessing),formula,4
+2523,,3,هَلّا,now (variant),adverb,3
+2525,,2,شْلُون,how (variant),adverb,5
+2526,,1,قَال بِالقَاف,said (with full qaf — Hebron),verb,4
+2527,,1,كِيفَك يَا قَلْبِي,how are you my heart (Hebron style),formula,4
+2528,,2,مُو,not (northern variant),particle,4
+2529,,2,شُو هَاظ,what is this (variant with ظ),formula,4
+2531,,3,بِدِّي أَحْلَق,I want a haircut,frame,2
+2532,,2,قُصِّلِّي شْوَيّ مِن الجَوانِب,Trim the sides a bit (to m.),formula,4
+2533,,3,مِش كْتِير قَصِير,Not too short,formula,4
+2534,,2,بِدِّي أَصْبَغ شَعْرِي,I want to dye my hair,frame,3
+2535,,3,صَبَغ,dyed,verb,3
+2536,,3,قَصّ شَعِر,haircut,noun,3
+2537,,3,السَّلَامُ عَلَيْكُم يَا جَار,Hello neighbor,formula,2
+2538,,3,كِيف الجِيرَان؟,How are the neighbors?,formula,2
+2539,,2,مُمْكِن أَسْتَعِير مِنَّك...؟,Can I borrow... from you? (to m.),frame,3
+2540,,3,اِسْتَعَار,borrowed,verb,4
+2541,,3,سَلَّف,lent,verb,3
+2542,,2,رَجَّعْتِيلِّي الطَّنْجَرَة,Did you return my pot? (to f.),formula,4
+2543,,2,الحَنَفِيِّة عِنَّا بْتِنْقُط,Our faucet is dripping,formula,3
+2544,,2,التَّدْفِئِة مِش شَغّالِة,The heating isn't working,frame,3
+2545,,2,بِدِّي أَجَدِّد العَقِد,I want to renew the lease,frame,3
+2546,,3,عَقِد,contract / lease,noun,4
+2547,,2,تَدْفِئِة,heating,noun,3
+2548,,3,تَكْيِيف مَرْكَزِي,central air conditioning,noun,4
+2549,,3,مْوَلِّد,generator,noun,3
+2550,,3,سَخَّان,water heater,noun,3
+2551,,2,شُو أَخْبَار الأَوْلَاد بِالمَدْرَسَة,How are the kids doing at school?,frame,2
+2552,,3,اِبْنِي ضَعِيف بِالرِّيَاضِيَّات,My son is weak in math,frame,4
+2553,,3,رِيَاضِيَّات,mathematics,noun,3
+2554,,3,عُلُوم,science,noun,3
+2556,,3,جُغْرَافْيَا,geography,noun,3
+2557,,3,اِجْتِمَاعِيَّات,social studies,noun,3
+2558,,2,مْعَلّْمِة الصَّفّ,the class teacher (f.),noun,3
+2559,,2,مُدِير المَدْرَسِة,the school principal,noun,3
+2560,,3,حَفْلِة تَخَرُّج,graduation ceremony,noun,3
+2561,,3,كَيْف الشُّغُل مَعَك؟,How's work going for you? (to m.),formula,2
+2562,,3,الشُّغُل ضَاغِط,Work is stressful,formula,3
+2563,,3,بِدِّي إِجَازِة,I need a vacation,frame,3
+2564,,1,المُدِير بِيِضْغَط عَلَيْنَا,The boss is pressuring us,frame,3
+2565,,2,ضَغَط,pressured,verb,3
+2567,,3,عَيَّن,hired / appointed,verb,4
+2570,,3,وَظَّف,employed / hired,verb,3
+2571,,3,اِنْتَقَل,moved / transferred,verb,3
+2572,,2,مَا بِتْلَاقِي شُغُل,You can't find work (to f.),frame,3
+2573,,3,عَمْ بْدَوِّر عَ شُغُل,I'm looking for work,frame,2
+2574,,2,بِدُّو يِبْلُش,It's about to start,formula,2
+2575,,2,كَانِّي مَا حْكِيت,As if I didn't say anything,formula,3
+2576,,3,مَهْمَا عْمِلْت,No matter what you do (to m.),frame,3
+2577,,2,بْتِعْرَف تْسُوق؟,Do you know how to drive? (to m.),frame,2
+2578,,2,بْتِقْدَر تْعَلِّمْنِي؟,Can you teach me? (to m.),formula,2
+2579,,3,لَو سَمَحْت وَرْجِينِي,Please show me (to m.),frame,2
+2581,,3,عَرَض,offered / displayed / presented,verb,3
+2582,,2,وَزَّع,distributed,verb,3
+2584,,3,فَرَّق,separated / distributed,verb,3
+2585,,1,قَارَن,compared,verb,3
+2586,,3,خَمَّن,guessed,verb,3
+2589,,3,رَتَّب مَوْعِد,arranged an appointment,verb,3
+2590,,2,لَغَى المَوْعِد,canceled the appointment,verb,3
+2591,,2,غَيَّر المَوْعِد,changed the appointment,frame,3
+2592,,2,أَجَّل المَوْعِد,postponed the appointment,frame,3
+2593,,2,بَكَّر المَوْعِد,moved the appointment earlier,verb,4
+2594,,3,أَخَّر المَوْعِد,moved the appointment later,verb,3
+2595,,2,كُنْت بْمَكَانَك,If I were you (to m.),frame,3
+2596,,3,لَو إِنِّي مَحَلَّك,If I were in your place (to m.),frame,3
+2597,,2,شَكْلُو رَحْ يِمْطُر,Looks like it's going to rain,frame,2
+2598,,3,شَكْلِي رَح أَتْأَخَّر,Looks like I'm going to be late,frame,2
+2599,,2,بِيبَيِّن إِنُّو,It seems that / it's apparent that,frame,3
+2600,,2,مَا بِيبَيِّن عَلَيْك,It doesn't show on you (to m.),formula,3
+2601,,2,طِلْعَت أَحْسَن مِمَّا تْوَقَّعْت,It turned out better than I expected,frame,3
+2602,,2,مَا تْوَقَّعْت إِنُّو هَيْك,I didn't expect it to be like this,frame,3
+2603,,3,عَ حَسَب شُو بْتِحْكِي,According to what you say (to m.),frame,3
+2604,,2,بِغَضّ النَّظَر عَن هَاد,Regardless of this,frame,4
+2605,,3,كُلّ مَا فَكَّرْت فِيهَا,The more I think about it,frame,3
+2606,,3,مِش بَسّ هَيْك كَمَان,"Not only that, also...",frame,3
+2607,,3,لَا هَاد وَلَا هَاد,Neither this nor that,formula,3
+2608,,3,بِدِّي أَفْهَم إِشِي,I want to understand something,formula,2
+2609,,2,يَعْنِي بْتِقْصِد...,You mean... (to m.),frame,2
+2610,,3,مِش فَاهِم عَلَيْك,I don't understand you (to m.),formula,1
+2611,,2,مُمْكِن تِشْرَحْلِي؟,Can you explain to me? (to m.),formula,2
+2612,,3,إِعَادَة,repetition / replay,noun,3
+2613,,2,مَرَّة تَانْيِة,one more time,adverb,2
+2614,,2,مِن الأَوَّل,from the beginning,adverb,2
+2615,,3,كَرَّر,repeated,verb,3
+2616,,2,خَلِّينِي أَتَأَكَّد,Let me make sure,frame,2
+2617,,2,مِتْأَكّْدِة,Are you sure? (to f.),formula,2
+2618,,3,كَرْت,card (general),noun,3
+2619,,3,فْلَاشِة,USB drive / flash drive,noun,3
+2620,,2,سْبِيكَر,speaker,noun,3
+2621,,2,بْلُوتُوث,Bluetooth,noun,4
+2622,,3,وَصْلِة,adapter / cable,noun,3
+2623,,2,كَابِل,cable,noun,4
+2626,,2,اِسْتَغَلّ,took advantage of / exploited,verb,4
+2627,,1,أَثَّر,influenced / affected,verb,3
+2628,,3,اِهْتَمّ,cared / was interested,verb,3
+2629,,3,هَمَّل,neglected,verb,4
+2630,,3,أَهْمَل,neglected (MSA form),verb,4
+2632,,2,مُوجِة حَرّ,heat wave,noun,3
+2633,,2,مُوجِة بَرِد,cold wave,noun,4
+2634,,3,جَلِيد,ice,noun,4
+2635,,3,نَدَى,dew,noun,4
+2637,,3,غُرُوب,sunset,noun,3
+2638,,2,شُرُوق,sunrise,noun,4
+2640,,2,زَرَع,planted / farmed,verb,3
+2641,,3,حَصَد,harvested,verb,4
+2643,,2,مَوْسِم,season (harvest/agricultural),noun,3
+2644,,2,مَوْسِم الزَّيْتُون,olive season,noun,3
+2645,,3,قَطْف الزَّيْتُون,olive picking,noun,3
+2646,,2,عَصِر الزِّيتُون,olive pressing,noun,3
+2647,,3,مَعْصَرَة,olive press,noun,3
+2648,,3,طَابُون,taboon (traditional clay oven),noun,3
+2649,,3,سَاج,saj (dome griddle for bread),noun,4
+2650,,3,كَعِك القُدِس,Jerusalem sesame bread,noun,3
+2652,,3,كَفَالَة,guarantee / bail,noun,4
+2654,,3,تَأْمِين صِحِّي,health insurance,noun,4
+2656,,2,مَوْعِد عِنْد الدُّكْتُور,doctor's appointment,noun,3
+2657,,3,غُرْزِة,stitch (medical),noun,4
+2658,,2,جِبِس,cast / plaster,noun,4
+2659,,3,عُكَّاز,crutch,noun,4
+2663,,3,سَمَّاعَة,hearing aid / stethoscope,noun,3
+2664,,3,وَاو شُو صَار,"Wow, what happened",formula,2
+2665,,2,لَا حَوْل اللَّه,Oh my God (distress),formula,3
+2666,,2,مَا شَاءَ الله عَلَيْك,"Wow, good for you (to m.)",formula,1
+2667,,3,يَا سَاتِر,Oh God protect us,formula,2
+2668,,2,يَا عَيْب الشُّوم,How shameful,formula,4
+2669,,3,هاي مَسْخَرَة,This is ridiculous,formula,3
+2670,,3,بَلَا أَخْلَاق,No manners / rude,formula,3
+2671,,2,يِعْطِيك العَافْيِة يَا مْعَلِّم,"God bless you, boss",formula,2
+2672,,3,أَخُوي,bro / my brother,noun,2
+2673,,3,حَبِيبِي يَا عَيْنِي,"my dear, my eye (double endearment)",formula,3
+2674,,3,شُو هَالشَّكِل,What a look / what's this appearance,formula,3
+2675,,2,مِتْلِي مِتْلَك,"same as me, same as you (= we're equal)",formula,3
+2676,,3,شُو خَصَّك,What's it to you / mind your business (to m.),formula,3
+2677,,3,مَا دَخْلَك,It's none of your business (to m.),formula,3
+2678,,2,بْتِعْمِلْهَا وِلَّا لَأ؟,Are you going to do it or not? (to m.),formula,3
+2679,,3,خَلِّيك جَاهِز,Stay ready / be prepared (to m.),formula,3
+2680,,3,فْهِمْت عَلَيّ,You get me? / You understand? (to m.),formula,2
+2681,,3,مَاشِي الحَال,Things are going OK / getting by,formula,1
+2682,,3,الدِّنْيَا مَاشْيَة,Things are going along / life goes on,formula,3
+2683,,2,اللَّه كْبِير,God is great (= it'll work out),formula,3
+2684,,3,تَعَال نِحْكِي بِالمَوْضُوع,"Come, let's talk about it (to m.)",formula,3
+2685,,3,بِدِّي أَفَضْفِضْلَك,I want to vent to you (to m.),frame,4
+2686,,2,فَضْفَض,vented / let it out,verb,4
+2687,,3,عَ رَاحْتَك,at your own pace / take your time (to m.),formula,2
+2688,,3,مِش مِسْتَعْجِل,I'm not in a hurry,frame,2
+2689,,2,خُد وَأْتَك,Take your time (to m.),formula,2
+2690,,2,بَلَّش يِحْكِي وْمَا وَقَف,He started talking and didn't stop,frame,3
+2691,,3,مَا خَلَّانِي أَحْكِي,He didn't let me speak,frame,2
+2692,,2,أَاطَعْنِي,He interrupted me,verb,3
+2693,,2,قَاطَع,interrupted,verb,3
+2694,,2,عَلَّق,commented,verb,3
+2695,,2,اِنْتَقَد,criticized,verb,4
+2696,,2,مَدَح,praised / complimented,verb,4
+2697,,2,شَجَّع,encouraged,verb,3
+2698,,2,ثَبَّت,confirmed / fixed in place,verb,3
+2700,,3,حَسَّن,improved,verb,3
+2701,,3,وَسَّع,widened / expanded,verb,3
+2702,,3,ضَيَّق,narrowed / tightened,verb,4
+2703,,3,قَوَّى,strengthened,verb,3
+2704,,3,ضَعَّف,weakened,verb,4
+2705,,3,بَسَّط,simplified,verb,3
+2706,,2,عَقَّد,complicated,verb,3
+2707,,3,وَضَّح,clarified / explained,verb,3
+2712,,3,اِحْتَرَم,respected,verb,3
+2713,,2,أَهَان,insulted / disrespected,verb,4
+2714,,1,تَمَنْيَك,joking / kidding around,noun,4
+2715,,1,فَشَخَة,extremely (slang noun form),noun,5
+2716,,2,يَلَّا خَلِّينَا نْبَلِّش,Alright let's get started,formula,2
+2717,,2,وَقَّفْنَا عِنْد...,We stopped at... (in a story),frame,3
+2718,,3,فَكِّرْنِي,"Remind me (imperative, to m.)",formula,2
+2719,,2,ذَكِّرْنِي,"Remind me (imperative, to m.)",verb,3
+2720,,2,بَلَّغ,reported / notified,verb,3
+2721,,3,أَبْلَغ,reported / informed (Form IV),verb,4
+2722,,3,اِسْتَفْسَر,inquired,verb,4
+2724,,2,أَنَا مِن فِلَسْطِين,I'm from Palestine,frame,1
+2725,,2,أَنَا فِلَسْطِينِي,I'm Palestinian (m.),frame,2
+2726,,2,أَنَا فِلَسْطِينِيِّة,I'm Palestinian (f.),frame,1
+2727,,2,اللَّه يِحْفَظ فِلَسْطِين,God protect Palestine,formula,3
+2728,,2,عَاشِت فِلَسْطِين,Long live Palestine,formula,4

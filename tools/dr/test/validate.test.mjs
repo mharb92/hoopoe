@@ -90,3 +90,11 @@ test('validateBatch: reports duplicate ids in the response', () => {
   assert.equal(result.valid, false);
   assert.deepEqual(result.duplicateIds, [1]);
 });
+
+test('arabic_vocalised must be Arabic script: Hebrew letters or niqqud fail validation', async () => {
+  const { checkArabicScript } = await import('../validate.mjs');
+  assert.equal(checkArabicScript('مِشْمِش'), null);
+  assert.equal(checkArabicScript('بْتِعْرَف وֵين ال...؟'), 'ֵ');
+  assert.equal(checkArabicScript('מִשְמִש'), 'מ');
+  assert.equal(checkArabicScript('شُو (to m.)'), 't');
+});

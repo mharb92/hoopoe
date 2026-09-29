@@ -1,0 +1,31 @@
+(node:681) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+batch 1: staged 60/60, spend $0.7446
+batch 2: staged 60/60, spend $1.4861
+batch 3: staged 60/60, spend $2.1392
+DR run dr-rejudge-2026-09-29
+stop reason: completed
+batches 3/3  staged 180  skipped(resume) 0
+spend $2.1392 of cap $5.00
+
+P1 PASS every requested id returned exactly once (first response)
+      {"requested":180,"batches":[{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]},{"missingIds":[],"extraIds":[],"duplicateIds":[]}]}
+P2 PASS schema conformance after at most 1 repair retry
+      {"unresolvedIds":[],"repairCalls":0}
+P3 PASS pos/register/form_origin/level are enum values only
+      {"violations":[]}
+P4 PASS every row carries level, level_reason, level_conf
+      {"violations":[]}
+P5 PASS level spread is at least 3 distinct values
+      {"levels":{"1":14,"2":56,"3":85,"4":24,"5":1}}
+P6 FAIL verb share of level 1-2 rows >= 0.3 (external signal 0.4)
+      {"verbShare":0.04285714285714286,"lowBandRows":70,"externalSignal":0.4}
+P7 —    held rate and native_check rate (recorded, not a gate)
+      {"heldRate":0.4388888888888889,"held":79,"rows":180,"nativeCheckRate":0.1,"nativeCheck":18}
+P8 —    cost and output tokens per row, extrapolated to 2,728 (recorded)
+      {"outputTokensPerRow":{"min":464.26666666666665,"p50":507.2,"p90":537.3166666666667,"max":537.3166666666667,"mean":502.92777777777775},"outputTokensPerCall":{"min":27856,"p50":30432,"p90":32239,"max":32239,"mean":30175.666666666668},"maxTokensConfigured":64000,"worstCallVsMaxTokens":0.503734375,"thinkingTokens":{"total":60632,"perCall":{"min":18270,"p50":20359,"p90":22003,"max":22003,"mean":20210.666666666668},"shareOfOutput":0.669767030830581},"preambleTokens":{"created":{"min":10556,"p50":10643,"p90":15667,"max":15667,"mean":12288.666666666666},"read":{"min":23245,"p50":28198,"p90":28198,"max":28198,"mean":26547}},"metered":["transport"],"usd":2.1391691999999995,"usdPerRow":0.01188427333333333,"usdExtrapolated":32.42029765333333}
+P9 —    review_confidence distribution, extrapolated to 2,728 (recorded)
+      {"distribution":{"1":5,"2":74,"3":101},"extrapolated":{"1":76,"2":1122,"3":1531},"rows":180}
+P10 PASS vowel-length flip rate >= 0.05 (pass/fail on the prompt, D210)
+      {"flipRate":0.19444444444444445,"flipped":35,"rows":180,"flippedIds":[2154,1700,1352,1222,2082,1235,1625,479,2725,1604,1203,1994,1432,1702,257,2497,2422,1853,1391,213,1434,782,1514,1833,1469,2724,1470,1981,467,2539,965,1944,242,2104,1662]}
+artefacts: /home/user/hoopoe/runs/dr-rejudge-2026-09-29

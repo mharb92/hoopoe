@@ -13,6 +13,7 @@ function goodRow(overrides = {}) {
     ...overrides,
   };
 }
+const corr = (type, conf) => [{ field: 'notes', suggested: 'x', type, reason: 'r', conf }];
 
 test('all-H, no native_check -> status auto, review_confidence 3', () => {
   const { status, routing, review_confidence } = routeRow(goodRow());
@@ -21,49 +22,63 @@ test('all-H, no native_check -> status auto, review_confidence 3', () => {
   assert.equal(review_confidence, 3);
 });
 
-test('any M holds the row and caps review_confidence at 2', () => {
-  const row = goodRow({ level_conf: 'M' });
-  const { status, routing, review_confidence } = routeRow(row);
-  assert.equal(status, 'held');
-  assert.equal(routing.level, 'held');
-  assert.equal(review_confidence, 2);
+test('D276: level and enum confidence are recorded but neither score nor hold the row', () => {
+  for (const conf of ['M', 'L']) {
+    const { status, routing, review_confidence } = routeRow(goodRow({ level_conf: conf, enum_conf: conf }));
+    assert.equal(routing.level, 'held');
+    assert.equal(routing.enum, 'held');
+    assert.equal(review_confidence, 3);
+    assert.equal(status, 'auto');
+  }
 });
 
-test('any L holds the row and caps review_confidence at 1, regardless of other fields', () => {
-  const row = goodRow({ level_conf: 'L', enum_conf: 'H' });
+test('an M on romanization or arabic_vocalised holds the row at 2', () => {
+  for (const row of [goodRow({ romanization: { value: 'x', conf: 'M', changed: false } }),
+    goodRow({ arabic_vocalised: { value: 'مَبْرُوك', conf: 'M' } })]) {
+    const { status, review_confidence } = routeRow(row);
+    assert.equal(status, 'held');
+    assert.equal(review_confidence, 2);
+  }
+});
+
+test('an L on a pronunciation field scores 1, regardless of other signals', () => {
+  const row = goodRow({ arabic_vocalised: { value: 'مَبْرُوك', conf: 'L' }, native_check: true });
   const { status, review_confidence } = routeRow(row);
   assert.equal(status, 'held');
   assert.equal(review_confidence, 1);
 });
 
-test('native_check true holds the row even with all-H confidences', () => {
-  const row = goodRow({ native_check: true });
-  const { status, review_confidence } = routeRow(row);
+test('native_check true holds the row at 2 even with all-H confidences', () => {
+  const { status, review_confidence } = routeRow(goodRow({ native_check: true }));
   assert.equal(status, 'held');
   assert.equal(review_confidence, 2);
 });
 
-test('a flagged correction of type meaning/harakaat/romanization caps review_confidence at 2 even with all-H', () => {
-  const row = goodRow({
-    corrections: [{ field: 'notes', suggested: 'x', type: 'meaning', reason: 'wrong gloss', conf: 'H' }],
-  });
-  const { status, review_confidence } = routeRow(row);
-  // status still reflects field confidences (all H, native_check false) -> auto per §7.2,
-  // but review_confidence is capped at 2 per dr-scoped-pass.md §3.
-  assert.equal(status, 'auto');
-  assert.equal(review_confidence, 2);
+test('D274/D276: an M or L correction to meaning or the Arabic caps at 2 and holds', () => {
+  for (const type of ['meaning', 'harakaat', 'romanization', 'variant', 'conjugation', 'root', 'gender']) {
+    for (const conf of ['M', 'L']) {
+      const { status, review_confidence } = routeRow(goodRow({ corrections: corr(type, conf) }));
+      assert.equal(review_confidence, 2, `${type} ${conf}`);
+      assert.equal(status, 'held', `${type} ${conf}`);
+    }
+  }
 });
 
-test('a non-capping correction type (e.g. notes) does not cap review_confidence', () => {
-  const row = goodRow({
-    corrections: [{ field: 'notes', suggested: 'x', type: 'notes', reason: 'usage not recorded', conf: 'M' }],
-  });
-  const { review_confidence } = routeRow(row);
-  assert.equal(review_confidence, 3);
+test('D274/D276: an H correction applies cleanly and does not cap', () => {
+  for (const type of ['meaning', 'harakaat', 'romanization', 'conjugation']) {
+    assert.equal(routeRow(goodRow({ corrections: corr(type, 'H') })).review_confidence, 3, type);
+  }
 });
 
-test('L always wins over M and native_check for review_confidence (minimum across critical fields)', () => {
-  const row = goodRow({ level_conf: 'L', enum_conf: 'M', native_check: true });
-  const { review_confidence } = routeRow(row);
+test('notes, pos, tag, duplicate and gap never cap, at any confidence', () => {
+  for (const type of ['notes', 'pos', 'tag', 'duplicate', 'gap']) {
+    assert.equal(routeRow(goodRow({ corrections: corr(type, 'L') })).review_confidence, 3, type);
+  }
+});
+
+test('a non-Arabic character in arabic_vocalised scores 1 (chat 31: Hebrew niqqud in staged rows)', () => {
+  const { status, review_confidence } = routeRow(goodRow({ arabic_vocalised: { value: 'מִשְמִש', conf: 'H' } }));
   assert.equal(review_confidence, 1);
+  assert.equal(status, 'held');
+  assert.equal(routeRow(goodRow({ arabic_vocalised: { value: 'بِدَّك كَمَان؟', conf: 'H' } })).review_confidence, 3);
 });

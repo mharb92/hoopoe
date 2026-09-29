@@ -88,7 +88,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 605,Y,3,وَافَق,agreed,verb,2
 609,Y,3,مَنَع,prevented / forbade,verb,3
 620,Y,3,حَلَق,shaved,verb,3
-627,Y,2,صَلَّى,prayed,verb,3
+627,Y,2,صَلَّى,prayed,verb,2
 634,Y,3,بَرَّد,cooled down,verb,3
 638,Y,3,حَمَّص,toasted / roasted (nuts/chickpeas),verb,4
 648,Y,2,شَغَّل,turned on (device/machine),verb,2
@@ -472,7 +472,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 561,,2,نَصَح,advised,verb,3
 567,,2,ظَنّ,assumed / thought,verb,3
 568,,2,تْوَقَّع,expected,verb,3
-571,,3,اِنْتَبَه,noticed / paid attention,verb,3
+571,,3,اِنْتَبَه,noticed / paid attention,verb,2
 580,,3,زِهِق,got bored / fed up,verb,2
 581,,3,مَلّ,got bored,verb,3
 587,,2,فِرِح,was happy / rejoiced,verb,2
@@ -1569,15 +1569,15 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2328,,3,اِنْسَرَق,got stolen,verb,3
 2329,,2,عِلِق,got stuck,verb,3
 2331,,3,نَقَص,decreased,verb,3
-2332,,3,كَفَى,was enough,verb,3
+2332,,3,كَفَى,was enough,verb,2
 2333,,3,ضِحِك عَلَيّ,tricked me / fooled me (lit: laughed at me),frame,3
 2335,,2,نَسَّق,coordinated / organized,verb,4
 2336,,2,وَفَّق,succeeded / reconciled,verb,3
-2337,,3,دَبَّر,managed / figured out / arranged,verb,3
+2337,,3,دَبَّر,managed / figured out / arranged,verb,2
 2339,,3,كَشَف,revealed / uncovered / examined,verb,4
 2341,,2,اِسْتَخْبَى,hid (oneself),verb,3
 2343,,3,اِخْتَفَى,disappeared,verb,3
-2344,,3,عَيَّط,cried / yelled,verb,3
+2344,,3,عَيَّط,cried / yelled,verb,2
 2345,,3,حَلَف,swore / took an oath,verb,3
 2348,,3,إِجْرِي بْتُوجَعْنِي,My leg/foot hurts,formula,2
 2349,,2,عَيْنِي حَمْرَا,My eye is red,frame,3
@@ -1902,7 +1902,7 @@ our_id,mvp,our_confidence,our_arabic,our_english,our_pos,our_level
 2716,,2,يَلَّا خَلِّينَا نْبَلِّش,Alright let's get started,formula,2
 2717,,2,وَقَّفْنَا عِنْد...,We stopped at... (in a story),frame,3
 2718,,3,فَكِّرْنِي,"Remind me (imperative, to m.)",formula,2
-2719,,2,ذَكِّرْنِي,"Remind me (imperative, to m.)",verb,3
+2719,,2,ذَكِّرْنِي,"Remind me (imperative, to m.)",verb,2
 2720,,2,بَلَّغ,reported / notified,verb,3
 2721,,3,أَبْلَغ,reported / informed (Form IV),verb,4
 2722,,3,اِسْتَفْسَر,inquired,verb,4

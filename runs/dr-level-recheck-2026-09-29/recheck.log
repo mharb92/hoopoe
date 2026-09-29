@@ -1,0 +1,6 @@
+2026-09-29T22:10:12.390Z start: 206 level-3 verbs, 206 to check, $0.0000 spent
+2026-09-29T22:10:33.744Z batch 1 attempt 1: 0 unresolved, total $0.1099
+2026-09-29T22:11:07.712Z batch 2 attempt 1: 0 unresolved, total $0.2386
+2026-09-29T22:11:36.224Z batch 3 attempt 1: 0 unresolved, total $0.3572
+2026-09-29T22:11:54.851Z batch 4 attempt 1: 0 unresolved, total $0.4422
+2026-09-29T22:11:54.853Z done: 206 checked, 15 move to level 2 (H), $0.4422

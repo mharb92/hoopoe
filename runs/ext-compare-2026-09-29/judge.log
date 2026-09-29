@@ -40,3 +40,5 @@
 2026-09-29T22:06:55.536Z batch 2/3 meaning_mismatch (low): 40 rows, 0 repaired, $0.1193, total $3.9060
 2026-09-29T22:07:04.822Z batch 3/3 different_word (low): 12 rows, 0 repaired, $0.0722, total $3.9782
 2026-09-29T22:07:04.991Z done: 734 judged, $3.9782
+2026-09-29T22:12:28.610Z start: 0 batches, 1262 rows already judged, $3.9782 spent, cap $15
+2026-09-29T22:12:28.779Z done: 734 judged, $3.9782

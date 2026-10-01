@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2094,
+  "arabic": "بكرا بيطلع الصبح",
+  "english": "Tomorrow the morning will come (= things will work out)",
+  "pos": "formula"
+ },
+ {
+  "id": 255,
+  "arabic": "بشوفك",
+  "english": "see you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1573,
+  "arabic": "موظفة",
+  "english": "employee (f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 735,
+  "arabic": "سكت",
+  "english": "was quiet / shut up",
+  "pos": "verb"
+ },
+ {
+  "id": 3166,
+  "arabic": "سامع",
+  "english": "hearing",
+  "pos": "adjective"
+ },
+ {
+  "id": 2226,
+  "arabic": "كرامة",
+  "english": "dignity",
+  "pos": "noun"
+ },
+ {
+  "id": 2283,
+  "arabic": "حجز",
+  "english": "reservation / booking",
+  "pos": "noun"
+ },
+ {
+  "id": 394,
+  "arabic": "مخي وقف",
+  "english": "I'm overwhelmed (lit: my brain stopped)",
+  "pos": "formula"
+ },
+ {
+  "id": 1692,
+  "arabic": "فاتورة",
+  "english": "receipt / bill / invoice",
+  "pos": "noun"
+ },
+ {
+  "id": 2818,
+  "arabic": "دكتاتور",
+  "english": "dictator",
+  "pos": "noun"
+ },
+ {
+  "id": 1290,
+  "arabic": "بسكليت",
+  "english": "bicycle",
+  "pos": "noun"
+ },
+ {
+  "id": 2838,
+  "arabic": "إستعمار",
+  "english": "colonialism",
+  "pos": "noun"
+ },
+ {
+  "id": 981,
+  "arabic": "عمري... سنة",
+  "english": "I'm ... years old",
+  "pos": "frame"
+ },
+ {
+  "id": 21,
+  "arabic": "إيمتى",
+  "english": "when",
+  "pos": "adverb"
+ },
+ {
+  "id": 274,
+  "arabic": "معلش",
+  "english": "never mind / it's OK / sorry",
+  "pos": "formula"
+ },
+ {
+  "id": 2800,
+  "arabic": "قاضي",
+  "english": "judge",
+  "pos": "noun"
+ },
+ {
+  "id": 1127,
+  "arabic": "ريموت",
+  "english": "remote control",
+  "pos": "noun"
+ },
+ {
+  "id": 18,
+  "arabic": "وين",
+  "english": "where",
+  "pos": "adverb"
+ },
+ {
+  "id": 86,
+  "arabic": "ثلاثة",
+  "english": "three (3)",
+  "pos": "noun"
+ },
+ {
+  "id": 252,
+  "arabic": "مع السلامة",
+  "english": "goodbye (to the one leaving)",
+  "pos": "formula"
+ },
+ {
+  "id": 2698,
+  "arabic": "ثبت",
+  "english": "confirmed / fixed in place",
+  "pos": "verb"
+ },
+ {
+  "id": 1493,
+  "arabic": "مستدير",
+  "english": "round",
+  "pos": "adjective"
+ },
+ {
+  "id": 754,
+  "arabic": "مع إنو... بس",
+  "english": "even though... but",
+  "pos": "frame"
+ },
+ {
+  "id": 1941,
+  "arabic": "ظنيت إنو",
+  "english": "I thought that",
+  "pos": "frame"
+ },
+ {
+  "id": 791,
+  "arabic": "الله لا يهينك",
+  "english": "God not disgrace you (polite request, to m.)",
+  "pos": "formula"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 304,
+  "arabic": "الله يستر",
+  "english": "God protect us",
+  "pos": "formula"
+ },
+ {
+  "id": 999,
+  "arabic": "سمك",
+  "english": "fish",
+  "pos": "noun"
+ },
+ {
+  "id": 1245,
+  "arabic": "رصيف",
+  "english": "sidewalk",
+  "pos": "noun"
+ },
+ {
+  "id": 3173,
+  "arabic": "ليرة",
+  "english": "lira (singular)",
+  "pos": "noun"
+ },
+ {
+  "id": 2577,
+  "arabic": "بتعرف تسوق؟",
+  "english": "Do you know how to drive? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1456,
+  "arabic": "حق العودة",
+  "english": "the right of return",
+  "pos": "noun"
+ },
+ {
+  "id": 1224,
+  "arabic": "مستأجر",
+  "english": "tenant",
+  "pos": "noun"
+ },
+ {
+  "id": 1094,
+  "arabic": "أوضة الأكل",
+  "english": "dining room",
+  "pos": "noun"
+ },
+ {
+  "id": 214,
+  "arabic": "آخر الأسبوع",
+  "english": "weekend",
+  "pos": "noun"
+ },
+ {
+  "id": 2364,
+  "arabic": "معجنات",
+  "english": "pastries / baked goods",
+  "pos": "noun"
+ },
+ {
+  "id": 2683,
+  "arabic": "الله كبير",
+  "english": "God is great (= it'll work out)",
+  "pos": "formula"
+ },
+ {
+  "id": 2483,
+  "arabic": "الله يعيني",
+  "english": "God help me",
+  "pos": "formula"
+ },
+ {
+  "id": 1785,
+  "arabic": "من هون لـ... بقديش؟",
+  "english": "From here to..., how much?",
+  "pos": "frame"
+ },
+ {
+  "id": 1317,
+  "arabic": "وين الـ...؟",
+  "english": "Where is the...?",
+  "pos": "frame"
+ },
+ {
+  "id": 334,
+  "arabic": "بالآخر",
+  "english": "in the end / finally",
+  "pos": "adverb"
+ },
+ {
+  "id": 2978,
+  "arabic": "الجزائر",
+  "english": "algeria",
+  "pos": "noun"
+ },
+ {
+  "id": 151,
+  "arabic": "هالأسبوع",
+  "english": "this week",
+  "pos": "adverb"
+ },
+ {
+  "id": 1811,
+  "arabic": "وين بتشتغل؟",
+  "english": "Where do you work? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2694,
+  "arabic": "علق",
+  "english": "commented",
+  "pos": "verb"
+ },
+ {
+  "id": 146,
+  "arabic": "بعدين",
+  "english": "later / then / after that",
+  "pos": "adverb"
+ },
+ {
+  "id": 1513,
+  "arabic": "مشغول",
+  "english": "busy",
+  "pos": "adjective"
+ },
+ {
+  "id": 2697,
+  "arabic": "شجع",
+  "english": "encouraged",
+  "pos": "verb"
+ },
+ {
+  "id": 729,
+  "arabic": "حضر",
+  "english": "attended / was present",
+  "pos": "verb"
+ },
+ {
+  "id": 2370,
+  "arabic": "لوز",
+  "english": "almonds",
+  "pos": "noun"
+ },
+ {
+  "id": 1191,
+  "arabic": "تواليت",
+  "english": "toilet",
+  "pos": "noun"
+ }
+]

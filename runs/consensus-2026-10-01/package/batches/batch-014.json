@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2819,
+  "arabic": "إتفاق",
+  "english": "agreement",
+  "pos": "noun"
+ },
+ {
+  "id": 1839,
+  "arabic": "في حادث",
+  "english": "There's been an accident",
+  "pos": "formula"
+ },
+ {
+  "id": 2883,
+  "arabic": "وسط البلد",
+  "english": "downtown",
+  "pos": "noun"
+ },
+ {
+  "id": 531,
+  "arabic": "مشي",
+  "english": "walked",
+  "pos": "verb"
+ },
+ {
+  "id": 2485,
+  "arabic": "العين بصيرة والإيد قصيرة",
+  "english": "The eye sees but the hand can't reach",
+  "pos": "formula"
+ },
+ {
+  "id": 1616,
+  "arabic": "صلاة",
+  "english": "prayer",
+  "pos": "noun"
+ },
+ {
+  "id": 3007,
+  "arabic": "هلاندا",
+  "english": "the Netherlands",
+  "pos": "noun"
+ },
+ {
+  "id": 563,
+  "arabic": "حس",
+  "english": "felt / sensed",
+  "pos": "verb"
+ },
+ {
+  "id": 247,
+  "arabic": "مسا الخير",
+  "english": "good evening",
+  "pos": "formula"
+ },
+ {
+  "id": 1910,
+  "arabic": "إذا بتحتاج إشي رنيلي",
+  "english": "If you need something, call me (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 161,
+  "arabic": "يوم الخميس",
+  "english": "Thursday",
+  "pos": "noun"
+ },
+ {
+  "id": 2048,
+  "arabic": "على حسب الوضع",
+  "english": "depending on the situation",
+  "pos": "formula"
+ },
+ {
+  "id": 2824,
+  "arabic": "قسم",
+  "english": "divided",
+  "pos": "verb"
+ },
+ {
+  "id": 719,
+  "arabic": "استراح",
+  "english": "rested",
+  "pos": "verb"
+ },
+ {
+  "id": 2211,
+  "arabic": "حزن",
+  "english": "sadness",
+  "pos": "noun"
+ },
+ {
+  "id": 2282,
+  "arabic": "شنطة سفر",
+  "english": "travel bag",
+  "pos": "noun"
+ },
+ {
+  "id": 1670,
+  "arabic": "تراث",
+  "english": "heritage",
+  "pos": "noun"
+ },
+ {
+  "id": 1723,
+  "arabic": "إنترنت",
+  "english": "internet",
+  "pos": "noun"
+ },
+ {
+  "id": 558,
+  "arabic": "حذر",
+  "english": "warned",
+  "pos": "verb"
+ },
+ {
+  "id": 793,
+  "arabic": "ما تواخذني",
+  "english": "don't hold it against me (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2126,
+  "arabic": "ع الآخر",
+  "english": "to the max / extremely",
+  "pos": "adverb"
+ },
+ {
+  "id": 1093,
+  "arabic": "أوضة النوم",
+  "english": "bedroom",
+  "pos": "noun"
+ },
+ {
+  "id": 1547,
+  "arabic": "لحالو",
+  "english": "by himself / alone",
+  "pos": "adverb"
+ },
+ {
+  "id": 1823,
+  "arabic": "ممكن نأجل؟",
+  "english": "Can we postpone?",
+  "pos": "formula"
+ },
+ {
+  "id": 673,
+  "arabic": "باع",
+  "english": "sold",
+  "pos": "verb"
+ }
+]

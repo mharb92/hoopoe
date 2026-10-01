@@ -1,0 +1,152 @@
+[
+ {
+  "id": 444,
+  "arabic": "تعيشي وتاكلي غيرو",
+  "english": "may you live and eat more (to f. host)",
+  "pos": "formula"
+ },
+ {
+  "id": 1867,
+  "arabic": "منيو",
+  "english": "menu",
+  "pos": "noun"
+ },
+ {
+  "id": 2917,
+  "arabic": "فاخر",
+  "english": "luxurious",
+  "pos": "adjective"
+ },
+ {
+  "id": 1116,
+  "arabic": "سجادة",
+  "english": "rug / carpet",
+  "pos": "noun"
+ },
+ {
+  "id": 1268,
+  "arabic": "حديقة عامة",
+  "english": "public park",
+  "pos": "noun"
+ },
+ {
+  "id": 2210,
+  "arabic": "فرح",
+  "english": "joy / happiness",
+  "pos": "noun"
+ },
+ {
+  "id": 1358,
+  "arabic": "الجو حلو",
+  "english": "The weather is nice",
+  "pos": "formula"
+ },
+ {
+  "id": 826,
+  "arabic": "حماة",
+  "english": "mother-in-law",
+  "pos": "noun"
+ },
+ {
+  "id": 117,
+  "arabic": "ثلث",
+  "english": "third (fraction)",
+  "pos": "noun"
+ },
+ {
+  "id": 1961,
+  "arabic": "ما في حدا",
+  "english": "There's nobody",
+  "pos": "formula"
+ },
+ {
+  "id": 1304,
+  "arabic": "ركوب",
+  "english": "riding / getting on",
+  "pos": "noun"
+ },
+ {
+  "id": 1678,
+  "arabic": "قبلة",
+  "english": "direction of prayer (Mecca)",
+  "pos": "noun"
+ },
+ {
+  "id": 904,
+  "arabic": "غثيان",
+  "english": "nausea",
+  "pos": "noun"
+ },
+ {
+  "id": 1279,
+  "arabic": "بلدية",
+  "english": "municipality / city hall",
+  "pos": "noun"
+ },
+ {
+  "id": 2751,
+  "arabic": "فستق حلبي",
+  "english": "pistachio",
+  "pos": "noun"
+ },
+ {
+  "id": 690,
+  "arabic": "ضرب",
+  "english": "hit / beat",
+  "pos": "verb"
+ },
+ {
+  "id": 1827,
+  "arabic": "أول مرة بتيجي؟",
+  "english": "Is it your first time coming? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2066,
+  "arabic": "اللي بيطلع من الدار بيقل مقدارو",
+  "english": "The one who leaves home loses his worth",
+  "pos": "formula"
+ },
+ {
+  "id": 2420,
+  "arabic": "ميزانية",
+  "english": "budget",
+  "pos": "noun"
+ },
+ {
+  "id": 1376,
+  "arabic": "زيتونة",
+  "english": "olive tree",
+  "pos": "noun"
+ },
+ {
+  "id": 43,
+  "arabic": "بدال",
+  "english": "instead of",
+  "pos": "preposition"
+ },
+ {
+  "id": 1021,
+  "arabic": "تبولة",
+  "english": "tabbouleh",
+  "pos": "noun"
+ },
+ {
+  "id": 1660,
+  "arabic": "مقابلة",
+  "english": "interview",
+  "pos": "noun"
+ },
+ {
+  "id": 2505,
+  "arabic": "فضى الموضوع",
+  "english": "dropped the subject / moved on",
+  "pos": "verb"
+ },
+ {
+  "id": 2867,
+  "arabic": "أستاذة",
+  "english": "miss",
+  "pos": "noun"
+ }
+]

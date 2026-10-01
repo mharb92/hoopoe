@@ -1,0 +1,152 @@
+[
+ {
+  "id": 894,
+  "arabic": "كحة",
+  "english": "cough",
+  "pos": "noun"
+ },
+ {
+  "id": 2393,
+  "arabic": "قفة",
+  "english": "basket / crate",
+  "pos": "noun"
+ },
+ {
+  "id": 1366,
+  "arabic": "رمل",
+  "english": "sand",
+  "pos": "noun"
+ },
+ {
+  "id": 1740,
+  "arabic": "آلو",
+  "english": "hello (on phone)",
+  "pos": "formula"
+ },
+ {
+  "id": 2032,
+  "arabic": "كانك ما حكيت",
+  "english": "You should have kept quiet (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1627,
+  "arabic": "دعاء",
+  "english": "supplication / prayer",
+  "pos": "noun"
+ },
+ {
+  "id": 2486,
+  "arabic": "اللي بيحبك بيحب كلبك",
+  "english": "Who loves you loves your dog",
+  "pos": "formula"
+ },
+ {
+  "id": 2146,
+  "arabic": "خلص علي",
+  "english": "I'm done for / it's over",
+  "pos": "formula"
+ },
+ {
+  "id": 741,
+  "arabic": "فلت",
+  "english": "escaped / slipped away",
+  "pos": "verb"
+ },
+ {
+  "id": 3146,
+  "arabic": "محافظ",
+  "english": "conservative",
+  "pos": "noun"
+ },
+ {
+  "id": 1671,
+  "arabic": "هوية",
+  "english": "identity / ID card",
+  "pos": "noun"
+ },
+ {
+  "id": 1979,
+  "arabic": "كانو بيلعبو برا",
+  "english": "They used to play outside",
+  "pos": "frame"
+ },
+ {
+  "id": 3126,
+  "arabic": "ملاكمة",
+  "english": "boxing",
+  "pos": "noun"
+ },
+ {
+  "id": 2979,
+  "arabic": "أروبا",
+  "english": "europe",
+  "pos": "noun"
+ },
+ {
+  "id": 3174,
+  "arabic": "سلم",
+  "english": "greeted",
+  "pos": "verb"
+ },
+ {
+  "id": 1759,
+  "arabic": "غروب",
+  "english": "group chat",
+  "pos": "noun"
+ },
+ {
+  "id": 2264,
+  "arabic": "الله يوفقك بالشغل",
+  "english": "God grant you success at work (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 320,
+  "arabic": "غير",
+  "english": "other / different",
+  "pos": "adjective"
+ },
+ {
+  "id": 780,
+  "arabic": "وحشتني",
+  "english": "I missed you (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 351,
+  "arabic": "يعني بمعنى ثاني",
+  "english": "in other words",
+  "pos": "adverb"
+ },
+ {
+  "id": 1287,
+  "arabic": "سرفيس",
+  "english": "shared taxi / minibus",
+  "pos": "noun"
+ },
+ {
+  "id": 399,
+  "arabic": "طق",
+  "english": "went / hit (slang)",
+  "pos": "verb"
+ },
+ {
+  "id": 2862,
+  "arabic": "جبين",
+  "english": "forehead",
+  "pos": "noun"
+ },
+ {
+  "id": 3206,
+  "arabic": "تحقيق",
+  "english": "investigation",
+  "pos": "noun"
+ },
+ {
+  "id": 1292,
+  "arabic": "أمبولانس",
+  "english": "ambulance",
+  "pos": "noun"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 85,
+  "arabic": "ثنتين",
+  "english": "two (2, f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 294,
+  "arabic": "تقبرني",
+  "english": "you're so dear to me",
+  "pos": "formula"
+ },
+ {
+  "id": 357,
+  "arabic": "إلا إذا",
+  "english": "unless",
+  "pos": "conjunction"
+ },
+ {
+  "id": 1833,
+  "arabic": "شو بيشتغل أبوك؟",
+  "english": "What does your father do? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2375,
+  "arabic": "صغير علي",
+  "english": "Too small for me",
+  "pos": "frame"
+ },
+ {
+  "id": 3204,
+  "arabic": "بصمة",
+  "english": "fingerprint",
+  "pos": "noun"
+ },
+ {
+  "id": 2218,
+  "arabic": "حظ",
+  "english": "luck",
+  "pos": "noun"
+ },
+ {
+  "id": 2858,
+  "arabic": "عضلة",
+  "english": "muscle",
+  "pos": "noun"
+ },
+ {
+  "id": 928,
+  "arabic": "متنرفز",
+  "english": "nervous / irritated (m.)",
+  "pos": "adjective"
+ },
+ {
+  "id": 3148,
+  "arabic": "قيم",
+  "english": "values",
+  "pos": "noun"
+ },
+ {
+  "id": 261,
+  "arabic": "الله يسلمك",
+  "english": "God keep you safe (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 899,
+  "arabic": "عملية",
+  "english": "surgery / operation",
+  "pos": "noun"
+ },
+ {
+  "id": 1187,
+  "arabic": "قداحة",
+  "english": "lighter",
+  "pos": "noun"
+ },
+ {
+  "id": 1890,
+  "arabic": "ما كان المفروض تحكي",
+  "english": "You weren't supposed to say that (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2613,
+  "arabic": "مرة ثانية",
+  "english": "one more time",
+  "pos": "adverb"
+ },
+ {
+  "id": 3179,
+  "arabic": "تصالح",
+  "english": "made up with",
+  "pos": "verb"
+ },
+ {
+  "id": 2524,
+  "arabic": "إيش",
+  "english": "what (variant)",
+  "pos": "pronoun"
+ },
+ {
+  "id": 483,
+  "arabic": "خمسمية",
+  "english": "five hundred (500)",
+  "pos": "noun"
+ },
+ {
+  "id": 1055,
+  "arabic": "ملح",
+  "english": "salt",
+  "pos": "noun"
+ },
+ {
+  "id": 1625,
+  "arabic": "قسيس",
+  "english": "priest",
+  "pos": "noun"
+ },
+ {
+  "id": 2018,
+  "arabic": "بتعرف شو اللي صار",
+  "english": "You know what happened (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 854,
+  "arabic": "خشم",
+  "english": "nose (colloquial)",
+  "pos": "noun"
+ },
+ {
+  "id": 1354,
+  "arabic": "اليوم حر",
+  "english": "It's hot today",
+  "pos": "formula"
+ },
+ {
+  "id": 2067,
+  "arabic": "على قد لحافك مد إجريك",
+  "english": "Stretch your legs according to your blanket",
+  "pos": "formula"
+ },
+ {
+  "id": 2026,
+  "arabic": "بالأول...بعدين...",
+  "english": "First... then...",
+  "pos": "frame"
+ }
+]

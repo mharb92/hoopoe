@@ -1,0 +1,152 @@
+[
+ {
+  "id": 413,
+  "arabic": "إنت وإياه",
+  "english": "that's between you and him",
+  "pos": "formula"
+ },
+ {
+  "id": 253,
+  "arabic": "الله معك",
+  "english": "God be with you / bye (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2445,
+  "arabic": "نفسية",
+  "english": "mood / psychology / mental state",
+  "pos": "noun"
+ },
+ {
+  "id": 940,
+  "arabic": "ذكي",
+  "english": "smart / intelligent",
+  "pos": "adjective"
+ },
+ {
+  "id": 1535,
+  "arabic": "أكتر",
+  "english": "more / most",
+  "pos": "adjective"
+ },
+ {
+  "id": 2431,
+  "arabic": "الله يفرجها",
+  "english": "God relieve it (the hardship)",
+  "pos": "formula"
+ },
+ {
+  "id": 2675,
+  "arabic": "متلي متلك",
+  "english": "same as me, same as you (= we're equal)",
+  "pos": "formula"
+ },
+ {
+  "id": 173,
+  "arabic": "تشرين أول",
+  "english": "October",
+  "pos": "noun"
+ },
+ {
+  "id": 102,
+  "arabic": "تسعطعش",
+  "english": "nineteen (19)",
+  "pos": "noun"
+ },
+ {
+  "id": 2522,
+  "arabic": "بالرفاه والبنين",
+  "english": "with prosperity and sons (wedding blessing)",
+  "pos": "formula"
+ },
+ {
+  "id": 1792,
+  "arabic": "بحس بغثيان",
+  "english": "I feel nauseous",
+  "pos": "formula"
+ },
+ {
+  "id": 1252,
+  "arabic": "محل",
+  "english": "shop / store",
+  "pos": "noun"
+ },
+ {
+  "id": 1596,
+  "arabic": "شهادة",
+  "english": "degree / certificate / diploma",
+  "pos": "noun"
+ },
+ {
+  "id": 721,
+  "arabic": "عطش",
+  "english": "got thirsty",
+  "pos": "verb"
+ },
+ {
+  "id": 1355,
+  "arabic": "اليوم برد",
+  "english": "It's cold today",
+  "pos": "formula"
+ },
+ {
+  "id": 3228,
+  "arabic": "مصدر",
+  "english": "gerund, resource, origin",
+  "pos": "noun"
+ },
+ {
+  "id": 1360,
+  "arabic": "الدنيا عم بتبرق وبترعد",
+  "english": "It's lightning and thundering",
+  "pos": "formula"
+ },
+ {
+  "id": 1715,
+  "arabic": "ممكن تلفي هدية؟",
+  "english": "Can you gift wrap it? (to f.)",
+  "pos": "frame"
+ },
+ {
+  "id": 773,
+  "arabic": "عيد الميلاد",
+  "english": "Christmas / birthday",
+  "pos": "noun"
+ },
+ {
+  "id": 2082,
+  "arabic": "وجهو قليل",
+  "english": "He's shameless (lit: his face is little)",
+  "pos": "formula"
+ },
+ {
+  "id": 1118,
+  "arabic": "لمبة",
+  "english": "light bulb / lamp",
+  "pos": "noun"
+ },
+ {
+  "id": 2071,
+  "arabic": "اللي ما بيعرف الصقر بيشويه",
+  "english": "He who doesn't know the falcon grills it",
+  "pos": "formula"
+ },
+ {
+  "id": 2390,
+  "arabic": "دش",
+  "english": "shower",
+  "pos": "noun"
+ },
+ {
+  "id": 257,
+  "arabic": "بشوفك بعدين",
+  "english": "see you later (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2389,
+  "arabic": "مغسلة",
+  "english": "sink (kitchen/bathroom)",
+  "pos": "noun"
+ }
+]

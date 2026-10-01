@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1720,
+  "arabic": "لابتوب",
+  "english": "laptop",
+  "pos": "noun"
+ },
+ {
+  "id": 1674,
+  "arabic": "طهور",
+  "english": "circumcision celebration",
+  "pos": "noun"
+ },
+ {
+  "id": 519,
+  "arabic": "بعت",
+  "english": "sent",
+  "pos": "verb"
+ },
+ {
+  "id": 2774,
+  "arabic": "بندق",
+  "english": "hazelnut",
+  "pos": "noun"
+ },
+ {
+  "id": 1190,
+  "arabic": "بانيو",
+  "english": "bathtub",
+  "pos": "noun"
+ },
+ {
+  "id": 1748,
+  "arabic": "عطيني رقمك",
+  "english": "Give me your number (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 707,
+  "arabic": "شكر",
+  "english": "thanked",
+  "pos": "verb"
+ },
+ {
+  "id": 2640,
+  "arabic": "زرع",
+  "english": "planted / farmed",
+  "pos": "verb"
+ },
+ {
+  "id": 2953,
+  "arabic": "سحاب",
+  "english": "zipper",
+  "pos": "noun"
+ },
+ {
+  "id": 2779,
+  "arabic": "بطاطا مقلية",
+  "english": "chips",
+  "pos": "noun"
+ },
+ {
+  "id": 3022,
+  "arabic": "سويسرا",
+  "english": "switzerland",
+  "pos": "noun"
+ },
+ {
+  "id": 2693,
+  "arabic": "قاطع",
+  "english": "interrupted",
+  "pos": "verb"
+ },
+ {
+  "id": 2896,
+  "arabic": "نفق",
+  "english": "tunnel",
+  "pos": "noun"
+ },
+ {
+  "id": 1685,
+  "arabic": "فلوس",
+  "english": "money",
+  "pos": "noun"
+ },
+ {
+  "id": 2115,
+  "arabic": "شو هالحكي",
+  "english": "what kind of talk is this / nonsense",
+  "pos": "formula"
+ },
+ {
+  "id": 2855,
+  "arabic": "الشهر الماضي",
+  "english": "last month",
+  "pos": "noun"
+ },
+ {
+  "id": 2432,
+  "arabic": "الله يكرمك",
+  "english": "God honor you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 910,
+  "arabic": "بطني بتوجعني",
+  "english": "my stomach hurts",
+  "pos": "formula"
+ },
+ {
+  "id": 2341,
+  "arabic": "استخبى",
+  "english": "hid (oneself)",
+  "pos": "verb"
+ },
+ {
+  "id": 2271,
+  "arabic": "بتقدر تحكي هلأ؟",
+  "english": "Can you talk now? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2101,
+  "arabic": "عصفور بالإيد ولا عشرة ع الشجرة",
+  "english": "A bird in hand is better than ten on the tree",
+  "pos": "formula"
+ },
+ {
+  "id": 1377,
+  "arabic": "تينة",
+  "english": "fig tree",
+  "pos": "noun"
+ },
+ {
+  "id": 998,
+  "arabic": "دجاج",
+  "english": "chicken",
+  "pos": "noun"
+ },
+ {
+  "id": 2941,
+  "arabic": "غراب",
+  "english": "crow",
+  "pos": "noun"
+ },
+ {
+  "id": 2836,
+  "arabic": "راسمالية",
+  "english": "capitalism",
+  "pos": "noun"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 478,
+  "arabic": "درزن",
+  "english": "dozen",
+  "pos": "noun"
+ },
+ {
+  "id": 3227,
+  "arabic": "فقرة",
+  "english": "paragraph",
+  "pos": "noun"
+ },
+ {
+  "id": 1388,
+  "arabic": "حمامة",
+  "english": "pigeon / dove",
+  "pos": "noun"
+ },
+ {
+  "id": 2656,
+  "arabic": "موعد عند الدكتور",
+  "english": "doctor's appointment",
+  "pos": "noun"
+ },
+ {
+  "id": 390,
+  "arabic": "ما إلو داعي",
+  "english": "unnecessary / pointless",
+  "pos": "formula"
+ },
+ {
+  "id": 2342,
+  "arabic": "ظهر",
+  "english": "appeared / showed up",
+  "pos": "verb"
+ },
+ {
+  "id": 3223,
+  "arabic": "طائفة",
+  "english": "rel. branch",
+  "pos": "noun"
+ },
+ {
+  "id": 125,
+  "arabic": "ثامن",
+  "english": "eighth",
+  "pos": "adjective"
+ },
+ {
+  "id": 1207,
+  "arabic": "عفن",
+  "english": "rotten / spoiled",
+  "pos": "adjective"
+ },
+ {
+  "id": 2716,
+  "arabic": "يلا خلينا نبلش",
+  "english": "Alright let's get started",
+  "pos": "formula"
+ },
+ {
+  "id": 3009,
+  "arabic": "الأرجنتينا",
+  "english": "argentina",
+  "pos": "noun"
+ },
+ {
+  "id": 162,
+  "arabic": "يوم الجمعة",
+  "english": "Friday",
+  "pos": "noun"
+ },
+ {
+  "id": 3017,
+  "arabic": "موريتانيا",
+  "english": "mauritania",
+  "pos": "noun"
+ },
+ {
+  "id": 3005,
+  "arabic": "إيطاليا",
+  "english": "italy",
+  "pos": "noun"
+ },
+ {
+  "id": 1550,
+  "arabic": "بالعافية",
+  "english": "with difficulty / barely",
+  "pos": "adverb"
+ },
+ {
+  "id": 1213,
+  "arabic": "أرض",
+  "english": "floor / ground",
+  "pos": "noun"
+ },
+ {
+  "id": 935,
+  "arabic": "جوعان",
+  "english": "hungry (m.)",
+  "pos": "adjective"
+ },
+ {
+  "id": 3151,
+  "arabic": "منطق",
+  "english": "logic",
+  "pos": "noun"
+ },
+ {
+  "id": 1652,
+  "arabic": "شغل",
+  "english": "work / job",
+  "pos": "noun"
+ },
+ {
+  "id": 977,
+  "arabic": "مش طبيعي",
+  "english": "not normal / weird",
+  "pos": "adjective"
+ },
+ {
+  "id": 1406,
+  "arabic": "زلزلة",
+  "english": "earthquake",
+  "pos": "noun"
+ },
+ {
+  "id": 1762,
+  "arabic": "حكيتلو ع التلفون",
+  "english": "I talked to him on the phone",
+  "pos": "frame"
+ },
+ {
+  "id": 3120,
+  "arabic": "كرة سلة",
+  "english": "basketball",
+  "pos": "noun"
+ },
+ {
+  "id": 2787,
+  "arabic": "سياسة",
+  "english": "politics",
+  "pos": "noun"
+ },
+ {
+  "id": 1219,
+  "arabic": "أسانسير",
+  "english": "elevator",
+  "pos": "noun"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3190,
+  "arabic": "شغلة",
+  "english": "chore",
+  "pos": "noun"
+ },
+ {
+  "id": 2474,
+  "arabic": "على سبيل المثال",
+  "english": "for example (formal)",
+  "pos": "adverb"
+ },
+ {
+  "id": 1091,
+  "arabic": "بيت",
+  "english": "house / home",
+  "pos": "noun"
+ },
+ {
+  "id": 198,
+  "arabic": "مرتين",
+  "english": "twice",
+  "pos": "adverb"
+ },
+ {
+  "id": 433,
+  "arabic": "أهلا ومرحبا فيك",
+  "english": "welcome (warm, to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 878,
+  "arabic": "شفة",
+  "english": "lip",
+  "pos": "noun"
+ },
+ {
+  "id": 3044,
+  "arabic": "ابن خالة",
+  "english": "cousin (mother’s sister’s son)",
+  "pos": "noun"
+ },
+ {
+  "id": 2853,
+  "arabic": "اليوم بعد الظهر",
+  "english": "this afternoon",
+  "pos": "adverb"
+ },
+ {
+  "id": 2884,
+  "arabic": "ميدان",
+  "english": "public square",
+  "pos": "noun"
+ },
+ {
+  "id": 2232,
+  "arabic": "عذر",
+  "english": "excuse",
+  "pos": "noun"
+ },
+ {
+  "id": 1206,
+  "arabic": "محمص",
+  "english": "toasted / roasted",
+  "pos": "adjective"
+ },
+ {
+  "id": 2834,
+  "arabic": "قنبلة",
+  "english": "bomb",
+  "pos": "noun"
+ },
+ {
+  "id": 2386,
+  "arabic": "بقديش الإيجار بالشهر؟",
+  "english": "How much is the rent per month?",
+  "pos": "frame"
+ },
+ {
+  "id": 203,
+  "arabic": "نادرا",
+  "english": "rarely",
+  "pos": "adverb"
+ },
+ {
+  "id": 349,
+  "arabic": "من ناحية ثانية",
+  "english": "on the other hand",
+  "pos": "adverb"
+ },
+ {
+  "id": 1841,
+  "arabic": "ضاع تلفوني",
+  "english": "My phone got lost",
+  "pos": "frame"
+ },
+ {
+  "id": 1855,
+  "arabic": "كيف الأولاد؟",
+  "english": "How are the kids?",
+  "pos": "formula"
+ },
+ {
+  "id": 1110,
+  "arabic": "طاولة",
+  "english": "table",
+  "pos": "noun"
+ },
+ {
+  "id": 206,
+  "arabic": "من زمان",
+  "english": "a long time ago",
+  "pos": "adverb"
+ },
+ {
+  "id": 1927,
+  "arabic": "كل ما كبرت",
+  "english": "the more I grew up",
+  "pos": "frame"
+ },
+ {
+  "id": 3135,
+  "arabic": "ربح",
+  "english": "profit",
+  "pos": "noun"
+ },
+ {
+  "id": 2111,
+  "arabic": "الله يرحم أيامو",
+  "english": "God bless those days (nostalgia)",
+  "pos": "formula"
+ },
+ {
+  "id": 1432,
+  "arabic": "كنيسة القيامة",
+  "english": "Church of the Holy Sepulchre",
+  "pos": "noun"
+ },
+ {
+  "id": 1445,
+  "arabic": "جنين",
+  "english": "Jenin",
+  "pos": "noun"
+ },
+ {
+  "id": 2854,
+  "arabic": "ليلة مبارح",
+  "english": "last night",
+  "pos": "adverb"
+ }
+]

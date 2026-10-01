@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3091,
+  "arabic": "تعود",
+  "english": "got used to",
+  "pos": "verb"
+ },
+ {
+  "id": 2564,
+  "arabic": "المدير بيضغط علينا",
+  "english": "The boss is pressuring us",
+  "pos": "frame"
+ },
+ {
+  "id": 1363,
+  "arabic": "عشب",
+  "english": "grass",
+  "pos": "noun"
+ },
+ {
+  "id": 1856,
+  "arabic": "كيف الأهل؟",
+  "english": "How's the family?",
+  "pos": "formula"
+ },
+ {
+  "id": 1636,
+  "arabic": "عادة",
+  "english": "custom / habit",
+  "pos": "noun"
+ },
+ {
+  "id": 2983,
+  "arabic": "بلاد الشام",
+  "english": "the Levant",
+  "pos": "noun"
+ },
+ {
+  "id": 1726,
+  "arabic": "تطبيق",
+  "english": "app / application",
+  "pos": "noun"
+ },
+ {
+  "id": 862,
+  "arabic": "ضفر",
+  "english": "fingernail",
+  "pos": "noun"
+ },
+ {
+  "id": 254,
+  "arabic": "الله معك",
+  "english": "God be with you / bye (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2409,
+  "arabic": "أجر",
+  "english": "rented out / leased",
+  "pos": "verb"
+ },
+ {
+  "id": 1630,
+  "arabic": "عزاء",
+  "english": "condolences / funeral gathering",
+  "pos": "noun"
+ },
+ {
+  "id": 1139,
+  "arabic": "جكيت",
+  "english": "jacket",
+  "pos": "noun"
+ },
+ {
+  "id": 3000,
+  "arabic": "شمال أفريقيا",
+  "english": "north Africa",
+  "pos": "noun"
+ },
+ {
+  "id": 1381,
+  "arabic": "حصان",
+  "english": "horse",
+  "pos": "noun"
+ },
+ {
+  "id": 1251,
+  "arabic": "دكانة",
+  "english": "shop / small store",
+  "pos": "noun"
+ },
+ {
+  "id": 2773,
+  "arabic": "بامية",
+  "english": "okra",
+  "pos": "noun"
+ },
+ {
+  "id": 1128,
+  "arabic": "مكيف",
+  "english": "air conditioner",
+  "pos": "noun"
+ },
+ {
+  "id": 591,
+  "arabic": "تأثر",
+  "english": "was affected / moved",
+  "pos": "verb"
+ },
+ {
+  "id": 46,
+  "arabic": "لإنو",
+  "english": "because",
+  "pos": "conjunction"
+ },
+ {
+  "id": 2802,
+  "arabic": "حرب أهلية",
+  "english": "civil war",
+  "pos": "noun"
+ },
+ {
+  "id": 2828,
+  "arabic": "قبيلة",
+  "english": "tribe",
+  "pos": "noun"
+ },
+ {
+  "id": 2145,
+  "arabic": "راحت علي",
+  "english": "I missed my chance / it's over for me",
+  "pos": "formula"
+ },
+ {
+  "id": 3216,
+  "arabic": "الأمم المتحدة",
+  "english": "united Nations",
+  "pos": "noun"
+ },
+ {
+  "id": 2620,
+  "arabic": "سبيكر",
+  "english": "speaker",
+  "pos": "noun"
+ },
+ {
+  "id": 1297,
+  "arabic": "بنزين",
+  "english": "gasoline / petrol",
+  "pos": "noun"
+ }
+]

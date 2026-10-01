@@ -1,0 +1,152 @@
+[
+ {
+  "id": 374,
+  "arabic": "ما هو",
+  "english": "the thing is / well",
+  "pos": "particle"
+ },
+ {
+  "id": 762,
+  "arabic": "ثلاثة ونص",
+  "english": "three and a half",
+  "pos": "noun"
+ },
+ {
+  "id": 1197,
+  "arabic": "خلاص",
+  "english": "done / finished (emphatic)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2661,
+  "arabic": "نظارات",
+  "english": "glasses / eyeglasses",
+  "pos": "noun"
+ },
+ {
+  "id": 2726,
+  "arabic": "أنا فلسطينية",
+  "english": "I'm Palestinian (f.)",
+  "pos": "frame"
+ },
+ {
+  "id": 376,
+  "arabic": "يا سيدي",
+  "english": "well / look / OK fine",
+  "pos": "interjection"
+ },
+ {
+  "id": 2510,
+  "arabic": "ما بيسوى",
+  "english": "it's worthless / not worth it",
+  "pos": "formula"
+ },
+ {
+  "id": 2269,
+  "arabic": "آلو مرحبا",
+  "english": "Hello (phone opening)",
+  "pos": "formula"
+ },
+ {
+  "id": 159,
+  "arabic": "يوم التلاتة",
+  "english": "Tuesday",
+  "pos": "noun"
+ },
+ {
+  "id": 1992,
+  "arabic": "يا سلام شو حلو",
+  "english": "Wow, how beautiful",
+  "pos": "frame"
+ },
+ {
+  "id": 886,
+  "arabic": "دكتورة",
+  "english": "doctor (f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 1825,
+  "arabic": "بعتلك لوكيشن",
+  "english": "I'll send you the location (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 3087,
+  "arabic": "رضي",
+  "english": "was pleased / satisfied",
+  "pos": "verb"
+ },
+ {
+  "id": 3083,
+  "arabic": "منفتح",
+  "english": "open minded",
+  "pos": "adjective"
+ },
+ {
+  "id": 416,
+  "arabic": "إن شاء الله",
+  "english": "maybe / we'll see (hedging use)",
+  "pos": "formula"
+ },
+ {
+  "id": 733,
+  "arabic": "ذاق",
+  "english": "tasted",
+  "pos": "verb"
+ },
+ {
+  "id": 2972,
+  "arabic": "أمريكا",
+  "english": "america (USA)",
+  "pos": "noun"
+ },
+ {
+  "id": 1914,
+  "arabic": "عشان نلحق",
+  "english": "so that we make it on time",
+  "pos": "frame"
+ },
+ {
+  "id": 716,
+  "arabic": "تنهد",
+  "english": "sighed",
+  "pos": "verb"
+ },
+ {
+  "id": 1124,
+  "arabic": "ممسحة",
+  "english": "mop",
+  "pos": "noun"
+ },
+ {
+  "id": 2636,
+  "arabic": "قوس قزح",
+  "english": "rainbow",
+  "pos": "noun"
+ },
+ {
+  "id": 48,
+  "arabic": "إذا",
+  "english": "if",
+  "pos": "conjunction"
+ },
+ {
+  "id": 1020,
+  "arabic": "متبل",
+  "english": "mutabbal (eggplant dip)",
+  "pos": "noun"
+ },
+ {
+  "id": 1212,
+  "arabic": "حيط",
+  "english": "wall (interior)",
+  "pos": "noun"
+ },
+ {
+  "id": 1706,
+  "arabic": "بقديش هاد؟",
+  "english": "How much is this?",
+  "pos": "formula"
+ }
+]

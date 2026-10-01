@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1229,
+  "arabic": "وسخ",
+  "english": "dirty",
+  "pos": "adjective"
+ },
+ {
+  "id": 783,
+  "arabic": "خليك بخير",
+  "english": "stay well (farewell, to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2109,
+  "arabic": "هيك الدنيا",
+  "english": "That's life / that's how it is",
+  "pos": "formula"
+ },
+ {
+  "id": 1194,
+  "arabic": "سلك",
+  "english": "wire / cable",
+  "pos": "noun"
+ },
+ {
+  "id": 387,
+  "arabic": "أوف",
+  "english": "ugh / sigh",
+  "pos": "interjection"
+ },
+ {
+  "id": 3052,
+  "arabic": "تبني",
+  "english": "adoption",
+  "pos": "noun"
+ },
+ {
+  "id": 1090,
+  "arabic": "ني",
+  "english": "raw / uncooked",
+  "pos": "adjective"
+ },
+ {
+  "id": 462,
+  "arabic": "ع الأقل",
+  "english": "at least",
+  "pos": "adverb"
+ },
+ {
+  "id": 853,
+  "arabic": "منخار",
+  "english": "nose",
+  "pos": "noun"
+ },
+ {
+  "id": 767,
+  "arabic": "عتمة",
+  "english": "darkness / late night",
+  "pos": "noun"
+ },
+ {
+  "id": 2752,
+  "arabic": "فاصوليا",
+  "english": "green beans",
+  "pos": "noun"
+ },
+ {
+  "id": 2841,
+  "arabic": "مساواة",
+  "english": "equality",
+  "pos": "noun"
+ },
+ {
+  "id": 1605,
+  "arabic": "ألف با",
+  "english": "alphabet / ABCs",
+  "pos": "noun"
+ },
+ {
+  "id": 822,
+  "arabic": "خطيبة",
+  "english": "fiancée",
+  "pos": "noun"
+ },
+ {
+  "id": 2095,
+  "arabic": "ما بيصير إلا الخير",
+  "english": "Only good things will happen (= don't worry)",
+  "pos": "formula"
+ },
+ {
+  "id": 2621,
+  "arabic": "بلوتوث",
+  "english": "Bluetooth",
+  "pos": "noun"
+ },
+ {
+  "id": 2741,
+  "arabic": "هيل",
+  "english": "cardamon",
+  "pos": "noun"
+ },
+ {
+  "id": 2403,
+  "arabic": "عملت حادث",
+  "english": "I had an accident",
+  "pos": "formula"
+ },
+ {
+  "id": 1814,
+  "arabic": "بأي جامعة؟",
+  "english": "At which university?",
+  "pos": "formula"
+ },
+ {
+  "id": 1638,
+  "arabic": "ضيافة",
+  "english": "hospitality",
+  "pos": "noun"
+ },
+ {
+  "id": 104,
+  "arabic": "ثلاثين",
+  "english": "thirty (30)",
+  "pos": "noun"
+ },
+ {
+  "id": 2102,
+  "arabic": "اللي بيحفر حفرة لأخوه بيقع فيها",
+  "english": "He who digs a pit for his brother falls in it",
+  "pos": "formula"
+ },
+ {
+  "id": 1131,
+  "arabic": "مروحة",
+  "english": "fan",
+  "pos": "noun"
+ },
+ {
+  "id": 158,
+  "arabic": "يوم الإتنين",
+  "english": "Monday",
+  "pos": "noun"
+ },
+ {
+  "id": 3238,
+  "arabic": "مهرجان",
+  "english": "festival",
+  "pos": "noun"
+ }
+]

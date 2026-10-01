@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3213,
+  "arabic": "ولاية",
+  "english": "state",
+  "pos": "noun"
+ },
+ {
+  "id": 2942,
+  "arabic": "صقر",
+  "english": "hawk",
+  "pos": "noun"
+ },
+ {
+  "id": 3041,
+  "arabic": "مرة خال",
+  "english": "aunt (mother’s brother’s wife)",
+  "pos": "noun"
+ },
+ {
+  "id": 992,
+  "arabic": "عرس",
+  "english": "wedding",
+  "pos": "noun"
+ },
+ {
+  "id": 1183,
+  "arabic": "ركوة",
+  "english": "small coffee pot (Arabic)",
+  "pos": "noun"
+ },
+ {
+  "id": 1238,
+  "arabic": "مسحوق",
+  "english": "powder / detergent powder",
+  "pos": "noun"
+ },
+ {
+  "id": 703,
+  "arabic": "لحق",
+  "english": "made it in time / caught up",
+  "pos": "verb"
+ },
+ {
+  "id": 248,
+  "arabic": "مسا النور",
+  "english": "good evening (reply)",
+  "pos": "formula"
+ },
+ {
+  "id": 403,
+  "arabic": "لأ",
+  "english": "no",
+  "pos": "particle"
+ },
+ {
+  "id": 1030,
+  "arabic": "توم",
+  "english": "garlic",
+  "pos": "noun"
+ },
+ {
+  "id": 2719,
+  "arabic": "ذكرني",
+  "english": "Remind me (imperative, to m.)",
+  "pos": "verb"
+ },
+ {
+  "id": 552,
+  "arabic": "فسر",
+  "english": "explained",
+  "pos": "verb"
+ },
+ {
+  "id": 893,
+  "arabic": "رشح",
+  "english": "cold (illness)",
+  "pos": "noun"
+ },
+ {
+  "id": 2261,
+  "arabic": "بالتوفيق بالامتحان",
+  "english": "Good luck on the exam",
+  "pos": "formula"
+ },
+ {
+  "id": 3015,
+  "arabic": "الصومال",
+  "english": "somalia",
+  "pos": "noun"
+ },
+ {
+  "id": 1615,
+  "arabic": "إنجيل",
+  "english": "Bible / Gospel",
+  "pos": "noun"
+ },
+ {
+  "id": 2517,
+  "arabic": "تقبل الله",
+  "english": "May God accept (prayers/fasting)",
+  "pos": "formula"
+ },
+ {
+  "id": 2422,
+  "arabic": "فاتورة المي",
+  "english": "water bill",
+  "pos": "noun"
+ },
+ {
+  "id": 2551,
+  "arabic": "شو أخبار الأولاد بالمدرسة؟",
+  "english": "How are the kids doing at school?",
+  "pos": "frame"
+ },
+ {
+  "id": 1784,
+  "arabic": "في عداد؟",
+  "english": "Is there a meter?",
+  "pos": "formula"
+ },
+ {
+  "id": 1826,
+  "arabic": "من قديش ساكن هون؟",
+  "english": "How long have you lived here? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 484,
+  "arabic": "ألفين",
+  "english": "two thousand (2000)",
+  "pos": "noun"
+ },
+ {
+  "id": 1261,
+  "arabic": "مكتبة",
+  "english": "bookstore / library",
+  "pos": "noun"
+ },
+ {
+  "id": 2511,
+  "arabic": "بيسوى",
+  "english": "it's worth it",
+  "pos": "verb"
+ },
+ {
+  "id": 2255,
+  "arabic": "الله يرحمو ويغفرلو",
+  "english": "God have mercy and forgive him",
+  "pos": "formula"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3021,
+  "arabic": "اليونان",
+  "english": "greece",
+  "pos": "noun"
+ },
+ {
+  "id": 1626,
+  "arabic": "زكاة",
+  "english": "alms / zakat",
+  "pos": "noun"
+ },
+ {
+  "id": 2132,
+  "arabic": "بطل",
+  "english": "stopped / quit / it's no longer",
+  "pos": "verb"
+ },
+ {
+  "id": 3226,
+  "arabic": "لهجة",
+  "english": "accent",
+  "pos": "noun"
+ },
+ {
+  "id": 2939,
+  "arabic": "نمر",
+  "english": "tiger",
+  "pos": "noun"
+ },
+ {
+  "id": 2256,
+  "arabic": "عظم الله أجركم",
+  "english": "May God increase your reward (condolence, to pl.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1875,
+  "arabic": "مستعمل",
+  "english": "used / secondhand",
+  "pos": "adjective"
+ },
+ {
+  "id": 1809,
+  "arabic": "شو بتشتغل؟",
+  "english": "What do you do for work? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1083,
+  "arabic": "حلو",
+  "english": "sweet",
+  "pos": "adjective"
+ },
+ {
+  "id": 2359,
+  "arabic": "بكفيني",
+  "english": "That's enough for me",
+  "pos": "formula"
+ },
+ {
+  "id": 1333,
+  "arabic": "عالبلد لو سمحت",
+  "english": "To downtown please (to taxi driver)",
+  "pos": "frame"
+ },
+ {
+  "id": 1281,
+  "arabic": "محكمة",
+  "english": "court (legal)",
+  "pos": "noun"
+ },
+ {
+  "id": 1132,
+  "arabic": "زبالة",
+  "english": "trash / garbage",
+  "pos": "noun"
+ },
+ {
+  "id": 1942,
+  "arabic": "وعدني إنو",
+  "english": "He promised me that",
+  "pos": "frame"
+ },
+ {
+  "id": 2053,
+  "arabic": "خليني أفكر وبرجعلك",
+  "english": "Let me think and I'll get back to you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2065,
+  "arabic": "اللي على راسو بطحة بيحسس عليها",
+  "english": "The guilty one feels it (lit: who has a bump feels it)",
+  "pos": "formula"
+ },
+ {
+  "id": 2178,
+  "arabic": "مين",
+  "english": "who (dialect)",
+  "pos": "pronoun"
+ },
+ {
+  "id": 1328,
+  "arabic": "ثاني شارع ع الشمال",
+  "english": "second street on the left",
+  "pos": "frame"
+ },
+ {
+  "id": 2497,
+  "arabic": "خلى الأمور تمشي",
+  "english": "let things take their course",
+  "pos": "formula"
+ },
+ {
+  "id": 395,
+  "arabic": "زهقت",
+  "english": "I'm so bored / fed up",
+  "pos": "formula"
+ },
+ {
+  "id": 2986,
+  "arabic": "لبنان",
+  "english": "lebanon",
+  "pos": "noun"
+ },
+ {
+  "id": 2075,
+  "arabic": "عينو واسعة",
+  "english": "He's greedy (lit: his eye is wide)",
+  "pos": "formula"
+ },
+ {
+  "id": 1804,
+  "arabic": "الأكل ريحتو زاكية",
+  "english": "The food smells wonderful",
+  "pos": "formula"
+ },
+ {
+  "id": 1913,
+  "arabic": "ما رحت لإنو كنت تعبان",
+  "english": "I didn't go because I was tired",
+  "pos": "frame"
+ },
+ {
+  "id": 2490,
+  "arabic": "فتح عينو",
+  "english": "became aware / wised up",
+  "pos": "frame"
+ }
+]

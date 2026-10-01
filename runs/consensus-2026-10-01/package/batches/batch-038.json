@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1234,
+  "arabic": "مشغل",
+  "english": "turned on",
+  "pos": "adjective"
+ },
+ {
+  "id": 3124,
+  "arabic": "نافس",
+  "english": "competed against",
+  "pos": "verb"
+ },
+ {
+  "id": 3034,
+  "arabic": "ثمن",
+  "english": "eight + noun",
+  "pos": "noun"
+ },
+ {
+  "id": 1344,
+  "arabic": "شتا",
+  "english": "rain / winter rain",
+  "pos": "noun"
+ },
+ {
+  "id": 1496,
+  "arabic": "مثلث",
+  "english": "triangular",
+  "pos": "noun"
+ },
+ {
+  "id": 336,
+  "arabic": "لهيك",
+  "english": "that's why",
+  "pos": "conjunction"
+ },
+ {
+  "id": 2455,
+  "arabic": "قناعة",
+  "english": "contentment / conviction",
+  "pos": "noun"
+ },
+ {
+  "id": 2623,
+  "arabic": "كابل",
+  "english": "cable",
+  "pos": "noun"
+ },
+ {
+  "id": 1978,
+  "arabic": "كنت بروح كل يوم",
+  "english": "I used to go every day",
+  "pos": "frame"
+ },
+ {
+  "id": 2277,
+  "arabic": "وين بوابة رقم...؟",
+  "english": "Where is gate number...?",
+  "pos": "frame"
+ },
+ {
+  "id": 2961,
+  "arabic": "غرفة نوم",
+  "english": "bed room",
+  "pos": "noun"
+ },
+ {
+  "id": 1288,
+  "arabic": "تاكسي",
+  "english": "taxi",
+  "pos": "noun"
+ },
+ {
+  "id": 1858,
+  "arabic": "الله يسلمك",
+  "english": "God keep you safe (reply, to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1648,
+  "arabic": "حكواتي",
+  "english": "storyteller",
+  "pos": "noun"
+ },
+ {
+  "id": 1075,
+  "arabic": "فرن",
+  "english": "oven",
+  "pos": "noun"
+ },
+ {
+  "id": 1476,
+  "arabic": "مليح",
+  "english": "handsome / good-looking",
+  "pos": "adjective"
+ },
+ {
+  "id": 829,
+  "arabic": "كنة",
+  "english": "daughter-in-law",
+  "pos": "noun"
+ },
+ {
+  "id": 2149,
+  "arabic": "ع الفاضي والمليان",
+  "english": "for no good reason / over nothing",
+  "pos": "formula"
+ },
+ {
+  "id": 621,
+  "arabic": "فرش",
+  "english": "brushed (teeth)",
+  "pos": "verb"
+ },
+ {
+  "id": 1744,
+  "arabic": "رنيلي لما توصل",
+  "english": "Call me when you arrive (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2068,
+  "arabic": "اللي بيزرع بيحصد",
+  "english": "You reap what you sow",
+  "pos": "formula"
+ },
+ {
+  "id": 32,
+  "arabic": "بين",
+  "english": "between",
+  "pos": "preposition"
+ },
+ {
+  "id": 1130,
+  "arabic": "صوبة",
+  "english": "heater (kerosene/portable)",
+  "pos": "noun"
+ },
+ {
+  "id": 1813,
+  "arabic": "شو بتدرسي؟",
+  "english": "What do you study? (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2086,
+  "arabic": "بالعربي",
+  "english": "to put it plainly (lit: in Arabic)",
+  "pos": "adverb"
+ }
+]

@@ -1,0 +1,11 @@
+id,arabic,english,pos,romanization,vowelled_arabic,pronunciation_confidence,meaning_ok,meaning_fix,dialect,palestinian_alternative,reasoning
+22,قديش,how much / how many,adverb,'addeesh,قَدِّيش,high,yes,,palestinian,,"Urban ق is a glottal stop, written '. Shadda on د doubles it. The long vowel is ee, as in Palestinian 'addeesh."
+69,خلص,enough / done / that's it,interjection,khalaS,خَلَص,high,yes,,palestinian,,"ص is emphatic, so a capital S. Common Palestinian interjection."
+76,هون,here,adverb,hoon,هُون,high,yes,,palestinian,,"Long o, not u: hoon. Standard Palestinian for here."
+211,وقت الغدا,lunchtime,noun,wa't il-ghada,وَقْت الغَدَا,high,yes,,palestinian,,"ق in wa't is a glottal stop. il- stays il- before غ, a moon letter."
+503,حكى,spoke / said / told,verb,7aka,حَكَى,high,yes,,palestinian,,"ح is 7. Past tense, he-form, the everyday Palestinian verb for speaking."
+180,الساعة كم؟,What time is it?,formula,is-saa3a kam,السَّاعَة كَمْ؟,high,yes,,palestinian,,il- assimilates to the sun letter س: is-saa3a. Taa marbuta after ع is a. The question mark is not romanized.
+130,دقيقة,minute,noun,da'ii'a,دَقِيقَة,high,yes,,palestinian,,Both ق are glottal stops. Taa marbuta after ق is a.
+4,هو,he / him,pronoun,huwwe,هُوِّ,high,yes,,palestinian,,"Palestinian huwwe, with a doubled w and final e, not MSA huwa."
+90001,ليس,is not,particle,laysa,لَيْسَ,high,yes,,msa,مِش,"Formal MSA negation, not said in Palestinian conversation. A Ramallah speaker says mish."
+90002,كتير,a little,adverb,ktiir,كْتِير,high,no,very / a lot / much,palestinian,,ktiir means very or a lot; a little is shwayy.

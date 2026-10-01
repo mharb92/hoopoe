@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2632,
+  "arabic": "موجة حر",
+  "english": "heat wave",
+  "pos": "noun"
+ },
+ {
+  "id": 155,
+  "arabic": "السنة الجاي",
+  "english": "next year",
+  "pos": "adverb"
+ },
+ {
+  "id": 900,
+  "arabic": "إبرة",
+  "english": "needle / injection",
+  "pos": "noun"
+ },
+ {
+  "id": 3236,
+  "arabic": "زجل",
+  "english": "poetry singing",
+  "pos": "noun"
+ },
+ {
+  "id": 1680,
+  "arabic": "تلاوة",
+  "english": "Quran recitation",
+  "pos": "noun"
+ },
+ {
+  "id": 2081,
+  "arabic": "دمو بارد",
+  "english": "He's calm/patient (lit: his blood is cold)",
+  "pos": "formula"
+ },
+ {
+  "id": 770,
+  "arabic": "نص الليل",
+  "english": "midnight",
+  "pos": "noun"
+ },
+ {
+  "id": 1314,
+  "arabic": "مقابل",
+  "english": "across from / opposite",
+  "pos": "preposition"
+ },
+ {
+  "id": 185,
+  "arabic": "الساعة وربع",
+  "english": "quarter past",
+  "pos": "frame"
+ },
+ {
+  "id": 2509,
+  "arabic": "على راسو بطحة",
+  "english": "he's guilty (lit: he has a bump on his head)",
+  "pos": "formula"
+ },
+ {
+  "id": 1821,
+  "arabic": "ماشي متفقين",
+  "english": "OK, we're agreed",
+  "pos": "formula"
+ },
+ {
+  "id": 2419,
+  "arabic": "قرض",
+  "english": "loan",
+  "pos": "noun"
+ },
+ {
+  "id": 266,
+  "arabic": "يسلمو إيديكي",
+  "english": "bless your hands (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2362,
+  "arabic": "مكسرات",
+  "english": "nuts",
+  "pos": "noun"
+ },
+ {
+  "id": 723,
+  "arabic": "استعجل",
+  "english": "hurried / was in a rush",
+  "pos": "verb"
+ },
+ {
+  "id": 2513,
+  "arabic": "مش قصتي",
+  "english": "not my problem / not my business",
+  "pos": "formula"
+ },
+ {
+  "id": 3155,
+  "arabic": "بطاقة بنك",
+  "english": "bank card",
+  "pos": "noun"
+ },
+ {
+  "id": 1721,
+  "arabic": "تابلت",
+  "english": "tablet",
+  "pos": "noun"
+ },
+ {
+  "id": 2392,
+  "arabic": "تنك",
+  "english": "tin can / metal container",
+  "pos": "noun"
+ },
+ {
+  "id": 2798,
+  "arabic": "مستوطنة",
+  "english": "settlement",
+  "pos": "noun"
+ },
+ {
+  "id": 1295,
+  "arabic": "تذكرة",
+  "english": "ticket",
+  "pos": "noun"
+ },
+ {
+  "id": 1695,
+  "arabic": "محفظة",
+  "english": "wallet",
+  "pos": "noun"
+ },
+ {
+  "id": 116,
+  "arabic": "ربع",
+  "english": "quarter",
+  "pos": "noun"
+ },
+ {
+  "id": 2514,
+  "arabic": "الله يعوضك",
+  "english": "God compensate you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2666,
+  "arabic": "ما شاء الله عليك",
+  "english": "Wow, good for you (to m.)",
+  "pos": "formula"
+ }
+]

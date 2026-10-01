@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2776,
+  "arabic": "شوفان",
+  "english": "oatmeal",
+  "pos": "noun"
+ },
+ {
+  "id": 1923,
+  "arabic": "أكتر إشي",
+  "english": "the most / the most important",
+  "pos": "frame"
+ },
+ {
+  "id": 1656,
+  "arabic": "وظيفة",
+  "english": "job / position",
+  "pos": "noun"
+ },
+ {
+  "id": 1724,
+  "arabic": "واي فاي",
+  "english": "WiFi",
+  "pos": "noun"
+ },
+ {
+  "id": 1176,
+  "arabic": "ملون",
+  "english": "colorful",
+  "pos": "adjective"
+ },
+ {
+  "id": 3079,
+  "arabic": "شرير",
+  "english": "evil",
+  "pos": "adjective"
+ },
+ {
+  "id": 945,
+  "arabic": "هادي",
+  "english": "calm / quiet",
+  "pos": "adjective"
+ },
+ {
+  "id": 2273,
+  "arabic": "الخط بيقطع",
+  "english": "The line keeps cutting out",
+  "pos": "formula"
+ },
+ {
+  "id": 2504,
+  "arabic": "دق المي مي",
+  "english": "beat around the bush (lit: pound water into water)",
+  "pos": "formula"
+ },
+ {
+  "id": 2404,
+  "arabic": "السيارة خربانة",
+  "english": "The car is broken down",
+  "pos": "formula"
+ },
+ {
+  "id": 1018,
+  "arabic": "شوربة",
+  "english": "soup",
+  "pos": "noun"
+ },
+ {
+  "id": 157,
+  "arabic": "يوم الأحد",
+  "english": "Sunday",
+  "pos": "noun"
+ },
+ {
+  "id": 1202,
+  "arabic": "مقرمش",
+  "english": "crispy / crunchy",
+  "pos": "adjective"
+ },
+ {
+  "id": 2097,
+  "arabic": "توكل على الله",
+  "english": "Trust in God / just go for it",
+  "pos": "formula"
+ },
+ {
+  "id": 2391,
+  "arabic": "مكنسة كهربا",
+  "english": "vacuum cleaner",
+  "pos": "noun"
+ },
+ {
+  "id": 2770,
+  "arabic": "نجاص",
+  "english": "pears",
+  "pos": "noun"
+ },
+ {
+  "id": 1846,
+  "arabic": "بالتوفيق",
+  "english": "good luck",
+  "pos": "formula"
+ },
+ {
+  "id": 2864,
+  "arabic": "جبهة",
+  "english": "forehead",
+  "pos": "noun"
+ },
+ {
+  "id": 797,
+  "arabic": "عيلة",
+  "english": "family",
+  "pos": "noun"
+ },
+ {
+  "id": 1403,
+  "arabic": "محمية",
+  "english": "nature reserve",
+  "pos": "noun"
+ },
+ {
+  "id": 2427,
+  "arabic": "بظن لأ",
+  "english": "I don't think so",
+  "pos": "formula"
+ },
+ {
+  "id": 1271,
+  "arabic": "البلدة القديمة",
+  "english": "the Old City",
+  "pos": "noun"
+ },
+ {
+  "id": 2499,
+  "arabic": "طار عقلو",
+  "english": "he lost his mind",
+  "pos": "formula"
+ },
+ {
+  "id": 2121,
+  "arabic": "مخرف",
+  "english": "talking nonsense / senile",
+  "pos": "adjective"
+ },
+ {
+  "id": 2680,
+  "arabic": "فهمت علي؟",
+  "english": "You get me? / You understand? (to m.)",
+  "pos": "formula"
+ }
+]

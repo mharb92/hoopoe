@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2372,
+  "arabic": "جوز",
+  "english": "walnuts",
+  "pos": "noun"
+ },
+ {
+  "id": 1646,
+  "arabic": "صلحة",
+  "english": "reconciliation / tribal peace",
+  "pos": "noun"
+ },
+ {
+  "id": 2998,
+  "arabic": "بحرين",
+  "english": "bahrain",
+  "pos": "noun"
+ },
+ {
+  "id": 2671,
+  "arabic": "يعطيك العافية يا معلم",
+  "english": "God bless you, boss",
+  "pos": "formula"
+ },
+ {
+  "id": 2542,
+  "arabic": "رجعتلي الطنجرة؟",
+  "english": "Did you return my pot? (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1159,
+  "arabic": "جيبة",
+  "english": "pocket",
+  "pos": "noun"
+ },
+ {
+  "id": 47,
+  "arabic": "عشان",
+  "english": "because / in order to",
+  "pos": "conjunction"
+ },
+ {
+  "id": 753,
+  "arabic": "لا... ولا",
+  "english": "neither... nor",
+  "pos": "conjunction"
+ },
+ {
+  "id": 2970,
+  "arabic": "محبس",
+  "english": "valve",
+  "pos": "noun"
+ },
+ {
+  "id": 1391,
+  "arabic": "ناموسة",
+  "english": "mosquito",
+  "pos": "noun"
+ },
+ {
+  "id": 1661,
+  "arabic": "خبرة",
+  "english": "experience",
+  "pos": "noun"
+ },
+ {
+  "id": 3117,
+  "arabic": "كرة قدم",
+  "english": "football",
+  "pos": "noun"
+ },
+ {
+  "id": 2665,
+  "arabic": "لا حول الله",
+  "english": "Oh my God (distress)",
+  "pos": "formula"
+ },
+ {
+  "id": 2099,
+  "arabic": "الطيور على أشكالها تقع",
+  "english": "Birds of a feather flock together",
+  "pos": "formula"
+ },
+ {
+  "id": 335,
+  "arabic": "عشان هيك",
+  "english": "that's why / therefore",
+  "pos": "conjunction"
+ },
+ {
+  "id": 641,
+  "arabic": "نظف",
+  "english": "cleaned",
+  "pos": "verb"
+ },
+ {
+  "id": 836,
+  "arabic": "زلمة",
+  "english": "man / guy",
+  "pos": "noun"
+ },
+ {
+  "id": 2250,
+  "arabic": "الله يتمملك على خير",
+  "english": "May God complete it well for you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 3140,
+  "arabic": "إستهلاك",
+  "english": "consumption",
+  "pos": "noun"
+ },
+ {
+  "id": 3175,
+  "arabic": "قنينة",
+  "english": "bottle",
+  "pos": "noun"
+ },
+ {
+  "id": 2258,
+  "arabic": "الفاتحة",
+  "english": "the opening (Quran chapter, recited for deceased)",
+  "pos": "noun"
+ },
+ {
+  "id": 189,
+  "arabic": "متأخر",
+  "english": "late",
+  "pos": "adjective"
+ },
+ {
+  "id": 3069,
+  "arabic": "حقود",
+  "english": "spiteful",
+  "pos": "adjective"
+ },
+ {
+  "id": 2616,
+  "arabic": "خليني أتأكد",
+  "english": "Let me make sure",
+  "pos": "frame"
+ },
+ {
+  "id": 42,
+  "arabic": "حوالين",
+  "english": "around",
+  "pos": "preposition"
+ }
+]

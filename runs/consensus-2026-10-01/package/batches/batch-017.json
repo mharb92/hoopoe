@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3099,
+  "arabic": "ورق شجر",
+  "english": "leaves",
+  "pos": "noun"
+ },
+ {
+  "id": 3093,
+  "arabic": "مكتئب",
+  "english": "depressed",
+  "pos": "adjective"
+ },
+ {
+  "id": 660,
+  "arabic": "ضاف",
+  "english": "added (friend/contact)",
+  "pos": "verb"
+ },
+ {
+  "id": 617,
+  "arabic": "غسل",
+  "english": "washed",
+  "pos": "verb"
+ },
+ {
+  "id": 2306,
+  "arabic": "ترقية",
+  "english": "promotion",
+  "pos": "noun"
+ },
+ {
+  "id": 2489,
+  "arabic": "حط راسو براسو",
+  "english": "confronted him head-on",
+  "pos": "formula"
+ },
+ {
+  "id": 2595,
+  "arabic": "كنت بمكانك",
+  "english": "If I were you (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 475,
+  "arabic": "بالزور",
+  "english": "barely / with difficulty",
+  "pos": "adverb"
+ },
+ {
+  "id": 463,
+  "arabic": "ع الأكثر",
+  "english": "at most",
+  "pos": "adverb"
+ },
+ {
+  "id": 250,
+  "arabic": "تصبحي على خير",
+  "english": "good night (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1728,
+  "arabic": "إيميل",
+  "english": "email",
+  "pos": "noun"
+ },
+ {
+  "id": 678,
+  "arabic": "حمل",
+  "english": "carried / picked up",
+  "pos": "verb"
+ },
+ {
+  "id": 561,
+  "arabic": "نصح",
+  "english": "advised",
+  "pos": "verb"
+ },
+ {
+  "id": 1150,
+  "arabic": "طاقية",
+  "english": "hat / cap",
+  "pos": "noun"
+ },
+ {
+  "id": 1313,
+  "arabic": "بعيد",
+  "english": "far",
+  "pos": "adjective"
+ },
+ {
+  "id": 685,
+  "arabic": "ربط",
+  "english": "tied",
+  "pos": "verb"
+ },
+ {
+  "id": 2585,
+  "arabic": "قارن",
+  "english": "compared",
+  "pos": "verb"
+ },
+ {
+  "id": 1758,
+  "arabic": "شريحة",
+  "english": "SIM card",
+  "pos": "noun"
+ },
+ {
+  "id": 55,
+  "arabic": "يا... يا",
+  "english": "either... or",
+  "pos": "conjunction"
+ },
+ {
+  "id": 440,
+  "arabic": "دير بالك",
+  "english": "take care / be careful (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2592,
+  "arabic": "أجل الموعد",
+  "english": "postponed the appointment",
+  "pos": "frame"
+ },
+ {
+  "id": 607,
+  "arabic": "قبل",
+  "english": "accepted",
+  "pos": "verb"
+ },
+ {
+  "id": 2960,
+  "arabic": "أواعي شتاوية",
+  "english": "winter clothes",
+  "pos": "noun"
+ },
+ {
+  "id": 725,
+  "arabic": "طلب",
+  "english": "ordered / requested",
+  "pos": "verb"
+ },
+ {
+  "id": 2515,
+  "arabic": "الله يردو بالسلامة",
+  "english": "God return him safely",
+  "pos": "formula"
+ }
+]

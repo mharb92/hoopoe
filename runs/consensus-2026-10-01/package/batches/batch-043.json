@@ -1,0 +1,152 @@
+[
+ {
+  "id": 598,
+  "arabic": "تخانق",
+  "english": "fought / argued",
+  "pos": "verb"
+ },
+ {
+  "id": 2789,
+  "arabic": "أقلية",
+  "english": "minority",
+  "pos": "noun"
+ },
+ {
+  "id": 477,
+  "arabic": "زوج",
+  "english": "pair / couple",
+  "pos": "noun"
+ },
+ {
+  "id": 2890,
+  "arabic": "سينما",
+  "english": "cinema",
+  "pos": "noun"
+ },
+ {
+  "id": 2460,
+  "arabic": "نقطة قوة",
+  "english": "strong point / strength",
+  "pos": "noun"
+ },
+ {
+  "id": 2187,
+  "arabic": "نتيجة",
+  "english": "result / consequence",
+  "pos": "noun"
+ },
+ {
+  "id": 1102,
+  "arabic": "شباك",
+  "english": "window",
+  "pos": "noun"
+ },
+ {
+  "id": 926,
+  "arabic": "متفاجئ",
+  "english": "surprised (m.)",
+  "pos": "adjective"
+ },
+ {
+  "id": 471,
+  "arabic": "بإذن الله",
+  "english": "God willing (formal)",
+  "pos": "formula"
+ },
+ {
+  "id": 2916,
+  "arabic": "حديث",
+  "english": "modern",
+  "pos": "adjective"
+ },
+ {
+  "id": 3198,
+  "arabic": "واجهة",
+  "english": "store window",
+  "pos": "noun"
+ },
+ {
+  "id": 354,
+  "arabic": "طالما",
+  "english": "as long as",
+  "pos": "conjunction"
+ },
+ {
+  "id": 848,
+  "arabic": "راس",
+  "english": "head",
+  "pos": "noun"
+ },
+ {
+  "id": 2668,
+  "arabic": "يا عيب الشوم",
+  "english": "How shameful",
+  "pos": "formula"
+ },
+ {
+  "id": 2923,
+  "arabic": "ممثل",
+  "english": "actor",
+  "pos": "noun"
+ },
+ {
+  "id": 1022,
+  "arabic": "فتوش",
+  "english": "fattoush (bread salad)",
+  "pos": "noun"
+ },
+ {
+  "id": 1944,
+  "arabic": "لا تروح",
+  "english": "Don't go (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1750,
+  "arabic": "شو الباسوورد؟",
+  "english": "What's the password?",
+  "pos": "formula"
+ },
+ {
+  "id": 280,
+  "arabic": "إن شاء الله",
+  "english": "God willing / hopefully",
+  "pos": "formula"
+ },
+ {
+  "id": 2575,
+  "arabic": "كاني ما حكيت",
+  "english": "As if I didn't say anything",
+  "pos": "formula"
+ },
+ {
+  "id": 1683,
+  "arabic": "صدقة",
+  "english": "charity",
+  "pos": "noun"
+ },
+ {
+  "id": 1622,
+  "arabic": "أذان",
+  "english": "call to prayer",
+  "pos": "noun"
+ },
+ {
+  "id": 2981,
+  "arabic": "فرنسا",
+  "english": "france",
+  "pos": "noun"
+ },
+ {
+  "id": 2152,
+  "arabic": "زنخ",
+  "english": "lame / boring / cringe",
+  "pos": "adjective"
+ },
+ {
+  "id": 875,
+  "arabic": "معدة",
+  "english": "stomach (organ)",
+  "pos": "noun"
+ }
+]

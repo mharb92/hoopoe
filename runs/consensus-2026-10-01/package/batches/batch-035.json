@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3199,
+  "arabic": "فريق",
+  "english": "team",
+  "pos": "noun"
+ },
+ {
+  "id": 1088,
+  "arabic": "طازة",
+  "english": "fresh",
+  "pos": "adjective"
+ },
+ {
+  "id": 83,
+  "arabic": "وحدة",
+  "english": "one (1, f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 414,
+  "arabic": "الله أعلم",
+  "english": "God knows / who knows",
+  "pos": "formula"
+ },
+ {
+  "id": 954,
+  "arabic": "وقح",
+  "english": "rude / shameless",
+  "pos": "adjective"
+ },
+ {
+  "id": 2378,
+  "arabic": "بتلبسي حجاب؟",
+  "english": "Do you wear hijab? (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 555,
+  "arabic": "كذب",
+  "english": "lied",
+  "pos": "verb"
+ },
+ {
+  "id": 2281,
+  "arabic": "حقيبة",
+  "english": "suitcase / bag",
+  "pos": "noun"
+ },
+ {
+  "id": 2999,
+  "arabic": "تركيا",
+  "english": "turkey",
+  "pos": "noun"
+ },
+ {
+  "id": 989,
+  "arabic": "هم توائم",
+  "english": "they're twins",
+  "pos": "formula"
+ },
+ {
+  "id": 2246,
+  "arabic": "ظرف",
+  "english": "circumstance / situation",
+  "pos": "noun"
+ },
+ {
+  "id": 1200,
+  "arabic": "سخن",
+  "english": "hot (food/drink)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2788,
+  "arabic": "أكثرية",
+  "english": "majority",
+  "pos": "noun"
+ },
+ {
+  "id": 1390,
+  "arabic": "ذبابة",
+  "english": "fly (insect)",
+  "pos": "noun"
+ },
+ {
+  "id": 1893,
+  "arabic": "بقدر أساعدك",
+  "english": "I can help you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2027,
+  "arabic": "اللي صار بالآخر",
+  "english": "What happened in the end",
+  "pos": "frame"
+ },
+ {
+  "id": 882,
+  "arabic": "ذراع",
+  "english": "arm",
+  "pos": "noun"
+ },
+ {
+  "id": 2100,
+  "arabic": "يا بخت من بكى وضحك",
+  "english": "Lucky is he who cried then laughed",
+  "pos": "formula"
+ },
+ {
+  "id": 3160,
+  "arabic": "عارف",
+  "english": "knowing",
+  "pos": "adjective"
+ },
+ {
+  "id": 1693,
+  "arabic": "خصم",
+  "english": "discount",
+  "pos": "noun"
+ },
+ {
+  "id": 2,
+  "arabic": "إنت",
+  "english": "you (m. sg.)",
+  "pos": "pronoun"
+ },
+ {
+  "id": 2988,
+  "arabic": "العراق",
+  "english": "iraq",
+  "pos": "noun"
+ },
+ {
+  "id": 2336,
+  "arabic": "وفق",
+  "english": "succeeded / reconciled",
+  "pos": "verb"
+ },
+ {
+  "id": 650,
+  "arabic": "صلح",
+  "english": "fixed / repaired",
+  "pos": "verb"
+ },
+ {
+  "id": 2973,
+  "arabic": "روسيا",
+  "english": "russia",
+  "pos": "noun"
+ }
+]

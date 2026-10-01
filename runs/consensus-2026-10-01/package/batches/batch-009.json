@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1155,
+  "arabic": "ثوب",
+  "english": "traditional Palestinian dress",
+  "pos": "noun"
+ },
+ {
+  "id": 885,
+  "arabic": "دكتور",
+  "english": "doctor",
+  "pos": "noun"
+ },
+ {
+  "id": 2601,
+  "arabic": "طلعت أحسن مما توقعت",
+  "english": "It turned out better than I expected",
+  "pos": "frame"
+ },
+ {
+  "id": 1166,
+  "arabic": "بني",
+  "english": "brown",
+  "pos": "adjective"
+ },
+ {
+  "id": 2651,
+  "arabic": "عربون",
+  "english": "deposit / down payment",
+  "pos": "noun"
+ },
+ {
+  "id": 136,
+  "arabic": "صبح",
+  "english": "morning",
+  "pos": "noun"
+ },
+ {
+  "id": 969,
+  "arabic": "ظريف",
+  "english": "funny / witty / charming",
+  "pos": "adjective"
+ },
+ {
+  "id": 567,
+  "arabic": "ظن",
+  "english": "assumed / thought",
+  "pos": "verb"
+ },
+ {
+  "id": 742,
+  "arabic": "تاه",
+  "english": "got lost",
+  "pos": "verb"
+ },
+ {
+  "id": 1997,
+  "arabic": "ما بعرفش",
+  "english": "I don't know (emphatic)",
+  "pos": "formula"
+ },
+ {
+  "id": 1879,
+  "arabic": "شو بدك؟",
+  "english": "What do you want? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1418,
+  "arabic": "بدو يمطر",
+  "english": "It's going to rain",
+  "pos": "frame"
+ },
+ {
+  "id": 3235,
+  "arabic": "قصيدة",
+  "english": "poem",
+  "pos": "noun"
+ },
+ {
+  "id": 160,
+  "arabic": "يوم الأربعا",
+  "english": "Wednesday",
+  "pos": "noun"
+ },
+ {
+  "id": 1211,
+  "arabic": "سور",
+  "english": "fence / wall (exterior)",
+  "pos": "noun"
+ },
+ {
+  "id": 2329,
+  "arabic": "علق",
+  "english": "got stuck",
+  "pos": "verb"
+ },
+ {
+  "id": 864,
+  "arabic": "بطن",
+  "english": "stomach / belly",
+  "pos": "noun"
+ },
+ {
+  "id": 2260,
+  "arabic": "مبروك التخرج",
+  "english": "Congratulations on graduating",
+  "pos": "formula"
+ },
+ {
+  "id": 1138,
+  "arabic": "بلوزة",
+  "english": "blouse / top",
+  "pos": "noun"
+ },
+ {
+  "id": 2247,
+  "arabic": "قيمة",
+  "english": "value / worth",
+  "pos": "noun"
+ },
+ {
+  "id": 1379,
+  "arabic": "بسة",
+  "english": "cat",
+  "pos": "noun"
+ },
+ {
+  "id": 1024,
+  "arabic": "بقلاوة",
+  "english": "baklava",
+  "pos": "noun"
+ },
+ {
+  "id": 147,
+  "arabic": "قبل شوي",
+  "english": "a little while ago",
+  "pos": "adverb"
+ },
+ {
+  "id": 2194,
+  "arabic": "موقف",
+  "english": "stance / position / situation",
+  "pos": "noun"
+ },
+ {
+  "id": 1140,
+  "arabic": "كنزة",
+  "english": "sweater",
+  "pos": "noun"
+ }
+]

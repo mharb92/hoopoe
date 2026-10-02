@@ -1,0 +1,152 @@
+[
+ {
+  "id": 135,
+  "arabic": "سنة",
+  "english": "year",
+  "pos": "noun"
+ },
+ {
+  "id": 2219,
+  "arabic": "قسمة",
+  "english": "fate / destiny",
+  "pos": "noun"
+ },
+ {
+  "id": 470,
+  "arabic": "الحمد لله",
+  "english": "thankfully / praise God",
+  "pos": "formula"
+ },
+ {
+  "id": 1353,
+  "arabic": "كيف الجو؟",
+  "english": "How's the weather?",
+  "pos": "formula"
+ },
+ {
+  "id": 588,
+  "arabic": "تفاجأ",
+  "english": "was surprised",
+  "pos": "verb"
+ },
+ {
+  "id": 1133,
+  "arabic": "كيس",
+  "english": "bag / plastic bag",
+  "pos": "noun"
+ },
+ {
+  "id": 2334,
+  "arabic": "ركز",
+  "english": "focused / concentrated",
+  "pos": "verb"
+ },
+ {
+  "id": 230,
+  "arabic": "السلام عليكم",
+  "english": "peace be upon you (hello)",
+  "pos": "formula"
+ },
+ {
+  "id": 2796,
+  "arabic": "حضارة",
+  "english": "civilization",
+  "pos": "noun"
+ },
+ {
+  "id": 844,
+  "arabic": "رفيق",
+  "english": "companion / close friend (m.)",
+  "pos": "noun"
+ },
+ {
+  "id": 2021,
+  "arabic": "تخيل إنو...",
+  "english": "Imagine that... (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1412,
+  "arabic": "الجو شوب",
+  "english": "It's muggy / humid",
+  "pos": "formula"
+ },
+ {
+  "id": 2030,
+  "arabic": "يا ريت بقدر",
+  "english": "I wish I could",
+  "pos": "formula"
+ },
+ {
+  "id": 2690,
+  "arabic": "بلش يحكي وما وقف",
+  "english": "He started talking and didn't stop",
+  "pos": "frame"
+ },
+ {
+  "id": 995,
+  "arabic": "خبز",
+  "english": "bread",
+  "pos": "noun"
+ },
+ {
+  "id": 2022,
+  "arabic": "اللي فهمتو إنو...",
+  "english": "What I understood is that...",
+  "pos": "frame"
+ },
+ {
+  "id": 218,
+  "arabic": "عندي موعد",
+  "english": "I have an appointment",
+  "pos": "frame"
+ },
+ {
+  "id": 2382,
+  "arabic": "شمس ومطر",
+  "english": "Sun and rain (at the same time)",
+  "pos": "noun"
+ },
+ {
+  "id": 3014,
+  "arabic": "إندونيسيا",
+  "english": "indonesia",
+  "pos": "noun"
+ },
+ {
+  "id": 2909,
+  "arabic": "فوضوي",
+  "english": "chaotic",
+  "pos": "adjective"
+ },
+ {
+  "id": 213,
+  "arabic": "وقت الفطور",
+  "english": "breakfast time",
+  "pos": "noun"
+ },
+ {
+  "id": 1892,
+  "arabic": "المفروض كان يخلص",
+  "english": "He was supposed to finish",
+  "pos": "frame"
+ },
+ {
+  "id": 1077,
+  "arabic": "ثلاجة",
+  "english": "refrigerator",
+  "pos": "noun"
+ },
+ {
+  "id": 2188,
+  "arabic": "تأثير",
+  "english": "effect / influence",
+  "pos": "noun"
+ },
+ {
+  "id": 1368,
+  "arabic": "نهر",
+  "english": "river",
+  "pos": "noun"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1070,
+  "arabic": "شوكة",
+  "english": "fork",
+  "pos": "noun"
+ },
+ {
+  "id": 2222,
+  "arabic": "موت",
+  "english": "death",
+  "pos": "noun"
+ },
+ {
+  "id": 1457,
+  "arabic": "نكبة",
+  "english": "catastrophe / Nakba",
+  "pos": "noun"
+ },
+ {
+  "id": 1479,
+  "arabic": "ضعيف",
+  "english": "weak",
+  "pos": "adjective"
+ },
+ {
+  "id": 1837,
+  "arabic": "اتصلو ع الشرطة",
+  "english": "Call the police (to pl.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1113,
+  "arabic": "خزانة",
+  "english": "closet / wardrobe",
+  "pos": "noun"
+ },
+ {
+  "id": 306,
+  "arabic": "الحمد لله ع السلامة",
+  "english": "thank God for your safe arrival",
+  "pos": "formula"
+ },
+ {
+  "id": 642,
+  "arabic": "كنس",
+  "english": "swept",
+  "pos": "verb"
+ },
+ {
+  "id": 1038,
+  "arabic": "موز",
+  "english": "banana",
+  "pos": "noun"
+ },
+ {
+  "id": 324,
+  "arabic": "هي",
+  "english": "here it is (f.) / this is",
+  "pos": "particle"
+ },
+ {
+  "id": 2839,
+  "arabic": "واقع",
+  "english": "reality",
+  "pos": "noun"
+ },
+ {
+  "id": 3103,
+  "arabic": "نعسان",
+  "english": "sleepy",
+  "pos": "adjective"
+ },
+ {
+  "id": 827,
+  "arabic": "نسيب",
+  "english": "in-law (relative by marriage)",
+  "pos": "noun"
+ },
+ {
+  "id": 1383,
+  "arabic": "غنمة",
+  "english": "sheep",
+  "pos": "noun"
+ },
+ {
+  "id": 1378,
+  "arabic": "كلب",
+  "english": "dog",
+  "pos": "noun"
+ },
+ {
+  "id": 937,
+  "arabic": "طيب",
+  "english": "kind / good-hearted",
+  "pos": "adjective"
+ },
+ {
+  "id": 3118,
+  "arabic": "سباحة",
+  "english": "swimming",
+  "pos": "noun"
+ },
+ {
+  "id": 3063,
+  "arabic": "فضولي",
+  "english": "curious",
+  "pos": "adjective"
+ },
+ {
+  "id": 2350,
+  "arabic": "سناني بتوجعني",
+  "english": "My teeth hurt",
+  "pos": "frame"
+ },
+ {
+  "id": 508,
+  "arabic": "أعطى",
+  "english": "gave",
+  "pos": "verb"
+ },
+ {
+  "id": 187,
+  "arabic": "الساعة وعشرة",
+  "english": "ten past",
+  "pos": "frame"
+ },
+ {
+  "id": 3212,
+  "arabic": "طلقة نارية",
+  "english": "shooting",
+  "pos": "noun"
+ },
+ {
+  "id": 219,
+  "arabic": "شو الوقت؟",
+  "english": "What time is it? (casual)",
+  "pos": "formula"
+ },
+ {
+  "id": 750,
+  "arabic": "بيناتهم",
+  "english": "between them / among themselves",
+  "pos": "preposition"
+ },
+ {
+  "id": 202,
+  "arabic": "من وقت لوقت",
+  "english": "from time to time",
+  "pos": "adverb"
+ }
+]

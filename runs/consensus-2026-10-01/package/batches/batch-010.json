@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1061,
+  "arabic": "طحينة",
+  "english": "tahini",
+  "pos": "noun"
+ },
+ {
+  "id": 1745,
+  "arabic": "شيكي الواتساب",
+  "english": "Check your WhatsApp (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 761,
+  "arabic": "ميتين وخمسين",
+  "english": "two hundred and fifty (250)",
+  "pos": "noun"
+ },
+ {
+  "id": 1592,
+  "arabic": "كتاب",
+  "english": "book",
+  "pos": "noun"
+ },
+ {
+  "id": 1335,
+  "arabic": "قديش بتاخد؟",
+  "english": "How much do you charge? (to taxi driver, m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1687,
+  "arabic": "دينار",
+  "english": "dinar (currency)",
+  "pos": "noun"
+ },
+ {
+  "id": 583,
+  "arabic": "تحمس",
+  "english": "got excited",
+  "pos": "verb"
+ },
+ {
+  "id": 62,
+  "arabic": "في",
+  "english": "there is / there are",
+  "pos": "particle"
+ },
+ {
+  "id": 2962,
+  "arabic": "غرفة قعدة",
+  "english": "sitting room",
+  "pos": "noun"
+ },
+ {
+  "id": 792,
+  "arabic": "حياك الله",
+  "english": "God greet you / welcome (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2611,
+  "arabic": "ممكن تشرحلي؟",
+  "english": "Can you explain to me? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2028,
+  "arabic": "طلعت القصة إنو",
+  "english": "The story turned out to be that",
+  "pos": "frame"
+ },
+ {
+  "id": 2143,
+  "arabic": "نزل ع أعصابي",
+  "english": "got on my nerves (lit: went down on my nerves)",
+  "pos": "frame"
+ },
+ {
+  "id": 418,
+  "arabic": "بدي أحكيلك إشي",
+  "english": "I want to tell you something (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 111,
+  "arabic": "مية",
+  "english": "one hundred (100)",
+  "pos": "noun"
+ },
+ {
+  "id": 2103,
+  "arabic": "خبز وملح",
+  "english": "bread and salt (= shared bond/loyalty)",
+  "pos": "noun"
+ },
+ {
+  "id": 2625,
+  "arabic": "تعجب",
+  "english": "was amazed / wondered",
+  "pos": "verb"
+ },
+ {
+  "id": 930,
+  "arabic": "محرج",
+  "english": "embarrassed (m.)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2964,
+  "arabic": "برداية",
+  "english": "curtains",
+  "pos": "noun"
+ },
+ {
+  "id": 2288,
+  "arabic": "إلغاء",
+  "english": "cancellation",
+  "pos": "noun"
+ },
+ {
+  "id": 2539,
+  "arabic": "ممكن أستعير منك...؟",
+  "english": "Can I borrow... from you? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2001,
+  "arabic": "ما حدا بيعرف",
+  "english": "Nobody knows",
+  "pos": "formula"
+ },
+ {
+  "id": 2558,
+  "arabic": "معلمة الصف",
+  "english": "the class teacher (f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 2728,
+  "arabic": "عاشت فلسطين",
+  "english": "Long live Palestine",
+  "pos": "formula"
+ },
+ {
+  "id": 175,
+  "arabic": "كانون أول",
+  "english": "December",
+  "pos": "noun"
+ }
+]

@@ -1,0 +1,146 @@
+[
+ {
+  "id": 837,
+  "arabic": "ختيار",
+  "english": "old man",
+  "pos": "noun"
+ },
+ {
+  "id": 2780,
+  "arabic": "ذاب",
+  "english": "melted / dissolved",
+  "pos": "verb"
+ },
+ {
+  "id": 2654,
+  "arabic": "تأمين صحي",
+  "english": "health insurance",
+  "pos": "noun"
+ },
+ {
+  "id": 2695,
+  "arabic": "انتقد",
+  "english": "criticized",
+  "pos": "verb"
+ },
+ {
+  "id": 2646,
+  "arabic": "عصر الزيتون",
+  "english": "olive pressing",
+  "pos": "noun"
+ },
+ {
+  "id": 3085,
+  "arabic": "تضايق",
+  "english": "was annoyed",
+  "pos": "verb"
+ },
+ {
+  "id": 2492,
+  "arabic": "طقت معو",
+  "english": "it clicked with him / he understood",
+  "pos": "formula"
+ },
+ {
+  "id": 983,
+  "arabic": "صغير",
+  "english": "small / little / young (person)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2706,
+  "arabic": "عقد",
+  "english": "complicated",
+  "pos": "verb"
+ },
+ {
+  "id": 3149,
+  "arabic": "أخلاق",
+  "english": "ethics / morals",
+  "pos": "noun"
+ },
+ {
+  "id": 486,
+  "arabic": "رقم",
+  "english": "number (formal)",
+  "pos": "noun"
+ },
+ {
+  "id": 460,
+  "arabic": "ع الفاضي",
+  "english": "for nothing / pointlessly",
+  "pos": "adverb"
+ },
+ {
+  "id": 1662,
+  "arabic": "سيرة ذاتية",
+  "english": "CV / resume",
+  "pos": "noun"
+ },
+ {
+  "id": 476,
+  "arabic": "صفر",
+  "english": "zero (0)",
+  "pos": "noun"
+ },
+ {
+  "id": 1765,
+  "arabic": "شو بتنصحني فيه؟",
+  "english": "What do you recommend? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2520,
+  "arabic": "الله يحققلك أمانيك",
+  "english": "God fulfill your wishes (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1753,
+  "arabic": "مسج",
+  "english": "text message",
+  "pos": "noun"
+ },
+ {
+  "id": 2059,
+  "arabic": "قبل ما أنسى",
+  "english": "before I forget",
+  "pos": "formula"
+ },
+ {
+  "id": 3220,
+  "arabic": "يهودي",
+  "english": "jew",
+  "pos": "noun"
+ },
+ {
+  "id": 307,
+  "arabic": "الله يحفظك",
+  "english": "God protect you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 626,
+  "arabic": "فطر",
+  "english": "had breakfast",
+  "pos": "verb"
+ },
+ {
+  "id": 3169,
+  "arabic": "غفي",
+  "english": "dozed off / took a nap",
+  "pos": "verb"
+ },
+ {
+  "id": 1210,
+  "arabic": "حديقة",
+  "english": "garden / yard",
+  "pos": "noun"
+ },
+ {
+  "id": 2840,
+  "arabic": "تميز",
+  "english": "discrimination",
+  "pos": "noun"
+ }
+]

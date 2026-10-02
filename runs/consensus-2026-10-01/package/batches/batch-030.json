@@ -1,0 +1,152 @@
+[
+ {
+  "id": 164,
+  "arabic": "كانون ثاني",
+  "english": "January",
+  "pos": "noun"
+ },
+ {
+  "id": 1417,
+  "arabic": "الشمس قوية",
+  "english": "The sun is strong",
+  "pos": "frame"
+ },
+ {
+  "id": 445,
+  "arabic": "الله يخليلك إياهم",
+  "english": "God keep them for you (about children, to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1698,
+  "arabic": "فيزا",
+  "english": "Visa (credit card)",
+  "pos": "noun"
+ },
+ {
+  "id": 1679,
+  "arabic": "وضوء",
+  "english": "ablution (before prayer)",
+  "pos": "noun"
+ },
+ {
+  "id": 2900,
+  "arabic": "مدرج",
+  "english": "auditorium, amphitheater",
+  "pos": "noun"
+ },
+ {
+  "id": 393,
+  "arabic": "قصف جبهة",
+  "english": "sick burn / comeback (lit: forehead bombing)",
+  "pos": "noun"
+ },
+ {
+  "id": 1188,
+  "arabic": "كبريت",
+  "english": "matches",
+  "pos": "noun"
+ },
+ {
+  "id": 654,
+  "arabic": "حمل",
+  "english": "downloaded",
+  "pos": "verb"
+ },
+ {
+  "id": 1725,
+  "arabic": "موقع",
+  "english": "website",
+  "pos": "noun"
+ },
+ {
+  "id": 312,
+  "arabic": "نمرة",
+  "english": "number",
+  "pos": "noun"
+ },
+ {
+  "id": 523,
+  "arabic": "تذكر",
+  "english": "remembered",
+  "pos": "verb"
+ },
+ {
+  "id": 1430,
+  "arabic": "سور القدس",
+  "english": "the walls of Jerusalem",
+  "pos": "noun"
+ },
+ {
+  "id": 1847,
+  "arabic": "الله يوفقك",
+  "english": "May God grant you success (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 325,
+  "arabic": "هيو",
+  "english": "here it is (m.) / here he is",
+  "pos": "particle"
+ },
+ {
+  "id": 697,
+  "arabic": "تمدد",
+  "english": "stretched out / lay down",
+  "pos": "verb"
+ },
+ {
+  "id": 1988,
+  "arabic": "سألني إذا بدي",
+  "english": "He asked me if I want to",
+  "pos": "frame"
+ },
+ {
+  "id": 724,
+  "arabic": "تسلى",
+  "english": "had fun / was entertained",
+  "pos": "verb"
+ },
+ {
+  "id": 2714,
+  "arabic": "تمنيك",
+  "english": "joking / kidding around",
+  "pos": "noun"
+ },
+ {
+  "id": 1045,
+  "arabic": "فراولة",
+  "english": "strawberry",
+  "pos": "noun"
+ },
+ {
+  "id": 3194,
+  "arabic": "معاملة",
+  "english": "official application",
+  "pos": "noun"
+ },
+ {
+  "id": 1761,
+  "arabic": "ابعتلي فويس",
+  "english": "Send me a voice note (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 75,
+  "arabic": "شوي",
+  "english": "a little / a bit",
+  "pos": "adverb"
+ },
+ {
+  "id": 398,
+  "arabic": "فلت",
+  "english": "escaped / got away",
+  "pos": "verb"
+ },
+ {
+  "id": 3110,
+  "arabic": "مقهور",
+  "english": "deeply disappointed",
+  "pos": "adjective"
+ }
+]

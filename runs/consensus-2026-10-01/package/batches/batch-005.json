@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2137,
+  "arabic": "تقمص",
+  "english": "got annoyed / got irritated",
+  "pos": "verb"
+ },
+ {
+  "id": 2526,
+  "arabic": "قال بالقاف",
+  "english": "said (with full qaf — Hebron)",
+  "pos": "verb"
+ },
+ {
+  "id": 1126,
+  "arabic": "تلفزيون",
+  "english": "television",
+  "pos": "noun"
+ },
+ {
+  "id": 3122,
+  "arabic": "يوغا",
+  "english": "yoga",
+  "pos": "noun"
+ },
+ {
+  "id": 80,
+  "arabic": "فوق",
+  "english": "up / upstairs",
+  "pos": "adverb"
+ },
+ {
+  "id": 1242,
+  "arabic": "فوطة",
+  "english": "towel (small) / napkin",
+  "pos": "noun"
+ },
+ {
+  "id": 700,
+  "arabic": "خسر",
+  "english": "lost (game/money)",
+  "pos": "verb"
+ },
+ {
+  "id": 2406,
+  "arabic": "وين أقرب كراج؟",
+  "english": "Where's the nearest garage/mechanic?",
+  "pos": "frame"
+ },
+ {
+  "id": 1357,
+  "arabic": "عم بتثلج",
+  "english": "It's snowing",
+  "pos": "formula"
+ },
+ {
+  "id": 2274,
+  "arabic": "ما بسمعك منيح",
+  "english": "I can't hear you well (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2831,
+  "arabic": "إعتقال إداري",
+  "english": "administrative detention",
+  "pos": "noun"
+ },
+ {
+  "id": 1647,
+  "arabic": "ديوان",
+  "english": "guest reception room",
+  "pos": "noun"
+ },
+ {
+  "id": 2545,
+  "arabic": "بدي أجدد العقد",
+  "english": "I want to renew the lease",
+  "pos": "frame"
+ },
+ {
+  "id": 3207,
+  "arabic": "أمر",
+  "english": "issue",
+  "pos": "noun"
+ },
+ {
+  "id": 547,
+  "arabic": "لحق",
+  "english": "caught up / followed",
+  "pos": "verb"
+ },
+ {
+  "id": 190,
+  "arabic": "ع الوقت",
+  "english": "on time",
+  "pos": "adverb"
+ },
+ {
+  "id": 1451,
+  "arabic": "الضفة الغربية",
+  "english": "the West Bank",
+  "pos": "noun"
+ },
+ {
+  "id": 2597,
+  "arabic": "شكلو رح يمطر",
+  "english": "Looks like it's going to rain",
+  "pos": "frame"
+ },
+ {
+  "id": 2761,
+  "arabic": "طعمى",
+  "english": "fed",
+  "pos": "verb"
+ },
+ {
+  "id": 369,
+  "arabic": "بالزبط",
+  "english": "exactly",
+  "pos": "adverb"
+ },
+ {
+  "id": 215,
+  "arabic": "عطلة",
+  "english": "holiday / vacation / day off",
+  "pos": "noun"
+ },
+ {
+  "id": 11,
+  "arabic": "هدول",
+  "english": "these",
+  "pos": "pronoun"
+ },
+ {
+  "id": 3058,
+  "arabic": "على اليمين",
+  "english": "on the right",
+  "pos": "adverb"
+ },
+ {
+  "id": 947,
+  "arabic": "كريم",
+  "english": "generous",
+  "pos": "adjective"
+ },
+ {
+  "id": 2425,
+  "arabic": "مش متأكد",
+  "english": "I'm not sure (m.)",
+  "pos": "formula"
+ }
+]

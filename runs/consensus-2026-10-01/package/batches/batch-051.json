@@ -1,0 +1,152 @@
+[
+ {
+  "id": 715,
+  "arabic": "بكى",
+  "english": "cried",
+  "pos": "verb"
+ },
+ {
+  "id": 2300,
+  "arabic": "حصة رياضة",
+  "english": "gym class / PE",
+  "pos": "noun"
+ },
+ {
+  "id": 1170,
+  "arabic": "رمادي",
+  "english": "gray",
+  "pos": "adjective"
+ },
+ {
+  "id": 2051,
+  "arabic": "بالمقابل",
+  "english": "on the other hand / in return",
+  "pos": "adverb"
+ },
+ {
+  "id": 1023,
+  "arabic": "كنافة",
+  "english": "knafeh (cheese pastry dessert)",
+  "pos": "noun"
+ },
+ {
+  "id": 2943,
+  "arabic": "ثعلب",
+  "english": "fox",
+  "pos": "noun"
+ },
+ {
+  "id": 1782,
+  "arabic": "قديش بتاخد ع...؟",
+  "english": "How much to go to...? (taxi, to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 3222,
+  "arabic": "قداس",
+  "english": "mass",
+  "pos": "noun"
+ },
+ {
+  "id": 1812,
+  "arabic": "شو بتدرس؟",
+  "english": "What do you study? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2985,
+  "arabic": "سوريا",
+  "english": "syria",
+  "pos": "noun"
+ },
+ {
+  "id": 2808,
+  "arabic": "سياسي",
+  "english": "politician",
+  "pos": "noun"
+ },
+ {
+  "id": 183,
+  "arabic": "الساعة ثلاثة",
+  "english": "It's three o'clock",
+  "pos": "frame"
+ },
+ {
+  "id": 1435,
+  "arabic": "رام الله",
+  "english": "Ramallah",
+  "pos": "noun"
+ },
+ {
+  "id": 333,
+  "arabic": "ثاني إشي",
+  "english": "second of all / secondly",
+  "pos": "adverb"
+ },
+ {
+  "id": 1351,
+  "arabic": "برد",
+  "english": "cold / cold weather",
+  "pos": "noun"
+ },
+ {
+  "id": 2092,
+  "arabic": "كل شي بوقتو حلو",
+  "english": "Everything is good in its time",
+  "pos": "formula"
+ },
+ {
+  "id": 1134,
+  "arabic": "صابون",
+  "english": "soap",
+  "pos": "noun"
+ },
+ {
+  "id": 2472,
+  "arabic": "بين قوسين",
+  "english": "in parentheses / so to speak",
+  "pos": "adverb"
+ },
+ {
+  "id": 2142,
+  "arabic": "طلعلي بلا",
+  "english": "caused me problems (lit: brought out trouble for me)",
+  "pos": "formula"
+ },
+ {
+  "id": 2911,
+  "arabic": "مشوه",
+  "english": "deformed",
+  "pos": "adjective"
+ },
+ {
+  "id": 1735,
+  "arabic": "نوتفكيشن",
+  "english": "notification",
+  "pos": "noun"
+ },
+ {
+  "id": 1632,
+  "arabic": "دبكة",
+  "english": "dabke (traditional dance)",
+  "pos": "noun"
+ },
+ {
+  "id": 1404,
+  "arabic": "بيئة",
+  "english": "environment",
+  "pos": "noun"
+ },
+ {
+  "id": 1929,
+  "arabic": "لما وصلت",
+  "english": "when I arrived",
+  "pos": "frame"
+ },
+ {
+  "id": 1843,
+  "arabic": "بحاجة لدكتور",
+  "english": "I need a doctor",
+  "pos": "frame"
+ }
+]

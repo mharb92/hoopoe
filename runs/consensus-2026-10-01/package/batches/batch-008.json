@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1696,
+  "arabic": "بطاقة",
+  "english": "card (credit/debit/ID)",
+  "pos": "noun"
+ },
+ {
+  "id": 1872,
+  "arabic": "بدي أصرف دولارات",
+  "english": "I want to exchange dollars",
+  "pos": "frame"
+ },
+ {
+  "id": 1494,
+  "arabic": "مربع",
+  "english": "square (shape)",
+  "pos": "adjective"
+ },
+ {
+  "id": 521,
+  "arabic": "قدر",
+  "english": "was able to / could",
+  "pos": "verb"
+ },
+ {
+  "id": 2980,
+  "arabic": "بريطانيا",
+  "english": "britain",
+  "pos": "noun"
+ },
+ {
+  "id": 1971,
+  "arabic": "عم بنستناك",
+  "english": "We're waiting for you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2205,
+  "arabic": "عدالة",
+  "english": "justice",
+  "pos": "noun"
+ },
+ {
+  "id": 627,
+  "arabic": "صلى",
+  "english": "prayed",
+  "pos": "verb"
+ },
+ {
+  "id": 1316,
+  "arabic": "كيف بروح ع...؟",
+  "english": "How do I get to...?",
+  "pos": "frame"
+ },
+ {
+  "id": 437,
+  "arabic": "البيت بيتك",
+  "english": "make yourself at home (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2384,
+  "arabic": "انقطعت المي",
+  "english": "The water got cut off",
+  "pos": "formula"
+ },
+ {
+  "id": 1899,
+  "arabic": "بتقدر تيجي بكرا؟",
+  "english": "Can you come tomorrow? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2724,
+  "arabic": "أنا من فلسطين",
+  "english": "I'm from Palestine",
+  "pos": "frame"
+ },
+ {
+  "id": 322,
+  "arabic": "تاني",
+  "english": "other / another / again",
+  "pos": "adjective"
+ },
+ {
+  "id": 1339,
+  "arabic": "نجمة",
+  "english": "star",
+  "pos": "noun"
+ },
+ {
+  "id": 2574,
+  "arabic": "بدو يبلش",
+  "english": "It's about to start",
+  "pos": "formula"
+ },
+ {
+  "id": 84,
+  "arabic": "اثنين",
+  "english": "two (2)",
+  "pos": "noun"
+ },
+ {
+  "id": 880,
+  "arabic": "رمش",
+  "english": "eyelash",
+  "pos": "noun"
+ },
+ {
+  "id": 665,
+  "arabic": "درس",
+  "english": "studied",
+  "pos": "verb"
+ },
+ {
+  "id": 1436,
+  "arabic": "القدس",
+  "english": "Jerusalem",
+  "pos": "noun"
+ },
+ {
+  "id": 744,
+  "arabic": "تحرك",
+  "english": "moved (intransitive) / got going",
+  "pos": "verb"
+ },
+ {
+  "id": 2590,
+  "arabic": "لغى الموعد",
+  "english": "canceled the appointment",
+  "pos": "verb"
+ },
+ {
+  "id": 2928,
+  "arabic": "مدرس",
+  "english": "school teacher",
+  "pos": "noun"
+ },
+ {
+  "id": 2863,
+  "arabic": "مفصل",
+  "english": "joint",
+  "pos": "noun"
+ },
+ {
+  "id": 2829,
+  "arabic": "حكم ذاتي",
+  "english": "autonomy",
+  "pos": "noun"
+ }
+]

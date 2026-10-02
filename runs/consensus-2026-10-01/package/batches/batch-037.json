@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2376,
+  "arabic": "هاد اللون مش ماشي",
+  "english": "This color doesn't work",
+  "pos": "formula"
+ },
+ {
+  "id": 982,
+  "arabic": "كبير",
+  "english": "big / large / old (person)",
+  "pos": "adjective"
+ },
+ {
+  "id": 604,
+  "arabic": "فشل",
+  "english": "failed",
+  "pos": "verb"
+ },
+ {
+  "id": 2954,
+  "arabic": "خيط",
+  "english": "thread",
+  "pos": "noun"
+ },
+ {
+  "id": 1994,
+  "arabic": "الله يا لطيف شو حر",
+  "english": "Oh my, how hot it is",
+  "pos": "frame"
+ },
+ {
+  "id": 2715,
+  "arabic": "فشخة",
+  "english": "extremely (slang noun form)",
+  "pos": "noun"
+ },
+ {
+  "id": 1396,
+  "arabic": "قرد",
+  "english": "monkey",
+  "pos": "noun"
+ },
+ {
+  "id": 787,
+  "arabic": "بعتذر",
+  "english": "I apologize",
+  "pos": "formula"
+ },
+ {
+  "id": 134,
+  "arabic": "شهر",
+  "english": "month",
+  "pos": "noun"
+ },
+ {
+  "id": 696,
+  "arabic": "استلقى",
+  "english": "lay down",
+  "pos": "verb"
+ },
+ {
+  "id": 1694,
+  "arabic": "عرض",
+  "english": "offer / sale",
+  "pos": "noun"
+ },
+ {
+  "id": 2692,
+  "arabic": "قاطعني",
+  "english": "He interrupted me",
+  "pos": "verb"
+ },
+ {
+  "id": 1147,
+  "arabic": "كندرة",
+  "english": "shoe",
+  "pos": "noun"
+ },
+ {
+  "id": 44,
+  "arabic": "و",
+  "english": "and",
+  "pos": "conjunction"
+ },
+ {
+  "id": 1712,
+  "arabic": "باخدو",
+  "english": "I'll take it",
+  "pos": "formula"
+ },
+ {
+  "id": 38,
+  "arabic": "فوق",
+  "english": "above / on top",
+  "pos": "preposition"
+ },
+ {
+  "id": 1828,
+  "arabic": "كيف تعرفتو على بعض؟",
+  "english": "How did you meet each other?",
+  "pos": "formula"
+ },
+ {
+  "id": 1069,
+  "arabic": "ملعقة",
+  "english": "spoon",
+  "pos": "noun"
+ },
+ {
+  "id": 686,
+  "arabic": "قص",
+  "english": "cut (with scissors)",
+  "pos": "verb"
+ },
+ {
+  "id": 1446,
+  "arabic": "طولكرم",
+  "english": "Tulkarem",
+  "pos": "noun"
+ },
+ {
+  "id": 2007,
+  "arabic": "اللي حكيتو صح",
+  "english": "What you said is correct",
+  "pos": "formula"
+ },
+ {
+  "id": 1688,
+  "arabic": "دولار",
+  "english": "dollar",
+  "pos": "noun"
+ },
+ {
+  "id": 385,
+  "arabic": "أخ",
+  "english": "ouch / ugh",
+  "pos": "interjection"
+ },
+ {
+  "id": 3134,
+  "arabic": "إستثمار",
+  "english": "investment",
+  "pos": "noun"
+ },
+ {
+  "id": 2993,
+  "arabic": "كويت",
+  "english": "kuwait",
+  "pos": "noun"
+ }
+]

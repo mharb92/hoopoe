@@ -1,0 +1,98 @@
+[
+ {
+  "id": 22,
+  "arabic": "قَدِّيش",
+  "vocalised": "قَدِّيش",
+  "english": "how much / how many",
+  "pos": "adverb",
+  "level": 1,
+  "romanization": "'addeesh",
+  "confidence": 3,
+  "mvp": 1,
+  "held_on": []
+ },
+ {
+  "id": 69,
+  "arabic": "خَلَص",
+  "vocalised": "خَلَص",
+  "english": "enough / done / that's it",
+  "pos": "interjection",
+  "level": 1,
+  "romanization": "khalaS",
+  "confidence": 3,
+  "mvp": 1,
+  "held_on": []
+ },
+ {
+  "id": 76,
+  "arabic": "هُون",
+  "vocalised": "هُون",
+  "english": "here",
+  "pos": "adverb",
+  "level": 1,
+  "romanization": "hoon",
+  "confidence": 3,
+  "mvp": 1,
+  "held_on": []
+ },
+ {
+  "id": 211,
+  "arabic": "وَقْت الغَدَا",
+  "vocalised": "وَقْت الغَدَا",
+  "english": "lunchtime",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "wa't il-ghada",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 503,
+  "arabic": "حَكَى",
+  "vocalised": "حَكَى",
+  "english": "spoke / said / told",
+  "pos": "verb",
+  "level": 1,
+  "romanization": "7aka",
+  "confidence": 3,
+  "mvp": 1,
+  "held_on": []
+ },
+ {
+  "id": 180,
+  "arabic": "السَّاعَة كَم؟",
+  "vocalised": "السَّاعَة كَمْ",
+  "english": "What time is it?",
+  "pos": "formula",
+  "level": 2,
+  "romanization": "is-saa3a kam",
+  "confidence": 3,
+  "mvp": 0,
+  "held_on": []
+ },
+ {
+  "id": 130,
+  "arabic": "دَقِيقَة",
+  "vocalised": "دَقِيقَة",
+  "english": "minute",
+  "pos": "noun",
+  "level": 2,
+  "romanization": "da'ii'a",
+  "confidence": 3,
+  "mvp": 1,
+  "held_on": []
+ },
+ {
+  "id": 4,
+  "arabic": "هُوِّ",
+  "vocalised": "هُوِّ",
+  "english": "he / him",
+  "pos": "pronoun",
+  "level": 1,
+  "romanization": "huwwe",
+  "confidence": 3,
+  "mvp": 1,
+  "held_on": []
+ }
+]

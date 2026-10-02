@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2458,
+  "arabic": "تجربة حياتية",
+  "english": "life experience",
+  "pos": "noun"
+ },
+ {
+  "id": 273,
+  "arabic": "تكرمي عينك",
+  "english": "of course / gladly (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1866,
+  "arabic": "لا حول ولا قوة إلا بالله",
+  "english": "There is no power except God's",
+  "pos": "formula"
+ },
+ {
+  "id": 2572,
+  "arabic": "ما بتلاقي شغل",
+  "english": "You can't find work (to f.)",
+  "pos": "frame"
+ },
+ {
+  "id": 256,
+  "arabic": "بشوفك",
+  "english": "see you (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2324,
+  "arabic": "اتخرب",
+  "english": "got ruined / broke down",
+  "pos": "verb"
+ },
+ {
+  "id": 2516,
+  "arabic": "الله ينور دربك",
+  "english": "God light your path (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2568,
+  "arabic": "استقال",
+  "english": "resigned",
+  "pos": "verb"
+ },
+ {
+  "id": 2626,
+  "arabic": "استغل",
+  "english": "took advantage of / exploited",
+  "pos": "verb"
+ },
+ {
+  "id": 2407,
+  "arabic": "العجل فقع",
+  "english": "The tire is flat",
+  "pos": "formula"
+ },
+ {
+  "id": 2768,
+  "arabic": "نبيذ",
+  "english": "wine",
+  "pos": "noun"
+ },
+ {
+  "id": 2148,
+  "arabic": "مش فايتتلي",
+  "english": "I can't handle it / it doesn't fit in my head",
+  "pos": "formula"
+ },
+ {
+  "id": 2038,
+  "arabic": "على ما أظن",
+  "english": "as far as I think / I believe",
+  "pos": "adverb"
+ },
+ {
+  "id": 515,
+  "arabic": "ضل",
+  "english": "stayed / remained / kept",
+  "pos": "verb"
+ },
+ {
+  "id": 3065,
+  "arabic": "متهور",
+  "english": "reckless / Careless",
+  "pos": "adjective"
+ },
+ {
+  "id": 1373,
+  "arabic": "بركة",
+  "english": "pool / pond",
+  "pos": "noun"
+ },
+ {
+  "id": 1420,
+  "arabic": "بيطري",
+  "english": "veterinarian",
+  "pos": "noun"
+ },
+ {
+  "id": 736,
+  "arabic": "همس",
+  "english": "whispered",
+  "pos": "verb"
+ },
+ {
+  "id": 2644,
+  "arabic": "موسم الزيتون",
+  "english": "olive season",
+  "pos": "noun"
+ },
+ {
+  "id": 1303,
+  "arabic": "حادث",
+  "english": "accident",
+  "pos": "noun"
+ },
+ {
+  "id": 2852,
+  "arabic": "اليوم الصبح",
+  "english": "this morning",
+  "pos": "adverb"
+ },
+ {
+  "id": 2496,
+  "arabic": "دخل بالعميق",
+  "english": "got into deep detail",
+  "pos": "formula"
+ },
+ {
+  "id": 2353,
+  "arabic": "عندي سخونية",
+  "english": "I have a fever",
+  "pos": "frame"
+ },
+ {
+  "id": 1850,
+  "arabic": "مشتاقينك",
+  "english": "We miss you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 3029,
+  "arabic": "عمية",
+  "english": "colloquial arabic",
+  "pos": "noun"
+ }
+]

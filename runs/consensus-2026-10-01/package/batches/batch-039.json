@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1669,
+  "arabic": "ثقافة",
+  "english": "culture",
+  "pos": "noun"
+ },
+ {
+  "id": 1323,
+  "arabic": "ع إيد الشمال",
+  "english": "on the left side",
+  "pos": "frame"
+ },
+ {
+  "id": 317,
+  "arabic": "كلشي",
+  "english": "everything",
+  "pos": "pronoun"
+ },
+ {
+  "id": 2292,
+  "arabic": "نجحت بالامتحان",
+  "english": "I passed the exam",
+  "pos": "formula"
+ },
+ {
+  "id": 1051,
+  "arabic": "نسكافيه",
+  "english": "instant coffee / Nescafé",
+  "pos": "noun"
+ },
+ {
+  "id": 2426,
+  "arabic": "بظن آه",
+  "english": "I think so",
+  "pos": "formula"
+ },
+ {
+  "id": 2922,
+  "arabic": "قيم",
+  "english": "worthy/precious",
+  "pos": "adjective"
+ },
+ {
+  "id": 2547,
+  "arabic": "تدفئة",
+  "english": "heating",
+  "pos": "noun"
+ },
+ {
+  "id": 1506,
+  "arabic": "سهل",
+  "english": "easy",
+  "pos": "adjective"
+ },
+ {
+  "id": 2069,
+  "arabic": "يا غايب عن العين يا غايب عن القلب",
+  "english": "Out of sight, out of mind",
+  "pos": "formula"
+ },
+ {
+  "id": 2412,
+  "arabic": "عمل سكرين شوت",
+  "english": "took a screenshot",
+  "pos": "verb"
+ },
+ {
+  "id": 2466,
+  "arabic": "ومن جهة ثانية",
+  "english": "and from another perspective",
+  "pos": "adverb"
+ },
+ {
+  "id": 2830,
+  "arabic": "ضم أراضي",
+  "english": "annexation of territory",
+  "pos": "noun"
+ },
+ {
+  "id": 805,
+  "arabic": "سيدي",
+  "english": "my grandfather",
+  "pos": "noun"
+ },
+ {
+  "id": 2257,
+  "arabic": "الله يصبرك ويقويك",
+  "english": "God give you patience and strength (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1135,
+  "arabic": "منشفة",
+  "english": "towel",
+  "pos": "noun"
+ },
+ {
+  "id": 493,
+  "arabic": "مين ما كان",
+  "english": "whoever",
+  "pos": "pronoun"
+ },
+ {
+  "id": 819,
+  "arabic": "زوجة",
+  "english": "wife",
+  "pos": "noun"
+ },
+ {
+  "id": 2525,
+  "arabic": "شلون",
+  "english": "how (variant)",
+  "pos": "adverb"
+ },
+ {
+  "id": 2476,
+  "arabic": "نتيجة لـ",
+  "english": "as a result of",
+  "pos": "preposition"
+ },
+ {
+  "id": 1634,
+  "arabic": "ثوب مطرز",
+  "english": "embroidered dress",
+  "pos": "noun"
+ },
+ {
+  "id": 1996,
+  "arabic": "ما شفتوش",
+  "english": "I didn't see him (emphatic)",
+  "pos": "frame"
+ },
+ {
+  "id": 1027,
+  "arabic": "بندورة",
+  "english": "tomato",
+  "pos": "noun"
+ },
+ {
+  "id": 1452,
+  "arabic": "قطاع غزة",
+  "english": "the Gaza Strip",
+  "pos": "noun"
+ },
+ {
+  "id": 1701,
+  "arabic": "كيلو",
+  "english": "kilogram",
+  "pos": "noun"
+ }
+]

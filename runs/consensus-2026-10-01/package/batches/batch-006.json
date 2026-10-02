@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2720,
+  "arabic": "بلغ",
+  "english": "reported / notified",
+  "pos": "verb"
+ },
+ {
+  "id": 245,
+  "arabic": "صباح الخير",
+  "english": "good morning",
+  "pos": "formula"
+ },
+ {
+  "id": 2400,
+  "arabic": "زردية",
+  "english": "pliers",
+  "pos": "noun"
+ },
+ {
+  "id": 3186,
+  "arabic": "محاولة",
+  "english": "attempt",
+  "pos": "noun"
+ },
+ {
+  "id": 622,
+  "arabic": "أكل",
+  "english": "ate",
+  "pos": "verb"
+ },
+ {
+  "id": 141,
+  "arabic": "اليوم",
+  "english": "today",
+  "pos": "adverb"
+ },
+ {
+  "id": 1778,
+  "arabic": "بدي طاولة لاثنين",
+  "english": "I want a table for two",
+  "pos": "frame"
+ },
+ {
+  "id": 1291,
+  "arabic": "موتور",
+  "english": "motorcycle / motor",
+  "pos": "noun"
+ },
+ {
+  "id": 1838,
+  "arabic": "في حريقة",
+  "english": "There's a fire",
+  "pos": "frame"
+ },
+ {
+  "id": 2924,
+  "arabic": "محلل",
+  "english": "analyst",
+  "pos": "noun"
+ },
+ {
+  "id": 88,
+  "arabic": "خمسة",
+  "english": "five (5)",
+  "pos": "noun"
+ },
+ {
+  "id": 2930,
+  "arabic": "دعم",
+  "english": "supported / invested in",
+  "pos": "verb"
+ },
+ {
+  "id": 120,
+  "arabic": "ثالث",
+  "english": "third",
+  "pos": "adjective"
+ },
+ {
+  "id": 2423,
+  "arabic": "فاتورة التلفون",
+  "english": "phone bill",
+  "pos": "noun"
+ },
+ {
+  "id": 1995,
+  "arabic": "ما رحتش",
+  "english": "I didn't go (emphatic)",
+  "pos": "frame"
+ },
+ {
+  "id": 2565,
+  "arabic": "ضغط",
+  "english": "pressured",
+  "pos": "verb"
+ },
+ {
+  "id": 645,
+  "arabic": "غسل",
+  "english": "did laundry",
+  "pos": "verb"
+ },
+ {
+  "id": 2036,
+  "arabic": "بتذكر لما...؟",
+  "english": "Do you remember when...? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1993,
+  "arabic": "شو هالأكل الطيب",
+  "english": "What delicious food this is",
+  "pos": "formula"
+ },
+ {
+  "id": 1853,
+  "arabic": "يعطيكي العافية",
+  "english": "God give you strength (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2530,
+  "arabic": "ولا",
+  "english": "or (Galilean variant)",
+  "pos": "conjunction"
+ },
+ {
+  "id": 1434,
+  "arabic": "المدينة القديمة",
+  "english": "the Old City (general)",
+  "pos": "noun"
+ },
+ {
+  "id": 2199,
+  "arabic": "ذكرى",
+  "english": "memory",
+  "pos": "noun"
+ },
+ {
+  "id": 2377,
+  "arabic": "عندك لون ثاني؟",
+  "english": "Do you have another color? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1719,
+  "arabic": "كمبيوتر",
+  "english": "computer",
+  "pos": "noun"
+ }
+]

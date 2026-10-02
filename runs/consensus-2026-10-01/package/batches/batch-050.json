@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2253,
+  "arabic": "الله يخليلك إياه",
+  "english": "God keep him for you (about baby, to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2135,
+  "arabic": "تنيك",
+  "english": "messed around / joked around",
+  "pos": "verb"
+ },
+ {
+  "id": 610,
+  "arabic": "اعترض",
+  "english": "objected",
+  "pos": "verb"
+ },
+ {
+  "id": 391,
+  "arabic": "تقيل دم",
+  "english": "annoying person (lit: heavy blood)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2845,
+  "arabic": "إتفاقية",
+  "english": "agreement",
+  "pos": "noun"
+ },
+ {
+  "id": 1072,
+  "arabic": "صينية",
+  "english": "tray / baking pan",
+  "pos": "noun"
+ },
+ {
+  "id": 1341,
+  "arabic": "غيم",
+  "english": "clouds",
+  "pos": "noun"
+ },
+ {
+  "id": 956,
+  "arabic": "جريء",
+  "english": "bold / brave",
+  "pos": "adjective"
+ },
+ {
+  "id": 717,
+  "arabic": "غضب",
+  "english": "got angry",
+  "pos": "verb"
+ },
+ {
+  "id": 2888,
+  "arabic": "مسرح",
+  "english": "theater",
+  "pos": "noun"
+ },
+ {
+  "id": 2892,
+  "arabic": "قصر",
+  "english": "palace",
+  "pos": "noun"
+ },
+ {
+  "id": 2124,
+  "arabic": "أسطوري",
+  "english": "legendary",
+  "pos": "adjective"
+ },
+ {
+  "id": 1221,
+  "arabic": "كراج",
+  "english": "garage",
+  "pos": "noun"
+ },
+ {
+  "id": 3061,
+  "arabic": "عدواني",
+  "english": "aggressive / hostile",
+  "pos": "adjective"
+ },
+ {
+  "id": 1201,
+  "arabic": "لذيذ",
+  "english": "delicious",
+  "pos": "adjective"
+ },
+ {
+  "id": 2398,
+  "arabic": "شاكوش",
+  "english": "hammer",
+  "pos": "noun"
+ },
+ {
+  "id": 2045,
+  "arabic": "بتتفق معي؟",
+  "english": "Do you agree with me? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2424,
+  "arabic": "متأكد؟",
+  "english": "Are you sure? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 3159,
+  "arabic": "جاي",
+  "english": "coming",
+  "pos": "adjective"
+ },
+ {
+  "id": 2304,
+  "arabic": "بدي أستقيل",
+  "english": "I want to resign",
+  "pos": "frame"
+ },
+ {
+  "id": 2369,
+  "arabic": "تمر",
+  "english": "dates (fruit)",
+  "pos": "noun"
+ },
+ {
+  "id": 2430,
+  "arabic": "الله يسهل",
+  "english": "God make it easy",
+  "pos": "formula"
+ },
+ {
+  "id": 2578,
+  "arabic": "بتقدر تعلمني؟",
+  "english": "Can you teach me? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2936,
+  "arabic": "فراشة",
+  "english": "butterfly",
+  "pos": "noun"
+ },
+ {
+  "id": 1686,
+  "arabic": "شيكل",
+  "english": "shekel (currency)",
+  "pos": "noun"
+ }
+]

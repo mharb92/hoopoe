@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2602,
+  "arabic": "ما توقعت إنو هيك",
+  "english": "I didn't expect it to be like this",
+  "pos": "frame"
+ },
+ {
+  "id": 2239,
+  "arabic": "مستقبل",
+  "english": "future",
+  "pos": "noun"
+ },
+ {
+  "id": 3196,
+  "arabic": "مشاركة",
+  "english": "participation",
+  "pos": "noun"
+ },
+ {
+  "id": 1321,
+  "arabic": "ع الزاوية",
+  "english": "on the corner",
+  "pos": "adverb"
+ },
+ {
+  "id": 816,
+  "arabic": "بنت خال",
+  "english": "maternal cousin (f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 2454,
+  "arabic": "عقل",
+  "english": "mind / reason",
+  "pos": "noun"
+ },
+ {
+  "id": 3094,
+  "arabic": "وحيد",
+  "english": "lonely",
+  "pos": "adjective"
+ },
+ {
+  "id": 852,
+  "arabic": "أذن",
+  "english": "ear",
+  "pos": "noun"
+ },
+ {
+  "id": 311,
+  "arabic": "يعطيك ألف عافية",
+  "english": "God give you a thousand strengths",
+  "pos": "formula"
+ },
+ {
+  "id": 3141,
+  "arabic": "مستورد",
+  "english": "importer",
+  "pos": "noun"
+ },
+ {
+  "id": 834,
+  "arabic": "شب",
+  "english": "young man",
+  "pos": "noun"
+ },
+ {
+  "id": 670,
+  "arabic": "مرض",
+  "english": "got sick",
+  "pos": "verb"
+ },
+ {
+  "id": 1774,
+  "arabic": "بدي قهوة سادة",
+  "english": "I want plain coffee",
+  "pos": "formula"
+ },
+ {
+  "id": 1249,
+  "arabic": "ساحة",
+  "english": "square / plaza",
+  "pos": "noun"
+ },
+ {
+  "id": 2837,
+  "arabic": "شيوعية",
+  "english": "communism",
+  "pos": "noun"
+ },
+ {
+  "id": 3038,
+  "arabic": "ولاد",
+  "english": "children",
+  "pos": "noun"
+ },
+ {
+  "id": 909,
+  "arabic": "راسي بوجعني",
+  "english": "my head hurts",
+  "pos": "frame"
+ },
+ {
+  "id": 2435,
+  "arabic": "ما تقطع عنا",
+  "english": "Don't be a stranger (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2346,
+  "arabic": "كف",
+  "english": "slapped",
+  "pos": "verb"
+ },
+ {
+  "id": 2229,
+  "arabic": "كذبة",
+  "english": "lie",
+  "pos": "noun"
+ },
+ {
+  "id": 3119,
+  "arabic": "تنس",
+  "english": "tennis",
+  "pos": "noun"
+ },
+ {
+  "id": 903,
+  "arabic": "دوخة",
+  "english": "dizziness",
+  "pos": "noun"
+ },
+ {
+  "id": 1739,
+  "arabic": "برينتر",
+  "english": "printer",
+  "pos": "noun"
+ },
+ {
+  "id": 3172,
+  "arabic": "جنيه",
+  "english": "pound (currency)",
+  "pos": "noun"
+ },
+ {
+  "id": 2198,
+  "arabic": "تجربة",
+  "english": "experience",
+  "pos": "noun"
+ }
+]

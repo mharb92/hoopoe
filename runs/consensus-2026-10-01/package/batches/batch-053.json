@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1912,
+  "arabic": "إذا ما إجت بلشو بدوني",
+  "english": "If I don't come, start without me",
+  "pos": "formula"
+ },
+ {
+  "id": 1502,
+  "arabic": "أملس",
+  "english": "smooth / slippery",
+  "pos": "adjective"
+ },
+ {
+  "id": 3025,
+  "arabic": "طالب",
+  "english": "student",
+  "pos": "noun"
+ },
+ {
+  "id": 2945,
+  "arabic": "ثور",
+  "english": "bull",
+  "pos": "noun"
+ },
+ {
+  "id": 2760,
+  "arabic": "عض",
+  "english": "bit",
+  "pos": "verb"
+ },
+ {
+  "id": 1175,
+  "arabic": "لون",
+  "english": "color",
+  "pos": "noun"
+ },
+ {
+  "id": 1284,
+  "arabic": "موقف",
+  "english": "parking lot / bus stop",
+  "pos": "noun"
+ },
+ {
+  "id": 2501,
+  "arabic": "حط إيدو بالنار",
+  "english": "got himself into trouble",
+  "pos": "formula"
+ },
+ {
+  "id": 1122,
+  "arabic": "نشافة",
+  "english": "dryer",
+  "pos": "noun"
+ },
+ {
+  "id": 1889,
+  "arabic": "كان لازم أخبرك",
+  "english": "I should have told you (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 439,
+  "arabic": "لا تتعبي حالك",
+  "english": "don't trouble yourself (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2197,
+  "arabic": "فرصة",
+  "english": "opportunity / chance",
+  "pos": "noun"
+ },
+ {
+  "id": 2083,
+  "arabic": "على راسي من فوق",
+  "english": "Absolutely / with the highest honor",
+  "pos": "formula"
+ },
+ {
+  "id": 1267,
+  "arabic": "مقبرة",
+  "english": "cemetery",
+  "pos": "noun"
+ },
+ {
+  "id": 2506,
+  "arabic": "ركب راسو",
+  "english": "he was stubborn / insisted",
+  "pos": "formula"
+ },
+ {
+  "id": 163,
+  "arabic": "يوم السبت",
+  "english": "Saturday",
+  "pos": "noun"
+ },
+ {
+  "id": 2221,
+  "arabic": "حياة",
+  "english": "life",
+  "pos": "noun"
+ },
+ {
+  "id": 1981,
+  "arabic": "لما كنت صغير",
+  "english": "When I was young",
+  "pos": "frame"
+ },
+ {
+  "id": 1878,
+  "arabic": "بدي إياه",
+  "english": "I want it",
+  "pos": "frame"
+ },
+ {
+  "id": 2580,
+  "arabic": "ورجى",
+  "english": "showed",
+  "pos": "verb"
+ },
+ {
+  "id": 3237,
+  "arabic": "أغنية",
+  "english": "song",
+  "pos": "noun"
+ },
+ {
+  "id": 2609,
+  "arabic": "يعني بتقصد...",
+  "english": "You mean... (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2713,
+  "arabic": "أهان",
+  "english": "insulted / disrespected",
+  "pos": "verb"
+ },
+ {
+  "id": 2209,
+  "arabic": "خوف",
+  "english": "fear",
+  "pos": "noun"
+ },
+ {
+  "id": 2984,
+  "arabic": "إسرائيل",
+  "english": "israel (Palestine)",
+  "pos": "noun"
+ }
+]

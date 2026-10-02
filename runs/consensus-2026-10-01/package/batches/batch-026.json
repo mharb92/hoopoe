@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2519,
+  "arabic": "الله يقويك",
+  "english": "God strengthen you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 616,
+  "arabic": "قلع",
+  "english": "took off (clothes/shoes)",
+  "pos": "verb"
+ },
+ {
+  "id": 1050,
+  "arabic": "قهوة عربية",
+  "english": "Arabic coffee",
+  "pos": "noun"
+ },
+ {
+  "id": 2906,
+  "arabic": "تقليدي",
+  "english": "traditional",
+  "pos": "adjective"
+ },
+ {
+  "id": 672,
+  "arabic": "اشترى",
+  "english": "bought",
+  "pos": "verb"
+ },
+ {
+  "id": 2326,
+  "arabic": "اتلغى",
+  "english": "got canceled",
+  "pos": "verb"
+ },
+ {
+  "id": 3056,
+  "arabic": "قطار",
+  "english": "train",
+  "pos": "noun"
+ },
+ {
+  "id": 96,
+  "arabic": "ثلاثطعش",
+  "english": "thirteen (13)",
+  "pos": "noun"
+ },
+ {
+  "id": 2816,
+  "arabic": "جمهورية",
+  "english": "republic",
+  "pos": "noun"
+ },
+ {
+  "id": 775,
+  "arabic": "عيد الفطر",
+  "english": "Eid al-Fitr",
+  "pos": "noun"
+ },
+ {
+  "id": 549,
+  "arabic": "سأل",
+  "english": "asked",
+  "pos": "verb"
+ },
+ {
+  "id": 1144,
+  "arabic": "شورت",
+  "english": "shorts",
+  "pos": "noun"
+ },
+ {
+  "id": 580,
+  "arabic": "زهق",
+  "english": "got bored / fed up",
+  "pos": "verb"
+ },
+ {
+  "id": 2966,
+  "arabic": "خيمة",
+  "english": "tent",
+  "pos": "noun"
+ },
+ {
+  "id": 1768,
+  "arabic": "معلش ما في...",
+  "english": "Sorry, we don't have...",
+  "pos": "frame"
+ },
+ {
+  "id": 789,
+  "arabic": "سامحيني",
+  "english": "forgive me (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 13,
+  "arabic": "هديك",
+  "english": "that (f.)",
+  "pos": "pronoun"
+ },
+ {
+  "id": 2792,
+  "arabic": "مظاهرة",
+  "english": "demonstration",
+  "pos": "noun"
+ },
+ {
+  "id": 1470,
+  "arabic": "رفيع",
+  "english": "thin / slim (object)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2617,
+  "arabic": "متأكدة؟",
+  "english": "Are you sure? (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 182,
+  "arabic": "الساعة ثنتين",
+  "english": "It's two o'clock",
+  "pos": "frame"
+ },
+ {
+  "id": 2278,
+  "arabic": "الطيارة متأخرة",
+  "english": "The plane is delayed",
+  "pos": "frame"
+ },
+ {
+  "id": 1237,
+  "arabic": "منظف",
+  "english": "cleaning product / detergent",
+  "pos": "noun"
+ },
+ {
+  "id": 2383,
+  "arabic": "انقطعت الكهربا",
+  "english": "The electricity went out",
+  "pos": "formula"
+ },
+ {
+  "id": 2956,
+  "arabic": "جينز",
+  "english": "jeans",
+  "pos": "noun"
+ }
+]

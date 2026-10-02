@@ -1,0 +1,152 @@
+[
+ {
+  "id": 874,
+  "arabic": "كبد",
+  "english": "liver",
+  "pos": "noun"
+ },
+ {
+  "id": 2301,
+  "arabic": "باص المدرسة",
+  "english": "school bus",
+  "pos": "noun"
+ },
+ {
+  "id": 633,
+  "arabic": "سخن",
+  "english": "heated up / warmed",
+  "pos": "verb"
+ },
+ {
+  "id": 2817,
+  "arabic": "ديمقراطية",
+  "english": "democracy",
+  "pos": "noun"
+ },
+ {
+  "id": 639,
+  "arabic": "تبل",
+  "english": "seasoned / spiced",
+  "pos": "verb"
+ },
+ {
+  "id": 1896,
+  "arabic": "ممكن أقعد هون؟",
+  "english": "Can I sit here?",
+  "pos": "frame"
+ },
+ {
+  "id": 2685,
+  "arabic": "بدي أفضفضلك",
+  "english": "I want to vent to you (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1643,
+  "arabic": "سهرة",
+  "english": "evening gathering / party",
+  "pos": "noun"
+ },
+ {
+  "id": 997,
+  "arabic": "لحمة",
+  "english": "meat",
+  "pos": "noun"
+ },
+ {
+  "id": 662,
+  "arabic": "سيف",
+  "english": "saved (file)",
+  "pos": "verb"
+ },
+ {
+  "id": 861,
+  "arabic": "صباع",
+  "english": "finger",
+  "pos": "noun"
+ },
+ {
+  "id": 283,
+  "arabic": "الله يعافيك",
+  "english": "God bless you (reply, to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2781,
+  "arabic": "قانون",
+  "english": "law",
+  "pos": "noun"
+ },
+ {
+  "id": 1530,
+  "arabic": "بطيء",
+  "english": "slow",
+  "pos": "adjective"
+ },
+ {
+  "id": 585,
+  "arabic": "زعل",
+  "english": "got upset / angry",
+  "pos": "verb"
+ },
+ {
+  "id": 2049,
+  "arabic": "بغض النظر عن",
+  "english": "regardless of",
+  "pos": "preposition"
+ },
+ {
+  "id": 1040,
+  "arabic": "ليمون",
+  "english": "lemon",
+  "pos": "noun"
+ },
+ {
+  "id": 1337,
+  "arabic": "شمس",
+  "english": "sun",
+  "pos": "noun"
+ },
+ {
+  "id": 1449,
+  "arabic": "نهر الأردن",
+  "english": "the Jordan River",
+  "pos": "noun"
+ },
+ {
+  "id": 2907,
+  "arabic": "عظيم",
+  "english": "great",
+  "pos": "adjective"
+ },
+ {
+  "id": 2967,
+  "arabic": "فرندة",
+  "english": "veranda",
+  "pos": "noun"
+ },
+ {
+  "id": 166,
+  "arabic": "آذار",
+  "english": "March",
+  "pos": "noun"
+ },
+ {
+  "id": 156,
+  "arabic": "السنة اللي فاتت",
+  "english": "last year",
+  "pos": "adverb"
+ },
+ {
+  "id": 472,
+  "arabic": "ع الأغلب",
+  "english": "most likely / probably",
+  "pos": "adverb"
+ },
+ {
+  "id": 2507,
+  "arabic": "كبر راسو",
+  "english": "he became arrogant",
+  "pos": "formula"
+ }
+]

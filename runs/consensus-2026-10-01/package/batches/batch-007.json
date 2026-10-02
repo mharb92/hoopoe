@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2696,
+  "arabic": "مدح",
+  "english": "praised / complimented",
+  "pos": "verb"
+ },
+ {
+  "id": 2775,
+  "arabic": "كاشو",
+  "english": "cashew",
+  "pos": "noun"
+ },
+ {
+  "id": 1154,
+  "arabic": "كفية",
+  "english": "keffiyeh (Palestinian scarf)",
+  "pos": "noun"
+ },
+ {
+  "id": 2262,
+  "arabic": "مبروك البيت الجديد",
+  "english": "Congratulations on the new house",
+  "pos": "formula"
+ },
+ {
+  "id": 2740,
+  "arabic": "بحارات",
+  "english": "spices",
+  "pos": "noun"
+ },
+ {
+  "id": 3097,
+  "arabic": "غيمة",
+  "english": "cloud",
+  "pos": "noun"
+ },
+ {
+  "id": 2591,
+  "arabic": "غير الموعد",
+  "english": "changed the appointment",
+  "pos": "frame"
+ },
+ {
+  "id": 1356,
+  "arabic": "عم بتشتي",
+  "english": "It's raining",
+  "pos": "formula"
+ },
+ {
+  "id": 1752,
+  "arabic": "الإنترنت مش ماشي",
+  "english": "The internet isn't working",
+  "pos": "frame"
+ },
+ {
+  "id": 2582,
+  "arabic": "وزع",
+  "english": "distributed",
+  "pos": "verb"
+ },
+ {
+  "id": 2754,
+  "arabic": "بوزة",
+  "english": "ice Cream",
+  "pos": "noun"
+ },
+ {
+  "id": 1565,
+  "arabic": "معلمة",
+  "english": "teacher (f.)",
+  "pos": "noun"
+ },
+ {
+  "id": 2638,
+  "arabic": "شروق",
+  "english": "sunrise",
+  "pos": "noun"
+ },
+ {
+  "id": 2373,
+  "arabic": "هاد القميص بيجي علي؟",
+  "english": "Does this shirt fit me?",
+  "pos": "formula"
+ },
+ {
+  "id": 1962,
+  "arabic": "في إشي غلط",
+  "english": "Something is wrong",
+  "pos": "formula"
+ },
+ {
+  "id": 1243,
+  "arabic": "شارع",
+  "english": "street / road",
+  "pos": "noun"
+ },
+ {
+  "id": 1026,
+  "arabic": "فواكه",
+  "english": "fruits",
+  "pos": "noun"
+ },
+ {
+  "id": 2658,
+  "arabic": "جبس",
+  "english": "cast / plaster",
+  "pos": "noun"
+ },
+ {
+  "id": 2631,
+  "arabic": "طقس",
+  "english": "weather (formal)",
+  "pos": "noun"
+ },
+ {
+  "id": 1485,
+  "arabic": "يابس",
+  "english": "dry",
+  "pos": "adjective"
+ },
+ {
+  "id": 77,
+  "arabic": "هناك",
+  "english": "there",
+  "pos": "adverb"
+ },
+ {
+  "id": 1772,
+  "arabic": "صحتين وعافية",
+  "english": "Bon appétit (extended form)",
+  "pos": "formula"
+ },
+ {
+  "id": 2351,
+  "arabic": "ضهري بيوجعني",
+  "english": "My back hurts",
+  "pos": "frame"
+ },
+ {
+  "id": 559,
+  "arabic": "اعتذر",
+  "english": "apologized",
+  "pos": "verb"
+ },
+ {
+  "id": 637,
+  "arabic": "عجن",
+  "english": "kneaded",
+  "pos": "verb"
+ }
+]

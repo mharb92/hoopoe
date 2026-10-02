@@ -1,0 +1,52 @@
+Here are 8 entries. Return the JSON array, one object per entry, in this order.
+
+[
+ {
+  "id": 135,
+  "arabic": "سنة",
+  "english": "year",
+  "pos": "noun"
+ },
+ {
+  "id": 2219,
+  "arabic": "قسمة",
+  "english": "fate / destiny",
+  "pos": "noun"
+ },
+ {
+  "id": 470,
+  "arabic": "الحمد لله",
+  "english": "thankfully / praise God",
+  "pos": "formula"
+ },
+ {
+  "id": 1353,
+  "arabic": "كيف الجو؟",
+  "english": "How's the weather?",
+  "pos": "formula"
+ },
+ {
+  "id": 588,
+  "arabic": "تفاجأ",
+  "english": "was surprised",
+  "pos": "verb"
+ },
+ {
+  "id": 1133,
+  "arabic": "كيس",
+  "english": "bag / plastic bag",
+  "pos": "noun"
+ },
+ {
+  "id": 2334,
+  "arabic": "ركز",
+  "english": "focused / concentrated",
+  "pos": "verb"
+ },
+ {
+  "id": 230,
+  "arabic": "السلام عليكم",
+  "english": "peace be upon you (hello)",
+  "pos": "formula"
+ }
+]

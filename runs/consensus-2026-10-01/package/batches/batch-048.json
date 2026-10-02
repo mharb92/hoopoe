@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2686,
+  "arabic": "فضفض",
+  "english": "vented / let it out",
+  "pos": "verb"
+ },
+ {
+  "id": 1851,
+  "arabic": "تعالو عنا",
+  "english": "Come to our place (to pl.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1199,
+  "arabic": "بارد",
+  "english": "cold (food/drink)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2298,
+  "arabic": "ثانوية",
+  "english": "high school",
+  "pos": "noun"
+ },
+ {
+  "id": 344,
+  "arabic": "غير هيك",
+  "english": "besides that / other than that",
+  "pos": "adverb"
+ },
+ {
+  "id": 1033,
+  "arabic": "باذنجان",
+  "english": "eggplant",
+  "pos": "noun"
+ },
+ {
+  "id": 1058,
+  "arabic": "قرفة",
+  "english": "cinnamon",
+  "pos": "noun"
+ },
+ {
+  "id": 902,
+  "arabic": "ضماد",
+  "english": "bandage",
+  "pos": "noun"
+ },
+ {
+  "id": 36,
+  "arabic": "إلـ",
+  "english": "to / for (possession)",
+  "pos": "preposition"
+ },
+ {
+  "id": 2534,
+  "arabic": "بدي أصبغ شعري",
+  "english": "I want to dye my hair",
+  "pos": "frame"
+ },
+ {
+  "id": 867,
+  "arabic": "ركبة",
+  "english": "knee",
+  "pos": "noun"
+ },
+ {
+  "id": 1408,
+  "arabic": "عاصفة",
+  "english": "storm",
+  "pos": "noun"
+ },
+ {
+  "id": 2822,
+  "arabic": "حكم",
+  "english": "governed / ruled over",
+  "pos": "verb"
+ },
+ {
+  "id": 1824,
+  "arabic": "ما بقدر ألحق",
+  "english": "I can't make it (in time)",
+  "pos": "formula"
+ },
+ {
+  "id": 259,
+  "arabic": "روح بالسلامة",
+  "english": "go safely (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 3027,
+  "arabic": "قاموس",
+  "english": "dictionary",
+  "pos": "noun"
+ },
+ {
+  "id": 1528,
+  "arabic": "رخيص",
+  "english": "cheap / inexpensive",
+  "pos": "adjective"
+ },
+ {
+  "id": 1414,
+  "arabic": "الدنيا برد",
+  "english": "It's cold out",
+  "pos": "frame"
+ },
+ {
+  "id": 2405,
+  "arabic": "بدي أعبي بنزين",
+  "english": "I need to fill up gas",
+  "pos": "formula"
+ },
+ {
+  "id": 2678,
+  "arabic": "بتعملها ولا لأ؟",
+  "english": "Are you going to do it or not? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 859,
+  "arabic": "كتف",
+  "english": "shoulder",
+  "pos": "noun"
+ },
+ {
+  "id": 1770,
+  "arabic": "على بعض ولا كل واحد لحالو؟",
+  "english": "Together or separate? (bill)",
+  "pos": "formula"
+ },
+ {
+  "id": 1385,
+  "arabic": "دجاجة",
+  "english": "chicken (one)",
+  "pos": "noun"
+ },
+ {
+  "id": 2604,
+  "arabic": "بغض النظر عن هاد",
+  "english": "Regardless of this",
+  "pos": "frame"
+ },
+ {
+  "id": 2891,
+  "arabic": "كنيس",
+  "english": "synagogue",
+  "pos": "noun"
+ }
+]

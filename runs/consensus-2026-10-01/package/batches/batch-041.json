@@ -1,0 +1,152 @@
+[
+ {
+  "id": 466,
+  "arabic": "مثلا",
+  "english": "for example",
+  "pos": "adverb"
+ },
+ {
+  "id": 1797,
+  "arabic": "قبل الأكل ولا بعدو؟",
+  "english": "Before or after eating?",
+  "pos": "formula"
+ },
+ {
+  "id": 2990,
+  "arabic": "المكسيك",
+  "english": "mexico",
+  "pos": "noun"
+ },
+ {
+  "id": 2487,
+  "arabic": "كلمة حق",
+  "english": "a word of truth",
+  "pos": "noun"
+ },
+ {
+  "id": 209,
+  "arabic": "بينما",
+  "english": "while",
+  "pos": "conjunction"
+ },
+ {
+  "id": 3205,
+  "arabic": "جايزة",
+  "english": "grand prize",
+  "pos": "noun"
+ },
+ {
+  "id": 851,
+  "arabic": "عين",
+  "english": "eye",
+  "pos": "noun"
+ },
+ {
+  "id": 2174,
+  "arabic": "وين",
+  "english": "where (dialect)",
+  "pos": "adverb"
+ },
+ {
+  "id": 1760,
+  "arabic": "فويس نوت",
+  "english": "voice note",
+  "pos": "noun"
+ },
+ {
+  "id": 2488,
+  "arabic": "ضرب عصفورين بحجر",
+  "english": "killed two birds with one stone",
+  "pos": "verb"
+ },
+ {
+  "id": 1713,
+  "arabic": "بتقبلو كاش بس؟",
+  "english": "Do you accept cash only? (to pl.)",
+  "pos": "frame"
+ },
+ {
+  "id": 671,
+  "arabic": "تحسن",
+  "english": "improved / got better",
+  "pos": "verb"
+ },
+ {
+  "id": 681,
+  "arabic": "سحب",
+  "english": "pulled",
+  "pos": "verb"
+ },
+ {
+  "id": 568,
+  "arabic": "توقع",
+  "english": "expected",
+  "pos": "verb"
+ },
+ {
+  "id": 1149,
+  "arabic": "شراب",
+  "english": "socks",
+  "pos": "noun"
+ },
+ {
+  "id": 2937,
+  "arabic": "نسر",
+  "english": "eagle",
+  "pos": "noun"
+ },
+ {
+  "id": 2429,
+  "arabic": "إن شاء الله خير",
+  "english": "hopefully it's good (worried response)",
+  "pos": "formula"
+ },
+ {
+  "id": 373,
+  "arabic": "بتعرف شو",
+  "english": "you know what (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2932,
+  "arabic": "تطوع",
+  "english": "volunteered",
+  "pos": "verb"
+ },
+ {
+  "id": 2527,
+  "arabic": "كيفك يا قلبي (خليلي)",
+  "english": "how are you my heart (Hebron style)",
+  "pos": "formula"
+ },
+ {
+  "id": 282,
+  "arabic": "الله يعطيك العافية",
+  "english": "God give you strength (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1222,
+  "arabic": "إيجار",
+  "english": "rent",
+  "pos": "noun"
+ },
+ {
+  "id": 3019,
+  "arabic": "بلاندا",
+  "english": "poland",
+  "pos": "noun"
+ },
+ {
+  "id": 1146,
+  "arabic": "بجامة",
+  "english": "pajamas",
+  "pos": "noun"
+ },
+ {
+  "id": 2861,
+  "arabic": "شارب",
+  "english": "mustache",
+  "pos": "noun"
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1916,
+  "arabic": "مش عشان هيك",
+  "english": "not because of that",
+  "pos": "formula"
+ },
+ {
+  "id": 2874,
+  "arabic": "مفطر",
+  "english": "has eaten breakfast",
+  "pos": "adjective"
+ },
+ {
+  "id": 958,
+  "arabic": "كذاب",
+  "english": "liar",
+  "pos": "adjective"
+ },
+ {
+  "id": 648,
+  "arabic": "شغل",
+  "english": "turned on (device/machine)",
+  "pos": "verb"
+ },
+ {
+  "id": 1931,
+  "arabic": "قبل ما تروح",
+  "english": "before you go (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 669,
+  "arabic": "وجع",
+  "english": "hurt / ached",
+  "pos": "verb"
+ },
+ {
+  "id": 2734,
+  "arabic": "فواكي",
+  "english": "fruit",
+  "pos": "noun"
+ },
+ {
+  "id": 2462,
+  "arabic": "مسألة وقت",
+  "english": "a matter of time",
+  "pos": "formula"
+ },
+ {
+  "id": 150,
+  "arabic": "كم يوم",
+  "english": "a few days",
+  "pos": "adverb"
+ },
+ {
+  "id": 3024,
+  "arabic": "الكيان الصهيوني",
+  "english": "the Zionist entity",
+  "pos": "noun"
+ },
+ {
+  "id": 258,
+  "arabic": "يلا باي",
+  "english": "OK bye! (casual)",
+  "pos": "formula"
+ },
+ {
+  "id": 698,
+  "arabic": "لعب",
+  "english": "played",
+  "pos": "verb"
+ },
+ {
+  "id": 2957,
+  "arabic": "ملابس داخلية",
+  "english": "underwear",
+  "pos": "noun"
+ },
+ {
+  "id": 1645,
+  "arabic": "مناسبة دينية",
+  "english": "religious occasion",
+  "pos": "noun"
+ },
+ {
+  "id": 2380,
+  "arabic": "الجو بيصحي",
+  "english": "The weather is clearing up",
+  "pos": "formula"
+ },
+ {
+  "id": 817,
+  "arabic": "زوج",
+  "english": "husband",
+  "pos": "noun"
+ },
+ {
+  "id": 2769,
+  "arabic": "شمام",
+  "english": "melon",
+  "pos": "noun"
+ },
+ {
+  "id": 758,
+  "arabic": "لوين",
+  "english": "where to",
+  "pos": "adverb"
+ },
+ {
+  "id": 625,
+  "arabic": "تعشى",
+  "english": "had dinner",
+  "pos": "verb"
+ },
+ {
+  "id": 3080,
+  "arabic": "خبيث",
+  "english": "malicious",
+  "pos": "adjective"
+ },
+ {
+  "id": 2593,
+  "arabic": "بكر الموعد",
+  "english": "moved the appointment earlier",
+  "pos": "verb"
+ },
+ {
+  "id": 788,
+  "arabic": "سامحني",
+  "english": "forgive me (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2901,
+  "arabic": "قلعة",
+  "english": "citadel",
+  "pos": "noun"
+ },
+ {
+  "id": 1289,
+  "arabic": "شاحنة",
+  "english": "truck",
+  "pos": "noun"
+ },
+ {
+  "id": 2397,
+  "arabic": "براغي",
+  "english": "screw",
+  "pos": "noun"
+ }
+]

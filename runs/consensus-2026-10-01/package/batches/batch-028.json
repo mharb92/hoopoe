@@ -1,0 +1,152 @@
+[
+ {
+  "id": 58,
+  "arabic": "ما... ش",
+  "english": "not (emphatic verb negation)",
+  "pos": "particle"
+ },
+ {
+  "id": 659,
+  "arabic": "بلك",
+  "english": "blocked (someone online)",
+  "pos": "verb"
+ },
+ {
+  "id": 2902,
+  "arabic": "تلوث",
+  "english": "pollution",
+  "pos": "noun"
+ },
+ {
+  "id": 131,
+  "arabic": "ثانية",
+  "english": "second (time)",
+  "pos": "noun"
+ },
+ {
+  "id": 2180,
+  "arabic": "إيمتى",
+  "english": "when (dialect)",
+  "pos": "adverb"
+ },
+ {
+  "id": 2484,
+  "arabic": "اللي بيجري ورا الدنيا ما بيلحقها",
+  "english": "He who chases the world never catches it",
+  "pos": "formula"
+ },
+ {
+  "id": 2643,
+  "arabic": "موسم",
+  "english": "season (harvest/agricultural)",
+  "pos": "noun"
+ },
+ {
+  "id": 3074,
+  "arabic": "جذاب",
+  "english": "attractive charming",
+  "pos": "adjective"
+ },
+ {
+  "id": 1330,
+  "arabic": "بتعرف وين الـ...؟",
+  "english": "Do you know where the...? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 3016,
+  "arabic": "الصحراء الغربية",
+  "english": "western Sahara",
+  "pos": "noun"
+ },
+ {
+  "id": 1053,
+  "arabic": "غازي",
+  "english": "soda / carbonated drink",
+  "pos": "noun"
+ },
+ {
+  "id": 3039,
+  "arabic": "مرة عم",
+  "english": "aunt (father’s brother’s wife)",
+  "pos": "noun"
+ },
+ {
+  "id": 1703,
+  "arabic": "ربع كيلو",
+  "english": "quarter kilo",
+  "pos": "noun"
+ },
+ {
+  "id": 3209,
+  "arabic": "إعتصام",
+  "english": "protest",
+  "pos": "noun"
+ },
+ {
+  "id": 1861,
+  "arabic": "على حسابي",
+  "english": "my treat / on me",
+  "pos": "formula"
+ },
+ {
+  "id": 1733,
+  "arabic": "فولو",
+  "english": "follow (social media)",
+  "pos": "noun"
+ },
+ {
+  "id": 3035,
+  "arabic": "تسع",
+  "english": "nine + noun",
+  "pos": "noun"
+ },
+ {
+  "id": 1178,
+  "arabic": "مقلم",
+  "english": "striped",
+  "pos": "adjective"
+ },
+ {
+  "id": 973,
+  "arabic": "بسيط",
+  "english": "simple / easygoing",
+  "pos": "adjective"
+ },
+ {
+  "id": 3042,
+  "arabic": "ابن عمة",
+  "english": "cousin (father’s sister’s son)",
+  "pos": "noun"
+ },
+ {
+  "id": 2494,
+  "arabic": "حرق الأخضر واليابس",
+  "english": "destroyed everything (lit: burned green and dry)",
+  "pos": "formula"
+ },
+ {
+  "id": 986,
+  "arabic": "مطلق",
+  "english": "divorced (m.)",
+  "pos": "adjective"
+ },
+ {
+  "id": 1167,
+  "arabic": "برتقالي",
+  "english": "orange (color)",
+  "pos": "adjective"
+ },
+ {
+  "id": 603,
+  "arabic": "نجح",
+  "english": "succeeded / passed (exam)",
+  "pos": "verb"
+ },
+ {
+  "id": 1871,
+  "arabic": "سعر الصرف",
+  "english": "exchange rate",
+  "pos": "noun"
+ }
+]

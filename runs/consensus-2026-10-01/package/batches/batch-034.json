@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1729,
+  "arabic": "باسوورد",
+  "english": "password",
+  "pos": "noun"
+ },
+ {
+  "id": 1637,
+  "arabic": "تقليد",
+  "english": "tradition",
+  "pos": "noun"
+ },
+ {
+  "id": 3239,
+  "arabic": "فيلم",
+  "english": "film",
+  "pos": "noun"
+ },
+ {
+  "id": 3125,
+  "arabic": "غوص",
+  "english": "diving",
+  "pos": "noun"
+ },
+ {
+  "id": 913,
+  "arabic": "وين أقرب صيدلية؟",
+  "english": "where's the nearest pharmacy?",
+  "pos": "frame"
+ },
+ {
+  "id": 2969,
+  "arabic": "عفش",
+  "english": "furniture",
+  "pos": "noun"
+ },
+ {
+  "id": 1104,
+  "arabic": "قفل",
+  "english": "lock",
+  "pos": "noun"
+ },
+ {
+  "id": 1595,
+  "arabic": "لوح",
+  "english": "board / whiteboard",
+  "pos": "noun"
+ },
+ {
+  "id": 1675,
+  "arabic": "سبوع",
+  "english": "week-old baby celebration",
+  "pos": "noun"
+ },
+ {
+  "id": 3128,
+  "arabic": "زيتي",
+  "english": "olive green",
+  "pos": "adjective"
+ },
+ {
+  "id": 1371,
+  "arabic": "سهل",
+  "english": "plain / flat land",
+  "pos": "noun"
+ },
+ {
+  "id": 3231,
+  "arabic": "فرقة",
+  "english": "band",
+  "pos": "noun"
+ },
+ {
+  "id": 1239,
+  "arabic": "جارور",
+  "english": "drawer (variant)",
+  "pos": "noun"
+ },
+ {
+  "id": 1869,
+  "arabic": "حساب مشترك",
+  "english": "shared bill / split bill",
+  "pos": "noun"
+ },
+ {
+  "id": 1112,
+  "arabic": "كنباية",
+  "english": "couch / sofa",
+  "pos": "noun"
+ },
+ {
+  "id": 3023,
+  "arabic": "تمنية وأربعين",
+  "english": "forty Eight Palestine (refers to the 1948 borders of Palestine, and Palestinians often use this when talking about the land of modern day Israel)",
+  "pos": "noun"
+ },
+ {
+  "id": 2091,
+  "arabic": "الله يستر من الجاي",
+  "english": "God protect us from what's coming",
+  "pos": "formula"
+ },
+ {
+  "id": 2995,
+  "arabic": "اليمن",
+  "english": "yemen",
+  "pos": "noun"
+ },
+ {
+  "id": 590,
+  "arabic": "ندم",
+  "english": "regretted",
+  "pos": "verb"
+ },
+ {
+  "id": 2503,
+  "arabic": "قلبو على لسانو",
+  "english": "he speaks his mind (lit: heart on tongue)",
+  "pos": "formula"
+ },
+ {
+  "id": 54,
+  "arabic": "مع إنو",
+  "english": "even though / although",
+  "pos": "conjunction"
+ },
+ {
+  "id": 3033,
+  "arabic": "سبع",
+  "english": "seven + noun",
+  "pos": "noun"
+ },
+ {
+  "id": 1375,
+  "arabic": "أرض",
+  "english": "land / earth",
+  "pos": "noun"
+ },
+ {
+  "id": 2157,
+  "arabic": "أريد",
+  "english": "I want (MSA/formal)",
+  "pos": "verb"
+ },
+ {
+  "id": 2904,
+  "arabic": "رقيق",
+  "english": "delicate / gentle",
+  "pos": "adjective"
+ }
+]

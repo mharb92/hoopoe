@@ -1,0 +1,152 @@
+[
+ {
+  "id": 3129,
+  "arabic": "تركوأز",
+  "english": "turquoise",
+  "pos": "adjective"
+ },
+ {
+  "id": 545,
+  "arabic": "ساق",
+  "english": "drove",
+  "pos": "verb"
+ },
+ {
+  "id": 3059,
+  "arabic": "على الشمال",
+  "english": "on the left",
+  "pos": "adverb"
+ },
+ {
+  "id": 2721,
+  "arabic": "أبلغ",
+  "english": "reported / informed (Form IV)",
+  "pos": "verb"
+ },
+ {
+  "id": 2037,
+  "arabic": "هاد بذكرني بـ...",
+  "english": "This reminds me of...",
+  "pos": "frame"
+ },
+ {
+  "id": 1129,
+  "arabic": "مدفأة",
+  "english": "heater",
+  "pos": "noun"
+ },
+ {
+  "id": 1465,
+  "arabic": "عريض",
+  "english": "wide / broad",
+  "pos": "adjective"
+ },
+ {
+  "id": 1967,
+  "arabic": "عم بتشتي",
+  "english": "It's raining (right now)",
+  "pos": "frame"
+ },
+ {
+  "id": 1563,
+  "arabic": "أستاذ",
+  "english": "teacher / professor / Mr.",
+  "pos": "noun"
+ },
+ {
+  "id": 1145,
+  "arabic": "تي شيرت",
+  "english": "t-shirt",
+  "pos": "noun"
+ },
+ {
+  "id": 341,
+  "arabic": "بالنسبة لـ",
+  "english": "regarding / as for",
+  "pos": "preposition"
+ },
+ {
+  "id": 2976,
+  "arabic": "مصر",
+  "english": "egypt",
+  "pos": "noun"
+ },
+ {
+  "id": 1474,
+  "arabic": "حلو",
+  "english": "pretty / beautiful / sweet",
+  "pos": "adjective"
+ },
+ {
+  "id": 1898,
+  "arabic": "ممكن تعيد؟",
+  "english": "Can you repeat? (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2491,
+  "arabic": "كبر مخو",
+  "english": "he matured / grew wiser",
+  "pos": "frame"
+ },
+ {
+  "id": 2749,
+  "arabic": "سمسم",
+  "english": "sesame",
+  "pos": "noun"
+ },
+ {
+  "id": 1705,
+  "arabic": "علبة",
+  "english": "box / can / package",
+  "pos": "noun"
+ },
+ {
+  "id": 589,
+  "arabic": "قلق",
+  "english": "worried",
+  "pos": "verb"
+ },
+ {
+  "id": 345,
+  "arabic": "بالإضافة",
+  "english": "in addition",
+  "pos": "adverb"
+ },
+ {
+  "id": 1089,
+  "arabic": "مستوي",
+  "english": "cooked / done / ripe",
+  "pos": "adjective"
+ },
+ {
+  "id": 1551,
+  "arabic": "بكفاية",
+  "english": "enough",
+  "pos": "adverb"
+ },
+ {
+  "id": 2559,
+  "arabic": "مدير المدرسة",
+  "english": "the school principal",
+  "pos": "noun"
+ },
+ {
+  "id": 1603,
+  "arabic": "بحث",
+  "english": "research / paper",
+  "pos": "noun"
+ },
+ {
+  "id": 2738,
+  "arabic": "كب",
+  "english": "threw away / spilled",
+  "pos": "verb"
+ },
+ {
+  "id": 1807,
+  "arabic": "البيت كتير حلو",
+  "english": "The house is very nice",
+  "pos": "frame"
+ }
+]

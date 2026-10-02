@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1307,
+  "arabic": "مشوار",
+  "english": "trip / errand / outing",
+  "pos": "noun"
+ },
+ {
+  "id": 2004,
+  "arabic": "بالمرة ما بيعرف",
+  "english": "He doesn't know at all",
+  "pos": "frame"
+ },
+ {
+  "id": 233,
+  "arabic": "مرحبتين",
+  "english": "double hello (warm reply)",
+  "pos": "formula"
+ },
+ {
+  "id": 1413,
+  "arabic": "هاد اليوم حلو",
+  "english": "It's a nice day today",
+  "pos": "formula"
+ },
+ {
+  "id": 1411,
+  "arabic": "درجة",
+  "english": "degree (temperature)",
+  "pos": "noun"
+ },
+ {
+  "id": 1649,
+  "arabic": "مثل",
+  "english": "proverb / saying",
+  "pos": "noun"
+ },
+ {
+  "id": 1032,
+  "arabic": "كوسا",
+  "english": "zucchini",
+  "pos": "noun"
+ },
+ {
+  "id": 786,
+  "arabic": "يلا أنا رايحة",
+  "english": "alright I'm heading out (f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2528,
+  "arabic": "مو",
+  "english": "not (northern variant)",
+  "pos": "particle"
+ },
+ {
+  "id": 1918,
+  "arabic": "حتى نخلص بكير",
+  "english": "so we finish early",
+  "pos": "frame"
+ },
+ {
+  "id": 3030,
+  "arabic": "أربع",
+  "english": "four + noun",
+  "pos": "noun"
+ },
+ {
+  "id": 2005,
+  "arabic": "اللي بيعرف بيعرف",
+  "english": "Those who know, know",
+  "pos": "formula"
+ },
+ {
+  "id": 1039,
+  "arabic": "برتقال",
+  "english": "orange (fruit)",
+  "pos": "noun"
+ },
+ {
+  "id": 3232,
+  "arabic": "آلة",
+  "english": "instrument",
+  "pos": "noun"
+ },
+ {
+  "id": 2823,
+  "arabic": "ثار",
+  "english": "rebelled against",
+  "pos": "verb"
+ },
+ {
+  "id": 2421,
+  "arabic": "فاتورة الكهربا",
+  "english": "electricity bill",
+  "pos": "noun"
+ },
+ {
+  "id": 451,
+  "arabic": "هاد من ذوقك",
+  "english": "that's kind of you (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2772,
+  "arabic": "بازيلا",
+  "english": "peas",
+  "pos": "noun"
+ },
+ {
+  "id": 1965,
+  "arabic": "رح يكون في حفلة",
+  "english": "There will be a party",
+  "pos": "frame"
+ },
+ {
+  "id": 1185,
+  "arabic": "ميكرويف",
+  "english": "microwave",
+  "pos": "noun"
+ },
+ {
+  "id": 132,
+  "arabic": "يوم",
+  "english": "day",
+  "pos": "noun"
+ },
+ {
+  "id": 1352,
+  "arabic": "رطوبة",
+  "english": "humidity",
+  "pos": "noun"
+ },
+ {
+  "id": 3106,
+  "arabic": "مرشح",
+  "english": "have a cold",
+  "pos": "adjective"
+ },
+ {
+  "id": 1780,
+  "arabic": "بدي أحجز طاولة",
+  "english": "I'd like to reserve a table",
+  "pos": "frame"
+ },
+ {
+  "id": 1987,
+  "arabic": "ما بعرف إذا بيجي",
+  "english": "I don't know if he's coming",
+  "pos": "frame"
+ }
+]

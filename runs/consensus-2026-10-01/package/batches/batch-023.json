@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2011,
+  "arabic": "بفتكر إنو...",
+  "english": "I think that...",
+  "pos": "frame"
+ },
+ {
+  "id": 1928,
+  "arabic": "ما في أحسن من هيك",
+  "english": "there's nothing better than this",
+  "pos": "formula"
+ },
+ {
+  "id": 2627,
+  "arabic": "أثر",
+  "english": "influenced / affected",
+  "pos": "verb"
+ },
+ {
+  "id": 3157,
+  "arabic": "غلى",
+  "english": "raised the price",
+  "pos": "verb"
+ },
+ {
+  "id": 2737,
+  "arabic": "جلى",
+  "english": "washed (dishes)",
+  "pos": "verb"
+ },
+ {
+  "id": 3082,
+  "arabic": "شهم",
+  "english": "noble",
+  "pos": "adjective"
+ },
+ {
+  "id": 1071,
+  "arabic": "سكينة",
+  "english": "knife",
+  "pos": "noun"
+ },
+ {
+  "id": 1065,
+  "arabic": "وجبة",
+  "english": "meal",
+  "pos": "noun"
+ },
+ {
+  "id": 1254,
+  "arabic": "سوبرماركت",
+  "english": "supermarket",
+  "pos": "noun"
+ },
+ {
+  "id": 95,
+  "arabic": "اثنعش",
+  "english": "twelve (12)",
+  "pos": "noun"
+ },
+ {
+  "id": 680,
+  "arabic": "رمى",
+  "english": "threw",
+  "pos": "verb"
+ },
+ {
+  "id": 795,
+  "arabic": "الله يحفظهم",
+  "english": "God protect them",
+  "pos": "formula"
+ },
+ {
+  "id": 2418,
+  "arabic": "دين",
+  "english": "debt",
+  "pos": "noun"
+ },
+ {
+  "id": 2633,
+  "arabic": "موجة برد",
+  "english": "cold wave",
+  "pos": "noun"
+ },
+ {
+  "id": 3121,
+  "arabic": "كرة إيد",
+  "english": "handball",
+  "pos": "noun"
+ },
+ {
+  "id": 2614,
+  "arabic": "من الأول",
+  "english": "from the beginning",
+  "pos": "adverb"
+ },
+ {
+  "id": 1582,
+  "arabic": "ميكانيكي",
+  "english": "mechanic",
+  "pos": "noun"
+ },
+ {
+  "id": 2107,
+  "arabic": "خليها على الله",
+  "english": "Leave it to God",
+  "pos": "formula"
+ },
+ {
+  "id": 518,
+  "arabic": "جاب",
+  "english": "brought",
+  "pos": "verb"
+ },
+ {
+  "id": 1298,
+  "arabic": "عجل",
+  "english": "wheel / tire",
+  "pos": "noun"
+ },
+ {
+  "id": 507,
+  "arabic": "أخذ",
+  "english": "took",
+  "pos": "verb"
+ },
+ {
+  "id": 3047,
+  "arabic": "إخوة",
+  "english": "siblings",
+  "pos": "noun"
+ },
+ {
+  "id": 1424,
+  "arabic": "قطيع",
+  "english": "flock / herd",
+  "pos": "noun"
+ },
+ {
+  "id": 443,
+  "arabic": "على راسي وعيني",
+  "english": "with all my heart / absolutely",
+  "pos": "formula"
+ },
+ {
+  "id": 2920,
+  "arabic": "متفوق",
+  "english": "superior",
+  "pos": "adjective"
+ }
+]

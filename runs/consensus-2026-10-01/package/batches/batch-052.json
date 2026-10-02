@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2441,
+  "arabic": "أمي",
+  "english": "my mom (term of endearment)",
+  "pos": "noun"
+ },
+ {
+  "id": 972,
+  "arabic": "معقد",
+  "english": "uptight / complicated (person)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2335,
+  "arabic": "نسق",
+  "english": "coordinated / organized",
+  "pos": "verb"
+ },
+ {
+  "id": 2963,
+  "arabic": "غرفة ضيوف",
+  "english": "reception room",
+  "pos": "noun"
+ },
+ {
+  "id": 1817,
+  "arabic": "فاضي يوم الجمعة؟",
+  "english": "Are you free on Friday? (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2889,
+  "arabic": "بقالة",
+  "english": "small grocery shop",
+  "pos": "noun"
+ },
+ {
+  "id": 869,
+  "arabic": "قلب",
+  "english": "heart",
+  "pos": "noun"
+ },
+ {
+  "id": 821,
+  "arabic": "خطيب",
+  "english": "fiancé",
+  "pos": "noun"
+ },
+ {
+  "id": 2762,
+  "arabic": "لحم خروف",
+  "english": "lamb (meat)",
+  "pos": "noun"
+ },
+ {
+  "id": 1990,
+  "arabic": "ما أحلاه",
+  "english": "How beautiful he/it is",
+  "pos": "formula"
+ },
+ {
+  "id": 1192,
+  "arabic": "مفتاح النور",
+  "english": "light switch",
+  "pos": "noun"
+ },
+ {
+  "id": 499,
+  "arabic": "بدون",
+  "english": "without",
+  "pos": "preposition"
+ },
+ {
+  "id": 2128,
+  "arabic": "جامد",
+  "english": "cool / awesome (lit: solid)",
+  "pos": "adjective"
+ },
+ {
+  "id": 2725,
+  "arabic": "أنا فلسطيني",
+  "english": "I'm Palestinian (m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 2689,
+  "arabic": "خذ وقتك",
+  "english": "Take your time (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2955,
+  "arabic": "حزام",
+  "english": "belt",
+  "pos": "noun"
+ },
+ {
+  "id": 140,
+  "arabic": "ليل",
+  "english": "night",
+  "pos": "noun"
+ },
+ {
+  "id": 2717,
+  "arabic": "وقفنا عند...",
+  "english": "We stopped at... (in a story)",
+  "pos": "frame"
+ },
+ {
+  "id": 1731,
+  "arabic": "بوست",
+  "english": "post (social media)",
+  "pos": "noun"
+ },
+ {
+  "id": 1459,
+  "arabic": "تصريح",
+  "english": "permit (travel)",
+  "pos": "noun"
+ },
+ {
+  "id": 1095,
+  "arabic": "صالون",
+  "english": "living room / salon",
+  "pos": "noun"
+ },
+ {
+  "id": 2151,
+  "arabic": "وج",
+  "english": "face (slang)",
+  "pos": "noun"
+ },
+ {
+  "id": 2073,
+  "arabic": "أكبر منك بيوم أعرف منك بسنة",
+  "english": "Older by a day, wiser by a year",
+  "pos": "formula"
+ },
+ {
+  "id": 1345,
+  "arabic": "ثلج",
+  "english": "snow",
+  "pos": "noun"
+ },
+ {
+  "id": 2723,
+  "arabic": "تحقق",
+  "english": "verified / confirmed",
+  "pos": "verb"
+ }
+]

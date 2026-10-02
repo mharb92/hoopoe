@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1484,
+  "arabic": "رطب",
+  "english": "moist / damp",
+  "pos": "adjective"
+ },
+ {
+  "id": 378,
+  "arabic": "شو بدي أقولك",
+  "english": "what can I say (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 2140,
+  "arabic": "قرف",
+  "english": "disgusted",
+  "pos": "verb"
+ },
+ {
+  "id": 2096,
+  "arabic": "الله كريم",
+  "english": "God is generous (= it'll work out)",
+  "pos": "formula"
+ },
+ {
+  "id": 2365,
+  "arabic": "مخلل",
+  "english": "pickles",
+  "pos": "noun"
+ },
+ {
+  "id": 174,
+  "arabic": "تشرين ثاني",
+  "english": "November",
+  "pos": "noun"
+ },
+ {
+  "id": 2529,
+  "arabic": "شو هاظ",
+  "english": "what is this (variant with ظ)",
+  "pos": "formula"
+ },
+ {
+  "id": 2543,
+  "arabic": "الحنفية عنا بتنقط",
+  "english": "Our faucet is dripping",
+  "pos": "formula"
+ },
+ {
+  "id": 2759,
+  "arabic": "غلى",
+  "english": "boiled",
+  "pos": "verb"
+ },
+ {
+  "id": 3040,
+  "arabic": "جوز عمة",
+  "english": "uncle (father’s sister’s husband)",
+  "pos": "noun"
+ },
+ {
+  "id": 368,
+  "arabic": "والله",
+  "english": "I swear / really (emphatic)",
+  "pos": "interjection"
+ },
+ {
+  "id": 14,
+  "arabic": "هدولاك",
+  "english": "those",
+  "pos": "pronoun"
+ },
+ {
+  "id": 1908,
+  "arabic": "إذا في وقت بمر عليك",
+  "english": "If there's time I'll pass by (to m.)",
+  "pos": "frame"
+ },
+ {
+  "id": 1803,
+  "arabic": "خليني أساعدك",
+  "english": "Let me help you (to f.)",
+  "pos": "formula"
+ },
+ {
+  "id": 1384,
+  "arabic": "عنزة",
+  "english": "goat",
+  "pos": "noun"
+ },
+ {
+  "id": 3189,
+  "arabic": "فراطة",
+  "english": "change of money",
+  "pos": "noun"
+ },
+ {
+  "id": 295,
+  "arabic": "يخرب بيتك",
+  "english": "expression of exasperation (to m.)",
+  "pos": "formula"
+ },
+ {
+  "id": 292,
+  "arabic": "البقاء لله",
+  "english": "condolences (lit: permanence is God's)",
+  "pos": "formula"
+ },
+ {
+  "id": 1667,
+  "arabic": "صنايعي",
+  "english": "craftsman / tradesman",
+  "pos": "noun"
+ },
+ {
+  "id": 1572,
+  "arabic": "موظف",
+  "english": "employee / civil servant",
+  "pos": "noun"
+ },
+ {
+  "id": 424,
+  "arabic": "الحمد لله ماشي الحال",
+  "english": "fine, getting by",
+  "pos": "formula"
+ },
+ {
+  "id": 2727,
+  "arabic": "الله يحفظ فلسطين",
+  "english": "God protect Palestine",
+  "pos": "formula"
+ },
+ {
+  "id": 3208,
+  "arabic": "مذبحة",
+  "english": "massacre",
+  "pos": "noun"
+ },
+ {
+  "id": 2313,
+  "arabic": "دور",
+  "english": "searched / looked for",
+  "pos": "verb"
+ },
+ {
+  "id": 860,
+  "arabic": "إيد",
+  "english": "hand / arm",
+  "pos": "noun"
+ }
+]

@@ -39,10 +39,21 @@ Row counts: `Prefer: count=exact` + `Range: 0-0` + `-I`. Old project `xkhulybdrx
 - §D sub-sections are numbered `D.1` to `D.15`, with the dot. A bare `D###` always means a decision-log id.
 - Plan and debate first; explicit approval before any deliverable.
 - **Realisations go to chat, not to files.** When a gap, conflict or unowned item surfaces mid-work, state it in one line and stop. Nothing enters the spec, tracker or a skill until Marwan decides to resolve or park it. Logging a question in the tracker's open questions is allowed once he has said to park it. Never write a provisional answer and revise it after the decision: that round trip is the single most expensive thing we do.
-- **Be extremely concise.** Plain, direct English, shortest form that carries the point. No preamble, no restating the question, no summarising what was just delivered. State conclusions first; give reasoning only where the conclusion is contestable, and then in one line. Marwan asks when he wants elaboration. This governs length and phrasing only: disagreements, risks, errors and contradictions are still raised in full, just stated briefly.
+- **Be extremely concise in phrasing.** Plain, direct English, shortest form that carries the point. No preamble, no restating the question, no summarising what was just delivered. State conclusions first. This governs phrasing only: substance follows the response standards below, which win where the two conflict. Cut words, never content.
 - **A block ends with its tracker rows; the next block starts in a fresh session (D223).** The state file is what the next session reads, so it has to be sufficient on its own. A fresh session that cannot proceed from the tracker is a tracker bug: fix the rows in that session before the block continues, and say so in the chat note. Carrying a block forward inside a long transcript hides that failure instead of exposing it.
 - **Browser-only.** The work laptop blocks the Supabase CLI's management API and wraps Homebrew in an Artifactory shim. Every terminal step runs in this session, never on Marwan's machine. Never propose a local CLI step. Marwan is not a developer: give exact clicks, exact text to paste, and what a successful result looks like.
 - Brand is data, not code (D138): one `BRAND` config object, neutral storage and cache key prefixes, no brand string in table or column names. The name is unsettled.
+
+## Response standards (Marwan, chat 32)
+Binding on every answer, in chat and in documents.
+- **Substance.** Answer as a world-class expert across domains. Complete, specific, detailed. Think step by step, verify the work, and double-check facts, figures, citations, names, dates and examples. Never invent information; if something is not known, say so.
+- **Tone.** Precise: direct, incisive, clear, not pedantic. No flattery, no validating the premise, no "great question", "you're absolutely right" or "fascinating perspective". If Marwan is wrong, say so immediately.
+- **Lead with the strongest counterargument** to any position he appears to hold, then give the reasoning.
+- **No softening.** Give negative conclusions, bad news and pointed critiques plainly. No disclaimers and no moral or ethical framing unless asked.
+- **Independent estimates.** Do not anchor on numbers, assumptions or estimates he provides; generate your own first, then compare.
+- **Hold positions under pushback** unless he brings new evidence or a better argument. If the reasoning still holds, restate it.
+- **Explicit confidence** on claims and recommendations: high, moderate, low or unknown.
+- **Accuracy is the success metric**, not his approval.
 
 ## Principles gate
 Every spec section from C6 on, and the Phase 2 build package, ends with a principles check against `docs/principles.md` (discharges / defers / at risk). A section that puts a principle at risk without a mitigation or a recorded risk id is not approvable.

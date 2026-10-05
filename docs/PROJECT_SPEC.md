@@ -1,16 +1,27 @@
 # Hoopoe (الهدهد) Project Spec
 Status: B, C1 to C11, D and E approved · F to J pending. Learning principles and the section gate: `principles.md`.
+**Lesson model rework in progress (D280, D295).** B and `principles.md` were rewritten chat 33 (block R1). C1-C11, D and E still describe the pre-generated, native-reviewed content model until blocks R2-R6 rewrite them; where one of those sections disagrees with B or with a rework decision in the tracker, B and the tracker win.
 Reader: builder (Sonnet 5, Claude Code). Approved sections are binding; do not infer beyond them. `harvest §N` = findings from old code on `modular-rebuild-5`, reference only.
 
 ## B. Product
 
 ### B1 Vision
-Hoopoe gets heritage speakers and beginners speaking everyday Palestinian Arabic through short daily lessons built on proven learning methods, adapting to what each learner already knows and proving progress through scored practice conversations.
+Hoopoe gets heritage speakers and beginners speaking everyday Palestinian Arabic, Ramallah city speech first, through short lessons the model builds for each learner on proven learning methods, adapting to what each learner already knows and proving progress through scored practice conversations.
 
 ### B2 Goal
-- Target, all learner types: hold a 5-7 minute everyday conversation in Palestinian Arabic.
+- Target per learner type, held as config (B3: no learner-type conditionals in features):
+
+| Learner type | 90-day target at the default pace | Band (§C8.5) |
+|---|---|---|
+| Beginner | Survival conversation: greet, introduce yourself and your family, say what you want and what you have, ask and answer simple questions. Rehearsed exchanges with a patient listener, not open conversation | `emerging` |
+| Heritage | Hold a 5-7 minute everyday conversation: narrate, give opinions, repair a misunderstanding | `conversational` |
+
+- Default pace: 3 sittings a week of about 20 minutes, about 13 hours per phase. **The pace is a starting setting, not a limit.** Learners may do more lessons per sitting and more sittings per week, and the planner pushes as fast as each learner's results allow; only `new_lessons_per_day` caps new material (P9, C1.2). The target describes the default pace, not a ceiling: learners who study more go further.
+- Why the beginner target is modest: A1 in Arabic takes roughly 150 study hours for an English speaker (estimate, moderate-low confidence: A1 is about 60-100 guided hours for a European language, and the FSI puts Arabic in its hardest category). At the default pace A1 is a second- or third-phase goal. The estimate does not apply to heritage learners, whose skills start unevenly (understanding often well above speaking, script often near zero), so placement seeds each skill separately (§C2).
+- A band is reached when the milestones it lists are met (D288), not by completing a checkpoint. The ladder carries a state below `emerging`, so the beginner target can be missed (owed to §C8.5).
 - Phase = 90 days, fixed in MVP. The plan record stores its length (`duration_days`) so later phases can differ (roadmap: phase renewal).
-- Progress toward target is measured by checkpoint conversations (§C8): soft gates, fluency bands, no pass/fail.
+- The phase is planned as blocks, each running from one checkpoint to the next, with an outcome in plain words and 2-4 can-do statements (§C3).
+- Progress toward target is measured by checkpoint conversations (§C8): soft gates, fluency bands, no pass/fail. Shown as capabilities, never as numbers or pace (P17).
 - Goals captured at onboarding shape topics and scenarios, not the target (§C1).
 - Recorded risk R1 (D69): MVP measures a spoken goal through text checkpoints. Speaking practice (B6) closes it. See `principles.md`.
 
@@ -24,31 +35,39 @@ Hoopoe gets heritage speakers and beginners speaking everyday Palestinian Arabic
 Learner type is config consumed by one engine. No learner-type conditionals in features.
 
 ### B4 Users and access
-MVP users: Marwan and family. Invite-only (§G).
+MVP users: three learners, Marwan and Omar (heritage) and Aya (beginner). Invite-only (§G). Every sizing, cap and user-count assumption is for three; nothing is built for use cases that do not exist, such as regional variants. The beginner path has one tester, so its findings are read as a case, not a rate.
 
 ### B5 MVP scope
-- Placement, lessons, quizzes, audio
-- Focused Study, My Vocabulary review, alphabet and phonics
+- Onboarding: a ~3-minute "about you" step (why learning, who the learner will speak with, where the family is from, interests, weekly time, optional family names), which the learner can see, edit and delete; then placement for every learner type (§C1, §C2)
+- Lessons the model builds per learner: blocks between checkpoints, each generated a set of about 6 lessons at a time from the latest learner record; six lesson types (grammar, words, story, conversation, fluency, review); a quiz in every lesson and a weekly quiz closing each set, which must be taken, not passed, and whose results shape the next set; audio
+- Grammar taught explicitly along a grammar path, and verbs through Verb Lab
+- Focused Study, built by code from checked data with no AI call per session: Verb Lab, topic vocabulary, situation practice (scripted exchanges written once, checked and shared), my weak spots, numbers, prices and time, call-and-response phrases, endings drills, speed rounds
+- Conversation partner: typed, AI, at the learner's level, recasting errors rather than lecturing
+- Tap any word for meaning, root, form and audio; a "why?" button for a short AI explanation, capped
+- My Vocabulary review, alphabet and phonics
 - Checkpoint conversations (text first)
-- Content quality: report-a-problem button; edits via Supabase table editor
-- Basic settings: edit goals, adjust plan, harakaat toggle
-- Light progress: streak, words learned, phrases learned
-- Cost tracking on every Claude call
+- Monthly real-life check-in, about 30 seconds
+- Content quality: report-a-problem everywhere; shared content (dictionary, conjugation tables, grammar path, scripted exchanges) edited via the Supabase table editor
+- Basic settings: edit goals and "about you", adjust plan, harakaat toggle
+- Progress as capability: streak, words learned, phrases learned, and milestones reached, shown as can-do statements per skill. Paces, percentages and on- or behind-pace readings stay internal (P17)
+- Cost tracking on every Claude call. Spend cap per learner per calendar month, config: $7 soft (above it, a cheaper model) and $10 hard (above it, AI features pause; reviews, Focused Study and Verb Lab keep working)
 - Account deletion and export designed into the data model (UI on roadmap)
 
 Build surfaces, not learner-facing, also in MVP scope:
-- Authoring pipeline and validator suite (C5.4, C5.5)
-- Audio generation script and corpus (C9.4)
+- Lesson generation pipeline: block planner, lesson generator, blocking validators and a critic pass; a failing lesson is regenerated, never shown (§C5)
+- Conjugation tables for every teachable verb, the grammar path and the milestone catalogue, as versioned content
+- Audio: word and verb-form clips made once and shared; sentence audio made on first play and stored, content-addressed (§C9)
 - Config resolver, CI gate and `runtime_flag` allowlist (C10.6, C10.7)
 - AI gateway, model allowlist and versioned prompt registry (C5.8, C5.10)
 - Content tables and the Supabase editor path for edits (C5.11)
 
 ### B6 Roadmap (slot designed, not built; proof in §I)
-- AI tutor (#1): in-lesson quick help, full page, modes, full learner context, saved history
+- AI tutor (#1): full page, modes, full learner context, saved history. MVP already carries two parts of it, the "why?" button and the typed conversation partner (B5)
 - Intermediate learners
 - Additional tracks: MSA; other dialects as tracks
 - Speed Training
-- Speaking practice: speech-to-text, later pronunciation feedback
+- Speaking practice: speech-to-text, so the conversation partner can run by voice once Palestinian speech recognition is good enough; later pronunciation feedback
+- Describe-the-picture exercises (no picture set exists yet)
 - Phase renewal and break flow, incl. user-chosen phase length
 - Community vocab pool (opt-in, all learners)
 - Offline / download before trip; push notifications; analytics
@@ -66,13 +85,14 @@ Build surfaces, not learner-facing, also in MVP scope:
 - Teacher or classroom accounts
 - UI languages other than English
 
-### B8 MVP success criteria (4-week family test, both personas represented)
+### B8 MVP success criteria (family test: all three learners, running until every tester has completed checkpoint 1)
 | Test | Pass |
 |---|---|
 | Works | Every tester completes sign in → placement → lesson with audio → quiz on their own iPhone without help; 0 lost-progress bugs; smoke tests pass on every deploy |
-| Used | Median tester does 4+ sessions a week |
-| Teaches | Items marked learned are recalled in later reviews at or above the §C6 threshold, read on words learned only (D132); phrases learned is progress feedback, not a success metric; every tester completes checkpoint 1; native reviewer passes sampled lessons for dialect accuracy |
-| Affordable | AI and audio cost per active tester per month stays under the §C5 budget |
+| Used | Median tester is active on 3+ days a week, the default pace |
+| Teaches | **Retention:** words learned (D132) and verb cells are recalled in later reviews at or above the §C6 threshold; phrases learned is progress feedback, not a metric. **Milestones:** each tester reaches at least half the milestones their first block targets, under the evidence rule in force (a placeholder until calibrated). **Checkpoint:** every tester completes checkpoint 1; its band is recorded and read against the tester's 90-day target (B2), not used as a pass bar |
+| Accurate | Every report-a-problem confirmed as a language error is fixed and the affected content regenerated; confirmed errors per lesson and the validator and critic rejection rates are reported. The heritage testers are the only error sensors, so this check is weak (R4) |
+| Affordable | Every tester at or near the default pace stays under the $7 soft cap; no tester reaches the $10 hard cap |
 
 ## C. Learning system
 

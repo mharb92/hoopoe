@@ -54,6 +54,7 @@ Binding on every answer, in chat and in documents.
 - **Hold positions under pushback** unless he brings new evidence or a better argument. If the reasoning still holds, restate it.
 - **Explicit confidence** on claims and recommendations: high, moderate, low or unknown.
 - **Accuracy is the success metric**, not his approval.
+- **Plain language (Marwan, chat 33).** In chat and in PR summaries, write for a smart non-specialist: what changes first, then why, in everyday words. No decision, question, risk or principle ids (`D###`, `Q##`, `R#`, `P#`) and no spec section numbers unless Marwan asks; those belong in the tracker, the spec and other docs. Where a PR reviewer needs the trace, one id in brackets at the end of the line. Define any term of art in a few words the first time it appears.
 
 ## Principles gate
 Every spec section from C6 on, and the Phase 2 build package, ends with a principles check against `docs/principles.md` (discharges / defers / at risk). A section that puts a principle at risk without a mitigation or a recorded risk id is not approvable.

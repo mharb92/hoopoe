@@ -1,32 +1,26 @@
 # Consensus scoring
 
-Scored runs: opus-5.5, gpt-6.1-sol, gemini-3.8-flash. Evidence only: opus-5, opus-4.8, sonnet-5.5, gpt-5.6-sol, gpt-5.6-terra.
+Scored runs: opus-5.5, gpt-6.1-sol, gemini-3.8-flash. Evidence only: opus-5, opus-4.8, sonnet-5.5, gpt-5.6-sol, gpt-5.6-terra. Romanization matched by sound (src/scoring.md, chat 34 second section).
 
 ## Controls (60 trusted words)
 
-Outcomes: {'A': 35, 'B': 2, 'C': 0, 'D': 7, 'E': 16}. **A or B: 61.7%** (gate 70%). Three runs unanimous on 41; of those, 100.0% match ours (automatic adoption needs 95%).
+Outcomes: {'A': 40, 'E': 7, 'D2': 4, 'A2': 3, 'D': 3, 'B': 2, 'C': 1}. **Raised (A, A2, B): 75.0%** (gate 70%). Three runs unanimous on 47; of those, 97.9% match ours (automatic adoption needs 95%).
 
-**Gate failed: 61.7% of controls reach A or B, under 70%.** 
-### Why words miss A or B
+Controls the three runs unanimously disagree with (each needs a look):
 
-- Romanization: fewer than 2 of 3 exact: 7; 2 exact, third differs beyond ee/ii-oo/uu: 9
-- Vowelled letters not matched by all 3: 3
-- Any flag (meaning, dialect, alternative): 7
-- Romanization 3/3 and letters 3/3 but blocked by a flag, low confidence or `unsure`: 6
-
-Decision (chat 34, src/scoring.md): the strict rule is kept and the queue is scored unchanged.
+- 251 وْإِنْتَ مِن أَهْلُو "and you too (good night reply, to m.)": ours `w inte min ahlu` وْإِنْتَ مِن أَهْلُو, runs `w-inta min ahlu` وْإِنْتَ مِنْ أَهْلُو
 
 ## Queue (1289 words)
 
-Outcomes: {'A': 370, 'B': 19, 'C': 109, 'D': 216, 'E': 575}.
+Outcomes: {'A': 454, 'E': 436, 'D': 174, 'C': 115, 'A2': 49, 'D2': 42, 'B': 19}.
 
-- Raised to 3: 389
-- Alternatives adopted automatically: 109
-- To a person: 798 (`review.csv`), of which levels 1-2: 278; marked possible regional form: 17; trusted controls flagged: 7
+- Raised to 3: 522 (A and B: all three agree with ours; A2: GPT and Gemini both match ours exactly)
+- Alternatives adopted automatically: 115
+- Review, 659 rows in `review.xlsx`, trusted controls included: Arabic 544, English meaning 69, not taught by rule 46 (2-3 models say not Palestinian)
 
-### Why words miss A or B
+### Why words are not raised
 
-- Romanization: fewer than 2 of 3 exact: 541; 2 exact, third differs beyond ee/ii-oo/uu: 250
-- Vowelled letters not matched by all 3: 360
+- Romanization: fewer than 2 of 3 match by sound: 402; 2 match, third differs beyond ee/ii-oo/uu: 214
+- Vowelled letters not matched by all 3: 337
 - Any flag (meaning, dialect, alternative): 216
-- Romanization 3/3 and letters 3/3 but blocked by a flag, low confidence or `unsure`: 64
+- Romanization 3/3 and letters 3/3 but blocked by a flag, low confidence or `unsure`: 75

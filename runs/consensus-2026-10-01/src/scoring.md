@@ -38,3 +38,18 @@ These rules are fixed before any results arrive. A change after results arrive m
 
 ## Human review
 The words that need a person go into a spreadsheet with a notes column, never the database. Each row shows the Arabic, our values and the three models' values with their reasoning side by side, ordered with the commonest words (levels 1-2) first and the most-disputed first within a level. The reviewer marks the right option or writes the correct one in the notes.
+
+## Runs scored and how the rules are applied (chat 34, fixed before any result was compared with our values)
+Eight runs came back, not three (`results/README.md`). **The three scored runs are the newest model from each maker: Claude Opus 5.5 (Omar), GPT 6.1 Sol (Marwan), Gemini 3.8 Flash (Omar, the only Gemini run).** Chosen by rule, not by agreement with our values. The other five (Opus 4.8, Opus 5, GPT 5.6 Sol, GPT 5.6 Terra, Sonnet 5.5) never decide an outcome: they appear as evidence columns in the review sheet. Reason: models from one maker share mistakes, so extra runs from the same makers are not independent votes. Both runs used the package's first prompt (urban Ramallah only), so a "not Palestinian" flag can be a regional Palestinian form that current rules accept; the review sheet marks those.
+
+How the rules above are applied where they leave a choice:
+- Text is Unicode NFC with outer and repeated spaces collapsed before any comparison.
+- Vowelled Arabic letters: every mark except shadda is removed (short vowels, tanween, sukun), plus tatweel and punctuation. The superscript alif counts as alif (after ى it is dropped). Hamza seats, ة and ه stay distinct: a different letter is a respelling.
+- Short-vowel differences are reported per word and never block.
+- Order: A, then B, then D (any flag), then E if any scored run rates itself low, then C, else E. A flagged or low-confidence word always reaches a person.
+- B: two runs match our romanization exactly, the third matches it only after `ee`→`ii` and `oo`→`uu`; all three match our vowelled letters.
+- C: the three runs give one romanization and one set of vowelled letters, and it is not ours.
+- Dialect `unsure` is no flag, but it fails A and B, so the word lands in C or E.
+- "Labelled MSA": the English contains `MSA` or `formal`.
+- Control gate: share of the 60 controls in A or B. C adoption: among controls where the three runs agree with each other, the share that also matches ours.
+- Review order: level, then disagreement (distinct romanizations across all eight runs and ours), most first.

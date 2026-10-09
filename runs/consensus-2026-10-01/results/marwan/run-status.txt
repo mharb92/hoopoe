@@ -1,0 +1,33 @@
+STATUS: DELIVERED — complete raw results with the approved Sonnet flag
+
+GPT gpt-6.1-sol[1m]: 54 batches, 1,349 entries.
+  Supplied validator: OK, zero problems, for both JSON and CSV.
+
+Claude claude-sonnet-5-5[1m]: 54 batches, 1,349 entries.
+  Supplied validator: FAILED, exactly one disclosed problem, for both JSON and CSV.
+  Entry 385 in batch 037 has vowelled_arabic = آخ, with no separate vowel mark
+  recognized by the supplied checker. Six unchanged requests returned this issue.
+  The user approved retaining raw answers and flagging the failure in the delivery.
+
+No answer, original prompt, or supplied validator was edited.
+The flagged Sonnet batch is identical to run-artifacts/claude/batch-037/attempt-006/response.json.
+Every CSV output field was verified identical to its raw JSON value.
+Every batch's exact model, prompt hashes, and raw response provenance were checked.
+
+Delivery files:
+  hoopoe-dictionary-results-gpt-and-claude.zip
+  results-gpt.csv
+  results-claude.csv
+  results-gpt/ (54 raw batch responses)
+  results-claude/ (54 raw batch responses, including the flagged batch)
+  run-notes.txt
+  validation-issues.csv
+  delivery-manifest.json
+  validation-gpt.txt / validation-gpt-csv.txt
+  validation-claude.txt / validation-claude-csv.txt
+
+ZIP integrity verified: 481 files, 1,000,784 bytes.
+All attempt artifacts remain on disk; raw responses, metadata, diagnostics, and
+interruption notices are included in the archive (not verbose CLI event streams).
+
+The run has finished. The temporary caffeinate process started for this task was stopped.

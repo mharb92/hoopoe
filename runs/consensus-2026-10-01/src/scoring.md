@@ -38,3 +38,30 @@ These rules are fixed before any results arrive. A change after results arrive m
 
 ## Human review
 The words that need a person go into a spreadsheet with a notes column, never the database. Each row shows the Arabic, our values and the three models' values with their reasoning side by side, ordered with the commonest words (levels 1-2) first and the most-disputed first within a level. The reviewer marks the right option or writes the correct one in the notes.
+
+## Runs scored and how the rules are applied (chat 34, fixed before any result was compared with our values)
+Eight runs came back, not three (`results/README.md`). **The three scored runs are the newest model from each maker: Claude Opus 5.5 (Omar), GPT 6.1 Sol (Marwan), Gemini 3.8 Flash (Omar, the only Gemini run).** Chosen by rule, not by agreement with our values. The other five (Opus 4.8, Opus 5, GPT 5.6 Sol, GPT 5.6 Terra, Sonnet 5.5) never decide an outcome: they appear as evidence columns in the review sheet. Reason: models from one maker share mistakes, so extra runs from the same makers are not independent votes. Both runs used the package's first prompt (urban Ramallah only), so a "not Palestinian" flag can be a regional Palestinian form that current rules accept; the review sheet marks those.
+
+How the rules above are applied where they leave a choice:
+- Text is Unicode NFC with outer and repeated spaces collapsed before any comparison.
+- Vowelled Arabic letters: every mark except shadda is removed (short vowels, tanween, sukun), plus tatweel and punctuation. The superscript alif counts as alif (after ى it is dropped). Hamza seats, ة and ه stay distinct: a different letter is a respelling.
+- Short-vowel differences are reported per word and never block.
+- Order: A, then B, then D (any flag), then E if any scored run rates itself low, then C, else E. A flagged or low-confidence word always reaches a person.
+- B: two runs match our romanization exactly, the third matches it only after `ee`→`ii` and `oo`→`uu`; all three match our vowelled letters.
+- C: the three runs give one romanization and one set of vowelled letters, and it is not ours.
+- Dialect `unsure` is no flag, but it fails A and B, so the word lands in C or E.
+- "Labelled MSA": the English contains `MSA` or `formal`.
+- Control gate: share of the 60 controls in A or B. C adoption: among controls where the three runs agree with each other, the share that also matches ours.
+- Review order: level, then disagreement (distinct romanizations across all eight runs and ours), most first.
+
+**Control gate result and decision (chat 34).** 37 of 60 controls (61.7%) reached A or B, under the 70% gate. Every miss was checked by hand: one run differing on a short or helping vowel (`Sifir`/`Sifr`, `la`/`laa`), four trusted words all three runs call MSA or less Palestinian (حديقة, مستدير, أبلغ, فلوس), and single-run "meaning partly" flags. Loosening to two of three would reach 76.7%, but our values were produced by Opus 5.5, the scored Claude run, so its agreement is weak evidence and two of three would often rest on one independent maker. **Marwan kept the strict rule: thresholds unchanged, the queue is scored as written.** Controls the runs flag (outcome D) join the review sheet. All 41 controls where the three runs agreed with each other matched ours, so C is adopted automatically (95% bar met).
+An adopted alternative takes the shared romanization and, for the vowelled Arabic, the full spelling (marks included) most common among the three runs; on a three-way tie, Opus 5.5's.
+
+## Second pass: changes made after results (chat 34, Marwan approved; scored outputs replace the first pass)
+The first pass (commit `0d21038`) sent 798 rows to a person. An aggregate look at those rows found that many disagreements were not errors. Four changes, each with its reason; they were chosen after seeing the data, so the control gate passing under them is not independent proof.
+1. **Romanization is matched by sound, not by exact string** (`sound()` in `score.py`). Forgiven: notation (hyphens and spaces, `allah`/`allaah`/`alla`, `w`/`u-`/`wi-` for "and", the article written `il-`, `l-` or assimilated), short `e`=`i` and `o`=`u`, a helping vowel breaking a final cluster (`Sifir`=`Sifr`) or after a verb prefix (`yisallmak`=`ysallmak`). Still contrastive: vowel length, a vs i vs u, `ee`/`ii` and `oo`/`uu` (still outcome B), consonants, `q` vs `'`, `th` vs `t`. Reason: the app grades learners on sound (D263), and these classes are allophones or notation in the dialect.
+2. **A2: GPT and Gemini both reproduce ours exactly (by sound, and the vowelled letters) and no run flags the word: raised**, whatever Opus 5.5 answered. Reason: our values are Opus 5.5's own, so two independent makers matching blind is stronger evidence than Opus plus one.
+3. **D2: two or three runs say the word is not Palestinian or offer another word: not taught**, listed for a reviewer to override.
+4. **Nothing is parked.** Every remaining row goes to review at once, with a proposed answer pre-filled: the form two of the three scored runs agree on, else ours. Rows where only the English is questioned and the Arabic is agreed by at least two runs go to a separate English tab.
+
+Controls under these rules: 45 of 60 raised (75%), 46 of 47 unanimous answers match ours (97.9%), so C is still adopted by rule. The one unanimous disagreement is 251 `inte`/`inta`, a free variant.

@@ -3,7 +3,8 @@
 Inputs (all in this folder): answer-key.json, control-ids.json, results/<runner>/<model>/batch-*.json.
 Outputs: scored/. Nothing is written to the database.
 
-    python3 score.py      controls first; stops with exit 2 if the 70% gate fails
+    python3 score.py                  controls first; stops with exit 2 if the 70% gate fails
+    python3 score.py --gate-decided   score the queue anyway, once the gate decision is recorded in src/scoring.md
 """
 import csv, json, re, sys, unicodedata
 from pathlib import Path
@@ -166,7 +167,7 @@ def main():
                 row[f'{tag} {fld}'] = runs[n][i].get(fld, '')
         rows.append(row)
 
-    base = ['id', 'level', 'outcome', 'why', 'disagreement', 'possible_regional', 'arabic', 'english', 'pos',
+    base = ['id', 'level', 'outcome', 'result', 'why', 'disagreement', 'possible_regional', 'arabic', 'english', 'pos',
             'our_romanization', 'our_vowelled', 'confidence_now', 'hold_reasons']
     run_cols = [f'{short[n]}{"*" if n in SCORED else ""} {fld}' for n in SCORED + EVIDENCE for fld in FIELDS]
     ctrl = [r for r in rows if r['control']]
@@ -189,9 +190,12 @@ def main():
                    f'{runs[SCORED[0]][str(r["id"])]["vowelled_arabic"]}' for r in unan_wrong]
         report.append('')
     if rates['ab'] < GATE_AB:
-        report.append(f'**Gate failed: {rates["ab"]:.1%} of controls reach A or B, under {GATE_AB:.0%}. '
-                      f'The queue is not scored until the thresholds are revisited (src/scoring.md).**\n')
+        report.append(f'**Gate failed: {rates["ab"]:.1%} of controls reach A or B, under {GATE_AB:.0%}.** ')
         report += _diagnostics(ctrl)
+    if rates['ab'] < GATE_AB and '--gate-decided' in sys.argv:
+        report.append('Decision (chat 34, src/scoring.md): the strict rule is kept and the queue is scored unchanged.\n')
+    elif rates['ab'] < GATE_AB:
+        report.append('The queue is not scored until the thresholds are revisited (src/scoring.md).\n')
         (OUT / 'report.md').write_text('\n'.join(report), encoding='utf-8')
         print('\n'.join(report))
         sys.exit(2)
@@ -201,17 +205,25 @@ def main():
         r['result'] = {'A': 'raise to 3', 'B': 'raise to 3', 'C': 'adopt alternative' if c_auto else 'human',
                        'D': 'human', 'E': 'human'}[r['outcome']]
     raised = [r for r in queue if r['outcome'] in 'AB']
-    review = sorted([r for r in queue if r['result'] == 'human'], key=lambda r: (r['level'], -r['disagreement'], r['id']))
+    for r in ctrl:
+        r['result'] = 'human (trusted control flagged)' if r['outcome'] == 'D' else 'trusted, unchanged'
+    review = sorted([r for r in queue + ctrl if r['result'].startswith('human')],
+                    key=lambda r: (r['level'], -r['disagreement'], r['id']))
     adopted = [r for r in queue if r['result'] == 'adopt alternative']
     write_csv(OUT / 'raised.csv', raised, ['id', 'level', 'outcome', 'arabic', 'english', 'our_romanization', 'our_vowelled', 'why'])
     write_csv(OUT / 'review.csv', [dict(r, decision='', notes='') for r in review], base + run_cols + ['decision', 'notes'])
+    for r in adopted:
+        vows = [norm(r[f'{short[n]}* vowelled_arabic']) for n in SCORED]
+        r['new_romanization'] = norm(r[f'{short[SCORED[0]]}* romanization'])
+        r['new_vowelled'] = max(vows, key=vows.count)   # most common full spelling; ties go to the first scored run
     if adopted:
-        write_csv(OUT / 'adopted.csv', adopted, base + run_cols[:2])
+        write_csv(OUT / 'adopted.csv', adopted, base + ['new_romanization', 'new_vowelled'] + run_cols[:3 * len(FIELDS)])
     report += [f'## Queue ({len(queue)} words)\n', f'Outcomes: {count(queue)}.\n',
                f'- Raised to 3: {len(raised)}', f'- Alternatives adopted automatically: {len(adopted)}',
                f'- To a person: {len(review)} (`review.csv`), of which levels 1-2: '
                f'{sum(r["level"] in (1, 2) for r in review)}; marked possible regional form: '
-               f'{sum(bool(r["possible_regional"]) for r in review)}\n']
+               f'{sum(bool(r["possible_regional"]) for r in review)}; trusted controls flagged: '
+               f'{sum(r["control"] for r in review)}\n']
     report += _diagnostics(queue)
     (OUT / 'report.md').write_text('\n'.join(report), encoding='utf-8')
     print('\n'.join(report))

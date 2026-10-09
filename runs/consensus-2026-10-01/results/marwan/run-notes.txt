@@ -1,0 +1,61 @@
+DELIVERY STATUS: COMPLETE RAW RESULTS WITH ONE USER-APPROVED SONNET FLAG
+
+GPT: 1,349/1,349 entries. Supplied validator: OK, zero problems (JSON and CSV).
+Sonnet: 1,349/1,349 entries. Supplied validator: FAILED, one problem (JSON and CSV).
+Entry 385, batch-037: vowelled_arabic is exactly آخ. The validator reports no vowel marks.
+Six unchanged fresh Sonnet requests returned this same issue. The user selected package raw + flag.
+The final raw response from attempt-006 is included byte-for-byte as batch-037.json.
+No answer, prompt, or supplied validation rule was corrected or relaxed.
+See validation-issues.csv, validation-claude.txt, and delivery-manifest.json.
+The <synthetic> model in failed-auth attempt metadata is a CLI error placeholder, not a model fallback.
+An OK structural check is not a human linguistic correctness review.
+
+Hoopoe dictionary check — two-model run
+Updated: 2026-10-02T12:35:07.255669+00:00
+CLI version: 2.1.267 (Claude Code)
+Provider: existing authenticated company gateway, https://llm.atko.ai
+Models requested by user: GPT 6.1 Sol [1m], Claude Sonnet 5.5 [1m]; no Gemini run.
+Every batch is a fresh CLI request with the supplied system prompt unchanged.
+User messages use user-message-template.txt and the original batch JSON unchanged.
+Models see only their own request, not other outputs or scoring.md.
+Settings: --bare, tools=[], MCP=[], skills disabled, hooks disabled, no project context.
+Effort: xhigh. Temperature is not adjustable through this CLI.
+Started with one request per model; user approved four concurrent requests per model.
+Concurrency changes scheduling only: batches, prompts, model IDs, and effort stay unchanged.
+In-flight requests interrupted during restart may be repeated; their spend is not reported.
+No model fallback. Validated against exact model IDs, input order, and output rules.
+Raw answers and failed attempts are retained; no hand corrections or JSON repair.
+Reported costs are CLI estimates; gateway costBasis may be unknown, not a confirmed bill.
+Connectivity checks: both exact IDs succeeded; one OK-only request per model.
+Connectivity estimates: GPT $0.001345, Claude $0.001795 (not included below).
+Oddity: CLI logs unrecognized_model warnings for these gateway IDs, but requests succeed.
+
+gpt: requested gpt-6.1-sol[1m]; response model(s): ['<synthetic>', 'gpt-6.1-sol']
+  Saved batches: 54/54
+  Attempts: 55; reported cost estimate: $25.377929
+  Re-run batches: batch-004, batch-007
+  Rejected batch-004/attempt-001: CLI request failed: exit=1, result=success; Unexpected stop reason: stop_sequence; Unexpected response models: ['<synthetic>']
+  Official validator: 1349 of 1349 entries answered, 0 problems (listed in results-gpt-problems.csv).
+OK
+
+claude: requested claude-sonnet-5-5[1m]; response model(s): ['<synthetic>', 'claude-sonnet-5-5']
+  Saved batches: 54/54
+  Attempts: 65; reported cost estimate: $33.324799
+  Re-run batches: batch-006, batch-008, batch-014, batch-019, batch-028, batch-035, batch-037, batch-039
+  Rejected batch-006/attempt-001: CLI request failed: exit=1, result=success; Unexpected stop reason: stop_sequence; Unexpected response models: ['<synthetic>']
+  Rejected batch-008/attempt-001: IDs do not match the batch exactly in input order
+  Rejected batch-019/attempt-001: 2269: romanization outside the scheme: 'aaloo marHaba'
+  Rejected batch-028/attempt-001: Invalid JSON: Expecting property name enclosed in double quotes: line 2 column 548 (char 549)
+  Rejected batch-035/attempt-001: Invalid JSON: Expecting property name enclosed in double quotes: line 3 column 2 (char 385)
+  Rejected batch-037/attempt-001: 385: Arabic missing letters or vowel marks
+  Rejected batch-037/attempt-002: 385: Arabic missing letters or vowel marks
+  Rejected batch-037/attempt-003: 385: Arabic missing letters or vowel marks
+  Rejected batch-037/attempt-004: 385: Arabic missing letters or vowel marks
+  Rejected batch-037/attempt-005: 385: Arabic missing letters or vowel marks
+  Rejected batch-037/attempt-006: 385: Arabic missing letters or vowel marks
+  Rejected batch-039/attempt-001: 2292: romanization outside the scheme: 'najaHt bil-imti7aan'
+  Official validator: 385	vowelled_arabic	no vowel marks at all: "آخ"
+
+1349 of 1349 entries answered, 1 problems (listed in results-claude-problems.csv).
+FAILED: re-run the batches containing these ids, then check again.
+

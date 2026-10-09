@@ -1,0 +1,2 @@
+model,id,batch,arabic,english,romanization,vowelled_arabic,field,problem,status
+claude-sonnet-5-5[1m],385,batch-037.json,أخ,ouch / ugh,aakh,آخ,vowelled_arabic,"no vowel marks at all: ""آخ""",Raw answer retained unchanged; user-approved delivery flag

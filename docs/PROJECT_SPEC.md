@@ -1,6 +1,6 @@
 # Hoopoe (الهدهد) Project Spec
 Status: B, C1 to C11, D and E approved · F to J pending. Learning principles and the section gate: `principles.md`.
-**Lesson model rework in progress (D280, D295).** B and `principles.md` were rewritten chat 33 (block R1). C1-C11, D and E still describe the pre-generated, native-reviewed content model until blocks R2-R6 rewrite them; where one of those sections disagrees with B or with a rework decision in the tracker, B and the tracker win.
+**Lesson model rework in progress (D280, D295).** B and `principles.md` were rewritten chat 33 (block R1); C2, C6 and C8 chat 35 (block R2, the learner model). The rest of C1-C11, D and E still describe the pre-generated, native-reviewed content model until blocks R3-R6 rewrite them; where one of those sections disagrees with B or with a rework decision in the tracker, B and the tracker win.
 Reader: builder (Sonnet 5, Claude Code). Approved sections are binding; do not infer beyond them. `harvest §N` = findings from old code on `modular-rebuild-5`, reference only.
 
 ## B. Product
@@ -18,7 +18,7 @@ Hoopoe gets heritage speakers and beginners speaking everyday Palestinian Arabic
 
 - Default pace: 3 sittings a week of about 20 minutes, about 13 hours per phase. **Each learner's pace is set from the weekly time they give in the "about you" step (§C1) and revisited at the monthly check-in**; the 3-sitting figure is the fallback when none is given. **The pace is a starting setting, not a limit.** Learners may do more lessons per sitting and more sittings per week, and the planner pushes as fast as each learner's results allow; only `new_lessons_per_day` caps new material (P9, C1.2). The target describes the default pace, not a ceiling: learners who study more go further.
 - Why the beginner target is modest: A1 in Arabic takes roughly 150 study hours for an English speaker (estimate, moderate-low confidence: A1 is about 60-100 guided hours for a European language, and the FSI puts Arabic in its hardest category). At the default pace A1 is a second- or third-phase goal. The estimate does not apply to heritage learners, whose skills start unevenly (understanding often well above speaking, script often near zero), so placement seeds each skill separately (§C2).
-- A band is reached when the milestones it lists are met (D288), not by completing a checkpoint. The ladder carries a state below `emerging`, so the beginner target can be missed (owed to §C8.5).
+- A band is reached when the milestones it lists are met (D288), not by completing a checkpoint. The ladder carries a state below `emerging`, `starting`, so the beginner target can be missed (C6.15, C8.5).
 - Phase = 90 days, fixed in MVP. The plan record stores its length (`duration_days`) so later phases can differ (roadmap: phase renewal).
 - The phase is planned as blocks, each running from one checkpoint to the next, with an outcome in plain words and 2-4 can-do statements (§C3).
 - Progress toward target is measured by checkpoint conversations (§C8): soft gates, fluency bands, no pass/fail. Shown as capabilities, never as numbers or pace (P17).
@@ -157,7 +157,8 @@ Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Set
 #### C2.1 Purpose and entry
 - Every learner type takes placement after onboarding (D20). One engine; learner-type config sets start band, stop rules and copy.
 - Beginner run is a warm-up: typically ≤6 items, about 1 min.
-- Hard cap 8 min (fits the C1.6 15-min heritage path).
+- Heritage config adds a grammar section after the word section (D305, D325, C2.4).
+- Hard caps: word section 8 min; grammar section 6 min; whole placement 10 min, with the word section yielding when both run, so the C1.6 15-min heritage path still holds with the "about you" step (D325, config).
 - Starting needs a connection; answers queue offline per C1.5.
 
 #### C2.2 Item bank
@@ -166,7 +167,8 @@ Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Set
 - Distractors: same `pos` (C5.2 enum), same `level`, different `category`, and never the row's `formula_pair` partner (D130). A pair partner is trivially eliminable by anyone who knows either half.
 - Source rows: `review_confidence = 3`, `register = 'neutral'` (D129, D141). Words and short phrases. `review_confidence` is the dictionary review's own 1-3 score (`dr-scoped-pass.md` §3); the legacy generation-time `confidence` column is not a selection signal anywhere. Rows at 1 or 2 are invisible to the bank build until re-review upgrades them in place, which widens the pool without republishing built items.
 - Excluded despite being eligible: obligatory formulas at `level` 1 (D130). الحمد لله is known by every learner above absolute beginner, so it discriminates nothing and would inflate the ceiling. Formulas remain level 1 for teaching; they just do not measure.
-- Native review before an item goes active. Audio pre-generated (§C9). Built in §J, about 100 items so repeat sets don't repeat items.
+- Items go active once they pass the C5.5 validators; no native review (D280, D302). Audio pre-generated (§C9). Built in §J, about 100 word items so repeat sets don't repeat items.
+- **Grammar bank (heritage, D305, D325):** two items per grammar point across stages A-C of the grammar path, about 60 items. Each item is a pair of Palestinian sentences that differ in one structure (a personal ending, agreement, verb person, `mish` where `3ind-` takes `ma`, a dropped "to be"); both written in dialect, never MSA against dialect, and the wrong option must be clear-cut, never a variant some Palestinians say. The bank is part of the pre-launch external-expert package (D315), and every item the expert marks wrong is fixed or retired before launch.
 - Bands key off dictionary `level` 1-5, added in the dictionary review step (D30), defined in D127: a global ordering by how early a learner needs the item to form and survive Palestinian sentences, not by corpus frequency and not by difficulty. Fallback if `level` is missing at bank build: within-category rank percentile. `rank` is generation batch order and means nothing across categories.
 
 #### C2.3 Item types
@@ -174,6 +176,8 @@ Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Set
 |---|---|---|---|
 | Listen | Audio only | Pick English meaning (4 options + "I don't know"). If correct: "Could you say this yourself?" Yes / Not yet | Vocab ceiling, production self-rating |
 | Script | Arabic with harakaat, no audio | Pick English meaning (4 options + "I don't know") | Script reading |
+
+| Which sounds right? (heritage grammar section) | Two sentences, each with audio on tap and Arabic script with harakaat | Pick one, or "I don't know" | Grammar point known or not (seed only, C6.4) |
 
 No typed answers, no romanization. "I don't know" scores as incorrect.
 
@@ -188,13 +192,14 @@ No typed answers, no romanization. "I don't know" scores as incorrect.
 | Script track | Ends after 2 consecutive incorrect. `script_stage` 0/1/2 = 0-1 / 2-3 / 4+ Script correct |
 | Stop | Ceiling found · 40 items · 8 min · beginner config also after 3 consecutive "I don't know". On cap, ceiling = highest band cleared so far |
 
+- **Grammar section (heritage config, D305, D325):** stages A, then B, then C; within a stage, points easiest first, each tested by its 2 items. A point passes when both are correct. Two missed items in a stage end the section, since later stages depend on earlier ones. About 6-30 items, under 6 min. With two options, a guess is right half the time, so two items per point and the half-credit seed (C6.14), confirmed by production in the first lessons, carry the weight.
 - Audio failure (A3, C9.7): a Listen item whose clip fails is dropped, does not count toward its band set, and the set tops up from the bank. More than 2 failures inside one band pauses placement and resumes later. The C9.7 swap-to-script rule does not apply here. In placement the Listen track is the measuring instrument and the Script track is a separate scored dimension, so a swap would corrupt the ceiling, which drives the plan, the level window and the store seeds.
 
 #### C2.5 Result
 - Attempt: learner, track, `attempt_no`, config version, ceiling, listening accuracy, `script_stage`, production ratio (Yes ÷ correct Listen), started/completed timestamps.
 - Answer: item id, choice, correct, self-rating, `response_ms`.
 - Append-only, never deleted (D28). Schema per §F.
-- No grammar, category or vocab-breadth scores (D23).
+- Grammar section answers (heritage): item id, grammar point, choice, correct, `response_ms`; a point passes or not per C2.4. This partly reopens D23 for heritage only (D305); there are still no category or vocab-breadth scores, and beginners get no grammar section.
 
 #### C2.6 Reassignment (D25)
 - Beginner with ceiling ≥2 → heritage config. Heritage with ceiling 0 → beginner config. Thresholds are config.
@@ -204,6 +209,7 @@ No typed answers, no romanization. "I don't know" scores as incorrect.
 - §C3: first content starts above the ceiling band; production ratio weights production emphasis; plan reveal presents the result.
 - §C4, C1.2: `script_stage` sets scaffold start and whether script micro-steps run (D26).
 - §C6: correct items seed the vocab store; incorrect and "I don't know" are not added. Seeded words show as "already knew", excluded from words learned. Seed values per §C6 (D27).
+- §C6: grammar points passed seed the store at half credit; both items wrong seed a gap when another point in the stage passed (C6.4). §C3 reads them to skip or prioritise first-block grammar.
 - §C3, §C6: items missed at or below the ceiling seed a `known_gaps` queue (D66). They are demonstrably in reach and demonstrably not known, so §C3 prioritises them into the first units. They count as new material, never as "already knew".
 - §C3.6: listening accuracy weights the listening share of the skill mix (D67). §C9.6: below a config threshold it pre-selects Slow playback and offers a second play on graded listening items, as a default and never a cap (D108). Both consumers live, so C2.5 keeps the field.
 
@@ -218,6 +224,7 @@ No typed answers, no romanization. "I don't know" scores as incorrect.
 - Discharges: P16 (placement runs before instruction, sets a ceiling and a `script_stage`, and every output it records has a named consumer in C2.7), P5 (Listen items are audio-first, tap only, never autoplay), P17 (no score shown, "I don't know" always available, framed as finding a starting point rather than a test).
 - Defers: seed values → C6.4 · consumers → §C3, §C6.
 - At risk: none. D66 closed the gap the chat 6 audit found, where misses at or below the ceiling were discarded rather than queued.
+- Rework R2 (chat 35): the heritage grammar section discharges P16 for grammar (every result seeds the store) and P5 (both options play audio on tap). Its accuracy rests on the external-expert check (D315), not native review; a guessed pass costs little, because the seed is half credit and production confirms it.
 
 ### C3 Plan
 
@@ -545,31 +552,43 @@ The 6 fixed Focused Study clusters are pre-generated (C5.1). The AI tutor is roa
 - Defers: P7, P8, P9 → §C6 · P18 → §C8.
 - At risk: R3 recorded in `principles.md`. Pre-generation meets jagged profiles through quick checks (D49) and `known_gaps` (D66) rather than bespoke text.
 
-### C6 Mastery
+### C6 Learner model
 
-Owns the learner item store, the review scheduler and every "when is this learned" threshold deferred by C1 to C5. Retires the old 0-100 mastery score with +15/−10 deltas and −2/day read-time decay (harvest §2).
+Owns the learner item store, the review scheduler, milestones and their evidence rules, per-skill state, block scoring and capacity, error classes, teaching-method results and the monthly check-in: every "when is this learned" threshold. Rewritten chat 35 (rework R2, D317-D331) for model-built lessons (D280) and the per-skill maturity model (D285-D289); C6.1-C6.12 keep their numbers so existing references hold. Retires the old 0-100 mastery score with +15/−10 deltas and −2/day read-time decay (harvest §2).
 
-#### C6.1 Model (D73)
-- One store per learner per track. Every surface reads and writes it: lessons, quizzes, quick checks, Focused Study, My Vocabulary, placement seeds (C1.1).
-- Two separate things, never collapsed into one number: strength (box + due date, drives scheduling) and status (what the UI and B8 count).
+#### C6.1 Model (D73, D285, D317)
+- One store per learner per track. Every surface reads and writes it: lessons, the weekly quiz, quick checks and test-out checks, Verb Lab, Focused Study, My Vocabulary, placement seeds (C1.1), and conversations (exposures and milestone evidence only, C8.7).
+- Four item kinds share one scheduler (D317):
+
+| Kind | Example | Key | Source |
+|---|---|---|---|
+| Word | `beet` house | `dictionary_id` | dictionary, `review_confidence` 3, or a custom row (C6.11) |
+| Phrase | `ya3Tiik il-3aafye` | `dictionary_id` | dictionary, with its pair |
+| Grammar point | "3ind- + ending = have" | grammar point id | grammar path (versioned content, B5) |
+| Verb cell | hollow verbs · past · *we* | family × tense × person | conjugation tables (versioned content, B5) |
+
+- **A verb cell is a rule, not one verb in one form** (D317). Mastery is measured on the rule (P21); the verb's meaning is its own word item, so a learner who knows the rule but keeps tripping on one verb still shows, through that verb's word item.
+- Strength and status stay separate and are never collapsed into one number: strength (box + due date) drives scheduling; status drives display and B8. Milestones, skill scores and capacity are **derived** from the answer log (C6.14-C6.16), never stored as a second truth (D285). The only stored derived values are what a learner was shown (C6.14) and block-end snapshots (C6.16), both pinned under D289.
 - No decay. An item that is not due is not weak; overdue age carries the signal decay used to approximate.
 - Scheduling is a module with one interface: `next(state, outcome, today) → {box, interval_days, due_on}`. The implementation is swappable; config and `scheduler_version` are stored on every event.
 
-#### C6.2 Item store (D82)
+#### C6.2 Item store (D82, D317)
 | Field | Notes |
 |---|---|
-| `dictionary_id` | Nullable: custom My Vocab rows and imports have none |
-| `source` | `placement` · `lesson` · `focused_study` · `custom` |
+| `kind` | `word` · `phrase` · `grammar_point` · `verb_cell` |
+| `ref` | `dictionary_id` for words and phrases (null for custom My Vocab rows and imports), grammar point id, or verb cell id |
+| `source` | `placement` · `placement_grammar` · `lesson` · `quick_check` · `test_out` · `verb_lab` · `focused_study` · `custom` |
 | `status` | `gap` · `active` · `learned` · `suspended` |
 | `box`, `interval_days`, `due_on` | `due_on` is a date, never a timestamp (P9) |
-| `already_knew` | True for placement and quick-check seeds; excluded from words learned (D27) |
+| `already_knew` | True for placement, quick-check and test-out seeds; excluded from words learned (D27) |
 | `lapses`, `last_review_at`, `first_seen_at` | |
+| `last_exposed_at` | Last time the item appeared anywhere: a graded answer, a lesson or story line, a dialogue, Verb Lab, a conversation. Read by the fair-review rule (C6.5) |
 | `evidence` | `graded` or `self_rated_only` (C6.11) |
 
-`known_gaps` (D66) is `status = gap`, not a second table. §C3 reads it to prioritise units; an item leaves `gap` when it is introduced as new material.
+`known_gaps` (D66) is `status = gap`, not a second table. The planner (§C3) reads it to prioritise; an item leaves `gap` when it is introduced as new material.
 
 #### C6.3 Scheduler (D72, D74, closes Q8)
-Leitner ladder, binary outcome, config intervals. Chosen over SM-2 and FSRS: all lesson grading is local and binary (D46), so there is no 0-5 quality rating for SM-2, and FSRS needs a review history the app has never collected. Append-only `review_event` rows carry `response_ms` and box transitions, so a later FSRS fit needs no re-collection.
+Leitner ladder, binary outcome, config intervals. Chosen over SM-2 and FSRS: all lesson grading is local and binary (D46), so there is no 0-5 quality rating for SM-2, and FSRS needs a review history the app has never collected. Append-only `review_event` rows carry `response_ms`, the real gap and box transitions, so a later FSRS fit needs no re-collection.
 
 | Box | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|---|
@@ -578,45 +597,53 @@ Leitner ladder, binary outcome, config intervals. Chosen over SM-2 and FSRS: all
 - Correct → box +1, `due_on = today + interval(new box)`, with deterministic ±10% jitter so cohorts of items introduced together do not clump.
 - Incorrect → box 1. Second consecutive incorrect → box 0 and a remedial check (C6.10).
 - One advance per calendar day maximum (D64, P9). Further correct answers the same day log as exposures and change nothing. This is what stops a heavy session from faking spacing.
-- Box 6 items stay in rotation at 90 days. Nothing graduates out of the queue.
+- Box 6 items stay in rotation at 90 days. Nothing graduates out of the queue, so material met in an earlier block keeps coming back (D318).
+- The expanding intervals are the measured reintroduction: each correct answer is retrieval after a longer gap, which is both stronger evidence of retention and better for it (spacing and testing effects, high confidence). Per-learner interval scaling, aimed at roughly 85-90% correct on fair reviews, is a monthly-analysis proposal (C6.18); intervals stay as above until one is approved.
 
-#### C6.4 Entering the store (D76)
+#### C6.4 Entering the store (D76, D325, D326)
 | Event | Enters as |
 |---|---|
-| Placement item correct (D27) | box 3 · `already_knew` true · due in 7 days |
-| Placement item incorrect at or below ceiling (D66) | `status = gap` · no box · §C3 prioritises into first units |
-| Placement item incorrect above ceiling | not stored |
-| New item set, on lesson completion | box 1 · due tomorrow · box 0 when the quiz fell below threshold (C7.6) |
+| Placement word item correct (D27) | box 3 · `already_knew` true · due in 7 days |
+| Placement word item incorrect at or below ceiling (D66) | `status = gap` · no box · the planner prioritises it into the first block |
+| Placement word item incorrect above ceiling | not stored |
+| Placement grammar point passed, both its items correct (C2.4) | box 3 · `already_knew` true · `source = placement_grammar` · its milestones at half credit until production in a lesson confirms (C6.14) |
+| Placement grammar point, one of two correct | not stored: the evidence is too weak either way |
+| Placement grammar point, both wrong | `status = gap` when another point in the same stage passed; otherwise not stored |
+| New material, on lesson completion | box 1 · due tomorrow · box 0 when the lesson's check fell below threshold (C7.6) |
 | Quick check correct (C4.9) | box 3 · `already_knew` true |
-| Quick check miss | `status = gap`, queued into an upcoming lesson of the current or next unit (C4.9) |
+| Quick check miss | `status = gap`, queued into an upcoming lesson |
+| Test-out check passed (C6.13) | box 3 · `already_knew` true · `source = test_out` |
 | Focused Study phrase | box 1 on session completion |
 | My Vocab custom or import | box 1 · `evidence = self_rated_only` |
 
-Quiz misses inside the introducing lesson do not shorten the first interval, which is already 1 day. They set a weakness flag used by C6.6 ordering and C6.9.
+Verb Lab practises taught cells only, so it never seeds a cell. Misses inside the introducing lesson do not shorten the first interval, which is already 1 day. They set a weakness flag used by C6.6 ordering and C6.9.
 
-A lesson whose quiz falls below the C7.6 threshold (D90) seeds its whole item set at box 0 instead of box 1, and the set carries into the next session's warm-up in full, above the C6.6 ceiling. One extra correct review is then needed before those words can count as learned (C6.12).
+A lesson whose check falls below the C7.6 threshold (D90) seeds its new items at box 0 instead of box 1, and they carry into the next session's warm-up in full, above the C6.6 ceiling. One extra correct review is then needed before they can count as learned (C6.12).
 
-#### C6.5 What counts as a review (D75)
-- Graded: the warm-up Review activity, quiz questions, quick checks, My Vocab review self-ratings.
-- Not graded: introduce steps, culture notes, contextual recycling appearances (D65), dialogue lines the learner did not supply, unscored practice-again attempts (C7.7).
-- Unit recall questions in an L3 quiz (C7.2) on an item that is not yet due: a correct answer logs an exposure and does not advance the box; an incorrect answer still lapses it per C6.3. Same asymmetry as consolidation mode (C6.7).
-
-Recycling is exposure, which is what P13 asks of it. It is not evidence of recall and never moves a box.
+#### C6.5 What counts as a review, and fair reviews (D75, D320)
+- Graded: the warm-up review, lesson and weekly-quiz questions, quick checks, test-out checks, Verb Lab answers, My Vocab self-ratings.
+- Not graded: introduce steps, culture notes, recycling appearances (D65), story and dialogue lines the learner did not supply, unscored practice-again attempts (C7.7). These are exposures: they update `last_exposed_at` and never move a box.
+- Recall questions on an item that is not yet due: a correct answer logs an exposure and does not advance the box; an incorrect answer still lapses it per C6.3. Same asymmetry as consolidation mode (C6.7).
+- **The real gap (D320).** Every graded answer records `gap_days`: days since the item's `last_exposed_at`, not since its last review. A word met in yesterday's story makes today's "7-day review" a 1-day review.
+- **A fair review** is a graded answer without supports (word bank, hint, reveal) whose `gap_days` is at least the interval of the box it was due from, less one day of tolerance. Only fair reviews count as retention evidence: milestones met or slipping (C6.14), capacity (C6.16) and B8 retention (C6.12). Other graded answers still move the box per C6.3.
+- **Planner rule:** an item due for review within the next 2 days is kept out of graded positions in generated lessons. It may still appear in input prose (stories, dialogues). Familiarity comes from lessons and measurement from fair reviews, so the two no longer compete. The 2 days are config, low confidence.
+- **Retention probes vary the form (D318):** a due grammar point or verb cell is presented in a new sentence, and a verb cell where possible with a verb the learner has not practised in that cell. A probe that repeats the teaching example measures memory of the example, not the rule.
 
 #### C6.6 Review queue (D77, D71)
-- Warm-up budget 8 items, config. Ceiling 14 when due volume overflows; the remainder carries to the next session and is never dropped.
-- Order: overdue age descending, then lowest box, then weakness flags from C6.4.
-- Interleaving (P12): no more than 3 consecutive queue items from the same unit; the queue draws from at least 2 units whenever 2 have due items.
-- Modality follows the skill mix (C3.6): a due item presents as audio recognition, script recognition or recall depending on the mix and the C6.9 ladder step.
+- Warm-up budget 8 items, config. Ceiling 14 when due volume overflows; the remainder carries to the next session and is never dropped. All four kinds share the queue; due verb cells also surface in Verb Lab.
+- Order: overdue age descending, then lowest box, then weakness flags from C6.4, then error-class flags (C6.10).
+- Interleaving (P12): no more than 3 consecutive queue items from the same block topic; the queue draws from at least 2 whenever 2 have due items.
+- Modality follows the skill mix (§C3): a due item presents as audio recognition, script recognition or recall, by the mix and the C6.9 ladder step. Grammar points and verb cells present in varied form (C6.5).
 
 #### C6.7 Absence and consolidation (C1.4, D63, D84)
-- After 7+ days away, the first session back runs an extended warm-up, ceiling 20, and delivers no new item set. Copy frames it as picking back up, never as a penalty (P17).
-- Consolidation mode (beyond `new_lessons_per_day`, D63) pulls due reviews first, then lowest-box not-yet-due items, then items from the last 3 completed units. Not-yet-due items log exposures and do not advance (C6.3).
+- After 7+ days away, the first session back runs an extended warm-up, ceiling 20, and delivers no new material. Copy frames it as picking back up, never as a penalty (P17).
+- Consolidation mode (beyond `new_lessons_per_day`, D63) pulls due reviews first, then lowest-box not-yet-due items, then items from the last 3 completed lessons' topics. Not-yet-due items log exposures and do not advance (C6.3).
 
-#### C6.8 Quick checks and band advance (D83, closes C3.5 and C3.12)
+#### C6.8 Quick checks and word level (D83, D330, closes C3.5 and C3.12)
 - Quick-check scoring is C6.4.
-- Band advances automatically when 9 of the last 10 quick checks are correct: band +1, window resets, minimum 10 completed lessons between auto-advances. Every change appends a plan event (C3.11).
-- Band never moves down automatically. "Too hard" stays in Adjust plan (C3.9), because a bad week should not strip content the learner has already been given.
+- **The vocabulary window C3.5 calls the band is the word level** (D330), renamed so it never collides with the conversation band (C6.15). §C3 takes the term in R3.
+- Word level advances automatically when 9 of the last 10 quick checks are correct: +1, window resets, minimum 10 completed lessons between auto-advances. Every change appends a plan event (C3.11).
+- Word level never moves down automatically. A bad week should not strip content the learner has already been given.
 
 #### C6.9 Ladders (D79, D80)
 Production step by box, modified by plan stage and learner-type config (C4.6, D68):
@@ -627,7 +654,7 @@ Production step by box, modified by plan stage and learner-type config (C4.6, D6
 | 3-4 | Word bank with same-pos distractor pressure |
 | 5+ | Typed entry |
 
-The Settings toggle forces typed on early; it never forces it off.
+The Settings toggle forces typed on early; it never forces it off. Word-bank answers are recorded as supported (C6.19), which C6.14's "met" excludes.
 
 `script_stage` advance (C4.8, P6), on evidence not preference:
 - 0 → 1: rolling accuracy ≥85% over the last 20 script-stimulus graded items, and ≥8 script micro-steps completed.
@@ -635,43 +662,109 @@ The Settings toggle forces typed on early; it never forces it off.
 - Demote one step when rolling accuracy falls below 60% over the last 20.
 - Maximum one step change per 7 days in either direction. Every change appends an event.
 
-#### C6.10 Remedial selection (D81, D62)
-- Drills declare their own triggers (`trigger_item_ids`, `trigger_pattern_ids`). No dictionary column is needed, so DR is unaffected.
-- Trigger: 3 lapses matching one drill's trigger set within 14 days, where a lapse is an incorrect answer on an item at box ≥2.
-- Delivery: at most 1 drill per session, inserted into the warm-up, not repeated within 14 days. The counter clears when the drill is passed and the triggering items return to box ≥2.
-- If no drill matches the confusion the items stay in rotation. Drills are never generated at runtime (C5.1).
+#### C6.10 Error classes and remediation (D62, D81, D323, P23)
+- Every incorrect graded answer carries an error class: `wrong_ending` · `wrong_stem` · `agreement` · `wrong_word` · `spelling` (D323). Assigned by code wherever the answer can be compared with the conjugation tables, the personal-ending rules or the dictionary forms; otherwise `wrong_word` on a word item, or unclassified. The class is named to the learner (P23; copy is R4's).
+- **The lapse lands on what failed:** `wrong_ending` and `agreement` lapse the grammar point or verb cell, `wrong_stem` the verb cell, `wrong_word` the word item. `spelling` with the right sound is marked right and shows the standard spelling (D306); it lapses nothing.
+- **Remedial trigger:** 3 lapses of one error class on one skill within 14 days, where a lapse is an incorrect answer on an item at box ≥2. Drills declare their triggers (`trigger_item_ids`, `trigger_pattern_ids`, error class) and come from the conjugation tables, the endings rules and the C5.6 library; none is generated per learner at runtime. At most 1 drill per session, inserted into the warm-up, not repeated within 14 days. The counter clears when the drill is passed and the triggering items return to box ≥2. If no drill matches, the items stay in rotation.
+- Error classes per skill feed the planner's bottleneck choice (§C3) and the method results (C6.17).
 
 #### C6.11 My Vocabulary and Focused Study (D82)
 - My Vocab review grades by self-rating (got it / not yet) and feeds the same scheduler. It is the only surface where a self-rating moves a box.
-- Items whose only evidence is self-rating never count toward words learned or the B8 threshold. P7 requires demonstrated recall; a tap is not a demonstration.
+- Items whose only evidence is self-rating never count toward words learned, milestones or B8 (P7). A tap is not a demonstration.
 - Focused Study writes to the same store, so a phrase met there is reviewed in tomorrow's warm-up. The separate `focused_<scenario>` mastery pool (harvest §2) is retired.
 
-#### C6.12 Words learned and the B8 threshold (D78, closes C1.7)
-- Learned = items at box ≥3 with at least one graded correct review at an interval of ≥3 days, and `already_knew` false. Placement and quick-check seeds show as "already knew" and are never counted.
+#### C6.12 Words learned and the B8 threshold (D78, D132, closes C1.7)
+- Learned = items at box ≥3 with at least one fair correct review (C6.5) at a gap of ≥3 days, and `already_knew` false. Placement, quick-check and test-out seeds show as "already knew" and are never counted.
 - Counted in two figures, never one (D132). **Words learned** counts single lexemes (`pos` ∈ noun, verb, adjective, adverb, pronoun, preposition, conjunction, particle, interjection). **Phrases learned** counts `pos` ∈ formula, frame. The dictionary is not split; only the counter is (D128, D132).
-- A phrase contributes nothing to words learned, ever. Mastering بدي أروح advances that row's box alone; روح receives no credit. There is no decomposition anywhere in §C6, and the D133 constituent declaration is a validator input, not an evidence path. Learning a chunk can be contextual recognition rather than knowledge of its parts, so the parts are never credited.
-- B8 reads words learned only. Phrases learned is shown to the learner as progress, and is not a success metric.
-- Rationale: with obligatory formulas now core to `level` 1 (D127), a single figure lets a 4-token formula count the same as a noun and can be inflated by formula-heavy units. Two figures are also better progress feedback than one.
-- B8 "Teaches" = across the 4-week test, ≥80% of scheduled reviews of learned items are correct on first attempt, with a per-tester floor of 70%. One query over `review_event`; no extra instrumentation.
-- Progress shows words learned, streak (C1.4) and items due. No scores, XP or percentages against a target (P17, B7).
+- A phrase contributes nothing to words learned, ever. Mastering بدي أروح advances that row's box alone; روح receives no credit. The D133 constituent declaration is a validator input, not an evidence path. Learning a chunk can be contextual recognition rather than knowledge of its parts, so the parts are never credited.
+- **B8 retention** = across the family test, ≥80% of fair reviews of learned words and of verb cells are correct on first attempt, with a per-tester floor of 70%. One query over `review_event`. Phrases learned is progress feedback, not a metric.
+- Progress shows words learned, phrases learned, milestones reached as can-do statements per skill (from `milestone_shown`, C6.14), streak (C1.4) and items due. No scores, XP, percentages or pace readings (P17, D287).
 
-#### C6.13 Records (schema §F)
-- `learner_item` per C6.2: one row per learner × track × item.
-- `review_event`, append-only: item, origin (warm-up · quiz · quick check · focused study · my vocab), correct, self-rated, `response_ms`, box before and after, `scheduler_version`, timestamp.
-- `script_stage` changes and band auto-advances append plan events (C3.11).
-- Answer rows (C4.11) remain the raw record. `review_event` is the scheduler's own log: derivable, but stored, so the ladder can be replayed after a config change.
+#### C6.13 Test out (D308, D326)
+- A warm-up whose answers show a lesson's material is already known offers a short test-out check; "too easy" also offers one.
+- **Production only:** typed answers or building the sentence, never recognition. Heritage learners recognise far more than they can say.
+- **Pass** (all correct, config): the material's items enter at box 3, `already_knew` true, `source = test_out` (C6.4); their milestones move to half credit (C6.14); the lesson moves to harder material at once, because new material needs only half credit on its direct prerequisites (D310). Full credit comes from the ordinary fair review about 7 days later, with no extra step.
+- **Fail:** the lesson runs as planned and the missed items are its new material. Never shown as a failure.
+- Tested-out material counts toward neither words learned nor `new_lessons_per_day`: it is not new material.
+- Lesson flow (where the offer appears, bigger steps after near-perfect sets) is R4's.
 
-#### C6.14 Owned elsewhere
-- §C7: quiz composition, results and retake.
-- §C8: checkpoint scoring; checkpoints log exposures only and move no boxes (D98).
-- §C9: audio for review items.
-- §C3: unit ordering from `known_gaps`.
-- §F: `learner_item` and `review_event` schemas.
+#### C6.14 Milestones (D285, D288, D310, D318, D319)
+- **The milestone catalogue** is versioned content (B5). Each milestone: id · plain can-do name · skill (C6.15) · shape (step or threshold) · direct prerequisites · the conversation bands that list it · evidence: the items it rests on (grammar points, verb cells, word sets) or, for a threshold, the measure and target. Every graded answer records the milestone ids it exercises; lesson items carry them from generation (verb cells and personal endings by code, syntax points by model tag checked by the critic, R9).
+- **Three states**, recomputed from the answer log on every read by `maturity(events, catalogue, rules) → state per milestone` (D319):
 
-#### C6.15 Principles check
-- Discharges: P7 (advancement by box; `mastered` is a property of the item, never of a lesson), P8 (ladder expands on success, contracts on failure), P9 (calendar-day intervals, one advance per day, consolidation exposures do not advance), P12 (queue interleaving constraint), P14 (production ladder keyed to box), P15 (lapse-triggered drills), P6 (`script_stage` advances on measured scaffold reliance), P16 (every placement output now has a consumer: ceiling → C3, `script_stage` → C6.9, production ratio → C3.6, listening accuracy → C3.6, misses → gaps).
-- Defers: P18 → §C8.
-- At risk: none new. R2 is unchanged; seeding on lesson completion rather than per activity keeps C6.4 consistent with the resume rules (C1.5).
+| State | Credit | Step milestone evidence (placeholders, low confidence) |
+|---|---|---|
+| Not yet | 0 | — |
+| Usable with effort | 0.5 | 70%+ correct in its last 2 practice sessions, supports allowed; or a placement grammar pass or a test-out pass. The bar for direct prerequisites of new material (D310) |
+| Met | 1 | Every item it rests on answered correctly in a fair review (C6.5) at a gap of at least 7 days, without supports; 90%+ correct on its last 10 graded answers; for verb milestones, at least one fair correct answer on a verb never seen in that cell. A new milestone can be met at the earliest about 11 days after teaching (box 1 → 4) |
+
+- **Threshold milestones** carry a measure and target. Vocabulary: words learned (C6.12), so a word counts only once recalled in a fair review days after teaching. Listening: accuracy on the last 20 fair listening-stimulus reviews. Fluency: median `response_ms` on tap and listen answers on met material. Met at the target; partial progress in between (C6.16).
+- **Speed limits apply only to tap and listen answers**, never typed ones: typing speed is not fluency (P21, C8.5).
+- **Conversation milestones** are met when the evaluator reports the milestone shown in 2 conversations (checkpoints or conversation lessons) on different days (C8.7, D322). This is model judgement, not a binary answer; R4 covers it.
+- **Slipping (D318):** a met milestone whose items fail a fair review returns to half credit in the live state. The planner works it back into upcoming lessons by recycling, not by repeating a lesson; still at half credit when the next block is planned, it becomes one of that block's targets.
+- **Shown stays shown (D318, D289):** the first time a milestone is met, a `milestone_shown` row is appended and the can-do is displayed. It is never taken back on screen while the live state slips; Today may show a neutral "keep it fresh" practice item, never a lost badge (P17). The planner, scoring and B8 read the live state only.
+- **Placement seeds the axes (Q34 j):** placement word seeds feed vocabulary and grammar seeds give half credit, so a heritage learner does not start at zero; `already_knew` stays separate from learned (D27).
+
+#### C6.15 Skills and the conversation ladder (D285, D288, D321, D322)
+| Skill | Shape | Scored in MVP |
+|---|---|---|
+| Grammar | step | yes |
+| Verbs | step | yes |
+| Conversation | step | yes, model-judged (C8.7) |
+| Script letters | step | yes |
+| Vocabulary | threshold | yes |
+| Listening | threshold | yes |
+| Fluency | threshold (tap and listen speed) | yes |
+| Pronunciation | threshold, a few sounds as steps | **no (D321).** MVP has no speech input, so nothing measures it. Listed so the catalogue needs no reshaping when the voice partner (B6) arrives. Sound-contrast listening drills count toward listening; the monthly check-in (C6.18) is the only signal meanwhile |
+
+- **The conversation ladder is the C8.5 band** (D288): `starting` · `emerging` (survival) · `developing` (everyday) · `conversational` · `fluent`. `starting` holds until every `emerging` milestone is met (D322), so a beginner's 90-day target can be missed (B2).
+- A band is reached when every milestone it lists is met. The band is derived, never assigned by a checkpoint.
+- `script_stage` (C6.9) and the script-letter milestones are separate: the stage governs scaffolds, the milestones measure decoding.
+
+#### C6.16 Block scoring, carry-over and capacity (D310, D311, D316, D331)
+- **Block bar:** the milestones a block targets (its 2-4 can-dos, D311). Step milestones score 0 / 0.5 / 1 (C6.14); threshold milestones score progress from the block's start to its target, capped at 1; a skill scores the mean of its targeted milestones; the block scores the mean of the skills it targets, equally weighted. Untargeted skills are not scored. Measured from the block's start, at block end.
+- **The 0.25 per-skill floor lives only in the B8 test and the monthly analysis, never in the planner** (D316). A skill below it flags that the teaching failed, and repeats point at the method or the milestone's bar. The planner reads per-skill scores and capacity; method switches stay with the stalled-step rule.
+- **Carry-over (D310):** at a block's time cap, its unmet milestones carry into the next block as its first target. A block that ends with every milestone met carries none.
+- **Capacity per skill** (D331), read by the planner to size the next block (D313, §C3):
+  - learning rate: new material reaching usable, and reaching met, per hour of active study (active minutes per sitting are recorded, C6.19);
+  - retention: share of fair reviews correct;
+  - carry-over: count of the skill's targeted milestones unmet at block end.
+  Window: the last block. The first block reads placement and config defaults.
+- A block-end snapshot (scores, capacity, live milestone states, catalogue and rules version) is appended and never recomputed (D289); recalibration recomputes only in a separate labelled view.
+- All numbers are placeholders (low confidence), fixed before the family test; pass and fail are read on those.
+
+#### C6.17 Teaching-method results (D324)
+- Every activity carries a method tag from a closed, versioned list, for example: table first or dialogue first, chunked high-frequency forms, the active-participle bridge, transform drill, listen and pick, listening first or reading first. Lessons and Verb Lab write it on every answer.
+- **Judged by outcome, never by preference or "learning style"**, which has been tested and does not predict learning (Pashler et al. 2008, high confidence). Outcomes: time for material taught by the method to reach usable, its fair-review retention, its error-class mix (C6.10). Engagement signals are logged beside them: abandoned lessons, "too easy" taps, time taken.
+- **Fair comparison only:** within one learner and one skill; the planner alternates methods on comparable material (§C3); nothing is compared below about 20 items per method (placeholder). With three learners this is a per-person result, and the first month is mostly noise (moderate confidence it is useful after a couple of months).
+- The only automatic switch is the stalled-step rule (sequencing rule 5, §C3). Everything else reaches the monthly analysis as a proposal (C6.18).
+
+#### C6.18 Monthly check-in and analysis (D285, D328, D329)
+- **Real-life check-in (D328):** about 30 seconds, skippable, offered at the first session on or after each 30 days from plan start, re-offered once if skipped. Questions: did you speak Arabic outside the app; with whom; for how long; how it went, 1-5; where you got stuck (optional text). Append-only; never milestone evidence; read by the monthly analysis and by R1.
+- **Monthly analysis:** reads capacity, block snapshots, the floor, error classes, method results and the check-in, and proposes changes to pace, intake, weighting, method choice and per-learner interval scaling. Each change is approved by Marwan or Omar, with the other told (D329), and versioned as config (D118).
+- **Key class (D329, closes R6's owed item):** the keys it tunes are **block** keys (C10.7): pinned at block start, changed only at a block boundary after approval, every block record carrying its resolved values. Evidence-rule and scoring keys (C6.14, C6.16, C6.12's B8 threshold) stay frozen and are locked for the whole family test: the analysis may only propose them, with results in a separate labelled recomputation (D289).
+
+#### C6.19 Records (schema §F)
+- `learner_item` per C6.2: one row per learner × track × kind × ref.
+- `review_event`, append-only: item, origin (warm-up · lesson · weekly quiz · quick check · test-out · Verb Lab · focused study · my vocab · checkpoint · conversation), correct, supported, timed, self-rated, `response_ms`, `gap_days`, error class, milestone ids, method tag, box before and after, `scheduler_version`, timestamp.
+- `milestone_shown`, append-only: milestone id, catalogue version, shown at.
+- `block_snapshot`, append-only at block end, per C6.16.
+- `checkin`, append-only: the C6.18 answers.
+- Active minutes per sitting, on the session record (§F).
+- `script_stage` changes and word-level auto-advances append plan events (C3.11).
+- Answer rows (C4.11) remain the raw record. `review_event` is the scheduler's own log: derivable, but stored, so the ladder can be replayed after a config change. Milestone states, skill scores and capacity are recomputed from it.
+
+#### C6.20 Owned elsewhere
+- §C3 (R3): block planning, intake sized from capacity, bottleneck choice, where carry-over lands, recycling, method alternation, the 2-day planner rule's placement.
+- §C4, §C7 (R4): lesson flow, the test-out offer, the weekly quiz, error-class copy, Verb Lab.
+- §C5 (R5): generation-time milestone and grammar tagging, the critic.
+- §C8: checkpoint evaluation; checkpoints log exposures and move no boxes (C8.7).
+- §C9: audio for review items. §F: schemas. R7 and §J: the milestone catalogue, grammar path and conjugation tables as content.
+
+#### C6.21 Principles check
+- Discharges: P7 (advancement by fair, unsupported recall; milestones met by evidence, never time spent), P8 (ladder expands on success, contracts on failure, for grammar points and verb cells too), P9 (calendar-day intervals, one advance per day, gap measured from the last exposure anywhere), P12 (queue interleaving), P14 (production ladder keyed to box; supported answers excluded from "met"), P15 (drills triggered by error class), P6 (`script_stage` advances on measured scaffold reliance), P16 (every placement output has a consumer, grammar seeds included), P21 (mastery measured on the rule: verb cells per rule, varied-form probes, a never-seen verb required, timed only on tap and listen answers), P23 (every error classified, named and routed to the item that failed).
+- Defers: P3, P13 for structures → R3, R4 · P18 → §C8 · P17 display → §D (D.5).
+- At risk: P7 for conversation milestones, which rest on model judgement (R4). R6's owed key class is closed by C6.18. R9 unchanged. Method results (C6.17) are noisy at three learners; mitigated by within-learner comparison, a minimum sample and human approval of every change.
 
 ### C7 Quizzes
 
@@ -709,7 +802,7 @@ Owns quiz composition, grading, results and retake. Review scheduling and boxes 
 #### C7.5 Grading and feedback (D89)
 - Local and binary (D46). Typed Arabic grades on normalised Arabic; typed romanization grades against the C4.7 standard with Levenshtein ≤2.
 - Feedback is immediate per question: correct form, audio on tap, bottom sheet with Continue (harvest §7d). No explanation prose in MVP, which keeps the quiz path free of runtime Claude.
-- Every answer writes an answer row (C4.11) and a `review_event` (C6.13).
+- Every answer writes an answer row (C4.11) and a `review_event` (C6.19).
 
 #### C7.6 Results (D90)
 Shown after every quiz:
@@ -764,22 +857,24 @@ Owns the 3 per-phase conversations, their scoring, the debrief and the fluency b
 - Soft gate: must be attempted, never passed or failed, never blocks lessons or the plan.
 - A completed checkpoint counts as a day of activity for the streak (C1.4).
 
-#### C8.2 Anchor and trigger (D93, closes Q12, C1.7 and C3.12)
+#### C8.2 Anchor and trigger (D93, D312, D327)
+A checkpoint closes each block (D312) and the phase.
 
-| Marker | Fires | Budget |
+| Checkpoint | Fires | Budget |
 |---|---|---|
-| CP1 | earlier of day 30 or lesson 30 | ~2 min, 6 learner turns |
-| CP2 | earlier of day 60 or lesson 60 | ~4 min, 10 learner turns |
-| CP3 | phase end only: first open on or after day 90 | ~5-7 min, 14 learner turns |
+| Block end | earlier of: every milestone the block targets met (offered early), or the block's time cap, 30 days from **that block's own start** | 6 learner turns for the first, 10 for the second, 14 from the third on |
+| Phase end | first open on or after day 90 only; never early | 14 learner turns |
 
-- Neither anchor works alone. The phase clock runs during absence (D37) while content advances by completed lessons (D31), so days alone put an absent learner in a conversation about material never met, and lessons alone mean a tester at 4 sessions a week never reaches CP1 inside the 4-week test B8 requires.
-- CP3 is not early-triggerable. C3.10 hangs the next phase on the final debrief, and the 90-day claim in B2 is not evidenced by a debrief written at day 70. Working ahead is already rewarded with more covered units, so a stronger CP3.
-- Turn counts are config; minutes are display copy only.
-- A due checkpoint takes the Today's session slot (C1.2). "Not now" starts the normal lesson; the checkpoint re-offers at the next session start. If the next marker comes due first, the earlier one is recorded `superseded`.
+- The lesson anchor is dropped (D327): pace is per learner (D314), so a lesson count means something different for each learner.
+- **Fold-in:** a block whose end would fall within 10 days of day 90 folds into the phase-end checkpoint. **Cut-off:** a block still running at day 90 ends there; its unmet milestones open the next phase's first block (C6.16).
+- A fast learner can finish more than three blocks in a phase, so a phase can hold more than three checkpoints. "CP1" in B8 means the first block-end checkpoint.
+- Day 90 is not early-triggerable: C3.10 hangs the next phase on the final debrief, and the 90-day target in B2 is read at 90 days.
+- Turn counts and the 30-day cap are config; minutes are display copy only.
+- A due checkpoint takes the Today's session slot (C1.2). "Not now" starts the normal lesson; the checkpoint re-offers at the next session start. If the next checkpoint comes due first, the earlier one is recorded `superseded`. The next block is planned when the block ends, not when its checkpoint is taken (D312); the checkpoint's evidence reaches the plan after it (§C3).
 
 #### C8.3 Content pack and scenario (D94)
 - Assembled server-side from records. The client sends no content, no model and no budget (D58).
-- Pack: completed units and their can-do statements, stored items at box >=1 with romanization, band, `script_stage`, goal tags, the `function_words` allowlist, and the previous debrief's work-on list.
+- Pack: the block's can-do statements and targeted milestones, the conversation milestones in scope for the learner's next band (C6.15), stored items at box >=1 with romanization, the derived band, `script_stage`, goal tags, the `function_words` allowlist, and the previous debrief's work-on list.
 - Scenario comes from an authored scenario catalogue keyed to marker and goal tags, built with the unit catalogue in §J. The character is never inventing a context above the learner's level.
 - Prompt constraints: stay inside the pooled vocabulary plus at most 10% unknown words; stay in Palestinian dialect; nudge when the learner stalls; land the conversation softly rather than ending on failure. Prompt is a versioned server-side record (C5.10).
 
@@ -791,26 +886,21 @@ Owns the 3 per-phase conversations, their scoring, the debrief and the fluency b
 - Audio on tap for every character turn, never autoplay (P5). Generation and caching §C9.
 - Report a problem on every turn (C1.6).
 
-#### C8.5 Dimensions and bands (D96)
-- One evaluation call after the last turn. Bands: emerging / developing / conversational / fluent, per dimension and overall.
-
-| Marker | Scored |
-|---|---|
-| CP1 | accuracy, vocabulary range |
-| CP2 | + spontaneity, elaboration |
-| CP3 | all four |
-
+#### C8.5 Evaluation and the ladder (D96, D288, D322)
+- One evaluation call after the last turn. It returns, for each conversation milestone in the pack, shown or not shown; errors tagged by skill and error class (C6.10); and the item ids used correctly.
+- The four dimensions stay as the evaluator's internal rubric, used to tag the bottleneck: accuracy and vocabulary range on the first checkpoint, adding spontaneity and elaboration on the second, all four from the third on and at phase end. They are not a learner-facing score.
+- **The band is derived, not assigned** (D288): `starting` · `emerging` · `developing` · `conversational` · `fluent`, reached when every milestone the band lists is met (C6.15). A checkpoint moves the band only through the milestone evidence it adds (C6.14).
 - Elaboration replaces harvest's speed dimension: turn length and unprompted detail. In a typed checkpoint, latency measures typing, not fluency, and it biases against the learner R1 already flags. Latency is stored unscored so speaking practice (B6) can calibrate against it.
 - Communicative success is judged first. Spelling, romanization variance and word order that still communicates are never marked as errors (P18).
 
 #### C8.6 Debrief (D97)
-- Fixed order: what worked, 2-3 things to work on, band, path to the next band. Compared against the previous debrief from CP2 onward.
+- Fixed order: what worked, 2-3 things to work on, band, path to the next band. The band is the derived band at debrief time, pinned on the row (D289). Compared against the previous debrief from the second checkpoint onward.
 - Stored permanently, never overwritten. Rendered in Progress as the Day 30/60/90 horizon (C7.6). No score, no percentage, no pass or fail (P17).
 
-#### C8.7 Mastery interaction (D98, closes C6.14)
-- Checkpoints log exposures and move no boxes. A Claude judgement on free text is not the binary outcome the C6.3 ladder is built on.
-- The evaluator returns dictionary ids used correctly, which log exposures, and observed confusion ids, which are stored on the debrief row only.
-- Confusion ids do not feed the C6.10 remedial counter in MVP. Checkpoints are 30 days apart and the trigger is 3 lapses in 14 days, so a checkpoint can contribute at most 1 lapse to any window and can never fire a drill on its own. Stored, the ids still tell §H which drills to add to the C5.6 library and give the native reviewer something to check transcripts against. Wiring them in later is a two-way door.
+#### C8.7 Learner-model interaction (D98, D288, D322)
+- Checkpoints log exposures and move no boxes. A model judgement on free text is not the binary outcome the C6.3 ladder is built on.
+- Item ids used correctly log exposures (`origin = checkpoint`). Conversation milestones reported shown are milestone evidence: one is met when shown in 2 conversations, checkpoints or conversation lessons, on different days (C6.14). Skill-tagged errors feed the planner's bottleneck choice (§C3) and the method results (C6.17); they do not feed the C6.10 remedial counter, whose trigger needs binary lapses.
+- Transcripts stay stored for §H drill additions and for report-a-problem follow-up. No native reviewer reads them (D280, D302).
 
 #### C8.8 Cost and degrade (D99, C5.7)
 - Config caps per checkpoint: max turns, max tokens per turn, 1 evaluation call.
@@ -819,22 +909,23 @@ Owns the 3 per-phase conversations, their scoring, the debrief and the fluency b
 - No scripted fallback checkpoint. The conversation resumes from server rows, so an outage delays a checkpoint rather than losing one, and B8 asks that CP1 be completed inside 4 weeks, not on a particular day.
 
 #### C8.9 Records (D100, schema §F)
-- `checkpoint`: user, track, plan, `phase_no`, marker, anchor fired (day / lesson), status (pending, in_progress, completed, abandoned, superseded), scenario id + version, config version.
+- `checkpoint`: user, track, plan, `phase_no`, block, ordinal, kind (block end / phase end), anchor fired (milestones met / time cap / phase end / folded), status (pending, in_progress, completed, abandoned, superseded), scenario id + version, config version.
 - `checkpoint_turn`, append-only: role, text, stall flag, latency ms, `ai_call` id.
-- `checkpoint_debrief`: bands per dimension, overall band, narrative sections, item ids used, confusion ids, `model`, `prompt_version`.
-- Exposures write `review_event` rows with `origin = checkpoint`, box before and after unchanged (C6.13).
+- `checkpoint_debrief`: derived band at debrief time (pinned), milestone ids shown, skill-tagged errors, internal dimension notes, narrative sections, item ids used, `model`, `prompt_version`.
+- Exposures write `review_event` rows with `origin = checkpoint`, box before and after unchanged (C6.19).
 
 #### C8.10 Owned elsewhere
 - §C9: audio for character turns.
 - §C5: prompt registry, model policy, `ai_call` metering.
 - §F: checkpoint, turn and debrief schemas.
-- §H: native review of sampled transcripts; drill library additions.
+- §H: drill library additions.
 - §J: scenario catalogue build.
 
 #### C8.11 Principles check
 - Discharges: P18 (free production judged as communication, the only such surface in MVP), P16 (goals and band drive the scenario; the previous work-on list drives the next), P17 (bands and prose, no score, no pass or fail).
 - Defers: audio → §C9 · scenario catalogue → §J · schemas → §F.
-- At risk: new recorded risk R4. Checkpoint language is runtime output, so the C5.5 validators cannot gate it the way they gate lessons and P10 rests on a prompt constraint. Mitigation: authored scenarios, pooled vocabulary in the pack, report-a-problem per turn, native review of sampled transcripts during the family test. R1 unchanged, but D96 narrows its typing bias by dropping latency from scoring.
+- At risk: R4. Checkpoint language is runtime output, so the C5.5 validators cannot gate it and P10 rests on a prompt constraint; conversation milestones now also rest on the evaluator's judgement (C6.14). Mitigation: authored scenarios, pooled vocabulary in the pack, report-a-problem per turn, a milestone met only when shown in 2 conversations on different days. No native review (D302). R1 unchanged, but D96 narrows its typing bias by dropping latency from scoring.
+- Rework R2 (chat 35): P16 now also runs through milestones (shown milestones and tagged errors drive the next block), and P17 holds because the band is a derived ladder state shown as can-dos, never a score.
 
 ## C9 Audio
 
@@ -979,7 +1070,8 @@ Owns track scoping and the engine config every earlier section defers to. Closes
 
 | Class | Keys | Behaviour |
 |---|---|---|
-| Frozen | Scheduler intervals and ladder (C6.3), mastery and words-learned thresholds (C6.12), skill mix (C3.6), band advance (C6.8), quiz threshold (C7.6), placement engine rules (C2.4) | Pinned at plan start. A change takes effect at the next phase boundary (C3.10) |
+| Frozen | Scheduler intervals and ladder (C6.3), mastery and words-learned thresholds (C6.12), milestone evidence rules and block scoring (C6.14, C6.16; locked for the whole family test), skill mix (C3.6), word-level advance (C6.8), quiz threshold (C7.6), placement engine rules (C2.4) | Pinned at plan start. A change takes effect at the next phase boundary (C3.10) |
+| Block | Keys the monthly analysis tunes (C6.18): pace, intake, skill weighting, method choice, per-learner interval scaling | Pinned at block start. A change takes effect at the next block boundary, after approval by Marwan or Omar (D329) |
 | Hot | Caps and budgets (C5.9), audio thresholds (C9.6), checkpoint turn budgets (C8.2), copy, secondary card order (C1.2) | Effective immediately |
 
 - Frozen keys are read from the version the plan pinned, so a mid-test edit cannot silently redefine what a band, a learned word or a quiz outcome means across records already written. Recorded risk R6.

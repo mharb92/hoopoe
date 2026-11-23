@@ -16,7 +16,7 @@ Hoopoe gets heritage speakers and beginners speaking everyday Palestinian Arabic
 | Beginner | Survival conversation: greet, introduce yourself and your family, say what you want and what you have, ask and answer simple questions. Rehearsed exchanges with a patient listener, not open conversation | `emerging` |
 | Heritage | Hold a 5-7 minute everyday conversation: narrate, give opinions, repair a misunderstanding | `conversational` |
 
-- Default pace: 3 sittings a week of about 20 minutes, about 13 hours per phase. **Each learner's pace is set from the weekly time they give in the "about you" step (§C1) and revisited at the monthly check-in**; the 3-sitting figure is the fallback when none is given. **The pace is a starting setting, not a limit.** Learners may do more lessons per sitting and more sittings per week, and the planner pushes as fast as each learner's results allow; only `new_lessons_per_day` caps new material (P9, C1.2). The target describes the default pace, not a ceiling: learners who study more go further.
+- Default pace: 3 sittings a week of about 20 minutes, about 13 hours per phase. **Each learner's pace is set from the sittings per week they give in the "about you" step (C3.3) and revisited at the monthly check-in**; later blocks are sized from the time actually studied (C3.7); the 3-sitting figure is the fallback when none is given. **The pace is a starting setting, not a limit.** Learners may do more lessons per sitting and more sittings per week, and the planner pushes as fast as each learner's results allow; only `new_lessons_per_day` caps new material (P9, C1.2). The target describes the default pace, not a ceiling: learners who study more go further.
 - Why the beginner target is modest: A1 in Arabic takes roughly 150 study hours for an English speaker (estimate, moderate-low confidence: A1 is about 60-100 guided hours for a European language, and the FSI puts Arabic in its hardest category). At the default pace A1 is a second- or third-phase goal. The estimate does not apply to heritage learners, whose skills start unevenly (understanding often well above speaking, script often near zero), so placement seeds each skill separately (§C2).
 - A band is reached when the milestones it lists are met (D288), not by completing a checkpoint. The ladder carries a state below `emerging`, `starting`, so the beginner target can be missed (C6.15, C8.5).
 - Phase = 90 days, fixed in MVP. The plan record stores its length (`duration_days`) so later phases can differ (roadmap: phase renewal).
@@ -38,7 +38,7 @@ Learner type is config consumed by one engine. No learner-type conditionals in f
 MVP users: three learners, Marwan and Omar (heritage) and Aya (beginner). Invite-only (§G). Every sizing, cap and user-count assumption is for three; nothing is built for use cases that do not exist, such as regional variants. The beginner path has one tester, so its findings are read as a case, not a rate.
 
 ### B5 MVP scope
-- Onboarding: a ~3-minute "about you" step (why learning, who the learner will speak with, where the family is from, interests, weekly time, optional family names), which the learner can see, edit and delete; then placement for every learner type (§C1, §C2)
+- Onboarding: a ~3-minute "about you" step (why learning, who the learner will speak with, where the family is from, interests, sittings per week; a form, no family names, D344), which the learner can see, edit and delete; then placement for every learner type (§C1, §C2)
 - Lessons the model builds per learner: blocks between checkpoints, each generated a set of about 6 lessons at a time from the latest learner record; six lesson types (grammar, words, story, conversation, fluency, review); a quiz in every lesson and a weekly quiz closing each set, which must be taken, not passed, and whose results shape the next set; audio
 - Grammar taught explicitly along a grammar path, and verbs through Verb Lab
 - Focused Study, built by code from checked data with no AI call per session: Verb Lab, topic vocabulary, situation practice (scripted exchanges written once, checked and shared), my weak spots, numbers, prices and time, call-and-response phrases, endings drills, speed rounds
@@ -103,31 +103,31 @@ Build surfaces, not learner-facing, also in MVP scope:
 |---|---|---|---|
 | 1 | Invite | Admin allowlists email; invitee receives link | §G |
 | 2 | Install + sign in | Link opens in iPhone Safari → one-time Add to Home Screen card → sign in inside installed app. Sign-in precedes onboarding. No guest mode | §G |
-| 3 | Onboarding | Name, learner type (C1.3), goals (multi-select + free text). No dialect picker. ≤1 min | C1.3 |
+| 3 | Onboarding | Name, learner type (C1.3), the "about you" form (C3.3). No dialect picker. About 3 min | C1.3, C3.3 |
 | 4 | Placement | All learner types; config sets length and stop rules | §C2 |
-| 5 | Plan reveal | 90-day phase: checkpoint markers, first units from goals | §C3 |
+| 5 | Plan reveal | 90-day goal and the first block: its outcome, 2-4 can-dos and its checkpoint (C3.12) | §C3 |
 | 6 | First session | Starts directly from plan reveal | §C4 |
 | 7 | Daily loop | Home → Today's session → wrap-up → Home | C1.2 |
 | 8 | Checkpoint | When due, becomes Today's session | §C8 |
-| 9 | Phase end | Final debrief → next 90-day phase starts at the first open after the end date, with current goals; prior plan and debriefs kept. Roadmap renewal flow replaces this step | §C3 |
+| 9 | Phase end | Final debrief → next 90-day phase starts at the first open after the end date, with current "about you"; prior plan and debriefs kept. Roadmap renewal flow replaces this step | §C3 |
 
-Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Settings (edit goals, adjust plan, harakaat). All read and write one learner vocab/mastery store.
+Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Settings (edit "about you", adjust plan, harakaat). All read and write one learner vocab/mastery store.
 
 #### C1.2 Home and Today's session
-- One primary action: Today's session. Next action resolves in order: resume unfinished → due checkpoint → next lesson.
+- One primary action: Today's session. Next action resolves in order: resume unfinished → return warm-up after 7+ days away (C1.4) → due checkpoint → the weekly quiz of a finished set (C3.9) → next lesson.
 - Session: due-review warm-up → new material → quiz → wrap-up. Quiz is mandatory; exit and resume allowed. Composition per §C4, §C6, §C7.
-- Pacing: plan paces 1 lesson per day. No daily cap on sessions: after wrap-up the learner can start the next lesson, repeatedly. Catch-up after missed days and working ahead are both allowed. Progress advances by completed lessons; missed days never skip content. Cost is never a pacing lever.
-- New material is rate-limited, sessions are not (D63, P9): new item sets are capped per calendar day (config `new_lessons_per_day`, default 3). Beyond the cap, further sessions run in consolidation mode: review, retrieval and quiz on already-introduced items, no new item set. Copy frames this as consolidation, never as a block or a warning.
+- Pacing (D343): the learner's sittings per week × about 2 lessons set the expected lessons per week (C3.9); the 3-sitting figure is the fallback (D314). No daily cap on sessions: after wrap-up the learner can start the next lesson, repeatedly. Catch-up after missed days and working ahead are both allowed. Progress advances by completed lessons; missed days never skip content. Cost is never a pacing lever.
+- New material is rate-limited, sessions are not (D63, P9): lessons bringing new material are capped per calendar day (config `new_lessons_per_day`, default 3), counted by code from each lesson's items, not its type (C3.9). Beyond the cap, further sessions run in consolidation mode: review, retrieval and quiz on already-introduced items, no new item set. Copy frames this as consolidation, never as a block or a warning.
 - Secondary cards: Focused Study, My Vocab review, Alphabet, Progress, Settings. Order and prominence come from learner-type config.
 - Script micro-steps are woven into daily sessions when placement `script_stage` calls for them, for any learner type (§C2, D26). Alphabet screen is reference and practice, never a gate.
 
-#### C1.3 Learner type question
-"When family speak Palestinian Arabic, you…": understand most / catch some words → heritage config + placement; understand little or none → beginner config. Placement may reassign (§C2). Intermediate is not offered (slot).
+#### C1.3 Learner type question and "about you"
+"When family speak Palestinian Arabic, you…": understand most / catch some words → heritage config + placement; understand little or none → beginner config. Placement may reassign (§C2). Intermediate is not offered (slot). The "about you" form follows (C3.3, D344).
 
 #### C1.4 Streak and return
 - A day counts when any activity completes in the learner's local day: lesson, review, Focused Study or checkpoint.
 - Missed day resets the streak. Copy never shames.
-- After 7+ days away (config), the next session opens with a longer review (size per §C6).
+- After 7+ days away (config), the next session opens with a longer review that first probes the block's milestones (size per C6.7), then offers "Refresh first" or "Jump in" when any slipped (C3.10, D348). Never forced, never framed as a penalty.
 
 #### C1.5 State and connectivity
 - Journey position derives from server records, never device state.
@@ -228,94 +228,154 @@ No typed answers, no romanization. "I don't know" scores as incorrect.
 
 ### C3 Plan
 
-#### C3.1 Shape (D31)
-- A plan is an ordered list of units, not a calendar. Progress advances by completed lessons (D15). Dates are display only: `start_date` + `duration_days` (90, D6) give the phase window and checkpoint markers.
-- A unit's lesson detail resolves when the unit starts, using mastery at that moment (§C5, §C6).
+Owns the phase, its blocks and sets: what each block targets, how much it brings, who writes what, the story thread, the four kinds of practice, pacing and the daily cap, time away, re-planning, plan reveal, Settings and records. Rewritten chat 36 (rework R3, D333-D356) for lessons the model builds per learner (D280) on the learner model in §C6. Retires the pre-built unit catalogue (old C3.2), the goal-tagging call (old C3.3) and the unit ordering rules (old C3.4, D70's category rule moves to C3.6).
 
-#### C3.2 Unit catalogue (D32)
-- Pre-built, track-scoped, native-reviewed. Building a plan costs no Claude call.
-- Unit fields: stable id, title, can-do statement, categories (loaded from dictionary data, never hand-copied into prompts), level range, goal tags, status (active/retired), version.
-- Each unit declares its ordered lessons. Each lesson declares 6 dictionary ids: 4 core + 2 extension (D54, §C5.3). Item sets are catalogue data, not a runtime selection.
-- The catalogue covers all 46 dictionary categories or marks exclusions explicitly.
-- Built in §J. Category names freeze at the end of DR.
+#### C3.1 Shape: phase, blocks, sets (D283, D304, D312, D327, D340)
+- **Phase:** 90 days (`duration_days`, B2). **Block:** the span the planner targets, closed by a checkpoint (C8.2). **Set:** about 6 lessons, generated together from the latest learner record and closed by the weekly quiz (D304). Lessons are the unit of work; dates drive only the clocks in C3.10.
+- A block is planned in one call when the previous block ends (or at plan reveal), before that block's checkpoint is taken (C8.2). Its sets are generated one at a time (§C5): the first with the block, each later one after the previous set's weekly quiz.
+- **A block ends** at the first of: every milestone it targets met (C6.14), checked when each weekly quiz is completed and only after at least 2 sets (about 12 lessons); its time cap (C3.10); day 90 (C8.2). There is no lesson-count trigger (D340).
+- At the time cap the lesson in progress finishes; unstarted lessons of the set are dropped, never shown, and their material goes back to the planner. Unmet targets carry over (C3.4).
 
-#### C3.3 Goals to units (D33)
-- Onboarding multi-select options are the catalogue goal tags.
-- Free text: one cheap Claude call maps it to tags; output validated against known tag ids; unknown tags dropped. Model and `prompt_version` stored.
-- On failure or no match: plan uses the multi-select only, free text kept for lesson flavour (§C5). Never blocks plan reveal.
-
-#### C3.4 Ordering (config defaults)
-| Key | Default |
+#### C3.2 Block plan: what code chooses, what the model writes (D333, D342)
+| Code chooses (deterministic, from the learner record and content) | The model writes (one block-plan call) |
 |---|---|
-| Core opener | First unless the ceiling already clears it |
-| Goal to core ratio | 2 goal-matched units per 1 core unit |
-| Level gate | Unit enters only when its minimum level ≤ learner band |
-| Outline size | ~90 paced lessons |
-| Append | When fewer than 10 lessons remain |
-| Lessons per unit | §C4 |
-| Category interleaving | No two consecutive units share a primary category unless no alternative exists at the learner's band (D70) |
+| Target milestones and the bottleneck (C3.4) · amounts per skill and per set (C3.7) · the word shortlist (C3.5) · the four-kinds targets (C3.6) · the method per targeted milestone (C3.8) · the recycling list: every lesson recycles at least two earlier milestones, slipping ones first (sequencing rule 4, P13) · items kept out of graded positions (C3.9) · the story cast, once per phase | The block outcome in plain words · 2-4 can-do statements phrased for this learner from "about you" (C3.3), each mapped to target milestone ids · the story arc · words picked from the shortlist · scenarios for conversation lessons |
 
-Working ahead (Q5, D15): units are appended by the same rules. No separate enrichment mode.
+- Validated by code before the block is accepted: every can-do maps to at least one target id and every target is covered by a can-do; every picked word is on the shortlist; nothing targeted lacks its prerequisites at "usable with effort" (D310). Output contract and failure handling are §C5's.
+- **Story thread (D342):** one cast per learner for the whole phase, one arc per block, about one episode per set. The cast uses fictional, common Palestinian given names from a fixed list (versioned content, R7), set in Palestinian places with Ramallah first (D281). Real family names are never used and never asked for. "Who you'll speak with" may shape roles and scenarios (a grandmother, a cousin), never a named person. A cast and arc summary is stored on the block record and passed to every set's generation and to the refresher (C3.10).
+- **Method alternation (D324):** for comparison, the planner alternates a skill's two default methods on comparable material (consecutive grammar points of one kind, verb families of one shape), and every answer carries its method tag. A stall switch (C3.8) overrides alternation for that milestone.
 
-#### C3.5 Level window (D35)
-- New material comes from band ceiling+1, or band 5 when the ceiling is 5.
-- Words at or below the ceiling that placement never tested appear as quick checks inside lessons; a miss reclassifies the word as new material. Format §C4, scoring and band-advance threshold §C6.
-- Words the learner missed at or below the ceiling (`known_gaps`, D66) are prioritised into the first units ahead of other ceiling+1 material.
+#### C3.3 "About you" into the plan (D344)
+- A form, not a chat, on one or two screens, about 2 minutes, every field optional: why you're learning (choices + optional text) · who you'll speak with (choices + optional text) · where the family is from (choices, shapes story places and scenarios only; dialect stays Palestinian with Ramallah first and regional variation is not tracked, D281) · interests (choices + optional text) · **sittings per week: "How many times a week can you sit down for about 20 minutes?" 1-2 / 3 / 4-5 / 6+**, default 3 when skipped. No family-names field (D342).
+- No model call reads it at onboarding: it replaces the goal-tagging call (old C3.3). Its choices and length-capped free text pass to the block-plan and set calls as learner context, treated as data. It chooses topics, scenarios and can-do wording, never the grammar order or the target.
+- Editable and deletable from Settings (C3.13). A deletion applies to every later generation; an already-generated, unstarted set is regenerated.
+- Must fit C1.6's 15-minute heritage sign-in-to-first-lesson limit alongside a 10-minute placement (C2).
 
-#### C3.6 Skill mix (D36)
-- Mix targets across recognition, listening, production, script and culture are config per learner type × plan stage.
-- Stage comes from completed lessons: 0-29 / 30-59 / 60+ (config). Never from days.
-- Production share scales inversely with the placement production ratio (§C2.5); weight is config, beginner default 0 (recognition-first, harvest §3c).
-- Listening share is weighted by placement listening accuracy (D67); weight is config.
-- §C4 maps the mix to blocks. Replaces the old phase-ratio table (harvest §3a).
+#### C3.4 Targets (D310, D311, D318, D334, D337, D353)
+- A block targets a set of milestones behind 2-4 can-dos (D311), chosen in this order:
+  1. **Carry-over:** unmet targets of the previous block (C6.16).
+  2. **Slipping:** milestones still at half credit after slipping (D318).
+  3. **The bottleneck:** the unmet milestones blocking the learner's next conversation band (sequencing rule 1), chosen from per-skill scores, error classes tagged by checkpoints and conversation lessons (rule 6) and the diagnosis in C3.8.
+  4. **Independent milestones**, grammar in prerequisite order, and the word strand.
+- **Grammar in prerequisite order, never stage-per-block (D334):** the planner takes the lowest unmet grammar points whose direct prerequisites are at least "usable with effort". At the beginner default (about 4.3 study hours a block) that gives 6-9 new points per block, so stage A takes about the first phase; the foundations doc's "stage A in block 1" does not hold for a beginner. Heritage learners skip points placement shows as probably known.
+- **Heritage block 1 does not wait (D353):** placement-passed points sit at half credit, which already clears the prerequisite bar (D310, D325), so block 1 targets beyond them at once. The first set confirms them by production (C6.4); a miss beyond the C3.11 margin re-plans the block within one set.
+- **The bottleneck is the block's lead goal, held across the block, not a quota (D337):** words, story episodes and conversation scenarios are chosen to feed it wherever they can (rule 3), and lessons teaching it directly take at most about half the block's new-material time, so independent milestones and the word strand keep moving. Checked by code at block plan.
+- **Targets are fixed for the whole block (D338).** Only weekly intake changes inside it (C3.7). Slow side: the next block is re-sized and unmet targets carry over. Fast side: the block ends early (C3.1), and stretch material (C3.7) fills the wait for evidence.
 
-#### C3.7 Phase clock and absence (D37, closes Q5)
-- The clock runs continuously. Absence costs calendar time only; content is never skipped.
-- Unfinished units carry into the next phase (C3.9).
-- Pause is a slot, later implemented as a plan event (break flow, §B6).
+#### C3.5 Word level and the word shortlist (D35, D330, D349)
+- **Word level** (D330; the old vocabulary "band") is the vocabulary window. New words come from word level + 1, or level 5 when word level is 5. Advance per C6.8.
+- Words at or below word level that placement never tested appear as quick checks inside lessons; a miss makes the word new material (C6.4). Placement gaps (`status = gap`, D66) are prioritised into the first block.
+- **The shortlist (D349)** is built by code from trusted rows (`review_confidence` 3, C6.1) at or below word level + 1, excluding words and phrases already in the learner's store as active, learned or already known, in priority order: what the current grammar step needs (verbs while conjugation is the step, family nouns while the endings are) · the block's can-do topic words · placement gaps · frequency. About 2-3 times the block's word intake. The model picks from it (C3.2); a validator rejects any new word in a graded position that is not on it. Input prose keeps P10's own rule.
 
-#### C3.8 Plan reveal (D38)
+#### C3.6 Four kinds of practice and the skill mix (D36, D70, D341)
+- **Four kinds (P19):** meaning-focused input (story, listening), meaning-focused output (conversation, describing your own life), language-focused study (grammar, words, review) and fluency (known material at speed). Every activity carries its kind; code sums planned active minutes per kind at block plan and actual minutes at block end.
+- **Targets (D341, block keys, placeholders):** long run equal quarters. Language-focused study is capped at 40% in a phase's first block, 35% in its second and 30% from its third; no kind below 15% in any block. The four-kinds targets are block keys tuned by the monthly analysis (C6.18, C10.7).
+- **Modality mix** inside lessons (recognition, listening, production, script) stays config per learner type × plan stage, stage now the block's ordinal in the phase (no lesson counts). Production share scales inversely with the placement production ratio (C2.5), beginner default 0; listening share is weighted by placement listening accuracy (D67). Detail per lesson type is §C4's.
+- **Interleaving (P12, D70):** consecutive lessons do not share a primary topic category unless no alternative exists at the learner's word level.
+
+#### C3.7 Sizing: level and rate (D313, D331, D339, D345, D347, D352)
+Three controls, none of which moves another (D345):
+
+| Control | Decides | Read from |
+|---|---|---|
+| **Level**, where the learner is | *Which* material: targets (C3.4) and words up to word level + 1 (C3.5) | live milestone states, word level |
+| **Rate**, how fast they grow | *How much*: new material per set, targets per block, stretch | learning rate per skill (C6.16) × the active time they actually put in |
+| **Evidence bar** | When material counts as usable or met | C6.14's rules, frozen; no preference or rate moves it |
+
+- **First block (D339, placeholders):** beginner about 20 words and phrases and 1-2 grammar points per set, so about 60-100 words and phrases and 6-8 grammar points per block, about 300 by day 90 at the default pace. That is below D304's ~25-35 words and 2-3 points per set on purpose; measured capacity raises it. Heritage learners start from placement's starting point at the same per-set figures (config per learner type); tested-out material counts against none of them (D326).
+- **Expected time (D352):** block 1 uses the stated sittings per week × about 20 minutes. Later blocks use the active minutes actually recorded over the last block (C6.16), automatically and invisibly, so a learner doing less than they said does not face a block of carried-over targets. The stated figure changes only by asking: at the monthly check-in (C6.18), after a block where actual sittings ran at about 60% or less of the stated figure, the learner is asked "keep planning for X a week, or plan for Y?".
+- **Rate measurement (D345):** counts only genuinely new material. Placement seeds, quick-check and test-out passes and anything `already_knew` are excluded, so recognising half-known material does not inflate it. Per skill, so fast grammar never inflates verb intake.
+- **Update rule (D345, block keys, placeholders):** the next block's rate estimate is 50% the last block's measurement and 50% the previous estimate. Increases are capped at +25% per block; decreases apply in full; no increase while the skill's fair-review retention is below about 80%. Rationale: heritage speed collapses when half-known material runs out (typically at verb forms), and averaging alone would react late; overload makes learners quit.
+- **Inside a block (D338):** each set's intake steps by about ±20% from the weekly quiz and the set's fair-review retention: down on quiz misses above a threshold or retention under about 80%, up on near-perfect results (D308), bounded to 0.7-1.3× the block's planned per-set intake.
+- **Stretch (D347):** a milestone can be met no sooner than about 11 days after teaching (C6.14), so a fast learner can finish a block's teaching long before its evidence arrives. Once every target is at least "usable with effort" and the set has room under its intake, the set draws new material from the next milestones in prerequisite order. Stretch milestones count toward the next block, which starts with them already begun; the block's targets do not change.
+- **Climb preference (C3.13, D346):** multiplies per-set intake by about 1.25 / 1 / 0.8 (steeper / as planned / gentler) from the next set, inside the bounds above.
+
+#### C3.8 Slow skills: diagnosis, stalls and methods (D316, D324, D335, D336)
+- **Diagnose before reacting (D335).** A targeted milestone or skill behind its expected progress at a set or block boundary is classified from the answer log:
+
+| Cause | Evidence (placeholders) | Response |
+|---|---|---|
+| Never reached | fewer than ~5 graded answers on its items | schedule it; no method change |
+| Forgotten | practice reached "usable with effort" but fair reviews fail (retention under ~80%) | fewer new items, more recycling of it |
+| Answered wrong | ~5+ graded answers, low accuracy, at least half the misses in one error class (C6.10) | method change, by the stall rule below |
+
+  Too-thin evidence falls back to "never reached". A slow **ramp** skill (vocabulary, listening, fluency) gets its target re-sized to the observed rate, fewer new items and more recycling when forgotten, and new words re-aimed to feed the current step.
+- **The stall rule (D336), the only automatic method switch (D316, D324):** a step milestone diagnosed "answered wrong" whose evidence is flat (no state change and no rise in practice accuracy over 4 practice sessions spanning at least 7 days, placeholders) switches to the next method in its skill's menu. The 0.25 floor stays out of the planner (D316).
+- **Menus** are fixed, ordered and versioned content per step skill. Verbs: chunked high-frequency forms → the "-ing"-word bridge → shorter spaced drills → park briefly. Grammar, script letters and conversation menus are R7 content, each ending in "park briefly". **Park:** the milestone leaves new-material slots for one set but stays in reviews; points that depend on it wait on the prerequisite gate; independent points continue. Nothing is ever repeated unchanged (rule 5).
+- The first two switches per milestone are automatic and logged as plan events. After two switches with no gain, the milestone is flagged to the monthly analysis and a person (Marwan or Omar) decides (C6.18).
+
+#### C3.9 Sets, pacing and the daily cap (D63, D304, D320, D343, D355)
+- **Pacing:** stated (then measured, C3.7) sittings × about 2 lessons set the expected lessons per week and the new-material expectation, never a time cap. Learners may do more; only the daily cap limits new material.
+- **The daily cap counts lessons that bring new material, by code (D343):** when a lesson starts, code checks its graded items against the learner's store; the lesson counts toward `new_lessons_per_day` (default 3, C1.2) only if at least one item is not yet in the store. If test-out removes all of a lesson's new material, its count is returned. Review, speed practice, conversation on known material, test-outs and refreshers never count. Lesson-type labels are not used.
+- **Weekly quiz:** a finished set makes its quiz the next thing to do, ahead of the next lesson. The next set opens with a short review of what the quiz missed (D304).
+- **Due items in generated lessons (D320, D355):** at set generation, each lesson gets an expected date from the set's start and the learner's pace; an item due within 2 days of that date is kept out of that lesson's graded positions (input prose allowed). Taken far from its expected date, a lesson's answers count normally: an answer on an item due that day is its review (C6.5).
+
+#### C3.10 Clocks, absence and return (D37, D327, D340, D348)
+- **Phase clock** runs continuously; absence costs calendar time, never content. Day 90 is fixed (C8.2).
+- **Block clock (D340):** a block starts at its first lesson, not when it is planned. Its cap is 30 days from that start, not counting days inside any absence of 7+ days, so a block cannot expire while the learner is away. A block still running at day 90 ends there; one that would end within 10 days of day 90 folds into it (C8.2).
+- **Return after 7+ days away (D348, C1.4, C6.7):**
+  1. **Probe first.** The first session back is the extended warm-up with no new material (C6.7). It asks one item per targeted milestone of the block in progress (or, between blocks, the last finished block) before overdue age ordering. After a long gap these are fair reviews, so the warm-up measures what slipped. Learners misjudge their own forgetting, so the offer waits for this evidence.
+  2. **Offer.** If any of those milestones slipped, offer "Refresh first" or "Jump in", never forced, once per return. "Refresh first" is marked recommended at about a quarter or more slipping (placeholder).
+  3. **The refresher** is one or two review lessons built by code with no model call: the slipping milestones' items, opening on a "previously in the story" recap from the stored arc summary, ending on items predicted to be recalled. Not new material: no weekly quiz, not counted against the daily cap.
+  4. **Re-plan:** at about a third or more slipping (placeholder), a planned block whose first lesson is not yet taken is re-planned before it starts, the slipping milestones as its first targets and its intake reduced (C3.11). Mid-block, targets stay fixed (C3.4).
+  5. **Jump in still repairs:** the next lessons' recycling slots take slipping milestones first (C3.2).
+- A checkpoint due on return is offered after the warm-up session, not before it (C8.2).
+- An unstarted set generated before a 7+ day absence is regenerated from the latest learner record before use. Generation timing is §C5's and §E's (Q35).
+- Pause as a learner action stays a slot (break flow, B6).
+
+#### C3.11 Re-planning (D312, D350)
+- **The current or next block is re-planned at once when:**
+  1. the block ends early (C3.1): the next block is planned immediately;
+  2. the first set's checks contradict placement by a set margin: about 30% or more of placement-seeded items tested in it fail, or about 30% or more of items planned as new are tested out (placeholders). The current block is re-planned, keeping its start and cap;
+  3. a return probe finds about a third or more slipping before a planned block starts (C3.10).
+- **Not a re-plan:** editing "about you" rewrites topics and can-do wording for unstarted sets only; changing sittings or climb adjusts intake from the next set. Checkpoint evidence, which arrives after the next block is planned (C8.2), feeds the next sets' recycling and conversation scenarios, never the block's targets.
+- Every re-plan is one block-plan call under the spend cap (D293) and appends a plan event with its trigger.
+
+#### C3.12 Plan reveal (D38, D356)
 1. Starting point in plain words, no score.
-2. Learner-type change with one-tap undo (D25).
+2. Learner-type change with one-tap undo (D25). Undo re-runs the planner.
 3. 90-day goal.
-4. Checkpoint markers (anchor §C8).
-5. Next 3 units.
-6. Start first lesson.
+4. The first block: its outcome and 2-4 can-dos, and when it ends at the latest (its checkpoint).
+5. Start first lesson.
 
-Full outline lives in Progress. Undo re-runs the ordering rules locally; no generation wait.
+- **Never blocked by the model (D356):** steps 1-3 are built by code. Step 4 waits on the block-plan call with progress copy (C1.6). If the call fails, it shows the targets' plain can-do names from the milestone catalogue (C6.14) and the plan proceeds; the call is retried before the second set.
+- The full plan lives in Progress.
 
-#### C3.9 Adjust plan (D39, Settings)
-| Reason | Effect |
+#### C3.13 Adjust plan (D39, D346, Settings)
+| Control | Effect |
 |---|---|
-| Too easy | Band +1 |
-| Too hard | Band −1 |
-| Change focus | Edit goals, reorder unstarted units |
+| **How steep a climb?** Steeper · As planned · Gentler | Intake multiplier about 1.25 / 1 / 0.8 from the next set (C3.7). Steeper steps back to "as planned" with a one-line note when fair-review retention stays under the bar for 2 sets |
+| **Sittings per week** | Expected lessons and intake from the next set (C3.7, C3.9) |
+| **Focus** | Edit "about you": topics, scenarios and can-do wording for unstarted sets (C3.11). Never the grammar order |
 
-- Never changes completed lessons, mastery, streak, `start_date` or checkpoints. A lesson in progress finishes as generated.
-- No "start fresh": destructive reset belongs with account deletion and export (§B6).
+- **No level control in Settings (D346).** "Too easy" stays inside lessons as test-out (C6.13), which moves level only on evidence. Replaces too easy / too hard (old D39).
+- Never changes completed lessons, the item store, the streak, `start_date` or checkpoints. A lesson in progress finishes as generated. No "start fresh" (B6).
 - Every change appends a plan event.
 
-#### C3.10 Phase end (D40, D18)
+#### C3.14 Phase end (D40, D18, D327)
 - The next phase starts at the first app open after the end date, following the final debrief (§C8).
-- New plan row takes current goals and current band. No re-placement.
-- Unfinished units carry over. The prior plan becomes read-only; plans and debriefs are kept.
+- The new plan takes current "about you", word level and the live learner record. No re-placement. The unmet milestones of a block cut at day 90 open the next phase's first block (C8.2). The story cast carries into the next phase with a new arc.
+- The prior plan, its blocks and debriefs become read-only and are kept.
 
-#### C3.11 Records (D41, schema §F)
-- Plan: `user_id`, `track_id`, `phase_no`, `start_date`, `duration_days`, config version, goals snapshot, placement attempt id, current band.
-- Plan unit: `plan_id`, unit id + version, position, status, started/completed timestamps.
-- Plan events, append-only: created, reassigned, undo, adjusted, appended, phase ended, pause (slot).
-- Any Claude output on this path stores `model` and `prompt_version`.
+#### C3.15 Records (D41, D351, schema §F)
+Units retire. Every model output on this path stores `model` and `prompt_version`.
+- **Plan** (one per phase): `user_id`, `track_id`, `phase_no`, `start_date`, `duration_days`, config version, "about you" snapshot, placement attempt id, word level at start.
+- **Block:** plan id, ordinal, target milestone ids with their states at plan time, the capacity snapshot it was sized from, amounts per skill and per set, can-dos (text and milestone ids), story cast and arc summary, four-kinds targets, method per targeted milestone, stretch milestones begun, resolved block-key values (C10.7), model and prompt version, planned at, start (first lesson), cap date, paused days, end, end reason (milestones met · time cap · day-90 cut · folded into day 90 · superseded by re-plan).
+- **Set:** block id, ordinal, lesson ids, per-set intake and its step from the last quiz, generated at, model and prompt version, weekly quiz id.
+- **"About you":** current values, editable; a deletion clears them.
+- **Plan events**, append-only: plan created · learner type reassigned · undo · block planned · block re-planned (with trigger) · block ended · block paused and resumed · method switched · milestone parked · pace changed (sittings or climb) · "about you" edited or deleted · refresh offered, taken or declined · word level advanced · script stage changed · phase ended.
 
-#### C3.12 Owned elsewhere
-- §C4: lessons per unit, quick-check format.
-- §C5: content is pre-generated and shared (C5.1); catalogue item sets per C5.3.
-- §C6: band-advance rule, quick-check scoring.
-- §J: unit catalogue build.
+#### C3.16 Owned elsewhere
+- §C4, §C7 (R4): lesson types and flow, activity kind and method tags per activity, test-out offer, weekly quiz, refresher lesson flow and copy, story episode format; the Settings and onboarding screens (§D).
+- §C5 (R5): block-plan and set call contracts, validators, critic, cost and budget per call, generation timing.
+- §C6: evidence rules, capacity, scoring, slipping, check-in; §C8: checkpoint timing and evaluation.
+- R7 and §J: milestone catalogue and its can-do names, grammar path, method menus for grammar, script letters and conversation, the fictional name list.
+- §E (Q35): when and where sets are generated.
 
-#### C3.13 Principles check (retro, chat 6 audit, recorded chat 11)
-- Discharges: P11 (units are can-do statements, not grammar chapters), P10 (new material at ceiling+1, C3.5), P12 in part (D70 consecutive-category constraint), P16 (ceiling, production ratio and listening accuracy all drive ordering and mix).
-- Defers: P1 to P4 → §C4 · P7 to P9 → §C6 · P13 → C5.5.
-- At risk: R3 recorded in `principles.md`. Pre-generated content meets a jagged profile through quick checks (D49) and `known_gaps` (D66) rather than bespoke text.
+#### C3.17 Principles check
+- Discharges: P10 (new words only from word level + 1 via the code-built shortlist, untaught words and due items kept out of graded positions, C3.5, C3.9); P11 (blocks framed as 2-4 can-dos, the grammar path running through them, C3.2, C3.4); P12 (consecutive lessons do not repeat a primary topic category; method alternation on comparable material, C3.2, C3.6); P13 for planning (every lesson recycles at least two earlier milestones, slipping first, C3.2); P15 at plan level (diagnosis routes "answered wrong" to a method change, never a repeat, C3.8); P16 (placement seeds, gaps and production and listening ratios all drive targets and mix, C3.4-C3.6); P17 (no pace, rate or level shown; refresher and return copy never a penalty, C3.10); P19 (four kinds checked per block by code, C3.6); P9 (new material capped per day, counted by code, C3.9); P7 (block ends and targets read milestones met on evidence; no preference moves the bar, C3.7).
+- Defers: P1-P4, P20-P22 → §C4 (R4) · P3 counts and P10 for grammar → §C5 (R5) · P18 → §C8.
+- At risk: none newly. R9 unchanged: keeping untaught grammar out of graded positions rests on model tags. Two weaknesses carried with mitigations, not risk rows: the sizing constants (C3.7) are untested placeholders, mitigated by asymmetric updates, the retention guard and monthly-analysis review (C6.18); the refresher is optional, so a learner who always picks "Jump in" is repaired only through recycling, mitigated by the mandatory probe warm-up and slipping-first recycling (C3.10). R3 retired (D280) and is no longer cited here.
 
 ### C4 Lesson
 
@@ -324,7 +384,7 @@ Replaces the 7-block generation model (harvest §3a). Lesson shape only; how con
 #### C4.1 Unit to lessons (D42)
 - 3 lessons per unit. Config `lessons_per_unit`; a unit may declare its own count.
 - Arc: L1 introduce · L2 extend + pattern · L3 use (dialogue, recall, the unit's can-do statement).
-- A plan unit completes when its lessons complete (status per C3.11). Progress advances by completed lessons (D15).
+- A plan unit completes when its lessons complete (status per C3.15; units retire in R3, C4 is rewritten in R4). Progress advances by completed lessons (D15).
 
 #### C4.2 Session shape
 Order is fixed (C1.2). Quiz is mandatory; exit and resume anywhere (C1.5).
@@ -424,7 +484,7 @@ Worked example, heritage L2, item set a to f. The target shape for authoring and
 - Shows: items practised, items added to vocabulary, streak (C1.4), next action.
 - Next action resolves per C1.2: start the next lesson or finish for today. No daily cap (D15).
 - No scores, XP or badges (B7). Copy never shames a missed day.
-- No mid-lesson difficulty override. "Too easy" and "too hard" are Adjust plan (C3.9).
+- No mid-lesson difficulty override. "Too easy" offers a test-out (C6.13); the climb preference is Adjust plan (C3.13).
 
 #### C4.11 Records (D52, schema §F)
 - Lesson: `plan_unit_id`, position in unit, item ids, allocator output (activity list with types and scaffold state), config version, status (`not_started` / `in_progress` / `completed`), started and completed timestamps.
@@ -636,13 +696,13 @@ A lesson whose check falls below the C7.6 threshold (D90) seeds its new items at
 - Modality follows the skill mix (§C3): a due item presents as audio recognition, script recognition or recall, by the mix and the C6.9 ladder step. Grammar points and verb cells present in varied form (C6.5).
 
 #### C6.7 Absence and consolidation (C1.4, D63, D84)
-- After 7+ days away, the first session back runs an extended warm-up, ceiling 20, and delivers no new material. Copy frames it as picking back up, never as a penalty (P17).
+- After 7+ days away, the first session back runs an extended warm-up, ceiling 20, and delivers no new material. It first asks one item per targeted milestone of the block in progress (or, between blocks, the last finished one), then follows C6.6's order, so it measures what slipped; C3.10 acts on the result (D348). Copy frames it as picking back up, never as a penalty (P17).
 - Consolidation mode (beyond `new_lessons_per_day`, D63) pulls due reviews first, then lowest-box not-yet-due items, then items from the last 3 completed lessons' topics. Not-yet-due items log exposures and do not advance (C6.3).
 
 #### C6.8 Quick checks and word level (D83, D330, closes C3.5 and C3.12)
 - Quick-check scoring is C6.4.
 - **The vocabulary window C3.5 calls the band is the word level** (D330), renamed so it never collides with the conversation band (C6.15). §C3 takes the term in R3.
-- Word level advances automatically when 9 of the last 10 quick checks are correct: +1, window resets, minimum 10 completed lessons between auto-advances. Every change appends a plan event (C3.11).
+- Word level advances automatically when 9 of the last 10 quick checks are correct: +1, window resets, minimum 10 completed lessons between auto-advances. Every change appends a plan event (C3.15).
 - Word level never moves down automatically. A bad week should not strip content the learner has already been given.
 
 #### C6.9 Ladders (D79, D80)
@@ -698,7 +758,7 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 | Usable with effort | 0.5 | 70%+ correct in its last 2 practice sessions, supports allowed; or a placement grammar pass or a test-out pass. The bar for direct prerequisites of new material (D310) |
 | Met | 1 | Every item it rests on answered correctly in a fair review (C6.5) at a gap of at least 7 days, without supports; 90%+ correct on its last 10 graded answers; for verb milestones, at least one fair correct answer on a verb never seen in that cell. A new milestone can be met at the earliest about 11 days after teaching (box 1 → 4) |
 
-- **Threshold milestones** carry a measure and target. Vocabulary: words learned (C6.12), so a word counts only once recalled in a fair review days after teaching. Listening: accuracy on the last 20 fair listening-stimulus reviews. Fluency: median `response_ms` on tap and listen answers on met material. Met at the target; partial progress in between (C6.16).
+- **Threshold milestones** carry a measure and target. Vocabulary: words learned plus phrases learned (C6.12, D354), so an item counts only once recalled in a fair review days after teaching; the two counters stay separate on screen. Listening: accuracy on the last 20 fair listening-stimulus reviews. Fluency: median `response_ms` on tap and listen answers on met material. Met at the target; partial progress in between (C6.16).
 - **Speed limits apply only to tap and listen answers**, never typed ones: typing speed is not fluency (P21, C8.5).
 - **Conversation milestones** are met when the evaluator reports the milestone shown in 2 conversations (checkpoints or conversation lessons) on different days (C8.7, D322). This is model judgement, not a binary answer; R4 covers it.
 - **Slipping (D318):** a met milestone whose items fail a fair review returns to half credit in the live state. The planner works it back into upcoming lessons by recycling, not by repeating a lesson; still at half credit when the next block is planned, it becomes one of that block's targets.
@@ -740,7 +800,7 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 - The only automatic switch is the stalled-step rule (sequencing rule 5, §C3). Everything else reaches the monthly analysis as a proposal (C6.18).
 
 #### C6.18 Monthly check-in and analysis (D285, D328, D329)
-- **Real-life check-in (D328):** about 30 seconds, skippable, offered at the first session on or after each 30 days from plan start, re-offered once if skipped. Questions: did you speak Arabic outside the app; with whom; for how long; how it went, 1-5; where you got stuck (optional text). Append-only; never milestone evidence; read by the monthly analysis and by R1.
+- **Real-life check-in (D328):** about 30 seconds, skippable, offered at the first session on or after each 30 days from plan start, re-offered once if skipped. Questions: did you speak Arabic outside the app; with whom; for how long; how it went, 1-5; where you got stuck (optional text). After a block where actual sittings ran at about 60% or less of the stated figure, it also asks whether to keep planning for the stated figure or the actual one (C3.7, D352). Append-only; never milestone evidence; read by the monthly analysis and by R1.
 - **Monthly analysis:** reads capacity, block snapshots, the floor, error classes, method results and the check-in, and proposes changes to pace, intake, weighting, method choice and per-learner interval scaling. Each change is approved by Marwan or Omar, with the other told (D329), and versioned as config (D118).
 - **Key class (D329, closes R6's owed item):** the keys it tunes are **block** keys (C10.7): pinned at block start, changed only at a block boundary after approval, every block record carrying its resolved values. Evidence-rule and scoring keys (C6.14, C6.16, C6.12's B8 threshold) stay frozen and are locked for the whole family test: the analysis may only propose them, with results in a separate labelled recomputation (D289).
 
@@ -751,11 +811,11 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 - `block_snapshot`, append-only at block end, per C6.16.
 - `checkin`, append-only: the C6.18 answers.
 - Active minutes per sitting, on the session record (§F).
-- `script_stage` changes and word-level auto-advances append plan events (C3.11).
+- `script_stage` changes and word-level auto-advances append plan events (C3.15).
 - Answer rows (C4.11) remain the raw record. `review_event` is the scheduler's own log: derivable, but stored, so the ladder can be replayed after a config change. Milestone states, skill scores and capacity are recomputed from it.
 
 #### C6.20 Owned elsewhere
-- §C3 (R3): block planning, intake sized from capacity, bottleneck choice, where carry-over lands, recycling, method alternation, the 2-day planner rule's placement.
+- §C3 (written in R3): block planning and targets (C3.2, C3.4), intake sized from capacity (C3.7), diagnosis and the stall rule (C3.8), recycling and method alternation (C3.2), the 2-day rule at generation (C3.9), return after time away (C3.10).
 - §C4, §C7 (R4): lesson flow, the test-out offer, the weekly quiz, error-class copy, Verb Lab.
 - §C5 (R5): generation-time milestone and grammar tagging, the critic.
 - §C8: checkpoint evaluation; checkpoints log exposures and move no boxes (C8.7).
@@ -862,15 +922,15 @@ A checkpoint closes each block (D312) and the phase.
 
 | Checkpoint | Fires | Budget |
 |---|---|---|
-| Block end | earlier of: every milestone the block targets met (offered early), or the block's time cap, 30 days from **that block's own start** | 6 learner turns for the first, 10 for the second, 14 from the third on |
+| Block end | earlier of: every milestone the block targets met (offered early), or the block's time cap, 30 days from **that block's own start**: its first lesson, not counting days inside absences of 7+ days (C3.10, D340) | 6 learner turns for the first, 10 for the second, 14 from the third on |
 | Phase end | first open on or after day 90 only; never early | 14 learner turns |
 
 - The lesson anchor is dropped (D327): pace is per learner (D314), so a lesson count means something different for each learner.
 - **Fold-in:** a block whose end would fall within 10 days of day 90 folds into the phase-end checkpoint. **Cut-off:** a block still running at day 90 ends there; its unmet milestones open the next phase's first block (C6.16).
 - A fast learner can finish more than three blocks in a phase, so a phase can hold more than three checkpoints. "CP1" in B8 means the first block-end checkpoint.
-- Day 90 is not early-triggerable: C3.10 hangs the next phase on the final debrief, and the 90-day target in B2 is read at 90 days.
+- Day 90 is not early-triggerable: C3.14 hangs the next phase on the final debrief, and the 90-day target in B2 is read at 90 days.
 - Turn counts and the 30-day cap are config; minutes are display copy only.
-- A due checkpoint takes the Today's session slot (C1.2). "Not now" starts the normal lesson; the checkpoint re-offers at the next session start. If the next checkpoint comes due first, the earlier one is recorded `superseded`. The next block is planned when the block ends, not when its checkpoint is taken (D312); the checkpoint's evidence reaches the plan after it (§C3).
+- A due checkpoint takes the Today's session slot (C1.2). "Not now" starts the normal lesson; the checkpoint re-offers at the next session start. If the next checkpoint comes due first, the earlier one is recorded `superseded`. After 7+ days away, a due checkpoint is offered after the return warm-up, not before it (C3.10). The next block is planned when the block ends, not when its checkpoint is taken (D312); the checkpoint's evidence reaches the plan after it (§C3).
 
 #### C8.3 Content pack and scenario (D94)
 - Assembled server-side from records. The client sends no content, no model and no budget (D58).
@@ -1070,8 +1130,8 @@ Owns track scoping and the engine config every earlier section defers to. Closes
 
 | Class | Keys | Behaviour |
 |---|---|---|
-| Frozen | Scheduler intervals and ladder (C6.3), mastery and words-learned thresholds (C6.12), milestone evidence rules and block scoring (C6.14, C6.16; locked for the whole family test), skill mix (C3.6), word-level advance (C6.8), quiz threshold (C7.6), placement engine rules (C2.4) | Pinned at plan start. A change takes effect at the next phase boundary (C3.10) |
-| Block | Keys the monthly analysis tunes (C6.18): pace, intake, skill weighting, method choice, per-learner interval scaling | Pinned at block start. A change takes effect at the next block boundary, after approval by Marwan or Omar (D329) |
+| Frozen | Scheduler intervals and ladder (C6.3), mastery and words-learned thresholds (C6.12), milestone evidence rules and block scoring (C6.14, C6.16; locked for the whole family test), modality mix (C3.6), word-level advance (C6.8), quiz threshold (C7.6), placement engine rules (C2.4) | Pinned at plan start. A change takes effect at the next phase boundary (C3.10) |
+| Block | Keys the monthly analysis tunes (C6.18): pace, intake and the sizing update rule (C3.7), four-kinds targets and skill weighting (C3.6), method choice, per-learner interval scaling | Pinned at block start. A change takes effect at the next block boundary, after approval by Marwan or Omar (D329) |
 | Hot | Caps and budgets (C5.9), audio thresholds (C9.6), checkpoint turn budgets (C8.2), copy, secondary card order (C1.2) | Effective immediately |
 
 - Frozen keys are read from the version the plan pinned, so a mid-test edit cannot silently redefine what a band, a learned word or a quiz outcome means across records already written. Recorded risk R6.
@@ -1205,8 +1265,8 @@ Target 393×852, single column, iPhone Safari PWA. Screens only; mechanisms are 
 
 ### D.6 Settings (D169, D170, D171)
 - Closed inventory: Adjust plan, harakaat display toggle, typed answers toggle, audio Slow default, sign-out, app version string. Absent, not greyed (C1.6): export and account deletion (§B6), notifications, a general report-a-problem entry (D162 is per item; a record with no item id breaks §H), learner type (set at onboarding, its effects reachable through Adjust plan), TSV import (D.8, where the rows land).
-- Settings exposes only keys that are display-only or already eventful. Nothing in Settings can redefine what a learned word, a band or a quiz outcome means (R6). Harakaat and Slow audio are display-only. Band change is eventful and appends a plan event (C3.9). The typed-answers toggle takes effect at the next activity boundary, never mid-screen, and the resolved config version is pinned on every record (D119).
-- Adjust plan is a sub-screen. Too easy and too hard confirm with the effect named in capability words, never in level language, and the confirm copy states what is preserved: completed lessons, mastery, streak, checkpoints. Change focus opens goal editing and unstarted-unit reorder in one screen.
+- Settings exposes only keys that are display-only or already eventful. Nothing in Settings can redefine what a learned word, a band or a quiz outcome means (R6). Harakaat and Slow audio are display-only. Climb, sittings and "about you" changes are eventful and append plan events (C3.13); Settings has no level control (D346). The typed-answers toggle takes effect at the next activity boundary, never mid-screen, and the resolved config version is pinned on every record (D119).
+- Adjust plan is a sub-screen with C3.13's three controls: climb, sittings per week and focus ("about you"). Each confirms with the effect named in capability words, never in level language, and the confirm copy states what is preserved: completed lessons, the learner record, streak, checkpoints. Screen detail is R4's (rework R3 replaced too easy / too hard, D346).
 - Settings keeps the tab bar throughout. Back goes up one level.
 
 ### D.7 The activity frame (D154, D155, D156, D157, D160)
@@ -1219,12 +1279,12 @@ Target 393×852, single column, iPhone Safari PWA. Screens only; mechanisms are 
 - Chrome hides whenever a graded activity runs, anywhere in the app. Side surfaces keep the tab bar while browsing; the moment a session, review or practice item starts, this frame takes over.
 
 ### D.8 Entry stages and side surfaces (D158, D159, D161, D200-D209)
-**Onboarding.** Three screens, one question each, no progress indicator (≤1 min, C1.1). Name, then learner type, then goals. No back out, no skip.
+**Onboarding.** Name, then learner type, one question per screen, then the "about you" form (C3.3) on one or two screens, every field optional; no progress indicator (about 3 min, C1.1). No back out. Screen detail for the form is R4's.
 - The learner-type question renders C1.3's wording as two full-width choices with no headline restating it. The words heritage, beginner and intermediate never appear. Nothing promises the answer is final; placement may reassign.
-- Goals are multi-select tags plus one optional free-text field on one screen, at least one tag required. The C3.3 mapping call runs after the learner continues, never as a blocking wait. Free text is `dir="auto"`. When the mapping surface is degraded the field is not offered and nothing explains why (D175).
+- "About you" replaces the goal tags (D344): choices plus optional free text per field, no model call at onboarding, free text `dir="auto"`. Sittings per week defaults to 3 when skipped.
 - Hands straight to placement with no interstitial. The last control says what happens next.
 
-**Placement (D158).** The activity frame with feedback suppressed by config, not a second engine: same choice widget, persistent "I don't know", no feedback sheet at all (C2.8). Production self-rating is a second screen after a correct Listen. Band intros are one line, no emoji. Plan reveal is one scrollable screen in the fixed C3.8 order; reassignment is worded as a better starting point with one-tap undo, never as a level change.
+**Placement (D158).** The activity frame with feedback suppressed by config, not a second engine: same choice widget, persistent "I don't know", no feedback sheet at all (C2.8). Production self-rating is a second screen after a correct Listen. Band intros are one line, no emoji. Plan reveal is one scrollable screen in the fixed C3.12 order; reassignment is worded as a better starting point with one-tap undo, never as a level change.
 
 **Checkpoint (D159).** A transcript surface, deliberately unlike a lesson. Full screen, no item progress bar; a thin unlabelled bar tracks turns used (C8.2 makes turn counts config, minutes display copy). Named character bubbles with C4.8 script display, audio on tap, report-a-problem per turn. Learner field is free text with `dir="auto"`, no word bank, no grading affordance. "I'm stuck" states that it costs a turn before it is used. Debrief renders C8.6's fixed order, bands as words on a four-step scale, comparison from CP2. A reduced debrief renders plainly with bands withheld.
 

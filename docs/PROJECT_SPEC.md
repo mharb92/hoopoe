@@ -115,9 +115,9 @@ Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Set
 
 #### C1.2 Home and Today's session
 - One primary action: Today's session. Next action resolves in order: resume unfinished → return warm-up after 7+ days away (C1.4) → due checkpoint → the weekly quiz of a finished set (C3.9) → next lesson.
-- Session: due-review warm-up → new material → quiz → wrap-up. Quiz is mandatory; exit and resume allowed. Composition per §C4, §C6, §C7.
+- Session: a sitting of about 20 minutes (C4.2): due-review warm-up → one or two lessons, each closed by its lesson check where its type has one → wrap-up. A finished set's weekly quiz is taken, never passed. Exit and resume allowed. Composition per §C4, §C6, §C7.
 - Pacing (D343): the learner's sittings per week × about 2 lessons set the expected lessons per week (C3.9); the 3-sitting figure is the fallback (D314). No daily cap on sessions: after wrap-up the learner can start the next lesson, repeatedly. Catch-up after missed days and working ahead are both allowed. Progress advances by completed lessons; missed days never skip content. Cost is never a pacing lever.
-- New material is rate-limited, sessions are not (D63, P9): lessons bringing new material are capped per calendar day (config `new_lessons_per_day`, default 3), counted by code from each lesson's items, not its type (C3.9). Beyond the cap, further sessions run in consolidation mode: review, retrieval and quiz on already-introduced items, no new item set. Copy frames this as consolidation, never as a block or a warning.
+- New material is rate-limited, sessions are not (D63, P9): lessons bringing new material are capped per calendar day (config `new_lessons_per_day`, default 3), counted by code from each lesson's items, not its type (C3.9). Beyond the cap, further sessions run in consolidation mode: review lessons, fluency and retrieval on already-introduced items, no new material. Copy frames this as consolidation, never as a block or a warning.
 - Secondary cards: Focused Study, My Vocab review, Alphabet, Progress, Settings. Order and prominence come from learner-type config.
 - Script micro-steps are woven into daily sessions when placement `script_stage` calls for them, for any learner type (§C2, D26). Alphabet screen is reference and practice, never a gate.
 
@@ -139,7 +139,7 @@ Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Set
 - Every loading, empty and error state has copy and a next action. No whole-app error screen.
 - Any wait >3s shows progress copy.
 - No roadmap placeholders or "coming soon" cards.
-- Report a problem on every content item: lesson item, quiz item, Focused Study card, checkpoint turn.
+- Report a problem on every content item: lesson item, lesson-check and weekly-quiz question, Focused Study card, Verb Lab item, conversation turn, checkpoint turn.
 - No learner-type conditionals in screens; config only (B3).
 - Time budget: heritage sign-in to first lesson start ≤15 min including placement.
 
@@ -150,7 +150,7 @@ Side journeys from Home: Focused Study, My Vocab review, Alphabet, Progress, Set
 #### C1.8 Principles check (retro, chat 6 audit, recorded chat 11)
 - Discharges: P9 in part (new material rate-limited per calendar day, C1.2, D63), P17 (streak copy never shames, no scores anywhere in the loop, C1.4, C1.6).
 - Defers: P1 to P4 → §C4 · P7, P8 → §C6 · P16 → §C2 · P18 → §C8.
-- At risk: none. R2 is mitigated here by resume-anywhere (C1.5) and the mandatory quiz (D14).
+- At risk: none. R2 is mitigated here by resume-anywhere (C1.5) and the mandatory lesson check (D14, C7.1).
 
 ### C2 Placement
 
@@ -379,84 +379,84 @@ Units retire. Every model output on this path stores `model` and `prompt_version
 
 ### C4 Lesson
 
-Replaces the 7-block generation model (harvest §3a). Lesson shape only; how content is produced is §C5.
+Owns the six lesson types, the sitting, new material and exposure, the activity catalogue and how activities are assembled and tagged, production and grading, scaffolds, quick and opening checks, the test-out flow, feedback and explanations, wrap-up and records. Rewritten chat 37 (rework R4, D357-D376) for lessons the model builds per learner (D280) inside the blocks and sets of §C3, on the learner model in §C6. Retires the unit → 3-lesson arc (D42), the fixed 6-item set (D44), the D50 activity budget and its worked example, and "no Claude call inside a lesson". How content is generated and validated is §C5 (R5).
 
-#### C4.1 Unit to lessons (D42)
-- 3 lessons per unit. Config `lessons_per_unit`; a unit may declare its own count.
-- Arc: L1 introduce · L2 extend + pattern · L3 use (dialogue, recall, the unit's can-do statement).
-- A plan unit completes when its lessons complete (status per C3.15; units retire in R3, C4 is rewritten in R4). Progress advances by completed lessons (D15).
+**Three names, never mixed (D357):** the **lesson check** closes a lesson (§C7) · the **weekly quiz** closes a set (C7.9) · the **checkpoint** closes a block (§C8). "Quiz" is never used at lesson level, in copy or in records.
 
-#### C4.2 Session shape
-Order is fixed (C1.2). Quiz is mandatory; exit and resume anywhere (C1.5).
+#### C4.1 Lesson types (D284, D303, D358)
+- Six types. The set's mix comes from the block plan (C3.2, C3.6). Each type is a **fixed template**: an ordered list of activity slots declared in code. The model writes only language content into the slots (dialogue lines, story episodes, example sentences, conversation scenarios and scripted turns, culture notes). Code assembles the activities, distractors, lesson check, exposure counts and tags from the declared items and that content (C4.5). An unknown type or slot fails the set build; nothing is skipped.
 
-| Segment | Contents | Budget |
-|---|---|---|
-| Warm-up | Due reviews (§C6) + 1-2 quick checks (C4.9) | ~2 min |
-| New material | Item set delivered in chunks of 3: introduce → recognise → recall, then cumulative retrieval across all chunks so far. Max 1 pattern, 1 dialogue, 1 culture note. Script micro-steps when `script_stage` calls (D26) | ~6-8 min |
-| Quiz | §C7 | ~2 min |
-| Wrap-up | C4.10 | <1 min |
+| Type | Planned length | Template | Lesson check (C7.2) | Graded new material |
+|---|---|---|---|---|
+| Grammar | 12-15 min, or two linked parts in one sitting | C4.12 | yes | one grammar point + at most 3 supporting words |
+| Words | 5-10 min | C4.13 | yes | 4-8 words and phrases |
+| Story | 5-10 min | C4.14 | yes, comprehension | none |
+| Conversation | 10-15 min | C4.15 | yes, from the debrief | none |
+| Fluency | 5-8 min | C4.16 | none: its timed rounds are graded | none |
+| Review | 5-10 min | C4.17 | none: everything in it is graded | none |
 
-- Target 10-12 min end to end; hard cap is config. The old 15-25 min lesson is retired.
-- Activity budget ~8-12 activities, set by config, filled by the allocator in C4.5.
-- The budget counts screens, not item-exposures (A2). Item-batched types (cumulative retrieval, dialogue, pattern) carry several items in one activity, which is how a 6-item set reaches the C4.3 exposure floor inside the cap. Counting one activity per item makes the cap and the exposure rule unsatisfiable. Worked example in C4.5.
+- Lengths are planning figures (config). The lesson record keeps actual active minutes (C6.19).
 
-#### C4.3 Item set (D44)
-- Each lesson has one item set, declared in the unit catalogue (D54, C5.3): 6 dictionary ids, 4 core + 2 extension. Beginner config takes core (4), heritage takes all (6). The unit's level does the ceiling+1 work (C3.5); items are not selected at runtime.
-- Every new-material activity and every quiz question uses only this set. Review items and quick checks are the only items from outside it.
-- Each new item reaches 5 or more exposures across lesson + quiz, in at least 2 modalities (audio, script, production). Exposure count is validated when the lesson is built, not chased at runtime.
-- Items are dictionary rows. An activity that needs a word outside the dictionary is a generation failure (§C5), never `[UNVERIFIED]` filler.
+#### C4.2 The sitting (D283, D303, D359)
+- Today's session is a **sitting** of about 20 minutes: warm-up → one or two lessons, each ending in its lesson check → wrap-up. Code fills the sitting from planned lengths: one grammar or conversation lesson, or two shorter ones. The learner may continue after wrap-up (C1.2); new material is capped per day by C3.9.
+- **Warm-up:** due reviews (C6.6), the opening check (C4.9), quick checks, at most one remedial drill (C6.10) and at most one "keep it fresh" item (C4.17). Capped at about 3 minutes (config). Due items beyond the cap carry per C6.6; when the carried volume exceeds one warm-up's worth (config), the next lesson slot becomes a review lesson (C4.17). The return warm-up after 7+ days away (C6.7) and consolidation mode beyond the daily cap are exempt from the cap.
+- After a set's last lesson, the weekly quiz is the next thing to do (C3.9, C7.9).
+- Exit and resume anywhere; position derives from answer rows on the server (C1.5). The progress bar spans the sitting.
 
-#### C4.4 Activity catalogue (D45)
+#### C4.3 New material and exposure (D300, D360)
+- New material is declared per lesson at set generation, from the block's targets and the word shortlist (§C3): a words lesson brings 4-8 new words and phrases (beginner config the lower end), a grammar lesson one grammar point plus at most 3 supporting words. Other types bring no graded new material. Set totals are sized by C3.7.
+- Graded positions use only material the learner record holds as known, plus the lesson's own new material (P10); items due within 2 days of the lesson's expected date stay out of graded positions (C3.9).
+- **Exposure, counted by code at set generation, never judged by the critic (P3):** each new word or phrase gets at least 3 graded exposures in its introducing lesson and its lesson check, and at least 5 encounters across the set, in at least 2 modalities (P4). Each new grammar point is practised in at least 3 lessons across at least 2 sets. A set cannot see later sets, so the second half is a **carry-forward obligation**: the next set must include the point, checked by code when that set is generated (C3.2's recycling list). A set that fails its counts fails the build (§C5).
+- Items are dictionary rows, grammar points or verb cells (C6.1). Any Arabic that resolves to none of them, the conjugation tables or the particle allowlist is a generation failure (§C5), never `[UNVERIFIED]` filler.
 
-| Activity | Stimulus → response | Graded | Notes |
+#### C4.4 Activity catalogue (D45, D358)
+
+| Activity | Stimulus → response | Graded | Used in |
 |---|---|---|---|
-| Review | Due item, audio or script → meaning or recall | yes | Warm-up; queue and size §C6 |
-| Quick check | Audio or script → pick meaning | yes | C4.9 |
-| Introduce | Audio → meaning → script per scaffold | no | First exposure in a chunk |
-| Recognise | Audio or script → pick meaning, 4 options | yes | |
-| Recall | English → build Arabic from word bank | yes | C4.6 |
-| Pattern | Formula + 2 examples built from the item set + 1 practice | yes, local | Absorbs the old conjugation drills |
-| Dialogue | 4-6 lines using the item set; learner supplies their role's lines | yes, light | |
-| Culture note | Short, tied to one item in the set | no | Max 1 per lesson |
-| Script micro-step | Letter or sound work | yes | Runs on `script_stage`, any learner type |
+| Review | Due item → meaning or recall, in varied form (C6.5) | yes | warm-up, review |
+| Opening check | The lesson's own new items → pick meaning | yes | warm-up (C4.9) |
+| Quick check | Audio or script → pick meaning | yes | warm-up |
+| Introduce | Audio → meaning → script per scaffold, plus one example sentence | no | words |
+| Recognise | Audio or script → pick meaning, 4 options | yes | words, checks |
+| Recall | English → build or type Arabic | yes | words, grammar, checks |
+| Cumulative retrieval | Every chunk so far, mixed | yes | words |
+| Meet | 4-6 line dialogue using the point, form highlighted, audio first | no | grammar |
+| Notice | Tap the highlighted form in further lines | no | grammar |
+| Explain | Canonical explanation + small table (C4.12) | no | grammar |
+| Pattern table | Side-by-side forms (m/f, m/f/plural; *a tall man · the tall man · the man is tall*), one cell to fill | yes | grammar, Verb Lab |
+| Transform | Change person, tense, polarity or gender | yes | grammar, Verb Lab |
+| Listen and pick | Audio of a form → pick it (`biktib` / `btiktib` / `bniktib`) | yes | grammar, fluency, Verb Lab |
+| About you | Build or type a sentence about your own life | yes | grammar |
+| Dialogue | 4-6 lines; the learner supplies their role's lines | yes, per supplied line | grammar, words |
+| Exchange script | Opening → answer → optional *il-7amdilla* → return, with literal meanings | yes, per supplied line | words, conversation (scripted) |
+| Story episode | Read and listen, tap-to-explain | no | story |
+| Comprehension | Question on the episode → pick | yes | story check |
+| Conversation turn | Chosen, built or typed reply (C4.15) | C4.15 | conversation |
+| Timed round | Tap and listen answers against a clock, never typed (P21) | yes, timed | fluency, Verb Lab, Focused Study |
+| Shadowing | Hear a line, say it aloud | no | fluency |
+| Retelling | Type the last episode in your own words (C4.16) | no, tagged | fluency, heritage only |
+| Culture note | Short, tied to one item | no | at most 1 per lesson |
+| Script micro-step | Letter or sound work | yes | any lesson, on `script_stage` (D26) |
 
-- Activity record: type, item refs, scaffold state, report-a-problem target (C1.6).
-- An unknown activity type fails the lesson build. Nothing is silently skipped (harvest: old engine skipped unknown blocks and hardcoded conjugation results correct).
+- Activity record: type, item refs, kind, method tag, scaffold state, report-a-problem target (C1.6).
 
-#### C4.5 Skill mix to activities (D50)
-- Deterministic allocator, no Claude call: take the mix weights for learner type × plan stage (C3.6), multiply by the activity budget, round, then apply the C4.2 caps and the chunk structure.
-- Production weight 0 (beginner default): recall activities render as recognition. The item keeps its exposure count.
-- Script weight above 0, or `script_stage` below 2, adds script micro-steps.
-- Culture weight resolves to at most one culture note.
-- Allocator output is stored with the lesson (C4.11) so a lesson can be reproduced.
+#### C4.5 Assembly: kind, method and modality (D50, D324, D341, D358)
+- **Deterministic assembly, no model call:** the template's slots, the declared items and the generated content become the activity list. Stored with the lesson (C4.11), so any lesson can be reproduced.
+- **Kind (D341):** every activity carries one of the four kinds of practice (C3.6), for code to sum per block. Input: story episode, comprehension, listen and pick in a story or dialogue context. Output: conversation turns, about you, supplied dialogue and exchange lines, retelling. Study: meet, notice, explain, introduce, recognise, recall, cumulative retrieval, pattern table, transform, review, checks. Fluency: timed rounds, shadowing.
+- **Method (D324):** every activity carries a method tag from C6.17's closed list (for example dialogue first or table first in a grammar lesson), chosen per targeted milestone by the planner (C3.2) and written on every answer.
+- **Modality:** the mix per learner type × block ordinal (C3.6). Production weight 0 (beginner default) renders recall as recognition; the item keeps its exposure count. Script weight above 0, or `script_stage` below 2, adds script micro-steps. Each new item is met in at least 2 modalities (P4), and its lesson-check question uses one its lesson did not (C7.3).
+- A screen is a stimulus block plus zero or more response widgets (D.7): item-batched activities (dialogue, cumulative retrieval, pattern table, timed round) carry several items on one screen.
 
-Worked example, heritage L2, item set a to f. The target shape for authoring and the reference the C5.5 exposure validator is written against:
+#### C4.6 Production and grading (D46, D263, D306, D371)
+- Production support ladders per C6.9: word bank → word bank with same-`pos` distractor pressure → typed entry. Distractors are same `pos` and `level`, never a `formula_pair` partner (D130). The Settings toggle forces typed on early; it never forces it off.
+- **Typed Arabic** grades on normalised script: harakaat ignored, alif and hamza seats unified, taa marbuta ≡ haa, alif maqsura ≡ yaa.
+- **Typed romanization** grades on phonetic equivalence against the standard (D263), never on letter distance. Long-vowel quality and emphasis are forgiven (`oo`≡`uu`, `ee`≡`ii`, `S`≡`s`, `D`≡`d`, `T`≡`t`, `TH`≡`th`); vowel length is graded because it changes meaning; `'` and `q` are different sounds.
+- **Right sound, non-standard spelling** is marked right, with error class `spelling`, and shows the standard spelling under the answer; it lapses nothing (D306, C6.10).
+- Every graded answer is graded locally by code, never by the model. The only model calls inside lessons are conversation-lesson turns and evaluation (C4.15), retelling tags (C4.16) and "why?" (C4.19); none moves a box (C8.7's rule).
+- Answers feed §C6 with error class, milestone ids, method tag, kind, supported and timed flags (C6.19).
 
-| # | Activity | Items carried | Graded exposures |
-|---|---|---|---|
-| 1 | Introduce, chunk 1 | a b c | 3 |
-| 2 | Recognise, chunk 1 | a b c | 3 |
-| 3 | Recall, chunk 1 | a b c | 3 |
-| 4 | Introduce, chunk 2 | d e f | 3 |
-| 5 | Recognise, chunk 2 | d e f | 3 |
-| 6 | Cumulative retrieval | a to f | 6 |
-| 7 | Pattern | b d f | 3 |
-| 8 | Dialogue, 5 lines | a to f | 6 |
-| 9 | Culture note | c | 0, not graded |
-| — | Quiz (§C7) | a to f + pattern | 7 |
-
-9 activities inside the 8-12 budget. Every item reaches 5 or more graded exposures (a 6, b 7, c 6, d 6, e 5, f 6) across audio, script and production, so C4.3 and the C5.5 modality assertion both hold. Beginner config takes the core 4 and renders recall as recognition (production weight 0); the activity list is unchanged and only the items carried per activity shrink.
-
-#### C4.6 Production (D46)
-- Recall and pattern practice use tap-to-build from a word bank: the correct words plus distractors of the same `pos` and `level`, never a `formula_pair` partner (D130).
-- Production support ladders with evidence (D68): word bank → word bank with same-pos distractor pressure → typed entry. The step is set by item mastery (§C6) and plan stage (C3.6), config per learner type. The Settings toggle forces typed on early; it never forces it off.
-- Typed Arabic grades on normalised Arabic; typed romanization grades against the C4.7 standard with Levenshtein ≤2.
-- All lesson grading is local. No Claude call inside a lesson, which keeps the §C5 budget predictable.
-- Free production and Claude evaluation belong to checkpoints (§C8). Speaking practice stays on the roadmap (B6).
-- Results feed mastery per §C6.
-
-#### C4.7 Romanization standard (D47, closes Q7)
-- One standard everywhere: Arabizi digit set. Initial map: `3` ع · `7` ح · `2` hamza · `9` ص · `6` ط · `kh` خ · `gh` غ · `sh` ش · `th` ث · `dh` ذ · long vowels `aa` `ee` `oo`.
+#### C4.7 Romanization standard (D47, D262, closes Q7)
+- One standard everywhere. The map is `docs/dr/romanization-map.md` (D262), which supersedes the original 10-symbol sketch.
 - Stored as a data table (`romanization_map`), never as prose in a prompt. The map is frozen at the end of DR.
 - Injected into every generation prompt and enforced by a validator that rejects out-of-set characters.
 - Dictionary romanization is normalised to the standard during DR. The four competing schemes in the old code (harvest §3a) are retired.
@@ -469,40 +469,92 @@ Worked example, heritage L2, item set a to f. The target shape for authoring and
 | 1 | shown | shown | on tap |
 | 2 | shown | on tap | on tap |
 
-- Applies to every surface that shows Arabic: lessons, quizzes, Focused Study, My Vocabulary, checkpoints.
+- Applies to every surface that shows Arabic: lessons, lesson checks, weekly quizzes, Verb Lab, Focused Study, My Vocabulary, the conversation partner, checkpoints.
 - The Settings harakaat toggle (B5) overrides display only; it never changes `script_stage`.
-- The harakaat rung reads `arabic_vocalised` on the dictionary row, or the line's vocalised field on authored content, added in DR (D103). The same source is the TTS input (§C9.2).
+- The harakaat rung reads `arabic_vocalised` on the dictionary row, the conjugation table's vocalised cell, or the line's vocalised field on generated content (D103). The same source is the TTS input (§C9.2).
 - Audio is always available on tap and never autoplays (C2.8).
 - The rule for advancing `script_stage` is §C6.
 
-#### C4.9 Quick checks (D49)
-- 1-2 per lesson, in the warm-up, recognition MC on a word at or below the ceiling that placement never tested (C3.5).
-- A miss reclassifies the word as new material and queues it into an upcoming lesson of the current unit or the next one. Scoring and the band-advance effect are §C6.
-- Quick checks never gate the lesson and never show a score.
+#### C4.9 Quick checks and the opening check (D49, D308, D370)
+- **Quick checks:** 1-2 per sitting in the warm-up, recognition on a word at or below word level that placement never tested (C3.5). A miss makes the word new material (C6.4). Never gate a lesson, never show a score.
+- **Opening check (D308):** in a phase's first two sets (config), every lesson that brings new material opens with 2-3 recognition questions on its own new items. In later sets it runs when the set's earlier answers or quick checks already hit those items. All correct → the test-out offer (C4.18). Opening-check answers enter the store only through the test-out check.
 
 #### C4.10 Wrap-up (D51)
 - Shows: items practised, items added to vocabulary, streak (C1.4), next action.
-- Next action resolves per C1.2: start the next lesson or finish for today. No daily cap (D15).
+- Next action resolves per C1.2: the next lesson, the weekly quiz, or finish for today. No cap on sessions (D15); new material capped per C3.9.
 - No scores, XP or badges (B7). Copy never shames a missed day.
-- No mid-lesson difficulty override. "Too easy" offers a test-out (C6.13); the climb preference is Adjust plan (C3.13).
+- "Too easy" is test-out inside the lesson (C4.18); climb and sittings are Adjust plan (C3.13). There is no level control anywhere.
 
-#### C4.11 Records (D52, schema §F)
-- Lesson: `plan_unit_id`, position in unit, item ids, allocator output (activity list with types and scaffold state), config version, status (`not_started` / `in_progress` / `completed`), started and completed timestamps.
-- Answer, append-only: lesson id, activity index, item id, response, correct, `response_ms`.
-- Any Claude output on this path stores `model` and `prompt_version`.
-- Lesson position derives from answer rows on the server, never device state (C1.5).
-- `mastered` is not a lesson status. Mastery belongs to the item, §C6.
+#### C4.11 Records (D52, D351, D375, schema §F)
+- **Lesson:** set id, block id, position in set, type, expected date (C3.9), declared new items with their milestone ids, template version, assembly output (activity list with kinds, method tags and scaffold state), generated content id and `content_version` (C5.11), `model` and `prompt_version` of each generated part, config version, status (`not_started` / `in_progress` / `completed` / `tested_out`), whether it counted toward `new_lessons_per_day` (C3.9), started and completed timestamps, active minutes, `check_score` and `check_outcome` (C7.8).
+- **Answer**, append-only: lesson id, activity index, item id, response, correct, supported, timed, `response_ms`, error class, milestone ids, method tag, kind. Each also writes a `review_event` (C6.19).
+- **Conversation-lesson turns** are stored like checkpoint turns (C8.4), with the evaluation's output (C4.15).
+- Lesson position derives from answer rows on the server, never device state (C1.5). `mastered` is not a lesson status; mastery belongs to the item and the milestone (§C6).
 
-#### C4.12 Owned elsewhere
-- §C5: content strategy (C5.1), generation validators (C5.5), remedial library (C5.6), runtime surface and cost budget (C5.7-C5.9).
-- §C6: review queue and size, exposure to mastery mapping, quick-check scoring, `script_stage` advance, words-learned definition.
-- §C7: quiz composition, results and retake.
-- §C9: audio for items and dialogue lines.
+#### C4.12 Grammar lesson (D284, D362, D363, P20)
+1. **Meet:** a 4-6 line dialogue with the story cast (C3.2) using the point, its form highlighted, audio first.
+2. **Notice:** the learner taps the form in two or three more lines. Ungraded.
+3. **Explain:** the point's **canonical explanation**, 3 English sentences or fewer plus a small table, in its beginner or heritage version by learner-type config (D362). Written once per grammar point, stored with the grammar path (versioned content, R7) and included in the expert validation package (D315). Lessons never generate explanation prose; they generate the examples.
+4. **Controlled practice:** pattern tables with masculine and feminine (and plural) side by side, transform, recall; word bank first, per C6.9.
+5. **About you:** sentences about the learner's own life, from "about you" (C3.3); never a real family name (D342).
+6. **Transfer:** the point in a new context: a short exchange script or listen and pick on an unseen sentence.
+7. **Lesson check** (C7.2).
 
-#### C4.13 Principles check (retro, chat 6 audit, recorded chat 11)
-- Discharges: P1 (chunks of 3), P2 (cumulative retrieval after each chunk), P3 (5 or more exposures, validated at build, worked example in C4.5), P4 (2 or more modalities per item), P5 (audio precedes script in Introduce), P6 (scaffold ladder keyed to `script_stage`, C4.8), P14 in part (production support ladders on evidence, D68), P17 (wrap-up shows capability, no scores or badges).
-- Defers: ladder thresholds → C6.9 · exposure validation → C5.5 · quiz → §C7.
-- At risk: none new. R2 unchanged: the build-time exposure count holds only if the learner completes the lesson, which resume-anywhere and the mandatory quiz mitigate.
+- A point the grammar path marks heavy runs as two linked parts in one sitting: steps 1-3, then 4-7.
+- Verb points add listen and pick, and at least one verb never seen in the cell (C6.14).
+- Every new word appears in at least one example sentence.
+
+#### C4.13 Words lesson (D360)
+- New words and phrases in chunks of 3: introduce (audio → meaning → script per scaffold, with one example sentence) → recognise → recall, then cumulative retrieval across every chunk so far (P1, P2).
+- Words come from the block call's picks off the shortlist (C3.5), grouped by topic. A phrase with a pair is taught as an exchange script with both halves (D130).
+- Lesson check (C7.2).
+
+#### C4.14 Story lesson (D342, D364)
+- One episode of the block's arc per set, with the phase's cast, about 8-15 lines, opening with a one-line "previously" from the arc summary. Audio per line on tap (sentence audio on first play, §C9).
+- **At least 95% of tokens are known to the learner record (D364).** The rest resolve to dictionary rows, are tagged for tap-to-explain and never sit in graded positions. This tightens P10's 10% default for stories only; dialogues in other lessons, conversation lessons and checkpoints keep 10%. Checked by code at set generation (§C5).
+- Due items may appear (input prose, C3.9); the block's targeted items appear wherever the arc allows (C3.4).
+- Lesson check: 2-4 comprehension questions and recall of 2 known words from the episode.
+
+#### C4.15 Conversation lesson (D322, D365)
+- A scenario with a goal, taken from the block's can-dos (C3.2), with one character of the cast, kept inside the learner's known items and the block's targets with at most 10% unknown words (as C8.3).
+- **Turn input follows the production step (C6.9).** Until typed answers unlock, a turn is chosen (one of 2-3 replies) or built from a word bank, inside a branching scripted exchange generated and validated with the set, with no live model call; a correctly built turn is graded by code against the milestone it was written to exercise. Once typed answers unlock (heritage learners from the start), turns are free text in Arabic script or romanization (`dir="auto"`) and the character's turns are live.
+- The character **recasts** errors inside its reply, saying the corrected form back, and never stops to lecture (P22). The lesson ends with a debrief: what worked, up to 3 errors each with its class and correct form. The lesson check is 2-3 recall items from those errors.
+- **Evidence (D322, kept by D365):** one evaluation call, as C8.5, reports conversation milestones shown, errors by skill and class, and item ids used. Only turns the learner typed or built count as "shown"; chosen turns never do. A conversation milestone is met when shown in 2 conversations, checkpoints or conversation lessons, on different days (C6.14). Live turns log exposures and move no boxes (C8.7); error tags feed the planner's bottleneck (C3.4), not the remedial counter.
+- Learner turns capped at 8-12 (config); "I'm stuck" as C8.4. Live character turns pass the code checks in C11.6 before display. If the live call is unavailable or the spend cap is reached, the lesson falls back to a scripted situation exchange (C11.2) and still completes.
+
+#### C4.16 Fluency lesson (D368)
+- Known material only: items at least "usable with effort". No new material, never counted against the daily cap (C3.9).
+- **Timed rounds** on tap and listen answers, never typed (P21); listen and pick. **Shadowing:** hear a line and say it aloud, self-paced and unscored (no speech input, D321).
+- **Retelling, heritage learners only (config):** type the last story episode in your own words. One model call tags errors by class as the conversation evaluation does. Never scored, never milestone evidence; items used log exposures. Beginners do not retell.
+- No separate lesson check: the timed rounds are graded answers.
+
+#### C4.17 Review lesson, the refresher and "keep it fresh" (D318, D348, D369)
+- **Review lesson:** built by code, no model call. Due and overdue items beyond the warm-up cap, slipping milestones (C6.14) and carried-over items, each in varied form (C6.5). Each set's first lesson opens with a short review of what the last weekly quiz missed (D304). No separate lesson check.
+- **Refresher (C3.10):** one or two review lessons built by code, opening on a "previously in the story" recap from the arc summary, then the slipping milestones' items, ending on items predicted to be recalled (box 3+, last fair review correct). No weekly quiz, not counted against the daily cap. Copy frames it as picking back up, never as a penalty (P17).
+- **"Keep it fresh" (D318):** when a milestone already shown slips, one item from it appears in the warm-up under a neutral "Keep it fresh" label. Never "lost", never a badge taken away.
+
+#### C4.18 Test-out flow (D308, D326, D370)
+- **Offered** when the opening check (C4.9) is all correct, or when the learner taps "Too easy?" during a lesson with new material (D.7). Two choices: "Show what you know" / "Do the lesson".
+- **The check is production only (C6.13):** type or build each new item, or produce the form in a new sentence; one question per new item, at most 8 (config).
+- **Pass** (all correct, config, C6.13): the items enter per C6.4 (box 3, `already_knew`, half credit on their milestones), the lesson ends as `tested_out`, its daily-cap count is returned (C3.9), and the next lesson starts. When a set runs out, stretch material or the next set follows (C3.7, C3.11). No lesson is generated on the spot.
+- **Otherwise** the lesson runs as planned with the missed items as its new material (C6.13); items produced correctly enter as test-out passes and drop out of it. No result screen; never shown as a failure.
+- Near-perfect sets raise the next set's intake (C3.7).
+
+#### C4.19 Feedback, tap-to-explain and "why?" (D323, D371)
+- **Every incorrect answer** shows the correct form, audio on tap, and its error class named in plain words. The copy is written by code from templates and the conjugation tables, never by the model. Examples: wrong ending, "Right word, wrong ending: *beet-ak* is your house to a man; to a woman it's *beet-ik*." · wrong stem, "Right person, wrong verb form: past is *katab*, present is *-ktib*." · agreement, "*kbiir* goes with a man; with a woman it's *kbiire*." · wrong word, the correct word and its meaning. Spelling is marked right: "Correct. Standard spelling: …".
+- **Tap-to-explain:** tap any Arabic word anywhere for meaning, root, form, person and tense, and audio, from the dictionary, the conjugation tables and the item's grammar tags. Free; no model call.
+- **"Why?":** on feedback sheets, explanations and story lines. It first shows the canonical explanation of the tagged grammar point (free). "Still unclear?" runs one capped model call: a short explanation of this sentence in 3 sentences or fewer, using only material that resolves per §C5. Cap per day (config), metered as an `ai_call`; degrade: the canonical explanation only. Shown as generated, with report-a-problem (R4).
+
+#### C4.20 Owned elsewhere
+- §C3: which lessons and types each set holds, targets, words, story arc, scenarios, method per milestone, recycling list, set intake and expected dates.
+- §C5 (R5): generation contracts for set content and scripted exchanges, the validators (token resolution, dialect, romanization, exposure counts and carry-forward, the story's 95% coverage, grammar tags), the critic, checks on live turns, cost and caps per call.
+- §C6: boxes, evidence, error routing and milestone states. §C7: lesson check and weekly quiz. §C8: checkpoint mechanics that conversation lessons reuse. §C9: audio. §C11: Verb Lab and the conversation partner.
+- R7: the canonical explanations (two versions per grammar point), the method list, heavy-point flags, scripted situations. §D: screens.
+
+#### C4.21 Principles check
+- Discharges: P1 (chunks of 3, C4.13), P2 (cumulative retrieval), P3 (exposure counted by code at set generation, carry-forward for grammar points, C4.3), P4 (2+ modalities per item; the check in a modality the lesson did not use), P5 (audio first in introduce and meet; never autoplay), P6 (scaffold ladder, C4.8), P13 (dialogues, stories and conversations recycle earlier items; every lesson recycles at least two milestones, C3.2), P14 (production ladder, C4.6), P17 (no scores; a test-out miss is never shown; "keep it fresh" is neutral), P20 (grammar lesson: meet, notice, explain in 3 sentences or fewer with a table, C4.12), P21 (transform, never-seen verbs, timed rounds on tap and listen only), P22 (conversation lessons with recasts, C4.15), P23 (every error class named by code, C4.19).
+- Defers: P10's validators and P3's counting code → §C5 · P18 → §C8 · P19's sums → C3.6 · P15 → C6.10.
+- At risk: P22 and P18 in conversation lessons rest on model judgement → R4. R2 widens: exposure is counted per set, so it holds only if the learner finishes the set; mitigated by the carry-forward check at the next set's generation, mandatory lesson checks in grammar, words, story and conversation lessons, and resume-anywhere. P10 in stories is tightened, not weakened (95%).
 
 ### C5 Generation
 
@@ -685,7 +737,7 @@ A lesson whose check falls below the C7.6 threshold (D90) seeds its new items at
 - Not graded: introduce steps, culture notes, recycling appearances (D65), story and dialogue lines the learner did not supply, unscored practice-again attempts (C7.7). These are exposures: they update `last_exposed_at` and never move a box.
 - Recall questions on an item that is not yet due: a correct answer logs an exposure and does not advance the box; an incorrect answer still lapses it per C6.3. Same asymmetry as consolidation mode (C6.7).
 - **The real gap (D320).** Every graded answer records `gap_days`: days since the item's `last_exposed_at`, not since its last review. A word met in yesterday's story makes today's "7-day review" a 1-day review.
-- **A fair review** is a graded answer without supports (word bank, hint, reveal) whose `gap_days` is at least the interval of the box it was due from, less one day of tolerance. Only fair reviews count as retention evidence: milestones met or slipping (C6.14), capacity (C6.16) and B8 retention (C6.12). Other graded answers still move the box per C6.3.
+- **A fair review** is a graded answer without supports (word bank, hint, reveal) whose `gap_days` is at least the interval of the box it was due from, less one day of tolerance. Only fair reviews count as retention evidence: milestones met or slipping (C6.14), capacity (C6.16) and B8 retention (C6.12). Other graded answers still move the box per C6.3. **Verb Lab answers are never retention or milestone evidence** (C11.5, D367): they move boxes and update `last_exposed_at` only.
 - **Planner rule:** an item due for review within the next 2 days is kept out of graded positions in generated lessons. It may still appear in input prose (stories, dialogues). Familiarity comes from lessons and measurement from fair reviews, so the two no longer compete. The 2 days are config, low confidence.
 - **Retention probes vary the form (D318):** a due grammar point or verb cell is presented in a new sentence, and a verb cell where possible with a verb the learner has not practised in that cell. A probe that repeats the teaching example measures memory of the example, not the rule.
 
@@ -723,7 +775,7 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 - Maximum one step change per 7 days in either direction. Every change appends an event.
 
 #### C6.10 Error classes and remediation (D62, D81, D323, P23)
-- Every incorrect graded answer carries an error class: `wrong_ending` · `wrong_stem` · `agreement` · `wrong_word` · `spelling` (D323). Assigned by code wherever the answer can be compared with the conjugation tables, the personal-ending rules or the dictionary forms; otherwise `wrong_word` on a word item, or unclassified. The class is named to the learner (P23; copy is R4's).
+- Every incorrect graded answer carries an error class: `wrong_ending` · `wrong_stem` · `agreement` · `wrong_word` · `spelling` (D323). Assigned by code wherever the answer can be compared with the conjugation tables, the personal-ending rules or the dictionary forms; otherwise `wrong_word` on a word item, or unclassified. The class is named to the learner (P23; copy written by code, C4.19).
 - **The lapse lands on what failed:** `wrong_ending` and `agreement` lapse the grammar point or verb cell, `wrong_stem` the verb cell, `wrong_word` the word item. `spelling` with the right sound is marked right and shows the standard spelling (D306); it lapses nothing.
 - **Remedial trigger:** 3 lapses of one error class on one skill within 14 days, where a lapse is an incorrect answer on an item at box ≥2. Drills declare their triggers (`trigger_item_ids`, `trigger_pattern_ids`, error class) and come from the conjugation tables, the endings rules and the C5.6 library; none is generated per learner at runtime. At most 1 drill per session, inserted into the warm-up, not repeated within 14 days. The counter clears when the drill is passed and the triggering items return to box ≥2. If no drill matches, the items stay in rotation.
 - Error classes per skill feed the planner's bottleneck choice (§C3) and the method results (C6.17).
@@ -746,7 +798,7 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 - **Pass** (all correct, config): the material's items enter at box 3, `already_knew` true, `source = test_out` (C6.4); their milestones move to half credit (C6.14); the lesson moves to harder material at once, because new material needs only half credit on its direct prerequisites (D310). Full credit comes from the ordinary fair review about 7 days later, with no extra step.
 - **Fail:** the lesson runs as planned and the missed items are its new material. Never shown as a failure.
 - Tested-out material counts toward neither words learned nor `new_lessons_per_day`: it is not new material.
-- Lesson flow (where the offer appears, bigger steps after near-perfect sets) is R4's.
+- Lesson flow (where the offer appears, how the lesson continues) is C4.18; bigger steps after near-perfect sets are C3.7.
 
 #### C6.14 Milestones (D285, D288, D310, D318, D319)
 - **The milestone catalogue** is versioned content (B5). Each milestone: id · plain can-do name · skill (C6.15) · shape (step or threshold) · direct prerequisites · the conversation bands that list it · evidence: the items it rests on (grammar points, verb cells, word sets) or, for a threshold, the measure and target. Every graded answer records the milestone ids it exercises; lesson items carry them from generation (verb cells and personal endings by code, syntax points by model tag checked by the critic, R9).
@@ -826,87 +878,87 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 - Defers: P3, P13 for structures → R3, R4 · P18 → §C8 · P17 display → §D (D.5).
 - At risk: P7 for conversation milestones, which rest on model judgement (R4). R6's owed key class is closed by C6.18. R9 unchanged. Method results (C6.17) are noisy at three learners; mitigated by within-learner comparison, a minimum sample and human approval of every change.
 
-### C7 Quizzes
+### C7 Lesson checks and the weekly quiz
 
-Owns quiz composition, grading, results and retake. Review scheduling and boxes are §C6. Retires the client-built quiz (harvest §2): unenforced `MIN_QUESTIONS`, fixed English distractor padding, `passed` writing a lesson `mastered` status, and a results screen that promised the next lesson would adapt while nothing triggered it.
+Owns the lesson check that closes a lesson and the weekly quiz that closes a set: composition, grading, results and practice again. Checkpoints, which close a block, are §C8. The three names are never mixed (D357). Rewritten chat 37 (rework R4). Review scheduling and boxes are §C6. Retires the client-built quiz (harvest §2): unenforced `MIN_QUESTIONS`, fixed English distractor padding, `passed` writing a lesson `mastered` status, and a results screen that promised the next lesson would adapt while nothing triggered it.
 
-#### C7.1 What the quiz is (D85)
-- End-of-lesson retrieval check over that lesson's item set (C4.3). Mandatory, exit and resume anywhere (D14, C1.5). Budget ~2 min (C4.2).
-- Questions are pre-generated with the lesson and carry stable ids and `content_version` (C5.1, C5.11). No runtime Claude, no client-side question assembly.
-- Distractors come from the C5.2 deterministic rule: same `pos`, level ±1, outside the item set, never a `formula_pair` partner.
+#### C7.1 What the lesson check is (D85, D361)
+- A retrieval check closing a lesson, over its own material and the milestones it recycles. Taken, never passed. Mandatory where the lesson type has one (C7.2); exit and resume anywhere (D14, C1.5). Budget about 2 minutes (config cap).
+- Built by code with the lesson from its declared items and generated content (C4.5). No model call, no client-side assembly. Questions carry stable ids and `content_version` (C5.11).
+- Distractors: same `pos`, level ±1, outside the lesson's new material, never a `formula_pair` partner.
 
-#### C7.2 Composition (D86)
+#### C7.2 Composition by lesson type (D361)
 
-| Part | Count |
+| Lesson type | Lesson check |
 |---|---|
-| One question per delivered item-set item | 4 beginner (core) · 6 heritage (core + extension) |
-| Pattern question, when the lesson had a pattern activity | 0-1 |
-| Unit recall, L3 only: items from the same unit's L1 and L2 sets | 2, catalogue build parameter |
+| Grammar | 4-6 questions on the point, at least one producing the form in a new sentence; verb points include a verb never seen in the cell |
+| Words | one question per new word or phrase delivered |
+| Story | 2-4 comprehension questions + recall of 2 known words from the episode |
+| Conversation | 2-3 recall items from the debrief's errors |
+| Fluency | none: its timed rounds are graded |
+| Review | none: everything in it is graded |
 
-- Built range 6-9, enforced at build on the full heritage set, core plus extension (A1). Delivered range is 4-7 beginner and 6-9 heritage, because a beginner receives 4 item-set questions where heritage receives 6 (C4.3). A lesson outside the built range fails publish. Nothing is sliced at runtime.
-- One question per delivered item-set item is load-bearing and is not traded away to hold a lower ceiling: it carries the P3 exposure count, the D87 modality assertion and the C7.6 threshold. The 2 min budget in C4.2 stays a target with the hard cap in config; heritage learners answer recognition questions faster, so the wall-clock gap is smaller than the count gap.
-- The unit recall count is a catalogue build parameter, default 2, not runtime config (C10.6). Changing it is a republish.
-- Unit recall questions exist so the L3 "use" lesson checks the unit, not only its own set (P2). Checkpoints are 30 days apart; this is the retrieval check in between. They grade as reviews, `origin = quiz`.
-- On a not-yet-due unit recall item: correct logs an exposure and does not advance the box; incorrect lapses it per C6.3. Early success is not evidence of retention at interval (P9); early failure is evidence of weakness.
+- Questions on recycled items grade as reviews (C6.5): a correct answer on a not-yet-due item logs an exposure; an incorrect one lapses it.
 
 #### C7.3 Question types and modality (D87)
-- Types are a subset of the C4.4 activity catalogue, never a second catalogue: Recognise (audio → meaning, or script → meaning), Recall (English → build Arabic), Pattern (apply the lesson's formula).
-- Each item's quiz question uses a modality its lesson exposures did not. Declared at build, asserted by the C5.5 exposure validator. P4 then holds by construction rather than by luck.
-- Scaffolds follow `script_stage` on every quiz surface (C4.8).
+- Types are a subset of the C4.4 catalogue, never a second catalogue: recognise, recall, pattern table, transform, listen and pick, comprehension.
+- Each new item's question uses a modality its lesson did not, and the same holds for grammar points: a point practised in script is checked by listen and pick or by production. Declared at build, asserted by code (§C5).
+- Scaffolds follow `script_stage` (C4.8).
 
-#### C7.4 Production in the quiz (D88)
-- Item-set items are not in the store yet at quiz time (they enter on lesson completion, C6.4), so the C6.9 ladder has no box to read. Fresh items are always tap-to-build word bank.
-- Unit recall questions read the ladder normally, by box.
+#### C7.4 Production (D88)
+- New items are not in the store yet at check time (they enter on lesson completion, C6.4), so the C6.9 ladder has no box to read: fresh items are word bank. Recycled items read the ladder by box.
 - Production weight 0 (beginner default) renders recall as recognition (C4.5); exposure counts are unaffected. The Settings typed toggle still forces typed on (C4.6).
 
-#### C7.5 Grading and feedback (D89)
-- Local and binary (D46). Typed Arabic grades on normalised Arabic; typed romanization grades against the C4.7 standard with Levenshtein ≤2.
-- Feedback is immediate per question: correct form, audio on tap, bottom sheet with Continue (harvest §7d). No explanation prose in MVP, which keeps the quiz path free of runtime Claude.
-- Every answer writes an answer row (C4.11) and a `review_event` (C6.19).
+#### C7.5 Grading and feedback (D89, D263, D306)
+- Local and binary, by code. Typed answers grade per C4.6: normalised Arabic script, or romanization on phonetic equivalence (D263), never letter distance.
+- Feedback is immediate per question per C4.19: correct form, audio on tap, the error class named, "why?" available.
+- Every answer writes an answer row (C4.11) and a `review_event` (C6.19), `origin` lesson or weekly quiz.
 
 #### C7.6 Results (D90)
-Shown after every quiz:
-- The count, "5 of 6", stated once. Per lesson only. Never accumulated, never averaged, never surfaced in Progress.
-- Every quiz item with its state (got it / needs another look), the correct form, audio on tap.
-- The needs-another-look items named as being in tomorrow's warm-up. This is the loop the old results screen faked.
+Shown after every lesson check and weekly quiz:
+- The count, "5 of 6", stated once. Never accumulated, never averaged, never surfaced in Progress.
+- Every item with its state (got it / needs another look), the correct form, audio on tap.
+- The needs-another-look items named as being in tomorrow's warm-up.
 - No pass or fail verdict, and no lesson `mastered` status (C4.11).
 
 Threshold, internal and never rendered:
-- `quiz_pass_threshold`, config default 0.7, over first attempts on item-set questions only. Unit recall questions are excluded.
-- At or above: the item set enters box 1 (C6.4).
-- Below: the lesson still completes. No repeat, no block. The item set enters box 0 and carries into the next session's warm-up in full, above the C6.6 ceiling.
-
-A learner reads progress at three horizons, and the quiz is the smallest of them. It is not aggregated into the other two.
+- `check_threshold`, config default 0.7, over first attempts on the lesson's new-material questions.
+- At or above: the new items enter box 1 (C6.4). Below: the lesson still completes, with no repeat and no block; the new items enter box 0 and carry into the next warm-up in full, above the C6.6 ceiling.
 
 | Horizon | Signal | Owner |
 |---|---|---|
-| This lesson | Quiz count and per-item states | C7.6 |
-| This week | Words learned, phrases learned, items due, streak | C6.12, C1.4 |
-| Day 30/60/90 | Checkpoint band and debrief compared to the last one | §C8 |
+| This lesson | Lesson-check count and per-item states | C7.6 |
+| This set | Weekly-quiz count and per-item states | C7.9 |
+| This block | Checkpoint debrief; can-dos reached | §C8, D.5 |
 
-#### C7.7 Retake (D91)
-- Practice again, from the results screen: missed items only, re-asked in a different modality with a fresh distractor draw. Unscored. It logs exposures, moves no boxes, and does not change `quiz_score` or `quiz_outcome`. Repeatable, no cap.
-- The scored second chance is tomorrow's warm-up, where those items are due and a correct answer takes box 0 to box 1. Two good review days erase the difference between a strong and a weak quiz.
-- No full re-sit that overwrites the result. Re-answering the same questions minutes after the answers were shown measures the answer sheet, not recall, and it would turn the one number in the app into something to grind (P17).
-- Resume: exiting mid-quiz preserves answered questions; the learner returns at the first unanswered one, position derived from answer rows on the server (C4.11, C1.5). "Skip for now" is retired (D14).
+#### C7.7 Practice again (D91)
+- From the results screen: missed items only, re-asked in a different modality with a fresh distractor draw. Unscored. It logs exposures, moves no boxes and does not change `check_score`. Repeatable, no cap.
+- The scored second chance is tomorrow's warm-up, where those items are due.
+- No full re-sit that overwrites the result: re-answering minutes after the answers were shown measures the answer sheet, not recall (P17).
+- Resume: exiting mid-check preserves answered questions; the learner returns at the first unanswered one (C4.11, C1.5).
 
 #### C7.8 Records (D92)
-- No quiz table and no quiz blob. Quiz questions are activities in the lesson's allocator output (C4.11); answers are the same append-only answer rows, `origin = quiz`.
-- The lesson record gains `quiz_score` (first-attempt fraction on item-set questions) and `quiz_outcome` (`at_or_above` / `below`). Stored for the C6.4 routing and for analysis; the results screen renders the raw count, not a stored percentage.
-- Practice-again attempts write answer rows flagged unscored and log exposures only.
-- `lesson_progress.quiz_result` JSON (harvest §4a) is retired.
+- No lesson-check table: its questions are activities in the lesson's assembly output (C4.11), and answers are the same append-only answer rows.
+- The lesson record carries `check_score` (first-attempt fraction on new-material questions) and `check_outcome` (`at_or_above` / `below`), for the C6.4 routing and for analysis.
+- **Weekly quiz record:** set id, question list with its item, milestone and error-class targets, the adaptive additions and the class that triggered them, `score` on first attempts, started and completed timestamps. Answers carry `origin = weekly_quiz`.
+- Practice-again attempts write answer rows flagged unscored and log exposures only. `lesson_progress.quiz_result` JSON (harvest §4a) is retired.
 
-#### C7.9 Owned elsewhere
-- §C5: question generation, distractor rule, validators, versioning.
-- §C6: boxes, review queue, remedial drill selection, words learned.
-- §C8: checkpoints and fluency bands.
-- §C9: audio for quiz stimuli and feedback.
-- §F: answer and `review_event` schemas, lesson record fields.
+#### C7.9 Weekly quiz (D304, D372)
+- Closes each set: the next thing to do after the set's last lesson (C3.9). **Must be taken, never passed**; no pass or fail; exit and resume anywhere.
+- **Built by code** when the set's last lesson completes; no model call. About 15 questions: about half on the set's new words and phrases; at least one production question per grammar point, in a new sentence; the set's verb cells, each with a verb not practised in that cell where one exists; 1-2 items from earlier slipping milestones.
+- **Adaptive:** when one error class reaches 2 misses on one skill, up to 10 more questions target that class and skill; at most 25 in total. About 5-8 minutes, never much over 10.
+- Results as C7.6. The misses open the next set's first lesson (C4.17) and step its intake (C3.7). Answers are graded reviews (C6.5); fair ones count as retention evidence.
 
-#### C7.10 Principles check
-- Discharges: P2 (unit-level cumulative retrieval at L3), P3 and P4 (quiz exposures count toward the 5+ and are forced onto a second modality, both validated at build), P7 (a weak quiz delays "learned" through box 0; mastery stays a property of the item), P14 (word-bank floor for fresh items, box ladder for unit recall), P17 (count and item states with no verdict, no accumulation, and unscored practice instead of a grindable re-sit).
+#### C7.10 Owned elsewhere
+- §C5: content generation, the distractor rule, validators, versioning.
+- §C6: boxes, the review queue, remedial drills, evidence.
+- §C3: when the weekly quiz fires and how its results size the next set. §C8: checkpoints.
+- §C9: audio for questions and feedback. §F: answer, `review_event`, lesson and weekly-quiz schemas.
+
+#### C7.11 Principles check
+- Discharges: P2 (the weekly quiz retrieves across a set's lessons), P3 and P4 (lesson-check exposures count toward the set's 5+ and are forced onto a new modality, grammar points included, validated at build), P7 (a weak check delays "learned" through box 0; mastery belongs to the item and the milestone), P14 (word-bank floor for fresh items, box ladder for recycled ones), P17 (count and item states, no verdict, no accumulation, unscored practice instead of a re-sit), P23 (feedback names the error class).
 - Defers: P18 → §C8.
-- At risk: none new. R2 is unchanged; the mandatory quiz is what makes the build-time exposure count real.
+- At risk: none new. R2 holds where a lesson type has no separate check (fluency, review): those lessons bring no new material, so the set's exposure count does not depend on them.
 
 ### C8 Checkpoints
 
@@ -955,7 +1007,7 @@ A checkpoint closes each block (D312) and the phase.
 
 #### C8.6 Debrief (D97)
 - Fixed order: what worked, 2-3 things to work on, band, path to the next band. The band is the derived band at debrief time, pinned on the row (D289). Compared against the previous debrief from the second checkpoint onward.
-- Stored permanently, never overwritten. Rendered in Progress as the Day 30/60/90 horizon (C7.6). No score, no percentage, no pass or fail (P17).
+- Stored permanently, never overwritten. Rendered in Progress as the block horizon (C7.6). No score, no percentage, no pass or fail (P17).
 
 #### C8.7 Learner-model interaction (D98, D288, D322)
 - Checkpoints log exposures and move no boxes. A model judgement on free text is not the binary outcome the C6.3 ladder is built on.
@@ -1171,31 +1223,30 @@ Anything in that list that requires a code change is a C10 defect, not a track r
 
 ## C11 Side surfaces
 
-Owns Focused Study, My Vocabulary, and Alphabet and phonics: session shape, content source, store interaction and records. §D owns their screens, navigation and copy. Created chat 11 to close the pointers left dangling by C5.7, C6.11 and C9.8 (D122-D125).
+Owns Focused Study, My Vocabulary, Alphabet and phonics, Verb Lab and the free conversation partner: session shape, content source, store interaction and records. §D owns their screens, navigation and copy. Created chat 11 (D122-D125); rewritten chat 37 (rework R4, D366, D367, D373) for Verb Lab, the conversation partner and Focused Study built by code (D298). "Why?" and tap-to-explain are C4.19.
 
 #### C11.1 Shared rules (D122)
 - Reachable from Home as secondary cards; order and prominence come from learner-type config (C1.2). Never a gate, never part of Today's session resolution.
-- All three are track-scoped (C10.3), read the resolved config (C10.6) and introduce no content pipeline of their own. Their content is published through C5.4 like anything else.
-- Not level-gated (D135). The C5.5 known-pool ceiling governs the guided path, where the system chooses what the learner meets. These surfaces are learner-chosen, so a learner may study above their band deliberately. The dictionary-ref, romanization, dialect and track validators still apply in full; only the level ceiling is lifted. Items met here enter the store normally and are levelled normally.
+- All are track-scoped (C10.3) and read the resolved config (C10.6). Shared content they use (situations, topic sets, conjugation tables) is versioned like any other content (C5.11).
+- Not level-gated (D135): these surfaces are learner-chosen, so a learner may study above their word level deliberately. The dictionary-ref, romanization, dialect and track validators still apply in full. One exception: Verb Lab drills only cells already taught (C11.5, C6.4).
 - A completed session counts as a day of activity for the streak (C1.4).
 - Every item carries report-a-problem (C1.6) and follows the C4.8 scaffold ladder.
-- All three write to the one `learner_item` store (C6.1). None has a private mastery pool; the `focused_<scenario>` pool from harvest §2 is retired.
-- Audio is the pre-generated word clip wherever the Arabic resolves to a dictionary row, and nothing otherwise (C9.8). No sentence synthesis in MVP.
+- All write to the one `learner_item` store (C6.1). None has a private mastery pool; the `focused_<scenario>` pool from harvest §2 is retired.
+- Audio: the word or verb-form clip wherever the Arabic resolves to a dictionary row or table cell; sentence audio on first play for situation and conversation lines (§C9, D297).
 
-#### C11.2 Focused Study (D123)
-- 6 fixed clusters (Meeting People, Family Gathering, Food & Dining, Getting Around, Daily Life, Expressing Yourself), pre-generated through C5.4 and versioned like any other content (C5.11).
-- Session: around 10 phrases from the cluster, delivered through the C4.4 activity catalogue at the learner's scaffold step and production step. Graded locally. No quiz, no unit, no plan effect.
-- Store: phrases enter at box 1 on session completion (C6.4), so a phrase met here is due in tomorrow's warm-up.
-- Custom topic is the runtime Claude surface named in C5.7, and it is a mapping call only: free text resolves to a cluster or to dictionary categories, output validated against known ids, unknown ids dropped. The session is then assembled deterministically from published assets and dictionary rows.
-- No learner-facing prose is generated at runtime here. That is what keeps D53 intact and keeps this surface behind the C5.5 validator gate rather than beside it.
-- Cap: config, per user per day, metered as an `ai_call` (C5.9). Degrade: the nearest fixed cluster, stated plainly (C1.6). A custom topic that maps to nothing offers the 6 clusters rather than failing.
+#### C11.2 Focused Study (D123, D298, D373)
+- **A menu built by code from checked, shared data, with no model call per session (D298):** Verb Lab (C11.5) · topic vocabulary (trusted dictionary rows by category, taught in chunks of 3 per C4.13) · situation practice (scripted exchanges such as ordering at a restaurant, a taxi, a shop or a family visit, written once by the model, validated, checked and shared, §C5, R7) · my weak spots (items and cells with recent lapses, by error class, C6.10) · numbers, prices and time · call-and-response phrases (from `pair`, D130) · endings drills (the personal endings on nouns, `3ind-`, `bidd-`, `ma3-`) · speed rounds (timed, tap and listen only, P21).
+- Sessions of about 5-10 minutes through C4.4 activities at the learner's scaffold and production step, graded locally. No lesson check, no plan effect. Items enter per C6.4 (box 1 on completion), so a phrase met here is due in tomorrow's warm-up.
+- **Custom topic, kept (D373):** free text (for example "I'm going to a restaurant tonight") goes to one capped mapping call that resolves it to a situation, a topic-vocabulary set or dictionary categories; output is validated against known ids and unknown ids are dropped. The session is then built by code. No learner-facing prose is generated here.
+- **A topic that maps to nothing** is acknowledged plainly: the learner is told it isn't covered yet and has been noted for a future content batch, and is offered the nearest situations. The miss is logged (`custom_topic_miss`) and read when content batches are planned (R7, §H).
+- Cap per user per day (config), metered as an `ai_call` (C5.9). Degrade: the menu without the custom-topic field, stated plainly (C1.6).
 
 #### C11.3 My Vocabulary (D124)
-- Rows arrive three ways: saved from a lesson, quiz or checkpoint item; added manually; imported as TSV (harvest: TSV over CSV for Arabic).
+- Rows arrive three ways: saved from a lesson, lesson check, weekly quiz or checkpoint item; added manually; imported as TSV (harvest: TSV over CSV for Arabic).
 - A row that resolves to a dictionary id is an ordinary store item. A custom row has `dictionary_id` null, `source = custom` and `evidence = self_rated_only` (C6.2).
 - Review grades by self-rating (got it / not yet) and feeds the same scheduler. This is the only surface where a self-rating moves a box (C6.11).
 - `self_rated_only` items never count toward words learned or the B8 threshold (D78). P7 asks for demonstrated recall, and a tap is not a demonstration.
-- An item that later appears in a lesson or quiz picks up graded evidence and stops being `self_rated_only`.
+- An item that later appears in a lesson, lesson check or weekly quiz picks up graded evidence and stops being `self_rated_only`.
 - Audio per C11.1. A custom row with no dictionary match is silent, and the card says so rather than presenting a dead control.
 - Community pool is a slot (B6): the opt-in flag is stored, with no sharing, no upload and no UI in MVP.
 
@@ -1203,25 +1254,43 @@ Owns Focused Study, My Vocabulary, and Alphabet and phonics: session shape, cont
 - Reference and practice, never a gate (C1.2, D16). Script instruction proper is woven into lessons as micro-steps keyed to `script_stage` (D26).
 - Content is the fixed authored asset set, one per letter and sound (C5.2), published through C5.4.
 - Practice items are graded, write answer rows and log `review_event` exposures, and they count toward the micro-step completion requirement in C6.9 (0 to 1 needs 8 or more).
-- They do not count toward the rolling 20-item accuracy window that advances `script_stage`. That window stays lesson and quiz evidence, so scaffold fading (P6) rests on performance in real material rather than on repeat practice of a screen the learner can grind.
+- They do not count toward the rolling 20-item accuracy window that advances `script_stage`. That window stays lesson, lesson-check and weekly-quiz evidence, so scaffold fading (P6) rests on performance in real material rather than on repeat practice of a screen the learner can grind.
 - Letters already met in lessons are marked. The screen never presents a locked or coming-soon state (C1.6).
 
-#### C11.5 Records (schema §F)
-- Focused Study session: user, `track_id`, cluster id and version or the mapped custom topic, `ai_call` id where a mapping call ran, items delivered, started and completed timestamps.
+#### C11.5 Verb Lab (D284, D317, D367)
+- **Content:** the conjugation tables, built once per teachable verb and checked by code against a model (versioned content, R7). Every drill comes from the tables, so drills cost nothing and are always correct. No model call.
+- **Grids:** the "-ing" words (masculine, feminine, plural) first, then present, past and the other tenses as the grammar path teaches them.
+- **Drills run only on taught cells** (C6.4): cells met in a lesson, or proved by test-out or placement. A table the learner has not been taught is readable as reference, with the point's canonical explanation (C4.12), but never drilled.
+- Drills: transform (person, tense, polarity) · listen and pick · fill the cell · timed rounds (tap and listen only, P21) · verbs never seen in a cell. "Root + form → word" waits until after MVP: it belongs to the next phase's verb forms.
+- Due verb cells are listed first in the Lab and also come up in the daily warm-up (C6.6).
+- **Evidence (D367):** Lab answers are graded and move boxes per C6.3, and carry method tags (C6.17). They never count toward milestone states (neither the "usable with effort" practice sessions nor "met"), capacity or B8 retention. Every Lab answer updates `last_exposed_at`, so free practice restarts the gap before the next fair review (C6.5) and can delay "met"; accepted, because that gap is the real memory gap.
+
+#### C11.6 Conversation partner (D284, D366)
+- Free, typed, outside the plan, reachable from Home. The learner picks a scenario (situations from C11.2 and the block's can-dos) or types a topic; the character comes from the story cast or is neutral.
+- Kept at the learner's level: known items and grammar points from the learner record, at most 10% unknown words, Palestinian with Ramallah first (D281). Replies in Arabic script with romanization per scaffold (C4.8); the learner types Arabic script or romanization (`dir="auto"`).
+- Recasts errors inside replies and never lectures (P22); an optional short debrief at the end names up to 3 errors with their class and correct form.
+- **Session length:** aim for 12-15 learner turns (about 8-12 minutes), the length needed for an exchange with a goal and a debrief. A hard per-session turn cap and the sessions-per-day cap are config, set from R5's cost test under the spend cap (D293): above the soft cap a cheaper model, above the hard cap the surface pauses with plain copy (C1.6).
+- **Checks on every reply** before display, by code: every Arabic token resolves to the dictionary, the conjugation tables or the particle allowlist; MSA grammar words are blocked (D281); romanization is in scheme. One regeneration on failure; a second failure is shown with report-a-problem. Replies are shown as generated (R4).
+- **Never milestone evidence (D366):** items used correctly log exposures (`origin = conversation`), no box moves, and error tags go to the debrief and the monthly analysis only, never the planner.
+- Transcripts are stored; report-a-problem on every turn (C1.6).
+
+#### C11.7 Records (schema §F)
+- Focused Study session: user, `track_id`, menu item or mapped custom topic with its version, `ai_call` id where a mapping call ran, items delivered, started and completed timestamps. `custom_topic_miss`: user, text, timestamp.
+- Verb Lab session: grids and drills used, started and completed timestamps; answers write `review_event` with `origin = verb_lab` and are excluded from milestone, capacity and B8 reads.
+- Conversation-partner session: scenario or topic, turns as C8.4, per-reply check results and regenerations, `model`, `prompt_version` and `ai_call` ids, debrief.
 - My Vocabulary rows are `learner_item` rows (C6.2). No second table. `personal_vocab` with its two competing romanization columns (harvest §4a) is retired.
 - Alphabet practice writes answer rows and `review_event` with `origin = alphabet`.
 
-#### C11.6 Owned elsewhere
-- §C5: cluster and asset generation, the mapping prompt, validators, versioning.
-- §C6: boxes, scheduler, words learned, `script_stage` advance.
-- §C9: word clips.
-- §D: screens, navigation, import UX.
-- §F: session and event schemas.
+#### C11.8 Owned elsewhere
+- §C5: situation and topic-set generation, the mapping prompt, live-reply checks, validators, versioning, cost.
+- §C6: boxes, scheduler, words learned, `script_stage` advance, evidence rules. C4.19: "why?" and tap-to-explain.
+- §C9: word, verb-form and sentence clips. R7: conjugation tables, situations, topic sets.
+- §D: screens, navigation, import UX. §F: session and event schemas.
 
-#### C11.7 Principles check
-- Discharges: P8 and P12 extended to these surfaces (one store and one scheduler, so a Focused Study phrase interleaves into the ordinary warm-up instead of sitting in a private pool), P7 (self-rated evidence explicitly excluded from learned), P6 (alphabet practice cannot manufacture scaffold-fading evidence), P17 (no scores, no locked states).
-- Defers: screens → §D · schemas → §F.
-- At risk: none new. R3 unchanged: the custom topic is a mapping call rather than a generation call, so a jagged profile is still met by published content.
+#### C11.9 Principles check
+- Discharges: P8 and P12 extended to every side surface (one store and one scheduler, so a Focused Study phrase or a Verb Lab cell interleaves into the ordinary warm-up), P7 (self-rated items and Verb Lab answers excluded from milestones, learned and B8), P6 (alphabet practice cannot manufacture scaffold-fading evidence), P17 (no scores, no locked states; untaught tables are readable, not locked), P21 (Verb Lab: rules practised across verbs, timed only on tap and listen), P22 (the partner recasts at the learner's level).
+- Defers: screens → §D · schemas → §F · reply checks and cost → §C5.
+- At risk: P22 and P10 in the partner rest on prompt constraints and code checks on live, model-written replies → R4.
 
 ## D. UX
 Target 393×852, single column, iPhone Safari PWA. Screens only; mechanisms are §E to §J (D.14).
@@ -1250,47 +1319,55 @@ Target 393×852, single column, iPhone Safari PWA. Screens only; mechanisms are 
 
 ### D.4 Home (D152, D153)
 - One accent-filled element, the primary card. Its label carries the C1.2 resolved state, its sub-line gives position. At the `new_lessons_per_day` cap the label becomes Consolidate today with practice-on-known-words copy: no lock, no warning colour, no remaining-lessons counter. A due checkpoint puts Not now on the card as a visible secondary.
-- Four figures, all C6.12: streak, words learned, phrases learned, items due. No quiz figures, no percentages, no target bars. Each is tappable (D.5).
+- Four figures, all C6.12: streak, words learned, phrases learned, items due. No lesson-check or weekly-quiz figures, no percentages, no target bars. Each is tappable (D.5).
 - Secondary cards carry no badges, counts or new-dots; their order renders from the resolved config list.
 - After 7+ days away, one line acknowledging the gap and a sub-line noting the longer warm-up. No re-entry modal.
 - Proportions: primary card ~30% of viewport, figure strip one row under 10%, secondary grid starting above the fold.
 
-### D.5 Progress (D164, D165, D166, D167, D168, D198)
+### D.5 Progress (D164, D165, D166, D167, D168, D198, D287, D374)
 - Progress is a history surface. Home answers what to do now; Progress answers what has been built. No primary action, no items-due figure.
 - Home's figures deep-link by kind: words and phrases open My Vocabulary filtered to learned items, items due starts a review, streak opens Progress.
-- Shows: the two C6.12 counters over time, plan position (phase, units done and remaining, end date), completed units as their can-do statements, streak current and longest as counts, checkpoint history, script rung. Cumulative only, never a rate, never a weekly target, never a comparison. No streak calendar grid: a grid renders every missed day as a visible gap, which breaks C1.4 by layout rather than by copy.
-- Mastery internals stay internal: no box numbers, intervals or accuracy percentages. The script rung is the exception, because D.2 already makes it a visible control and C6.9 moves it on the learner's own evidence. Rungs are named for capability: `Reading with full support` · `Reading with harakaat` · `Reading unaided`. Rendered on Progress only, never inside an activity.
-- Progress counts, it does not list. Completed units are the only list, and they are the capability ladder.
-- Checkpoint history lists past debriefs, each opening read-only in C8.6's fixed order with the CP2 comparison as stored, never recomputed (R6). Archived turns keep audio and the D162 report control. A reduced debrief renders plainly with bands withheld, not as an error.
+- **Skills, as can-dos (D287, D374):** one section per scored skill (C6.15) in a fixed order, each listing the milestones reached as can-do statements, read from `milestone_shown` (C6.14) and never taken back, then the next milestone named as "Next: …". Pronunciation is not listed while it is unscored (D321). No chart: a radar or "spider web" encodes a percentage by its radius even without numbers, which D287 rules out.
+- **Plan:** the phase and its end date, the current block's outcome and can-dos, and past blocks as their outcome lines. Block outcomes replace the retired unit list.
+- Also shows: the two C6.12 counters over time, streak current and longest as counts, checkpoint history, script rung. Cumulative only, never a rate, never a weekly target, never a comparison. No streak calendar grid: a grid renders every missed day as a visible gap, which breaks C1.4 by layout rather than by copy.
+- Mastery internals stay internal: no box numbers, intervals, accuracy percentages, scores or pace. The script rung is the exception, because D.2 already makes it a visible control and C6.9 moves it on the learner's own evidence. Rungs are named for capability: `Reading with full support` · `Reading with harakaat` · `Reading unaided`. Rendered on Progress only, never inside an activity.
+- Checkpoint history lists past debriefs, each opening read-only in C8.6's fixed order with the comparison as stored, never recomputed (R6, D289). Archived turns keep audio and the D162 report control. A reduced debrief renders plainly with bands withheld, not as an error.
 
 ### D.6 Settings (D169, D170, D171)
 - Closed inventory: Adjust plan, harakaat display toggle, typed answers toggle, audio Slow default, sign-out, app version string. Absent, not greyed (C1.6): export and account deletion (§B6), notifications, a general report-a-problem entry (D162 is per item; a record with no item id breaks §H), learner type (set at onboarding, its effects reachable through Adjust plan), TSV import (D.8, where the rows land).
-- Settings exposes only keys that are display-only or already eventful. Nothing in Settings can redefine what a learned word, a band or a quiz outcome means (R6). Harakaat and Slow audio are display-only. Climb, sittings and "about you" changes are eventful and append plan events (C3.13); Settings has no level control (D346). The typed-answers toggle takes effect at the next activity boundary, never mid-screen, and the resolved config version is pinned on every record (D119).
-- Adjust plan is a sub-screen with C3.13's three controls: climb, sittings per week and focus ("about you"). Each confirms with the effect named in capability words, never in level language, and the confirm copy states what is preserved: completed lessons, the learner record, streak, checkpoints. Screen detail is R4's (rework R3 replaced too easy / too hard, D346).
+- Settings exposes only keys that are display-only or already eventful. Nothing in Settings can redefine what a learned word, a band or a lesson-check outcome means (R6). Harakaat and Slow audio are display-only. Climb, sittings and "about you" changes are eventful and append plan events (C3.13); Settings has no level control (D346). The typed-answers toggle takes effect at the next activity boundary, never mid-screen, and the resolved config version is pinned on every record (D119).
+- Adjust plan is a sub-screen with C3.13's three controls: climb, sittings per week and focus ("about you"). Each confirms with the effect named in capability words, never in level language, and the confirm copy states what is preserved: completed lessons, the learner record, streak, checkpoints. Screens (D376): **climb** is one screen of three full-width choices, Steeper · As planned · Gentler, each with one line of effect ("more new material in each set" / "as planned" / "less new material, more practice"), current choice marked; **sittings per week** reuses the onboarding question's four choices; **focus** opens the "about you" form prefilled, with Delete my answers at the foot behind a one-line confirm saying later lessons stop using them. All take effect from the next set, and the confirm says so.
 - Settings keeps the tab bar throughout. Back goes up one level.
 
 ### D.7 The activity frame (D154, D155, D156, D157, D160)
 - One frame everywhere a graded activity runs: progress bar and save-and-exit, prompt line, stimulus block, response zone. An activity screen is a stimulus block plus **zero or more** response widgets, because C4.2 counts screens and item-batched types carry several items each.
-- Widgets: choice (review, quick check, recognise, script micro-step), build (recall, pattern practice, dialogue turns), type (when the typed toggle is on), reveal (introduce, culture note, pattern examples). An unmapped activity type fails the lesson build rather than being skipped.
+- Widgets: choice (review, quick check, opening check, recognise, comprehension, listen and pick, script micro-step), build (recall, pattern table, transform, about you, dialogue and exchange turns), type (when the typed toggle is on or the production step is typed), reveal (introduce, meet, explain, culture note), **notice** (tap the highlighted form in a line), **reader** (story episode: line by line, audio per line, tap-to-explain on every word), **timed** (choice or listen and pick against a visible draining bar, no number shown), **shadow** (play the line, then Done). Conversation lessons and the conversation partner use the checkpoint's transcript surface (D.8), not this frame. An unmapped activity type fails the lesson build rather than being skipped (D376).
 - Single-item screens use the bottom feedback sheet. Item-batched screens (dialogue, cumulative retrieval, pattern) resolve each response inline, mark and correct form beside that item, one Continue completing the screen.
-- Explicit Continue always; nothing auto-advances. Correct and incorrect both render the correct form with audio on tap. Correct is labelled `Correct`, incorrect `Needs another look` — never a praise word, never a verdict word, and the same vocabulary on the results screen. The state carries a non-colour mark (D189). Motion is a token-duration fade.
-- The quiz is the same frame with a different segment label, not a second engine. Segment transitions are one line, never an interstitial. Results: count stated once, every item with state, correct form and audio, needs-another-look items named as tomorrow's warm-up, then practice again and continue. No pass, fail or percentage.
-- Stimulus zone scrolls; progress bar and feedback sheet are pinned. At stage 0 an item is three lines and a dialogue six, which is what makes 393×852 work. The progress bar spans the whole session including the quiz and never resets at the segment boundary. Save-and-exit confirms by naming the return point; a mid-quiz exit preserves answered questions.
+- Explicit Continue always; nothing auto-advances. Correct and incorrect both render the correct form with audio on tap. Correct is labelled `Correct`, incorrect `Needs another look` — never a praise word, never a verdict word, and the same vocabulary on the results screen. Under `Needs another look` sits the error-class line written by code (C4.19); a right-sound spelling shows `Correct` with a "Standard spelling: …" line. A "Why?" text control sits on the sheet (C4.19). The state carries a non-colour mark (D189). Motion is a token-duration fade.
+- **"Too easy?"** is a text control beside save-and-exit, shown only on lessons that bring new material; it opens the test-out offer (C4.18) as a bottom sheet with "Show what you know" and "Do the lesson". A test-out miss gets no result screen.
+- The lesson check and the weekly quiz are the same frame with a different segment label (`Lesson check`, `Weekly quiz`), not a second engine. Segment transitions are one line, never an interstitial. Results: count stated once, every item with state, correct form and audio, needs-another-look items named as tomorrow's warm-up, then practice again and continue. No pass, fail or percentage.
+- Stimulus zone scrolls; progress bar and feedback sheet are pinned. At stage 0 an item is three lines and a dialogue six, which is what makes 393×852 work. The progress bar spans the whole sitting including lesson checks and never resets at a segment boundary. Save-and-exit confirms by naming the return point; a mid-check exit preserves answered questions.
 - Chrome hides whenever a graded activity runs, anywhere in the app. Side surfaces keep the tab bar while browsing; the moment a session, review or practice item starts, this frame takes over.
 
 ### D.8 Entry stages and side surfaces (D158, D159, D161, D200-D209)
-**Onboarding.** Name, then learner type, one question per screen, then the "about you" form (C3.3) on one or two screens, every field optional; no progress indicator (about 3 min, C1.1). No back out. Screen detail for the form is R4's.
+**Onboarding.** Name, then learner type, one question per screen, then the "about you" form (C3.3) on two screens, every field optional; no progress indicator (about 3 min, C1.1). No back out.
 - The learner-type question renders C1.3's wording as two full-width choices with no headline restating it. The words heritage, beginner and intermediate never appear. Nothing promises the answer is final; placement may reassign.
-- "About you" replaces the goal tags (D344): choices plus optional free text per field, no model call at onboarding, free text `dir="auto"`. Sittings per week defaults to 3 when skipped.
+- "About you" replaces the goal tags (D344): choices plus optional free text per field, no model call at onboarding, free text `dir="auto"`. Sittings per week defaults to 3 when skipped. Screens (D376): **1. Why and who** — why you're learning, as multi-select chips plus an optional line; who you'll speak with, the same. **2. Where and how often** — where the family is from (chips from a short content list of Palestinian regions plus "outside Palestine" and "not sure", R7), interests (chips plus an optional line), and sittings per week as four full-width choices (1-2 / 3 / 4-5 / 6+). One line under the form says the answers shape topics and stories and can be edited or deleted in Settings. Each screen has Continue and a text Skip.
 - Hands straight to placement with no interstitial. The last control says what happens next.
 
 **Placement (D158).** The activity frame with feedback suppressed by config, not a second engine: same choice widget, persistent "I don't know", no feedback sheet at all (C2.8). Production self-rating is a second screen after a correct Listen. Band intros are one line, no emoji. Plan reveal is one scrollable screen in the fixed C3.12 order; reassignment is worded as a better starting point with one-tap undo, never as a level change.
 
 **Checkpoint (D159).** A transcript surface, deliberately unlike a lesson. Full screen, no item progress bar; a thin unlabelled bar tracks turns used (C8.2 makes turn counts config, minutes display copy). Named character bubbles with C4.8 script display, audio on tap, report-a-problem per turn. Learner field is free text with `dir="auto"`, no word bank, no grading affordance. "I'm stuck" states that it costs a turn before it is used. Debrief renders C8.6's fixed order, bands as words on a four-step scale, comparison from CP2. A reduced debrief renders plainly with bands withheld.
 
-**Wrap-up (D204, D205, D206).** A screen after results, not the results screen: results closes the quiz, wrap-up closes the day. Three figures — items practised, items added to vocabulary, streak — and one primary action resolving per C1.2. No quiz count, no percentage, no per-item states. At the `new_lessons_per_day` cap the action carries D.4's consolidation copy, identically worded. The streak increments with no celebration, no animation and no mention of days missed; a broken streak shows the new count starting again with no acknowledgement that it broke.
+**Wrap-up (D204, D205, D206).** A screen after results, not the results screen: results closes the lesson check, wrap-up closes the sitting. Three figures — items practised, items added to vocabulary, streak — and one primary action resolving per C1.2. No lesson-check count, no percentage, no per-item states. At the `new_lessons_per_day` cap the action carries D.4's consolidation copy, identically worded. The streak increments with no celebration, no animation and no mention of days missed; a broken streak shows the new count starting again with no acknowledgement that it broke.
 
-**Focused Study (D160).** The 6 clusters plus a custom topic. A topic that maps to nothing offers the clusters in plain copy, never an error.
+**Focused Study (D160, D373).** The C11.2 menu as a list of full-width rows, Verb Lab first, with a custom-topic field at the top ("What's coming up? e.g. ordering at a restaurant"). A topic that maps to nothing says so in one line ("Not covered yet. We've noted it for a future batch.") and lists the nearest situations, never an error. When the mapping surface is degraded the field is not offered.
+
+**Verb Lab (D376).** A list of verb families, each opening a grid of tenses × persons. Taught cells are drillable; untaught tables open as reference with the explanation and no drill control, never locked or greyed (C1.6). Due cells sit in a "Due" row at the top. Drills run in the D.7 frame with chrome hidden. No counts, percentages or mastery colours on cells.
+
+**Conversation partner (D376).** The checkpoint transcript surface below, with a scenario picker first (situations, then "something else" as free text). The thin bar tracks turns toward the session aim; End and debrief is always available. A reply that failed its checks twice carries the report control in place, with no warning banner. At the daily cap the card says when it is next available.
+
+**Return after time away (D348, D376).** After the probe warm-up, one card: "Some things slipped while you were away", with "Refresh first" (marked Recommended when C3.10 says so) and "Jump in". No counts, no list of what slipped.
 
 **My Vocabulary (D161).** TSV import is a paste box first, file picker second: TSV off a phone is pasted more often than filed. Either route lands on a preview table with per-row status (matched, custom, rejected); nothing is written until confirm. Custom rows with no match render silent with a one-line reason, not a dead control. One line on the surface says self-rated items don't count toward words learned. Lists order on the Arabic or the English gloss, never on romanization (D185).
 
@@ -1350,11 +1427,12 @@ Target 393×852, single column, iPhone Safari PWA. Screens only; mechanisms are 
 - **§H**: triage of the D.9 records, including archived debriefs.
 - **§I**: the D174 proof obligation.
 - **§J**: the R5 TTS spike, which D.12's audio dependency rests on and does not resolve.
+- **R7**: the region list for "about you", situation and topic sets, verb-family names (D.8).
 - Later passes, not gaps: D.11 variety-label strings when DR populates `form_origin`; D.11's out-of-set character list checked against the merged romanization map.
 
 ### D.15 Principles check
-Discharges: **P5** tap-only audio on every surface, one control with replay, the one hard dependency routed through C9.7 (D.9, D.12) · **P6** reveal resets at the activity boundary so `script_stage` never advances on scaffolded evidence, and the rungs are named for capability (D.2, D.5) · **P17** D.4, D.5, D.8 wrap-up, D.10's zero-due state and D.11's tone rules · **P18** the checkpoint is a transcript surface with a free-text field and no grading affordance (D.8).
-Defers: P1, P2, P3, P4, P8, P9, P12, P13 → C4.2, C4.3, §C6, validated at build · P7, P11 → §C6, C3.2, though D.5 now renders both as learner-facing capability · P15, P16 unchanged at D62 and §C2.
+Discharges: **P5** tap-only audio on every surface, one control with replay, the one hard dependency routed through C9.7 (D.9, D.12) · **P6** reveal resets at the activity boundary so `script_stage` never advances on scaffolded evidence, and the rungs are named for capability (D.2, D.5) · **P17** D.4, D.5 (can-dos per skill, never a chart, score or pace), D.8 wrap-up, return card and Verb Lab without mastery colours, D.10's zero-due state and D.11's tone rules · **P18** the checkpoint is a transcript surface with a free-text field and no grading affordance (D.8) · **P23** the error class named on the feedback sheet (D.7).
+Defers: P1, P2, P3, P4, P8, P9, P12, P13 → C4.3, C4.13, §C6, counted at set generation · P7, P11 → §C6, C3.2, though D.5 now renders both as learner-facing capability · P15, P16 unchanged at D62 and §C2.
 At risk: **P10** newly exposed, not newly weakened — D.8's Focused Study, My Vocabulary and TSV import sit outside the level ceiling, which D134's third regime covers deliberately; the dictionary-ref and romanization validators still apply. **P14** → R8: the typed-answer toggle is learner-set, so production-support withdrawal operates inside a ceiling the learner sets.
 
 ## E. Architecture

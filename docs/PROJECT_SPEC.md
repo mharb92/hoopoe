@@ -268,7 +268,7 @@ Owns the phase, its blocks and sets: what each block targets, how much it brings
 - **The shortlist (D349)** is built by code from trusted rows (`review_confidence` 3, C6.1) at or below word level + 1, excluding words and phrases already in the learner's store as active, learned or already known, in priority order: what the current grammar step needs (verbs while conjugation is the step, family nouns while the endings are) · the block's can-do topic words · placement gaps · frequency. About 2-3 times the block's word intake. The model picks from it (C3.2); a validator rejects any new word in a graded position that is not on it. Input prose keeps P10's own rule.
 
 #### C3.6 Four kinds of practice and the skill mix (D36, D70, D341)
-- **Four kinds (P19):** meaning-focused input (story, listening), meaning-focused output (conversation, describing your own life), language-focused study (grammar, words, review) and fluency (known material at speed). Every activity carries its kind; code sums planned active minutes per kind at block plan and actual minutes at block end.
+- **Four kinds (P19):** meaning-focused input (story once the learner holds about 100 words and phrases, C4.14; listening), meaning-focused output (conversation, describing your own life), language-focused study (grammar, words, review) and fluency (known material at speed). Every activity carries its kind; code sums planned active minutes per kind at block plan and actual minutes at block end.
 - **Targets (D341, block keys, placeholders):** long run equal quarters. Language-focused study is capped at 40% in a phase's first block, 35% in its second and 30% from its third; no kind below 15% in any block. The four-kinds targets are block keys tuned by the monthly analysis (C6.18, C10.7).
 - **Modality mix** inside lessons (recognition, listening, production, script) stays config per learner type × plan stage, stage now the block's ordinal in the phase (no lesson counts). Production share scales inversely with the placement production ratio (C2.5), beginner default 0; listening share is weighted by placement listening accuracy (D67). Detail per lesson type is §C4's.
 - **Interleaving (P12, D70):** consecutive lessons do not share a primary topic category unless no alternative exists at the learner's word level.
@@ -510,6 +510,7 @@ Owns the six lesson types, the sitting, new material and exposure, the activity 
 - Lesson check (C7.2).
 
 #### C4.14 Story lesson (D342, D364)
+- **Not scheduled for a beginner until the learner record holds about 100 words and phrases** (D392; placeholder, low confidence): below that, an 8-15 line story cannot meet the 95% rule. Heritage learners usually clear it at placement. Until then a set's input time goes to dialogues and listening.
 - One episode of the block's arc per set, with the phase's cast, about 8-15 lines, opening with a one-line "previously" from the arc summary. Audio per line on tap (sentence audio on first play, §C9).
 - **At least 95% of tokens are known to the learner record (D364).** The rest resolve to dictionary rows, are tagged for tap-to-explain and never sit in graded positions. This tightens P10's 10% default for stories only; dialogues in other lessons, conversation lessons and checkpoints keep 10%. Checked by code at set generation (§C5).
 - Due items may appear (input prose, C3.9); the block's targeted items appear wherever the arc allows (C3.4).
@@ -558,111 +559,130 @@ Owns the six lesson types, the sitting, new material and exposure, the activity 
 
 ### C5 Generation
 
-Owns how content is produced, validated and paid for. Lesson shape is §C4.
+Owns how learner-facing language is written by the model at runtime, checked, paid for, recorded and corrected. What a block and set teach is §C3's; lesson shape and assembly are §C4's; audio is §C9's. Rewritten chat 38 (rework R5, D377-D392) for lessons built per learner (D280); C5.1-C5.13 keep their numbers so existing references hold.
 
-#### C5.1 Content strategy (D53, closes Q10)
-- All learner-facing lesson, quiz and Focused Study content is pre-generated, shared across learners, native-reviewed and versioned. Zero Claude calls on the lesson and quiz path at runtime.
-- Personalisation comes from which units are ordered (C3), which items are due (C6), which scaffolds apply (C4.8) and which activities the allocator picks (C4.5). Never from per-learner text.
-- Old P2 (phase plan) and P3 (daily lesson) are retired outright, not ported.
+#### C5.1 Content strategy (D280, D333, D358, D377)
+- Lessons are written per learner while the plan runs. Code decides what each lesson teaches and assembles it (§C3, C4.5); the model writes only language content into template slots: dialogue lines, story episodes, example sentences, conversation scenarios and scripted branching exchanges, culture notes (C4.1).
+- No native review. Accuracy comes from constraints: the building blocks code gives the model (C5.3), blocking validators (C5.5), a critic (C5.6), checks on every live reply (C5.7) and report-a-problem turning confirmed errors into new rules (C5.11). Human checks are one-time and front-loaded: the external expert package (B8, D315) and the voice approval (C9.3).
+- **Written once and shared, not per learner:** canonical grammar explanations (C4.12), scripted situations and topic sets (C11.2), remedial drills keyed to error classes (C6.10), script micro-step assets, conjugation tables, the placement bank. Same validators as generated content, versioned (C5.11), produced in data jobs (R7, §J).
+- Retires D53's pre-generated shared catalogue, D54's item sets, D55's publish pipeline and its native-review stage, and D57's "exactly three" runtime surfaces.
 
-#### C5.2 Generated vs derived
+#### C5.2 Written by the model vs built by code
+
 | Surface | Source |
 |---|---|
-| Item set | Declared in the unit catalogue (C5.3) |
-| Introduce | Dictionary row + audio (§C9) |
-| Recognise distractors | Deterministic: same `pos`, level ±1, outside the item set, never a `formula_pair` partner |
-| Recall word bank | Item words + the same distractor rule |
-| Quick check, Review | Deterministic from the vocab store (§C6) |
-| Script micro-step | Fixed asset set, one per letter and sound, authored once |
-| Pattern, Dialogue, Culture note | Authored by Claude offline, validated, native-reviewed |
-| Remedial micro-drill | Same pipeline (C5.6) |
+| Block outcome, can-dos, story arc, word picks, scenarios | Block-plan call (C3.2) |
+| Dialogue lines, example sentences, story episode, scripted exchanges, culture note | Lesson-content call (C5.4) |
+| Activities, distractors, lesson check, weekly quiz, review and refresher lessons, feedback copy, exposure counts, code-checkable tags | Code (C4.5, C4.17, C4.19, §C7) |
+| Live turns (conversation lesson, partner, checkpoint), conversation evaluation, retelling tags, "why? still unclear", custom-topic mapping | Runtime calls (C5.7) |
+| Explanations, situations, topic sets, drills, script assets, conjugation tables | Written once (C5.1) |
+| Recognise distractors | Deterministic: same `pos`, level ±1, outside the lesson's new items, never a `formula_pair` partner |
 
-Generated prose per lesson is at most three artefacts. Everything else is data.
+#### C5.3 The model's building blocks (D377, D378)
+Every content call receives from code:
+- the slots to fill, per lesson, from its template (C4.1), each with the items it must use and the milestone it exercises;
+- **the allowed vocabulary:** the learner's known items plus the lesson's new items, each with romanization and the forms it may take. Verb forms arrive already conjugated from the tables, so the model chooses forms rather than conjugating;
+- the block's cast and arc summary (C3.2), the recycling list, items kept out of graded positions (C3.9), and "about you" topics (C3.3);
+- the track's dialect rules and blocked MSA words (D281), the romanization map (C4.7) and the known-mistakes list (C5.11).
 
-#### C5.3 Item sets in the catalogue (D54, amends C4.3)
-- Each catalogue lesson declares 6 dictionary ids: 4 core + 2 extension. Beginner config takes core, heritage takes all. No duplicate rows per learner type.
-- The unit's `level` does the ceiling+1 work (C3.5); items are not re-selected at runtime.
-- A lesson whose declared items fail validation (retired row, level drift after DR) blocks publish of its unit version.
+**Output is a fixed schema enforced by the API**, so a malformed reply cannot come back. Each Arabic token names its source (a dictionary id, a conjugation-table cell or a particle-allowlist id) plus any declared prefixes and endings. Each line carries display Arabic, vowelled `tts_text` (C9.2), romanization, English, its grammar-point and milestone tags, and its position (graded or input).
 
-#### C5.4 Authoring pipeline (D55)
-Run by Marwan, offline, output to content tables. Stages:
-1. Unit catalogue (§J) → 2. Lesson skeletons with declared item sets → 3. Asset generation, strongest text model plus TTS (§C9.4) → 4. Validators (C5.5), blocking → 5. Native review → 6. Publish with `content_version`.
+#### C5.4 Generation pipeline (D378, D381)
+1. **Code builds the set:** lessons, types, declared items, expected dates (§C3, C4.3).
+2. **Content call or calls.** Two call shapes are specified, sharing C5.3's inputs and differing only in size; the generation test (C5.14) picks one:
+   - **Whole set:** one call writes every lesson's content.
+   - **Per lesson:** code writes a set brief (cast, the episode's beat from the arc, each lesson's items), then one call per lesson, all in parallel.
+   - **Rule, fixed before the test (placeholders):** whole set if under about 10% of lessons fail validation on the first try and a set is ready within about 5-10 minutes (the opening review of the quiz's misses, C4.17); otherwise per lesson.
+3. **Validators** (C5.5), per lesson and per set.
+4. **Critic** (C5.6).
+5. **Failure path:** at most 3 attempts per lesson. The 2nd and 3rd are repairs: the exact validator or critic findings go back and only the flagged lines are rewritten. After the third, the slot becomes a code-built review lesson (C4.17) and the failure is logged. A failing lesson is never shown.
+6. **Audio** for every line (C9.4); then the set is released.
 
-Nothing reaches a learner unreviewed. There is no ship-then-fix path.
+**When:** the block plan at block end or plan reveal (C3.1, C3.12); the first set with the block; each later set after the previous set's weekly quiz, while the learner does the opening review of its misses. On day one the first lesson is generated alone first, covered by the plan reveal, and the rest of the set follows. If a set is not ready when a lesson is wanted, the lesson card says it is being prepared and offers Verb Lab, Focused Study or a review lesson; never a blank wait (D.10). A set generated before an absence of 7+ days and not started is regenerated (D348). Where generation runs, and that it continues with the app closed, is §E's (Q35).
 
-One publish gate, all artefact types, all six stages (A5): lesson assets (pattern, dialogue, culture note), quiz questions, placement bank items (C2.2), checkpoint scenarios (C8.3), remedial drills (C5.6), script micro-step assets (C5.2), Focused Study cluster content (C11.2), audio clips (C9.4). Type-specific validators extend C5.5; they never replace it and never constitute a second review path.
+#### C5.5 Validators, all blocking (D56, D65, D379)
+Run by code on every generated lesson and set, and on every written-once artefact. A failure goes to the repair path (C5.4).
+- **Schema:** the enforced output schema; an unknown slot or field rejects.
+- **Token resolution:** every Arabic token resolves to its named source, and code rebuilds the surface form from the source plus the declared prefixes and endings and compares. An unresolved or mismatched token rejects. Dictionary sources are `review_confidence = 3` only (D141).
+- **Script:** Arabic fields hold Arabic script only (guards the drift into Hebrew found in DR, D277); `tts_text` with its vowel marks stripped equals the display Arabic after normalisation.
+- **Romanization:** the C4.7 character set and scheme.
+- **Dialect:** the track's assertion set and blocked MSA grammar words (D281). An exception needs a written reason in the track package.
+- **Known pool (P10, D134):** graded positions use only items the learner record holds as known plus the lesson's new items; an item due within 2 days of the lesson's expected date stays out of graded positions (C3.9); input prose may carry up to 10% unknown tokens, a story at most 5% (C4.14), each still resolving to a real row.
+- **Exposure and carry-forward, per set (C4.3, D360):** each new word or phrase gets 3+ graded exposures in its lesson and lesson check, 5+ encounters across the set, in 2+ modalities; each grammar point owed by the previous set appears.
+- **Recycling (P13):** each lesson recycles at least two earlier milestones from the recycling list (C3.2).
+- **Tags:** every line carries grammar-point and milestone tags. Verb forms and personal endings are tagged by code from the tables and rules; syntax points are tagged by the model and checked by the critic (R9).
+- **Block plan (C3.2):** every can-do maps to a target id and every target is covered; every picked word is on the shortlist; nothing targeted lacks its prerequisites at "usable with effort".
+- **Scripted exchanges:** every branch passes the checks above.
+- **Pair completeness and constituent resolution (D130, D133):** live once D267's `pair` and `constituents` values are promoted; inert until then (R7).
+- **Track scope (C10.3).** `[UNVERIFIED]` anywhere rejects.
+- **Soft targets warn, never block:** counts of new material beyond C4.3's and length against the planned minutes go to the critic as notes.
 
-#### C5.5 Validators (D56, D65), all blocking at publish
-- JSON schema per artefact type. Unknown fields reject.
-- Dictionary reference: the prompt receives dictionary ids; every Arabic token in the output resolves to a cited dictionary id or to the `function_words` allowlist. Unresolved tokens reject. Fixes the invented-ref bug (harvest §5).
-- Known pool (P10, D134), three regimes:
-  - **Graded positions** (quiz stems and options, review items, quick checks, pattern drills): hard gate, items at or below the unit level plus the lesson item set plus the allowlist. Grading on untaught vocabulary corrupts the measurement.
-  - **Generated input prose** (dialogue, culture notes): the same pool plus above-level items up to a configured share, default 10%, matching the D94 checkpoint cap. Every such item must still resolve to a real dictionary id; invented tokens reject as before. Above-level items are exposures only (D75) and never move a box.
-  - **Learner-directed surfaces** (C11.2, C11.3): no level gate. See C11.1.
-- The unit level already does the ceiling+1 work (C4.3), so the item set is the controlled new material and the 10% cap is the incidental layer. Stacking a second uncontrolled layer on top of the item set is what the graded gate prevents.
-- Contextual recycling (D65, P13): the generator receives previously-taught items for that unit path and must reuse a configured share, default 30% of non-item-set tokens.
-- Romanization: every romanized string passes the C4.7 Arabizi validator. Out-of-set characters reject.
-- Dialect rules: the concrete P1 checks (بدي, شو, هلق, رح + verb, عم + verb, b- prefix, urban ق → ء) run as assertions, not as prose guidance.
-- Exposure: each item reaches ≥5 exposures in ≥2 modalities across lesson + quiz (C4.3).
-- Modality complementarity (C7.3, D87): an item's quiz question must use a modality its lesson exposures did not. Asserted at build.
-- Dictionary selection floor (D141): every dictionary row an artefact references — item, distractor, pooled token or constituent — is `review_confidence = 3`. Rows at 1 or 2 are invisible to authoring until re-review upgrades them in place.
-- Pair completeness (D130): if an item set contains a `formula` that is the prompt half of an obligatory `formula_pair`, the response half is in the same set or already in the learner's store. Teaching مبروك without الله يبارك فيك rejects. **Inert until `formula_pair` is populated (D141):** the scoped DR pass does not collect pair claims, so with no pair rows this check passes vacuously. Recorded risk R7.
-- Constituent resolution (D133): `formula` and `frame` rows declare their constituent dictionary ids. The pool check resolves the row as an item AND checks its constituents against the pool separately, so a level 1 frame cannot smuggle an above-level lexeme past the gate. A constituent above the pool counts against the D134 prose cap and is barred from graded positions. **Inert until constituents are collected (D141):** the dictionary-reference check above still resolves every token to a real id, so nothing invented passes; what is unguarded is an above-level lexeme inside a level 1 frame. Recorded risk R7.
-- `[UNVERIFIED]` is not a valid output. Any occurrence rejects.
-- Track scope (C10.3): every id an artefact references resolves inside the artefact's own track. A cross-track reference rejects.
-- Type-specific sets extend the list above: placement items (distractor rule, band by `level`, one dictionary row per item, C2.2), scenarios (marker and goal tags resolve, pooled vocabulary declared, C8.3), drills (declared trigger ids resolve, C6.10), audio (C9.10).
+#### C5.6 Critic (D380)
+- One call per lesson after the validators pass. It reads for naturalness, grammar, Palestinian usage with Ramallah first (D281), level, and the model-assigned syntax tags (R9), and returns pass or line-level findings. Findings go to the repair path (C5.4).
+- **Claude, a different model from the one that wrote the lesson;** the generation test sets which. A critic from another model family is not used for now (Omar, chat 38); revisit if confirmed reports show a pattern the critic misses (R4).
+- The critic reads lesson content, not live turns, which C5.7's code checks cover.
 
-#### C5.6 Remedial library (D62)
-- Micro-drills authored in the same pipeline, keyed to confusion pairs (bid- vs 3am-, b- prefix, ق → ء, gender agreement, pronoun suffixes). Each drill declares the confusion id it treats.
-- Content owned here; selection and scheduling owned by §C6.
-- The library is extended when the family test surfaces a recurring confusion. Adding a drill is a content edit, not a code change.
+#### C5.7 Runtime model calls (D57, D365, D366, D387)
+Each is capped, metered (C5.9) and degrades without blocking the learner (D.10).
 
-#### C5.7 Runtime Claude surface (D57)
-Exactly three in MVP. Each is capped and degrades without blocking the learner.
-
-| Task | Trigger | Cap | Degrade |
+| Call | Trigger | Cap | Degrade |
 |---|---|---|---|
-| Checkpoint conversation + evaluation | §C8, 3 per phase | per checkpoint | local scoring, no narrative debrief |
-| Goal free-text mapping | Onboarding, Adjust plan (D33) | 1 per edit | multi-select tags only |
-| Focused Study custom topic | Learner-initiated | per user per day | nearest fixed cluster |
+| Block plan | Block end, plan reveal, re-plan (C3.11) | Per block, plus re-plans | Catalogue can-do names, retried before set 2 (C3.12) |
+| Lesson content, critic, repairs | Each set (C5.4) | 3 attempts per lesson | Code-built review lesson in that slot |
+| Conversation-lesson character turn | Heritage from the start; beginners once typed answers unlock (C4.15) | 8-12 learner turns | Scripted situation exchange (C11.2) |
+| Conversation evaluation | End of a conversation lesson or checkpoint (C4.15, C8.5) | 1 per conversation | As C8.8 |
+| Checkpoint turn | §C8 | C8.2 turn budget | As C8.8 |
+| Retelling tags | Heritage fluency lesson (C4.16) | 1 per retelling | Kept untagged |
+| "Why? Still unclear" | Learner tap (C4.19) | Per day, config | Canonical explanation only |
+| Custom-topic mapping | Focused Study (C11.2) | Per day, config | Menu without the custom field |
+| Conversation partner turn | Learner-initiated (C11.6) | Per session and per day, from the generation test | Surface pauses with plain copy |
+| Speech synthesis and transcribe-back | Each set's lines; live turns on tap (§C9) | Per set, per turn | Text only, flagged |
 
-The 6 fixed Focused Study clusters are pre-generated (C5.1). The AI tutor is roadmap (B6) and adds no runtime surface in MVP.
+- **Every live reply** (conversation-lesson character, partner, checkpoint turn) passes code checks before display: tokens resolve, blocked MSA words, romanization in scheme; one regeneration, and a second failure is shown with report-a-problem (C11.6, D366).
+- No call at onboarding: "about you" is a form (D344), and the goal-mapping call is retired.
+- The monthly analysis (C6.18) is an admin job run by Marwan or Omar, not a call the app makes.
+- The partner's caps are set from the generation test's cost per turn once R4 is in use (Omar, chat 38).
 
-#### C5.8 Model policy (D58)
-- Model and token budget are chosen server-side per task from an allowlist. The client never sends `model` or `max_tokens`. Closes the open-proxy hole (harvest §5).
-- Defaults: authoring = strongest available · checkpoint evaluation = mid tier · mapping tasks = cheapest tier. Changeable in config without a client release.
+#### C5.8 Model policy (D58, D294, D382, D383, D384)
+- Model, effort and token budget are chosen server-side per call from an allowlist; the client never sends them (D58). Changeable in config without a client release.
+- **Defaults until the generation test:** Opus 5.5 for block plans and lesson content (D294). The test sets each call's model and effort.
+- **Rule per surface, fixed before the test (placeholders):** Sonnet 5.5 replaces Opus 5.5 on a surface if its first-try validator pass rate is within 10 points, the blind read finds at most 1 extra error per 100 sentences, and it costs at most 60%. Opus at low effort is tested too.
+- **Approaching the soft cap (D293, D383):** calls that run on Opus move to Sonnet, and the learner is told in one plain line that lessons are now written by a lighter model, so a difference in quality can be noticed and reported. The hard cap is C5.9's.
+- **Live comparison (D384):** every lesson stores its writer model. About one set in four is written by the other model without telling the learner; heritage learners get a one-tap "sounded natural?" per lesson. The monthly analysis compares, by model, reports per 100 sentences, validator and critic rejection rates, error classes and the tap, and proposes changes to the placeholders above. Sets written after a soft-cap notice are excluded, since the learner knows the model. With three learners this detects only large differences.
 
-#### C5.9 Cost and budget (D59, closes Q9)
-- One `ai_call` row per runtime call: user, task, model, tokens in and out, cost, `prompt_version`, `stop_reason`, latency ms. Schema §F.
-- Per-user monthly budget, config. Soft cap degrades per C5.7. Hard cap blocks with clear copy and a next action (C1.6).
-- Authoring cost is one-off and not attributed to users.
+#### C5.9 Cost and budget (D59, D293, D297, D385)
+- One `ai_call` row per call: user, task, model, effort, tokens in, out and cached, characters for speech, cost, `prompt_version`, `stop_reason`, latency ms. Schema §F.
+- **Budget per learner per calendar month:** $7 soft, $10 hard (D293, D297), config.
+- **A set's estimated cost is reserved before it is written,** so no set is left half-written.
+- **Priority as the month's budget runs low:** sets, then block plans and re-plans, then conversation lessons, then the partner, then "why?".
+- **Hard cap:** model calls stop. Reviews, Verb Lab, Focused Study menu items, review lessons and scripted exchanges continue, and lessons already written stay available (C1.6, D.10).
+- **Planning estimate (chat 38; low-moderate confidence; the generation test replaces it):** set content about $0.9-1.2 per set on Opus, about $4-5 per learner per month at the default pace, about half on Sonnet; live conversation $1-6 a month depending on partner use and model; speech inside the provider's free tier (C9.9). Heavy heritage use with Opus on every surface would pass the hard cap, and the live surfaces are where it binds.
 - B8 "Affordable" reads this table.
 
 #### C5.10 Prompts and records (D60)
-- Prompts live server-side as versioned records. None in the client, none as inline prose at a call site.
-- One shared client: schema-validated JSON, `stop_reason` handling, bounded retry with backoff, structured error.
-- Every generated content row and every runtime output stores `model` and `prompt_version`.
+- Prompts live server-side as versioned records, none in the client and none as inline prose at a call site.
+- One shared client: schema-enforced JSON, `stop_reason` handling, bounded retry with backoff, structured error.
+- Every generated content row and every runtime output stores `model`, effort and `prompt_version`.
 
-#### C5.11 Versioning and report-a-problem (D61)
-- Content rows carry stable ids and `content_version`. A lesson record pins the version the learner saw (C4.11), so any lesson is reproducible.
-- Report a problem (C1.6) targets content id + version.
-- Edits publish a new version. Learners pick up the latest at the next lesson start; work in progress finishes on its pinned version.
-- Dictionary edits propagate (A6). An edit to `arabic`, `romanization` or `arabic_vocalised` marks every dependent content row for revalidation and every dependent clip for regeneration under a new key (C9.1). The edit is not live to learners until the dependents republish. Mechanism §H.
-- Report triage (A7): a report resolves to no change, to a content edit that publishes a new version, or to a dictionary edit that takes the path above. Owned by §H; every report carries content id, version and, where relevant, clip id.
+#### C5.11 Records, versioning and report-a-problem (D61, D386)
+- **Generated content is stored per learner and never edited:** content id and version, set, model, effort, prompt version, a fingerprint of its inputs (learner-record snapshot, dictionary, catalogue and template versions, config version), validator results, critic verdict and attempts. Any lesson is reproducible and attributable.
+- Written-once content keeps stable ids and `content_version`; a lesson pins the versions it used (C4.11).
+- **Report a problem** (C1.6) targets content id, version and line, plus clip id where relevant. Triage (§H) resolves it to no change, a new version of shared content, a dictionary edit, or a generation error. **Each confirmed generation error adds a validator rule or a known-mistakes entry (C5.3)**, and unshown lessons of every learner are re-checked against it and regenerated if they fail. The heritage testers are the error sensors (R4).
+- **Dictionary edits (A6):** an edit to `arabic`, `romanization` or `arabic_vocalised` regenerates unshown lessons and clips that use the row; lessons already shown keep what was shown (D289).
 
 #### C5.12 Owned elsewhere
-- §C6: review scheduling, remedial drill selection, mastery thresholds.
-- §C8: checkpoint prompt contract and debrief storage.
-- §C9: audio generation and caching.
-- §F: content, `ai_call` and prompt-registry schemas.
-- §G: gateway auth, rate limiting, key handling.
-- §H: authoring tooling, the native review workflow, report triage and dependent revalidation.
-- §J: catalogue and item-bank build; DR dictionary review.
+- §C3: targets, sets, the word shortlist, expected dates. §C4: templates, slots and assembly. §C6: evidence, error routing, remedial selection. §C8: checkpoint mechanics. §C9: audio.
+- §E (R6, Q35): where generation runs and continues with the app closed, multi-minute calls, client cache for released sets, the gateway task list (E.9).
+- §F: content, `ai_call` and prompt-registry schemas. §G: gateway auth and provider keys. §H: report triage tooling.
+- R7 and §J: conjugation tables, grammar path and milestone catalogue, canonical explanations, situations and topic sets, the fictional name list, word and verb-form clips, and assembling the expert package (D315) from the generation test's output.
 
 #### C5.13 Principles check
-- Discharges: P10 (known-pool validator), P13 (recycling quota), P15 (remedial library), P3 and P4 (exposure validated at build rather than hoped for at runtime).
-- Defers: P7, P8, P9 → §C6 · P18 → §C8.
-- At risk: R3 recorded in `principles.md`. Pre-generation meets jagged profiles through quick checks (D49) and `known_gaps` (D66) rather than bespoke text.
+- Discharges: P10 (known-pool and story-coverage validators, live-reply checks), P3 and P4 (exposure counted by code per set, with carry-forward), P13 (recycling validator), P15 (remedial drills as written-once content), P21 in part (verb forms come from the tables, never conjugated by the model).
+- Defers: P7, P8, P9 → §C6 · P18 → §C8 · where generation runs → §E.
+- At risk: R4 (every sentence is model output; the critic is the same family as the writer; live turns are shown as generated). Mitigations: validators, a critic on a different Claude model, live-reply checks, the blind rotation and "sounded natural?" tap, confirmed errors becoming rules, the expert package. R9 (syntax tags rest on the model and the critic). R7 (pair and constituent checks inert until promotion). R2 (exposure counts hold only if the set is finished).
+
+#### C5.14 Generation test (D391)
+A one-off measured run before launch that fills this section's placeholders: call shape (C5.4), model and effort per surface (C5.8), cost (C5.9), partner caps (C5.7) and latency. Plan, prerequisites and budget: `docs/generation-test-plan.md`.
 
 ### C6 Learner model
 
@@ -777,7 +797,7 @@ The Settings toggle forces typed on early; it never forces it off. Word-bank ans
 #### C6.10 Error classes and remediation (D62, D81, D323, P23)
 - Every incorrect graded answer carries an error class: `wrong_ending` · `wrong_stem` · `agreement` · `wrong_word` · `spelling` (D323). Assigned by code wherever the answer can be compared with the conjugation tables, the personal-ending rules or the dictionary forms; otherwise `wrong_word` on a word item, or unclassified. The class is named to the learner (P23; copy written by code, C4.19).
 - **The lapse lands on what failed:** `wrong_ending` and `agreement` lapse the grammar point or verb cell, `wrong_stem` the verb cell, `wrong_word` the word item. `spelling` with the right sound is marked right and shows the standard spelling (D306); it lapses nothing.
-- **Remedial trigger:** 3 lapses of one error class on one skill within 14 days, where a lapse is an incorrect answer on an item at box ≥2. Drills declare their triggers (`trigger_item_ids`, `trigger_pattern_ids`, error class) and come from the conjugation tables, the endings rules and the C5.6 library; none is generated per learner at runtime. At most 1 drill per session, inserted into the warm-up, not repeated within 14 days. The counter clears when the drill is passed and the triggering items return to box ≥2. If no drill matches, the items stay in rotation.
+- **Remedial trigger:** 3 lapses of one error class on one skill within 14 days, where a lapse is an incorrect answer on an item at box ≥2. Drills declare their triggers (`trigger_item_ids`, `trigger_pattern_ids`, error class) and come from the conjugation tables, the endings rules and the remedial drills written once (C5.1); none is generated per learner at runtime. At most 1 drill per session, inserted into the warm-up, not repeated within 14 days. The counter clears when the drill is passed and the triggering items return to box ≥2. If no drill matches, the items stay in rotation.
 - Error classes per skill feed the planner's bottleneck choice (§C3) and the method results (C6.17).
 
 #### C6.11 My Vocabulary and Focused Study (D82)
@@ -1041,41 +1061,48 @@ A checkpoint closes each block (D312) and the phase.
 
 ## C9 Audio
 
-Owns what gets audio, how clips are produced, stored, delivered, cached, played and paid for. Approved chat 10 (D101-D112).
+Owns what gets audio, how clips are produced, checked, stored, delivered, cached, played and paid for. Approved chat 10 (D101-D112); C9.1, C9.3, C9.4 and C9.8-C9.13 rewritten chat 38 (rework R5, D388-D390) for lessons written per learner.
 
-#### C9.1 Scope and grain (D101, D102)
-Audio is a pre-generated asset of the §C5.4 pipeline, not a runtime service. Exactly 1 runtime TTS surface exists (C9.8).
+#### C9.1 Scope and grain (D101, D102, D388)
+Clips are made with the content they voice: shared clips once, a learner's sentence clips when their set is written, live clips on tap.
 
 | Grain | Key | Generated | Read by |
 |---|---|---|---|
-| Word clip | `dictionary_id` | Once, at catalogue publish | Placement, Introduce, Recognise, Review, quick check, quiz, My Vocabulary |
-| Line clip | Content id + `content_version` | §C5.4 stage 3 | Dialogue, pattern example, remedial drill |
-| Runtime clip | Checkpoint turn text | On tap, once | That turn, then cache |
+| Word clip | `dictionary_id` | Once per row, shared (data job, R7, §J) | Placement, Introduce, Recognise, Review, quick check, lesson check, weekly quiz, My Vocabulary, tap-to-explain |
+| Verb-form clip | Conjugation-table cell + verb | Once, shared (R7, §J) | Verb Lab, tap-to-explain |
+| Line clip | Hash of `tts_text` (below) | **Every line of a learner's set, when the set is written** (C5.4 step 6) | Dialogues, example sentences, story episodes, scripted exchanges, written-once situations and drills |
+| Live clip | Turn text | On tap, once | Checkpoint, conversation-lesson and partner character turns |
 
-- Clips are content-addressed: key = hash of `tts_text` + provider + model + voice. A text edit produces a new key and a new clip; the old clip survives for pinned content versions (C5.11). No clip is ever generated twice.
-- Placement costs nothing in audio: every Listen item resolves to one dictionary row (C2.2), phrase rows included, so the ~100-item bank reads existing word clips.
+- Clips are content-addressed: key = hash of `tts_text` + provider + model + voice. A text edit produces a new key and a new clip; the old clip survives for pinned content (C5.11). No clip is ever generated twice, so a line shared by two learners' lessons is paid once.
+- **Why every line at set generation, not on first play (D388):** cost is small at our volume (C9.9); a clip made ahead is transcribed back and checked before anyone hears it (C9.4); taps never wait on synthesis; and a released set plays offline.
+- Placement costs nothing in audio: every Listen item resolves to one dictionary row (C2.2), phrase rows included, so the bank reads existing word clips.
 - English is never synthesised.
 
 #### C9.2 Source text (D103)
 - TTS reads a vocalised string, never bare script. Bare unvocalised Arabic is mispronounced by every provider.
-- The dictionary gains `arabic_vocalised` in DR. Authored lines carry a vocalised field alongside the display string.
+- The dictionary gains `arabic_vocalised` in DR. Generated and written-once lines carry `tts_text` alongside the display string (C5.3), checked by C5.5's script validator.
 - `tts_text` is stored separately from display text, so dialect pronunciation can be spelled into the input while the learner sees correct orthography (urban ق → ء, vowel endings, b- prefix). The C4.8 harakaat rung reads the same vocalised source.
 
-#### C9.3 Voice (D104, D105)
+#### C9.3 Voice (D104, D105, D389, D390)
+- **Provider: Azure neural text-to-speech (D389).** No major provider offers a Palestinian voice (moderate-high confidence, chat 38 survey); Azure's Jordanian voices are the closest standard voices. Its free tier, 0.5M characters a month, covers the volume in C9.9; the paid rate was not verified.
 - Voice is track-scoped and chosen server-side from an allowlist, mirroring C5.8. The client never sends a voice id.
 - MVP Palestinian track: 2 voices. A and B take dialogue roles; A carries every single-word clip.
-- Every asset row stores provider, model and voice. A voice change regenerates under a new key. Voices never drift silently.
-- `human_recorded` flag plus the same path contract: a recorded file replaces a generated clip as a content edit, no code change, no migration. MVP ships TTS only.
+- **Candidates and choice (D390):** Jordanian female and male, with one Lebanese and one Syrian voice as controls, compared on the listening page (§J): the same 8 sentences per voice, blind order, a 1-5 rating and a notes box per clip, answers saved for scoring. Heard by Marwan and Omar, and their parents if available (D302).
+- **Approval before full rollout (D390):** the voice, speaking speed and style, and a sample of real generated lesson sentences. Any change of provider or voice needs approval again and regenerates under new keys.
+- Every asset row stores provider, model and voice. Voices never drift silently.
+- `human_recorded` flag plus the same path contract: a recorded file replaces a generated clip as a content edit, no code change, no migration. A custom voice from a Palestinian family member stays the best later option (D105); Azure's own custom voices need Microsoft's approval and are not planned. MVP ships synthetic voices only.
 
-#### C9.4 Production
-- Slots into §C5.4 as part of stage 3, gated by stage 4 validators (C9.10) and stage 5 native review.
-- The authoring script is committed to the repo. It is the only place a provider key is referenced, via environment variable, and it never ships to a client.
-- An audio spike runs in §J before the full corpus: 20 clips, 10 single words at `level` 1-2 and 10 dialogue lines across both voices, listened to by a native speaker. The full run is blocked on it. The spike is also what settles whether D105's recording slot needs to be used.
+#### C9.4 Production and transcribe-back (D388, D389)
+- **Line clips** are made at C5.4 step 6. Each is transcribed back with Azure speech-to-text on its Palestinian setting (`ar-PS`) and compared with its text by code, word by word after normalisation. A mismatch is remade once; a second mismatch leaves the line as text only, flagged and logged. This catches wrong words, not accent (R5).
+- **Word and verb-form clips** are made in a data job (R7, §J) and checked the same way.
+- **Live clips** are not transcribed back, because the learner is waiting on them; report-a-problem covers each clip.
+- Provider keys live only in server secrets (§G), never in the client or a committed file.
+- **The listening page runs before any corpus run**; the corpus waits on the voice approval (C9.3).
 
 #### C9.5 Storage and delivery (D106)
 - Supabase Storage bucket, immutable public path derived from the key. The app fetches MP3s as static assets and holds no provider URL, key or voice id.
 - Client caching: Cache Storage via the service worker for persistence and offline, plus an in-memory session map. The unbounded in-memory Map that re-billed on every reload (harvest §6c) is retired.
-- Lesson start prefetches the full audio manifest for the lesson and its quiz in one batch, so a connection dropped mid-lesson does not kill audio. Extends D19.
+- When a set is released its clips are fetched into the client cache, and lesson start prefetches its own manifest (lesson and lesson check) in one batch, so a dropped connection does not kill audio. Extends D19. Client caching is §E's.
 
 #### C9.6 Playback (D107, D108)
 - Tap only, never autoplay (P5, C2.8). Replays are unlimited on every surface.
@@ -1089,46 +1116,46 @@ Audio is a pre-generated asset of the §C5.4 pipeline, not a runtime service. Ex
 - On failure: retry affordance, then the item continues silently and logs it. A graded listening item with no audio swaps to its script counterpart rather than being scored blind.
 - Placement is the exception (A3). There the item is dropped and the band set tops up, per C2.4, because the Listen track is the instrument rather than one modality among several.
 
-#### C9.8 Runtime surface (D110)
-- Checkpoint character turns only. On tap, 1 synthesis per turn, cached under the same key so replays are free, capped per checkpoint (C8.7). Degrade is a text-only turn; the checkpoint continues.
-- Runtime synthesis goes through the gateway with server-side auth and the C5.8 allowlist. The open proxy (harvest §6f) is deleted, not ported.
-- Focused Study custom topics and custom My Vocabulary rows get word clips only where the Arabic resolves to a dictionary row. No sentence synthesis in MVP.
+#### C9.8 Runtime surface (D110, D388)
+- **On tap:** checkpoint, conversation-lesson and partner character turns. One synthesis per turn, cached under the same key so replays are free, capped per conversation (C5.7). Degrade is a text-only turn; the conversation continues.
+- **With the set:** every line clip of a learner's set (C9.1), metered with the set (C5.9).
+- All synthesis goes through the gateway with server-side auth and the C5.8 allowlist. The open proxy (harvest §6f) is deleted, not ported.
+- Focused Study custom topics and custom My Vocabulary rows get word clips only where the Arabic resolves to a dictionary row.
 
-#### C9.9 Volume and cost (D111)
+#### C9.9 Volume and cost (D111, D388)
 
-| Corpus | Characters, est. |
+| Corpus | Characters, est. (vowel marks count) |
 |---|---|
-| Word clips, all 2,728 dictionary rows | ~35k |
-| Line clips, ~90 lessons × ~12 lines | ~65k |
-| Remedial drills | ~5k |
-| One-off total | ~105k |
-| Runtime, per learner per 90-day phase | ~3k |
+| Word clips, 3,241 dictionary rows, one-off | ~45k |
+| Line clips per set (~80-100 lines × ~60-70 characters) | ~5-6k |
+| Line clips per learner per month at the default pace | ~24k |
+| All three learners per month, line clips | ~72k |
+| Live clips | small, per turn |
 
-- The whole corpus is a one-off spend in the low tens of dollars at per-character pricing, confirmed against live rates in §J. That is the argument against on-demand synthesis and against ever substituting a cheaper wrong-dialect voice.
-- Runtime synthesis writes an `ai_call` row with `task = tts`, characters in place of tokens (C5.9). Authoring synthesis is one-off and not attributed to users. B8 "Affordable" reads both.
+- Monthly volume sits well inside Azure's free tier of 0.5M characters (confirmed); the paid rate and the speech-to-text free allowance were not verified (chat 38) and are checked in §J before any spend. Estimates are moderate confidence on volume, low on price.
+- Every synthesis and transcription writes an `ai_call` row with `task = tts` or `task = stt`, characters or audio seconds in place of tokens (C5.9). B8 "Affordable" reads it.
 
-#### C9.10 Validators and review (D112)
-Blocking at publish, extending C5.5:
-- Every item and line requiring audio resolves to an asset with `status = reviewed`.
+#### C9.10 Validators and review (D112, D302, D388)
+Blocking before a set is released, extending C5.5:
+- Every line requiring audio has a clip that passed transcribe-back, or is flagged text-only (C9.4).
 - Duration within bounds; no zero-byte or truncated clips.
 - Voice inside the track allowlist; provider and model recorded.
-- Native review at C5.4 stage 5 listens to 100% of word clips at `level` 1-2 and a sample above, plus every dialogue line.
+- No native listening gate (D302). Human listening is the one-time voice approval (C9.3) and the family's reports after launch.
 
 #### C9.11 Records
-- `audio_asset`: id, key, `tts_text`, `display_text`, `dictionary_id` nullable, `track_id` nullable, provider, model, `voice_id`, `voice_role`, `storage_path`, `duration_ms`, bytes, `human_recorded`, status, created. Schema §F.
+- `audio_asset`: id, key, `tts_text`, `display_text`, `dictionary_id` nullable, `track_id` nullable, provider, model, `voice_id`, `voice_role`, `storage_path`, `duration_ms`, bytes, `human_recorded`, transcribe-back result and attempts, status, created. Schema §F.
 - Content rows reference `audio_id`, never raw text. Report a problem (C1.6) targets the clip id.
 
 #### C9.12 Owned elsewhere
-- §C10: track scoping, voice allowlist as a track property, config. Discharged in C10.1 and C10.12.
-- §F: `audio_asset` and `ai_call` schemas.
-- §G: gateway auth, provider key handling, bucket policy, deleting the open function.
-- §H: authoring tooling and the listening pass.
-- §J: audio spike, corpus generation run, key rotation, live pricing check. DR: `arabic_vocalised`.
+- §C5: when sets are written, metering and the spend cap. §C10: track scoping, voice allowlist as a track property, config.
+- §E: client caching of released sets, the job that writes sets and clips. §F: `audio_asset` and `ai_call` schemas.
+- §G: gateway auth, provider key handling, bucket policy, deleting the open function. §H: report triage.
+- §J: the listening page, the voice approval, the word and verb-form clip runs, the live pricing check. DR: `arabic_vocalised`.
 
 #### C9.13 Principles check
-- Discharges: P5 (sound precedes script everywhere, tap only, and the model voice is Palestinian rather than a Gulf device voice), P4 (audio is a real modality rather than a silently failing one), P6 in part (the Slow default fades on listening-accuracy evidence, not on preference). D67 discharged in C9.6.
-- Defers: voice fields → §C10 · schemas → §F · key and bucket policy → §G.
-- At risk: R5 recorded in `principles.md`. Synthetic TTS may not be reliably Palestinian at phrase level, and the whole audio-first principle rests on clip quality. Mitigations: the §J spike before any corpus run, native listening review as a blocking gate (C9.10), the `human_recorded` override slot (D105), report-a-problem per clip.
+- Discharges: P5 (sound precedes script, tap only, every line voiced before release), P4 (audio is a real, checked modality), P6 in part (the Slow default fades on listening-accuracy evidence). D67 discharged in C9.6.
+- Defers: voice fields → §C10 · schemas → §F · key and bucket policy → §G · caching and jobs → §E.
+- At risk: R5. The voice is Jordanian, not Palestinian, so sounds and melody may be off; transcribe-back catches wrong words, not accent; live clips are unchecked. Mitigations: the listening page and voice approval before rollout, transcribe-back on every set clip, report-a-problem per clip, the `human_recorded` slot.
 
 ## C10 Tracks
 
@@ -1137,21 +1164,21 @@ Owns track scoping and the engine config every earlier section defers to. Closes
 #### C10.1 What a track is (D113)
 - A track is data: one row, one content package, one config overlay. Never an enum in code.
 - Row: slug id, display name, status (`active` / `draft` / `retired`), `romanization_map` ref, dialect assertion set ref, voice allowlist (C9.3), config overlay ref.
-- Content package: dictionary rows, unit catalogue, lesson and quiz assets, placement bank, scenarios, remedial drills, script micro-step assets, Focused Study clusters, audio clips, `function_words` allowlist.
+- Content package: dictionary rows, conjugation tables, grammar path and milestone catalogue, lesson templates, canonical explanations, placement bank, situations and topic sets, remedial drills, script micro-step assets, the fictional name list, prompts, audio clips, `function_words` allowlist. Per-learner generated lessons are not in the package; they reference it (C5.11).
 - MVP: one active track, `palestinian`. Onboarding has no picker; the track resolves from the single active row. B6 additional tracks are the slot this section exists to keep cheap.
 
 #### C10.2 Dictionary scoping (D114)
 - The dictionary is track-scoped by row: `track_id` NOT NULL, all 2,728 existing rows backfilled to `palestinian` (D121).
 - Rejected: a global lemma table with a `dictionary_track` join. Most of the interesting columns are variety-dependent (`romanization`, `arabic_vocalised`, `level`, `conjugation`, `register`, `confidence`), and the dialect-distinctive vocabulary that carries the pedagogy has no MSA counterpart row at all. The join would earn its complexity on the least interesting half of the lexicon while taxing every content query, every validator and every DR write.
 - Cross-track concept linking (بدي to أريد) is a later additive column plus a content pass. No learner data moves. The column is not added now: an empty column with no reader is the `interleaving_config` failure pattern (harvest §2). §F names it as the extension point.
-- Because `dictionary_id` implies a track, every downstream reference (`learner_item`, `audio_asset`, item sets, distractor draws) inherits scoping. A cross-track leak becomes structurally impossible rather than validator-dependent.
+- Because `dictionary_id` implies a track, every downstream reference (`learner_item`, `audio_asset`, generated lessons, distractor draws) inherits scoping. A cross-track leak becomes structurally impossible rather than validator-dependent.
 
 #### C10.3 Scoping rule (D115)
 - `track_id` is stored on roots and derived on children.
-- Roots: dictionary row, unit, placement bank item, scenario, remedial drill, audio asset, plan, placement attempt, `learner_item`, checkpoint, Focused Study session.
-- Children: lesson, activity, quiz question, answer row, `review_event`, plan event, checkpoint turn, debrief.
-- Content ids carry a track prefix (`pal.unit.market-basics`, `pal.scenario.cp1-market`), so a stray cross-track reference is visible on sight, in a validator failure and in a report-a-problem payload.
-- The C5.5 track-scope validator asserts it at publish.
+- Roots: dictionary row, grammar point, milestone, placement bank item, situation, remedial drill, audio asset, plan, placement attempt, `learner_item`, checkpoint, Focused Study session.
+- Children: block, set, lesson and its generated content, activity, lesson-check and weekly-quiz question, answer row, `review_event`, plan event, checkpoint turn, debrief.
+- Content ids carry a track prefix (`pal.grammar.3ind-endings`, `pal.situation.market`), so a stray cross-track reference is visible on sight, in a validator failure and in a report-a-problem payload.
+- The C5.5 track-scope validator asserts it on every generated and written-once artefact.
 
 #### C10.4 Learner and tracks (D116)
 - `learner_track`: user, track, status (`active` / `paused`), `enrolled_at`, placement attempt id, current plan id. The shape supports concurrent tracks (B6: a second track alongside Palestinian). MVP writes exactly one row per learner.
@@ -1174,7 +1201,7 @@ Owns track scoping and the engine config every earlier section defers to. Closes
 - Resolution happens once per session into a frozen object: base defaults → track overlay → learner-type overlay → learner Settings (harakaat toggle, typed production on).
 - Features read the resolved object. No feature branches on track or learner type. Harvest §8's headline failure was `speaker_type` and `isAya` conditionals spread across 14 files; a CI grep gate rejects `learner_type ===` and `track ===` outside the resolver.
 - `runtime_flag` is a narrow override table, server-read only, restricted to an explicit allowlist of operational keys: hard budget caps and per-surface kill switches for the C5.7, C8.8 and C9.8 degrade paths. Every override logs actor and timestamp. A key not on the allowlist cannot be overridden at runtime, which is what stops the table becoming a shadow config store.
-- Build parameters are not config. Catalogue shape, item set size, unit recall count (C7.2) and validator thresholds live with the authoring pipeline; changing them is a republish (C5.11).
+- Build parameters are not config. Lesson templates and validator rules live with the generation pipeline (C5.4, C5.5); changing them is a new template or prompt version (C5.11).
 - Track-scoped prompt fragments (dialect instruction, pooled allowlist) come from the track package and are injected by the prompt registry (C5.10).
 - Every "config version" field written in C2 to C9 means the version of this resolved document.
 
@@ -1182,19 +1209,19 @@ Owns track scoping and the engine config every earlier section defers to. Closes
 
 | Class | Keys | Behaviour |
 |---|---|---|
-| Frozen | Scheduler intervals and ladder (C6.3), mastery and words-learned thresholds (C6.12), milestone evidence rules and block scoring (C6.14, C6.16; locked for the whole family test), modality mix (C3.6), word-level advance (C6.8), quiz threshold (C7.6), placement engine rules (C2.4) | Pinned at plan start. A change takes effect at the next phase boundary (C3.10) |
+| Frozen | Scheduler intervals and ladder (C6.3), mastery and words-learned thresholds (C6.12), milestone evidence rules and block scoring (C6.14, C6.16; locked for the whole family test), modality mix (C3.6), word-level advance (C6.8), lesson-check threshold (C7.6), placement engine rules (C2.4) | Pinned at plan start. A change takes effect at the next phase boundary (C3.10) |
 | Block | Keys the monthly analysis tunes (C6.18): pace, intake and the sizing update rule (C3.7), four-kinds targets and skill weighting (C3.6), method choice, per-learner interval scaling | Pinned at block start. A change takes effect at the next block boundary, after approval by Marwan or Omar (D329) |
 | Hot | Caps and budgets (C5.9), audio thresholds (C9.6), checkpoint turn budgets (C8.2), copy, secondary card order (C1.2) | Effective immediately |
 
-- Frozen keys are read from the version the plan pinned, so a mid-test edit cannot silently redefine what a band, a learned word or a quiz outcome means across records already written. Recorded risk R6.
+- Frozen keys are read from the version the plan pinned, so a mid-test edit cannot silently redefine what a band, a learned word or a lesson-check outcome means across records already written. Recorded risk R6.
 - Placement attempts pin the version at the attempt (C2.5), lessons at the lesson (C4.11), checkpoints at the checkpoint (C8.9).
 
 #### C10.8 Adding a track (D120)
 Zero code changes. This is the §I acceptance test for the B6 slot:
 1. Track row with voice allowlist, romanization map and assertion set.
 2. Dictionary rows imported under the new `track_id`, reviewed to the DR standard.
-3. Unit catalogue, item sets, placement bank, scenarios and drills authored through C5.4.
-4. Audio corpus generated under the track's voices (C9.4).
+3. Conjugation tables, grammar path, milestone catalogue, templates, explanations, placement bank, situations and drills produced and checked as C5.1 and C5.5 require.
+4. Word and verb-form clips generated under the track's voices (C9.4).
 5. Config overlay for anything that differs.
 6. `learner_track` row when a learner enrols.
 
@@ -1252,7 +1279,7 @@ Owns Focused Study, My Vocabulary, Alphabet and phonics, Verb Lab and the free c
 
 #### C11.4 Alphabet and phonics (D125)
 - Reference and practice, never a gate (C1.2, D16). Script instruction proper is woven into lessons as micro-steps keyed to `script_stage` (D26).
-- Content is the fixed authored asset set, one per letter and sound (C5.2), published through C5.4.
+- Content is the fixed authored asset set, one per letter and sound, written once and checked like other shared content (C5.1, C5.5).
 - Practice items are graded, write answer rows and log `review_event` exposures, and they count toward the micro-step completion requirement in C6.9 (0 to 1 needs 8 or more).
 - They do not count toward the rolling 20-item accuracy window that advances `script_stage`. That window stays lesson, lesson-check and weekly-quiz evidence, so scaffold fading (P6) rests on performance in real material rather than on repeat practice of a screen the learner can grind.
 - Letters already met in lessons are marked. The screen never presents a locked or coming-soon state (C1.6).
@@ -1378,17 +1405,17 @@ Target 393×852, single column, iPhone Safari PWA. Screens only; mechanisms are 
 - Audio is one button, replay always available. Where placement listening accuracy is below the C9.6 threshold, Slow is pre-selected and a second play offered on graded listening items, as a default the learner can switch off and never a cap (D108). Present on every surface that plays a clip.
 
 ### D.10 System states (D175-D181)
-- **Degrade vocabulary, one across all five paths** (the three C5.7 surfaces, audio, the C5.9 caps). A degrade announces itself only when the learner's own request went unfulfilled or the task in front of them changed. Otherwise silent and logged. Copy never names the mechanism, provider, model or cost.
+- **Degrade vocabulary, one across every path** (the C5.7 calls, audio, the C5.9 caps). A degrade announces itself only when the learner's own request went unfulfilled or the task in front of them changed. Otherwise silent and logged. Copy never names the mechanism, provider, model or cost, with one exception: the soft-cap line says lessons are now written by a lighter model, so the learner can notice and report a difference (D383).
 
 | Path | Learner sees |
 |---|---|
-| Goal mapping falls back to tags | nothing |
+| Next set not ready yet | the lesson card says it is being prepared and offers Verb Lab, Focused Study or a review lesson (C5.4) |
 | Custom topic falls back to nearest cluster | one line |
 | Checkpoint turn fails after retry | one line, paused, with when it resumes |
 | Evaluation fails, reduced debrief | one line, no error framing |
 | Audio fails, non-graded item | retry affordance only |
 | Audio fails, graded listening item | one line; the task changed |
-| Soft budget cap | nothing beyond the degrade itself |
+| Soft budget cap | one line: lessons are now written by a lighter model (C5.8) |
 | Hard budget cap | one line, capacity for today, never spend |
 
 - **No toasts anywhere.** Every confirmation, degrade line and error renders in place, attached to the thing it concerns, and stays until the learner moves on.
